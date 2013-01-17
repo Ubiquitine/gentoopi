@@ -1,0 +1,21 @@
+#!/bin/bash
+ 
+# Before the first, give thanks to Hexxeh
+echo "Special thanks to Hexxeh at http://hexxeh.net/"
+ 
+# First install required libraries
+sudo apt-get install -y --force-yes libnss3 libxrender1 libxss1 libgtk2.0-0 libgconf2-4
+ 
+# Next, get and install Chromium and set up permissions
+echo "Be patient, this will take a while..."
+sudo mkdir -p /opt/google/
+cd /opt/google
+sudo wget http://distribution-us.hexxeh.net/chromium-rpi/chromium-rpi-r22.tar.gz -O chromium-rpi.tar.gz
+sudo tar xvf chromium-rpi.tar.gz
+sudo chown root:root chrome/chrome-sandbox
+sudo chmod 4755 chrome/chrome-sandbox
+sudo rm -rf /usr/bin/chrome
+sudo ln -s /opt/google/chrome/chrome /usr/bin/chrome
+rm -rf /opt/google/chromium-rpi.tar.gz
+
+echo "DONE"

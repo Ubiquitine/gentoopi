@@ -1,0 +1,5 @@
+/usr/bin/orbit-idl-2 libIDL-2.so.0,libgmodule-2.0.so.0,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/bin/linc-cleanup-sockets libgobject-2.0.so.0,libgthread-2.0.so.0,librt.so.1,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib/libORBit-2.so.0.1.0 libgmodule-2.0.so.0,libgobject-2.0.so.0,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib/libORBitCosNaming-2.so.0.1.0 libORBit-2.so.0,libgmodule-2.0.so.0,libgobject-2.0.so.0,libgthread-2.0.so.0,librt.so.1,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib/libORBit-imodule-2.so.0.0.0 libORBit-2.so.0,libIDL-2.so.0,libglib-2.0.so.0,libgcc_s.so.1,libpthread.so.0,libc.so.6

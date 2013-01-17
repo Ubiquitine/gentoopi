@@ -1,0 +1,7 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/binutils-config.8.bz2 a785259ff6aa96569726d76e8b0c4e55 1355985642
+dir /usr/bin
+obj /usr/bin/binutils-config d076fcddba332cb0054175865895dc22 1355985642

@@ -1,0 +1,32 @@
+dir /etc
+dir /usr
+dir /usr/include
+dir /usr/include/dbus-1.0
+dir /usr/include/dbus-1.0/dbus
+obj /usr/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h 1e96b065c4147b282bcddb4be92243e0 1356532965
+obj /usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h 7204f26d27ea48a830bf3a9530014f3e 1356532965
+obj /usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h 18e62ff4e4d632af47e512d03bd37c19 1356532965
+obj /usr/include/dbus-1.0/dbus/dbus-glib.h fda4c850f4d74d29a10b24290cbeedbb 1356532965
+obj /usr/include/dbus-1.0/dbus/dbus-glib-bindings.h e20ba3a0349717e21aa5f676ad6c271c 1356532966
+dir /usr/libexec
+obj /usr/libexec/dbus-bash-completion-helper f2259948b3ba3f008c2a04e482e1c512 1356532987
+dir /usr/lib
+obj /usr/lib/libdbus-glib-1.so.2.2.2 9298b0e884491f52a8b0446cdce580be 1356532987
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/dbus-glib-1.pc b03aa0087313ecabeb09ce0f12e2872c 1356532968
+sym /usr/lib/libdbus-glib-1.so -> libdbus-glib-1.so.2.2.2 1356533016
+sym /usr/lib/libdbus-glib-1.so.2 -> libdbus-glib-1.so.2.2.2 1356533016
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/dbus-binding-tool.1.bz2 561b04df5f83713140c1b4b99c1bedb5 1356532968
+dir /usr/share/doc
+dir /usr/share/doc/dbus-glib-0.100
+obj /usr/share/doc/dbus-glib-0.100/README.bz2 cdaae15cc2ffba58dcb7b31b026a894d 1356532962
+obj /usr/share/doc/dbus-glib-0.100/AUTHORS.bz2 7718d73807a1536caf18094f756a13eb 1356532962
+obj /usr/share/doc/dbus-glib-0.100/HACKING.bz2 0a6588dcec88c6e6cdee8b27a6d346a7 1356532962
+obj /usr/share/doc/dbus-glib-0.100/ChangeLog.bz2 ef2491586d6f1042a0fdc66d1524db70 1356532962
+dir /usr/share/bash-completion
+obj /usr/share/bash-completion/dbus e75ec5dbf14fb5de4fd760a594b78256 1356532968
+dir /usr/bin
+obj /usr/bin/dbus-binding-tool b2c089c7d9576c2a5ac87ebd086ba71e 1356532988

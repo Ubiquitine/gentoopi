@@ -1,0 +1,3 @@
+/usr/lib/libdrm.so.2.4.0 librt.so.1,libc.so.6
+/usr/lib/libdrm_omap.so.1.0.0 libdrm.so.2,libc.so.6
+/usr/lib/libdrm_exynos.so.1.0.0 libdrm.so.2,libc.so.6

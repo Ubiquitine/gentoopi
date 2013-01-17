@@ -1,0 +1,15 @@
+/usr/lib/libdb_cxx-4.8.so libpthread.so.0,libstdc++.so.6,libc.so.6,libgcc_s.so.1
+/usr/lib/libdb_stl-4.8.so libpthread.so.0,libstdc++.so.6,libc.so.6,libgcc_s.so.1
+/usr/lib/libdb-4.8.so libpthread.so.0,libc.so.6
+/usr/bin/db4.8_dump libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_upgrade libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_verify libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_hotbackup libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_sql libgcc_s.so.1,libc.so.6
+/usr/bin/db4.8_deadlock libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_archive libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_checkpoint libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_stat libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_printlog libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_load libdb-4.8.so,libpthread.so.0,libc.so.6
+/usr/bin/db4.8_recover libdb-4.8.so,libpthread.so.0,libc.so.6

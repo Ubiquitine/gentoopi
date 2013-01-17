@@ -1,0 +1,2 @@
+#required by ntpclient (argument)
+=net-misc/ntpclient-2010.365 ~arm

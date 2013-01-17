@@ -1,0 +1,4 @@
+# Configuration file for eselect
+# This file has been automatically generated.
+LDPATH="/usr/lib/opengl/xorg-x11/lib"
+OPENGL_PROFILE="xorg-x11"

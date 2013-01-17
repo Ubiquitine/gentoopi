@@ -1,0 +1,19 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/tmux.1.bz2 c5d8dc24a5a8e3d693b1ba2f4b127142 1356603373
+dir /usr/share/doc
+dir /usr/share/doc/tmux-1.7
+dir /usr/share/doc/tmux-1.7/examples
+obj /usr/share/doc/tmux-1.7/examples/t-williams.conf.bz2 364df957e42ee7e447540269ecff5641 1356603374
+obj /usr/share/doc/tmux-1.7/examples/screen-keys.conf.bz2 94b480385ab6241befd41431a8291bc7 1356603374
+obj /usr/share/doc/tmux-1.7/examples/h-boetes.conf.bz2 745245d46cf25427e45998eeaaaf1b55 1356603374
+obj /usr/share/doc/tmux-1.7/examples/n-marriott.conf.bz2 79f97cb76d0cb3b8b7a73a0cf7f68081 1356603374
+obj /usr/share/doc/tmux-1.7/examples/vim-keys.conf.bz2 45cebd868573bde27f8a3e2c90a04ae7 1356603374
+obj /usr/share/doc/tmux-1.7/FAQ.bz2 c3d0d4beb6ffa62022b0af34809ed284 1356603373
+obj /usr/share/doc/tmux-1.7/CHANGES.bz2 3eaa06a5f4224a075cb1d4a4ddbd33e9 1356603373
+obj /usr/share/doc/tmux-1.7/TODO.bz2 41a24f129b55bd47b2884747d9a24f83 1356603373
+obj /usr/share/doc/tmux-1.7/NOTES.bz2 0e72e04530550a50818f4540c38aea4f 1356603373
+dir /usr/bin
+obj /usr/bin/tmux 5596ec12d9c4ac6dd9e40ae7eb88aebf 1356603386

@@ -1,0 +1,15 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+bindir=${exec_prefix}/bin
+datarootdir=${prefix}/share
+datadir=/usr/share
+includedir=${prefix}/include
+
+vapigen=${bindir}/vapigen-0.18
+vapidir=${datadir}/vala/vapi
+vapidir_versioned=${datadir}/vala-0.18/vapi
+
+Name: vapigen
+Description: Vala API Generator
+Version: 0.18.0

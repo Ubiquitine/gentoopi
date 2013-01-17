@@ -1,0 +1,27 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/intltoolize.8.bz2 9a8582395ec6ea989bfb94fc571c5e69 1355992234
+obj /usr/share/man/man8/intltool-merge.8.bz2 9896f8510c0b17735f641967e4545131 1355992234
+obj /usr/share/man/man8/intltool-update.8.bz2 2b72c71eee5751219179c55f23c028e1 1355992234
+obj /usr/share/man/man8/intltool-extract.8.bz2 625e61479cd2b95f92347dc7351f0bef 1355992234
+obj /usr/share/man/man8/intltool-prepare.8.bz2 e4c51e649c7d2bba3101583b52ffdad1 1355992234
+dir /usr/share/doc
+dir /usr/share/doc/intltool-0.50.2
+obj /usr/share/doc/intltool-0.50.2/NEWS.bz2 e38cf3d874ffb3ff99d59cbe1c4dec17 1355992234
+obj /usr/share/doc/intltool-0.50.2/README.bz2 e5b96672c783360e38b4292c6d4185b7 1355992234
+obj /usr/share/doc/intltool-0.50.2/TODO.bz2 67e981a787fa1ffda4b9c8db127487d8 1355992234
+obj /usr/share/doc/intltool-0.50.2/ChangeLog.bz2 37cc1c38413d2e2539c39cca23031052 1355992234
+obj /usr/share/doc/intltool-0.50.2/I18N-HOWTO.bz2 fab9fa812752167e71c1e9f1a9bb75c8 1355992234
+obj /usr/share/doc/intltool-0.50.2/AUTHORS.bz2 181a6ad75a7d570b20db21f884a4e02e 1355992234
+dir /usr/share/intltool
+obj /usr/share/intltool/Makefile.in.in c1882e57d8e6f87823863424e87926e0 1355992234
+dir /usr/share/aclocal
+obj /usr/share/aclocal/intltool.m4 122529c078565850c5e52a9cf371974d 1355992234
+dir /usr/bin
+obj /usr/bin/intltool-merge 3ea1a6b706274633b063f40d00b669ff 1355992234
+obj /usr/bin/intltool-prepare c0b06a95b2cc7fba33d76d485c4c5fd6 1355992234
+obj /usr/bin/intltoolize ad775c0ecb81d4177a8c08b4487e52ee 1355992234
+obj /usr/bin/intltool-update 6cdbda20f98eb21abc7664664dfbee37 1355992234
+obj /usr/bin/intltool-extract c4ca3c42fce00f752b80951100a1c162 1355992234

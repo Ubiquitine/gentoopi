@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/randr.h da7f0e939db2eb1825b21c1fe397ee03 1356432642
+obj /usr/include/X11/extensions/randrproto.h 0ee40b86ebb213d943e07904583ce2d9 1356432642
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/randrproto.pc 73a5d19922985960987ad19ad8ea59cb 1356432642
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/randrproto-1.4.0
+obj /usr/share/doc/randrproto-1.4.0/README.bz2 bda2d38d87b6c8ab23ffb2518d0f2a32 1356432642
+obj /usr/share/doc/randrproto-1.4.0/randrproto.txt.bz2 d0808f32e5264b7a66b530da31c956fc 1356432642
+obj /usr/share/doc/randrproto-1.4.0/ChangeLog.bz2 0b4a4f2388cdf04c674f89dbd2fbc0f4 1356432643

@@ -1,0 +1,9 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/talloc.pc 64aaed15d1a39074ac5513342d1bda1b 1356803927
+obj /usr/lib/libtalloc.so.2.0.1 3dec487990959f484d299d1ffae6ebdd 1356803948
+sym /usr/lib/libtalloc.so.2 -> libtalloc.so.2.0.1 1356803969
+dir /usr/include
+obj /usr/include/talloc.h a075c09d112e1abca0c56c5ce39d0f08 1356803927
+sym /usr/lib/libtalloc.so -> libtalloc.so.2.0.1 1356803969

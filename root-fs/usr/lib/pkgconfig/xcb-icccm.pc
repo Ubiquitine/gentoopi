@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB ICCCM library
+Description: XCB ICCCM binding
+Version: 0.3.9
+Requires: xcb
+Libs: -L${libdir} -lxcb-icccm 
+Cflags: -I${includedir}

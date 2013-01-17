@@ -1,0 +1,1 @@
+virtual/pam >=dev-libs/openssl-0.9.6d:0[-bindist] >=sys-libs/zlib-1.2.3 >=sys-apps/tcp-wrappers-7.6 virtual/shadow virtual/pkgconfig virtual/os-headers sys-devel/autoconf || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

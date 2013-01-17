@@ -1,0 +1,1 @@
+>=x11-base/xorg-server-1.10[udev] sys-libs/mtdev >=x11-proto/inputproto-2.1.99.3 >=sys-kernel/linux-headers-2.6 || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig x11-proto/inputproto x11-proto/kbproto x11-proto/xproto x11-base/xorg-server[xorg]

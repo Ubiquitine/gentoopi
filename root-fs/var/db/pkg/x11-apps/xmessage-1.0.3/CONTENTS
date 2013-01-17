@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xmessage.1.bz2 cfd297583a2fa7e2000f6c6d4e924874 1356518234
+dir /usr/share/doc
+dir /usr/share/doc/xmessage-1.0.3
+obj /usr/share/doc/xmessage-1.0.3/README.bz2 4b6a640574636b91760e8ef5dfdb9c0e 1356518234
+obj /usr/share/doc/xmessage-1.0.3/ChangeLog.bz2 bb0da76a5e250463e88a32d79b665be1 1356518235
+dir /usr/share/X11
+dir /usr/share/X11/app-defaults
+obj /usr/share/X11/app-defaults/Xmessage eed84b35dde8b18e7dcfc80e75c1da67 1356518234
+obj /usr/share/X11/app-defaults/Xmessage-color ca383db9e4e9648bda0952ad6b8a2115 1356518234
+dir /usr/bin
+obj /usr/bin/xmessage 1ec52ec7855510188dfa9a3e54d3da7b 1356518259

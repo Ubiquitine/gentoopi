@@ -1,0 +1,114 @@
+dir /usr
+dir /usr/include
+dir /usr/include/midori-0.4
+dir /usr/include/midori-0.4/extensions
+obj /usr/include/midori-0.4/extensions/history-list.h 38560b340959167dd4da0b44e43f5b6e 1357962326
+obj /usr/include/midori-0.4/extensions/external-download-manager.h b799987196e0c3b2da269b306fb02c08 1357962326
+obj /usr/include/midori-0.4/extensions/delayed-load.h a0daf1591c73ff1f42040cdf7435b0ad 1357962354
+dir /usr/bin
+obj /usr/bin/midori cdb695d37eb9ee290f6475e87bef6888 1357962843
+dir /usr/share
+dir /usr/share/midori
+dir /usr/share/midori/res
+obj /usr/share/midori/res/speeddial-head.html 30815c95ddd234a51c8ea74fb5230753 1348089463
+obj /usr/share/midori/res/gtk3.css aa05d26c74de510f34bc5c5fdafa12fd 1348089463
+obj /usr/share/midori/res/autosuggestcontrol.css 29de24845cc9d50c92b781d8b3f9356b 1348089463
+obj /usr/share/midori/res/close.png 86f2dd0e8e940ed69ed4e559803657ac 1348089463
+obj /usr/share/midori/res/autosuggestcontrol.js 2965e39de398b63a09f666e5731bed05 1348089463
+obj /usr/share/midori/res/logo-shade.png 8ead148b914dc79392b795bd3fb57945 1357962797
+obj /usr/share/midori/res/about.css 9c961c31cf448f5ee21a8d6d8460dda4 1348089463
+obj /usr/share/midori/res/error.html 53f0f6b72d4e0756ad3aa149176d3217 1348089463
+dir /usr/share/icons
+dir /usr/share/icons/hicolor
+dir /usr/share/icons/hicolor/32x32
+dir /usr/share/icons/hicolor/32x32/categories
+obj /usr/share/icons/hicolor/32x32/categories/extension.png 7260345896563bb2b000866a039c3725 1357962796
+dir /usr/share/icons/hicolor/32x32/apps
+obj /usr/share/icons/hicolor/32x32/apps/midori.png 5b3ed8ad03fd6214560db7b5527442a9 1357962796
+dir /usr/share/icons/hicolor/32x32/status
+obj /usr/share/icons/hicolor/32x32/status/internet-news-reader.png e2245a5382bf27281759faf07ba1e814 1357962797
+dir /usr/share/icons/hicolor/22x22
+dir /usr/share/icons/hicolor/22x22/categories
+obj /usr/share/icons/hicolor/22x22/categories/extension.png bcf91bcfbc3fa8b5c180a97ed3865eae 1348089463
+dir /usr/share/icons/hicolor/22x22/apps
+obj /usr/share/icons/hicolor/22x22/apps/midori.png 9cc34522e11553033211d6bd345eecfd 1348089463
+dir /usr/share/icons/hicolor/22x22/status
+obj /usr/share/icons/hicolor/22x22/status/internet-news-reader.png faee3bd149f9a51661c82ae06d3faa77 1348089463
+dir /usr/share/icons/hicolor/48x48
+dir /usr/share/icons/hicolor/48x48/categories
+obj /usr/share/icons/hicolor/48x48/categories/extension.png 0e924ed95b79a238637eb4b9573a751b 1357962796
+dir /usr/share/icons/hicolor/48x48/apps
+obj /usr/share/icons/hicolor/48x48/apps/midori.png bf417a88fbd18fefb025ea0b1eb8b1f2 1357962797
+dir /usr/share/icons/hicolor/48x48/status
+obj /usr/share/icons/hicolor/48x48/status/internet-news-reader.png ab0dcaf9e19efed474f94f7598cff417 1357962797
+dir /usr/share/icons/hicolor/24x24
+dir /usr/share/icons/hicolor/24x24/categories
+obj /usr/share/icons/hicolor/24x24/categories/extension.png 9d0b099351742bb9be6b3861511f775d 1357962796
+dir /usr/share/icons/hicolor/24x24/apps
+obj /usr/share/icons/hicolor/24x24/apps/midori.png ad4e4157696cbcc4195440eb46cf5c81 1357962796
+dir /usr/share/icons/hicolor/24x24/status
+obj /usr/share/icons/hicolor/24x24/status/internet-news-reader.png 597023e766b1ce4562ba14f41a58a583 1357962797
+dir /usr/share/icons/hicolor/16x16
+dir /usr/share/icons/hicolor/16x16/categories
+obj /usr/share/icons/hicolor/16x16/categories/extension.png 48efc316e4431a0a85fae98623e15c52 1348089463
+dir /usr/share/icons/hicolor/16x16/apps
+obj /usr/share/icons/hicolor/16x16/apps/midori.png c2a3695562777f8ef91556df2c094741 1348089463
+dir /usr/share/icons/hicolor/16x16/status
+obj /usr/share/icons/hicolor/16x16/status/internet-news-reader.png 01e9c76566676ebe63cbe6384545ae98 1348089463
+dir /usr/share/icons/hicolor/scalable
+dir /usr/share/icons/hicolor/scalable/categories
+obj /usr/share/icons/hicolor/scalable/categories/extension.svg fef9dfa1e1f3b090ecf62bc9e7a486e0 1348089463
+dir /usr/share/icons/hicolor/scalable/apps
+obj /usr/share/icons/hicolor/scalable/apps/midori.svg 9369f84fd9e084fbe8925d11c53a38c2 1348089463
+dir /usr/share/icons/hicolor/scalable/status
+obj /usr/share/icons/hicolor/scalable/status/internet-news-reader.svg eda518c29e6f449afc9a11d8c1ba5212 1348089463
+dir /usr/share/applications
+obj /usr/share/applications/midori-private.desktop 26b104b486f9356ccd626c8eadc3e242 1357962758
+obj /usr/share/applications/midori.desktop aee0faa1f2e44391a7c8e78d9400f3ad 1357962758
+dir /usr/share/vala
+dir /usr/share/vala/vapi
+obj /usr/share/vala/vapi/history-list.deps 37e1c9f9e3b0df5d3f126fe21aa9f382 1357962326
+obj /usr/share/vala/vapi/external-download-manager.vapi 76f54662f2ef4f6ba0d692ae2e92ff6c 1357962326
+obj /usr/share/vala/vapi/history-list.vapi 4bba342dc13e43d58a9e5c005b4ee3e3 1357962326
+obj /usr/share/vala/vapi/external-download-manager.deps 37e1c9f9e3b0df5d3f126fe21aa9f382 1357962326
+obj /usr/share/vala/vapi/delayed-load.vapi 23e2a8b9cfa7b8754c1b3e28dc4baa0e 1357962354
+obj /usr/share/vala/vapi/delayed-load.deps 37e1c9f9e3b0df5d3f126fe21aa9f382 1357962354
+dir /usr/share/gir-1.0
+dir /usr/share/doc
+dir /usr/share/doc/midori-0.4.7
+obj /usr/share/doc/midori-0.4.7/INSTALL.bz2 c90e2a491e08b58f8e0cabdbcdd5a6c3 1357962803
+obj /usr/share/doc/midori-0.4.7/TRANSLATE.bz2 37f172ecd5c9b055b042b3b3b0996155 1357962804
+obj /usr/share/doc/midori-0.4.7/AUTHORS.bz2 06e867b5a610367353acc4706d0613b3 1357962802
+dir /usr/share/doc/midori-0.4.7/html
+obj /usr/share/doc/midori-0.4.7/html/faq.html a33238b7a7205bb657eadc8d09b97dcc 1357962805
+obj /usr/share/doc/midori-0.4.7/html/faq.css b80a47977d4345ec24fa5161f5fdb32f 1357962807
+obj /usr/share/doc/midori-0.4.7/HACKING.bz2 0b9e6bb1ae8d93206e21c8ebe52717fd 1357962802
+obj /usr/share/doc/midori-0.4.7/TODO.bz2 a6571b359978f4ffe9e8ee0c43458519 1357962803
+obj /usr/share/doc/midori-0.4.7/ChangeLog.bz2 6cd5f839d91ad879401ade9f2f4db5b3 1357962802
+dir /usr/lib
+dir /usr/lib/midori
+obj /usr/lib/midori/libaddons.so 0ef42dbfbdf4441670390f4c35a71f8c 1357962843
+obj /usr/lib/midori/libstatusbar-features.so 6f2d9083016f3256bb03cdb34412c430 1357962843
+obj /usr/lib/midori/libmouse-gestures.so c661098de33104c2a2b1c24adae79060 1357962843
+obj /usr/lib/midori/libweb-cache.so c321a9142616b71b6b1e80c1cdf38ea9 1357962843
+obj /usr/lib/midori/libhistory-list.so 97616d40e621058e5d9c5111fdec7c91 1357962843
+obj /usr/lib/midori/libcopy-tabs.so aa40379f657c2dc2d6518a5eb286052c 1357962843
+obj /usr/lib/midori/libstatus-clock.so 1103343f92db16bfd5a314fd6d9195d6 1357962844
+obj /usr/lib/midori/libdelayed-load.so 4b404f72052bcfb715826aaaa6ccebe6 1357962844
+obj /usr/lib/midori/libadblock.so 8a4ccdca6b03ae46f53ed44f9dfe2282 1357962844
+obj /usr/lib/midori/libtoolbar-editor.so bc432d4e75e3285b2811bf578d184594 1357962844
+obj /usr/lib/midori/libtabs-minimized.so a507ff906d935a50c8493dce6a740961 1357962844
+obj /usr/lib/midori/libshortcuts.so 817851222e8174400e520ac9825192b5 1357962845
+obj /usr/lib/midori/libcookie-manager.so 54e673014af42c70dd6d54262e35f116 1357962845
+obj /usr/lib/midori/libformhistory.so 497369650c69fa0941e4fdff14e7050a 1357962845
+obj /usr/lib/midori/libtab-panel.so 5891d54019af0126b499da071b4cd041 1357962845
+obj /usr/lib/midori/libcolorful-tabs.so 962b7033fa5c2cb5834cb35bed2cefb2 1357962849
+obj /usr/lib/midori/libexternal-download-manager.so f28b8023fb362c0f5f00935b75e60f6d 1357962849
+obj /usr/lib/midori/libfeed-panel.so 5b47eb7d7945ca25a2a9e92f7ab0a66c 1357962849
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/midori
+obj /etc/xdg/midori/search 44c4017139d5f04602346f016756c7e7 1348089463
+dir /etc/xdg/midori/extensions
+dir /etc/xdg/midori/extensions/adblock
+obj /etc/xdg/midori/extensions/adblock/config 004447990b07cb3a0dc34ced2b561154 1348089463

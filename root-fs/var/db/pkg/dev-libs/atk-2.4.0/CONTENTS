@@ -1,0 +1,387 @@
+dir /usr
+dir /usr/include
+dir /usr/include/atk-1.0
+dir /usr/include/atk-1.0/atk
+obj /usr/include/atk-1.0/atk/atkgobjectaccessible.h eb7876b6b593fe0c9e4ea56efc11be0a 1356655096
+obj /usr/include/atk-1.0/atk/atkmisc.h f5fc64a6c533805e23d31b30e80631fa 1356655096
+obj /usr/include/atk-1.0/atk/atkwindow.h 84446834c0887765a37d3686e15e6b6b 1356655096
+obj /usr/include/atk-1.0/atk/atktable.h d983632df7fe41ff20508c25899e3480 1356655096
+obj /usr/include/atk-1.0/atk/atkselection.h c886180c88c8eabb12e1ca9f4412655f 1356655096
+obj /usr/include/atk-1.0/atk/atkeditabletext.h e44f3daac538af6fe47fd197e8492bf8 1356655096
+obj /usr/include/atk-1.0/atk/atktext.h 1615122b819a128da0288a82e5ac296a 1356655096
+obj /usr/include/atk-1.0/atk/atkplug.h 9164ecc6af67490997e99df7a0032f41 1356655096
+obj /usr/include/atk-1.0/atk/atkstreamablecontent.h cc8d56d4093fdd29f7ba23f6a74939f3 1356655096
+obj /usr/include/atk-1.0/atk/atkrelationset.h 12706cc7940ca30cb0a6c2cfd095ae64 1356655096
+obj /usr/include/atk-1.0/atk/atkaction.h c01d0f69a84d7dea0feddd1aef8676f6 1356655096
+obj /usr/include/atk-1.0/atk/atkstate.h ba846c15f1103beff4b57ef08aaf38c6 1356655096
+obj /usr/include/atk-1.0/atk/atkregistry.h b66685d2648e3c49018e9aa7b0703382 1356655096
+obj /usr/include/atk-1.0/atk/atkstateset.h 6784e64ad9665fcb0e88af36f2d6fae7 1356655096
+obj /usr/include/atk-1.0/atk/atkobject.h a5c198e1fd8b50e6e0e42d2facb861a6 1356655096
+obj /usr/include/atk-1.0/atk/atkvalue.h edd5fca3d35ffac3e9fb6fda40e8d0d0 1356655096
+obj /usr/include/atk-1.0/atk/atksocket.h 347ba557e56f1996f8bb5f7560356b25 1356655096
+obj /usr/include/atk-1.0/atk/atkobjectfactory.h bc6233b16d7722dd8352e8b1f9bf9e7c 1356655096
+obj /usr/include/atk-1.0/atk/atkhyperlinkimpl.h bd9206d3b56bbe138b092baebbc0f535 1356655096
+obj /usr/include/atk-1.0/atk/atkcomponent.h 4dddd8bd9af5a269df94d9530c7a7165 1356655096
+obj /usr/include/atk-1.0/atk/atkrelation.h 90f5a025818e3020b84beddee340a4fe 1356655096
+obj /usr/include/atk-1.0/atk/atkdocument.h 6334fc762ca70525a8097a07e2957690 1356655096
+obj /usr/include/atk-1.0/atk/atkhyperlink.h 17d361416f49682d5cc0f6c68240b028 1356655096
+obj /usr/include/atk-1.0/atk/atknoopobjectfactory.h 904823ec89b9d3b81ec2f955cfd8dda4 1356655096
+obj /usr/include/atk-1.0/atk/atknoopobject.h 937b47d8cf49a2553f050134ea4c0635 1356655096
+obj /usr/include/atk-1.0/atk/atkimage.h 318418f5d504c63196ffee20cc3af43c 1356655096
+obj /usr/include/atk-1.0/atk/atk-enum-types.h 0a022d354820fb536b80293bb1d5dc3b 1356655096
+obj /usr/include/atk-1.0/atk/atkrelationtype.h 8fb326ce51192f1267c39429954b977f 1356655096
+obj /usr/include/atk-1.0/atk/atkutil.h ec950d092547e7c4fd24a96728dac5a7 1356655096
+obj /usr/include/atk-1.0/atk/atkhypertext.h 2339f7f6bc31dcc4d806f2b70c2afaa2 1356655096
+obj /usr/include/atk-1.0/atk/atk.h ced28d02ee00b1746c6857610f64fda1 1356655096
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/atk.pc 44db62fafb6cf06328c511ff5d6bb1b6 1356655116
+obj /usr/lib/libatk-1.0.so.0.20409.1 8cc053f8b0d535415607654fda642e6a 1356655139
+sym /usr/lib/libatk-1.0.so -> libatk-1.0.so.0.20409.1 1356655171
+dir /usr/share
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/atk
+obj /usr/share/gtk-doc/html/atk/api-index-1-3.html 03beb2a807dde69764e37b0b4f600d5b 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkTable.html f7497da63facbb57ab07fad2e1961d1d 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-13.html dfae134d02d229564f4a131772fe8d60 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkComponent.html 1ced6e51b89ea18c8cdd8a24d2872dbe 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkRegistry.html b5a1ea4eabcd8734df3584bddc659e05 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkText.html d21d1f0ebf6a64271955af0f2aab419f 1356655099
+obj /usr/share/gtk-doc/html/atk/up.png 2f07d9272deb4ae870ca6821117877fa 1356655098
+obj /usr/share/gtk-doc/html/atk/AtkNoOpObjectFactory.html 446b059eb921e68272f17fc68514a156 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkNoOpObject.html 68d3e9bdeb97cc44d3bbda9394135f34 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkGObjectAccessible.html a48ecfee1a1d950b5a5aa39518e54bc0 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-12.html d5bb54d4de387899f5896020e83d2088 1356655099
+obj /usr/share/gtk-doc/html/atk/atk-AtkHyperlinkImpl.html 90ebda7f3d7ac8c05b8baf86c46b74d4 1356655099
+obj /usr/share/gtk-doc/html/atk/home.png f6192f4292d744423df690e785d60fdf 1356655098
+obj /usr/share/gtk-doc/html/atk/api-index-deprecated.html dc21fd8423dbfe9fc5f4b4c9c2db7850 1356655099
+obj /usr/share/gtk-doc/html/atk/right.png ebd7e6d206d73850d77d305ab548f957 1356655098
+obj /usr/share/gtk-doc/html/atk/api-index-1-18.html 1a204f7536d97fd1c9506fd69bd34743 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkStateSet.html af8c6067a61fd157a89e58b60a215e70 1356655099
+obj /usr/share/gtk-doc/html/atk/style.css b9b769c722d264951331b0c6cdbf0bc0 1356655098
+obj /usr/share/gtk-doc/html/atk/api-index-1-28.html d774b517f839f25c5ecf347894f06c65 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkRelationSet.html 9764225f38f7d0118e885d7dbfa699c0 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-6.html 1598df8d0c55bdb1933af092da6bbfc1 1356655099
+obj /usr/share/gtk-doc/html/atk/index.sgml cdd9b4f47249e138458b0b1adbc4133e 1356655098
+obj /usr/share/gtk-doc/html/atk/AtkEditableText.html 9fc0517961a8a8cc477b12eb5bef3ec3 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkImage.html cc79fe547a49b349f21cf502ab844ab0 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-24.html d034d0d0ebf241ce1570aed022f60006 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkObjectFactory.html 72735bd5b7679c9e0441ba4032091f9b 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkObject.html a25a178ec44ecd7063114d19255bd919 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkValue.html adda8d08a38d674a6bbeb4885ecfcbed 1356655099
+obj /usr/share/gtk-doc/html/atk/atk.devhelp2 a47f849637cb91c38337ddf27cfcffd9 1356655098
+obj /usr/share/gtk-doc/html/atk/api-index-full.html b362eaacdfc3e5acfb060284d4ac3b4b 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkSelection.html fd17e1899ed52c763d11e413b792c614 1356655099
+obj /usr/share/gtk-doc/html/atk/atk-AtkState.html a42c46d968763821eabf044d15154fa9 1356655099
+obj /usr/share/gtk-doc/html/atk/left.png f771308152ab24a69682daed70ce136d 1356655098
+obj /usr/share/gtk-doc/html/atk/AtkRelation.html 0087ef7b8923602d8b292ab9d0fcebf3 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-4.html 60994565a633ba42c28cfb5bf2851a9b 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkAction.html 152f50ea728b526c8a507ad2d12e4660 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-26.html afb4ef90469e97ea6cbc4b67dc40dd74 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-32.html 267e173fd7dee8e0151586c2991b5afa 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-22.html 9d454cb0b268824836abf53f9af33ce8 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkDocument.html 1f85ae54220482e0d92d0fdb87e9561b 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-30.html fa800796f25fc3083cd6975945fcd42b 1356655099
+obj /usr/share/gtk-doc/html/atk/api-index-1-20.html 6261e3a9dccc8d68a3305d3b90c3324a 1356655099
+obj /usr/share/gtk-doc/html/atk/atk-AtkPlug.html 739891b15726f1ceeeaa2e90b5e8a82c 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkStreamableContent.html 99c83acaab1b6aced51b2d58fc6e8727 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkHyperlink.html 6925260c461ec3f37d0250832552b9b6 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkUtil.html e2612b859f177763e08bf22011efa741 1356655099
+obj /usr/share/gtk-doc/html/atk/AtkHypertext.html e7ad8970ef5f440485543bb29df72b46 1356655099
+obj /usr/share/gtk-doc/html/atk/atk.html f8cdc8cedfdc34dd826d68553fe24d36 1356655099
+obj /usr/share/gtk-doc/html/atk/atk-AtkSocket.html bff9ed0ef249f30a48f610d3c32f34c8 1356655099
+obj /usr/share/gtk-doc/html/atk/index.html 13bf43e5e68cc9e8eeaa75b473943bd9 1356655099
+dir /usr/share/doc
+dir /usr/share/doc/atk-2.4.0
+obj /usr/share/doc/atk-2.4.0/README.bz2 88a0fc41532c23a6dd089a48d24ed731 1356655116
+obj /usr/share/doc/atk-2.4.0/AUTHORS.bz2 f324889200fca12072dd84150bce06d2 1356655116
+obj /usr/share/doc/atk-2.4.0/ChangeLog.bz2 688f9f3d941ba180831799e0b15cd89c 1356655116
+obj /usr/share/doc/atk-2.4.0/NEWS.bz2 c049616add4be761de7957f7d59b2c77 1356655116
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/atk10.mo 70ae935b771c2037f74ce261d866b260 1356655100
+dir /usr/share/locale/zu
+dir /usr/share/locale/zu/LC_MESSAGES
+obj /usr/share/locale/zu/LC_MESSAGES/atk10.mo 7951f94f54ee3b7121f0de74bae5c953 1356655115
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/atk10.mo 0426dea23baba5cda0c88e4d1f1899b9 1356655106
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/atk10.mo aea1778eecc9015f59a10eb36258f0d6 1356655113
+dir /usr/share/locale/am
+dir /usr/share/locale/am/LC_MESSAGES
+obj /usr/share/locale/am/LC_MESSAGES/atk10.mo eb4e16a8b4d3666a0c40c80f6ea0f707 1356655100
+dir /usr/share/locale/dz
+dir /usr/share/locale/dz/LC_MESSAGES
+obj /usr/share/locale/dz/LC_MESSAGES/atk10.mo 748b0b46deff7318a0a4025fd144749c 1356655102
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/atk10.mo 4fc4a2a0791a2a7d5b0f72b1b0552509 1356655102
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/atk10.mo 78f9a0b18f639bf1b7aa710bb8a857e1 1356655105
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/atk10.mo d2be79f250ef09b3d2fc48363671ddec 1356655100
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/atk10.mo 601cdca86ce9a79c5e54802dcae5285f 1356655102
+dir /usr/share/locale/tk
+dir /usr/share/locale/tk/LC_MESSAGES
+obj /usr/share/locale/tk/LC_MESSAGES/atk10.mo b3b57f6c68a92743de2e2b235a9bebab 1356655113
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/atk10.mo 753e3d94e9e33b946f1d6e68a63635e3 1356655107
+dir /usr/share/locale/or
+dir /usr/share/locale/or/LC_MESSAGES
+obj /usr/share/locale/or/LC_MESSAGES/atk10.mo ea98626df34ae6442935fae6c781bd48 1356655110
+dir /usr/share/locale/sq
+dir /usr/share/locale/sq/LC_MESSAGES
+obj /usr/share/locale/sq/LC_MESSAGES/atk10.mo 294280f50ff63e5ce0e5c80b81b78b04 1356655112
+dir /usr/share/locale/kk
+dir /usr/share/locale/kk/LC_MESSAGES
+obj /usr/share/locale/kk/LC_MESSAGES/atk10.mo 4ecfceff4de7f6596fd0dc907f998108 1356655106
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/atk10.mo f9a92babddb38cffb5d63b8207875d19 1356655113
+dir /usr/share/locale/az
+dir /usr/share/locale/az/LC_MESSAGES
+obj /usr/share/locale/az/LC_MESSAGES/atk10.mo 35a1ce7768f32e79db372dd2783fdf3c 1356655100
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/atk10.mo cd9499df0916fc6687fd4f9fe72647fc 1356655112
+dir /usr/share/locale/yi
+dir /usr/share/locale/yi/LC_MESSAGES
+obj /usr/share/locale/yi/LC_MESSAGES/atk10.mo 1465da863e3f65406a48e87e9a15b334 1356655114
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/atk10.mo 699a2a65767e53ca68f6ad7d30c2dbfb 1356655104
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/atk10.mo 82619c7c56d53792e2b8c3d529f99855 1356655115
+dir /usr/share/locale/km
+dir /usr/share/locale/km/LC_MESSAGES
+obj /usr/share/locale/km/LC_MESSAGES/atk10.mo 94db25f2aa1e95465e5a8f9c8ff07ffd 1356655106
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/atk10.mo e29b156e93e8706615409a40b090b687 1356655110
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/atk10.mo 30fdab25c9afb32c9c73123cc7688b0d 1356655104
+dir /usr/share/locale/mai
+dir /usr/share/locale/mai/LC_MESSAGES
+obj /usr/share/locale/mai/LC_MESSAGES/atk10.mo a5fdd045b50f33816a4a45e0cfc173b3 1356655108
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/atk10.mo 9f767514fb3430ffdab986c9d5930e6c 1356655114
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/atk10.mo 570a5b3ae84ed86a56f3923269481fcb 1356655104
+dir /usr/share/locale/oc
+dir /usr/share/locale/oc/LC_MESSAGES
+obj /usr/share/locale/oc/LC_MESSAGES/atk10.mo 316be56f91e0743fa72fc0e36ba31b44 1356655110
+dir /usr/share/locale/ne
+dir /usr/share/locale/ne/LC_MESSAGES
+obj /usr/share/locale/ne/LC_MESSAGES/atk10.mo 812fb1daa1a307e8cd3e991c64579858 1356655110
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/atk10.mo 2c797f47140aae41fe48b596295e13d5 1356655111
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/atk10.mo 2396bf30968c3519c6ae613f9c878be6 1356655104
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/atk10.mo 8d62228bf3730f5b17b648697a1e0c62 1356655102
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/atk10.mo 271d641d26c57e166e7821e00e0c1d1c 1356655112
+dir /usr/share/locale/cy
+dir /usr/share/locale/cy/LC_MESSAGES
+obj /usr/share/locale/cy/LC_MESSAGES/atk10.mo 300c124e8672837e330889a21232dcda 1356655102
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/atk10.mo 6ab95a8b575924054ef987daac887c27 1356655115
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/atk10.mo d4076c4e9983183d5e08bababfc539b9 1356655113
+dir /usr/share/locale/ku
+dir /usr/share/locale/ku/LC_MESSAGES
+obj /usr/share/locale/ku/LC_MESSAGES/atk10.mo beedab6cae48f0802474ba0686f5ad70 1356655107
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/atk10.mo 4ea13efdf49ae40a4d1f8d004f430a5a 1356655109
+dir /usr/share/locale/en_CA
+dir /usr/share/locale/en_CA/LC_MESSAGES
+obj /usr/share/locale/en_CA/LC_MESSAGES/atk10.mo 73cdbff5e60256adc72bdbeb8297250a 1356655103
+dir /usr/share/locale/ka
+dir /usr/share/locale/ka/LC_MESSAGES
+obj /usr/share/locale/ka/LC_MESSAGES/atk10.mo 5972bf225f3950336d77721108870b0b 1356655106
+dir /usr/share/locale/mr
+dir /usr/share/locale/mr/LC_MESSAGES
+obj /usr/share/locale/mr/LC_MESSAGES/atk10.mo 5e55e2efe864a451e687d9602776faf9 1356655109
+dir /usr/share/locale/wa
+dir /usr/share/locale/wa/LC_MESSAGES
+obj /usr/share/locale/wa/LC_MESSAGES/atk10.mo 356197168af11ca8bf2911372bd351b5 1356655114
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/atk10.mo 251434e1cfab68b84ff73e0f75e9d67a 1356655100
+dir /usr/share/locale/si
+dir /usr/share/locale/si/LC_MESSAGES
+obj /usr/share/locale/si/LC_MESSAGES/atk10.mo 76d2bd5fcb922e7b214ddafdc4b6e7ec 1356655111
+dir /usr/share/locale/zh_HK
+dir /usr/share/locale/zh_HK/LC_MESSAGES
+obj /usr/share/locale/zh_HK/LC_MESSAGES/atk10.mo a2da2d2d5558e2fee5a5947fb278814b 1356655115
+dir /usr/share/locale/rw
+dir /usr/share/locale/rw/LC_MESSAGES
+obj /usr/share/locale/rw/LC_MESSAGES/atk10.mo 053620267b99727c9ed326ba80cc421c 1356655111
+dir /usr/share/locale/ta
+dir /usr/share/locale/ta/LC_MESSAGES
+obj /usr/share/locale/ta/LC_MESSAGES/atk10.mo 461e2e0b9cca81b170274a8797bb5d84 1356655113
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/atk10.mo 8f10e4d55209bea79c5a669be822da6a 1356655101
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/atk10.mo beae7d202f1bb06d79a42741fe411cdc 1356655105
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/atk10.mo 1724ec5b16a127bcd5b3346037cb64c9 1356655101
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/atk10.mo a0cac5e836055cc0d845122346459828 1356655111
+dir /usr/share/locale/bs
+dir /usr/share/locale/bs/LC_MESSAGES
+obj /usr/share/locale/bs/LC_MESSAGES/atk10.mo 29db4a995cabc058cef6c7dbb714542e 1356655101
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/atk10.mo c59b3654129c0b799731b3256dbc4f43 1356655107
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/atk10.mo 177223e2759c9a37494049f69b63dc8f 1356655101
+dir /usr/share/locale/en@shaw
+dir /usr/share/locale/en@shaw/LC_MESSAGES
+obj /usr/share/locale/en@shaw/LC_MESSAGES/atk10.mo 6172a97d486f06b24507790db4b2309e 1356655103
+dir /usr/share/locale/hy
+dir /usr/share/locale/hy/LC_MESSAGES
+obj /usr/share/locale/hy/LC_MESSAGES/atk10.mo 42c231c75be3f2be5e36b596f790cbb8 1356655105
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/atk10.mo cb9b06b668ab4d229d26e935e626ea8b 1356655114
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/atk10.mo 0253deff4911707ae28889de48bef852 1356655101
+dir /usr/share/locale/mn
+dir /usr/share/locale/mn/LC_MESSAGES
+obj /usr/share/locale/mn/LC_MESSAGES/atk10.mo 27a864a73e4b617c3d110900d85ad660 1356655109
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/atk10.mo 372178d1ca54d61d472fe7a80c32a791 1356655111
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/atk10.mo 4c50a7dcf50352a258f70aac465606e4 1356655112
+dir /usr/share/locale/xh
+dir /usr/share/locale/xh/LC_MESSAGES
+obj /usr/share/locale/xh/LC_MESSAGES/atk10.mo 70148804b2429342440ad021b3576b9f 1356655114
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/atk10.mo 0dc99ab513082945d233a70aa8d6505c 1356655103
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/atk10.mo a5d3c475e1e92daa356f15610ef7ce07 1356655109
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/atk10.mo 9d0e7a7ce7ada9e6ac1eb6de45c215b1 1356655106
+dir /usr/share/locale/mk
+dir /usr/share/locale/mk/LC_MESSAGES
+obj /usr/share/locale/mk/LC_MESSAGES/atk10.mo e2defec8de9d260e939de6d0c9670e91 1356655109
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/atk10.mo aa14c194298b86337362727f67f58fa3 1356655112
+dir /usr/share/locale/sr@ije
+dir /usr/share/locale/sr@ije/LC_MESSAGES
+obj /usr/share/locale/sr@ije/LC_MESSAGES/atk10.mo 39e830acae27ee6a959beb91b02a5269 1356655112
+dir /usr/share/locale/ast
+dir /usr/share/locale/ast/LC_MESSAGES
+obj /usr/share/locale/ast/LC_MESSAGES/atk10.mo 5ccfc5034dd552446065b8ba83ca1749 1356655100
+dir /usr/share/locale/as
+dir /usr/share/locale/as/LC_MESSAGES
+obj /usr/share/locale/as/LC_MESSAGES/atk10.mo 908254720d1c8f0ce95ab13d91015017 1356655100
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/atk10.mo 4822137ee3e2838805c49dbfdda4d29a 1356655109
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/atk10.mo c04d43f4842e02e80ee9331c666697e4 1356655104
+dir /usr/share/locale/be@latin
+dir /usr/share/locale/be@latin/LC_MESSAGES
+obj /usr/share/locale/be@latin/LC_MESSAGES/atk10.mo ae92b0c497faaaf41617eac5c176f5eb 1356655101
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/atk10.mo 490039570740096fef78149d198bb201 1356655111
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/atk10.mo c667f10f4ca8c0efbafaa4a88d3d7a1a 1356655111
+dir /usr/share/locale/ca@valencia
+dir /usr/share/locale/ca@valencia/LC_MESSAGES
+obj /usr/share/locale/ca@valencia/LC_MESSAGES/atk10.mo 5ff403980c648e0e61abcd361f3e7830 1356655102
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/atk10.mo 0108415cad104ffdde9aa6f09b1cff76 1356655106
+dir /usr/share/locale/li
+dir /usr/share/locale/li/LC_MESSAGES
+obj /usr/share/locale/li/LC_MESSAGES/atk10.mo 3d356771ed82d5a8ef3f37aa11f6d9bf 1356655107
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/atk10.mo afd76028bfade2025ac5a0da27317db1 1356655110
+dir /usr/share/locale/is
+dir /usr/share/locale/is/LC_MESSAGES
+obj /usr/share/locale/is/LC_MESSAGES/atk10.mo 44891c3f89a6709bc257d6faefbd88f9 1356655106
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/atk10.mo 17e7fe13b49dd316ddbce659af825562 1356655110
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/atk10.mo b3c1658521667b1e3eb05c3e5c5c89f9 1356655103
+dir /usr/share/locale/ga
+dir /usr/share/locale/ga/LC_MESSAGES
+obj /usr/share/locale/ga/LC_MESSAGES/atk10.mo 9e3ff681fd78adaec274533662020e08 1356655104
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/atk10.mo afaf567c83f894ef4d037f24605aa897 1356655105
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/atk10.mo 81b9a6b16f72097f70405137da24a529 1356655107
+dir /usr/share/locale/ug
+dir /usr/share/locale/ug/LC_MESSAGES
+obj /usr/share/locale/ug/LC_MESSAGES/atk10.mo bfffc7e0afa6765f6f688e519355f22a 1356655114
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/atk10.mo db502f036e363a8e04e68b67fe2da8ec 1356655104
+dir /usr/share/locale/tt
+dir /usr/share/locale/tt/LC_MESSAGES
+obj /usr/share/locale/tt/LC_MESSAGES/atk10.mo 514bf650140d81dff1371a44a56bc54c 1356655114
+dir /usr/share/locale/gu
+dir /usr/share/locale/gu/LC_MESSAGES
+obj /usr/share/locale/gu/LC_MESSAGES/atk10.mo 15489b2a27b98bfde5c957dea30018d9 1356655105
+dir /usr/share/locale/hi
+dir /usr/share/locale/hi/LC_MESSAGES
+obj /usr/share/locale/hi/LC_MESSAGES/atk10.mo e6a1cddbd0e3f34a6c287b15e909275c 1356655105
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/atk10.mo 2d2fc7d102695e72fd1cb03f97c3c70a 1356655103
+dir /usr/share/locale/kn
+dir /usr/share/locale/kn/LC_MESSAGES
+obj /usr/share/locale/kn/LC_MESSAGES/atk10.mo f6c3f2cec8642ff161f1380629217ba2 1356655107
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/atk10.mo e965cf2c1885021d277c9d53866b239f 1356655110
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/atk10.mo 1cc3907ffd2a29006a2c089e90d065bb 1356655103
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/atk10.mo 2d127926a7099ae5d308d91098ab48f4 1356655113
+sym /usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.20409.1 1356655174

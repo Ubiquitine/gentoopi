@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Icon=chromium-browser
+Name=Chrome
+GenericName=Chrome browser
+Comment=Browse the Internet
+Categories=Network;Internet;GTK;
+Exec=chrome --disable-ipv6
+StartupNotify=true
+Terminal=false

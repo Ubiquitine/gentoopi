@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/mkfontscale.1.bz2 93b6f89d5a8a0d81d88f97db4428d99b 1356515665
+dir /usr/share/doc
+dir /usr/share/doc/mkfontscale-1.1.0
+obj /usr/share/doc/mkfontscale-1.1.0/README.bz2 e963e06808bf341e992b722457129c54 1356515666
+obj /usr/share/doc/mkfontscale-1.1.0/ChangeLog.bz2 617cab422348e835c585b106b892219c 1356515667
+dir /usr/bin
+obj /usr/bin/mkfontscale e1862efc8e3501a07988f3c61bae195a 1356515691

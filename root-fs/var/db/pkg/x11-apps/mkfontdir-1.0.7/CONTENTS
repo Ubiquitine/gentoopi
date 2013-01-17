@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/mkfontdir.1.bz2 0cb43a89d27ec4d3d097fd70b8de8a4f 1356517627
+dir /usr/share/doc
+dir /usr/share/doc/mkfontdir-1.0.7
+obj /usr/share/doc/mkfontdir-1.0.7/README.bz2 ccf497f52d5fd17dfdf1250e8abbbdeb 1356517628
+obj /usr/share/doc/mkfontdir-1.0.7/ChangeLog.bz2 378558a3f47f1376b21f11963f125460 1356517629
+dir /usr/bin
+obj /usr/bin/mkfontdir afeda1c58c204b18f273f9c2722dce57 1356517628

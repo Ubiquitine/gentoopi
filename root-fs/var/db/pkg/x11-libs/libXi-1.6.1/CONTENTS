@@ -1,0 +1,88 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/XInput2.h a08daa1cfc41b843cb89f449510ffa9a 1356530309
+obj /usr/include/X11/extensions/XInput.h a7dc7ea9c803772113417b33d6521b73 1356530309
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xi.pc 7e4dae87e7ddd9e3b8d4435df910b44b 1356530310
+obj /usr/lib/libXi.so.6.1.0 3fb3a92562577de389d0fc85e33ce348 1356530337
+sym /usr/lib/libXi.so -> libXi.so.6.1.0 1356530368
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XIUngrabEnter.3.bz2 9ded3ea8db54e950fe3710956d135752 1356530309
+obj /usr/share/man/man3/XListInputDevices.3.bz2 9982ccdb1e585b9a11bb5273d97c4693 1356530309
+obj /usr/share/man/man3/XIUngrabDevice.3.bz2 7cf879e670654130e77f56d06dec3cfb 1356530309
+obj /usr/share/man/man3/XIUngrabFocusIn.3.bz2 9ded3ea8db54e950fe3710956d135752 1356530309
+obj /usr/share/man/man3/XGrabDevice.3.bz2 69bd81ca6af50c58adbf87889d73086e 1356530309
+obj /usr/share/man/man3/XIGrabFocusIn.3.bz2 9ded3ea8db54e950fe3710956d135752 1356530309
+obj /usr/share/man/man3/XChangeFeedbackControl.3.bz2 06a9403ec3a0af8f3107e1e88dfb02a9 1356530309
+obj /usr/share/man/man3/XSetDeviceFocus.3.bz2 97c7f0f24d9db9ceba0f35f74e725fcc 1356530309
+obj /usr/share/man/man3/XGetDeviceProperty.3.bz2 3fc74c92c49c20138f0b5805ecbd5034 1356530309
+obj /usr/share/man/man3/XGetDeviceFocus.3.bz2 54e6216c7b9920cfc6074655d60866cf 1356530309
+obj /usr/share/man/man3/XIUndefineCursor.3.bz2 cd4ac17f45a33a6de5e0cef2bea803d3 1356530309
+obj /usr/share/man/man3/XDeviceTimeCoord.3.bz2 d0efc21e816aa0437a03e995019f07ef 1356530309
+obj /usr/share/man/man3/XGrabDeviceKey.3.bz2 557cf993ed940df9330a04e337a7b3fb 1356530309
+obj /usr/share/man/man3/XGrabDeviceButton.3.bz2 073b196eef9f849ff509219dd07138f0 1356530309
+obj /usr/share/man/man3/XListDeviceProperties.3.bz2 3af691becaea0277ea903bdcd7ccb1e6 1356530309
+obj /usr/share/man/man3/XGetDeviceControl.3.bz2 5223fe7a38c57506174efb4e9a0f2535 1356530309
+obj /usr/share/man/man3/XChangeDeviceProperty.3.bz2 71998d04f3843d7d53e0eab8eac7bd11 1356530309
+obj /usr/share/man/man3/XIGetProperty.3.bz2 e488a8cce595b1d4e83a3c95e9ce8a1f 1356530309
+obj /usr/share/man/man3/XIFreeDeviceInfo.3.bz2 83c0f24a17610a6fb2689e80352e7039 1356530309
+obj /usr/share/man/man3/XCloseDevice.3.bz2 4dededd5d16782031959d58f369045df 1356530309
+obj /usr/share/man/man3/XGetDeviceDontPropagateList.3.bz2 af9d5d5bc9b98c74f7ea0725637b806a 1356530309
+obj /usr/share/man/man3/XGetDeviceButtonMapping.3.bz2 55d63797f0caa8a6dd2f84e9203c73d8 1356530309
+obj /usr/share/man/man3/XSetDeviceModifierMapping.3.bz2 4e96e2b55aebd51cb45b69214ad8f027 1356530309
+obj /usr/share/man/man3/XIGetFocus.3.bz2 0e5e2c692e0c275da13ae7eefc7bcb07 1356530309
+obj /usr/share/man/man3/XIDeleteProperty.3.bz2 e488a8cce595b1d4e83a3c95e9ce8a1f 1356530309
+obj /usr/share/man/man3/XAllowDeviceEvents.3.bz2 5177fd09514bc59f3626bb5341fe9f9c 1356530309
+obj /usr/share/man/man3/XIListProperties.3.bz2 5d1c05146bd060a2ba191726c26db4b4 1356530309
+obj /usr/share/man/man3/XUngrabDevice.3.bz2 d438b8d20fce31525cfc810397a84a2f 1356530309
+obj /usr/share/man/man3/XIQueryDevice.3.bz2 dd4f777e2283d35c0bebcab87e5fcc39 1356530309
+obj /usr/share/man/man3/XChangeDeviceControl.3.bz2 ef6581a179b52b285a17c7ee24c27fd5 1356530309
+obj /usr/share/man/man3/XIChangeProperty.3.bz2 223b8ca1d92bc70c92e7f42cbbc2d7ed 1356530309
+obj /usr/share/man/man3/XGetFeedbackControl.3.bz2 33707a210a3409e8e51310bf724585cd 1356530309
+obj /usr/share/man/man3/XGetDeviceModifierMapping.3.bz2 13d97cea6e5394e795e6b7b669eeaabc 1356530309
+obj /usr/share/man/man3/XIGetClientPointer.3.bz2 f808ea1ef19f6a9ece7b40d439cb5b89 1356530309
+obj /usr/share/man/man3/XIChangeHierarchy.3.bz2 478eb94f499c4a038e61decce4e60ad5 1356530309
+obj /usr/share/man/man3/XISelectEvents.3.bz2 cadfe4230d87412ef876a9ecb6b6eb75 1356530309
+obj /usr/share/man/man3/XIUngrabKeycode.3.bz2 c33c5002e0fa8c8cc52fdb778d4c4167 1356530309
+obj /usr/share/man/man3/XIGrabButton.3.bz2 d7fe48adf45e1ffdabf7b1524359a894 1356530309
+obj /usr/share/man/man3/XGetDeviceKeyMapping.3.bz2 7a05e25a7581dec52d7e066c46317134 1356530309
+obj /usr/share/man/man3/XIUngrabButton.3.bz2 c33c5002e0fa8c8cc52fdb778d4c4167 1356530309
+obj /usr/share/man/man3/XISetClientPointer.3.bz2 2efb31ccc0085ea070df070d0deba6ff 1356530309
+obj /usr/share/man/man3/XChangeDeviceKeyMapping.3.bz2 889d8eee58d322b2f8f3794df8aa03d3 1356530309
+obj /usr/share/man/man3/XSetDeviceButtonMapping.3.bz2 9cba33c8e03b24690fa8d10d8780bb39 1356530309
+obj /usr/share/man/man3/XChangeDeviceDontPropagateList.3.bz2 ba074bb23f9328f9f72afd8c181587fb 1356530309
+obj /usr/share/man/man3/XGetExtensionVersion.3.bz2 669a8106c849241938a8fce1b21d2a89 1356530309
+obj /usr/share/man/man3/XIDefineCursor.3.bz2 f7be75f45c17b7259670e790df7ed9b4 1356530309
+obj /usr/share/man/man3/XIQueryPointer.3.bz2 633be86e10df1bac5429971d75f30a66 1356530309
+obj /usr/share/man/man3/XSendExtensionEvent.3.bz2 d04eed6e08aee57262fd81fe65b7fb7d 1356530309
+obj /usr/share/man/man3/XIWarpPointer.3.bz2 e5991d20e60390b13e2d30162c4126fe 1356530309
+obj /usr/share/man/man3/XChangePointerDevice.3.bz2 d6213f593720b7ef9f71f4d76188f0fc 1356530309
+obj /usr/share/man/man3/XSetDeviceValuators.3.bz2 36eab05122c560d6ee26c97b223e7d01 1356530309
+obj /usr/share/man/man3/XOpenDevice.3.bz2 1d550d9b272b0bf69615487be93d5ae6 1356530309
+obj /usr/share/man/man3/XSelectExtensionEvent.3.bz2 9c159e2d952c6c162ccf85bbe4bcc771 1356530309
+obj /usr/share/man/man3/XIGrabEnter.3.bz2 cc98b5bf62721b52bfa8cf7ab163a068 1356530309
+obj /usr/share/man/man3/XIQueryVersion.3.bz2 2af8b66edf01c892d1803b92c03caaa3 1356530309
+obj /usr/share/man/man3/XGetDeviceMotionEvents.3.bz2 5af414625696a67e1c5b61239a79525b 1356530309
+obj /usr/share/man/man3/XUngrabDeviceButton.3.bz2 c30dbd7f81f387e779ad764e2b1caa7f 1356530309
+obj /usr/share/man/man3/XDeleteDeviceProperty.3.bz2 71998d04f3843d7d53e0eab8eac7bd11 1356530309
+obj /usr/share/man/man3/XGetSelectedExtensionEvents.3.bz2 b9c7fc116017c663d26c7fa7ae50322c 1356530309
+obj /usr/share/man/man3/XSetDeviceMode.3.bz2 b97840768cc6969920ec538dc621a415 1356530309
+obj /usr/share/man/man3/XFreeDeviceList.3.bz2 901d5e8728fd2b63c3600c89cb4b34ee 1356530309
+obj /usr/share/man/man3/XISetFocus.3.bz2 57b535fdb641e112d4966847838f100b 1356530309
+obj /usr/share/man/man3/XIGrabKeycode.3.bz2 c33c5002e0fa8c8cc52fdb778d4c4167 1356530309
+obj /usr/share/man/man3/XUngrabDeviceKey.3.bz2 5ce61a264f24679e91b906708744e004 1356530309
+obj /usr/share/man/man3/XIGrabDevice.3.bz2 f415ab0d77007fe3fc609bd7ac01c2ac 1356530309
+obj /usr/share/man/man3/XIGetSelectedEvents.3.bz2 57339be397b0eeaeb7bdfb172da42dae 1356530309
+obj /usr/share/man/man3/XQueryDeviceState.3.bz2 2929b47eee5aae0883a4d4611384e037 1356530309
+obj /usr/share/man/man3/XChangeKeyboardDevice.3.bz2 fb4c33ec55eb7c0050acc8f9f16f98a7 1356530309
+obj /usr/share/man/man3/XDeviceBell.3.bz2 1b568984eeb5e386e43d8f63573e8127 1356530309
+dir /usr/share/doc
+dir /usr/share/doc/libXi-1.6.1
+obj /usr/share/doc/libXi-1.6.1/README.bz2 64115af8f6fd4973ee10f81e3eab6dca 1356530310
+obj /usr/share/doc/libXi-1.6.1/ChangeLog.bz2 98009cb1b52f3331933f297e0a457d8a 1356530312
+sym /usr/lib/libXi.so.6 -> libXi.so.6.1.0 1356530369

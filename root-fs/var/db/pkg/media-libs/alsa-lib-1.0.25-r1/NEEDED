@@ -1,0 +1,5 @@
+/usr/lib/libasound.so.2.0.0 libm.so.6,libdl.so.2,libpthread.so.0,librt.so.1,libgcc_s.so.1,libc.so.6
+/usr/lib/alsa-lib/smixer/smixer-hda.so libasound.so.2,libdl.so.2,libc.so.6
+/usr/lib/alsa-lib/smixer/smixer-sbase.so libasound.so.2,libc.so.6
+/usr/lib/alsa-lib/smixer/smixer-ac97.so libasound.so.2,libdl.so.2,libc.so.6
+/usr/bin/aserver libasound.so.2,libpthread.so.0,libc.so.6

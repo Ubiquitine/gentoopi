@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/zipgrep ddf51a6f1d31b015b654033bd027c94a 1357487852
+obj /usr/bin/unzipsfx 893819dae2c184b515e123da06f6f4b1 1357487879
+obj /usr/bin/funzip 036d3351cd315368ab568a1f1c8ecb1c 1357487879
+obj /usr/bin/unzip 0b4be50a608622504b45c6f230ee72d1 1357487879
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/funzip.1.bz2 a20e45bee9cb3eb589aac85a68fe7dab 1357487852
+obj /usr/share/man/man1/zipinfo.1.bz2 79586f7c9637c40bab7d955f08e183b0 1357487852
+obj /usr/share/man/man1/unzipsfx.1.bz2 589abd3da83e2b0537937ea6a28466b9 1357487852
+obj /usr/share/man/man1/unzip.1.bz2 56338892f0cb62c1bf2fd07fc15bf321 1357487852
+obj /usr/share/man/man1/zipgrep.1.bz2 eaea5b23ef610820b00100ae97d050d1 1357487852
+dir /usr/share/doc
+dir /usr/share/doc/unzip-6.0-r3
+obj /usr/share/doc/unzip-6.0-r3/History.600.bz2 1a992270df4ad907a0aa645883909258 1357487853
+obj /usr/share/doc/unzip-6.0-r3/README.bz2 66dd2a9f5925d536a0ded247c853323e 1357487853
+obj /usr/share/doc/unzip-6.0-r3/BUGS.bz2 7640d46009e88867169c1ee187acbc9c 1357487853
+obj /usr/share/doc/unzip-6.0-r3/ToDo.bz2 139395554425aa442168a22f6c3f83ec 1357487853
+obj /usr/share/doc/unzip-6.0-r3/WHERE.bz2 0caddafd8370dcf0af77b476cf06f12b 1357487853
+sym /usr/bin/zipinfo -> unzip 1357487913

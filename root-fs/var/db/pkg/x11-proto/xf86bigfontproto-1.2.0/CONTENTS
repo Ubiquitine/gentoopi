@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xf86bigfstr.h e159b5669da188ce13cca68707f8b062 1356355268
+obj /usr/include/X11/extensions/xf86bigfproto.h 4c69484a01acbd5773326d0abc9aefaa 1356355268
+obj /usr/include/X11/extensions/xf86bigfont.h e50c0c13e702779557baec7e63c78c0e 1356355268
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xf86bigfontproto.pc 29c13f22c79ff98ce1655ea1f63e5421 1356355268
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xf86bigfontproto-1.2.0
+obj /usr/share/doc/xf86bigfontproto-1.2.0/ChangeLog.bz2 d87a46b24e48ef9e1c0dc34f43b4cccc 1356355269

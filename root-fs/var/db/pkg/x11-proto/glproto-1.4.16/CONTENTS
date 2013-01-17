@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/include
+dir /usr/include/GL
+dir /usr/include/GL/internal
+obj /usr/include/GL/internal/glcore.h 1a546ca3c6628a55c33647b9ace8b134 1356441896
+obj /usr/include/GL/glxint.h f8e8b0a10db59332197faf42613f50b0 1356441895
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/glproto.pc 086df5f46a422ea8ebe630d2f9ab6e01 1356441896
+dir /usr/lib/opengl
+dir /usr/lib/opengl/xorg-x11
+dir /usr/lib/opengl/xorg-x11/include
+dir /usr/lib/opengl/xorg-x11/include/GL
+obj /usr/lib/opengl/xorg-x11/include/GL/glxtokens.h aee5218a6d7cf66ee44635c0613957d8 1356441895
+obj /usr/lib/opengl/xorg-x11/include/GL/glxmd.h 134c209bd939f16fec2874011c1b9379 1356441895
+obj /usr/lib/opengl/xorg-x11/include/GL/glxproto.h 961ea2ec74b112747172d8b5c9ee5c6d 1356441895
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/glproto-1.4.16
+obj /usr/share/doc/glproto-1.4.16/README.bz2 8bfb4be063a344e7c3dc65fbe6d433bf 1356441896
+obj /usr/share/doc/glproto-1.4.16/ChangeLog.bz2 41d07908213de7651aad7a9d3702f6db 1356441897

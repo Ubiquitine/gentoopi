@@ -1,0 +1,1 @@
+x11-libs/xtrans x11-libs/libfontenc app-arch/bzip2 x11-proto/xproto x11-proto/fontsproto || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

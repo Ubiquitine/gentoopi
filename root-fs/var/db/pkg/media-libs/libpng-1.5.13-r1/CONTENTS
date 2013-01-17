@@ -1,0 +1,34 @@
+dir /usr
+dir /usr/include
+dir /usr/include/libpng15
+obj /usr/include/libpng15/png.h c9a02d650008e2e13af05af61bf1bcba 1356529405
+obj /usr/include/libpng15/pngconf.h 181419fb878fc4a753bd05e3709c9583 1356529405
+obj /usr/include/libpng15/pnglibconf.h 42e1f43dfa2838dbad2ea0d763f63247 1356529404
+sym /usr/include/pnglibconf.h -> libpng15/pnglibconf.h 1356529453
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libpng15.pc 7446c8e9722d891e7e6e4fcc19d1350f 1356529404
+sym /usr/lib/pkgconfig/libpng.pc -> libpng15.pc 1356529453
+obj /usr/lib/libpng15.so.15.13.0 87d0c79fe696483efbe9968130cffb6e 1356529426
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/libpng.3.bz2 a8bc3767e2b4f06295bb30657a09236d 1356529404
+obj /usr/share/man/man3/libpngpf.3.bz2 9827364572cd8bcf364fc5bf6fc16248 1356529404
+dir /usr/share/man/man5
+obj /usr/share/man/man5/png.5.bz2 cc2d0a8960ac850ef5a8f361df7b266d 1356529404
+dir /usr/share/doc
+dir /usr/share/doc/libpng-1.5.13-r1
+obj /usr/share/doc/libpng-1.5.13-r1/README.bz2 552d39c70e9914d59fd74fc887671632 1356529406
+obj /usr/share/doc/libpng-1.5.13-r1/CHANGES.bz2 992e7f6d8adc8d7a58713ebe6a53b2f1 1356529405
+obj /usr/share/doc/libpng-1.5.13-r1/libpng-manual.txt.bz2 9621355adaed6069906630a489f4ca6c 1356529405
+obj /usr/share/doc/libpng-1.5.13-r1/TODO.bz2 75c66ffd5f3290d5989880b894d7ea1d 1356529406
+obj /usr/share/doc/libpng-1.5.13-r1/ANNOUNCE.bz2 72d444bb47900381b57b5b26466e3f8a 1356529405
+dir /usr/bin
+obj /usr/bin/libpng15-config ce3552ce7a33034d2ad5d1e937486a8a 1356529402
+sym /usr/bin/libpng-config -> libpng15-config 1356529453
+sym /usr/include/png.h -> libpng15/png.h 1356529453
+sym /usr/include/pngconf.h -> libpng15/pngconf.h 1356529453
+sym /usr/lib/libpng15.so.15 -> libpng15.so.15.13.0 1356529453
+sym /usr/lib/libpng15.so -> libpng15.so.15.13.0 1356529453
+sym /usr/lib/libpng.so -> libpng15.so 1356529453

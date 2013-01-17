@@ -1,0 +1,151 @@
+dir /usr
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/grep.info.bz2 01080c16df0dcdec0bcece7a3d1b15e7 1356002992
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/fgrep.1.bz2 a0bceb1efe85d454ea04b2f25fea6ee7 1356002992
+obj /usr/share/man/man1/egrep.1.bz2 a0bceb1efe85d454ea04b2f25fea6ee7 1356002992
+obj /usr/share/man/man1/grep.1.bz2 cbd1c21c2d43e55da3f6f444e400e073 1356002992
+dir /usr/share/locale
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/grep.mo 5f634905682af09d7fefe8e8e6f6b777 1356002991
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/grep.mo f6cd2cb5c3fdaabeb00519429d68d120 1356002991
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/grep.mo 374e613176fd7fafc0379f46e104ffcc 1356002991
+dir /usr/share/locale/ga
+dir /usr/share/locale/ga/LC_MESSAGES
+obj /usr/share/locale/ga/LC_MESSAGES/grep.mo 44e78dd87e4fd84ef1c551426ab22b05 1356002991
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/grep.mo 6b9a41105c40201e6f673498c49870c1 1356002991
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/grep.mo b80b5607f9f63c06f52813d028227b42 1356002992
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/grep.mo d59c81b3972c6bdec861d1518ed61faa 1356002991
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/grep.mo 305916df58d4464055b2007ee67c7ece 1356002992
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/grep.mo cf36e45a9476e69e540b2d857ddca86e 1356002992
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/grep.mo 4a86c5ddc9e4f436d4eedd280d79219c 1356002991
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/grep.mo 978d2bd885f9d38dad65540d1df44bea 1356002992
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/grep.mo 2e08f2863e6b6d587ca8aa37be33ec84 1356002991
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/grep.mo 284253daf57d089c1fe4e86ee9272bc9 1356002991
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/grep.mo a73a2704312a92f83bf406223ba895d2 1356002992
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/grep.mo a2eaa0229f40c6b565129e5f5166875e 1356002991
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/grep.mo 47d5d705cdc20e52a945d6775916d50d 1356002992
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/grep.mo 5b06a584b0ce3c917529f6eb1af4ac81 1356002992
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/grep.mo c1ab2dab2fa835f4511f57ff0b6b7f30 1356002991
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/grep.mo 436f77e6ad7f2919c894f68cea834120 1356002991
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/grep.mo 9199834fdbb616b4fd32323b739f3179 1356002991
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/grep.mo 84b876c7b9039af36bda94b500d5c930 1356002991
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/grep.mo 59045d466adaf32ebf58c5a315ac56fa 1356002992
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/grep.mo 1a822bcfff8b713898d0ff56f29e1348 1356002992
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/grep.mo c0b8ea691b1c274c5c33c4b16da24277 1356002991
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/grep.mo 49b3248df48c85c26c13f05ab06fb334 1356002991
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/grep.mo 29c9034371ded20caed0af3d5f878060 1356002991
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/grep.mo 6ad36a66e0a4a4dcac4d3b9fc24053f7 1356002991
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/grep.mo b801c484e731cc18a48b13f16a14597e 1356002992
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/grep.mo c988d90be65556f2e0c5dcdd77706904 1356002991
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/grep.mo 98fd3e37c0af4418fdce38efc52ac988 1356002992
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/grep.mo e65ead9485639760dd443a19cfeadbae 1356002992
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/grep.mo 0f3bf157191859d67e8fd2822d86086c 1356002991
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/grep.mo 5e6324b992f9b0454ee17a404d13430d 1356002991
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/grep.mo 10fda1fb4d5c1da3346a933487a26d6e 1356002991
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/grep.mo f6c06c872a113398bca22d8f88a7e423 1356002991
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/grep.mo d7795b2b7d61b5dc4d98bb58fedcef27 1356002991
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/grep.mo 27938bad1fa8983ff81304efc206d7fa 1356002992
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/grep.mo 15ec389caf2d14eac66c8ffb211ba72c 1356002991
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/grep.mo 425be19a17e1d05808d347fb99b27b93 1356002991
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/grep.mo 47aa19f20fed0ee3122f21740fa686eb 1356002991
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/grep.mo 7e4eeb6aa7390b6e7a72a51e32427e49 1356002991
+dir /usr/share/locale/ky
+dir /usr/share/locale/ky/LC_MESSAGES
+obj /usr/share/locale/ky/LC_MESSAGES/grep.mo afe5f92bff3b3ad0d645223b49737e96 1356002991
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/grep.mo c5fa2b4e49a84e919f4d861e047ed753 1356002992
+dir /usr/share/doc
+dir /usr/share/doc/grep-2.14
+obj /usr/share/doc/grep-2.14/THANKS.bz2 d2adaab2ef44e64c47ed7179570e6522 1356002994
+obj /usr/share/doc/grep-2.14/NEWS.bz2 2f90f9a8b63b55e26d1e8872b45459d3 1356002994
+obj /usr/share/doc/grep-2.14/README.bz2 f36c8997993fcdeeb9eb53ba5ced7f53 1356002994
+obj /usr/share/doc/grep-2.14/TODO.bz2 1d40daa562859565e9c8be7f663abb9e 1356002994
+obj /usr/share/doc/grep-2.14/ChangeLog.bz2 954308a838005f526700a1c0fb021f71 1356002993
+obj /usr/share/doc/grep-2.14/AUTHORS.bz2 9b154dd4eb5224808ed0b11c2277a3fc 1356002993
+dir /bin
+obj /bin/egrep d1c8a5d39ac3a697bb1901ef3ccb7457 1356002996
+obj /bin/grep 9ea075098a9d8b642494acd83961fc33 1356002996
+obj /bin/fgrep 2b85187f2657e8b8cf385f87075beb4a 1356002996

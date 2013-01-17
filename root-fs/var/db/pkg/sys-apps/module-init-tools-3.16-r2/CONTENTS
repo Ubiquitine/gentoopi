@@ -1,0 +1,37 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/modules.dep.5.bz2 bb193551a13d2d5ccc26483da0dd7186 1355986039
+obj /usr/share/man/man5/depmod.conf.5.bz2 268d1f385587328a8009faf1e25c3440 1355986039
+obj /usr/share/man/man5/modules.dep.bin.5.bz2 bb193551a13d2d5ccc26483da0dd7186 1355986039
+obj /usr/share/man/man5/modprobe.d.5.bz2 e55c72f091d58b74dd618ce8cf76804c 1355986039
+obj /usr/share/man/man5/depmod.d.5.bz2 268d1f385587328a8009faf1e25c3440 1355986039
+obj /usr/share/man/man5/modprobe.conf.5.bz2 e55c72f091d58b74dd618ce8cf76804c 1355986039
+dir /usr/share/man/man8
+obj /usr/share/man/man8/modprobe.8.bz2 c308cf70172fac3ee1399c2d841c4a1a 1355986039
+obj /usr/share/man/man8/depmod.8.bz2 b50069d3fa504b473407606869b2a449 1355986039
+obj /usr/share/man/man8/rmmod.8.bz2 3b641f40cecd9241818b129ff47022b7 1355986039
+obj /usr/share/man/man8/insmod.8.bz2 bde4c663a38c9f2c5b201412e164120b 1355986039
+obj /usr/share/man/man8/update-modules.8.bz2 b74ad00781c1f10f32d8d830bba0b7e5 1355986039
+obj /usr/share/man/man8/lsmod.8.bz2 412f0d96febb00c55788f6956facd151 1355986039
+obj /usr/share/man/man8/modinfo.8.bz2 7ecd192c79076d8e84f40e958d694377 1355986039
+dir /usr/share/doc
+dir /usr/share/doc/module-init-tools-3.16-r2
+obj /usr/share/doc/module-init-tools-3.16-r2/NEWS.bz2 12891d144e55879934012184908bc120 1355986039
+obj /usr/share/doc/module-init-tools-3.16-r2/README.bz2 ca0570805dd7ccd8872ba88955075ffa 1355986039
+obj /usr/share/doc/module-init-tools-3.16-r2/TODO.bz2 2a23645c8892b1e0c092bdfcdbe475fb 1355986039
+obj /usr/share/doc/module-init-tools-3.16-r2/ChangeLog.bz2 ad6d0252076231bba6507ec66cb0afb2 1355986039
+obj /usr/share/doc/module-init-tools-3.16-r2/AUTHORS.bz2 2336af3f7bf552a81be7ebcc67ad8827 1355986039
+dir /etc
+dir /etc/modprobe.d
+obj /etc/modprobe.d/usb-load-ehci-first.conf 76166c8e368b6a5d3d792322b4cb30d4 1355986039
+dir /bin
+obj /bin/lsmod cf0b0bd60c2495d55e79770a42f9148a 1355986042
+dir /sbin
+obj /sbin/depmod f595e25fc50572b8fadbba83cde45d59 1355986042
+obj /sbin/modinfo cb7ce86049bb7538f571b043502b53d1 1355986042
+obj /sbin/rmmod 23229b6a487e7b7b8590cd8a9e64f478 1355986042
+obj /sbin/modprobe da0e33fd6ee5c10d1120d39e24bde194 1355986042
+obj /sbin/update-modules 66678c54e4bf9443fafb4956413450bf 1355986039
+obj /sbin/insmod 403f052f6f76f08155a5036a9d748c59 1355986042

@@ -1,0 +1,129 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Manpage of dbus\-monitor</TITLE>
+</HEAD><BODY>
+<H1>dbus\-monitor</H1>
+Section: User Commands  (1)<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+dbus-monitor - debug probe to print message bus messages
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<P>
+
+<B>dbus-monitor</B>
+
+[--system | --session | --address ADDRESS] [--profile | --monitor]
+[watch expressions]
+<P>
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<P>
+The <I>dbus-monitor</I> command is used to monitor messages going
+through a D-Bus message bus.  See
+<A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A> for more information about
+the big picture.
+<P>
+<P>
+
+There are two well-known message buses: the systemwide message bus
+(installed on many systems as the &quot;messagebus&quot; service) and the
+per-user-login-session message bus (started each time a user logs in).
+The --system and --session options direct <I>dbus-monitor</I> to
+monitor the system or session buses respectively.  If neither is
+specified, <I>dbus-monitor</I> monitors the session bus.
+<P>
+<P>
+
+<I>dbus-monitor</I> has two different output modes, the 'classic'-style
+monitoring mode and profiling mode. The profiling format is a compact
+format with a single line per message and microsecond-resolution timing
+information. The --profile and --monitor options select the profiling
+and monitoring output format respectively. If neither is specified,
+<I>dbus-monitor</I> uses the monitoring output format.
+<P>
+<P>
+
+In order to get <I>dbus-monitor</I> to see the messages you are interested
+in, you should specify a set of watch expressions as you would expect to
+be passed to the <I>dbus_bus_add_match</I> function.
+<P>
+<P>
+
+The message bus configuration may keep <I>dbus-monitor</I> from seeing
+all messages, especially if you run the monitor as a non-root user.
+<P>
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<DL COMPACT>
+<DT><I>--system</I>
+
+<DD>
+Monitor the system message bus.
+<DT><I>--session</I>
+
+<DD>
+Monitor the session message bus.  (This is the default.)
+<DT><I>--address ADDRESS</I>
+
+<DD>
+Monitor an arbitrary message bus given at ADDRESS.
+<DT><I>--profile</I>
+
+<DD>
+Use the profiling output format.
+<DT><I>--monitor</I>
+
+<DD>
+Use the monitoring output format.  (This is the default.)
+<P>
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>EXAMPLE</H2>
+
+Here is an example of using dbus-monitor to watch for the gnome typing
+monitor to say things
+<PRE>
+
+  dbus-monitor &quot;type='signal',sender='org.gnome.TypingMonitor',interface='org.gnome.TypingMonitor'&quot;
+
+</PRE>
+
+<P>
+<A NAME="lbAG">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+dbus-monitor was written by Philip Blundell.
+The profiling output mode was added by Olli Salli.
+<P>
+<A NAME="lbAH">&nbsp;</A>
+<H2>BUGS</H2>
+
+Please send bug reports to the D-Bus mailing list or bug tracker,
+see <A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">EXAMPLE</A><DD>
+<DT><A HREF="#lbAG">AUTHOR</A><DD>
+<DT><A HREF="#lbAH">BUGS</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 12:47:24 GMT, December 26, 2012
+</BODY>
+</HTML>

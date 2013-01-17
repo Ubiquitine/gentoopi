@@ -1,0 +1,1 @@
+>=x11-libs/xcb-util-0.3.9 x11-proto/xcb-proto x11-proto/xproto >=dev-util/gperf-3.0.1 || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

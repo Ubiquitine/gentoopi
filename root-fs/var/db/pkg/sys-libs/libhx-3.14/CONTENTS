@@ -1,0 +1,38 @@
+dir /usr
+dir /usr/include
+dir /usr/include/libHX
+obj /usr/include/libHX/misc.h b9da67932feaef44b19414ee1bce9b75 1357492185
+obj /usr/include/libHX/map.h dc68acd597c79bdebbc0e8645db5083f 1357492185
+obj /usr/include/libHX/io.h e0afd504b9bba7f3c8c7af8be8a2d895 1357492185
+obj /usr/include/libHX/string.h abf3d2cb13e72781efb78b46b0c59b62 1357492185
+obj /usr/include/libHX/wx_helper.hpp d8f64b64fab0a3fcc8e9b22c08ba00d4 1357492185
+obj /usr/include/libHX/option.h 07a4c18cc6e48c311e63afb019f60ec2 1357492185
+obj /usr/include/libHX/libxml_helper.h d87a4532bb4336b2c6b86e496958fe9b 1357492185
+obj /usr/include/libHX/defs.h 0bf1e50ff015a8c7406f54ae62dd5aa7 1357492185
+obj /usr/include/libHX/ctype_helper.h e0fafda9fe11aeafccff9fc9cd68a77e 1357492185
+obj /usr/include/libHX/proc.h 28236d7ad36d3b6b744d49246e6cdef9 1357492185
+obj /usr/include/libHX/deque.h 50a3750b4f3ef88c9730289561c4d200 1357492185
+obj /usr/include/libHX/list.h bcfeb7899462c909bbce4d56b495bb99 1357492185
+obj /usr/include/libHX/init.h 9e5a902f842ca90608114d46c0a8abda 1357492185
+obj /usr/include/libHX.h fd0f73f740236add70ffe27e36c59752 1357492185
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libhx-3.14
+obj /usr/share/doc/libhx-3.14/other.txt.bz2 3a3e5d6f1c271d73dfaa9a8e2ba0ce83 1357492187
+obj /usr/share/doc/libhx-3.14/dirstamp.txt.bz2 8c3a0c1272734433af2b3f50a94ddd56 1357492187
+obj /usr/share/doc/libhx-3.14/assorted.txt.bz2 b7229bec9da00bc4117ad32c85230294 1357492187
+obj /usr/share/doc/libhx-3.14/README.txt.bz2 725c1f1133cb196908225ad5e93bc5d0 1357492187
+obj /usr/share/doc/libhx-3.14/api.txt.bz2 a366c728e5327a4660ae63a027053e1c 1357492187
+obj /usr/share/doc/libhx-3.14/libHX_Documentation.pdf 2a08663fb12b2bedc96aa5f555855aaa 1357492184
+obj /usr/share/doc/libhx-3.14/ux-mmap.txt.bz2 7ac3d0ff242bb7d9651ae795caadf24c 1357492187
+obj /usr/share/doc/libhx-3.14/ux-file.txt.bz2 f1b089d4b23a0f8754023b41264c8e22 1357492187
+obj /usr/share/doc/libhx-3.14/changelog.txt.bz2 855b43ca457681d36a2b8f18797b3e0b 1357492187
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libHX.pc eaf4732098fc0035ed00b645f17c2526 1357492186
+obj /usr/lib/libHX.so.28.1.0 6be9d0449e250e14ba9483b2c4400dd7 1357492202
+sym /usr/lib/libHX.so -> libHX.so.28.1.0 1357492231
+obj /usr/lib/libHX.la 87809f4a55f455ac300412ebbd29fff4 1357492186
+obj /usr/lib/libHX_rtcheck.so d038c1ef51629007d22e482a7ace5aa6 1357492202
+sym /usr/lib/libHX.so.28 -> libHX.so.28.1.0 1357492231
+obj /usr/lib/libHX_rtcheck.la b4ca0fddbbfc38af54d8b72c4fda66c9 1357492186

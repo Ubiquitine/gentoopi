@@ -1,0 +1,40 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xterm.1.bz2 9397691f49c3530d0922c2a94755cc15 1356520781
+obj /usr/share/man/man1/resize.1.bz2 1dca66e01eee2204d89f6dc8ba111a56 1356520782
+obj /usr/share/man/man1/koi8rxterm.1.bz2 c9184f07361855ab007ec7039e8eda43 1356520783
+obj /usr/share/man/man1/uxterm.1.bz2 de245e09f7eeee2b8c780e6973d68c2a 1356520782
+dir /usr/share/doc
+dir /usr/share/doc/xterm-285
+obj /usr/share/doc/xterm-285/README.bz2 e35ea8191eb1c4304acac7efd8d5a027 1356520785
+obj /usr/share/doc/xterm-285/README.i18n.bz2 a7065d834a6ff18858a5d3026db60e0e 1356520785
+obj /usr/share/doc/xterm-285/ctlseqs.txt.bz2 36c793c47b47c5d21f79416af4c002ef 1356520785
+dir /usr/share/doc/xterm-285/html
+obj /usr/share/doc/xterm-285/html/xterm.log.html 5dce418843d950a6a875414e658424a3 1356520787
+dir /usr/share/X11
+dir /usr/share/X11/app-defaults
+obj /usr/share/X11/app-defaults/KOI8RXTerm-color 386bba04a4c22a4aec2794c2f9f4f935 1356520784
+obj /usr/share/X11/app-defaults/XTerm 111a880291d7237f155be9fd3f8f44c2 1356520783
+obj /usr/share/X11/app-defaults/UXTerm 3ee3b2958ca3aadba1d7f1f5e419951b 1356520784
+obj /usr/share/X11/app-defaults/XTerm-color adbd50a86a131b6cdf982b240167c92f 1356520788
+obj /usr/share/X11/app-defaults/UXTerm-color 28940789e3eea033193ac412b463a3a5 1356520784
+obj /usr/share/X11/app-defaults/KOI8RXTerm e904665737663827da6ff9b9651910df 1356520784
+dir /usr/share/applications
+obj /usr/share/applications/uxterm.desktop 2eda8a8b4a05ee030ed5a1f3b7734893 1356520787
+obj /usr/share/applications/xterm.desktop 9f15ef649d095a11686dbf02fc9106c9 1356520788
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/xterm-color_32x32.xpm 95ec62d49a114f76b2c64924c0ba585c 1356520784
+obj /usr/share/pixmaps/xterm_48x48.xpm 588c0ff3eebf62a3f9f8e716513c2216 1356520785
+obj /usr/share/pixmaps/mini.xterm_48x48.xpm f42241e00cf73e30ca56e2eaecedadbd 1356520785
+obj /usr/share/pixmaps/xterm_32x32.xpm c14531bd5de0010d93a1ebb56f8dc036 1356520784
+obj /usr/share/pixmaps/xterm-color_48x48.xpm 6a7d3f9db64f5540e64089cbd7457ef2 1356520785
+obj /usr/share/pixmaps/filled-xterm_32x32.xpm ca6cf73536195a099b6e0a88e81e2bd8 1356520784
+obj /usr/share/pixmaps/mini.xterm_32x32.xpm 4edfcfc16fc8b45c7b6994b65c4bcdc5 1356520784
+obj /usr/share/pixmaps/filled-xterm_48x48.xpm d2ae99e23eca41581f8ddabd043960f4 1356520785
+dir /usr/bin
+obj /usr/bin/uxterm 9302ba8a99c2460fae59f88d4039edb6 1356520779
+obj /usr/bin/resize e045e9053073dec3eb4d361884a7c960 1356520808
+obj /usr/bin/xterm c87eb8d50f2b5ffc99163a0eedeaa12b 1356520808
+obj /usr/bin/koi8rxterm 09487426755285ceeca46c8b6d5a107b 1356520780

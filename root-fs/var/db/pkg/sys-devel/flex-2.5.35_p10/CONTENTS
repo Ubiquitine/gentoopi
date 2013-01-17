@@ -1,0 +1,77 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libfl_pic.a a5ad9c482a2c52766bb59b94eef14180 1356000546
+obj /usr/lib/libfl.a fda934479d1f68ee828433242754b9df 1356000546
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/flex.info-1.bz2 9ea62c191f5b69696271f13dc1fb271e 1356000539
+obj /usr/share/info/flex.info-2.bz2 edc31281c77edd27a5fc50f27ec53b79 1356000539
+obj /usr/share/info/flex.info.bz2 a1d23e9479da7892ea701a82c81d3f3b 1356000539
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/flex.1.bz2 2ff4080520cd99d38cc8f0597aa5f998 1356000539
+dir /usr/share/locale
+dir /usr/share/locale/ga
+dir /usr/share/locale/ga/LC_MESSAGES
+obj /usr/share/locale/ga/LC_MESSAGES/flex.mo 915f800795bbfaec544a17802d15e215 1356000540
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/flex.mo 458694711ce04a8c23c08c4cf1e91150 1356000540
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo 7597811455a5d6a2dcb92fda88ae2cde 1356000540
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/flex.mo ef6393dd2d5b8d88f103d643a2bf8bfa 1356000540
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/flex.mo d09d757fc4b0deba724090c43a98cd20 1356000540
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/flex.mo 174cac9c1b83b2ecddc053a699e610ec 1356000540
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/flex.mo 45242c4bb0c1b350347927492a7d9668 1356000540
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/flex.mo 17b0f1f0ba13514cc82ff0c20e4c2573 1356000540
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/flex.mo 2e446e535969341e7b70d061636b8fbb 1356000540
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/flex.mo 0817ade888e02e390f700da6437b8ae3 1356000540
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/flex.mo cb34ec1cdc1008484392b7f67a1ced3f 1356000540
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/flex.mo c54b10b72a4d79769bc085da5411c0c7 1356000540
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/flex.mo 539056855a171f442a088e1458aff8f4 1356000540
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/flex.mo 847362d25c6c7a22b2f74885b5324b13 1356000540
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/flex.mo f3ca85807fb3afd4151fa8df789fa028 1356000540
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/flex.mo 2068865b2b151d5641f1eaa79b43daf1 1356000540
+dir /usr/share/doc
+dir /usr/share/doc/flex-2.5.35_p10
+obj /usr/share/doc/flex-2.5.35_p10/THANKS.bz2 98d4ac560e01bafefdf660d044a08a63 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/NEWS.bz2 f07a89b5dac4918b84786095fee03648 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/README.bz2 c3e4045e8792267a376d78ea9281d416 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/README-alpha.bz2 dd7573bdd2761037ed2e5eb54d409b47 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/ONEWS.bz2 6b292c62a2bc5b7bba1c59cff8ce856d 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/TODO.bz2 5faf84fc891ffdaa6da7a968f93da973 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/README.cvs.bz2 92348c2b3b079d368ff19cf3f08f01a0 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/ChangeLog.bz2 e737bb9826d680a65e7c748aabe80e52 1356000542
+obj /usr/share/doc/flex-2.5.35_p10/AUTHORS.bz2 6c84e299a94ac991be7ad59f73f9346b 1356000542
+dir /usr/bin
+sym /usr/bin/lex -> flex 1356000553
+obj /usr/bin/flex fb4fd9e90144116486846bdc8f07f94a 1356000546
+dir /usr/include
+obj /usr/include/FlexLexer.h 09b454bc31eefe6c9c7ed6d172d4dde3 1356000539

@@ -1,0 +1,8 @@
+dir /usr
+dir /usr/libexec
+obj /usr/libexec/gnome-pty-helper f02551c1b23736092e88bafab3109946 1356706999
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/gnome-pty-helper-0.32.2
+obj /usr/share/doc/gnome-pty-helper-0.32.2/README.bz2 dd0a892c61174b467a9ee0d2a490a323 1356706980
+obj /usr/share/doc/gnome-pty-helper-0.32.2/AUTHORS.bz2 fa949985c7dc1f7ded9bbf940dca61e7 1356706980

@@ -1,0 +1,1 @@
+crypt icu samba slp tcpd experimental minimal +berkdb overlays perl gnutls iodbc sasl ssl odbc debug ipv6 +syslog selinux smbkrb5passwd kerberos -cxx ssl

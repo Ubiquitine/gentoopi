@@ -1,0 +1,1 @@
+sys-libs/zlib sys-libs/readline =dev-lang/python-2* =dev-lang/python-2*[xml]

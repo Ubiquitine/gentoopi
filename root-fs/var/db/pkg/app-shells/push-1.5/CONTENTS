@@ -1,0 +1,7 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/push-1.5
+obj /usr/share/doc/push-1.5/README.bz2 4eb45be6054671399066b9de317f03ed 1356509709
+dir /usr/bin
+obj /usr/bin/push.sh d7f85d290bdebe1d8cd6a6cbf9006d9e 1356509709

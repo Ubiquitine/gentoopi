@@ -1,0 +1,24 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xinerama.h 2dcc6783fc513e6d90f0c8d98fdcea9e 1356529786
+obj /usr/include/X11/extensions/panoramiXext.h 28d70f6509bc592a2a92f9e4df5ec2b3 1356529786
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xinerama.pc 486e86673a29b38619daf6bd7bc72c70 1356529786
+obj /usr/lib/libXinerama.so.1.0.0 d8a85f30834f74202a8ec1b3dc4ba2eb 1356529812
+sym /usr/lib/libXinerama.so -> libXinerama.so.1.0.0 1356529841
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XineramaIsActive.3.bz2 c1d5b90865a702c561808a983a790dbb 1356529786
+obj /usr/share/man/man3/XineramaQueryExtension.3.bz2 c1d5b90865a702c561808a983a790dbb 1356529786
+obj /usr/share/man/man3/XineramaQueryVersion.3.bz2 c1d5b90865a702c561808a983a790dbb 1356529786
+obj /usr/share/man/man3/Xinerama.3.bz2 e6762dd919cc0c38e3ef9e01a23c7441 1356529786
+obj /usr/share/man/man3/XineramaQueryScreens.3.bz2 c1d5b90865a702c561808a983a790dbb 1356529786
+dir /usr/share/doc
+dir /usr/share/doc/libXinerama-1.1.2
+obj /usr/share/doc/libXinerama-1.1.2/README.bz2 59dd8a11870f8cf41aeb6fbe67b8e01a 1356529787
+obj /usr/share/doc/libXinerama-1.1.2/ChangeLog.bz2 0bfd290150241f543733c2bc9129290b 1356529788
+sym /usr/lib/libXinerama.so.1 -> libXinerama.so.1.0.0 1356529841

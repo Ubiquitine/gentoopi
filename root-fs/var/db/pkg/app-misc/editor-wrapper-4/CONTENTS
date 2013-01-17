@@ -1,0 +1,4 @@
+dir /usr
+dir /usr/libexec
+obj /usr/libexec/editor d7e5bafd1259aa968fef3dcfc95f87fb 1355985625
+obj /usr/libexec/pager bd53da97164b6dc7a28b1eec2ea57238 1355985625

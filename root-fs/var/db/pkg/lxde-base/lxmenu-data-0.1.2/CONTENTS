@@ -1,0 +1,31 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/menus
+obj /etc/xdg/menus/lxde-applications.menu 95c247a4a9634113d18bee0f708d0a06 1356708046
+dir /usr
+dir /usr/share
+dir /usr/share/desktop-directories
+obj /usr/share/desktop-directories/lxde-network.directory bccecf86dc3665b4f2aa79ad3fd0f7e0 1356708046
+obj /usr/share/desktop-directories/lxde-look-and-feel.directory 2e8249f45be9a11ec0556f34ecad9016 1356708046
+obj /usr/share/desktop-directories/lxde-other.directory e5d9c7696b2e1030a13d3fae7de56392 1356708046
+obj /usr/share/desktop-directories/lxde-audio-video.directory d5240ca76192d235e427b63170ccdf87 1356708046
+obj /usr/share/desktop-directories/lxde-utility.directory 73d321bc6a56d0a5186ee6f512504096 1356708046
+obj /usr/share/desktop-directories/lxde-utility-accessibility.directory b5995ccb65449653f043aa1b07bdbdb0 1356708046
+obj /usr/share/desktop-directories/lxde-development.directory 35c8b1434fa5cd9b799d9fe5b445cc4d 1356708046
+obj /usr/share/desktop-directories/lxde-menu-system.directory a22f28b66cde8fe0534347f566b9c6db 1356708046
+obj /usr/share/desktop-directories/lxde-menu-applications.directory 289d1df7946f9df81a4a7cb927d822c1 1356708046
+obj /usr/share/desktop-directories/lxde-settings-system.directory 7f20358bc821552c5f6207e2f1908d1f 1356708046
+obj /usr/share/desktop-directories/lxde-hardware.directory f1a05b615b6ff5c6af86e734d7275c37 1356708046
+obj /usr/share/desktop-directories/lxde-system.directory 3d10b574362ecc4bea51585c3af20943 1356708046
+obj /usr/share/desktop-directories/lxde-internet-and-network.directory b8174e574f3263f7474ae39df381b857 1356708046
+obj /usr/share/desktop-directories/lxde-settings.directory d54763a532fcd4031ef4f00fdd5b8e12 1356708046
+obj /usr/share/desktop-directories/lxde-education.directory 39ade4b535bb8230554d683ed8d6b47a 1356708046
+obj /usr/share/desktop-directories/lxde-graphics.directory a8a805995656957422bb1b49af23b7a5 1356708046
+obj /usr/share/desktop-directories/lxde-system-tools.directory 3c6e200ab5b9d4ccc41404b0ea18b726 1356708046
+obj /usr/share/desktop-directories/lxde-personal.directory 26411b380f0a274313067efe10b2ba00 1356708046
+obj /usr/share/desktop-directories/lxde-office.directory 282e0309c3cf8c7c40b132066970c075 1356708046
+obj /usr/share/desktop-directories/lxde-game.directory 93ea92609073098a2371d4542c2cde77 1356708046
+dir /usr/share/doc
+dir /usr/share/doc/lxmenu-data-0.1.2
+obj /usr/share/doc/lxmenu-data-0.1.2/README.bz2 781834d2f71135e0f8e88ccac6815b94 1356708046
+obj /usr/share/doc/lxmenu-data-0.1.2/AUTHORS.bz2 07874973d2706e5f66adef6e12ca9d3b 1356708046

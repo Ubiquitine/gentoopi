@@ -1,0 +1,138 @@
+dir /usr
+dir /usr/include
+dir /usr/include/alsa
+obj /usr/include/alsa/seq.h 7938ba2edf811257294f960776fd8b8d 1356527650
+obj /usr/include/alsa/pcm_rate.h 66044ced59120b78994a42265a92fbc3 1356527650
+obj /usr/include/alsa/iatomic.h ef5a8cefcdba872e1864acba0e6ab556 1356527650
+obj /usr/include/alsa/rawmidi.h a531ff61e34469855a62c17fb12b6b2b 1356527650
+obj /usr/include/alsa/pcm_external.h dcc06740efb07b25bc5c1ab2dcb1705d 1356527650
+obj /usr/include/alsa/control_external.h 4ac6652e80ca308068bc3cff714a73cf 1356527650
+obj /usr/include/alsa/pcm.h f50d20d0f942b7003642a39e2410a152 1356527650
+obj /usr/include/alsa/pcm_extplug.h 67c3d632e30823d2f7430397477d1107 1356527650
+dir /usr/include/alsa/sound
+obj /usr/include/alsa/sound/type_compat.h 8232781e866acdae72522ddad05e839e 1356527649
+obj /usr/include/alsa/sound/emu10k1.h 35d46aa934fb358856e83d3730a70dc6 1356527649
+obj /usr/include/alsa/sound/sscape_ioctl.h 97513ecdcfcfb6a6595ffc87c1a8a366 1356527649
+obj /usr/include/alsa/sound/sb16_csp.h feda855529ec5047ec3d0828c8357b08 1356527649
+obj /usr/include/alsa/sound/asound_fm.h a4d89e98774fbe85eb2f155d99db8041 1356527649
+obj /usr/include/alsa/sound/hdspm.h 7338c3423fe16ace6d32007ffe174dde 1356527649
+obj /usr/include/alsa/sound/hdsp.h 50f4df3dbc229cdd646620e202f279d7 1356527649
+obj /usr/include/alsa/error.h 65bcf7eddb022ba39c13884205cddf60 1356527650
+obj /usr/include/alsa/asoundlib.h 72e4dfcfea20971e93f4966360c71bb7 1356527650
+obj /usr/include/alsa/asoundef.h 1b791afad7af77134f24047b8f21df42 1356527650
+obj /usr/include/alsa/pcm_plugin.h 6f09334ff3ffd25d458ca314f0512cc3 1356527650
+obj /usr/include/alsa/input.h 2f64e84465c0eb0c8776935994ac3208 1356527650
+obj /usr/include/alsa/seq_midi_event.h 6cb23d8fced0030d7c5cfa2fdcd996f3 1356527650
+obj /usr/include/alsa/global.h aaf0a7bc7e76322a0b2f658b3bdd82d9 1356527650
+obj /usr/include/alsa/hwdep.h 8f98df0074e3f1b903314c0e0eca929a 1356527650
+obj /usr/include/alsa/use-case.h e1aa7c1e6291a987ba323027c6850ddf 1356527650
+obj /usr/include/alsa/seq_event.h b2921ee74b24e237490b282c146c33e2 1356527650
+obj /usr/include/alsa/control.h 898eb32b68c20876a469cdb866ec114c 1356527650
+obj /usr/include/alsa/pcm_old.h de0e8d157930e22451645768ccdda097 1356527650
+obj /usr/include/alsa/timer.h 359e1edb5fcdef1203a3cf20018204b3 1356527650
+obj /usr/include/alsa/seqmid.h 86bbdffd412afffd969795c8851f1498 1356527650
+obj /usr/include/alsa/output.h 06600a342267df5d12b723fa5c0206c9 1356527650
+obj /usr/include/alsa/mixer_abst.h 67fc2f22c84089ea38bf58d6b04938da 1356527650
+obj /usr/include/alsa/mixer.h 2c855f9ed45aaf1058b9434b725d75b1 1356527650
+obj /usr/include/alsa/conf.h 5ceeefb98cce872ead3b00ad53c3cb46 1356527650
+obj /usr/include/alsa/pcm_ioplug.h 70a60b3b6a7683ac27730fd56d28c8a6 1356527650
+obj /usr/include/alsa/version.h 76198c6ae572fccd4bdfe273ae81defc 1356527650
+dir /usr/include/sys
+obj /usr/include/sys/asoundlib.h cfd2a8eef84856533050f26deea94437 1356527651
+dir /usr/lib
+obj /usr/lib/libasound.so.2.0.0 4105faed01cf85f297784d18eb978d1c 1356527700
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/alsa.pc 079d635849ff27e594b02319a00bc0a4 1356527666
+dir /usr/lib/alsa-lib
+dir /usr/lib/alsa-lib/smixer
+obj /usr/lib/alsa-lib/smixer/smixer-hda.so dea694c8ea75cb1a22178f996df1dfbc 1356527701
+obj /usr/lib/alsa-lib/smixer/smixer-sbase.so 22bf65c9c128bacf552d93715f6d50a4 1356527701
+obj /usr/lib/alsa-lib/smixer/smixer-ac97.so dbfd61cba3c15d868e537e78b1b4a069 1356527701
+sym /usr/lib/libasound.so.2 -> libasound.so.2.0.0 1356527735
+sym /usr/lib/libasound.so -> libasound.so.2.0.0 1356527735
+dir /usr/share
+dir /usr/share/alsa
+dir /usr/share/alsa/alsa.conf.d
+obj /usr/share/alsa/alsa.conf.d/README 7c708db5587cf53a6b4da28fb3118c01 1356527653
+obj /usr/share/alsa/smixer.conf b43faf4629b503260f65abfd0a25800f 1356527653
+dir /usr/share/alsa/pcm
+obj /usr/share/alsa/pcm/modem.conf d9aab39c652ff63dfca3a5828713cb34 1356527653
+obj /usr/share/alsa/pcm/surround41.conf feaa19470e4a7271ec8174615cee45aa 1356527653
+obj /usr/share/alsa/pcm/dsnoop.conf dfd4f6359acd5c1b32ad03bb5d72bea4 1356527653
+obj /usr/share/alsa/pcm/surround50.conf 73623c2e007627661ef88481b39dcd1a 1356527653
+obj /usr/share/alsa/pcm/default.conf 487e82468bb038522279d2c1459a2120 1356527653
+obj /usr/share/alsa/pcm/center_lfe.conf a0e8f0de39f34acf809a0b8110a65ade 1356527653
+obj /usr/share/alsa/pcm/dmix.conf 8a4528eabeaad816d7b4656376b3f982 1356527653
+obj /usr/share/alsa/pcm/surround51.conf 9628e4d002cb60ca601b84e402170407 1356527653
+obj /usr/share/alsa/pcm/front.conf cbf8eddf89a7325b61575268044990c9 1356527653
+obj /usr/share/alsa/pcm/dpl.conf ae6d7db349c2da7f0ddd38035e162166 1356527653
+obj /usr/share/alsa/pcm/side.conf 0ff98410642ae96284cedfe843df8079 1356527653
+obj /usr/share/alsa/pcm/surround71.conf 9410a0c1f086b78eb7c1cbd584d93787 1356527653
+obj /usr/share/alsa/pcm/rear.conf fa515b54411bb81540c66a0d8e7fc479 1356527653
+obj /usr/share/alsa/pcm/surround40.conf b3527d37194edfe0dbead04018ecb6b7 1356527653
+obj /usr/share/alsa/pcm/iec958.conf 11579a5b50f3b370e902afd460cb149a 1356527653
+obj /usr/share/alsa/pcm/hdmi.conf 6f33c79f46f584cee3171dc20fe898fe 1356527653
+dir /usr/share/alsa/cards
+obj /usr/share/alsa/cards/VIA8237.conf ae0e97083fbff30939a0a6be2c44a539 1356527653
+obj /usr/share/alsa/cards/Aureon71.conf 0c5b4770676ca3a4ef1d02139896cfc6 1356527652
+obj /usr/share/alsa/cards/CS46xx.conf e56f7b0b714ff1aee371480b28521703 1356527652
+obj /usr/share/alsa/cards/aliases.conf c6cf6f239e257c242a808e0a1fdc26e3 1356527652
+obj /usr/share/alsa/cards/USB-Audio.conf 9102380f58fddfe5a64dacff99dc80fc 1356527653
+obj /usr/share/alsa/cards/EMU10K1X.conf 400d8152e00994a64bc15a78266835ee 1356527652
+obj /usr/share/alsa/cards/CMI8788.conf 27768ae7e40d0a0859cf0f08118f788b 1356527652
+obj /usr/share/alsa/cards/Aureon51.conf 8bde77d0fcd1344204d56bf8f551b251 1356527652
+obj /usr/share/alsa/cards/CMI8738-MC8.conf 418f373bc54936a9bd66f3fbb03ca5ca 1356527652
+obj /usr/share/alsa/cards/VXPocket440.conf d7950ce70c99d01c024288f6e78a7eb9 1356527653
+obj /usr/share/alsa/cards/ICH-MODEM.conf 1837782a0132e61065179c8ceb1172b6 1356527652
+obj /usr/share/alsa/cards/TRID4DWAVENX.conf a8a180b6b3d8d9475eb92cdd2003eac3 1356527653
+obj /usr/share/alsa/cards/RME9636.conf b240423f9484099f7cb276d6b78b8fb8 1356527653
+obj /usr/share/alsa/cards/CMI8738-MC6.conf 43fd42bb157fe8c439c301752ac06455 1356527652
+obj /usr/share/alsa/cards/CMI8338.conf fee3644c92735b3dbd736a63b1f1d8bd 1356527652
+obj /usr/share/alsa/cards/ICE1712.conf 1a62a1a82b45c3825cc0fc7b0b47839f 1356527652
+obj /usr/share/alsa/cards/YMF744.conf 25bdf86baca90aa75cd41ddfce94579b 1356527653
+obj /usr/share/alsa/cards/EMU10K1.conf cdb2e6623c39a7ea42b7a2dc89f1eac3 1356527652
+obj /usr/share/alsa/cards/Audigy.conf fe0ceab6ca62b15e7658daf20880291a 1356527652
+obj /usr/share/alsa/cards/AU8830.conf 662558aa6933002d5d4e63018e293ad7 1356527652
+obj /usr/share/alsa/cards/CA0106.conf fbc98e4441b08a69a697f185245a0995 1356527652
+obj /usr/share/alsa/cards/ICH4.conf 553b50d38cbf1bbfd92cdba9a9d203d6 1356527652
+obj /usr/share/alsa/cards/FireWave.conf 23962c8135839cb824d4a0932b7f3a1a 1356527652
+obj /usr/share/alsa/cards/FM801.conf 113c24d6c6914b311ae4d5d49fbeac41 1356527652
+obj /usr/share/alsa/cards/PMac.conf 4fcd0cc4b6d8c6f121fa9420ab7a95ab 1356527652
+obj /usr/share/alsa/cards/VIA8233.conf 28ad8366f85ff535aa7c14b4bfa69c34 1356527653
+obj /usr/share/alsa/cards/CMI8338-SWIEC.conf fc1cc2be8a4062f0263c152c424a3684 1356527652
+obj /usr/share/alsa/cards/NFORCE.conf abdcfbf5aa5dc51a5f946bbb167c7013 1356527652
+obj /usr/share/alsa/cards/VIA686A.conf ce023f2a7542adc65b1aadb71103bd24 1356527653
+obj /usr/share/alsa/cards/AACI.conf ed1423f966d181095a576dd2cc0f53ae 1356527652
+obj /usr/share/alsa/cards/ATIIXP-SPDMA.conf 9c9689a83349456f88a15d5c181544b8 1356527652
+obj /usr/share/alsa/cards/ENS1371.conf b9581f156e0f3c8c2c1b45a674dc042f 1356527652
+obj /usr/share/alsa/cards/SI7018.conf 3e388d4f1b4e2c635d00ccba826e4097 1356527653
+obj /usr/share/alsa/cards/ES1968.conf 88d2957c29b72c341645dfff729ad078 1356527652
+obj /usr/share/alsa/cards/SB-XFi.conf 2000ab276fe720f9c16a044b924b7a77 1356527653
+obj /usr/share/alsa/cards/Maestro3.conf 8faacf40a1e42e3089111d3cf64533dc 1356527652
+obj /usr/share/alsa/cards/GUS.conf 1a78fbc2f9a7f33e83676f30dd3990e3 1356527652
+obj /usr/share/alsa/cards/FWSpeakers.conf 9a2f16ef24c59e19ef78243bec11cbfd 1356527652
+obj /usr/share/alsa/cards/RME9652.conf f26497f940e6f4237a3b9727df750cb0 1356527653
+obj /usr/share/alsa/cards/VXPocket.conf a854970c4f1e10a985affc5dcbfcb4ba 1356527653
+obj /usr/share/alsa/cards/VIA8233A.conf 5414f4813521a89ff11cfd1c6f045e8c 1356527653
+obj /usr/share/alsa/cards/VX222.conf 035ab192ff65e43c0d2f9afd94484117 1356527653
+obj /usr/share/alsa/cards/PS3.conf 571ace2d72440b17ba2ea8d1568b6131 1356527653
+obj /usr/share/alsa/cards/AU8810.conf 218e0321b6a2cb27864d18834380f201 1356527652
+obj /usr/share/alsa/cards/HDA-Intel.conf 09e86a48e0b04d0a73899df6ad9663c0 1356527652
+obj /usr/share/alsa/cards/ATIIXP.conf 1aa7d3d8c293a6cb29a77eef15cbcf57 1356527652
+obj /usr/share/alsa/cards/Audigy2.conf 0917148f09a65c3c97350f71230c25c4 1356527652
+obj /usr/share/alsa/cards/PC-Speaker.conf f755412d12bbc6970131fc9880dd5762 1356527652
+obj /usr/share/alsa/cards/PMacToonie.conf 44fab56e772b1da4a9160a866d396833 1356527653
+obj /usr/share/alsa/cards/ICH.conf e4005570e5ebcd2b2f3569f5268d79d9 1356527652
+obj /usr/share/alsa/cards/AU8820.conf dfb5dff22e7db68e5b7bc1b12fd8d155 1356527652
+obj /usr/share/alsa/cards/ICE1724.conf fe1f92f777586f3541f714a7112fc921 1356527652
+obj /usr/share/alsa/cards/ATIIXP-MODEM.conf 78523c087c9a8c87cbf75df388fc6b60 1356527652
+obj /usr/share/alsa/cards/ENS1370.conf 7c200bd842745c4c789a1396eeebf6db 1356527652
+obj /usr/share/alsa/alsa.conf baa875f1767e22550ec85c0b99bd8f9d 1356527653
+dir /usr/share/doc
+dir /usr/share/doc/alsa-lib-1.0.25-r1
+obj /usr/share/doc/alsa-lib-1.0.25-r1/TODO.bz2 a3d94f101899d41d3b8e1cea09f2be3b 1356527667
+obj /usr/share/doc/alsa-lib-1.0.25-r1/ChangeLog.bz2 45562e72699852e33389b4bcdb08114e 1356527667
+dir /usr/share/aclocal
+obj /usr/share/aclocal/alsa.m4 34e64225b54a7e39523e3786723792cc 1356527666
+dir /usr/bin
+obj /usr/bin/aserver feb713105d6eb55a71e792e7560090f2 1356527701

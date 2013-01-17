@@ -1,0 +1,1 @@
+>=dev-libs/glib-2 dev-libs/libxml2 app-arch/xz-utils dev-util/intltool virtual/pkgconfig sys-devel/gettext

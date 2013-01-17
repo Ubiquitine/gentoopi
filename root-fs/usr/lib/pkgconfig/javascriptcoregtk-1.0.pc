@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: JavaScriptCoreGTK+
+Description: GTK+ version of the JavaScriptCore engine
+Version: 1.8.3
+Requires: glib-2.0
+Libs: -L${libdir} -ljavascriptcoregtk-1.0
+Cflags: -I${includedir}/webkitgtk-1.0

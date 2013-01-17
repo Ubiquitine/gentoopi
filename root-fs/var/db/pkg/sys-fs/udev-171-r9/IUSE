@@ -1,0 +1,1 @@
+build selinux test debug +rule_generator hwdb gudev introspection keymap floppy edd action_modeswitch extras

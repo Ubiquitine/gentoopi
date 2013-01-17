@@ -1,0 +1,17 @@
+#!/sbin/runscript
+# Copyright (c) 2007-2009 Roy Marples <roy@marples.name>
+# Released under the 2-clause BSD license.
+
+description="Sets the hostname of the machine."
+
+depend() {
+	keyword -prefix -lxc
+}
+
+start()
+{
+	hostname=${hostname-${HOSTNAME-localhost}}
+	ebegin "Setting hostname to $hostname"
+	hostname "$hostname"
+	eend $? "Failed to set the hostname"
+}

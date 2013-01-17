@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+obj /usr/include/X11/xpm.h c42345b152663908c3f34bf397216769 1356516813
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xpm.pc 27a1b93382c828bd099d2f8a57844285 1356516816
+obj /usr/lib/libXpm.so.4.11.0 ff7bf5d6f39b9fdd0682766bdecb3f83 1356516842
+sym /usr/lib/libXpm.so -> libXpm.so.4.11.0 1356516871
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/cxpm.1.bz2 3adeae3a6d73d5ba7f5b3446fb00a789 1356516813
+obj /usr/share/man/man1/sxpm.1.bz2 0c7836929308400228dc3f51a634d3f1 1356516813
+dir /usr/share/doc
+dir /usr/share/doc/libXpm-3.5.10
+obj /usr/share/doc/libXpm-3.5.10/README.bz2 bc5a6276a7772465811537b0f5416bd7 1356516817
+obj /usr/share/doc/libXpm-3.5.10/AUTHORS.bz2 ebfb90dcd4b4ccafee162aa660462771 1356516818
+obj /usr/share/doc/libXpm-3.5.10/ChangeLog.bz2 dfc3df57b272e12a2eb4cc2cefb3665a 1356516818
+dir /usr/bin
+obj /usr/bin/sxpm f8dc5047e384b7fb4ef2b4df1b8364ae 1356516842
+obj /usr/bin/cxpm 0f4b9b5208552e5f02927ca73c4b3ebf 1356516843
+sym /usr/lib/libXpm.so.4 -> libXpm.so.4.11.0 1356516872

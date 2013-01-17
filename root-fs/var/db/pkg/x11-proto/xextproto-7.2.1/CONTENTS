@@ -1,0 +1,59 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/shapeconst.h 1d961d11c36d2200f6fdb3dd55dd48bf 1356354637
+obj /usr/include/X11/extensions/dpmsproto.h 518a253911ad7997e64ade4cc9211e9c 1356354637
+obj /usr/include/X11/extensions/shmstr.h 03f0781e7f370542061688a35a6b42e4 1356354637
+obj /usr/include/X11/extensions/syncproto.h e997870d78929782cbe845a60451d7b7 1356354637
+obj /usr/include/X11/extensions/ag.h a59d29f57fe346cad9d6d6e868a1d53b 1356354637
+obj /usr/include/X11/extensions/shmproto.h a128bcad4b0bcc6073fa24925325909d 1356354637
+obj /usr/include/X11/extensions/dpmsconst.h 4836f0e19f89bf61e678f1e4cab12c38 1356354637
+obj /usr/include/X11/extensions/EVIproto.h a62326dd601ebd67a0e6f5cb18b6c454 1356354637
+obj /usr/include/X11/extensions/ge.h c605b0f2af030ad10a36690c48d8dd12 1356354637
+obj /usr/include/X11/extensions/xtestext1proto.h 592f4ce8ee4da7eeb3cfd04f4ac9fa72 1356354637
+obj /usr/include/X11/extensions/syncconst.h 70dcc447931951c1748f33f1f8af3817 1356354637
+obj /usr/include/X11/extensions/xtestconst.h 0075aa2cce35c11d5a8db68c2530bc0c 1356354637
+obj /usr/include/X11/extensions/lbxproto.h b449cf334aba020d53a517c8e90f76b7 1356354637
+obj /usr/include/X11/extensions/shapestr.h d14d4d2494abd35e620ddcef6174ce5b 1356354637
+obj /usr/include/X11/extensions/multibufconst.h 3096e5cfc4590c15022053bd04925620 1356354637
+obj /usr/include/X11/extensions/cupproto.h 4dfe791dc223e0a1076dcd396ecc9a1c 1356354637
+obj /usr/include/X11/extensions/agproto.h 5a0ea5aa282be282182e04f8588f00c0 1356354637
+obj /usr/include/X11/extensions/secur.h 60a0b427714e5b8541761458ed3f896e 1356354637
+obj /usr/include/X11/extensions/mitmiscconst.h dedfd53ab6eecb50643c455b6811ddad 1356354637
+obj /usr/include/X11/extensions/cup.h 1ed26349eee476270ca45c929bbe8d24 1356354637
+obj /usr/include/X11/extensions/EVI.h 88d170deb29a5e2cd0b9798fd6e14d9b 1356354637
+obj /usr/include/X11/extensions/geproto.h 8d2ecdf2a044739146408642ed1fe4fb 1356354637
+obj /usr/include/X11/extensions/shapeproto.h 5485e7e2a3dbbf6fdb20b1fdda981680 1356354637
+obj /usr/include/X11/extensions/shm.h 492829e5113affaa3a93778801c38b83 1356354637
+obj /usr/include/X11/extensions/multibufproto.h a04f3397660784047adeb9387d7a3e90 1356354637
+obj /usr/include/X11/extensions/lbx.h aa0104465c7b44111439d27b0c3ed177 1356354637
+obj /usr/include/X11/extensions/syncstr.h e7952eeb08ce63c9aad85c49f02e152b 1356354637
+obj /usr/include/X11/extensions/dbe.h 30ad1572447584a2d5337162659da906 1356354637
+obj /usr/include/X11/extensions/securproto.h 09b6df6f3a46b7b03ef0c9fb9e6fba37 1356354637
+obj /usr/include/X11/extensions/xtestproto.h 20d7c67fdb3b2271a28cda5279f4ab8e 1356354637
+obj /usr/include/X11/extensions/xtestext1const.h a1c6f46d2c237da2a1d365d1fe330c89 1356354637
+obj /usr/include/X11/extensions/mitmiscproto.h 23f7b2b5f5d101a68096591bf93e46d2 1356354637
+obj /usr/include/X11/extensions/dbeproto.h fc2d6943a039d7768fb98d0505116b59 1356354637
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xextproto.pc 0aae444dcc8ba09c74f3d880cdd9a843 1356354637
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xextproto-7.2.1
+obj /usr/share/doc/xextproto-7.2.1/dbe.xml.bz2 623d42ab4b755e056ca21aa4e283d03b 1356354636
+obj /usr/share/doc/xextproto-7.2.1/README.bz2 bd4b267d19805eba8ebb1b3575743575 1356354637
+obj /usr/share/doc/xextproto-7.2.1/shape.xml.bz2 ab0daa321e367b9bc90c7d69bbf50de2 1356354636
+obj /usr/share/doc/xextproto-7.2.1/dpms.xml.bz2 3c7285e52d93561ff0d52c21d405ee77 1356354636
+obj /usr/share/doc/xextproto-7.2.1/security.xml.bz2 c0e9dcbc9b3567cc4325a2143b6222cd 1356354636
+obj /usr/share/doc/xextproto-7.2.1/geproto.xml.bz2 2b059b3adfa2f66afc91bcf3250da92e 1356354636
+obj /usr/share/doc/xextproto-7.2.1/sync.xml.bz2 5ac78b3040f5746755d283a705f30dfc 1356354636
+obj /usr/share/doc/xextproto-7.2.1/shm.xml.bz2 a85ef0d7f00f2bd26cb05b03ef3c5eeb 1356354636
+obj /usr/share/doc/xextproto-7.2.1/tog-cup.xml.bz2 4d65242205f4b30bce73f189940f99d7 1356354636
+obj /usr/share/doc/xextproto-7.2.1/evi.xml.bz2 be80194244356bed80cebcc2a646e062 1356354636
+obj /usr/share/doc/xextproto-7.2.1/multibuf.xml.bz2 6bcfa916e14ef764044a7840f5f4be74 1356354636
+obj /usr/share/doc/xextproto-7.2.1/appgrp.xml.bz2 4f04e9b7c2bcfcc0292f99accffd3585 1356354636
+obj /usr/share/doc/xextproto-7.2.1/xtest.xml.bz2 19a3cf159b716110d11aca31021be451 1356354636
+obj /usr/share/doc/xextproto-7.2.1/ChangeLog.bz2 cbccb90200cd710c168292fc9166924f 1356354638
+obj /usr/share/doc/xextproto-7.2.1/lbx.xml.bz2 bbc1699d8dcdd9c47ee29389b240302b 1356354636
+obj /usr/share/doc/xextproto-7.2.1/appendix.xml.bz2 526fec86bcb9d94cff2fed2983c4d3e9 1356354636

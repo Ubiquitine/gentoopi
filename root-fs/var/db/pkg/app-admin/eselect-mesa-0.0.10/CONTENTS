@@ -1,0 +1,5 @@
+dir /usr
+dir /usr/share
+dir /usr/share/eselect
+dir /usr/share/eselect/modules
+obj /usr/share/eselect/modules/mesa.eselect 87dfbe50a009315fd896635dca560bfa 1356442035

@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/saverproto.h 7a9fa6af16315929587adb2cb472980f 1356436592
+obj /usr/include/X11/extensions/saver.h e2cd683dc8c6c1f7cea57653f66c2c15 1356436592
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/scrnsaverproto.pc 29b93040f28d0b09490772bbc2cf686a 1356436592
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/scrnsaverproto-1.2.2
+obj /usr/share/doc/scrnsaverproto-1.2.2/README.bz2 0afbd61da8eb99fb598f48acc91053e8 1356436592
+obj /usr/share/doc/scrnsaverproto-1.2.2/ChangeLog.bz2 4e7e48d207d5e92101fb7ed5e31cc34e 1356436593

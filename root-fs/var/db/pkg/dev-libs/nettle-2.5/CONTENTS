@@ -1,0 +1,70 @@
+dir /usr
+dir /usr/include
+dir /usr/include/nettle
+obj /usr/include/nettle/macros.h 9583de57c88d22e787913530a24e82df 1357497300
+obj /usr/include/nettle/des-compat.h f7216517e41bd398bdb83e5f81ddbdc2 1357497299
+obj /usr/include/nettle/yarrow.h f08da6fd9f6a37debfe557ce1f9ee39e 1357497300
+obj /usr/include/nettle/realloc.h e3522775ae89996216b7c56b613743fe 1357497300
+obj /usr/include/nettle/salsa20.h 64dab19f0a65f25ca9ad0404b5e23aa5 1357497300
+obj /usr/include/nettle/gcm.h ce78913f1bc03eb0b03feca2b86567f5 1357497299
+obj /usr/include/nettle/cbc.h f8a18f58a5203a0692d9686af8e1ab41 1357497299
+obj /usr/include/nettle/pgp.h 68eb043c11673ed8278fce75135c52c9 1357497300
+obj /usr/include/nettle/md4.h c76ebd96e4e00aea7b5770b9ad985e2f 1357497300
+obj /usr/include/nettle/asn1.h 82cbd97836c354ae987388b131b545e8 1357497299
+obj /usr/include/nettle/ripemd160.h 6dad615a764d8f418a46dbac9a8dd2db 1357497300
+obj /usr/include/nettle/nettle-types.h 843480b4dd0c578aed238c6889353278 1357497300
+obj /usr/include/nettle/des.h e622c17fdf380fab5e7c6dba9b6c0aa1 1357497299
+obj /usr/include/nettle/blowfish.h cb9f3a4e3f1ea3af139765683d009d9f 1357497299
+obj /usr/include/nettle/dsa.h 204f05d0f8ab4561b5943bada13b86be 1357497299
+obj /usr/include/nettle/base64.h 73922fec02c1531cab3536ad1f21f70c 1357497299
+obj /usr/include/nettle/knuth-lfib.h e90dc9a37a6313b12c766ef9549d4fe5 1357497300
+obj /usr/include/nettle/camellia.h d6b9012e220a14fe602cf980ec2f7f77 1357497299
+obj /usr/include/nettle/sexp.h e1a60ceaf3e7963ef6bfe6e6246c7526 1357497300
+obj /usr/include/nettle/md2.h 48302badceb119f4e5773b782855889c 1357497300
+obj /usr/include/nettle/buffer.h 6f8547bfa40b7e1fe2a691d3b156e716 1357497299
+obj /usr/include/nettle/bignum.h 9215b38f198c24beff2007251b052e56 1357497299
+obj /usr/include/nettle/arctwo.h 6a730de5beac19bf7e3dbd49b1a4f16a 1357497299
+obj /usr/include/nettle/sha.h 145959d4a50567d90157bb56e5df8e63 1357497300
+obj /usr/include/nettle/base16.h 39f5296f1fa64beaa41594e5425dea20 1357497299
+obj /usr/include/nettle/arcfour.h 59a4df8c0097a6c1a31864299695ea01 1357497298
+obj /usr/include/nettle/pkcs1.h 4d949f9d0c37d390c6ae16e2bf813137 1357497300
+obj /usr/include/nettle/aes.h b7e34603da9a140f889d7d017dc1334a 1357497298
+obj /usr/include/nettle/md5.h cfb3ff4cae0c7ed41238e40276c4b3a3 1357497300
+obj /usr/include/nettle/rsa.h 9d26873235eb0b29761ab451227447d0 1357497300
+obj /usr/include/nettle/md5-compat.h c2f7aef02b6c645920b2413313a5f372 1357497300
+obj /usr/include/nettle/twofish.h c928bac2f17bc985cc7048c7e126b046 1357497300
+obj /usr/include/nettle/serpent.h f602845963e5e3d17e0a672dd4cfb54d 1357497300
+obj /usr/include/nettle/nettle-stdint.h 04f8681aac69aa3d5e174f9f91caf0ad 1357497300
+obj /usr/include/nettle/cast128.h 8da38324b2cc8384ab4b40e97d9db5de 1357497299
+obj /usr/include/nettle/hmac.h 67ee94d1ea23d516df3fa9a8d6bf7b56 1357497300
+obj /usr/include/nettle/ctr.h 8de26bdaef263d13a5bce43eede58ac0 1357497299
+obj /usr/include/nettle/nettle-meta.h d87d5a550b788be9874dbb8023aae4a9 1357497300
+obj /usr/include/nettle/rsa-compat.h 69bf7f5bb3dcbc6e19147de623a48a4a 1357497300
+obj /usr/include/nettle/memxor.h 6fde94363474f5106eaa47018e8ddd4c 1357497300
+dir /usr/bin
+obj /usr/bin/sexp-conv 3d8740223ca447f20b07213d08619e16 1357497331
+obj /usr/bin/pkcs1-conv 9d7183ac23ab903e3ce217dc75c2327a 1357497331
+obj /usr/bin/nettle-lfib-stream fbef32b6a3e952f715c6e2b8c0ae571a 1357497331
+obj /usr/bin/nettle-hash 8804b2f04e70ae6fe4a432b561f82ff3 1357497331
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/nettle.info.bz2 308523bc2e68a37db571ddce58a813b1 1357497298
+dir /usr/share/doc
+dir /usr/share/doc/nettle-2.5
+obj /usr/share/doc/nettle-2.5/README.bz2 7302ffa109dea96cc5bd19a39d1f9185 1357497301
+obj /usr/share/doc/nettle-2.5/NEWS.bz2 d1ded77870eb4070a601339cea029a12 1357497303
+obj /usr/share/doc/nettle-2.5/AUTHORS.bz2 598381ab5e0a6f52f14483ca531df225 1357497302
+obj /usr/share/doc/nettle-2.5/TODO.bz2 e9e184d7c54c2daaee5dba7f750326e0 1357497303
+obj /usr/share/doc/nettle-2.5/ChangeLog.bz2 8884bb52963f659b0cba29c239360f6a 1357497302
+dir /usr/lib
+obj /usr/lib/libhogweed.so.2.2 deb06be141d10a2807f6df5b3088fcbc 1357497332
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/nettle.pc 01bb4b94e3b91b0162f2b1782063a402 1357497299
+obj /usr/lib/pkgconfig/hogweed.pc 51b3e0e35396162729d0834ba45057f2 1357497299
+obj /usr/lib/libhogweed.a bc4ac217c45a6e8a91c08fbf15c82b3f 1357497333
+sym /usr/lib/libhogweed.so -> libhogweed.so.2.2 1357497371
+obj /usr/lib/libnettle.so.4.4 320a99a8a233585df06b3ceb98e58368 1357497332
+sym /usr/lib/libnettle.so -> libnettle.so.4.4 1357497371
+sym /usr/lib/libhogweed.so.2 -> libhogweed.so.2.2 1357497371
+sym /usr/lib/libnettle.so.4 -> libnettle.so.4.4 1357497371
+obj /usr/lib/libnettle.a ff6afc6310e926c285591ea54f1081f9 1357497333

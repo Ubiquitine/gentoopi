@@ -1,0 +1,12 @@
+=media-gfx/graphite2-1.2.0 ~arm
+sys-devel/gcc ~arm
+#required by tmux (argument)
+=app-misc/tmux-1.7 ~arm
+#required by =x11-libs/gtk+-2.24.14 (argument)
+=x11-libs/gtk+-2.24.14 ~arm
+media-libs/harfbuzz ~arm
+net-libs/loudmouth ~arm
+net-im/gajim **
+ev-libs/icu ~arm
+#required by =dev-libs/icu-50.1-r2 (argument)
+=dev-libs/icu-50.1-r2 ~arm

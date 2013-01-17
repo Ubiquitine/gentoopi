@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ayttm
+Exec=/usr/bin/ayttm
+Icon=/usr/share/pixmaps/ayttm.png
+Comment="The GTK Unified Messaging Client"
+Terminal=0
+Type=Application
+Categories=Network;InstantMessaging

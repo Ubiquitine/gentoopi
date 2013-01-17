@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/iceauth.1.bz2 007c32f43da22766453be5b1b01adcc0 1356436993
+dir /usr/share/doc
+dir /usr/share/doc/iceauth-1.0.5
+obj /usr/share/doc/iceauth-1.0.5/README.bz2 3f17bf2fce1b0ca918cd4c7c9437b60c 1356436994
+obj /usr/share/doc/iceauth-1.0.5/ChangeLog.bz2 7b254211baca6ffb2103c9ebd0f9c31c 1356436995
+dir /usr/bin
+obj /usr/bin/iceauth 25d7b37451bb46b2084c1d627e01c4be 1356437018

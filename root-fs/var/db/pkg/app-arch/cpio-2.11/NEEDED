@@ -1,0 +1,1 @@
+/bin/cpio librt.so.1,libgcc_s.so.1,libc.so.6

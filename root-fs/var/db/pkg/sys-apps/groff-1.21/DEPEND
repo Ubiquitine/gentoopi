@@ -1,0 +1,1 @@
+>=sys-apps/texinfo-4.7-r1 || ( >=sys-devel/automake-1.11.1 >=sys-devel/automake-1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

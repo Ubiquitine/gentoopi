@@ -1,0 +1,433 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/xkeyboard-config.7.bz2 88deca2159093dabb8c0a8f964eb7ef3 1356457482
+dir /usr/share/pkgconfig
+obj /usr/share/pkgconfig/xkeyboard-config.pc cc1400e6f021f3f41f2fa2da9b947398 1356457482
+dir /usr/share/doc
+dir /usr/share/doc/xkeyboard-config-2.7
+obj /usr/share/doc/xkeyboard-config-2.7/README.bz2 42abe67d9037494835a912186b1d9921 1356457483
+obj /usr/share/doc/xkeyboard-config-2.7/AUTHORS.bz2 9c832db7536068595f053554e20a3052 1356457484
+obj /usr/share/doc/xkeyboard-config-2.7/TODO.bz2 cf7721039503e3ce812cce186e569734 1356457484
+obj /usr/share/doc/xkeyboard-config-2.7/CREDITS.bz2 fb281103dabc470b64b355e8660b8989 1356457485
+obj /usr/share/doc/xkeyboard-config-2.7/ChangeLog.bz2 3e2c63fdf65ce7f019612fda2ce9caa4 1356457485
+obj /usr/share/doc/xkeyboard-config-2.7/NEWS.bz2 2c7fc0d95211f40f208c45c804837dec 1356457484
+dir /usr/share/locale
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/xkeyboard-config.mo 95a6431d186869875d51913699ab7976 1356457468
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/xkeyboard-config.mo 8cb3a0618c1f8c1ad6a6fa67217184d3 1356457465
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo 2f5225ff4c5cb39b2d47ab889823de28 1356457464
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/xkeyboard-config.mo c82da03e82ee1cd2694cd7935f99ad59 1356457468
+dir /usr/share/locale/sq
+dir /usr/share/locale/sq/LC_MESSAGES
+obj /usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo 629b960a7768c591f362c322ecfad044 1356457471
+dir /usr/share/locale/ky
+dir /usr/share/locale/ky/LC_MESSAGES
+obj /usr/share/locale/ky/LC_MESSAGES/xkeyboard-config.mo 41d86c945d53ee129e42bf66f7bbb401 1356457469
+dir /usr/share/locale/az
+dir /usr/share/locale/az/LC_MESSAGES
+obj /usr/share/locale/az/LC_MESSAGES/xkeyboard-config.mo e284d9e4a092e2625ed928657bbe4143 1356457463
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/xkeyboard-config.mo 276cae80c6cfddde9cc76b5410deb266 1356457471
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/xkeyboard-config.mo f08ce494a893b224cb8193db201ca028 1356457466
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/xkeyboard-config.mo a2c1036a0c832d442e3ce22c4caab559 1356457473
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/xkeyboard-config.mo eff4d581bc48aa2f519a8c717f446aee 1356457470
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/xkeyboard-config.mo 4850bd12ad1b4607833c57fa47d00242 1356457467
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/xkeyboard-config.mo bfb95d1d93b2f32c43f6b4699f446b96 1356457473
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/xkeyboard-config.mo 38e60c0b665c9cbba3cbd1ee255b4766 1356457464
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/xkeyboard-config.mo 5abe3724bbeb6a5d513f39a9f8a43180 1356457472
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/xkeyboard-config.mo d516124b1b6974a838d6f5811e13c63a 1356457473
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/xkeyboard-config.mo b1552f0184ceffcae7b9f934b9e3fdcb 1356457472
+dir /usr/share/locale/ka
+dir /usr/share/locale/ka/LC_MESSAGES
+obj /usr/share/locale/ka/LC_MESSAGES/xkeyboard-config.mo 0dcbc5362bcaa155ec64f98c4db16bd2 1356457468
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/xkeyboard-config.mo d43560f1f37b81a576fcbdc840c7423c 1356457463
+dir /usr/share/locale/rw
+dir /usr/share/locale/rw/LC_MESSAGES
+obj /usr/share/locale/rw/LC_MESSAGES/xkeyboard-config.mo bc2f0847b3bd336d86c09367ff5a0f8d 1356457471
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/xkeyboard-config.mo 5fddee2a231eea129a50bbeba55b9c5d 1356457467
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/xkeyboard-config.mo 31e8e72fa63636dcb5441d935ea51260 1356457463
+dir /usr/share/locale/crh
+dir /usr/share/locale/crh/LC_MESSAGES
+obj /usr/share/locale/crh/LC_MESSAGES/xkeyboard-config.mo 266281c43f145ea04dd151553e457ff3 1356457464
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/xkeyboard-config.mo 45fbdb76014f9460b116418dcda9d4c8 1356457469
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/xkeyboard-config.mo 862d2ce26ef6d089506ab10c14d1676b 1356457473
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/xkeyboard-config.mo a58796717fcd7ac0dcb867f6ef77dbda 1356457464
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/xkeyboard-config.mo 4dfa5c6bcb19eb42895544d8611bb63d 1356457470
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/xkeyboard-config.mo c98c907a6a47e7af26e9178c7425eacb 1356457466
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/xkeyboard-config.mo fba70289d7784f92d6fe2971dc094e1a 1356457468
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/xkeyboard-config.mo c076ac4fb0c1e785ec438a0f2f14c250 1356457471
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/xkeyboard-config.mo dbfe86eb8cbe7f1c5a78467b6a7a6791 1356457469
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/xkeyboard-config.mo 248126881a62aaf57022487d07188e53 1356457470
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/xkeyboard-config.mo cfa95c9b657abc27d674cd2d55a4b792 1356457467
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/xkeyboard-config.mo 0c48a470548ce489330bb37f7289914f 1356457470
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/xkeyboard-config.mo cf99439d975531179facf6c5ec114c00 1356457466
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/xkeyboard-config.mo 9070a0b42d19f4c4efed019596b5366a 1356457466
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/xkeyboard-config.mo 918d4ad19afd4f1524c2372a0c08fa21 1356457465
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/xkeyboard-config.mo ecf78ed20a103fcce8ae6ab38675038c 1356457465
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/xkeyboard-config.mo 1670c6ecd447e13f4e67e418cbc82f68 1356457472
+dir /usr/share/X11
+dir /usr/share/X11/xkb
+dir /usr/share/X11/xkb/types
+obj /usr/share/X11/xkb/types/default e2d962a4e5d31f00be4587949706ea49 1356457481
+obj /usr/share/X11/xkb/types/basic 94ed6c68f80a6312f9168567977330f9 1356457481
+obj /usr/share/X11/xkb/types/caps 08e478d42351fb9039ed9cfe28593407 1356457481
+obj /usr/share/X11/xkb/types/numpad ec8d323c9c4adbeddd3057e202519972 1356457481
+obj /usr/share/X11/xkb/types/README 12fad9640f00f0d22dd12b27ae2e27e4 1356457481
+obj /usr/share/X11/xkb/types/iso9995 2c3cca9dacec49dbb225a3b9136a7899 1356457481
+obj /usr/share/X11/xkb/types/nokia cb0bbb135ff31d2b1d42ec6d73789a8b 1356457481
+obj /usr/share/X11/xkb/types/cancel d72d3b17d2beb13c4a36095a40fed77c 1356457481
+obj /usr/share/X11/xkb/types/level5 3605de677ae1d37c255f2c47618cace8 1356457481
+obj /usr/share/X11/xkb/types/pc 5e8a7cc604a55fb73ece46e926e42797 1356457481
+obj /usr/share/X11/xkb/types/complete de3065f2d1ec6ec269f6878558ba2a5e 1356457481
+obj /usr/share/X11/xkb/types/mousekeys 8574ab7b63d8281e60fec6694eff8316 1356457481
+obj /usr/share/X11/xkb/types/extra bd9d7f30c251530671fa29976bc82f34 1356457481
+dir /usr/share/X11/xkb/geometry
+obj /usr/share/X11/xkb/geometry/typematrix adeb613d03f09aa659c1329d82ea7761 1356457460
+obj /usr/share/X11/xkb/geometry/kinesis 4612855aed76df9ac82344cc95e2cd27 1356457460
+obj /usr/share/X11/xkb/geometry/microsoft fce4ad0e2c668dddab9ffc4ebf660f1d 1356457460
+obj /usr/share/X11/xkb/geometry/nec 5e56a95facf2bd19dfa10ceb6e1b3f61 1356457460
+obj /usr/share/X11/xkb/geometry/chicony b0e7048d484be44e83beff41cee0f2ec 1356457460
+obj /usr/share/X11/xkb/geometry/thinkpad f59a51183c27b4bace2267ab849bba91 1356457460
+obj /usr/share/X11/xkb/geometry/sun 22a3af6db4a88498ea2295a47e75a3c4 1356457460
+dir /usr/share/X11/xkb/geometry/digital_vndr
+obj /usr/share/X11/xkb/geometry/digital_vndr/pc 1371eabac39d096c222a8f79108a5e6d 1356457459
+obj /usr/share/X11/xkb/geometry/digital_vndr/unix 5cd79c29446468216b7311f491ef5584 1356457459
+obj /usr/share/X11/xkb/geometry/digital_vndr/lk b9d740e2d08f78fac2d791cc322c69a0 1356457459
+obj /usr/share/X11/xkb/geometry/hhk c20c74bdaae5da22644b981669b4ab77 1356457460
+obj /usr/share/X11/xkb/geometry/keytronic e6eaaff75988e64c92cc75be9a5c32e6 1356457460
+obj /usr/share/X11/xkb/geometry/dell 669719af7db3e6a073bc892c6bf01502 1356457460
+obj /usr/share/X11/xkb/geometry/sanwa 9dbc1070ae2cd4a7173b219a7fce5b82 1356457460
+obj /usr/share/X11/xkb/geometry/everex 71b4738cd22d9c5a2afa1b5e0cbe12be 1356457460
+obj /usr/share/X11/xkb/geometry/README a0373dff2e35d1d0bbbb7652a6854d62 1356457460
+obj /usr/share/X11/xkb/geometry/nokia 2e4f27ebfa220be78cfb316d70d0e03c 1356457460
+obj /usr/share/X11/xkb/geometry/macintosh 8fa105dbe22c2e61dc295c953919249b 1356457460
+obj /usr/share/X11/xkb/geometry/pc 7a91199ea57438a0aa2f592c3d9b1617 1356457460
+obj /usr/share/X11/xkb/geometry/northgate 758c9ca22b0106276e5e83ae152fd91f 1356457460
+dir /usr/share/X11/xkb/geometry/sgi_vndr
+obj /usr/share/X11/xkb/geometry/sgi_vndr/O2 c878754d97218616b4f1b15c9ba4f153 1356457459
+obj /usr/share/X11/xkb/geometry/sgi_vndr/indigo bfda08c04416e29a5b6d9c06cd9ab384 1356457459
+obj /usr/share/X11/xkb/geometry/sgi_vndr/indy 37996c1e3d4a7daa0c6d2294998da85e 1356457459
+obj /usr/share/X11/xkb/geometry/ataritt 1eee4b746528919d9846720228a7ee27 1356457460
+obj /usr/share/X11/xkb/geometry/hp 16cc766159e539b370d05b5acda3c950 1356457460
+obj /usr/share/X11/xkb/geometry/fujitsu d1912f66d4c491d4237eba7746820b2c 1356457460
+obj /usr/share/X11/xkb/geometry/winbook 634e8573025b6d1b48ddc4df3ef12f41 1356457460
+obj /usr/share/X11/xkb/geometry/amiga c9eaa1c1483ce91d9359537b50738d0b 1356457460
+obj /usr/share/X11/xkb/geometry/sony 5076c862cc6f5e33f0dd4110f598ad96 1356457460
+dir /usr/share/X11/xkb/symbols
+obj /usr/share/X11/xkb/symbols/np 2073a15e6245795ba4049f2de34b3c64 1356457480
+obj /usr/share/X11/xkb/symbols/za b2948a00e6a0717e7ee0e87c853fd438 1356457480
+obj /usr/share/X11/xkb/symbols/brai 58f65932ae79d250e94e954b3e750f5d 1356457480
+obj /usr/share/X11/xkb/symbols/gr 8d966d68c39d858efc89349a9194f464 1356457480
+obj /usr/share/X11/xkb/symbols/br 6c3a14a9f5a8f7841e37d055e99da761 1356457480
+obj /usr/share/X11/xkb/symbols/kz ef316e42c0abec8bc868f2174e803dab 1356457480
+obj /usr/share/X11/xkb/symbols/ie 2778a0146268e05f91121dd95888e10e 1356457480
+obj /usr/share/X11/xkb/symbols/am 516ce180eba8f4b38e62235171535c82 1356457480
+obj /usr/share/X11/xkb/symbols/de 522b0c4f217628211a663fc4a39cdc62 1356457480
+obj /usr/share/X11/xkb/symbols/hr 7a3878c989541433b774d977584de9bf 1356457480
+dir /usr/share/X11/xkb/symbols/nokia_vndr
+obj /usr/share/X11/xkb/symbols/nokia_vndr/rx-51 fe5aca59422fd4883a5230912da5c03c 1356457477
+obj /usr/share/X11/xkb/symbols/nokia_vndr/rx-44 b69bcce9e802316bf57220069f75d32c 1356457477
+obj /usr/share/X11/xkb/symbols/nokia_vndr/su-8w 951841024b2b87788c37c3896a697f91 1356457477
+obj /usr/share/X11/xkb/symbols/be 54ffac61b8db7718c5ddab0cb67bb0fd 1356457480
+obj /usr/share/X11/xkb/symbols/md c70e92089259ac99455c12a523ec60af 1356457480
+obj /usr/share/X11/xkb/symbols/at ddd7544b3679e47136d753c874ca21e8 1356457480
+obj /usr/share/X11/xkb/symbols/me 24ff5990c6ff79f7c7cc532ce2262a4c 1356457480
+obj /usr/share/X11/xkb/symbols/gb 7fa761485c1d31595eb48a86209df20c 1356457480
+obj /usr/share/X11/xkb/symbols/kh 4c7f3525e24a863209208c22fe8f1b13 1356457480
+obj /usr/share/X11/xkb/symbols/ctrl ab2ad78929159d3d88938fb10efc01c9 1356457480
+obj /usr/share/X11/xkb/symbols/nbsp b184716682c04d9dd7b8472f1db62b62 1356457480
+dir /usr/share/X11/xkb/symbols/xfree68_vndr
+obj /usr/share/X11/xkb/symbols/xfree68_vndr/ataritt 1e9d3bcc15da3dca8db8a9e336b58299 1356457479
+obj /usr/share/X11/xkb/symbols/xfree68_vndr/amiga ccec4ba1a50ffce1af6a20340d0c1001 1356457479
+obj /usr/share/X11/xkb/symbols/th 70620be76d3eaf4650fc9bd1f9c1441a 1356457480
+obj /usr/share/X11/xkb/symbols/az ba6f3a3517677128d77cb0f5e8d9ab53 1356457480
+obj /usr/share/X11/xkb/symbols/sy 151e5d210c70d561fbd9b00dcf154403 1356457480
+obj /usr/share/X11/xkb/symbols/mv d850014609a7a2e25f5ee196a721dceb 1356457480
+obj /usr/share/X11/xkb/symbols/sk db5737cb17d0f895422ed64c7090d309 1356457480
+obj /usr/share/X11/xkb/symbols/empty aff3bb76c73aa2b7508ab989d1cf981c 1356457480
+obj /usr/share/X11/xkb/symbols/ke b3dc650aaddd358683f7cea9f0f3d756 1356457480
+obj /usr/share/X11/xkb/symbols/fi a92d69490a19334e42ecb0a81697b3e7 1356457480
+obj /usr/share/X11/xkb/symbols/tj b87eb7cbdeb80cb22b1c66b5576f0306 1356457480
+obj /usr/share/X11/xkb/symbols/pl 60ced91bdbc966bce89bb0c4c1de14f3 1356457480
+obj /usr/share/X11/xkb/symbols/kpdl af037c59909462114f5d292e9e9da780 1356457480
+dir /usr/share/X11/xkb/symbols/sun_vndr
+obj /usr/share/X11/xkb/symbols/sun_vndr/gr 5ecbb44a4edfc14b2d18dd62ba934aa8 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/br 0b0bf3bfdbf92668004afa12d4ee8769 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/de 4983ef68e91d2721e7f4b042b4c97d5c 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/be d9a81319e7a1b5cb40293a32440dd2e3 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/gb 918ca2da80430c73b054ee676f1f9888 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/sk 174b33c164dfdaa7f38a9931e4c97f68 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/fi 18df7af29a1e94eb7475366f1fa2c42e 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/pl 965a39fa81aae132f9e9687625659bc2 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/tuv 7d53f12d48c66f7384efefa3aed9f980 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ara 90b808060d43c900b5da72637125a920 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/tr 947639e3619a4db44fcac55dee3b6780 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/jp ffd05b396c00e36920ba6a0cd16df904 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ee e368cc2e906ea95e80105a212240b02e 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/tw 36fc9caf11a1d73940073e439d5b879e 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/lt c006c8c8ef01589605e2f5b19acd819e 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/kr c8a8b7a70bd5a49248d018c21ed04b66 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ca ec001a2a9b41b8f339ff1fc2a141a9c7 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ch 70503539620459f79ebf00524bd69f44 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ro 75aba70caef0b3e9ce0b2cb60007ce0d 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/dk 181bcf08cf0088824eef9dbef3e6c781 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/solaris e3aaacdf90ed190045ca7e6c26824497 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/it 2a204d4092969eb29bed78a8cc1c05ee 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/cz b1a4620645031cffab55bef95f8e0d3e 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/no 1487db022e097242beba43cf4fbaf572 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/us bb5d1f0bf8463f428de86e1381b7f8d9 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ru ac7a72d8dd866be568569f467bdc7f02 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/pt 54d8a09b48e6f31bf1d1ae5c6191439d 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/ua d114d744c36db9fe5eb197cb90c5b1a7 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/se 47ca540e646e604cd52b6e2451bad265 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/nl 5001c094deee0ab55bb626b7edc1c864 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/es 88f3c0ef02362f5f5dd82561dbeb65cd 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/lv c78b806378d4379f6b598180f9754a27 1356457479
+obj /usr/share/X11/xkb/symbols/sun_vndr/fr 9ca48b478d4c83e6f4bf5417f44fa89f 1356457479
+obj /usr/share/X11/xkb/symbols/ba 24485d2d1e740426c119a46f12f317a0 1356457480
+obj /usr/share/X11/xkb/symbols/al 9335dadab2f050c62def2fe329ab3d52 1356457480
+obj /usr/share/X11/xkb/symbols/ng 101c15fed46932da13d62ba22b244480 1356457480
+dir /usr/share/X11/xkb/symbols/digital_vndr
+obj /usr/share/X11/xkb/symbols/digital_vndr/pc 8ea4c351038a868c4f89257066946db3 1356457475
+obj /usr/share/X11/xkb/symbols/digital_vndr/us 5093d2a15f033a836000c9fe0b1e96dc 1356457475
+obj /usr/share/X11/xkb/symbols/digital_vndr/vt 14bed7f9ed518e33d8e4307cc4c17cc0 1356457475
+obj /usr/share/X11/xkb/symbols/digital_vndr/lk 43da7e0c6fde549bea7960b84d9cae81 1356457475
+obj /usr/share/X11/xkb/symbols/et 2cc96336e118b2f0e8a63108d2b8d61e 1356457480
+obj /usr/share/X11/xkb/symbols/gh a1dc9e640538070d8575eeed0e75a47d 1356457480
+obj /usr/share/X11/xkb/symbols/ara 1c5efdda98cad47a6e08b7ae3c4fdb5d 1356457480
+obj /usr/share/X11/xkb/symbols/kg 41365665d9df4fd0fe0000c7f3eb0ce8 1356457480
+obj /usr/share/X11/xkb/symbols/ma 49ab5fa68173f21b765ef25006b894da 1356457480
+obj /usr/share/X11/xkb/symbols/tr 87fdde506cc139e2e2dcd299a50adbd6 1356457480
+obj /usr/share/X11/xkb/symbols/ml b0fbb7f21eb280a1dd5e171eda29eade 1356457480
+obj /usr/share/X11/xkb/symbols/rs 1231fca8b0aab3d5ceda622b733a54db 1356457480
+obj /usr/share/X11/xkb/symbols/af 49b94061f2cff0511f5d16eef05949d9 1356457480
+obj /usr/share/X11/xkb/symbols/si fda4057d139a98a21ef6f58ac7946852 1356457480
+obj /usr/share/X11/xkb/symbols/altwin 1f6b14493dc32fdbe64b293b93b68440 1356457480
+obj /usr/share/X11/xkb/symbols/jp 797c6b7fdd5ab3df539371159a60d227 1356457480
+dir /usr/share/X11/xkb/symbols/nec_vndr
+obj /usr/share/X11/xkb/symbols/nec_vndr/jp 53d2970eba9ac4ecdb7c259fbe0f666c 1356457477
+obj /usr/share/X11/xkb/symbols/mao 1379d5a43a4cd3b36c05b083637d5bfe 1356457480
+obj /usr/share/X11/xkb/symbols/ee c2f24f374d60934fe224a0b9e555d05e 1356457480
+obj /usr/share/X11/xkb/symbols/cd dc710aedaa1a95d29e074f13fae638f4 1356457480
+obj /usr/share/X11/xkb/symbols/by 1072d626947d338313a41fee0645e7ec 1356457480
+obj /usr/share/X11/xkb/symbols/hu 4165fa6b897f99022b589ad9897b731f 1356457480
+obj /usr/share/X11/xkb/symbols/bg 2da84f6af9a011a1d4f781ab077811fb 1356457480
+obj /usr/share/X11/xkb/symbols/group fd95d7dcd7e9b2a323ee37f1c5da7663 1356457480
+obj /usr/share/X11/xkb/symbols/fo 9224945b0896e8bc8f55636209a53b72 1356457480
+obj /usr/share/X11/xkb/symbols/pk 58f316dab65ef130517d2ac15c97c1aa 1356457480
+obj /usr/share/X11/xkb/symbols/tw 58e04e6b06a8b9ddfd73ebdced771292 1356457480
+obj /usr/share/X11/xkb/symbols/ge 54b0c5145d961d7a4c66cb4d5037181e 1356457480
+obj /usr/share/X11/xkb/symbols/lt 6f0985408e2ff8d7a61981ee7b5161f9 1356457480
+obj /usr/share/X11/xkb/symbols/compose 56c1e4627bf99ef9352a8b2da12b0942 1356457480
+obj /usr/share/X11/xkb/symbols/shift 51cd1440110e3724e58ff352d7922c65 1356457480
+obj /usr/share/X11/xkb/symbols/ph 6f9ae7123148bfca8106dda41bfb4246 1356457480
+obj /usr/share/X11/xkb/symbols/kr 24b0d47d7db6c64ee984bddc9c076db4 1356457480
+obj /usr/share/X11/xkb/symbols/keypad bfd6cfd013701c4dfcbfee97424be340 1356457480
+obj /usr/share/X11/xkb/symbols/ca 7aa823944d2c690126e75ef681498589 1356457480
+obj /usr/share/X11/xkb/symbols/ir a7e6843d0aa34b4b7769769991db557a 1356457480
+obj /usr/share/X11/xkb/symbols/mn 100dc13bed14cb6d8bc8da230940d418 1356457480
+dir /usr/share/X11/xkb/symbols/sony_vndr
+obj /usr/share/X11/xkb/symbols/sony_vndr/us 4e49dac1d49cacf7ad4e978113b43581 1356457478
+obj /usr/share/X11/xkb/symbols/ch 6fb572a9fbf093ceb417d8aba19ca8a3 1356457480
+obj /usr/share/X11/xkb/symbols/ro 93917a5d5961b561f8085f09619715fe 1356457480
+obj /usr/share/X11/xkb/symbols/vn cfc55bfda56d93756ed1686f5d02c705 1356457480
+obj /usr/share/X11/xkb/symbols/dk f881debac5ee58c88133af4175579573 1356457480
+obj /usr/share/X11/xkb/symbols/level5 5926faf0b377593be8ca9d995a76ae69 1356457480
+obj /usr/share/X11/xkb/symbols/pc e045dc5b93214b11b908c6822fe31609 1356457480
+obj /usr/share/X11/xkb/symbols/it 5b667741f193e3c2f254d0aa7afa8cea 1356457480
+obj /usr/share/X11/xkb/symbols/tm 0a2eeff6496993d348c914c691aff74f 1356457480
+dir /usr/share/X11/xkb/symbols/sharp_vndr
+obj /usr/share/X11/xkb/symbols/sharp_vndr/ws003sh 2787e5eafc77dc234299485cd481b2c7 1356457477
+obj /usr/share/X11/xkb/symbols/sharp_vndr/sl-c3x00 beed857b3be26f66610c1520b4550cba 1356457477
+obj /usr/share/X11/xkb/symbols/sharp_vndr/ws007sh 22a2f0cb22293fe26358e00e0708196d 1356457477
+obj /usr/share/X11/xkb/symbols/sharp_vndr/ws011sh 7457e58ad31892d02af3dc5a10faa49a 1356457477
+obj /usr/share/X11/xkb/symbols/sharp_vndr/ws020sh f38f7bf4a576bc05da144a14aedd9701 1356457477
+obj /usr/share/X11/xkb/symbols/mk a480cd0465a3c31e33cd2904a2ad981c 1356457480
+obj /usr/share/X11/xkb/symbols/cz f297eebeae420e785d7191bf22919584 1356457480
+dir /usr/share/X11/xkb/symbols/macintosh_vndr
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/de f5f8ee2ebc3645eab8e82baa978b0cd8 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/gb e1f2692e9fc6542a9dc7f74bb2dd9b3d 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/fi cd6c197b49623deabef8bb217bb68237 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/jp f66dd51e81f308640a4e32ef2ff8ba95 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/ch 5645bf160c3376ead337eecd2adac77d 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/dk 3f76c1d8085423070ebd4ac6a2f4f66b 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/it 60c01bbf7449eac902fed65fbea541b7 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/no 0f75d1a17e3f41bca709a1a7c034032b 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/us 9f078d2ed56222bcb7c2afea2226e8b2 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/apple 42b7b03b68c4db665c0257d0971c5468 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/pt 0dbe05fbd25cc00d39b58e5779dc9d41 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/is dc69b7e6a0dd9c90f43da0770857bc94 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/se 06ad75cda8f4fccc79dc94e2537a42ac 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/nl b54258e21fa64a1b3c6c15ce23b54abd 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/fr 1c6cda004bfd7d6d8ac46b447b8261ee 1356457476
+obj /usr/share/X11/xkb/symbols/macintosh_vndr/latam 7134958a1ef1f991f142ffa175b71bf1 1356457476
+obj /usr/share/X11/xkb/symbols/srvr_ctrl 871ac19549057654e3b8511c0cef89ac 1356457480
+obj /usr/share/X11/xkb/symbols/no fec8a3850931f9c665af805c199eef8c 1356457480
+obj /usr/share/X11/xkb/symbols/us b49e26e55e610704efc50ff1874e77f9 1356457480
+obj /usr/share/X11/xkb/symbols/mt bb34ec6b515f7bf6e1437f659978d1cf 1356457480
+obj /usr/share/X11/xkb/symbols/il b840af5ad66bda0eca391e68db1ac65d 1356457480
+obj /usr/share/X11/xkb/symbols/rupeesign f9e82f92e9698efeb04be8309af71fc0 1356457480
+obj /usr/share/X11/xkb/symbols/mm fea6598fac433e7547ce233e93acbba9 1356457480
+obj /usr/share/X11/xkb/symbols/ad 847eecb40efade4af526a242844c1553 1356457480
+obj /usr/share/X11/xkb/symbols/inet c40dffd0b5b577937b309879b5881e4f 1356457480
+dir /usr/share/X11/xkb/symbols/sgi_vndr
+obj /usr/share/X11/xkb/symbols/sgi_vndr/jp a2efb3a587cbd278a06ff5fc548394a1 1356457478
+obj /usr/share/X11/xkb/symbols/ru ab7856637bbe93c716a00d15f2e1e9d5 1356457480
+obj /usr/share/X11/xkb/symbols/pt 2031cd889bc8801dfa2e965459cbf0e9 1356457480
+obj /usr/share/X11/xkb/symbols/cm 4af08580d196014fd7742118f219d25d 1356457480
+obj /usr/share/X11/xkb/symbols/in 955e399353ded0a4655e6dca91b0ce80 1356457480
+obj /usr/share/X11/xkb/symbols/uz f133a8b11d2d20a6edb3094737eaab58 1356457480
+obj /usr/share/X11/xkb/symbols/ua 7e14954f2045b0cf25da4ba91d8f4bda 1356457480
+dir /usr/share/X11/xkb/symbols/hp_vndr
+obj /usr/share/X11/xkb/symbols/hp_vndr/us aed48385832d774c2ce7e56dcfcaef95 1356457476
+obj /usr/share/X11/xkb/symbols/is 64d7cee55d3d07b348faa7fda8241960 1356457480
+obj /usr/share/X11/xkb/symbols/lk 3e3e6db914fcaa31fc0a261beadedcb1 1356457480
+obj /usr/share/X11/xkb/symbols/se c71a48271a0565933f967ec8be610f2c 1356457480
+obj /usr/share/X11/xkb/symbols/bd ca171f3f1ee059eb8ba22acf7e81343f 1356457480
+obj /usr/share/X11/xkb/symbols/nl 8e17475b799dc320ed38f40fd7e53073 1356457480
+obj /usr/share/X11/xkb/symbols/es bc0db4b199fbd37fc6b6e4c72f6e77a0 1356457480
+obj /usr/share/X11/xkb/symbols/typo 1c38b8d1d4417aa46eba056696a41dcd 1356457480
+obj /usr/share/X11/xkb/symbols/eurosign 32c5806265a68066acd1225eb5cf54ab 1356457480
+obj /usr/share/X11/xkb/symbols/capslock 743fd8ecfe092ba003613c7a2181afd7 1356457480
+obj /usr/share/X11/xkb/symbols/terminate 13bd5f172fbbfdf474db2fd12932388e 1356457480
+obj /usr/share/X11/xkb/symbols/lv 98471a2ce6bb3753d9cbc202350b878e 1356457480
+obj /usr/share/X11/xkb/symbols/fr e1e6e9794a735f0466a192ed485221a0 1356457480
+obj /usr/share/X11/xkb/symbols/sn 865e5ee528f2a8f0dbca1a41ee13a159 1356457480
+obj /usr/share/X11/xkb/symbols/gn 3b343e3a6fea28511e9817b919a24d4e 1356457480
+dir /usr/share/X11/xkb/symbols/fujitsu_vndr
+obj /usr/share/X11/xkb/symbols/fujitsu_vndr/jp 83af9d818f26bfe898e19ac66016593d 1356457475
+obj /usr/share/X11/xkb/symbols/fujitsu_vndr/us 0234f92d8bda88b22eababd9f15f5430 1356457475
+obj /usr/share/X11/xkb/symbols/tz 49ad7a1bd0690a61dfaedb65f6a450b7 1356457480
+obj /usr/share/X11/xkb/symbols/apl 316d6b17bf1483a5225851a2e6bacf8f 1356457480
+obj /usr/share/X11/xkb/symbols/la 84a8a1342152ba51fccb17255aa4e365 1356457480
+obj /usr/share/X11/xkb/symbols/olpc 5c1b2862eb878abbf34ab7b3eb24a007 1356457480
+obj /usr/share/X11/xkb/symbols/bw c8c99666101426b894d7255bbfcd2dbf 1356457480
+obj /usr/share/X11/xkb/symbols/bt 1482a1832ec2c176c4a6dd67f1ff7441 1356457480
+obj /usr/share/X11/xkb/symbols/latin 95b28ca8727b542455afc6bed4ee2a64 1356457480
+obj /usr/share/X11/xkb/symbols/level3 20b578dcc8eddad3e3c23fc1f76fdf34 1356457480
+obj /usr/share/X11/xkb/symbols/cn fd95b62e200d32d078dd9e45314d919c 1356457480
+obj /usr/share/X11/xkb/symbols/epo c1e54817e3dbfd9db8434ba1f181f5f1 1356457480
+obj /usr/share/X11/xkb/symbols/latam 0eaf464e3d546d069a3fd71b314b9288 1356457480
+obj /usr/share/X11/xkb/symbols/iq 66397273be05f008cf2f217fdcc24246 1356457480
+dir /usr/share/X11/xkb/compat
+obj /usr/share/X11/xkb/compat/lednum 1f09e95cbaadb5a49d7f18dec7071419 1356457458
+obj /usr/share/X11/xkb/compat/basic 1628d23f64f27901125b990bc4b6579d 1356457458
+obj /usr/share/X11/xkb/compat/accessx 273f3c15e0e866c877c743b63abdc774 1356457458
+obj /usr/share/X11/xkb/compat/caps e24f55868ad2e854c9c629fdda81466e 1356457458
+obj /usr/share/X11/xkb/compat/pc98 a16812c2c451d4d92f0e2fc2702d79e9 1356457458
+obj /usr/share/X11/xkb/compat/japan bd48e1533e6891f13483f74b44d970a0 1356457458
+obj /usr/share/X11/xkb/compat/README 497f4f853e094e136a710bb65a40076f 1356457458
+obj /usr/share/X11/xkb/compat/iso9995 677050e63d766eef0f300267de2830fa 1356457458
+obj /usr/share/X11/xkb/compat/xtest 9f1f1c81539983172e8ca0aa85d875ef 1356457458
+obj /usr/share/X11/xkb/compat/ledscroll a155109ea7c9cd0466e79f1cadd3a18f 1356457458
+obj /usr/share/X11/xkb/compat/level5 58ddcb55d15cd0f45cc149d8b317587a 1356457458
+obj /usr/share/X11/xkb/compat/pc 056a017e7f1ada584fa13614ec28d194 1356457458
+obj /usr/share/X11/xkb/compat/xfree86 a84c455fb19b7387d3b199dbfd1d84d3 1356457458
+obj /usr/share/X11/xkb/compat/misc 67218630e17685c1494d1b46104239f5 1356457458
+obj /usr/share/X11/xkb/compat/complete 2beac68441d2078f89ecda520ccabd39 1356457458
+obj /usr/share/X11/xkb/compat/ledcaps b7ef413066c430d6409d3f347e3433dd 1356457458
+obj /usr/share/X11/xkb/compat/mousekeys 0a02fee2c84dd2a9d3071b53522e29e3 1356457458
+obj /usr/share/X11/xkb/compat/olpc dece60ece2ceb0c8f582c60bbabdfecc 1356457458
+dir /usr/share/X11/xkb/keycodes
+obj /usr/share/X11/xkb/keycodes/ibm a92a55358f70f361f1ca6add5b29cc43 1356457461
+obj /usr/share/X11/xkb/keycodes/empty f40094105a7f7f387c82002903be840c 1356457461
+obj /usr/share/X11/xkb/keycodes/sun 39ffdb074bed65b45716df6dc9766a9d 1356457461
+dir /usr/share/X11/xkb/keycodes/digital_vndr
+obj /usr/share/X11/xkb/keycodes/digital_vndr/pc c47ba0a6bdec691fa75cf44af07d0dfd 1356457460
+obj /usr/share/X11/xkb/keycodes/digital_vndr/lk d338996acf8f96fe1432dc83ab88515a 1356457460
+obj /usr/share/X11/xkb/keycodes/xfree98 9ff6be9792b215d59eb75acc8129a918 1356457461
+obj /usr/share/X11/xkb/keycodes/evdev fd8a3b706ff741fb3f26b513e73f8b79 1356457461
+obj /usr/share/X11/xkb/keycodes/README 9b71ac20a2dcd2b0dd108b3030f243e7 1356457461
+obj /usr/share/X11/xkb/keycodes/macintosh 0627ea85f9569922c07e78e29490a2bd 1356457461
+obj /usr/share/X11/xkb/keycodes/xfree86 2341f8679297a75b74ed03c87ff49cd2 1356457461
+dir /usr/share/X11/xkb/keycodes/sgi_vndr
+obj /usr/share/X11/xkb/keycodes/sgi_vndr/indigo f2a0c427912a87fb85045e9232b4058b 1356457461
+obj /usr/share/X11/xkb/keycodes/sgi_vndr/indy 7d9f062b92b8e4b01bf4dbb2c5b6d16d 1356457461
+obj /usr/share/X11/xkb/keycodes/sgi_vndr/iris ae27e8d91213aaa8b985ab2221327d0c 1356457461
+obj /usr/share/X11/xkb/keycodes/ataritt 080091672369fbd14f214c430dabf884 1356457461
+obj /usr/share/X11/xkb/keycodes/hp 54b1a93e6e36fc91847340745d0e5f55 1356457461
+obj /usr/share/X11/xkb/keycodes/aliases e01f2cfd7b4e39af4ac38eeac76146a4 1356457461
+obj /usr/share/X11/xkb/keycodes/fujitsu db53b9093054b119f1b6c72e17734a93 1356457461
+obj /usr/share/X11/xkb/keycodes/amiga a5d14a62ce9e2924f39d62b9b7f1ec23 1356457461
+obj /usr/share/X11/xkb/keycodes/sony 1e607126d546e1778116d037a425eb5d 1356457461
+dir /usr/share/X11/xkb/rules
+obj /usr/share/X11/xkb/rules/base.xml f834e0c5c5ffebf81edc0ab3ce690fe8 1356457474
+obj /usr/share/X11/xkb/rules/xfree98 f54f1a0fe13b903876be30cd39876e69 1356457474
+obj /usr/share/X11/xkb/rules/evdev 597596c92a226f255ead9b1462b76643 1356457474
+obj /usr/share/X11/xkb/rules/evdev.xml f834e0c5c5ffebf81edc0ab3ce690fe8 1356457474
+obj /usr/share/X11/xkb/rules/README 1cb4b3e6d56889944af101ba0122f103 1356457474
+sym /usr/share/X11/xkb/rules/xorg.xml -> base.xml 1356457557
+obj /usr/share/X11/xkb/rules/base c4df1e09a4ad9c58e1cc60fd500e523c 1356457474
+obj /usr/share/X11/xkb/rules/evdev.extras.xml d739f548a397eecbd996cbd284966e7d 1356457474
+obj /usr/share/X11/xkb/rules/base.extras.xml d739f548a397eecbd996cbd284966e7d 1356457474
+obj /usr/share/X11/xkb/rules/xkb.dtd 79a329d93ab5dc8644ea7d15e0bd5048 1356457474
+obj /usr/share/X11/xkb/rules/evdev.lst ce01925ed3f00011c722c2d741174d1f 1356457474
+obj /usr/share/X11/xkb/rules/base.lst ce01925ed3f00011c722c2d741174d1f 1356457474
+sym /usr/share/X11/xkb/rules/xorg -> base 1356457557
+sym /usr/share/X11/xkb/rules/xorg.lst -> base.lst 1356457557

@@ -1,0 +1,15 @@
+/usr/lib/libmenu.so.5.9 libc.so.6,libncurses.so.5,libdl.so.2
+/usr/lib/libpanel.so.5.9 libc.so.6,libncurses.so.5,libdl.so.2
+/usr/lib/libform.so.5.9 libc.so.6,libncurses.so.5,libdl.so.2
+/usr/lib/libmenuw.so.5.9 libc.so.6,libncursesw.so.5,libdl.so.2
+/usr/lib/libpanelw.so.5.9 libc.so.6,libncursesw.so.5,libdl.so.2
+/usr/lib/libformw.so.5.9 libc.so.6,libncursesw.so.5,libdl.so.2
+/usr/bin/tabs libncursesw.so.5,libc.so.6
+/usr/bin/tic libncursesw.so.5,libc.so.6
+/usr/bin/toe libncursesw.so.5,libc.so.6
+/usr/bin/tset libncursesw.so.5,libc.so.6
+/usr/bin/clear libncursesw.so.5,libc.so.6
+/usr/bin/tput libncursesw.so.5,libc.so.6
+/usr/bin/infocmp libncursesw.so.5,libc.so.6
+/lib/libncurses.so.5.9 libc.so.6,libdl.so.2
+/lib/libncursesw.so.5.9 libc.so.6,libdl.so.2

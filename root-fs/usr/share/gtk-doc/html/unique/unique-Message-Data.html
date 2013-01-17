@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Message Data</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="Unique 1.1.6 Reference Manual">
+<link rel="up" href="unique-overview.html" title="Unique Overview">
+<link rel="prev" href="UniqueApp.html" title="UniqueApp">
+<link rel="next" href="UniqueBackend.html" title="UniqueBackend">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="unique-overview.html" title="Unique Overview">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="appendix" href="license.html" title="Appendix A. License">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="UniqueApp.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="unique-overview.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Unique 1.1.6
+ Reference Manual</th>
+<td><a accesskey="n" href="UniqueBackend.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#unique-Message-Data.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#unique-Message-Data.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="Message Data">
+<a name="unique-Message-Data"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="unique-Message-Data.top_of_page"></a>Message Data</span></h2>
+<p>Message Data — Message container for UniqueApp</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="unique-Message-Data.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+                    <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a>;
+<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> * <a class="link" href="unique-Message-Data.html#unique-message-data-new" title="unique_message_data_new ()">unique_message_data_new</a>             (void);
+<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> * <a class="link" href="unique-Message-Data.html#unique-message-data-copy" title="unique_message_data_copy ()">unique_message_data_copy</a>            (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+void                <a class="link" href="unique-Message-Data.html#unique-message-data-free" title="unique_message_data_free ()">unique_message_data_free</a>            (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+
+void                <a class="link" href="unique-Message-Data.html#unique-message-data-set" title="unique_message_data_set ()">unique_message_data_set</a>             (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a> *data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> length);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a> *      <a class="link" href="unique-Message-Data.html#unique-message-data-get" title="unique_message_data_get ()">unique_message_data_get</a>             (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> *length);
+
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="unique-Message-Data.html#unique-message-data-set-text" title="unique_message_data_set_text ()">unique_message_data_set_text</a>        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *str,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gssize"
+>gssize</a> length);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *             <a class="link" href="unique-Message-Data.html#unique-message-data-get-text" title="unique_message_data_get_text ()">unique_message_data_get_text</a>        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="unique-Message-Data.html#unique-message-data-set-uris" title="unique_message_data_set_uris ()">unique_message_data_set_uris</a>        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **uris);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **            <a class="link" href="unique-Message-Data.html#unique-message-data-get-uris" title="unique_message_data_get_uris ()">unique_message_data_get_uris</a>        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+void                <a class="link" href="unique-Message-Data.html#unique-message-data-set-filename" title="unique_message_data_set_filename ()">unique_message_data_set_filename</a>    (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *             <a class="link" href="unique-Message-Data.html#unique-message-data-get-filename" title="unique_message_data_get_filename ()">unique_message_data_get_filename</a>    (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+
+<a
+href="http://library.gnome.org/devel/gdk/unstable/GdkScreen.html"
+>GdkScreen</a> *         <a class="link" href="unique-Message-Data.html#unique-message-data-get-screen" title="unique_message_data_get_screen ()">unique_message_data_get_screen</a>      (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *       <a class="link" href="unique-Message-Data.html#unique-message-data-get-startup-id" title="unique_message_data_get_startup_id ()">unique_message_data_get_startup_id</a>  (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>               <a class="link" href="unique-Message-Data.html#unique-message-data-get-workspace" title="unique_message_data_get_workspace ()">unique_message_data_get_workspace</a>   (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="unique-Message-Data.description"></a><h2>Description</h2>
+<p>
+<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> contains the data sent from a <a class="link" href="UniqueApp.html" title="UniqueApp"><span class="type">UniqueApp</span></a> to a
+running instance of the same application. It can contain arbitrary
+binary data, and provides convenience functions to set plain text
+or URI list.
+</p>
+<p>
+You should create a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> structure using
+<a class="link" href="unique-Message-Data.html#unique-message-data-new" title="unique_message_data_new ()"><code class="function">unique_message_data_new()</code></a>, you can copy it using the
+<a class="link" href="unique-Message-Data.html#unique-message-data-copy" title="unique_message_data_copy ()"><code class="function">unique_message_data_copy()</code></a> and you should free it using
+<a class="link" href="unique-Message-Data.html#unique-message-data-free" title="unique_message_data_free ()"><code class="function">unique_message_data_free()</code></a>.
+</p>
+<p>
+You can set data using <a class="link" href="unique-Message-Data.html#unique-message-data-set" title="unique_message_data_set ()"><code class="function">unique_message_data_set()</code></a>,
+<a class="link" href="unique-Message-Data.html#unique-message-data-set-text" title="unique_message_data_set_text ()"><code class="function">unique_message_data_set_text()</code></a>, <a class="link" href="unique-Message-Data.html#unique-message-data-set-filename" title="unique_message_data_set_filename ()"><code class="function">unique_message_data_set_filename()</code></a>
+or <a class="link" href="unique-Message-Data.html#unique-message-data-set-uris" title="unique_message_data_set_uris ()"><code class="function">unique_message_data_set_uris()</code></a>.
+</p>
+<p>
+You can retrieve the data set using <a class="link" href="unique-Message-Data.html#unique-message-data-get" title="unique_message_data_get ()"><code class="function">unique_message_data_get()</code></a>,
+<a class="link" href="unique-Message-Data.html#unique-message-data-get-text" title="unique_message_data_get_text ()"><code class="function">unique_message_data_get_text()</code></a>, <a class="link" href="unique-Message-Data.html#unique-message-data-get-filename" title="unique_message_data_get_filename ()"><code class="function">unique_message_data_get_filename()</code></a>
+or <a class="link" href="unique-Message-Data.html#unique-message-data-get-uris" title="unique_message_data_get_uris ()"><code class="function">unique_message_data_get_uris()</code></a>.</p>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="unique-Message-Data.details"></a><h2>Details</h2>
+<div class="refsect2" title="UniqueMessageData">
+<a name="UniqueMessageData"></a><h3>UniqueMessageData</h3>
+<pre class="programlisting">typedef struct _UniqueMessageData UniqueMessageData;</pre>
+<p>
+<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> contains the data passed between instances of
+a <a class="link" href="UniqueApp.html" title="UniqueApp"><span class="type">UniqueApp</span></a>. The <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> structure received inside
+the signal handlers for UniqueApp::message-received is guaranteed
+to contain the <a
+href="http://library.gnome.org/devel/gdk/unstable/GdkScreen.html"
+><span class="type">GdkScreen</span></a>, the workspace and the startup notification
+id of the instance sending the message.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_new ()">
+<a name="unique-message-data-new"></a><h3>unique_message_data_new ()</h3>
+<pre class="programlisting"><a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> * unique_message_data_new             (void);</pre>
+<p>
+Creates a new <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> structure. This structure holds the
+message data passed between running instances with
+<a class="link" href="UniqueApp.html#unique-app-send-message" title="unique_app_send_message ()"><code class="function">unique_app_send_message()</code></a>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the newly created <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_copy ()">
+<a name="unique-message-data-copy"></a><h3>unique_message_data_copy ()</h3>
+<pre class="programlisting"><a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> * unique_message_data_copy            (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Copies <em class="parameter"><code>message_data</code></em>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a copy of the passed <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_free ()">
+<a name="unique-message-data-free"></a><h3>unique_message_data_free ()</h3>
+<pre class="programlisting">void                unique_message_data_free            (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Frees all the resources allocated by <em class="parameter"><code>message_data</code></em>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_set ()">
+<a name="unique-message-data-set"></a><h3>unique_message_data_set ()</h3>
+<pre class="programlisting">void                unique_message_data_set             (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a> *data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> length);</pre>
+<p>
+Sets <em class="parameter"><code>data</code></em> as the payload of <em class="parameter"><code>message_data</code></em>. Any other data is removed
+from the message data. If <em class="parameter"><code>data</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL--CAPS"
+><code class="literal">NULL</code></a>, a <em class="parameter"><code>length</code></em> of -1 will unset
+the payload, while a <em class="parameter"><code>length</code></em> of 0 will set the payload to an empty
+string.
+</p>
+<p>
+You can use <a class="link" href="unique-Message-Data.html#unique-message-data-get" title="unique_message_data_get ()"><code class="function">unique_message_data_get()</code></a> to retrieve the data.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>data</code></em> :</span></p></td>
+<td> binary blob to set, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL--CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td> length of <em class="parameter"><code>data</code></em>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get ()">
+<a name="unique-message-data-get"></a><h3>unique_message_data_get ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a> *      unique_message_data_get             (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> *length);</pre>
+<p>
+Retrieves the raw contents of <em class="parameter"><code>message_data</code></em> set using
+<code class="function">unique_messaget_data_set()</code>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td> return location for the length of the contents
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the contents of the message data or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL--CAPS"
+><code class="literal">NULL</code></a>. The
+  returned string is owned by the <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> and should
+  never be modified or freed
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 1.0.2</p>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_set_text ()">
+<a name="unique-message-data-set-text"></a><h3>unique_message_data_set_text ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unique_message_data_set_text        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *str,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gssize"
+>gssize</a> length);</pre>
+<p>
+Sets <em class="parameter"><code>str</code></em> as the plain text payload of <em class="parameter"><code>message_data</code></em>, converting it
+to UTF-8 if needed. If <em class="parameter"><code>length</code></em> is -1, the length of the string will
+be used. Use <a class="link" href="unique-Message-Data.html#unique-message-data-get-text" title="unique_message_data_get_text ()"><code class="function">unique_message_data_get_text()</code></a> to retrieve the text.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>str</code></em> :</span></p></td>
+<td> plain text to be set as payload
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td> length of the text, or -1
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE--CAPS"
+><code class="literal">TRUE</code></a> if the text was successfully converted to UTF-8
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_text ()">
+<a name="unique-message-data-get-text"></a><h3>unique_message_data_get_text ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *             unique_message_data_get_text        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Retrieves the text set using <a class="link" href="unique-Message-Data.html#unique-message-data-set-text" title="unique_message_data_set_text ()"><code class="function">unique_message_data_set_text()</code></a>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> an allocated string.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_set_uris ()">
+<a name="unique-message-data-set-uris"></a><h3>unique_message_data_set_uris ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            unique_message_data_set_uris        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **uris);</pre>
+<p>
+Converts <em class="parameter"><code>uris</code></em> to a valid URI list and sets it as payload of
+<em class="parameter"><code>message_data</code></em>. You can use <a class="link" href="unique-Message-Data.html#unique-message-data-get-uris" title="unique_message_data_get_uris ()"><code class="function">unique_message_data_get_uris()</code></a> to
+retrieve the list from a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uris</code></em> :</span></p></td>
+<td>array zero-terminated=1) (element-type utf8. <a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=array"><span class="acronym">array</span></a> zero-terminated=1. <a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=element-type"><span class="acronym">element-type</span></a> utf8. </td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE--CAPS"
+><code class="literal">TRUE</code></a> if the URIs were successfully converted
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_uris ()">
+<a name="unique-message-data-get-uris"></a><h3>unique_message_data_get_uris ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **            unique_message_data_get_uris        (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Retrieves a <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL--CAPS"
+><code class="literal">NULL</code></a>-terminated string vector containing the URIs set with
+<a class="link" href="unique-Message-Data.html#unique-message-data-set-uris" title="unique_message_data_set_uris ()"><code class="function">unique_message_data_set_uris()</code></a>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> an allocated list of URIs. Use <a
+href="/usr/share/gtk-doc/html/glib/glib-String-Utility-Functions.html#g-strfreev"
+><code class="function">g_strfreev()</code></a> to free it.. <a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=array"><span class="acronym">array</span></a> zero-terminated=1. <a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=element-type"><span class="acronym">element-type</span></a> utf8. <a href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=transfer"><span class="acronym">transfer</span></a> full. </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_set_filename ()">
+<a name="unique-message-data-set-filename"></a><h3>unique_message_data_set_filename ()</h3>
+<pre class="programlisting">void                unique_message_data_set_filename    (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);</pre>
+<p>
+Sets <em class="parameter"><code>filename</code></em> as the contents of <em class="parameter"><code>message_data</code></em>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em> :</span></p></td>
+<td> a filename
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 1.0.2</p>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_filename ()">
+<a name="unique-message-data-get-filename"></a><h3>unique_message_data_get_filename ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *             unique_message_data_get_filename    (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Retrieves the filename set with <a class="link" href="unique-Message-Data.html#unique-message-data-set-filename" title="unique_message_data_set_filename ()"><code class="function">unique_message_data_set_filename()</code></a>.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a newly allocated string containing the filename.
+  Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> to free the resources used by the returned value.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 1.0.2</p>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_screen ()">
+<a name="unique-message-data-get-screen"></a><h3>unique_message_data_get_screen ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gdk/unstable/GdkScreen.html"
+>GdkScreen</a> *         unique_message_data_get_screen      (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Returns a pointer to the screen from where the message came. You
+can use <a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWindow.html#gtk-window-set-screen"
+><code class="function">gtk_window_set_screen()</code></a> to move windows or dialogs to the
+right screen. This field is always set by the Unique library.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a <a
+href="http://library.gnome.org/devel/gdk/unstable/GdkScreen.html"
+><span class="type">GdkScreen</span></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_startup_id ()">
+<a name="unique-message-data-get-startup-id"></a><h3>unique_message_data_get_startup_id ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *       unique_message_data_get_startup_id  (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Retrieves the startup notification id set inside <em class="parameter"><code>message_data</code></em>. This
+field is always set by the Unique library.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the startup notification id. The returned string is
+  owned by the <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a> structure and should not be
+  modified or freed
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="unique_message_data_get_workspace ()">
+<a name="unique-message-data-get-workspace"></a><h3>unique_message_data_get_workspace ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>               unique_message_data_get_workspace   (<a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData">UniqueMessageData</a> *message_data);</pre>
+<p>
+Retrieves the workspace number from where the message came. This
+field is always set by the Unique library.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>message_data</code></em> :</span></p></td>
+<td> a <a class="link" href="unique-Message-Data.html#UniqueMessageData" title="UniqueMessageData"><span class="type">UniqueMessageData</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the workspace number
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

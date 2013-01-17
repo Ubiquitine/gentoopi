@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.30 !dev-util/pkgconf[pkg-config] !dev-util/pkg-config-lite !dev-util/pkgconfig-openbsd[pkg-config]

@@ -1,0 +1,60 @@
+dir /etc
+dir /etc/security
+obj /etc/security/capability.conf 42907d60c72848d86e61eacf0e9e03d7 1356356952
+dir /sbin
+obj /sbin/getpcaps 790ca478bb2219ad352a362f0ea4bc92 1356356973
+obj /sbin/setcap bceadb5730cff0d33cdb7a53d8b0f35e 1356356973
+obj /sbin/capsh dbc9dfdc14372e152c79f0c7e9b4b2eb 1356356973
+obj /sbin/getcap fa94b814de60d8279dc4f6057d4e9157 1356356973
+dir /lib
+obj /lib/libcap.so.2.22 2e442fff5ac9dad18da32aa38399fbb8 1356356973
+sym /lib/libcap.so.2 -> libcap.so.2.22 1356356999
+dir /lib/security
+obj /lib/security/pam_cap.so 6c3c6bb391028e4d7380bf22e638741f 1356356974
+dir /usr
+dir /usr/include
+dir /usr/include/sys
+obj /usr/include/sys/capability.h 7301a6e60f0034625230b6cbb38613d8 1356356946
+dir /usr/lib
+obj /usr/lib/libcap.a 28cfd25cec7e31ce832aa5f96dddfe08 1356356974
+obj /usr/lib/libcap.so 66d355dd628950eadfb0a89580b5c6e3 1356356948
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/capsh.1.bz2 683c7da1dee3db745bd01318aa09611c 1356356947
+dir /usr/share/man/man3
+obj /usr/share/man/man3/cap_set_proc.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/cap_get_proc.3.bz2 451a2da4d7884e793783316f66cae5d8 1356356947
+obj /usr/share/man/man3/cap_get_flag.3.bz2 4d686eb91b2327413ea5f55a5b3d9897 1356356947
+obj /usr/share/man/man3/cap_drop_bound.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/cap_set_fd.3.bz2 c9a36a71de83d7329065ce78bab5af72 1356356947
+obj /usr/share/man/man3/cap_init.3.bz2 47cf6700adb86d9ce524ce667ac183fc 1356356947
+obj /usr/share/man/man3/cap_free.3.bz2 1a67dc1332c7df89d2f779043063fc67 1356356947
+obj /usr/share/man/man3/cap_from_name.3.bz2 9185c74850b8e1434dc10d35c93f626a 1356356947
+obj /usr/share/man/man3/capsetp.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/cap_set_flag.3.bz2 4d686eb91b2327413ea5f55a5b3d9897 1356356947
+obj /usr/share/man/man3/cap_to_text.3.bz2 9185c74850b8e1434dc10d35c93f626a 1356356947
+obj /usr/share/man/man3/cap_to_name.3.bz2 9185c74850b8e1434dc10d35c93f626a 1356356947
+obj /usr/share/man/man3/cap_copy_int.3.bz2 80318a709a0bc954dd4207a448c9ef14 1356356947
+obj /usr/share/man/man3/cap_get_file.3.bz2 b3f5e96d86f3cb42e0c2c617d66fa9e3 1356356947
+obj /usr/share/man/man3/cap_copy_ext.3.bz2 82b2b514bfad046cc0ea934c97ffe18f 1356356947
+obj /usr/share/man/man3/cap_clear.3.bz2 cb6ef7e17a827a132f214e0bbef9d50f 1356356947
+obj /usr/share/man/man3/cap_size.3.bz2 80318a709a0bc954dd4207a448c9ef14 1356356947
+obj /usr/share/man/man3/cap_set_file.3.bz2 c9a36a71de83d7329065ce78bab5af72 1356356947
+obj /usr/share/man/man3/capgetp.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/cap_compare.3.bz2 4d686eb91b2327413ea5f55a5b3d9897 1356356947
+obj /usr/share/man/man3/cap_get_pid.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/cap_get_bound.3.bz2 571e37501d860ef2993427b763b4d1da 1356356947
+obj /usr/share/man/man3/libcap.3.bz2 c2a565eb17bcbce9bc2d00384acebb5b 1356356947
+obj /usr/share/man/man3/cap_from_text.3.bz2 dd4f80b1496b1f2b991a13b6f1395f5c 1356356947
+obj /usr/share/man/man3/cap_clear_flag.3.bz2 4d686eb91b2327413ea5f55a5b3d9897 1356356947
+obj /usr/share/man/man3/cap_dup.3.bz2 1a67dc1332c7df89d2f779043063fc67 1356356947
+obj /usr/share/man/man3/cap_get_fd.3.bz2 c9a36a71de83d7329065ce78bab5af72 1356356947
+dir /usr/share/man/man8
+obj /usr/share/man/man8/getcap.8.bz2 4c79d8f198c4ec6e0ec2b587b6b1db73 1356356947
+obj /usr/share/man/man8/setcap.8.bz2 da89c20d13faeaabb4f9fe3874a77e2a 1356356947
+dir /usr/share/doc
+dir /usr/share/doc/libcap-2.22
+obj /usr/share/doc/libcap-2.22/CHANGELOG.bz2 99ae6b6b2da2dc1fe7ae591a9280a6f7 1356356952
+obj /usr/share/doc/libcap-2.22/README.bz2 ee19bff170e6a34abe8054ba73ec6c80 1356356952
+obj /usr/share/doc/libcap-2.22/capability.notes.bz2 b4c99b32edb09155dbbf128139f12b8b 1356356952

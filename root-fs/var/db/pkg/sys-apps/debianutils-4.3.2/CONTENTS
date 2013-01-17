@@ -1,0 +1,24 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/tempfile.1.bz2 d8cfb575721d45c3b41398f4b710234f 1355986670
+dir /usr/share/man/man8
+obj /usr/share/man/man8/installkernel.8.bz2 431b9edd0b9b58f91ffc52c3e4c309e0 1355986670
+obj /usr/share/man/man8/savelog.8.bz2 a5e04d21d261d9913dfe16c2fe13864f 1355986670
+obj /usr/share/man/man8/run-parts.8.bz2 3f4094e0427341993e486ee231f601d8 1355986670
+dir /usr/share/doc
+dir /usr/share/doc/debianutils-4.3.2
+obj /usr/share/doc/debianutils-4.3.2/changelog.bz2 cf331452386d506bb200a14755dd535f 1355986670
+obj /usr/share/doc/debianutils-4.3.2/control.bz2 9dd48bff72f32a29e6aa10565e57491d 1355986670
+dir /usr/sbin
+obj /usr/sbin/savelog 1de2af54da765f55f9e898dd57d60051 1355986670
+dir /etc
+dir /etc/kernel
+dir /etc/kernel/postinst.d
+obj /etc/kernel/postinst.d/.keep_sys-apps_debianutils-0 d41d8cd98f00b204e9800998ecf8427e 1355986670
+dir /bin
+obj /bin/tempfile 9ba5f653caf20626c1ba6ec71c74675f 1355986673
+obj /bin/run-parts ea3a12cfe96302b965bb7323efaeb4f4 1355986673
+dir /sbin
+obj /sbin/installkernel 2ded75b8025106d313faad3e85d2056a 1355986670

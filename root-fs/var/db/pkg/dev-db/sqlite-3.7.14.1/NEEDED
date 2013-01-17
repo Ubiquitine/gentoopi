@@ -1,0 +1,2 @@
+/usr/lib/libsqlite3.so.0.8.6 libdl.so.2,libpthread.so.0,libgcc_s.so.1,libc.so.6
+/usr/bin/sqlite3 libsqlite3.so.0,libreadline.so.6,libc.so.6

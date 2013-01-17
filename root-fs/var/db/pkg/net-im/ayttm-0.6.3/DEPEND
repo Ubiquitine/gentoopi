@@ -1,0 +1,1 @@
+app-text/enchant dev-libs/glib:2 dev-libs/openssl virtual/libiconv x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libX11 x11-libs/libXpm x11-libs/pango sys-devel/bison sys-devel/flex sys-devel/gettext || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

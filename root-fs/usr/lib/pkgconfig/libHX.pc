@@ -1,0 +1,12 @@
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name:		libHX
+Description:	Useful collection of routines for C and C++ programming
+Version:	3.14
+Cflags:		-I${includedir}
+Libs:		-L${libdir} -lHX
+Libs.private:	-ldl -lpthread -lrt

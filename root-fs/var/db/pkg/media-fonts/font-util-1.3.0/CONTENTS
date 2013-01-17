@@ -1,0 +1,37 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/fontutil.pc 8c9e909de7775637fdf70513926f91e6 1356435582
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/bdftruncate.1.bz2 c2423c088f9cefb7db9cd9b4d1807438 1356435580
+obj /usr/share/man/man1/ucs2any.1.bz2 54991c67233b9280d888c72446fdd3c8 1356435580
+dir /usr/share/doc
+dir /usr/share/doc/font-util-1.3.0
+obj /usr/share/doc/font-util-1.3.0/README.bz2 12c102e9039dd646a6ebec26ec8deeb8 1356435582
+obj /usr/share/doc/font-util-1.3.0/ChangeLog.bz2 94a7d82ca0050eafd455e54af44b55d9 1356435583
+dir /usr/share/fonts
+dir /usr/share/fonts/util
+obj /usr/share/fonts/util/map-ISO8859-11 4b5563bdf9716200e25827da7f95580c 1356435582
+obj /usr/share/fonts/util/map-ISO8859-3 508e6e6c9944169639d3110e0b973ce0 1356435582
+obj /usr/share/fonts/util/map-ISO8859-2 9c338678a16843fd60fcd12602f767e5 1356435581
+obj /usr/share/fonts/util/map-ISO8859-9 dc12e2b5e874edc397380ffd8ae55ed2 1356435582
+obj /usr/share/fonts/util/map-ISO8859-16 f905f3043c0b8265c64fb80ec9e747c3 1356435582
+obj /usr/share/fonts/util/map-ISO8859-14 b3d2634fb31883aae57fcfeb06436e2b 1356435582
+obj /usr/share/fonts/util/map-ISO8859-5 4c2e46c0b5c710935c6d48a96a930f55 1356435582
+obj /usr/share/fonts/util/map-ISO8859-8 c77336d026dc44cb4bfa23dd89fa9dde 1356435582
+obj /usr/share/fonts/util/map-ISO8859-4 de68d2887e903b683ac7de31fcf86e04 1356435582
+obj /usr/share/fonts/util/map-ISO8859-15 f807052642f93374e506682793924df0 1356435582
+obj /usr/share/fonts/util/map-ISO8859-6 0b6fca3cf6ced7832ec98bd83e9d8573 1356435582
+obj /usr/share/fonts/util/map-JISX0201.1976-0 11d0dcc5b2d510e8b786ed03f09ab480 1356435582
+obj /usr/share/fonts/util/map-ISO8859-10 1756fe8a4076a0acbaa84f31f73a5e18 1356435582
+obj /usr/share/fonts/util/map-KOI8-R a66fb8e72381bf5af69d69f1ee6e0ff0 1356435582
+obj /usr/share/fonts/util/map-ISO8859-7 e6b859201a1a2a4ef070877389351a60 1356435582
+obj /usr/share/fonts/util/map-ISO8859-1 12e09bd6c9c501b55e0f27acaf60c672 1356435581
+obj /usr/share/fonts/util/map-ISO8859-13 f97c84a786088bd85262f57df05408fd 1356435582
+dir /usr/share/aclocal
+obj /usr/share/aclocal/fontutil.m4 f6bb76f12114b34348ba1708cdd8eefd 1356435581
+dir /usr/bin
+obj /usr/bin/ucs2any 437617314de86a2187affa4754e22e15 1356435607
+obj /usr/bin/bdftruncate 12310f229b0a40a288670cec3badea7c 1356435607

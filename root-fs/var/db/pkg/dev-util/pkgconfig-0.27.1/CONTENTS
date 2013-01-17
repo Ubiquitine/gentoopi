@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/pkg-config.1.bz2 2af7211ee7910f8bf5f8cdaf5baa976d 1356001177
+dir /usr/share/doc
+dir /usr/share/doc/pkgconfig-0.27.1
+obj /usr/share/doc/pkgconfig-0.27.1/NEWS.bz2 4afe63666a46f870e5e8b969e2fd770d 1356001177
+obj /usr/share/doc/pkgconfig-0.27.1/README.bz2 9f95e4042f82773320586b4cfefb8b73 1356001177
+dir /usr/share/doc/pkgconfig-0.27.1/html
+obj /usr/share/doc/pkgconfig-0.27.1/html/pkg-config-guide.html 5f3a4e690ef36a237882ac80025255cb 1356001177
+obj /usr/share/doc/pkgconfig-0.27.1/AUTHORS.bz2 d5cec37ef9ed3ce7a66e0ee73a233d07 1356001177
+dir /usr/share/aclocal
+obj /usr/share/aclocal/pkg.m4 ad8d52d54e0f97c0e4e385376ea73bc0 1356001177
+dir /usr/bin
+obj /usr/bin/pkg-config 3c1cb3c11f07d364048332fc58ddc816 1356001180

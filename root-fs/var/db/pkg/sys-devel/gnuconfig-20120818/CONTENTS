@@ -1,0 +1,8 @@
+dir /usr
+dir /usr/share
+dir /usr/share/gnuconfig
+obj /usr/share/gnuconfig/config.guess 2f553957214284607b1b5fa4b55ee170 1355985320
+obj /usr/share/gnuconfig/config.sub 536b29e4eb3a0a2504e0cb568fb72cc5 1355985320
+dir /usr/share/doc
+dir /usr/share/doc/gnuconfig-20120818
+obj /usr/share/doc/gnuconfig-20120818/ChangeLog.bz2 6eff85df5a8370af236ff74434b54bfa 1355985320

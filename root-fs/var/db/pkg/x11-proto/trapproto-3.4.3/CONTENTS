@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xtraplibp.h 99834a28b5ba772ec78d6eeccbc00ac1 1356435760
+obj /usr/include/X11/extensions/xtrapddmi.h f273150c62e9265ba07c0c891534d201 1356435760
+obj /usr/include/X11/extensions/xtraplib.h 93061a1eeb2c384e1d626015985bf8dd 1356435760
+obj /usr/include/X11/extensions/xtrapdi.h 0cc56e496c05eda70f2412b22550d7a0 1356435760
+obj /usr/include/X11/extensions/xtrapemacros.h d21c8c4ac59a727d0b4742b33b2f368e 1356435760
+obj /usr/include/X11/extensions/xtrapproto.h c5239111ebd965191fd52d7dcb7957c9 1356435760
+obj /usr/include/X11/extensions/xtrapbits.h 72e5e02bbaf8dac3cb6599d4b968c4b8 1356435760
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/trapproto.pc 96d413f05e227ca171f615d3b053079d 1356435760
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/trapproto-3.4.3
+obj /usr/share/doc/trapproto-3.4.3/ChangeLog.bz2 c53f14f8ad670435b3f0604191021be7 1356435761

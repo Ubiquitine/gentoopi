@@ -1,0 +1,182 @@
+dir /usr
+dir /usr/share
+dir /usr/share/locale
+dir /usr/share/locale/en_CA
+dir /usr/share/locale/en_CA/LC_MESSAGES
+obj /usr/share/locale/en_CA/LC_MESSAGES/glib-networking.mo 97030acbb8a2125c99746811ceea7cd9 1357554322
+dir /usr/share/locale/zh_HK
+dir /usr/share/locale/zh_HK/LC_MESSAGES
+obj /usr/share/locale/zh_HK/LC_MESSAGES/glib-networking.mo b105e1a65668abed23686baf4a8b7f2a 1357554356
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/glib-networking.mo 9eb560cd725e8a3121d0b430b2ed30ee 1357554332
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/glib-networking.mo 0078e06fa7ed351856559e1cc83a63ff 1357554341
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/glib-networking.mo dc53ce6bcbc7fab6a382886d03e8ae0f 1357554344
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/glib-networking.mo a2e8ebe1a31ca473e03a614b1474f483 1357554333
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/glib-networking.mo 1881bee41cc2c8b7f9a70ceeebc0e017 1357554349
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/glib-networking.mo 6fd455f1fefcbd4450100bd9feb0ba6c 1357554345
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/glib-networking.mo 321e4b519bdf3d25278023e51d5f1226 1357554325
+dir /usr/share/locale/hi
+dir /usr/share/locale/hi/LC_MESSAGES
+obj /usr/share/locale/hi/LC_MESSAGES/glib-networking.mo f9b4ad35388aac16710358dae016919a 1357554331
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/glib-networking.mo 91d6691178058d1d10defebf7b9a3ce7 1357554349
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/glib-networking.mo 0c2ecb6c09dce9a2a43f5ace4e36690d 1357554320
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/glib-networking.mo d873303e3bcb87e45106634d30367547 1357554336
+dir /usr/share/locale/kn
+dir /usr/share/locale/kn/LC_MESSAGES
+obj /usr/share/locale/kn/LC_MESSAGES/glib-networking.mo 55971bb18f3bd4698c862b0c68b0f817 1357554335
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/glib-networking.mo ddf17da2bc0aad06facf0181b5074112 1357554334
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/glib-networking.mo 2ee4b4fac532b1d6eb21246276322024 1357554338
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/glib-networking.mo f94241195f51140a231f0d4c043bd3bd 1357554323
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/glib-networking.mo 99fa57e61ebfa679a5e4fc6a185e3cb2 1357554356
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/glib-networking.mo 013cf6325210815fb1f427c2c578af33 1357554342
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/glib-networking.mo f2bfd011bc1d5b54fa0a4498caea6ea8 1357554354
+dir /usr/share/locale/as
+dir /usr/share/locale/as/LC_MESSAGES
+obj /usr/share/locale/as/LC_MESSAGES/glib-networking.mo c301775d36b266e877f315474fd2b32c 1357554315
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/glib-networking.mo f50de8f0a67b9173b70033f829a069b1 1357554317
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/glib-networking.mo 3cf32016dc292e2844c9527d491afd34 1357554316
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/glib-networking.mo 4a8bc7afd92344ba94505c047ff70fed 1357554325
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/glib-networking.mo 5c1b4e307e15aa49ed2b4d904d5262e6 1357554330
+dir /usr/share/locale/mr
+dir /usr/share/locale/mr/LC_MESSAGES
+obj /usr/share/locale/mr/LC_MESSAGES/glib-networking.mo 23f2c5fc3fae61248dee423a73f603a7 1357554339
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/glib-networking.mo 988c7c6d66e20f11bcec5a3dec854024 1357554338
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/glib-networking.mo b6282fa270ca1bdf369ec345d26100b1 1357554345
+dir /usr/share/locale/ca@valencia
+dir /usr/share/locale/ca@valencia/LC_MESSAGES
+obj /usr/share/locale/ca@valencia/LC_MESSAGES/glib-networking.mo 36285fac752c33a1a620da8297fd9b48 1357554319
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/glib-networking.mo d83bdce66ab681b3745e43604af50581 1357554318
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/glib-networking.mo 462e9a3b71b6e0ba371e904f3dfc0507 1357554337
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/glib-networking.mo 14faa22537353fa436b416e6c476e40c 1357554320
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/glib-networking.mo 47e8c70c7a89c67d3b2de5f11424c0ff 1357554326
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/glib-networking.mo d1cb195c21e3d8d06184280fa0890cd9 1357554354
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/glib-networking.mo 7039ba7ef933fc87551cd9a88002ae47 1357554328
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/glib-networking.mo 02ef5a5d2e1585103500877bdf20b616 1357554343
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/glib-networking.mo 1b2297fbfb2ea28e6c6a9992791f8d42 1357554333
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/glib-networking.mo b071fb948c757a652ad1a9bb03523944 1357554322
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/glib-networking.mo 55264956884ca0b6752035c3eb43f309 1357554340
+dir /usr/share/locale/ug
+dir /usr/share/locale/ug/LC_MESSAGES
+obj /usr/share/locale/ug/LC_MESSAGES/glib-networking.mo 35fdd2ecd80157469024b39ba5aee8b3 1357554353
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/glib-networking.mo d461f97bb206e37a194d39b1c912b5ef 1357554351
+dir /usr/share/locale/ta
+dir /usr/share/locale/ta/LC_MESSAGES
+obj /usr/share/locale/ta/LC_MESSAGES/glib-networking.mo 6091f259f5b8f92c4c4668981180b832 1357554350
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/glib-networking.mo 8d4c65c58f8d1b86572a839be43bfe2d 1357554329
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/glib-networking.mo b3b6e63740671115085e82b0a779f7a1 1357554317
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/glib-networking.mo a1dac04e611a139d46dd46edddf82398 1357554351
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/glib-networking.mo 44326c2b1649a6ca8f3177531b7bc49d 1357554352
+dir /usr/share/locale/or
+dir /usr/share/locale/or/LC_MESSAGES
+obj /usr/share/locale/or/LC_MESSAGES/glib-networking.mo cd21b248fc49ded9e638562f4c500f74 1357554341
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/glib-networking.mo 4f08da8b6a7996e936ce3090ff1e43f8 1357554324
+dir /usr/share/locale/gu
+dir /usr/share/locale/gu/LC_MESSAGES
+obj /usr/share/locale/gu/LC_MESSAGES/glib-networking.mo 31a46cd99ef4998a5a95c8fafe3df2ea 1357554330
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/glib-networking.mo 2e9d0f65f486245334408db12516d3e9 1357554348
+dir /usr/share/locale/km
+dir /usr/share/locale/km/LC_MESSAGES
+obj /usr/share/locale/km/LC_MESSAGES/glib-networking.mo 2147503af43eca3a785d32dc500c46cc 1357554335
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/glib-networking.mo 191337163b84b2548b7b7509f0b3b9ab 1357554346
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/glib-networking.mo 0cae8e42c667b6dc39bffe70ab9b3932 1357554355
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/glib-networking.mo d5d198d5819e1b4612a8c2ee11b77b36 1357554347
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/glib-networking.mo c059721b68d55d8251e16e010c689c0a 1357554327
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/glib-networking.mo 533fb75a670809a362d57971e5f9fbfd 1357554328
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/glib-networking.mo 4d55d43b4a7344146618f3e7fdb66cd9 1357554321
+dir /usr/share/doc
+dir /usr/share/doc/glib-networking-2.32.3
+obj /usr/share/doc/glib-networking-2.32.3/README.bz2 4ea9247aa00f5c0f78f65ffd160b6d12 1357554361
+obj /usr/share/doc/glib-networking-2.32.3/NEWS.bz2 ad88e7548b575722a96bb482867bdfc8 1357554360
+dir /usr/lib
+dir /usr/lib/gio
+dir /usr/lib/gio/modules
+obj /usr/lib/gio/modules/libgiognutls.so 8e4262fed2312bfd9424b7a369cb18fc 1357554425

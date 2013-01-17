@@ -1,0 +1,50 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/XKBproto.h f4801ee67d17aad424f609eae91ef3e8 1356355090
+obj /usr/include/X11/extensions/XKB.h 7ca6f57d6eafac68bc025d337b929cc9 1356355090
+obj /usr/include/X11/extensions/XKBsrv.h 243940bee0ce5f8e3ada315185fa1b1d 1356355090
+obj /usr/include/X11/extensions/XKBstr.h 9a45cb07cc5c2186cb49a7be28ef0212 1356355090
+obj /usr/include/X11/extensions/XKBgeom.h 5bd98f074067300e64e34cd34a7d7cde 1356355090
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/kbproto.pc 5c2c2e8528b96fea0a6e50af5d78d101 1356355090
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/kbproto-1.0.6
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-7.svg.bz2 2a60f634e925722cf3bf0dfda5cc482f 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-10.svg.bz2 a893b0cf4df39b978b8e17855ffad125 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch10.xml.bz2 221c1045bfd2778ac8bc9bad68dcc067 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch04.xml.bz2 841d88210fb76368dc59bf722ae66a8d 1356355090
+obj /usr/share/doc/kbproto-1.0.6/README.bz2 1147b7d5a725ba9107aa04bd59c28a3d 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-6.svg.bz2 78ad5f1b0cbe8b24c921210c16c175f4 1356355090
+obj /usr/share/doc/kbproto-1.0.6/appD.xml.bz2 21af239931aea212ff0cf5a62d7dfd03 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-3.svg.bz2 4201ee239121c65dda07aaa71533e9f7 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-2.svg.bz2 783710705c8c2ad06435dedf46999c38 1356355090
+obj /usr/share/doc/kbproto-1.0.6/appB.xml.bz2 ceede077e45347e1320791f71798cdf7 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch08.xml.bz2 3cccd7c56f5e2a27e40686b0a6d5021a 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch11.xml.bz2 8b227b0e2afa57f70dbf598d1780834d 1356355090
+obj /usr/share/doc/kbproto-1.0.6/appA.xml.bz2 2e4e0957e11aae9f35f928a5c9228e4c 1356355089
+obj /usr/share/doc/kbproto-1.0.6/ch13.xml.bz2 808d0a7f360a431487ff2240d4fef5d7 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-8.svg.bz2 07d5fdb1ad231f2e740f83b8d7ca2cfe 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch06.xml.bz2 335a3a43b00efef988ffb4a553927809 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch12.xml.bz2 b4faf33c01036cef6062a0474779eae7 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-4.svg.bz2 3c1fc11101bcbf2cf180b1e0b0ecf95d 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch07.xml.bz2 dee80bcf78e577e330308c151d45c3be 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch02.xml.bz2 5f15a7ac9f4059c3de7099472fb770d7 1356355090
+obj /usr/share/doc/kbproto-1.0.6/xkbproto.xml.bz2 48a68bc667c8b07b4bb426a3510334f8 1356355089
+obj /usr/share/doc/kbproto-1.0.6/ch03.xml.bz2 f23b887236867760331ad2da4d535329 1356355090
+obj /usr/share/doc/kbproto-1.0.6/appC.xml.bz2 8c23803d0f12afe19cb3e7021f954a96 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch15.xml.bz2 0943f76090b5ea5af04608dec22415e9 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch14.xml.bz2 42262724138c1762d99f28b2853c7b53 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch05.xml.bz2 b5c5ffb1de868535bbccfc815e361af2 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-11.svg.bz2 0d35346b9bcd5b179140b32c5105296a 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-5.svg.bz2 06a884e47b43e0c57e5eb041ba435d6a 1356355090
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-9.svg.bz2 07d5fdb1ad231f2e740f83b8d7ca2cfe 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch09.xml.bz2 abec9866a6459ee8402bef93052ae2cd 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ch01.xml.bz2 5b5379bee7249579358da0b70757bcb5 1356355090
+obj /usr/share/doc/kbproto-1.0.6/acknowledgements.xml.bz2 60011b09a42514e612fd7f800d92b00f 1356355089
+obj /usr/share/doc/kbproto-1.0.6/XKBproto-1.svg.bz2 3851e6729eddc48224459911440f9c98 1356355090
+obj /usr/share/doc/kbproto-1.0.6/ChangeLog.bz2 ed1cf1d3214deca15c50bdaf374466cc 1356355091
+obj /usr/share/doc/kbproto-1.0.6/ch16.xml.bz2 c8bca6b20d90e4867ad78e9e31e3335b 1356355090

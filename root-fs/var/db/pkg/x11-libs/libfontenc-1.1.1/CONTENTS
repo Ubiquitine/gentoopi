@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/fonts
+obj /usr/include/X11/fonts/fontenc.h eebea3e32ae6174e788feaa80a15bea9 1356439729
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/fontenc.pc 37e62bb3b68d8b7df57121d25a0dc480 1356439730
+obj /usr/lib/libfontenc.so.1.0.0 28d58a6b66311147567f40be935f819a 1356439755
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libfontenc-1.1.1
+obj /usr/share/doc/libfontenc-1.1.1/README.bz2 b141e3a6cdfb2d96d0bbd309eb7f9cbd 1356439730
+obj /usr/share/doc/libfontenc-1.1.1/ChangeLog.bz2 141ca66eb64ef18a63386cf9869e19a4 1356439731
+sym /usr/lib/libfontenc.so -> libfontenc.so.1.0.0 1356439783
+sym /usr/lib/libfontenc.so.1 -> libfontenc.so.1.0.0 1356439783

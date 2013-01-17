@@ -1,0 +1,20 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xfixes.h ef31e25ee66222960df2f3707697d005 1356441336
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xfixes.pc 2e76cbe1661c7dad272adf6a664dd52f 1356441337
+obj /usr/lib/libXfixes.so.3.1.0 ca7265b1b5d610148b5426d799d177ef 1356441363
+sym /usr/lib/libXfixes.so.3 -> libXfixes.so.3.1.0 1356441391
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/Xfixes.3.bz2 2ce1866220965c9db146ebbbc571554d 1356441337
+dir /usr/share/doc
+dir /usr/share/doc/libXfixes-5.0
+obj /usr/share/doc/libXfixes-5.0/README.bz2 1706f7c14cf6af8be99eeb41c5df83e3 1356441338
+obj /usr/share/doc/libXfixes-5.0/AUTHORS.bz2 808272a32e174650922528ac82d9bbb2 1356441338
+obj /usr/share/doc/libXfixes-5.0/ChangeLog.bz2 ecff180a0309e14e543c2c0c3395ea3e 1356441339
+sym /usr/lib/libXfixes.so -> libXfixes.so.3.1.0 1356441391

@@ -1,0 +1,15 @@
+/usr/lib/libcrypto.so.1.0.0 libdl.so.2,libz.so.1,libgcc_s.so.1,libc.so.6
+/usr/lib/engines/libsureware.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libgmp.so libc.so.6
+/usr/lib/engines/libcapi.so libc.so.6
+/usr/lib/engines/libpadlock.so libc.so.6
+/usr/lib/engines/libchil.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libubsec.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libnuron.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libatalla.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/lib4758cca.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libcswift.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libgost.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/engines/libaep.so libcrypto.so.1.0.0,libc.so.6
+/usr/lib/libssl.so.1.0.0 libcrypto.so.1.0.0,libc.so.6
+/usr/bin/openssl libssl.so.1.0.0,libcrypto.so.1.0.0,libc.so.6

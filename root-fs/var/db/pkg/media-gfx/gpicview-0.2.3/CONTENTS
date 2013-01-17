@@ -1,0 +1,167 @@
+dir /usr
+dir /usr/share
+dir /usr/share/gpicview
+dir /usr/share/gpicview/ui
+obj /usr/share/gpicview/ui/pref-dlg.ui 6f14f0f7832367298140debfb29012d5 1356710190
+dir /usr/share/gpicview/pixmaps
+obj /usr/share/gpicview/pixmaps/object-flip-vertical.png c7aef2e278fb4ce78587cb51af4ed2b2 1356710189
+obj /usr/share/gpicview/pixmaps/object-flip-horizontal.png d4219da7a4323f9fc2d072f516fcbc3c 1356710189
+obj /usr/share/gpicview/pixmaps/object-rotate-left.png c0af95d1d0cbb65624648d889243efd1 1356710189
+obj /usr/share/gpicview/pixmaps/object-rotate-right.png 9dd28bf96cc038464c5393bdbc851cd1 1356710189
+dir /usr/share/doc
+dir /usr/share/doc/gpicview-0.2.3
+obj /usr/share/doc/gpicview-0.2.3/AUTHORS.bz2 33928aea40b13c5a670d6f9e37c647fd 1356710191
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/gpicview.mo bb657d772501f1573bfdd442672f5ec6 1356710176
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/gpicview.mo ca81ea843095a93e5efef4fde5776249 1356710183
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/gpicview.mo 0db49efcdf286af4d0f0a8608ad1b1fa 1356710179
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/gpicview.mo f431856ac701898c266cffd4bdf41489 1356710178
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/gpicview.mo c4a50bde35529898cde7d7436a9c2efb 1356710181
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/gpicview.mo ec6e206315038ea3241cf0eed911407e 1356710177
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/gpicview.mo ab791c381d20f5bf544cf81995b9cf2a 1356710183
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/gpicview.mo 4dce06401d95d2c0f48f8d99d8aed5fd 1356710187
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/gpicview.mo d547f65ecad902b2c30f88a490f60141 1356710186
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/gpicview.mo e40b7730c9996b6530489e95b8f32c78 1356710180
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/gpicview.mo c53e69d501deec91dc08c6fe39e8ad5a 1356710189
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/gpicview.mo 8ede7c1cf1acf1da2f091aefd5bfb2e9 1356710185
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/gpicview.mo 99c501d4c360f20e04fcaf078a52fbfe 1356710180
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/gpicview.mo 91f20b2fd6945666e0285bc269aa49c7 1356710188
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/gpicview.mo 58587271a6ee5a0fbe30c694d7a6e34a 1356710179
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/gpicview.mo 3d6ebc8175e04e851d9b1566c44800ff 1356710185
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/gpicview.mo a6c64a2596f8503688934072513e945d 1356710179
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/gpicview.mo b8a6ff52d3af356eda3a77cf5b2eed98 1356710178
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/gpicview.mo 1f63021d2dd5bf95438c39f8a1cfeecf 1356710187
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gpicview.mo 165cea08b4f46716e5ee5a6319d82043 1356710189
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/gpicview.mo 0973b616f57f50cfd63918ebe19b2f59 1356710187
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/gpicview.mo 3d6ebc8175e04e851d9b1566c44800ff 1356710184
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/gpicview.mo 9a1e22f5052500a391915624c1280515 1356710176
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/gpicview.mo ae8b751bbeba95ceaa3829138c6b03f5 1356710177
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/gpicview.mo f9f41cf486db1213798ff01528cc8086 1356710181
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/gpicview.mo 55319d831f84af396c5d2384b16dffac 1356710176
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/gpicview.mo 54692152ad5ed8b417d164231223a48c 1356710186
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/gpicview.mo 0945fb126a3b8a59d3d9164c334cf335 1356710188
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/gpicview.mo 405a65702addf34bf920a41031443aa3 1356710183
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/gpicview.mo 26e8728abc26fffa2ce845aee1db0151 1356710177
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/gpicview.mo eec78dd17e36d5712b9a055511d7e3b5 1356710188
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/gpicview.mo 4af98aa7b2dc3dd61231913979d6b7f9 1356710177
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/gpicview.mo 914bfa53838eb483824a9aa1ce96609b 1356710184
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/gpicview.mo efe6b48452b8dd8418f5886c171dd248 1356710183
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/gpicview.mo 3a09870371662b4906d3484cec386653 1356710186
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/gpicview.mo 829dec75e8c5890b46f8decdad9f6cab 1356710184
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/gpicview.mo 9559c90ded3bd9f86dda856af5d5cd85 1356710179
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/gpicview.mo caea33af2f070d4084f53a71bfca201e 1356710186
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/gpicview.mo 084d6622218af58dcb86adb437253854 1356710185
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/gpicview.mo 98a28a4f0cb061238539e974f130b0cd 1356710182
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/gpicview.mo b983cf66c625d912dc2f50cbf7844e9e 1356710185
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/gpicview.mo 64ca6c0bbdc5d2c09b1b5b38602ea387 1356710184
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/gpicview.mo 811928e7ff89e45077c9cbbff2bab9c2 1356710178
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/gpicview.mo dc62a3ce74438b45d1af30279216fd34 1356710181
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/gpicview.mo d6512baf52325e990efd6228d9756f82 1356710180
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/gpicview.mo 1aad9494c90592ba4dd631f3cedf9095 1356710180
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/gpicview.mo 1f1d97fe34b55d0823df0ce797f06ce5 1356710178
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/gpicview.mo 0945fb126a3b8a59d3d9164c334cf335 1356710188
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/gpicview.mo 7fc2fed5a6dabac21be5f3c0167d43ac 1356710187
+dir /usr/share/applications
+obj /usr/share/applications/gpicview.desktop 36c21592cf6cbd517c9110c99827873c 1356710190
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/gpicview.png 058cacbcd81376f1c481dffdbae75290 1356710190
+dir /usr/bin
+obj /usr/bin/gpicview 4f05b0f58518939e318569633d3b5e25 1356710202

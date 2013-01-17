@@ -1,0 +1,108 @@
+dir /etc
+obj /etc/ayttmrc b808402f8e4d7feefca563afbf09078e 1357743552
+dir /usr
+dir /usr/bin
+obj /usr/bin/ayttm 657790ebd88de5edb2be742be864f8ea 1357743578
+dir /usr/lib
+dir /usr/lib/ayttm
+obj /usr/lib/ayttm/import_everybuddy.so 2542b293ad5d75dbf49af6e9a27f29ad 1357743579
+obj /usr/lib/ayttm/jabber.so d1800f83bf362d885b34007e45e95ab7 1357743579
+obj /usr/lib/ayttm/autotrans.so 7bafa9211f54e4a1466e3a07c0bffd9e 1357743579
+obj /usr/lib/ayttm/notes.so b09ab8a5b881bc53cd8929ab05505f7b 1357743579
+obj /usr/lib/ayttm/custmsg.so 5ef5a756dea90540578b0883ec58c1d2 1357743579
+obj /usr/lib/ayttm/import_gaim.so 021fb74168871fc65ea0a6eca0760929 1357743580
+obj /usr/lib/ayttm/rainbow.so adb885db17da94854208abc3c14ceb7b 1357743580
+obj /usr/lib/ayttm/importicq.so 743444f143cf9d716f99518269f8d4b9 1357743580
+obj /usr/lib/ayttm/import_gnomeicu.so 9ee85cbf39ab982652916ae96e7faaec 1357743580
+obj /usr/lib/ayttm/smiley-themer.so 72105b67a24789fc8561cafc5825922a 1357743580
+obj /usr/lib/ayttm/middle.so 75fede32359c1277403f00a168376c5f 1357743580
+obj /usr/lib/ayttm/importlicq.so 58a9835ae80951bc4a52b3e453e9ce9d 1357743581
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/ayttm-0.6.3
+obj /usr/share/doc/ayttm-0.6.3/TODO.bz2 f977e92f3d5002aa865067ab72201235 1357743553
+obj /usr/share/doc/ayttm-0.6.3/AUTHORS.bz2 4dfdfc0bbeeac19568e0019600f5c0f0 1357743553
+obj /usr/share/doc/ayttm-0.6.3/README.LINUX.bz2 745cd6a5bd9d3e617e90aa3cd495a1fc 1357743553
+obj /usr/share/doc/ayttm-0.6.3/README.bz2 506dec1529d66766c1969a854e6aad07 1357743553
+obj /usr/share/doc/ayttm-0.6.3/ChangeLog.bz2 dafa3a88fde5dd1efe180df7a5052643 1357743553
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/ayttm.1.bz2 aacef55b3501d788d2a43f6f4e636684 1357743544
+dir /usr/share/ayttm
+dir /usr/share/ayttm/smileys
+dir /usr/share/ayttm/smileys/Console Smileys
+obj /usr/share/ayttm/smileys/Console Smileys/laugh.xpm c3f08d4298fd09b1c4e557284b0b1531 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/tongue.xpm e7cb3ce5992f6866e049965bd10d752e 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/blush.xpm 13eaf4ec965fbcc4a459492a5b5acb4a 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/blank.xpm e125b7dc9607db3363ee46917045062e 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/confused.xpm 023260204edad62bda148128c67ac46d 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/heyy.xpm 6676323d6fa48ca62bbcc002f8a7c2d2 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/sad.xpm 1b19239610ddf451f72589435fbcb4d5 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/grin.xpm 4edb9fbba4cf19fae1d57702e035b4a4 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/sob.xpm 3f43de02dc526d746745a1b76f452074 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/kiss.xpm 7db3688d9700f34a1563c557909de3db 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/smile.xpm 79c83819ea16c07c8ce0fad4a12b7232 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/oh.xpm cb6c2ba58cc2c3a648d765fc4d19cd09 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/wink.xpm 09733fc5af10e6164a27bb8fd69e6bde 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/cooldude.xpm 9497076ab7121c0cf8fcfaa41c426c73 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/aysmile.rc 3fc8dcda2668cdac82cdbd090c3890ea 1357743551
+obj /usr/share/ayttm/smileys/Console Smileys/worried.xpm 3618870c6bc42f6d983f905f9c9476f5 1357743551
+dir /usr/share/ayttm/smileys/Giles Smileys
+obj /usr/share/ayttm/smileys/Giles Smileys/tongue.xpm d3cfd67c17d8523a4d03791374218dcb 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/sad.xpm 0ac49f61b7193414110f8fd663d325bc 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/quiet.xpm 5f60da1e073b00025dec1a4bddf578e8 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/grin.xpm 185bbea67a7dd3a5ee8788431f843290 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/tears.xpm ad2128d9b3e93cc1f4240e6933f788ad 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/shades.xpm a3c3665f65524afea5e7da7df802047a 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/dead.xpm e2ac0ac70638ab154fc6e87a23ad039e 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/kiss.xpm 8c0030d01b8e43cda8c79876da9ead78 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/smile.xpm ea5e256dce1170f7cf1f33ffc57f741d 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/shocked.xpm edda51038c17198d3b765692bab9ba7a 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/wink.xpm ac9b4169004af9209e780b6c1eacda82 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/aysmile.rc 15a73c414ef995313211c73d93571a69 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/embarrased.xpm 1c51d0d55f4a6b25765ede2223aa865c 1357743551
+obj /usr/share/ayttm/smileys/Giles Smileys/indifferent.xpm f4695900ec9a80c3b848cdcc7cc349af 1357743551
+dir /usr/share/ayttm/sounds
+obj /usr/share/ayttm/sounds/BuddyLeave.au f68c327dd4b79d9ae29b33665a1931bb 1357743544
+obj /usr/share/ayttm/sounds/BuddyArrive.au 828623b37a5b89c0c767911c759edbed 1357743544
+obj /usr/share/ayttm/sounds/Send.au 8138347bdbb2cd7f4a881067b06d4f3c 1357743544
+obj /usr/share/ayttm/sounds/Receive.au 096aeaf19e3a57d49aa4ba8f4ecacf00 1357743544
+dir /usr/share/gnome
+dir /usr/share/gnome/apps
+dir /usr/share/gnome/apps/Internet
+obj /usr/share/gnome/apps/Internet/ayttm.desktop 5aeaf89ed432247e3052956332c7111d 1357743553
+dir /usr/share/applnk
+dir /usr/share/applnk/Internet
+obj /usr/share/applnk/Internet/ayttm.desktop 5aeaf89ed432247e3052956332c7111d 1357743553
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/ayttm.mo 468907b636562a29fd74e3a5ee1cbb54 1357743542
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/ayttm.mo 93be6ac30d7c565cb47c3d07cd9f96ba 1357743543
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/ayttm.mo 4ced1b34dcbe13169ed3f0b0a81cc1c4 1357743542
+dir /usr/share/locale/hi
+dir /usr/share/locale/hi/LC_MESSAGES
+obj /usr/share/locale/hi/LC_MESSAGES/ayttm.mo a553be8e95d14e90123cb7b62f0aa6f4 1357743543
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/ayttm.mo 1d8b3c029039f2866aa5a07f88df0bdf 1357743543
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/ayttm.mo ee87dae0a9c78de4a7dd2f7444fbb9cd 1357743543
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/ayttm.mo 51eaa9865206478c7028f35aa0b131e9 1357743542
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/ayttm.mo cf2370714ce42a001facffebb8a7c9aa 1357743543
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/smileys.png 54b88c1e81ca2ecb2693d0058ff1d01b 1357743541
+obj /usr/share/pixmaps/ayttm.png 5b2e26d8bacf2aab47aa571df49f283b 1357743541
+obj /usr/share/pixmaps/away.png 68874dab58669f74797fd6445df9a665 1357743541
+obj /usr/share/pixmaps/group.png 7328f6197789fc161063b951d7efda24 1357743541
+obj /usr/share/pixmaps/buddy.png d7bd52a016bad5ae868e28ba7529089c 1357743541
+obj /usr/share/pixmaps/group-chat.png 2c1d92ef59f9945f9493327feb0775d7 1357743541

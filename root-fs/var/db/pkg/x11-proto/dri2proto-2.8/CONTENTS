@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/dri2tokens.h 82a985819cada0e87be9dc8f74f499d7 1356433545
+obj /usr/include/X11/extensions/dri2proto.h 805180c1fa60517ad5b87ad6052173b5 1356433545
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/dri2proto.pc 7aef4accfc8ad8e1be83d09e1acffa97 1356433546
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/dri2proto-2.8
+obj /usr/share/doc/dri2proto-2.8/README.bz2 846912fbaea990a865de06d9a556a48d 1356433546
+obj /usr/share/doc/dri2proto-2.8/dri2proto.txt.bz2 c1b10a8b7a24c85a88bb80d7b3be0d0e 1356433545
+obj /usr/share/doc/dri2proto-2.8/ChangeLog.bz2 d6d6cd9ee848488ca7d78b31cc1bc4a8 1356433547

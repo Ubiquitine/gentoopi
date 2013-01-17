@@ -1,0 +1,48 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/busybox-1.20.2
+dir /usr/share/doc/busybox-1.20.2/pod
+obj /usr/share/doc/busybox-1.20.2/pod/busybox_footer.pod.bz2 0615ed98e648b186457c532c07b7152c 1356003921
+obj /usr/share/doc/busybox-1.20.2/pod/busybox_header.pod.bz2 48a60648d79b8697f06b805a97d9533b 1356003921
+obj /usr/share/doc/busybox-1.20.2/pod/draft-coar-cgi-v11-03-clean.html e0ff67ed7cf99ec57e47ebe6e4b30cd7 1356003921
+obj /usr/share/doc/busybox-1.20.2/README.bz2 88797482e047ffc8d93f8a9fbd1c159a 1356003921
+dir /usr/share/doc/busybox-1.20.2/txt
+obj /usr/share/doc/busybox-1.20.2/txt/keep_data_small.txt.bz2 379cae218a4cd9ab280b987488aabada 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/smallint.txt.bz2 f836058c64f12953c65db76fd216ed18 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/logging_and_backgrounding.txt.bz2 d17a7e504480a837c01384effce7759a 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/posix_conformance.txt.bz2 ae6509b1c1f932268bd050402646ce19 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/tar_pax.txt.bz2 e4ed47365962db416dcd69b93d03ecc9 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/new-applet-HOWTO.txt.bz2 aeda4cbdd4498183571550362e427b07 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/ifupdown_design.txt.bz2 c9faa822e69f94068935a1b61fa89425 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/unicode_full-bmp.txt.bz2 e046ccc41c47cb875365093925e08d4f 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/unicode.txt.bz2 ca6f2e45be8901ab95f4109d75de7134 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/contributing.txt.bz2 7e58ba7289ae655a07d4656fdd36b8ba 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/syslog.conf.txt.bz2 3815e3e0c7f50474e8232d973fda50c7 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/unicode_UTF-8-test.txt.bz2 16c7a88c20a4e804ec42bbb9f5ed9229 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/mdev.txt.bz2 a302287259ececd62576ed24ea9c2f6f 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/Serial-Programming-HOWTO.txt.bz2 ab732c0277fe5e91448f1d426c3b1b5d 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/style-guide.txt.bz2 3272cd463c542587225170409d5491ba 1356003921
+obj /usr/share/doc/busybox-1.20.2/txt/nofork_noexec.txt.bz2 0d8cb8ebc1294b44a75dcd3fa7ad5aed 1356003921
+obj /usr/share/doc/busybox-1.20.2/TODO.bz2 f92f80aca3cdfd71a2ae6934a00b48e4 1356003921
+dir /usr/share/doc/busybox-1.20.2/examples
+obj /usr/share/doc/busybox-1.20.2/examples/dnsd.conf.bz2 9d74d5b8825780cc8484070eea672b30 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/unrpm.bz2 10dceb6a27684948cd258ffde66e28f3 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/inetd.conf.bz2 3b20fe9a48bdf60a1195d6cdfc6abe25 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/depmod.pl.bz2 4c30cafe8ec19dab45cd9fb5f20d4aff 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/devfsd.conf.bz2 04244038134a305dc068a22e1121830b 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/zcip.script.bz2 33e772d72298ba8e4e67acc6da834ff2 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/mdev.conf.bz2 e020ee78223c0e0a7bf884466a63640a 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/mdev_fat.conf.bz2 06bffcf1618ff5c8a21f0fded86ba23b 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/inittab.bz2 b475400a5809cc6728b2a0ed9dfd08ca 1356003921
+obj /usr/share/doc/busybox-1.20.2/examples/undeb.bz2 92648c502dd320da43580a062b95fdc8 1356003921
+obj /usr/share/doc/busybox-1.20.2/AUTHORS.bz2 49dc82c05e6c267b5471f001245f233d 1356003921
+dir /usr/share/busybox
+dir /etc
+dir /etc/portage
+dir /etc/portage/savedconfig
+dir /etc/portage/savedconfig/sys-apps
+obj /etc/portage/savedconfig/sys-apps/busybox-1.20.2 80628cd1ddd9667e61091d93177d5a24 1356003906
+dir /bin
+obj /bin/busybox 9ce39deeafc83687dd8f502bc3c339f8 1356003924
+sym /bin/bb -> busybox 1356003932

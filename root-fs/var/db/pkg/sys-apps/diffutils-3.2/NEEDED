@@ -1,0 +1,4 @@
+/usr/bin/sdiff libc.so.6
+/usr/bin/cmp libgcc_s.so.1,libc.so.6
+/usr/bin/diff3 libc.so.6
+/usr/bin/diff librt.so.1,libgcc_s.so.1,libc.so.6

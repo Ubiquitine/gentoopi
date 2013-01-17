@@ -1,0 +1,7 @@
+/usr/lib/libfontconfig.so.1.4.4 libfreetype.so.6,libexpat.so.1,libc.so.6
+/usr/bin/fc-cat libfontconfig.so.1,libc.so.6
+/usr/bin/fc-cache libfontconfig.so.1,libc.so.6
+/usr/bin/fc-scan libfontconfig.so.1,libc.so.6
+/usr/bin/fc-list libfontconfig.so.1,libc.so.6
+/usr/bin/fc-query libfontconfig.so.1,libc.so.6
+/usr/bin/fc-match libfontconfig.so.1,libc.so.6

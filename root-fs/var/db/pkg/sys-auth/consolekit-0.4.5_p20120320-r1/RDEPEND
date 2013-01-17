@@ -1,0 +1,1 @@
+>=dev-libs/dbus-glib-0.98 >=dev-libs/glib-2.22 sys-libs/zlib x11-libs/libX11 sys-apps/acl virtual/udev !<sys-fs/udev-171-r9999[extras] virtual/pam sys-apps/coreutils[acl]

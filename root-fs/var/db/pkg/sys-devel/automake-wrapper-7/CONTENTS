@@ -1,0 +1,7 @@
+dir /usr
+dir /usr/share
+dir /usr/share/aclocal
+obj /usr/share/aclocal/.keep_sys-devel_automake-wrapper-0 d41d8cd98f00b204e9800998ecf8427e 1355985834
+dir /usr/bin
+obj /usr/bin/automake a98226c4c45da4c08bce72cd15eefccc 1355985833
+sym /usr/bin/aclocal -> automake 1355985839

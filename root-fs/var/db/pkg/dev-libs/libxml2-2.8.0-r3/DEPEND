@@ -1,0 +1,1 @@
+sys-libs/zlib sys-libs/readline =dev-lang/python-2* =dev-lang/python-2*[xml] || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

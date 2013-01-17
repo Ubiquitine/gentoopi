@@ -1,0 +1,1 @@
+>=sys-libs/ncurses-5.2 >=sys-libs/readline-4.1 sys-libs/libcap !net-misc/openntpd dev-libs/openssl

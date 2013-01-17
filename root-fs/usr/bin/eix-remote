@@ -1,0 +1,340 @@
+#! /usr/bin/env sh
+# This script is part of the eix project and distributed under the
+# terms of the GNU General Public License v2.
+#
+# Author and Copyright (c):
+#   Martin V\"ath <vaeth@mathematik.uni-wuerzburg.de>
+#
+# It can be used to fetch the "standard" overlay data and add it to the
+# eix database. (eix 0.25.5).
+
+. '/usr/bin/eix-functions.sh'
+ReadFunctions
+my_getopts='Kvql:a:kiHh?'
+
+set -f
+eval "Push -c opt `eix-update --print EIX_REMOTE_OPTS`"
+Push opt "${@}"
+eval "set -- ${opt}"
+
+drop_permissions=:
+OPTIND=1
+while getopts "${my_getopts}" opt
+do	case ${opt} in
+	K)	drop_permissions=false
+		break;;
+	k)	drop_permissions=false;;
+	i)	drop_permissions=:;;
+	*)	:;;
+	esac
+done
+if ${drop_permissions}
+then	prg='/usr/bin/eix-drop-permissions'
+	me='/usr/bin/eix-remote'
+	exec "${prg}" -- "${me}" -K "${@}"
+	die "`eval_gettext 'failed to execute ${prg}'`"
+fi
+
+addr='http://dev.gentooexperimental.org/eix_cache/eix-caches.tbz2'
+ReadVar archive EIX_REMOTEARCHIVE
+
+Usage() {
+	n=${0##*/}
+	p='eix 0.25.5'
+	f=${archive}
+	[ -n "${f:+}" ] || f=`gettext 'temporary file'`
+	eval_gettext 'Usage: ${n} [options] command
+Get data from a remote database for ${p}.
+The following commands are provided:
+
+update: Fetch the eix-caches of some layman overlays, store them locally in
+        EIX_REMOTEARCHIVE (${f})
+        and add them to the eix database.
+        To keep this data across eix-update calls, you might want to set
+        KEEP_VIRTUALS=true in /etc/eixrc (or in ~/.eixrc)
+fetch:  Only do the first task (fetch eix-caches to EIX_REMOTEARCHIVE).
+add:    Only do the second task (add EIX_REMOTEARCHIVE without fetching).
+remove: Remove all temporarily added virtual overlays from the eix database;
+        this is similar to
+        	KEEP_VIRTUALS=false eix-update
+        but faster (using previous cachefile where possible).
+
+The script will try to change its permissions to that of user EIX_USER
+before doing anything else (unless option -k or an empty user is specified),
+using sudo or su (see options -s and -S).
+
+For "update" and "add" all corresponding local layman overlay paths are
+excluded from the update of the current database to avoid confusion.
+These local paths are determined by prefixing the path
+	${LOCAL_LAYMAN}
+You can modify this value with the -l option or by setting the environment
+variable LOCAL_LAYMAN. If you do not want this feature (i.e. if you want
+to see your local layman overlays and the remote layman overlays),
+use here some path not containing any overlays (usually "/" will do).
+
+Options can be specified in the eix (or environment) variable EIX_REMOTE_OPTS.
+This data is evalued, so be aware of security risks.
+Moreover, "--" in this variable will exclude further command line options.
+The following options are available:
+
+-k      Keep permissions: Without this option, eix-drop-permissions is used.
+-K      As -k, but cannot be reset with -i
+-l PATH Use PATH as LOCAL_LAYMAN
+-a ADDR Use ADDR as remote database address. Current value:
+        ${addr}
+-i      Ignore all previous options (e.g. ignore EIX_REMOTE_OPTS).
+-v      Verbose (default)
+-H      Suppress status line update
+-q      Quiet'
+	echo
+	exitcode=${1:-1}
+	Exit ${exitcode}
+}
+
+SanitizeLocalLayman() {
+	normalize_resolve=false NormalizeNames LOCAL_LAYMAN \
+		|| die "`gettext '$LOCAL_LAYMAN must not be empty'`"
+	[ -z "${relative:++}" ] || \
+		die "`gettext '$LOCAL_LAYMAN must start with /'`"
+}
+
+PrintLaymanStorage() {
+	printf '%s\n%s\n' 'from layman.config import Config' \
+	"print(Config()['storage'])" | python -- "${@}" 2>/dev/null
+}
+
+SetLocalLayman() {
+	for i
+	do	[ -n "${i:++}" ] && test -d "${i}" && LOCAL_LAYMAN=${i} \
+			&& return
+	done
+	return 1
+}
+
+InitLocalLayman() {
+	[ -n "${LOCAL_LAYMAN:++}" ] && return
+	LOCAL_LAYMAN=`PrintLaymanStorage` || LOCAL_LAYMAN=
+	if [ -z "${LOCAL_LAYMAN:++}" ]
+	then	LOCAL_LAYMAN=`PrintLaymanStorage` || LOCAL_LAYMAN=
+	fi
+	SetLocalLayman "${LOCAL_LAYMAN}" \
+		'/usr/local/portage/layman' \
+		"${local_portdir:-/}local/layman/make.conf" \
+		'/var/lib/layman'
+}
+
+DefaultOpts() {
+	verbose=:
+	statusline=:
+	keep=false
+}
+
+InitLocalLayman
+SanitizeLocalLayman
+DefaultOpts
+OPTIND=1
+while getopts "${my_getopts}" opt
+do	case ${opt} in
+	i)	DefaultOpts;;
+	[kK])	:;;
+	v)	verbose=:;;
+	q)	verbose=false;;
+	l)	LOCAL_LAYMAN=${OPTARG}
+		SanitizeLocalLayman;;
+	a)	addr=${OPTARG};;
+	H)	statusline=false
+		export NOSTATUSLINE=true;;
+	*)	Usage 0;;
+	esac
+done
+[ ${OPTIND} -le 1 ] || shift `Expr ${OPTIND} - 1`
+
+CdDir() {
+	cd "${1}" >/dev/null && return
+	a=${1}
+	die "`eval_gettext 'cannot cd to ${a}'`"
+}
+
+tmpdir=
+exitcode=0
+Cleanup() {
+	trap : EXIT HUP INT TERM
+	if [ -n "${tmpdir:++}" ]
+	then	test -d "${tmpdir}" && rm -rf -- "${tmpdir}"
+	fi
+	tmpdir=
+	trap - EXIT HUP INT TERM
+	Exit ${exitcode}
+}
+MakeTempDir() {
+	trap Cleanup EXIT HUP INT TERM
+	AssignTemp tmpdir -d
+	chmod -- a+rx "${tmpdir}"
+}
+
+tmpfile=
+FetchTemp() {
+	eixcachesname=${addr##*/}
+	[ -z "${eixcachesname:++}" ] && die "`gettext
+'remote address is not properly set.
+Please specify a valid remote file with option -a.
+The default should have been set with ./configure --remote-file'`"
+	MakeTempDir
+	tmpfile="${tmpdir}/${eixcachesname}"
+	[ -n "${archive:++}" ] && test -e "${archive}" \
+		&& cp -p -- "${archive}" "${tmpfile}" >/dev/null 2>&1
+	(
+		CdDir "${tmpdir}" && wget -N -- "${addr}" \
+			|| die "`eval_gettext 'failed: wget -N -- ${addr}'`"
+	) || {
+		exitcode=${?}
+		exit
+	}
+}
+
+BugReport() {
+	echo
+	printf '\n'
+	eval_gettext \
+'Probably your eix cachefile was *not* updated successfully.
+Unless the above messages suggest another cause or you specified a
+wrong filename, the most likely cause of this is that the server uses
+another eix version than you or produced broken data. Please check whether
+EIX_REMOTEARCHIVE is a valid *.tar.bz2 archive containing eix cachefiles
+(you can download it using fetch).
+If this is not the case (but was freshly downloaded), please report a bug.
+Note that the archive is *not* broken if only the cachefile format versions
+differ: In that case only report a bug if the eix cachefile format versions
+in the downloaded file are *older* than that of the most current ~x86 eix
+version in the portage tree (but first retry after several days before
+reporting such a bug to give the server maintainers a chance to upgrade
+after a version bump of eix).
+Conversely, if the downloaded versions are even newer than that supported by
+your eix, you will have to upgrade to the most current ~x86 version of eix
+to use eix-remote: This inconvenience cannot be avoided and is not a bug!'
+}
+
+AddArchive() {
+	a=${1}
+	CdDir "${2}"
+	RunCommand "`gettext 'Unpacking data'`" tar xjf "${a}" || {
+		msg=`eval_gettext 'cannot unpack ${a}'`
+		msg=${msg}`BugReport`
+		die "${msg}"
+	}
+	ClearUpdateArgs
+	AddLocalMethods
+	Statusline "`gettext 'Analyzing'`"
+	set +f
+	chmod a+r *
+	for i in *
+	do	n=${i%.eix}
+		while :
+		do	case ${n} in
+			_*)
+				n=${n#_};;
+			*_*_*_*)
+				n=${n#*_};;
+			*)
+				break;;
+			esac
+		done
+		Replace -g n '_' '?'
+		n="*/${n}"
+		p="${2}/${i}"
+		name=`EIX_CACHEFILE=${p} eix --print-overlay-path "${n}"` \
+			&& [ -n "${name:++}" ] || {
+			printf '%s\n' "`eval_gettext \
+				'problems occurred with cachefile ${i}'`" >&2
+			exitcode=1
+			continue
+		}
+		l=`EIX_CACHEFILE=${p} eix --print-overlay-label "${n}"` || l=
+		name=${name##*/}
+		virtual="layman/${name}"
+		printf '%s -> %s\n' "${virtual}" "${l:-no repo-name}"
+		Replace -g p '\' '\\'
+		Replace -g p ':' '\:'
+		AddMethod "${virtual}" "eix*:${p}:${n}"
+		AddOverlays "${virtual}"
+		[ -n "${l:++}" ] && AddRepoName "${virtual}" "${l}"
+		AddExcludes "${LOCAL_LAYMAN}/${name}"
+	done
+	msg=
+	[ ${exitcode} -ne 0 ] && \
+		msg=`eval_gettext 'could not read all eix cachefiles of ${a}'`
+	die_on_update_failure=false
+	export KEEP_VIRTUALS=true
+	CallUpdate || {
+		exitcode=${?}
+		msg=`gettext 'eix-update failed'; \
+			[ -n "${msg:++}" ] && printf '\n%s' "${msg}"`
+	}
+	[ -z "${msg:++}" ] && return
+	msg=${msg}`BugReport`
+	die "${msg}"
+}
+
+CheckTemp() {
+	[ -n "${archive:++}" ] || die "`gettext \
+			'A temporary file makes only sense for update mode'`"
+}
+
+FetchFile() {
+	FetchTemp
+	file=${archive}
+	if [ -z "${file:++}" ]
+	then	file=${tmpfile}
+		return
+	fi
+	cp -p -- "${tmpfile}" "${file}" || die "`eval_gettext \
+		'cannot copy temporary file to ${file}'`"
+}
+
+
+Fetch() {
+	CheckTemp
+	FetchFile
+}
+
+Add() {
+	CheckTemp
+	test -r "${archive}" || \
+		die "`eval_gettext 'cannot read ${archive}'`"
+	MakeTempDir
+	AddArchive "${archive}" "${tmpdir}"
+}
+
+Remove() {
+	ClearUpdateArgs
+	AddLocalMethods
+	export KEEP_VIRTUALS=false
+	CallUpdate
+}
+
+Update() {
+	FetchFile
+	if [ -z "${tmpdir:++}" ]
+	then	MakeTempDir
+		tmpsup=${tmpdir}
+	else	tmpsub="${tmpdir}/1"
+		mkdir -m 700 -- "${tmpsub}" \
+			|| die "`eval_gettext 'mkdir ${tmpsub} failed'`"
+	fi
+	AddArchive "${file}" "${tmpsub}"
+}
+
+case ${1-} in
+update)
+	Update;;
+fetch)
+	Fetch;;
+add)
+	Add;;
+remove)
+	Remove;;
+*)
+	Usage;;
+esac
+
+Exit 0

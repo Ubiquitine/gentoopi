@@ -1,0 +1,32 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/tracepath.8.bz2 697ec4cac98391cdb1b44c5d42348fb4 1355998153
+obj /usr/share/man/man8/tftpd.8.bz2 ff91be42c5f155dd005783fb483d6a12 1355998153
+obj /usr/share/man/man8/clockdiff.8.bz2 bdf911f55a156c9fad32abc9d39305ef 1355998153
+obj /usr/share/man/man8/traceroute6.8.bz2 fa6cfad2fdf7048902b33a897c7d7de4 1355998153
+obj /usr/share/man/man8/arping.8.bz2 ee3a8ff02af70798020f431a02b682d7 1355998153
+obj /usr/share/man/man8/rarpd.8.bz2 8ba23156cc4de7022971d7fea95d51c4 1355998153
+obj /usr/share/man/man8/rdisc.8.bz2 1c725086852b0f375646ddff57c55501 1355998153
+obj /usr/share/man/man8/ping.8.bz2 74b8cf4f736a426419fdb468f2a883df 1355998153
+obj /usr/share/man/man8/pg3.8.bz2 958be18b10ddad6d6b0c6760513f57a7 1355998153
+dir /usr/share/doc
+dir /usr/share/doc/iputils-20101006-r2
+obj /usr/share/doc/iputils-20101006-r2/INSTALL.bz2 126202ab09f13258d3f7f5a1cf188c18 1355998152
+obj /usr/share/doc/iputils-20101006-r2/RELNOTES.bz2 d9d9a50f5b1a5f25286bc63d6b2753fe 1355998152
+dir /usr/sbin
+obj /usr/sbin/tracepath6 de68bf607e857317123121e6dd29232c 1355998156
+obj /usr/sbin/rdisc 3b3fdb73ad389cd2ed1f0718086e500f 1355998156
+obj /usr/sbin/ipg e4f05792038a4fbbafd2c87783451599 1355998152
+obj /usr/sbin/clockdiff 2bb78f7b264baf4aa083fdabb4a74245 1355998156
+obj /usr/sbin/traceroute6 1518c06bf5129f72f9f649f40532cbb2 1355998156
+obj /usr/sbin/rarpd f454f792e9e46635430738a6c202a171 1355998156
+obj /usr/sbin/tftpd 0d4f3be443e4025d97be90349f72f4b8 1355998156
+obj /usr/sbin/tracepath 11b60cbf4b55aee6ffefa27a4722ff52 1355998156
+dir /bin
+obj /bin/ping6 bd3a3bc57cc2788de96fbf86f855f9a9 1355998156
+obj /bin/ping ad10cfae503d98b4073ea3a9113f23dd 1355998156
+dir /sbin
+obj /sbin/arping 8900216bd88f49da58ef139cb3da7aa7 1355998156
+sym /usr/share/man/man8/ping6.8.bz2 -> ping.8.bz2 1355998162

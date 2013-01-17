@@ -1,0 +1,13 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/tdb.pc 52b30f852b4d4139d1b79b1f20d23297 1356804769
+obj /usr/lib/libtdb.so.1.2.6 8294c88f7a03659822435d7d01c00742 1356804800
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/tdb-1.2.7-r1
+obj /usr/share/doc/tdb-1.2.7-r1/README.bz2 1c2a7c0979aca409acd2eea2976fe883 1356804769
+dir /usr/include
+obj /usr/include/tdb.h a85fde3185b3819453db5bd92074a504 1356804769
+sym /usr/lib/libtdb.so -> libtdb.so.1.2.6 1356804829
+sym /usr/lib/libtdb.so.1 -> libtdb.so.1.2.6 1356804829

@@ -1,0 +1,2 @@
+/usr/lib/libgmp.so.10.0.2 libc.so.6
+/usr/lib/libgmpxx.so.4.2.2 libgmp.so.10,libstdc++.so.6,libc.so.6,libgcc_s.so.1

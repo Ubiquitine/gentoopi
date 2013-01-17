@@ -1,0 +1,30 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/scrnsaver.h b787827224574ffbee2224e2137e3288 1356523702
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xscrnsaver.pc 16b348837e94e36a8e3d3f5818a32c07 1356523703
+obj /usr/lib/libXss.so.1.0.0 3c4c2b4a24c2172479798cef76aeac8e 1356523728
+sym /usr/lib/libXss.so -> libXss.so.1.0.0 1356523758
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XScreenSaverUnregister.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverQueryInfo.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverQueryVersion.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverAllocInfo.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverSuspend.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverQueryExtension.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverSelectInput.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverSetAttributes.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverRegister.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/XScreenSaverGetRegistered.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+obj /usr/share/man/man3/Xss.3.bz2 84c6d9f046b0160e0076a728ed6e7cbd 1356523703
+obj /usr/share/man/man3/XScreenSaverUnsetAttributes.3.bz2 225e4b131f46621fc8d3e11687828063 1356523703
+dir /usr/share/doc
+dir /usr/share/doc/libXScrnSaver-1.2.2
+obj /usr/share/doc/libXScrnSaver-1.2.2/README.bz2 f967a95c2a377b85c6885b6f935b5dec 1356523703
+obj /usr/share/doc/libXScrnSaver-1.2.2/ChangeLog.bz2 9783df507c83ed9863d1a18babc7042f 1356523704
+sym /usr/lib/libXss.so.1 -> libXss.so.1.0.0 1356523758

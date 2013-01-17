@@ -1,0 +1,6 @@
+PATH="/usr/armv6j-hardfloat-linux-gnueabi/gcc-bin/4.6.3"
+ROOTPATH="/usr/armv6j-hardfloat-linux-gnueabi/gcc-bin/4.6.3"
+GCC_SPECS=""
+MANPATH="/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.6.3/man"
+INFOPATH="/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.6.3/info"
+MULTIOSDIRS="."

@@ -1,0 +1,33 @@
+dir /usr
+dir /usr/lib
+sym /usr/lib/libexpatw.so.1 -> libexpatw.so.1.6.0 1355985494
+sym /usr/lib/libexpatw.so -> libexpatw.so.1.6.0 1355985494
+obj /usr/lib/libexpat.so.1.6.0 9ad9f7db84ef1af438e8d714ee378146 1355985488
+sym /usr/lib/libexpat.so.1 -> libexpat.so.1.6.0 1355985494
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/expatu.pc 91d6aefb1369386fe6f768a2b6ab46f4 1355985485
+obj /usr/lib/pkgconfig/expat.pc 007b103a43388e371ebd857d0f9a828a 1355985485
+obj /usr/lib/pkgconfig/expatw.pc c49ff681e1a5cc910bf4abe5a2e43e51 1355985485
+sym /usr/lib/libexpat.so -> libexpat.so.1.6.0 1355985494
+obj /usr/lib/libexpatw.so.1.6.0 091c3b0f54bcd0ce26cf99b42b2bc7f6 1355985488
+sym /usr/lib/libexpatu.so -> libexpatu.so.1.6.0 1355985494
+obj /usr/lib/libexpatu.so.1.6.0 9912f62ab0a0704e7e38d1e1a699b0ea 1355985488
+sym /usr/lib/libexpatu.so.1 -> libexpatu.so.1.6.0 1355985494
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xmlwf.1.bz2 0abea75918692acc208d8119c8d68a7a 1355985485
+dir /usr/share/doc
+dir /usr/share/doc/expat-2.1.0-r2
+obj /usr/share/doc/expat-2.1.0-r2/README.bz2 69be8ff8f00c36f267e9bb6ccb512cfa 1355985484
+obj /usr/share/doc/expat-2.1.0-r2/Changes.bz2 f7df32734405a0f9bf340f59e05faf1e 1355985484
+dir /usr/share/doc/expat-2.1.0-r2/html
+obj /usr/share/doc/expat-2.1.0-r2/html/style.css 72592bbd454d71c7e8eddcf6e42778e2 1355985484
+obj /usr/share/doc/expat-2.1.0-r2/html/expat.png e3830980289045416d834c0c857cf43d 1355985484
+obj /usr/share/doc/expat-2.1.0-r2/html/valid-xhtml10.png 9c78657c4fdb176868b18510405a1410 1355985484
+obj /usr/share/doc/expat-2.1.0-r2/html/reference.html 6a051dbcd7a3d35efd684bfa7dc4e8cb 1355985484
+dir /usr/bin
+obj /usr/bin/xmlwf 811837497f03c553b83e4f41428aed1a 1355985488
+dir /usr/include
+obj /usr/include/expat.h c63254f83a88d2eb61378dd9ac126ff1 1355985485
+obj /usr/include/expat_external.h 8e2b8dce543d6ff4cdb37f4a8daabd9e 1355985485

@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/composite.h db737b77366824d465f7d3da2fc6650c 1356435952
+obj /usr/include/X11/extensions/compositeproto.h 24b60417fbc3c62c7901166b19caa46a 1356435952
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/compositeproto.pc bb129d662f2563ecc7f56c7a6ab37662 1356435953
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/compositeproto-0.4.2
+obj /usr/share/doc/compositeproto-0.4.2/README.bz2 5e413497393221e5453ad004314420d7 1356435953
+obj /usr/share/doc/compositeproto-0.4.2/AUTHORS.bz2 31cf7fbe133babf0ad2ebcfe8ab58a79 1356435954
+obj /usr/share/doc/compositeproto-0.4.2/compositeproto.txt.bz2 b179311a16486faee17085afae638e9a 1356435953
+obj /usr/share/doc/compositeproto-0.4.2/ChangeLog.bz2 b7135118ca49118f9b9d69cf7f950642 1356435954

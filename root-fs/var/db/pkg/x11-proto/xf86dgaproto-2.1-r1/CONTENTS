@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xf86dga1str.h 637e6aca6f7acd2287eec14d7d9d538f 1356436369
+obj /usr/include/X11/extensions/xf86dgastr.h 42f3c72c74abe50904fa9188c93dd399 1356436369
+obj /usr/include/X11/extensions/xf86dgaproto.h 29437d4b54274db800d65f60592477d1 1356436369
+obj /usr/include/X11/extensions/xf86dga1proto.h a1d0c8354b92192230860f7cf311d129 1356436369
+obj /usr/include/X11/extensions/xf86dga.h 38af120081266de8ae1d5d8984ddaccc 1356436369
+obj /usr/include/X11/extensions/xf86dgaconst.h a69f546e896afde8b06e3ac2a6041e22 1356436369
+obj /usr/include/X11/extensions/xf86dga1const.h 130a76ad86eb5760a6bfa13325ffad60 1356436369
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xf86dgaproto.pc 0584963c681f6e6ad641fad33cd1f66c 1356436369
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xf86dgaproto-2.1-r1
+obj /usr/share/doc/xf86dgaproto-2.1-r1/ChangeLog.bz2 6a113e4e8085ebff96a6a4e5080771d4 1356436370

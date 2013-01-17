@@ -1,0 +1,9 @@
+/usr/lib/libjpeg.so.8.0.2 libc.so.6
+/usr/lib/libturbojpeg.so libc.so.6
+/usr/bin/jpegexiforient libc.so.6
+/usr/bin/cjpeg libjpeg.so.8,libc.so.6
+/usr/bin/tjbench libturbojpeg.so,libjpeg.so.8,libm.so.6,libc.so.6
+/usr/bin/wrjpgcom libc.so.6
+/usr/bin/rdjpgcom libc.so.6
+/usr/bin/djpeg libjpeg.so.8,libc.so.6
+/usr/bin/jpegtran libjpeg.so.8,libc.so.6

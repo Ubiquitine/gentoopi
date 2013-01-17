@@ -1,0 +1,20 @@
+dir /usr
+dir /usr/include
+dir /usr/include/menu-cache
+obj /usr/include/menu-cache/menu-cache.h 6fdf0c9e8827db1058fcea8b70b4de4b 1356707497
+dir /usr/libexec
+obj /usr/libexec/menu-cache-gen b6ad7136ba2e892d6a575842a35fa4a3 1356707512
+obj /usr/libexec/menu-cached 98fa63c8827d75e1833cf3179ca8b3b6 1356707512
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libmenu-cache.pc b3e24ee1bed137c292158d63292b1e73 1356707498
+obj /usr/lib/libmenu-cache.la c3935a9a8989ff6a878e7cb4bca01342 1356707498
+obj /usr/lib/libmenu-cache.so.1.0.0 90fee773aca792f171599974414a22c0 1356707512
+obj /usr/lib/libmenu-cache.a 48c9ce8d46f18e04b04429535f09f7e2 1356707513
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/menu-cache-0.3.3
+obj /usr/share/doc/menu-cache-0.3.3/README.bz2 9d22598b80591b7f476e8170c9a8242c 1356707500
+obj /usr/share/doc/menu-cache-0.3.3/AUTHORS.bz2 02af2ad3d452cd062e7b7889fdd673e8 1356707501
+sym /usr/lib/libmenu-cache.so.1 -> libmenu-cache.so.1.0.0 1356707532
+sym /usr/lib/libmenu-cache.so -> libmenu-cache.so.1.0.0 1356707532

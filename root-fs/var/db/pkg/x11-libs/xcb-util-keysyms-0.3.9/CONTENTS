@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xcb
+obj /usr/include/xcb/xcb_keysyms.h b6e402523dffabcabc404b0e0cf19546 1356715877
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcb-keysyms.pc 57ae76e28c262915506526f57ff1c403 1356715877
+obj /usr/lib/libxcb-keysyms.so.1.0.0 f2c175c6829d1c7bf5c23e0115d9bbcf 1356715903
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-util-keysyms-0.3.9
+obj /usr/share/doc/xcb-util-keysyms-0.3.9/README.bz2 e931ba6481a6822871239262d8d17229 1356715879
+obj /usr/share/doc/xcb-util-keysyms-0.3.9/ChangeLog.bz2 f2e93b17671346d24953650242370691 1356715880
+obj /usr/share/doc/xcb-util-keysyms-0.3.9/NEWS.bz2 30870fef3237a052a4dc60cb25f1fe89 1356715879
+sym /usr/lib/libxcb-keysyms.so.1 -> libxcb-keysyms.so.1.0.0 1356715930
+sym /usr/lib/libxcb-keysyms.so -> libxcb-keysyms.so.1.0.0 1356715930

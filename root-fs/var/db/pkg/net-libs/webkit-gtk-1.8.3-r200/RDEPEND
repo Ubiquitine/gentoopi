@@ -1,0 +1,1 @@
+dev-libs/libxml2:2 dev-libs/libxslt virtual/jpeg >=media-libs/libpng-1.4:0 >=x11-libs/cairo-1.10 >=dev-libs/glib-2.32:2 >=x11-libs/gtk+-2.13:2[-aqua] >=dev-libs/icu-3.8.1-r1 >=net-libs/libsoup-2.37.92:2.4 dev-db/sqlite:3 >=x11-libs/pango-1.21 x11-libs/libXrender virtual/opengl

@@ -1,0 +1,26 @@
+dir /etc
+dir /etc/X11
+obj /etc/X11/chooser.sh 90ac90369a3810916107f4ebcbff970d 1356363642
+dir /etc/X11/xinit
+obj /etc/X11/xinit/xserverrc 12edd1bd52ddf2084cf0972921db5a84 1356363643
+obj /etc/X11/xinit/xinitrc 89864db559b95ace5b0795562085d590 1356363641
+dir /etc/X11/xinit/xinitrc.d
+obj /etc/X11/xinit/xinitrc.d/00-xhost f03c6f6acccd801e98295109c8ad4356 1356363643
+dir /etc/X11/Sessions
+obj /etc/X11/Sessions/Xsession a0ce0f1c8a5771a1194f5895211a3f66 1356363643
+obj /etc/X11/startDM.sh 45c46190cda90092db5056f46b13f70f 1356363642
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xinit.1.bz2 b405322c5267c142cea7c8d1f3826f3b 1356363640
+obj /usr/share/man/man1/startx.1.bz2 fc1cb92f8cd097d2f503d6d507af08de 1356363640
+dir /usr/share/doc
+dir /usr/share/doc/xinit-1.3.2
+obj /usr/share/doc/xinit-1.3.2/README.bz2 4ba47afd3d13f48228c20d46423871b7 1356363642
+obj /usr/share/doc/xinit-1.3.2/ChangeLog.bz2 cbc39743a7d6e28ecf7d0f030d473017 1356363642
+dir /usr/share/xsessions
+obj /usr/share/xsessions/Xsession.desktop 155edd373b6cca953dc83deac2be5551 1356363643
+dir /usr/bin
+obj /usr/bin/startx 6b9a70c8fd520f034862f1267dc7aab4 1356363641
+obj /usr/bin/xinit c3863c4c86eb79dc9b4823bd610fec89 1356363667

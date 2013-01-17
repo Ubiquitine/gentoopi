@@ -1,0 +1,13 @@
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+libHX_LIBS=-lHX  
+
+Name:		libcryptmount
+Description:	Library for mounting crypto images and handle key files
+Version:	2.13
+Cflags:		-I${includedir}
+Libs:		-L${libdir} -lcryptmount
+Libs.private:	-lHX  

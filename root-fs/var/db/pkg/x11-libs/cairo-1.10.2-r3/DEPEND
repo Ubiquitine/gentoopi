@@ -1,0 +1,1 @@
+media-libs/fontconfig media-libs/freetype:2 media-libs/libpng:0 sys-libs/zlib >=x11-libs/pixman-0.18.4 dev-libs/glib:2 >=x11-libs/libXrender-0.6 x11-libs/libX11 virtual/pkgconfig >=sys-devel/libtool-2 x11-proto/renderproto || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

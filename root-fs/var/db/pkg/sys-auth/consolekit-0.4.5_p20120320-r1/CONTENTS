@@ -1,0 +1,98 @@
+dir /etc
+dir /etc/X11
+dir /etc/X11/xinit
+dir /etc/X11/xinit/xinitrc.d
+obj /etc/X11/xinit/xinitrc.d/90-consolekit e21815b18128370553b3f399912fc74b 1357477251
+dir /etc/ConsoleKit
+dir /etc/ConsoleKit/run-session.d
+obj /etc/ConsoleKit/run-session.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1357477250
+dir /etc/ConsoleKit/seats.d
+obj /etc/ConsoleKit/seats.d/00-primary.seat eb3f3c54b501dbdaf38dbc38a4ee91fe 1357477245
+dir /etc/ConsoleKit/run-seat.d
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/ConsoleKit.conf 9a2dbb48a49638bf1cb1b5ff90755a29 1357477244
+dir /etc/init.d
+obj /etc/init.d/consolekit fd11ff21185bc53c0ad41e0c75396eda 1357477250
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/70-udev-acl.rules 832ec2f5cb1d11782f0b437da0c61b2a 1357477243
+dir /lib/security
+obj /lib/security/pam_ck_connector.so 232e00cc149d6714da956029c5d5eb8e 1357477278
+dir /var
+dir /var/log
+dir /var/log/ConsoleKit
+obj /var/log/ConsoleKit/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1357477250
+dir /var/run
+dir /var/run/ConsoleKit
+dir /usr
+dir /usr/bin
+obj /usr/bin/ck-list-sessions 780466e9a934022fc68f913798aed708 1357477278
+obj /usr/bin/ck-history 2b749b24d75cc1390e0506695453c88b 1357477279
+obj /usr/bin/ck-launch-session d5eeb11d3ded872f3014a6b47c4e1459 1357477279
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/ck-connector.pc c02c6cf564d8dd53cd5e0d5b8887eaa8 1357477240
+dir /usr/lib/ConsoleKit
+dir /usr/lib/ConsoleKit/run-session.d
+obj /usr/lib/ConsoleKit/run-session.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1357477250
+obj /usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck c038a8f9b3bcaf49c598c19c38bbd628 1357477251
+dir /usr/lib/ConsoleKit/scripts
+obj /usr/lib/ConsoleKit/scripts/ck-system-restart 878c95855f448272de3cb6d4f0feb6ed 1357477241
+obj /usr/lib/ConsoleKit/scripts/ck-system-stop f5ace7cc7a759275fa8efab8ce97aee9 1357477241
+dir /usr/lib/ConsoleKit/run-seat.d
+obj /usr/lib/ConsoleKit/run-seat.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1357477250
+dir /usr/lib/systemd
+dir /usr/lib/systemd/system
+obj /usr/lib/systemd/system/console-kit-daemon.service ff65cf1a0fafda43a6d13038ce5c16e3 1357477245
+obj /usr/lib/systemd/system/console-kit-log-system-restart.service e270ffc0ab6f39508f0396461d095932 1357477245
+dir /usr/lib/systemd/system/poweroff.target.wants
+dir /usr/lib/systemd/system/basic.target.wants
+dir /usr/lib/systemd/system/kexec.target.wants
+sym /usr/lib/systemd/system/kexec.target.wants/console-kit-log-system-restart.service -> ../console-kit-log-system-restart.service 1357477314
+dir /usr/lib/systemd/system/halt.target.wants
+obj /usr/lib/systemd/system/console-kit-log-system-start.service c395a91d7cddf584d161da9f541743bb 1357477245
+dir /usr/lib/systemd/system/reboot.target.wants
+sym /usr/lib/systemd/system/reboot.target.wants/console-kit-log-system-restart.service -> ../console-kit-log-system-restart.service 1357477314
+obj /usr/lib/systemd/system/console-kit-log-system-stop.service ec77a2c0ca11666769d86eff686ff333 1357477245
+obj /usr/lib/libck-connector.so.0.0.0 a6426c9fe07c743fc54171cd5977910b 1357477279
+dir /usr/sbin
+obj /usr/sbin/console-kit-daemon 7beae3fe72e4cc3c464421b6055b6b51 1357477279
+obj /usr/sbin/ck-log-system-start 24b57d70c0276df3fc1622c00e32b4fb 1357477279
+obj /usr/sbin/ck-log-system-stop 050c918632c35f17a881917e4fcd0a64 1357477279
+obj /usr/sbin/ck-log-system-restart cb1b43409ede6493c68e235ae4841456 1357477280
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/consolekit-0.4.5_p20120320-r1
+obj /usr/share/doc/consolekit-0.4.5_p20120320-r1/TODO.bz2 a477142fa78e75560d201ef862307ac2 1357477249
+obj /usr/share/doc/consolekit-0.4.5_p20120320-r1/AUTHORS.bz2 a7b571d3c4bbd228c85a1b88555d5d5d 1357477249
+obj /usr/share/doc/consolekit-0.4.5_p20120320-r1/NEWS.bz2 a6f9ba39e6499201ae8a94fe73d2480d 1357477249
+obj /usr/share/doc/consolekit-0.4.5_p20120320-r1/HACKING.bz2 c50f40154f3f7a7bc69fdc76e0d0e033 1357477249
+obj /usr/share/doc/consolekit-0.4.5_p20120320-r1/README.bz2 8cafca79046932d852729c2cf449ee9c 1357477249
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pam_ck_connector.8.bz2 0f5ee8a54b18e47cdb3ba51cca58866f 1357477246
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Seat.xml f787b18f3bd81435a8d7ae58ea1b8ee8 1357477239
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Manager.xml 1269cb1654da2229f1aea3d4de4f8ede 1357477239
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Session.xml 2980774ac626656b6df01451e03ccf00 1357477239
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service 694b8f2aca26ee96bbd8150c88c14030 1357477245
+dir /usr/libexec
+obj /usr/libexec/ck-get-x11-server-pid 7c569a57fae8d0a3cc8e6cc17fb3a829 1357477280
+obj /usr/libexec/ck-get-x11-display-device 26e3a626c9dc70c23b377eee1a1a0af1 1357477280
+obj /usr/libexec/udev-acl e55f0c3f84a152cc9eb167e62b8c9195 1357477280
+obj /usr/libexec/ck-collect-session-info 79d5bad263549ed574884284784067e7 1357477280
+dir /usr/include
+dir /usr/include/ConsoleKit
+dir /usr/include/ConsoleKit/ck-connector
+obj /usr/include/ConsoleKit/ck-connector/ck-connector.h bb85f782857060a992c7613b5072dd70 1357477240
+sym /lib/udev/udev-acl -> /usr/libexec/udev-acl 1357477315
+sym /usr/lib/ConsoleKit/run-seat.d/udev-acl.ck -> /usr/libexec/udev-acl 1357477315
+sym /usr/lib/systemd/system/poweroff.target.wants/console-kit-log-system-stop.service -> ../console-kit-log-system-stop.service 1357477315
+sym /usr/lib/systemd/system/basic.target.wants/console-kit-log-system-start.service -> ../console-kit-log-system-start.service 1357477315
+sym /usr/lib/systemd/system/halt.target.wants/console-kit-log-system-stop.service -> ../console-kit-log-system-stop.service 1357477315
+sym /usr/lib/libck-connector.so.0 -> libck-connector.so.0.0.0 1357477315
+sym /usr/lib/libck-connector.so -> libck-connector.so.0.0.0 1357477315

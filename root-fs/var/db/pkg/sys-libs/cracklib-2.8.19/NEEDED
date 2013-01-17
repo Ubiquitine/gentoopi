@@ -1,0 +1,4 @@
+/usr/sbin/cracklib-packer libcrack.so.2,libc.so.6
+/usr/sbin/cracklib-unpacker libcrack.so.2,libc.so.6
+/usr/sbin/cracklib-check libcrack.so.2,libc.so.6
+/lib/libcrack.so.2.8.1 libz.so.1,libc.so.6

@@ -1,0 +1,1 @@
+>=x11-base/xorg-server-1.10[udev] sys-libs/mtdev x11-base/xorg-server[xorg]

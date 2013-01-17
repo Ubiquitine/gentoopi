@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xv.h f4c559ca2d48efedf2aefa8252e88a22 1356432422
+obj /usr/include/X11/extensions/Xvproto.h a4ea9e8624e0ba53e5ca61d0b09d458f 1356432422
+obj /usr/include/X11/extensions/vldXvMC.h f1d74375741194689c42b7272d3b6579 1356432422
+obj /usr/include/X11/extensions/XvMCproto.h 79489a4955728f4c0638b260e2ecee23 1356432422
+obj /usr/include/X11/extensions/XvMC.h 0aaf3bfef2fe5813f43403ee001b4be0 1356432422
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/videoproto.pc bab70efe6adf9a4f8c70b9e62d11d96b 1356432422
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/videoproto-2.3.1
+obj /usr/share/doc/videoproto-2.3.1/README.bz2 07fbf48fbbea5b630f0f669eaee4a41c 1356432423
+obj /usr/share/doc/videoproto-2.3.1/xv-protocol-v2.txt.bz2 30849543c213104ff358f1e4164a8fea 1356432422
+obj /usr/share/doc/videoproto-2.3.1/ChangeLog.bz2 8603cde6f95dad85870e05c08ab2f3d6 1356432423

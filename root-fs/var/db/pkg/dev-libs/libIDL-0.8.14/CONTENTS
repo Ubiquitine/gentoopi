@@ -1,0 +1,25 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/libIDL-config-2 be70e148a59fa32a676ec4629b78b535 1356777968
+dir /usr/lib
+obj /usr/lib/libIDL-2.so.0.0.0 9192c7bb3fc8503e898d955459df864c 1356777993
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libIDL-2.0.pc d4682dac12b1ad63bbf85f69cf57f647 1356777969
+sym /usr/lib/libIDL-2.so -> libIDL-2.so.0.0.0 1356778021
+sym /usr/lib/libIDL-2.so.0 -> libIDL-2.so.0.0.0 1356778021
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libIDL-0.8.14
+obj /usr/share/doc/libIDL-0.8.14/AUTHORS.bz2 84cf60e8b961435bf2b807113fe676da 1356777969
+obj /usr/share/doc/libIDL-0.8.14/BUGS.bz2 e0c5093b885a6b2ed0b4e164767653c5 1356777969
+obj /usr/share/doc/libIDL-0.8.14/NEWS.bz2 702002317e710021de6933ec9b1f2c70 1356777970
+obj /usr/share/doc/libIDL-0.8.14/HACKING.bz2 ca77a1730b4a4d77db4fba5709a4fc2a 1356777970
+obj /usr/share/doc/libIDL-0.8.14/README.bz2 38de14b704420300b1a372da54ef404d 1356777970
+obj /usr/share/doc/libIDL-0.8.14/MAINTAINERS.bz2 12acedbe79487bf4b6c81e4a29829a3b 1356777970
+obj /usr/share/doc/libIDL-0.8.14/ChangeLog.bz2 f149899006ad359f2ab668cd82bfa4de 1356777969
+dir /usr/share/info
+obj /usr/share/info/libIDL2.info.bz2 3dc52ff3e1e03b3e7e9ecb24f87448b8 1356777968
+dir /usr/include
+dir /usr/include/libIDL-2.0
+dir /usr/include/libIDL-2.0/libIDL
+obj /usr/include/libIDL-2.0/libIDL/IDL.h 83138c361720b64045e0c83a725d64bf 1356777967

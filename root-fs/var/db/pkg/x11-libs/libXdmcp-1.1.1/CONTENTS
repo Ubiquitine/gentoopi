@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+obj /usr/include/X11/Xdmcp.h f2d6d2222bd82d3bddb27bd8209bdfa1 1356358663
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xdmcp.pc 34a7d6810f0e360ad9af6f44337deddb 1356358663
+obj /usr/lib/libXdmcp.so.6.0.0 1f51bf0de6b2ffc63b4af93af753df18 1356358689
+sym /usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0 1356358715
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libXdmcp-1.1.1
+obj /usr/share/doc/libXdmcp-1.1.1/README.bz2 15731ffd5bd96da4e87fba7075b0286c 1356358663
+obj /usr/share/doc/libXdmcp-1.1.1/AUTHORS.bz2 370a0652bd992a67202434b34444464d 1356358664
+obj /usr/share/doc/libXdmcp-1.1.1/ChangeLog.bz2 d9990dfab277f3cfc9e724afa66c617e 1356358665
+sym /usr/lib/libXdmcp.so -> libXdmcp.so.6.0.0 1356358715

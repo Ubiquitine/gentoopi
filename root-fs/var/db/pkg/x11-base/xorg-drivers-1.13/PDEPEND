@@ -1,0 +1,1 @@
+x11-drivers/xf86-input-evdev x11-drivers/xf86-input-keyboard x11-drivers/xf86-input-mouse x11-drivers/xf86-video-fbdev !x11-drivers/xf86-input-citron !x11-drivers/xf86-video-cyrix !x11-drivers/xf86-video-impact !x11-drivers/xf86-video-nsc !x11-drivers/xf86-video-sunbw2

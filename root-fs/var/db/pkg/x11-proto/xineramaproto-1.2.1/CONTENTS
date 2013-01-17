@@ -1,0 +1,13 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/panoramiXproto.h 94266d2c5f3d53735ba216420f712a6e 1356432836
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xineramaproto.pc 7152d385c8156c2fa5e0d36902479f50 1356432836
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xineramaproto-1.2.1
+obj /usr/share/doc/xineramaproto-1.2.1/README.bz2 0a1c60cfbcb9123df09b34a91c30eb8d 1356432837
+obj /usr/share/doc/xineramaproto-1.2.1/ChangeLog.bz2 f412e42f77c8339b0f2c8ec85bca301e 1356432837

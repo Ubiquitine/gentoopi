@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/htop 33d56e93f0ff9502e84491215dca3349 1358240003
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/htop-1.0.2
+obj /usr/share/doc/htop-1.0.2/README.bz2 4370c3c235a7c8821658207a096a51fa 1358239984
+obj /usr/share/doc/htop-1.0.2/ChangeLog.bz2 b4bcb603e8d83621660e3c2a407f5921 1358239984
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/htop.1.bz2 a526738824a70f0ba252d90b43a6f410 1358239983
+dir /usr/share/applications
+obj /usr/share/applications/htop.desktop 194b840f96d3e6bbf29229811a6195c2 1358239982
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/htop.png 5bbd19dc6cccaf0a74866a92f5cca75c 1358239983

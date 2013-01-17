@@ -1,0 +1,6 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/misc
+obj /usr/lib/misc/gcc-config 5af5efbcf39f1e53fdc02c84d605078e 1355985563
+dir /usr/bin
+obj /usr/bin/gcc-config 182413e01c5d6e2f44842dd7ac1193bb 1355985561

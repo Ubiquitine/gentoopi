@@ -1,0 +1,1 @@
+>=net-nds/openldap-2.1.30-r5 dev-libs/openssl >=sys-apps/sed-4 || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

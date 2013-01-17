@@ -1,0 +1,6 @@
+/sbin/getpcaps libcap.so.2,libc.so.6
+/sbin/setcap libcap.so.2,libc.so.6
+/sbin/capsh libcap.so.2,libc.so.6
+/sbin/getcap libcap.so.2,libc.so.6
+/lib/libcap.so.2.22 libattr.so.1,libc.so.6
+/lib/security/pam_cap.so libcap.so.2,libc.so.6

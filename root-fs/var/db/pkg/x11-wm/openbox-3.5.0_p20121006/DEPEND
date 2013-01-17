@@ -1,0 +1,1 @@
+dev-libs/glib:2 >=dev-libs/libxml2-2.0 >=media-libs/fontconfig-2 x11-libs/libXft x11-libs/libXrandr x11-libs/libXt >=x11-libs/pango-1.8[X] x11-libs/libXinerama sys-devel/gettext virtual/pkgconfig x11-proto/xextproto x11-proto/xf86vidmodeproto x11-proto/xineramaproto || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

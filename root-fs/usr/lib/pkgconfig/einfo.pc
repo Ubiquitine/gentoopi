@@ -1,0 +1,9 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=/usr/include
+
+Name: einfo
+Description: Pretty console informational display
+Version: 0.11.8
+Libs: -L${libdir} -leinfo

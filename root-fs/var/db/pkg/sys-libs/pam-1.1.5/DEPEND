@@ -1,0 +1,1 @@
+virtual/libintl >=sys-libs/cracklib-2.8.3 sys-libs/db >=sys-libs/glibc-2.7 >=sys-devel/libtool-2 sys-devel/flex sys-devel/gettext virtual/pkgconfig

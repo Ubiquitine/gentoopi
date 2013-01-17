@@ -1,0 +1,1 @@
+debug doc +extensions +fts3 icu +readline secure-delete soundex tcl test +threadsafe unlock-notify

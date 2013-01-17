@@ -1,0 +1,10 @@
+/usr/sbin/tracepath6 libc.so.6
+/usr/sbin/rdisc libc.so.6
+/usr/sbin/clockdiff libc.so.6
+/usr/sbin/traceroute6 libc.so.6
+/usr/sbin/rarpd libc.so.6
+/usr/sbin/tftpd libc.so.6
+/usr/sbin/tracepath libc.so.6
+/bin/ping6 libresolv.so.2,libcrypto.so.1.0.0,libgcc_s.so.1,libc.so.6
+/bin/ping libgcc_s.so.1,libc.so.6
+/sbin/arping libc.so.6

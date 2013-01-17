@@ -1,0 +1,13 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/patch.1.bz2 4e4e4d00bfe489aa982d3696af389e31 1355985538
+dir /usr/share/doc
+dir /usr/share/doc/patch-2.6.1
+obj /usr/share/doc/patch-2.6.1/NEWS.bz2 f4c99a68f0f58e00cf315a1bffc475fa 1355985538
+obj /usr/share/doc/patch-2.6.1/README.bz2 d9f2926e0db350b4c150109f2859d6eb 1355985538
+obj /usr/share/doc/patch-2.6.1/ChangeLog.bz2 0c5f7bd435f324ea9db8d0442958dc87 1355985538
+obj /usr/share/doc/patch-2.6.1/AUTHORS.bz2 8968c124ed75dec93e3e78ee1e336d41 1355985538
+dir /usr/bin
+obj /usr/bin/patch 8f7a854af7d53350f055e989fecd081b 1355985541

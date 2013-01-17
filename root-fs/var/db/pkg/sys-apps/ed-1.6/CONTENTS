@@ -1,0 +1,18 @@
+dir /bin
+obj /bin/red 7ee1c42c8afd7a5fb6cccc6fa45c08de 1357497500
+obj /bin/ed b2d30a73e5af76f3a112c43d7c59b5e6 1357497556
+dir /usr
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/ed.info.bz2 2d429d1c529cf12d8de9538292092882 1325433034
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/ed.1.bz2 4d751bf8aeb438538cf4062ab15c4960 1325433036
+dir /usr/share/doc
+dir /usr/share/doc/ed-1.6
+obj /usr/share/doc/ed-1.6/README.bz2 2554be7f0871d1b2334083c07f9b6197 1357497531
+obj /usr/share/doc/ed-1.6/NEWS.bz2 7eb7d30ddaff219c31bbc9784a668eb0 1357497532
+obj /usr/share/doc/ed-1.6/AUTHORS.bz2 72d04cd95f0a4b339e349c56f4bf1c86 1357497532
+obj /usr/share/doc/ed-1.6/TODO.bz2 4c87f3ff4532187dbe04d20ada130e2d 1357497532
+obj /usr/share/doc/ed-1.6/ChangeLog.bz2 a62a60d0f5417cc5d9db4174b8604523 1357497531
+sym /usr/share/man/man1/red.1.bz2 -> ed.1.bz2 1357497591

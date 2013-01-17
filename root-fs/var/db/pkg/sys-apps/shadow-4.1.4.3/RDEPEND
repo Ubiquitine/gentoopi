@@ -1,0 +1,1 @@
+>=sys-libs/cracklib-2.7-r3 virtual/pam virtual/libintl >=sys-auth/pambase-20080219.1

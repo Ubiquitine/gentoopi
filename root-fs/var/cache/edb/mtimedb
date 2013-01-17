@@ -1,0 +1,132 @@
+{
+	"info": {
+		"/usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info": 1358351708, 
+		"/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.5.4/info": 1356004254, 
+		"/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.6.3/info": 1358351708, 
+		"/usr/share/info": 1358351702
+	}, 
+	"ldpath": {
+		"/lib": 1357834557, 
+		"/usr/lib": 1358238168, 
+		"/usr/lib/opengl/xorg-x11/lib": 1356457217, 
+		"/usr/local/lib": 1355966197
+	}, 
+	"resume_backup": {
+		"favorites": [
+			"dev-vcs/git"
+		], 
+		"mergelist": [
+			[
+				"ebuild", 
+				"/", 
+				"app-arch/cpio-2.11", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-libs/libksba-1.2.0", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-libs/libassuan-2.0.3", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-libs/pth-2.0.7-r3", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"net-mail/mailbase-1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"mail-mta/ssmtp-2.64-r2", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"virtual/mta-0", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"app-admin/eselect-pinentry-0.3", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"app-crypt/pinentry-0.8.2", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"app-crypt/gnupg-2.0.19", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-vcs/git-1.7.12.4", 
+				"merge"
+			]
+		], 
+		"myopts": {
+			"--quiet-build": "y", 
+			"--tree": true, 
+			"--verbose": true
+		}
+	}, 
+	"starttime": 0, 
+	"updates": {
+		"/usr/portage/profiles/updates/1Q-2004": 1079413210, 
+		"/usr/portage/profiles/updates/1Q-2005": 1288792382, 
+		"/usr/portage/profiles/updates/1Q-2006": 1144961680, 
+		"/usr/portage/profiles/updates/1Q-2007": 1188435783, 
+		"/usr/portage/profiles/updates/1Q-2008": 1341387085, 
+		"/usr/portage/profiles/updates/1Q-2009": 1239299367, 
+		"/usr/portage/profiles/updates/1Q-2010": 1270059252, 
+		"/usr/portage/profiles/updates/1Q-2011": 1301931093, 
+		"/usr/portage/profiles/updates/1Q-2012": 1331647284, 
+		"/usr/portage/profiles/updates/2Q-2004": 1093768137, 
+		"/usr/portage/profiles/updates/2Q-2005": 1295129328, 
+		"/usr/portage/profiles/updates/2Q-2006": 1161761202, 
+		"/usr/portage/profiles/updates/2Q-2007": 1188973024, 
+		"/usr/portage/profiles/updates/2Q-2008": 1286686918, 
+		"/usr/portage/profiles/updates/2Q-2009": 1246398673, 
+		"/usr/portage/profiles/updates/2Q-2010": 1277237549, 
+		"/usr/portage/profiles/updates/2Q-2011": 1308487406, 
+		"/usr/portage/profiles/updates/2Q-2012": 1341151285, 
+		"/usr/portage/profiles/updates/3Q-2004": 1267813145, 
+		"/usr/portage/profiles/updates/3Q-2005": 1227416322, 
+		"/usr/portage/profiles/updates/3Q-2006": 1161097556, 
+		"/usr/portage/profiles/updates/3Q-2007": 1201883980, 
+		"/usr/portage/profiles/updates/3Q-2008": 1294628423, 
+		"/usr/portage/profiles/updates/3Q-2009": 1254687133, 
+		"/usr/portage/profiles/updates/3Q-2010": 1284975872, 
+		"/usr/portage/profiles/updates/3Q-2011": 1319356578, 
+		"/usr/portage/profiles/updates/3Q-2012": 1348997486, 
+		"/usr/portage/profiles/updates/4Q-2004": 1104344970, 
+		"/usr/portage/profiles/updates/4Q-2005": 1143967469, 
+		"/usr/portage/profiles/updates/4Q-2006": 1168533185, 
+		"/usr/portage/profiles/updates/4Q-2007": 1197619915, 
+		"/usr/portage/profiles/updates/4Q-2008": 1230123157, 
+		"/usr/portage/profiles/updates/4Q-2009": 1261940754, 
+		"/usr/portage/profiles/updates/4Q-2010": 1293674645, 
+		"/usr/portage/profiles/updates/4Q-2011": 1335027685, 
+		"/usr/portage/profiles/updates/4Q-2012": 1356665487
+	}, 
+	"version": "2.1.11.31"
+}

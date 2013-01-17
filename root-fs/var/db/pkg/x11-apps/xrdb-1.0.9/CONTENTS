@@ -1,0 +1,12 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xrdb.1.bz2 4c6528b19b2e18b103a4e030a0feef12 1356363405
+dir /usr/share/doc
+dir /usr/share/doc/xrdb-1.0.9
+obj /usr/share/doc/xrdb-1.0.9/README.bz2 c5ffcbd35879e54e37d7bab1134451f7 1356363406
+obj /usr/share/doc/xrdb-1.0.9/AUTHORS.bz2 2b5fe41e2feb8b69ac13e1f9b29e79d2 1356363406
+obj /usr/share/doc/xrdb-1.0.9/ChangeLog.bz2 5da18de76010c75d407d1e2a34ea7b3f 1356363407
+dir /usr/bin
+obj /usr/bin/xrdb cb51555399cdc0ad7ad4932016628454 1356363431

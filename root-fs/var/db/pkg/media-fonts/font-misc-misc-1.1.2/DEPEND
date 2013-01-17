@@ -1,0 +1,1 @@
+x11-apps/bdftopcf || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool x11-apps/mkfontdir media-fonts/encodings >=media-libs/fontconfig-2.4.0 >=media-fonts/font-util-1.2.0 virtual/pkgconfig

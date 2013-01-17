@@ -1,0 +1,1 @@
+>=dev-db/sqlite-3.6.19:3 >=dev-libs/glib-2.22 dev-libs/libxml2 >=net-libs/libsoup-2.34:2.4 x11-libs/libXScrnSaver net-libs/webkit-gtk:2 x11-libs/gtk+:2 dev-libs/libunique:1

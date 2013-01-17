@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/pixman-1
+obj /usr/include/pixman-1/pixman.h 84c68fa1f08e7e7b6e90c64a3d1a276c 1356439455
+obj /usr/include/pixman-1/pixman-version.h af011fc6e61526a0bfb365cc7a7113e1 1356439455
+dir /usr/lib
+obj /usr/lib/libpixman-1.so.0.28.0 1bb85f79af2ce24dec4642fac5630ab7 1356439482
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/pixman-1.pc bed256187700c331f2afc799b1fe1071 1356439456
+sym /usr/lib/libpixman-1.so -> libpixman-1.so.0.28.0 1356439509
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pixman-0.28.0
+obj /usr/share/doc/pixman-0.28.0/README.bz2 5703ca15299851f31de5ceee7e3dca52 1356439456
+obj /usr/share/doc/pixman-0.28.0/ChangeLog d41d8cd98f00b204e9800998ecf8427e 1356439457
+sym /usr/lib/libpixman-1.so.0 -> libpixman-1.so.0.28.0 1356439509

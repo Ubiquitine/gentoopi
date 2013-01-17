@@ -1,0 +1,33 @@
+dir /usr
+dir /usr/include
+dir /usr/include/enchant
+obj /usr/include/enchant/enchant++.h 784d3a1c7b7a1661f2c5bd9e717f269c 1357541561
+obj /usr/include/enchant/enchant-provider.h 426ce2bd152372b1f344ccf9ff867c95 1357541561
+obj /usr/include/enchant/enchant.h 32b70813a1bf8c8215c406cb55187875 1357541561
+dir /usr/bin
+obj /usr/bin/enchant 0042217ea494f6d5f2b55bfa78e0b5fd 1357541599
+obj /usr/bin/enchant-lsmod 7ab5695c98e5f4b1b0f9f183b4e888d7 1357541599
+dir /usr/share
+dir /usr/share/enchant
+obj /usr/share/enchant/enchant.ordering 486150fb65cf1838e19e1414a1b52dbd 1357541570
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/enchant.1.bz2 ccc5069fcd7c988645428ae3bbb9e460 1357541569
+dir /usr/share/doc
+dir /usr/share/doc/enchant-1.6.0
+obj /usr/share/doc/enchant-1.6.0/README.bz2 a524ccab2fb9d8effd9dccb1703949d6 1357541571
+obj /usr/share/doc/enchant-1.6.0/BUGS.bz2 803a0d69a39cffdf640110b31a3e294a 1357541570
+obj /usr/share/doc/enchant-1.6.0/MAINTAINERS.bz2 e78cfa284eaf40fe6327ea4bef1355a6 1357541571
+obj /usr/share/doc/enchant-1.6.0/NEWS.bz2 c2547a79fffcdffae9b1b815f9360744 1357541571
+obj /usr/share/doc/enchant-1.6.0/AUTHORS.bz2 e78cfa284eaf40fe6327ea4bef1355a6 1357541570
+obj /usr/share/doc/enchant-1.6.0/HACKING.bz2 b62e33c9af36b8882955342d30bdea7f 1357541571
+obj /usr/share/doc/enchant-1.6.0/TODO.bz2 1a28c1c6c45d5a9390ab5bd1aa5a92eb 1357541571
+obj /usr/share/doc/enchant-1.6.0/ChangeLog.bz2 59e69b407b2d7b17c84f2030c7840bb8 1357541570
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/enchant.pc 1c68333e1127d97ff19b767c83c1d953 1357541570
+obj /usr/lib/libenchant.so.1.6.0 cfebc31602c91b38d6e1303fc15c75f6 1357541599
+sym /usr/lib/libenchant.so.1 -> libenchant.so.1.6.0 1357541637
+dir /usr/lib/enchant
+obj /usr/lib/enchant/libenchant_myspell.so f49c3ec5e6ee52d3817c4bc160889d70 1357541599
+sym /usr/lib/libenchant.so -> libenchant.so.1.6.0 1357541637

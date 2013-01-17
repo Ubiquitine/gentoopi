@@ -1,0 +1,1 @@
+virtual/jpeg >=x11-libs/gtk+-2.6:2 >=dev-util/intltool-0.40 virtual/pkgconfig sys-devel/gettext

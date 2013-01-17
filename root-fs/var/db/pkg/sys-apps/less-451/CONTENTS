@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lesskey.1.bz2 8453f40bbf8e116f8532b496405c398a 1356002863
+obj /usr/share/man/man1/less.1.bz2 d12f92baef16affdf9954f42789e4ce7 1356002863
+obj /usr/share/man/man1/lessecho.1.bz2 c81c0c5f185e218a09da7aaaf2316167 1356002863
+dir /usr/share/doc
+dir /usr/share/doc/less-451
+obj /usr/share/doc/less-451/NEWS.bz2 113ef547e8055c3336bac7336dd4795d 1356002864
+obj /usr/share/doc/less-451/README.bz2 02ad599a91fc6f5916634df8a4cf8c67 1356002863
+obj /usr/share/doc/less-451/README.Gentoo.bz2 df78e25dd8533dd2fc035034aadfd3a5 1356002864
+dir /usr/bin
+obj /usr/bin/less 4055497c1b985d463b185989f3cdb495 1356002867
+obj /usr/bin/lessecho 6079ffeb7b15773e4f2330055e039c4c 1356002867
+obj /usr/bin/lesspipe a03ce800374b7046b7ebd75062ca185a 1356002864
+obj /usr/bin/code2color 2a080a0b41b6fab008719edd160c0a20 1356002864
+sym /usr/bin/lesspipe.sh -> lesspipe 1356002872
+obj /usr/bin/lesskey ec4c9e4a90cd386c1ce113d468c67da8 1356002867
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/70less c805eb302fa124719c8fc95a40e5eddc 1356002864

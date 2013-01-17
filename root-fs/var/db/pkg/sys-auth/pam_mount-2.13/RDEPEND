@@ -1,0 +1,1 @@
+>=sys-libs/pam-0.99 >=sys-libs/libhx-3.12.1 >=dev-libs/libxml2-2.6 >=dev-libs/openssl-0.9.8 >=sys-apps/util-linux-2.20

@@ -1,0 +1,50 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcb-proto.pc 8de57071d1245125f4ec170d8cdc0cb7 1356355682
+dir /usr/lib/python3.2
+dir /usr/lib/python3.2/site-packages
+dir /usr/lib/python3.2/site-packages/xcbgen
+obj /usr/lib/python3.2/site-packages/xcbgen/matcher.py 2f24831a3b4d05779dfdbb417d590cd3 1356355681
+obj /usr/lib/python3.2/site-packages/xcbgen/state.py 1338b69fd37aadc70d95dbb70798a240 1356355681
+obj /usr/lib/python3.2/site-packages/xcbgen/xtypes.py 91573413f5380e5bb0acba339d3132e9 1356355681
+obj /usr/lib/python3.2/site-packages/xcbgen/expr.py 7ca8c140da0f2c439cf7cc75b12973d0 1356355681
+obj /usr/lib/python3.2/site-packages/xcbgen/error.py 217105f2ec6b1815f6e54fd752be41a1 1356355681
+obj /usr/lib/python3.2/site-packages/xcbgen/__init__.py 68b329da9893e34099c7d8ad5cb9c940 1356355681
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-proto-1.8
+obj /usr/share/doc/xcb-proto-1.8/README.bz2 7c90713bffd8420d7b7a0f956c31c647 1356355682
+obj /usr/share/doc/xcb-proto-1.8/TODO.bz2 c30925d08390d9bd7b5b584a89d648ab 1356355683
+obj /usr/share/doc/xcb-proto-1.8/NEWS.bz2 cf2cdeff058f7ad74f7133c45ad2c0e5 1356355682
+dir /usr/share/xcb
+obj /usr/share/xcb/xfixes.xml dd493e19c12392aa7a96ff0be8aac63b 1356355681
+obj /usr/share/xcb/dpms.xml 89e154a753b65576ff9e45b2c614e597 1356355681
+obj /usr/share/xcb/shm.xml 979e7687c094d6b46c3549e24e1971c8 1356355681
+obj /usr/share/xcb/xselinux.xml fc864e360af5d48aa52cffc84afe6078 1356355681
+obj /usr/share/xcb/dri2.xml cc6cbd2a9feab65a412425c71c83fbf2 1356355681
+obj /usr/share/xcb/ge.xml 6ecf65622a26ba9abbccfdea48c8d265 1356355681
+obj /usr/share/xcb/xinput.xml 14cee80d15adc103c2e1ad5dfcffbb89 1356355681
+obj /usr/share/xcb/glx.xml 503f8437da9222101dc0773e371727ae 1356355681
+obj /usr/share/xcb/xv.xml 274ca8552d73a33ca0bb2721113fbcbb 1356355681
+obj /usr/share/xcb/bigreq.xml 5ab67d983302421d0586a9d465c4ba65 1356355681
+obj /usr/share/xcb/shape.xml 900674919dc2d0bfeeb41f53e69ee523 1356355681
+obj /usr/share/xcb/xc_misc.xml 67bf5d2d1af77f26eb7d2b914a83abb7 1356355681
+obj /usr/share/xcb/xkb.xml 67c7bb811514c32d103247552d6aedff 1356355681
+obj /usr/share/xcb/xtest.xml 22ae1c706ea30dd9942ce76156f318a2 1356355681
+obj /usr/share/xcb/record.xml 4da31e2bca356c17d95d9bff26770536 1356355681
+obj /usr/share/xcb/xevie.xml 07bf20ee795134b1dbdc2673facf4d0b 1356355681
+obj /usr/share/xcb/sync.xml fc0e224852558a48511b5e33077a3724 1356355681
+obj /usr/share/xcb/res.xml b062586e68695a63a3662e911ceb807f 1356355681
+obj /usr/share/xcb/xvmc.xml c92896369a286e71462460705ce6ddca 1356355681
+obj /usr/share/xcb/xproto.xml 0b7505e4bdb78c86d238bcab7595b6b5 1356355681
+obj /usr/share/xcb/xprint.xml daaf878ab29b07bb41cc83296aeb2a98 1356355681
+obj /usr/share/xcb/composite.xml 91eb0595e38dcb334869091e76e2428d 1356355681
+obj /usr/share/xcb/damage.xml fb022b6cb2a3f44c48e4511ec3240539 1356355681
+obj /usr/share/xcb/xcb.xsd cda7a45daf367f3b52f7df80f5db4966 1356355681
+obj /usr/share/xcb/xf86dri.xml f18759533f0470ca375c9ce44a3e8226 1356355681
+obj /usr/share/xcb/randr.xml 32240e5561313b45ff5f7b3f2ca3ea50 1356355681
+obj /usr/share/xcb/screensaver.xml 66e0dd4adcc6fca8c8ab19e210acef49 1356355681
+obj /usr/share/xcb/xinerama.xml 931af295dd5ed9e0c78cdfbebccd7858 1356355681
+obj /usr/share/xcb/xf86vidmode.xml a378b82b5747ba2c5e4cc13c35801d6c 1356355681
+obj /usr/share/xcb/render.xml 36d559080039c3372a772f88e65d0b94 1356355681

@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/XKBrules.h d960f7c13417f8031ce7d57e8923b58f 1356435146
+obj /usr/include/X11/extensions/XKM.h 1ca03950c17b7f867442706a1a2c1cc9 1356435146
+obj /usr/include/X11/extensions/XKMformat.h 8b3afecdf712dcc00a47609d72963fd9 1356435146
+obj /usr/include/X11/extensions/XKBfile.h 019c8c901c599bbce7d436d483d52a28 1356435146
+obj /usr/include/X11/extensions/XKBbells.h 3f2b767555a1575a2036f10d2f71a3c3 1356435146
+obj /usr/include/X11/extensions/XKBconfig.h 4f09850f795bc02a85124fdfd6a86aab 1356435146
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xkbfile.pc a186b6750dffd7df8b8a597c07710c6f 1356435146
+obj /usr/lib/libxkbfile.so.1.0.2 c6a0e1dd1f1f71dd8ef4b6a721392b24 1356435172
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libxkbfile-1.0.8
+obj /usr/share/doc/libxkbfile-1.0.8/README.bz2 e1f2716fe04443976d2df91b330f7bb6 1356435147
+obj /usr/share/doc/libxkbfile-1.0.8/ChangeLog.bz2 3225d890dd578a6e46528580f3af6078 1356435148
+sym /usr/lib/libxkbfile.so -> libxkbfile.so.1.0.2 1356435201
+sym /usr/lib/libxkbfile.so.1 -> libxkbfile.so.1.0.2 1356435201

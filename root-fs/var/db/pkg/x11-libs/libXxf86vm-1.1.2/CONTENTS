@@ -1,0 +1,40 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xf86vmode.h 44e9778f0440731710a4924bf0b5b862 1356441097
+dir /usr/lib
+obj /usr/lib/libXxf86vm.so.1.0.0 0f1c4179095d7aa04cb14490b961ccbf 1356441124
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xxf86vm.pc 0b36f41cb1cfcabaf84eda568536fc75 1356441097
+sym /usr/lib/libXxf86vm.so -> libXxf86vm.so.1.0.0 1356441152
+sym /usr/lib/libXxf86vm.so.1 -> libXxf86vm.so.1.0.0 1356441152
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XF86VidModeSetClientVersion.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeQueryExtension.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeLockModeSwitch.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeSetGamma.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetPermissions.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetModeLine.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetViewPort.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetGammaRamp.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetGammaRampSize.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetMonitor.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeValidateModeLine.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetDotClocks.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetGamma.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeGetAllModeLines.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeSetViewPort.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeDeleteModeLine.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VM.3.bz2 b3f68afea729062d95c6f1fa5118118a 1356441097
+obj /usr/share/man/man3/XF86VidModeModModeLine.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeSetGammaRamp.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeSwitchToMode.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeQueryVersion.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+obj /usr/share/man/man3/XF86VidModeSwitchMode.3.bz2 9c29cf3e02957679c5a493738bea6d09 1356441097
+dir /usr/share/doc
+dir /usr/share/doc/libXxf86vm-1.1.2
+obj /usr/share/doc/libXxf86vm-1.1.2/README.bz2 881f94abb7208e84a849a6a6516b8403 1356441098
+obj /usr/share/doc/libXxf86vm-1.1.2/ChangeLog.bz2 0bba7b98369afc5a4801bab2342b0b6c 1356441099

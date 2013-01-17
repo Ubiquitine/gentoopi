@@ -1,0 +1,152 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/lxtask-0.1.4
+obj /usr/share/doc/lxtask-0.1.4/README.bz2 fd654e3f7c8445243fd1aa9885d69065 1356709890
+obj /usr/share/doc/lxtask-0.1.4/AUTHORS.bz2 ea76ba7b31905605f4d0430ff1c8b67c 1356709890
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxtask.mo c58a9b9b87548e2440190a283fcd6df5 1356709877
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxtask.mo 6fc2da6ea96ff48742bb4668dedab26f 1356709883
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxtask.mo b6292e9d1131376f194d854ad14a6e78 1356709879
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxtask.mo 44a286b64bc03cd75f7c22d52416c587 1356709878
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxtask.mo 775c9028ddf67e22ee9ffbe31fb5743d 1356709882
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxtask.mo 3a48d3a79f4916462d57f07a70279f83 1356709878
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxtask.mo d787f1aeab5bbe51e38448f77673737b 1356709883
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxtask.mo 745f10b68c0c442559e4ead3ca570c01 1356709886
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxtask.mo 8e7bfff7ff2a15454b84b55b919a6a35 1356709880
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxtask.mo 22eaee6b4e355a90c53d149edb999ff1 1356709889
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxtask.mo 64fa00d4893adb3b787e483835c985ed 1356709885
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxtask.mo 53dfb025d45ecbc9789b7556eb36febc 1356709881
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxtask.mo d58d8d397d48373ce35da47b65efb8a4 1356709888
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxtask.mo 1bcda9b4f0a8cc9e04b7a3dcec3fd691 1356709880
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxtask.mo 8dc5f400654fb7d53439cb11f922275e 1356709885
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxtask.mo 7d4beafe837b30fa6d722859f59cf169 1356709880
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxtask.mo f93de99a59d99b05cf9e06a4761362bb 1356709878
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxtask.mo d3c801045e2365b4422f539db1ffcf5b 1356709887
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxtask.mo c62381f14988c800c5313d606a444770 1356709889
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxtask.mo 84b966c49659ba61b09c37f83d07555a 1356709888
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxtask.mo d787f1aeab5bbe51e38448f77673737b 1356709883
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxtask.mo 6ddf94b6f72c2f8d199a29b1e5f9b837 1356709877
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxtask.mo d787f1aeab5bbe51e38448f77673737b 1356709877
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxtask.mo 13dd2947b00f555cbe58d9d35a72cf2a 1356709882
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxtask.mo 5ee9a8f82ca6a1cb9c6c445e2f441faa 1356709877
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxtask.mo a95794fa3ae974fb8efea94bda645a35 1356709885
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxtask.mo f0bc1598566d56706aee286c14617acf 1356709889
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxtask.mo 71a8732b20f45420b997b377cf3df5ae 1356709883
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxtask.mo df9cc7165bd2e3cd4c0c04d7000fb6d2 1356709889
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxtask.mo 251927bc2fe0077a95416d7f1835d912 1356709878
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxtask.mo f72271be14b3c5d254e87b0e1e527ad2 1356709884
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxtask.mo 309c1dc136e6538b7d1bb8f47d42e628 1356709882
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxtask.mo 52f080c9d6187099acd380295eab246b 1356709886
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxtask.mo 58fea1572c300909aae6fb2613903fe6 1356709884
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxtask.mo 43e7bce3c315d63654747c713e7c1e01 1356709880
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxtask.mo a4b0cd21df0b7c46d9bf7ea2e5184b18 1356709886
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxtask.mo b7de2167b5ba8e776cc4315649b24c68 1356709885
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxtask.mo e8c69a4ef7c9b2e354ec721e926b8a06 1356709882
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxtask.mo b46238fe0a626329e5aaf3fa08e4e850 1356709884
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxtask.mo d295068e27c430995d080e5491486916 1356709884
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxtask.mo b6292e9d1131376f194d854ad14a6e78 1356709879
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxtask.mo 29429c2c5cfadaa966768724265080a0 1356709881
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxtask.mo ed232534b36d7fd381310ba6e43a0c8a 1356709881
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxtask.mo c829023ebfe472a43ac920ca349703f8 1356709881
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxtask.mo 2e146c535d5eaecefc79e83881619c7a 1356709879
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxtask.mo f0bc1598566d56706aee286c14617acf 1356709888
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxtask.mo 66d4c3b3090e7758b318d37765cae9fc 1356709887
+dir /usr/share/applications
+obj /usr/share/applications/lxtask.desktop 2dcb45c998a765f56d9e198865508de7 1356709890
+dir /usr/bin
+obj /usr/bin/lxtask 23a017a3cf1fdc8cb5f8c7ed4fd9a111 1356709912

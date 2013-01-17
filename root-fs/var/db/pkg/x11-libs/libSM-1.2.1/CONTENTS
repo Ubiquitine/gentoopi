@@ -1,0 +1,19 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/SM
+obj /usr/include/X11/SM/SM.h 24717be33f1335cc802c757fb4c78eb3 1356358951
+obj /usr/include/X11/SM/SMproto.h 790e74e8e382e86e956ec4e848d45196 1356358951
+obj /usr/include/X11/SM/SMlib.h 37b52529b65b1c92903f37ee19cc5e87 1356358951
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/sm.pc bc71619d2e3303fea9fb4a83d5e0611c 1356358952
+obj /usr/lib/libSM.so.6.0.1 1d1a289be9df842bacd065c5596a5eb9 1356358977
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libSM-1.2.1
+obj /usr/share/doc/libSM-1.2.1/README.bz2 23e30b3fa9c1a30b77f7828aac6d9ea2 1356358952
+obj /usr/share/doc/libSM-1.2.1/AUTHORS.bz2 8841d0d7c2be4591a81440d19f5e096c 1356358953
+obj /usr/share/doc/libSM-1.2.1/ChangeLog.bz2 f6256fb638cdaa6c27fd15507a8f37eb 1356358953
+sym /usr/lib/libSM.so.6 -> libSM.so.6.0.1 1356359004
+sym /usr/lib/libSM.so -> libSM.so.6.0.1 1356359004

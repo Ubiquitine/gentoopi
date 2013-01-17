@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xkbcomp.1.bz2 274482c2840a3524ad35f00cec4596c2 1356440314
+dir /usr/share/doc
+dir /usr/share/doc/xkbcomp-1.2.3
+obj /usr/share/doc/xkbcomp-1.2.3/README.bz2 2c07c427c30ad82cc6cccd4e89456275 1356440315
+obj /usr/share/doc/xkbcomp-1.2.3/ChangeLog.bz2 c7cae2ec7f99a46b066e1fb04a1ad9bd 1356440316
+dir /usr/bin
+obj /usr/bin/xkbcomp e8ce99857bd869b11d6000bef3c99b82 1356440339

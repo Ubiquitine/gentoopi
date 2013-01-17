@@ -1,0 +1,12 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/misc
+obj /usr/lib/misc/ac-wrapper.sh 20327572a27c8744ee4a4064c0727768 1355985776
+dir /usr/bin
+sym /usr/bin/autoheader -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/autoupdate -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/autoconf -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/autoreconf -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/ifnames -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/autom4te -> ../lib/misc/ac-wrapper.sh 1355985782
+sym /usr/bin/autoscan -> ../lib/misc/ac-wrapper.sh 1355985782

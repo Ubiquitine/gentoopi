@@ -1,0 +1,1 @@
+bindist +cxx doc examples guile lzo +nettle nls pkcs11 static-libs test zlib

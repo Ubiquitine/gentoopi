@@ -1,0 +1,27 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+obj /usr/include/X11/Xauth.h 7bfb52897cd851783c9bedfa5d221b39 1356357602
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xau.pc 5d428f65b10b333291bfba19bd4c192c 1356357602
+obj /usr/lib/libXau.so.6.0.0 56aeb314677ccab2906eda4d2477e08a 1356357628
+sym /usr/lib/libXau.so -> libXau.so.6.0.0 1356357656
+sym /usr/lib/libXau.so.6 -> libXau.so.6.0.0 1356357656
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XauDisposeAuth.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauWriteAuth.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauLockAuth.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauReadAuth.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauGetAuthByAddr.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauGetBestAuthByAddr.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/XauFileName.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+obj /usr/share/man/man3/Xau.3.bz2 78d209fc9e8809d7d2a922f62886ec67 1356357601
+obj /usr/share/man/man3/XauUnlockAuth.3.bz2 bf3e6316d3d2d8be7223905189bb4188 1356357601
+dir /usr/share/doc
+dir /usr/share/doc/libXau-1.0.7
+obj /usr/share/doc/libXau-1.0.7/README.bz2 55f60890ffdbf9db6d8511495dc37fe0 1356357603
+obj /usr/share/doc/libXau-1.0.7/AUTHORS.bz2 3030d3f542920ad23650566fa75181eb 1356357603
+obj /usr/share/doc/libXau-1.0.7/ChangeLog.bz2 959753c3281487883a1c8f519c5250e9 1356357604

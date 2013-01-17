@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/fonts
+obj /usr/include/X11/fonts/FSproto.h 0bc3d09c523e7c259901b4e39f1aa167 1356432227
+obj /usr/include/X11/fonts/FS.h 695e3417c52cfe57411adf5b2b4d4d98 1356432227
+obj /usr/include/X11/fonts/fsmasks.h 4bfc20aced0cbacb54e9d5fba7414335 1356432227
+obj /usr/include/X11/fonts/fontproto.h 39144f7bdd24da490b83858b6026a8df 1356432227
+obj /usr/include/X11/fonts/font.h a220b6078193b77b74bcdb54d94c1af2 1356432227
+obj /usr/include/X11/fonts/fontstruct.h a8d30200da14b7ebe30c9b0840920157 1356432227
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/fontsproto.pc 3a0e3d5c2bf8c679c2b3415539de39ba 1356432227
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/fontsproto-2.1.2
+obj /usr/share/doc/fontsproto-2.1.2/README.bz2 8a70dfd28b9c6c33962e1ac61ff7d0d3 1356432228
+obj /usr/share/doc/fontsproto-2.1.2/ChangeLog.bz2 1c51fa27827c8b1afcd39f94dbaf325a 1356432228

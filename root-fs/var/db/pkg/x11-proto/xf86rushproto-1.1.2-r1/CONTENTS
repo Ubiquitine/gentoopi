@@ -1,0 +1,13 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xf86rushstr.h 047eb0f7be522c8a8be43f76af5fd72b 1356437169
+obj /usr/include/X11/extensions/xf86rush.h 2960a129d92323ff9e57a24a176f77e2 1356437169
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xf86rushproto.pc 48428e1c649b2d88845959393ec207cf 1356437169
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xf86rushproto-1.1.2-r1
+obj /usr/share/doc/xf86rushproto-1.1.2-r1/ChangeLog.bz2 a18f8d81c1799430e62d2a9f8bb3a564 1356437170

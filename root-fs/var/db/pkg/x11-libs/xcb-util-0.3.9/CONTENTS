@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xcb
+obj /usr/include/xcb/xcb_atom.h 03582c79970264f63fc3df5f1e011ae3 1356715349
+obj /usr/include/xcb/xcb_util.h da094aca0221374266bfa7857779a95c 1356715349
+obj /usr/include/xcb/xcb_aux.h 67e57082bef27dce6b7479e126f04ebb 1356715349
+obj /usr/include/xcb/xcb_event.h b77b64ebca413909e79c2dc7e4e3ac98 1356715349
+dir /usr/lib
+obj /usr/lib/libxcb-util.so.1.0.0 a14c27b0833ae89dc4340588da328a0d 1356715374
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcb-atom.pc 9b6eb0e05f6544953223f9ff131b8e79 1356715350
+obj /usr/lib/pkgconfig/xcb-event.pc 1d6d31f83a575111ece31eb9abfcd1ca 1356715350
+obj /usr/lib/pkgconfig/xcb-aux.pc 7931e20873e509d727e8d03ce778052e 1356715350
+obj /usr/lib/pkgconfig/xcb-util.pc fd3e632e9c8eacd4e743b234b92cde16 1356715350
+sym /usr/lib/libxcb-util.so -> libxcb-util.so.1.0.0 1356715401
+sym /usr/lib/libxcb-util.so.1 -> libxcb-util.so.1.0.0 1356715401
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-util-0.3.9
+obj /usr/share/doc/xcb-util-0.3.9/README.bz2 1017f6295ee7571616d547aab3fc87b3 1356715350
+obj /usr/share/doc/xcb-util-0.3.9/ChangeLog.bz2 0fff0743f7ce303ec7f2ac4e04efbff5 1356715351
+obj /usr/share/doc/xcb-util-0.3.9/NEWS.bz2 8f966455a4db07b2743af611a8a70f91 1356715351

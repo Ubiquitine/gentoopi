@@ -1,0 +1,140 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Manpage of dbus\-uuidgen</TITLE>
+</HEAD><BODY>
+<H1>dbus\-uuidgen</H1>
+Section: User Commands  (1)<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+dbus-uuidgen - Utility to generate UUIDs
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<P>
+
+<B>dbus-uuidgen [--version] [--ensure[=FILENAME]] [--get[=FILENAME]]</B>
+
+<P>
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<P>
+The <I>dbus-uuidgen</I> command generates or reads a universally unique ID.
+<P>
+<P>
+
+Note that the D-Bus UUID has no relationship to RFC 4122 and does not generate
+UUIDs compatible with that spec. Many systems have a separate command
+for that (often called &quot;uuidgen&quot;).
+<P>
+<P>
+
+See <A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A> for more information
+about D-Bus.
+<P>
+<P>
+
+The primary usage of <I>dbus-uuidgen</I> is to run in the post-install
+script of a D-Bus package like this:
+<PRE>
+  dbus-uuidgen --ensure
+</PRE>
+
+<P>
+<P>
+
+This will ensure that /var/lib/dbus/machine-id exists and has the uuid in it.
+It won't overwrite an existing uuid, since this id should remain fixed
+for a single machine until the next reboot at least.
+<P>
+<P>
+
+The important properties of the machine UUID are that 1) it remains
+unchanged until the next reboot and 2) it is different for any two 
+running instances of the OS kernel. That is, if two processes see the 
+same UUID, they should also see the same shared memory, UNIX domain
+sockets, local X displays, localhost.localdomain resolution, process
+IDs, and so forth.
+<P>
+<P>
+
+If you run <I>dbus-uuidgen</I> with no options it just prints a new uuid made
+up out of thin air.
+<P>
+<P>
+
+If you run it with --get, it prints the machine UUID by default, or
+the UUID in the specified file if you specify a file.
+<P>
+<P>
+
+If you try to change an existing machine-id on a running system, it will
+probably result in bad things happening. Don't try to change this file. Also,
+don't make it the same on two different systems; it needs to be different
+anytime there are two different kernels running.
+<P>
+<P>
+
+The UUID should be different on two different virtual machines,
+because there are two different kernels.
+<P>
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+The following options are supported:
+<DL COMPACT>
+<DT><I>--get[=FILENAME]</I>
+
+<DD>
+If a filename is not given, defaults to localstatedir/lib/dbus/machine-id
+(localstatedir is usually /var). If this file exists and is valid, the
+uuid in the file is printed on stdout. Otherwise, the command exits 
+with a nonzero status.
+<P>
+<DT><I>--ensure[=FILENAME]</I>
+
+<DD>
+If a filename is not given, defaults to localstatedir/lib/dbus/machine-id
+(localstatedir is usually /var). If this file exists then it will be
+validated, and a failure code returned if it contains the wrong thing.
+If the file does not exist, it will be created with a new uuid in it.
+On success, prints no output.
+<P>
+<DT><I>--version</I>
+
+<DD>
+Print the version of dbus-uuidgen
+<P>
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+See <A HREF="http://www.freedesktop.org/software/dbus/doc/AUTHORS">http://www.freedesktop.org/software/dbus/doc/AUTHORS</A>
+<P>
+<A NAME="lbAG">&nbsp;</A>
+<H2>BUGS</H2>
+
+Please send bug reports to the D-Bus mailing list or bug tracker,
+see <A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">AUTHOR</A><DD>
+<DT><A HREF="#lbAG">BUGS</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 12:47:25 GMT, December 26, 2012
+</BODY>
+</HTML>

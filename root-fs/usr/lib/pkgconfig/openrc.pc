@@ -1,0 +1,10 @@
+prefix=
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=/usr/include
+
+Name: OpenRC
+Description: Universal init system
+Version: 0.11.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -lrc

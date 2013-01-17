@@ -1,0 +1,32 @@
+dir /etc
+obj /etc/nsswitch.ldap 69548ee0895885bfb5c9f4f5febac6dd 1357741675
+obj /etc/ldap.conf b100fc310ee3871e8dd64cd0d5534927 1357741675
+dir /lib
+obj /lib/nss_ldap.so.1 d1455e5f0b8be1ac48146fd78181455d 1357741704
+sym /lib/nss_ldap.so -> nss_ldap.so.1 1357741733
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/nss_ldap-265-r1
+dir /usr/share/doc/nss_ldap-265-r1/docs
+obj /usr/share/doc/nss_ldap-265-r1/docs/SolarisInstallNotes.txt.bz2 ce16551e227e0cdec29d3a80b401b908 1357741679
+obj /usr/share/doc/nss_ldap-265-r1/docs/README.SFU.bz2 95bb5157bbd5a0ec4f04d8ff50953e04 1357741678
+obj /usr/share/doc/nss_ldap-265-r1/docs/lookup_nssldap.c.bz2 87f9c7640d1129220840531ed69ca02a 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/docs/README.paged.bz2 e042e82c9aa48809d7da1b69b73880b3 1357741678
+obj /usr/share/doc/nss_ldap-265-r1/docs/README.AIX.bz2 c0b62dd20e39f9530cdd67dfee30f570 1357741678
+obj /usr/share/doc/nss_ldap-265-r1/docs/autofs-4.1.3-lookup-nssldap.patch.bz2 c2fbcde91ceac2fef3bc63465e041af1 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/docs/README.HPUX.bz2 04f648897f3155054ff378fdacc001ac 1357741678
+obj /usr/share/doc/nss_ldap-265-r1/docs/README.IRS.bz2 d752da81617af8267d5edaf96c23b765 1357741678
+obj /usr/share/doc/nss_ldap-265-r1/certutil.bz2 e78943b927ec0fe23d289f4ad69afcc5 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/COPYING.bz2 0f733a9500bb0e37882d54b72c15d8a4 1357741676
+obj /usr/share/doc/nss_ldap-265-r1/ldap.conf.bz2 879e8be52a169e1bc8d9a0bceef1d9a0 1357741676
+obj /usr/share/doc/nss_ldap-265-r1/AUTHORS.bz2 048bfc406867803e331c80624d9f08e1 1357741676
+obj /usr/share/doc/nss_ldap-265-r1/NEWS.bz2 08775125cf497a28840fc8fdb0dd54c8 1357741676
+obj /usr/share/doc/nss_ldap-265-r1/nsswitch.ldap.bz2 134084dee9c878585a2b9e22ac410e42 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/README.bz2 b610032387b4deb63d3bc5e16d130520 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/CVSVersionInfo.txt.bz2 316676a95bd6967e4de046127a5b08f9 1357741677
+obj /usr/share/doc/nss_ldap-265-r1/ANNOUNCE.bz2 ca9103200bbcb2d9b57fdead977b7009 1357741676
+obj /usr/share/doc/nss_ldap-265-r1/ChangeLog.bz2 2eff334c2e1b6ee0775951afe586df1e 1357741676
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/nss_ldap.5.bz2 1cd7939e22504c05c5a956a0c478cc6d 1357741675

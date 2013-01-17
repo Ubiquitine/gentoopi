@@ -1,0 +1,121 @@
+dir /usr
+dir /usr/include
+dir /usr/include/libsoup-2.4
+dir /usr/include/libsoup-2.4/libsoup
+obj /usr/include/libsoup-2.4/libsoup/soup-xmlrpc.h 5e4e6942eea0ab0227efd9d9ca93539a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-proxy-uri-resolver.h 06c338758904652e9504b0d7028efe55 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-request.h aff0cac66a926faa9930c29806dd5b6a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-misc.h 810b69bad4c457bf7da69de722992733 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-password-manager.h 6c2d40fff9284b4098a5de17ade9d0c3 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-auth-domain-basic.h 84e7c9daafd54fc3ac1aee0852a89562 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-cookie-jar.h 28e01c825f4c5c7ee20b3d711636eefa 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-requester.h e9039021a8fddeca7ef7624e71aa3ff7 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-content-decoder.h 04f747753203737aeb3be1108e890564 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-form.h 1a56e56ee944daf5134b14426244f037 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-logger.h 1557e255cfd51e9984fab08f260ecf16 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-method.h 6f6d8696d70ffe8237ba5b51630d664d 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-value-utils.h 9dae5666917bafa545dbc7dd23ad60df 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-enum-types.h 3a0eeafcdc27a69fe8c73291b91cb1cf 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-cookie.h b3aac510b9dc04b39676c16444fc317a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-message-body.h d3158e6656ed2f088e0837d30379edea 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-cache.h 5af17763101c4b01e50d51ee55cd1c43 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-server.h 892d33423068610f030f6a5e3b1974bc 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-proxy-resolver-default.h a491074dd7ea6ba46ffc8c440733b502 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-address.h aba17c3844546cd744fe79df1b435ed0 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-proxy-resolver.h 9c6acb2eb53cb37cf01b30bb84e62864 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-auth-domain.h fb02ad6d85d9c5337a6da7ee816c63c7 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-session-async.h 59a400cb6ec43afb51d5aeb856449b9a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-date.h ffbbc11c8022541e59fa889dfc0a97ce 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-cookie-jar-text.h 56bea5cffe4fbc57fc0a9fd3a5037457 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-session.h 39ea3ddeb6fec524b8f58b4a3a3ada66 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup.h 651f3e86675cf0057d2f814f715a16df 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-request-http.h 6b5822c52b208e6e9a6761f001e3ee42 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-message-headers.h 330286421fc75a9b4db8d1b468fee841 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-socket.h dc6b122b1caf873f95c2f85668b4d963 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-content-sniffer.h f9356caa28ced781a6419169647d26a8 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-auth-domain-digest.h 01bcdfb353c28e47c62bb7b10999cdf1 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-request-data.h 799d83a6b2705c03d0a7c4cee663f687 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-portability.h 7883696106bfadc558a7482f3b2af5dd 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-types.h be822721efc1fa98ee8263971ade01f6 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-multipart.h 02aab640f0beb6b462e19da5caa7cb65 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-session-feature.h 798e6174cfc42050dbc18006521e5806 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-headers.h 2d586863381a8878e269a7bb0add016a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-message.h af77829e54d58274271ff26ff7ea331a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-status.h 715ad93bbf27d587fc1f7d001291134a 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-session-sync.h 8ce5d6601942ab6c569aaa45335ccbf9 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-uri.h d2f7307b9ae2947b1ef2a5203bfc254e 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-request-file.h c0c6fbb213ed1c73286c6c2cbdc37846 1357555996
+obj /usr/include/libsoup-2.4/libsoup/soup-auth.h 08b0514225a53252918fa7ae46814f44 1357555996
+dir /usr/share
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/libsoup-2.4
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupSocket.html a5d8f53bdbe961b0c880fb0ffc522775 1357556006
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch07.html 5aa60f3b7860f534ecfd44e74c23542e 1357556006
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupContentDecoder.html ee976307152a3615e081d7712349e9a6 1357556006
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-Soup-Miscellaneous-Utilities.html d6875a4cda5cc7280bdb261d8a89da57 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupURI.html 0ffdd0ded2ec614d33e9a91208db11b3 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupSession.html e5a569b881dca6e57fc08822b477a421 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch06.html dc5ef616f90022723afc9a525b828531 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupRequestFile.html f69ae0b9106fe9452b7bb402fa2f26e3 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-client-howto.html 61812bdd81d0d0711929d6172a496378 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-soup-gnome-features.html 1f4d0d0834674091b6be6c141011ed27 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupMultipart.html 6d36eca3273e74b3d978c6e77e14d6db 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupRequestData.html b831583953ae234918ff4066358ff19d 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupSessionSync.html d6560a442457c6fa26ebca1fa2f4cd70 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/up.png 2f07d9272deb4ae870ca6821117877fa 1357556003
+obj /usr/share/gtk-doc/html/libsoup-2.4/right.png ebd7e6d206d73850d77d305ab548f957 1357556001
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupProxyResolverDefault.html f9bff9163216ca53357ba92a37f3895e 1357556007
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupCookie.html b491152714fa0781f3b8dd72409e33e3 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-HTML-Form-Support.html 036872693442fc86fb64129311d0e8a5 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupAuthDomainBasic.html 4c03129690fa2e277e3aeadfeb5a4db4 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupMessageBody.html f80b277935a2d4442cf8b250280c3b49 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupCookieJarText.html 7f85f8ee3ab8b28134342d09ed9dac24 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupContentSniffer.html a63f0b22a6581c7065f32b94a1cf274f 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupCookieJar.html f201b0f26369a1ba0288e72dc2a1c0ef 1357556008
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupMessage.html 7b1aa7b1845d51996d3cb8c30bfeb76c 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupAuthDomainDigest.html 62a5153a8cdd1a46bd1237c41e07a344 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4.devhelp2 554fa945e37313900cc4be18410c435e 1357556000
+obj /usr/share/gtk-doc/html/libsoup-2.4/index.html 6280168e4a1eef1dac2a82f5599b4ca6 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupAddress.html 2022bf0486d78b761a08c02038291557 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/style.css b9b769c722d264951331b0c6cdbf0bc0 1357556003
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupLogger.html 0ef975484b44e6716b645eb561c51a3e 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/annotation-glossary.html 84aa0145bd709cb701ab821eb2fac430 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch03.html 826d0f5e57f62b2b06c1632ce65fa66f 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupMessageHeaders.html 289ce7d332302bd73f7b0b39f0b5bb24 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-soup-status.html 424a5f10266575347f6150ee84def0be 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch05.html 08b2653eb9b69eb0347d2508c3308606 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupRequester.html 0f80b04fcefcaffa302e874fe4725880 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupProxyURIResolver.html ce94568caa6a57991af591bad2f81720 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-soup-method.html ad68ea7ecdaa25dc584703a50eec7c70 1357556009
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupSessionAsync.html fe14eca524ea02fb21184e57d267c637 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/left.png f771308152ab24a69682daed70ce136d 1357556000
+obj /usr/share/gtk-doc/html/libsoup-2.4/index.sgml 9dd7267614551ecd4d431c415d0c6f44 1357556000
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupRequestHTTP.html b15ddf46124377af317a00d2eaef9008 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/ix01.html 9c71f7095f7607c372d4f00e60c63405 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch04.html ca6f6d58b32bce83b88eaec815442746 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupAuthDomain.html 10929f67fb57ca6e3b48035987d94537 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-server-howto.html a28c0ce1987ac0f0a7fd5fa0a397a960 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupCookieJarSqlite.html 03072a359cfc3bf61fbadf62f0f0bc4d 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-build-howto.html 4b8cf903a1f96c51406858ee82ae2cc3 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupAuth.html 215f9486e4bb88b075d751df02847d4c 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch01.html 16ea82eb4125468cb0a407f8e2baabe8 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupSessionFeature.html d2d746fe0b7531f6021aedb61492c226 1357556010
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-XMLRPC-Support.html d0f21a522545b764920d5f00cdf9239d 1357556011
+obj /usr/share/gtk-doc/html/libsoup-2.4/libsoup-2.4-GValue-Support.html 5073d56a9cb30c9873aa69c814406c03 1357556011
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupRequest.html 3f0166ea7a8e3b74197baf5b2d838a94 1357556011
+obj /usr/share/gtk-doc/html/libsoup-2.4/home.png f6192f4292d744423df690e785d60fdf 1357555999
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupServer.html 8d11aff0b4c0180a416e900853eba0d8 1357556011
+obj /usr/share/gtk-doc/html/libsoup-2.4/SoupCache.html 51fa73b771b0d0d113683a1382e3edf0 1357556011
+obj /usr/share/gtk-doc/html/libsoup-2.4/ch02.html 6e93b6c2b02d755320cb15081cc8c955 1357556011
+dir /usr/share/doc
+dir /usr/share/doc/libsoup-2.38.1
+obj /usr/share/doc/libsoup-2.38.1/README.bz2 837ebc642b0254a330c51ab5faa71bf6 1357556014
+obj /usr/share/doc/libsoup-2.38.1/NEWS.bz2 527be4627231ffb4417c86ca52f59c69 1357556013
+obj /usr/share/doc/libsoup-2.38.1/AUTHORS.bz2 f95369f012d50057f4700015406c1dc2 1357556013
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libsoup-2.4.pc 05c7bae8d6cc2ba01c593c6bce4580c3 1357556012
+obj /usr/lib/libsoup-2.4.so.1.5.0 76e1c4ad86db5f0e28023f5e3f569b1e 1357556074
+sym /usr/lib/libsoup-2.4.so.1 -> libsoup-2.4.so.1.5.0 1357556151
+sym /usr/lib/libsoup-2.4.so -> libsoup-2.4.so.1.5.0 1357556151

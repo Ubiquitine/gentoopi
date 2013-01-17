@@ -1,0 +1,202 @@
+dir /etc
+dir /etc/pam.d
+obj /etc/pam.d/samba a8c9fa5bbf2393084ed9e7add6340f9c 1356816242
+dir /etc/samba
+obj /etc/samba/smb.conf.default c4434557e0c920cfb90f78a51e6d1b58 1356816261
+obj /etc/samba/lmhosts 2fb05430c9c7d0a0173b6f2f97476ac7 1356816259
+obj /etc/samba/smbusers 3ba4e4a1fc6411e9f263fc4d453d45ac 1356816259
+dir /etc/conf.d
+obj /etc/conf.d/samba dc5547137082ff3b12079785e9e3a02f 1356816258
+dir /etc/init.d
+obj /etc/init.d/samba c500669acd254797a14121a81ba0f814 1356816259
+dir /lib
+dir /lib/security
+obj /lib/security/pam_smbpass.so 418be6817f84835f7ed16e5ae3b37249 1356816299
+dir /var
+dir /var/lib
+dir /var/lib/samba
+dir /var/lib/samba/netlogon
+obj /var/lib/samba/netlogon/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers
+dir /var/lib/samba/printers/X64
+obj /var/lib/samba/printers/X64/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/IA64
+obj /var/lib/samba/printers/IA64/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/COLOR
+obj /var/lib/samba/printers/COLOR/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/WIN40
+obj /var/lib/samba/printers/WIN40/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/W32PPC
+obj /var/lib/samba/printers/W32PPC/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/W32X86
+obj /var/lib/samba/printers/W32X86/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/W32MIPS
+obj /var/lib/samba/printers/W32MIPS/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/printers/W32ALPHA
+obj /var/lib/samba/printers/W32ALPHA/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/profiles
+obj /var/lib/samba/profiles/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/lib/samba/private
+obj /var/lib/samba/private/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/log
+dir /var/log/samba
+obj /var/log/samba/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/run
+dir /var/run/samba
+dir /var/cache
+dir /var/cache/samba
+obj /var/cache/samba/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /var/spool
+dir /var/spool/samba
+obj /var/spool/samba/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816257
+dir /usr
+dir /usr/bin
+obj /usr/bin/net 2fe70864f037697c772bac97c98d9188 1356816300
+obj /usr/bin/eventlogadm f95698a9259d90e54539cb08d8997cd2 1356816300
+obj /usr/bin/smbtree 6de064654e05063e1ea4d63176e12725 1356816304
+obj /usr/bin/ntlm_auth ceab0d6ea94919574f8425823ba02150 1356816304
+obj /usr/bin/testparm 9097b1e42abd4589f2d00e659065d862 1356816304
+obj /usr/bin/smbclient 4fc562259d8e50277305d18bca8687d1 1356816308
+obj /usr/bin/smbpasswd 72f17f384876cadf1e82b509cb523e66 1356816308
+obj /usr/bin/nmblookup 8a471c2f44d35186d31ddea251363b7c 1356816317
+obj /usr/bin/smbstatus a0452ed2b4466ea8e0b59ef54759e027 1356816318
+obj /usr/bin/smbget ff77448b0adae29606e702df2b278606 1356816318
+obj /usr/bin/smbcacls da413e73c17ead83e5df92e3309d5e95 1356816320
+obj /usr/bin/pdbedit 2517e9453cff1ebdbdf7ca8030a395bd 1356816319
+obj /usr/bin/profiles a4827f813ba3e3d2165ccf677170a15f 1356816320
+obj /usr/bin/smbcontrol d369aefb390c8625d6a313352f3c9181 1356816321
+obj /usr/bin/smbcquotas 0be44d5b50b847de4476e65cec2afa77 1356816322
+obj /usr/bin/rpcclient 6d5f1aae31514c8752ddecfef0ee3f3e 1356816330
+obj /usr/bin/sharesec abdf041ece94fa2b4303d133798a0ccf 1356816332
+dir /usr/lib
+dir /usr/lib/samba
+dir /usr/lib/samba/pdb
+obj /usr/lib/samba/pdb/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+dir /usr/lib/samba/rpc
+obj /usr/lib/samba/rpc/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+dir /usr/lib/samba/vfs
+obj /usr/lib/samba/vfs/acl_tdb.so d14332939a4fab35d8379f27d78e6fea 1356816332
+obj /usr/lib/samba/vfs/audit.so 985bb3407025911c50c40bdbb8769240 1356816333
+obj /usr/lib/samba/vfs/fileid.so 38f13df502da72fd7738b82aefac1b7d 1356816333
+obj /usr/lib/samba/vfs/expand_msdfs.so e8f69ab8c5a57aa6b75192780ed06247 1356816333
+obj /usr/lib/samba/vfs/smb_traffic_analyzer.so ee95ca6e81a738b24675c29f16ba62c2 1356816333
+obj /usr/lib/samba/vfs/default_quota.so a116162cd207a253e8fe18d78f3bedfd 1356816333
+obj /usr/lib/samba/vfs/shadow_copy2.so a350372de67e8d5196ba76be20530b1b 1356816333
+obj /usr/lib/samba/vfs/netatalk.so a326f48baa6f3a068ea1f9cec001009c 1356816334
+obj /usr/lib/samba/vfs/shadow_copy.so b2c1a92b43849139dff74c2d4a0e0259 1356816334
+obj /usr/lib/samba/vfs/streams_depot.so b255a2590e784190e534178736e2e571 1356816334
+obj /usr/lib/samba/vfs/cap.so 406775654e6f65a22ca8cdbaba9f2afa 1356816334
+obj /usr/lib/samba/vfs/readonly.so c8297c53f56c36a4df2bdd3d86f94f69 1356816334
+obj /usr/lib/samba/vfs/catia.so d4d8d9dcb3c4ad7649447ad414dbdc27 1356816334
+obj /usr/lib/samba/vfs/fake_perms.so 3b2fc5eb2eac52bc0fc4c0f61eb02abb 1356816334
+obj /usr/lib/samba/vfs/preopen.so 0a192ea37b6442b73e787c4975af729f 1356816335
+obj /usr/lib/samba/vfs/aio_fork.so f7e2d8d86190f60f18c8aa46ee4b69e6 1356816335
+obj /usr/lib/samba/vfs/extd_audit.so b7d7fdf5b24a35aced693a77e2a383a0 1356816335
+obj /usr/lib/samba/vfs/recycle.so 3943bda9cda889f64d94ae43a16e6b3e 1356816335
+obj /usr/lib/samba/vfs/xattr_tdb.so 90dfef4f397136d1c80e0b8ec3b79c6b 1356816335
+obj /usr/lib/samba/vfs/dirsort.so 3d5b76205fbc38b18cdb84b961e54f4e 1356816335
+obj /usr/lib/samba/vfs/scannedonly.so c43409db4e62e66c228aa898e499facb 1356816336
+obj /usr/lib/samba/vfs/full_audit.so 3b8cd1f8ab6efa498ba9245de5715066 1356816336
+obj /usr/lib/samba/vfs/acl_xattr.so 9472da32ac4ed78b972906c8dd1ff048 1356816336
+obj /usr/lib/samba/vfs/readahead.so 6b4b377c0af4385feeb9690b37bd697c 1356816336
+obj /usr/lib/samba/vfs/streams_xattr.so 5287ffc952387d3d047ddb7235c0eb20 1356816336
+obj /usr/lib/samba/vfs/syncops.so 253dc1dd7502cff1199e12b1a2300ad9 1356816336
+dir /usr/lib/samba/auth
+obj /usr/lib/samba/auth/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+obj /usr/lib/samba/auth/script.so fe9df4a997299125669c78d8d71b0624 1356816337
+dir /usr/lib/samba/gpext
+obj /usr/lib/samba/gpext/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+dir /usr/lib/samba/idmap
+obj /usr/lib/samba/idmap/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+dir /usr/lib/samba/perfcount
+obj /usr/lib/samba/upcase.dat 6fa3db2468275286210751e869d36373 1356816262
+obj /usr/lib/samba/valid.dat 2305521cdd7be88855750f12993b6cc6 1356816262
+dir /usr/lib/samba/nss_info
+obj /usr/lib/samba/nss_info/.keep_net-fs_samba-0 d41d8cd98f00b204e9800998ecf8427e 1356816258
+obj /usr/lib/samba/lowcase.dat fc32156c98f11df17b0b1f4f0389adb9 1356816262
+dir /usr/lib/samba/charset
+obj /usr/lib/samba/charset/CP437.so 63c4a41e1bc49a94aae9aa2f59495360 1356816337
+obj /usr/lib/samba/charset/CP850.so 21bc25555aa2efa74c083fb27554f4ba 1356816337
+obj /usr/lib/libsmbclient.so.0 63a9aaf75e0e4ca51fb8dc6f4985a131 1356816338
+sym /usr/lib/libsmbclient.so -> libsmbclient.so.0 1356816387
+obj /usr/lib/libnetapi.so.0 44b2216922bfac748b792439d9d684e5 1356816339
+dir /usr/sbin
+obj /usr/sbin/nmbd 567e945d9f09a25dbc5fb3dd242d147b 1356816339
+obj /usr/sbin/smbd e809b19b322baa750043155da77af340 1356816340
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/samba-3.5.15
+obj /usr/share/doc/samba-3.5.15/WHATSNEW.txt.bz2 8aadc093669cb48594f764a80ab46049 1356816260
+obj /usr/share/doc/samba-3.5.15/Roadmap.bz2 65a9ddc7c9ce3bc33233836cbef3e8fe 1356816260
+obj /usr/share/doc/samba-3.5.15/THANKS.bz2 1c607789b1ee51ca7590a16df7098ca4 1356816260
+obj /usr/share/doc/samba-3.5.15/README.contributing.bz2 bfbdc9897b169a2a402108d5008cade1 1356816260
+obj /usr/share/doc/samba-3.5.15/README.bz2 4850ea926a8a7db1381378d7c2c12d58 1356816259
+obj /usr/share/doc/samba-3.5.15/README.Coding.bz2 72c1fba4b452ea633bfddd7ce4b105ce 1356816260
+obj /usr/share/doc/samba-3.5.15/MAINTAINERS.bz2 851bec00795c5184268d29c046d6f92d 1356816259
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/smbstatus.1.bz2 8f0d8d58d77b251119c87a9d1e8d5e26 1356816247
+obj /usr/share/man/man1/vfstest.1.bz2 d52339c0cc438ea37e3c9e37fddeea5e 1356816257
+obj /usr/share/man/man1/smbget.1.bz2 07dcacd15a814861f3a35c1c1806e039 1356816251
+obj /usr/share/man/man1/smbclient.1.bz2 eea41b8b170fa7c6c5466bef13f04afc 1356816249
+obj /usr/share/man/man1/testparm.1.bz2 dfb664f672e9a9cd62253356b95af187 1356816246
+obj /usr/share/man/man1/smbcacls.1.bz2 1a3b345c86dbaede20cc11ea6310b1cb 1356816254
+obj /usr/share/man/man1/rpcclient.1.bz2 1a59379c0c381b812168690edf88874e 1356816253
+obj /usr/share/man/man1/nmblookup.1.bz2 73608046ff43a4f74b60e7f6c4a0e662 1356816252
+obj /usr/share/man/man1/smbtree.1.bz2 edeeecb2779e72c984097fa232fbc530 1356816252
+obj /usr/share/man/man1/smbcontrol.1.bz2 393ebfaca13b24e448449cce59eedc33 1356816247
+obj /usr/share/man/man1/sharesec.1.bz2 8390865000313353da804884a4205775 1356816248
+obj /usr/share/man/man1/smbcquotas.1.bz2 90a6afc6b0c1bc34949493197a2e25ea 1356816255
+obj /usr/share/man/man1/profiles.1.bz2 6bc42e45511eed8b72e9d79f297a6132 1356816248
+obj /usr/share/man/man1/ntlm_auth.1.bz2 eaba35f09e94eb076d009989f107d262 1356816255
+dir /usr/share/man/man5
+obj /usr/share/man/man5/smbgetrc.5.bz2 ba054093e28f5ae69e6b14789431ff32 1356816251
+obj /usr/share/man/man5/smb.conf.5.bz2 ec5b291a6310cfa1d4a29c74dc67ffd3 1356816262
+obj /usr/share/man/man5/smbpasswd.5.bz2 75f58591d7bd7ce96973777afdae05ca 1356816253
+dir /usr/share/man/man7
+obj /usr/share/man/man7/samba.7.bz2 bf7e9c2c426a034613d86080d8d0b46e 1356816257
+dir /usr/share/man/man8
+obj /usr/share/man/man8/umount.cifs.8.bz2 dc7a050ddcc687f83d5ad2b3f372712f 1356816261
+obj /usr/share/man/man8/smbd.8.bz2 d8ffa48c280e4268a4471e72088246ea 1356816246
+obj /usr/share/man/man8/vfs_readonly.8.bz2 eef3fea3dcd09dbd18e8c3b012895508 1356816256
+obj /usr/share/man/man8/vfs_cap.8.bz2 32a29d90da32a2a896897f6b978dc260 1356816256
+obj /usr/share/man/man8/mount.cifs.8.bz2 3af34f0349f1aea855788d051d6665d5 1356816261
+obj /usr/share/man/man8/vfs_audit.8.bz2 ecde5eb7865936311ca96a532c79e026 1356816255
+obj /usr/share/man/man8/vfs_scannedonly.8.bz2 3e1cdaafecaa79fff0ea47f100fff334 1356816256
+obj /usr/share/man/man8/vfs_fileid.8.bz2 0ab088724be7ff66093dabb39fd2c570 1356816256
+obj /usr/share/man/man8/vfs_cacheprime.8.bz2 839cd006d5cea15cb842442b2c2f19fa 1356816256
+obj /usr/share/man/man8/vfs_extd_audit.8.bz2 837c2b3671e6dd9eaec30e66332c5b9c 1356816256
+obj /usr/share/man/man8/vfs_commit.8.bz2 53f4aaa5053553534889e470ad73884f 1356816256
+obj /usr/share/man/man8/vfs_preopen.8.bz2 faa3d6ddd4528a707041359f4a28aea6 1356816256
+obj /usr/share/man/man8/vfs_default_quota.8.bz2 70e00ca9392f58dfd8974c1b5de17ac3 1356816256
+obj /usr/share/man/man8/vfs_acl_xattr.8.bz2 530436f0d6677c762a3bd5e2c016917f 1356816255
+obj /usr/share/man/man8/vfs_shadow_copy2.8.bz2 603a0f208f1a38556d92929c7d4857ef 1356816256
+obj /usr/share/man/man8/pdbedit.8.bz2 64f7d7bb38b73b6aaf13661d137e1f4d 1356816247
+obj /usr/share/man/man8/eventlogadm.8.bz2 0aec7124a66cbc633ee66c1b82d0e38d 1356816248
+obj /usr/share/man/man8/vfs_recycle.8.bz2 99c6b014574ff03c31051137714dbb40 1356816256
+obj /usr/share/man/man8/vfs_readahead.8.bz2 28dd8f3a2a3af23381cedde60d29c54d 1356816256
+obj /usr/share/man/man8/vfs_fake_perms.8.bz2 08eededdc70c1136e34e225fe7c16406 1356816256
+obj /usr/share/man/man8/net.8.bz2 7456de62d28a26966b1ef8604a1f8330 1356816250
+obj /usr/share/man/man8/vfs_xattr_tdb.8.bz2 c26eade6291c37770ceecd6354d1579c 1356816257
+obj /usr/share/man/man8/vfs_netatalk.8.bz2 cfb3e84d1acd77deb88e404fb2c7a93a 1356816256
+obj /usr/share/man/man8/vfs_streams_xattr.8.bz2 d08a6fc52f56b011e6855927a3d48f2e 1356816257
+obj /usr/share/man/man8/vfs_notify_fam.8.bz2 c3f284166e3f63f3d463d80263e1fdda 1356816256
+obj /usr/share/man/man8/vfs_prealloc.8.bz2 26cb2d13a97777acd141303014c5d705 1356816256
+obj /usr/share/man/man8/vfs_aio_fork.8.bz2 3171ca47e35300792c9482d72965fbe5 1356816255
+obj /usr/share/man/man8/vfs_dirsort.8.bz2 b1db7248e66ce4e993fc63a7f7542cb1 1356816256
+obj /usr/share/man/man8/vfs_acl_tdb.8.bz2 6b8f39745a61e0357fa3b543a450e4a2 1356816255
+obj /usr/share/man/man8/nmbd.8.bz2 77d1b30301927177e96037da44a9cee1 1356816246
+obj /usr/share/man/man8/vfs_gpfs.8.bz2 0e782841368f51f1fc7b886a26d347d2 1356816256
+obj /usr/share/man/man8/smbpasswd.8.bz2 3aa2c7821399e5f4ec3d44a144232f20 1356816253
+obj /usr/share/man/man8/vfs_shadow_copy.8.bz2 9ab865b2cacf1febd86213dc9fc9f511 1356816256
+obj /usr/share/man/man8/vfs_full_audit.8.bz2 ab75a3e8c5fbf0e751e19b9a75d989ef 1356816256
+obj /usr/share/man/man8/vfs_streams_depot.8.bz2 368f906b2bdd303cb2f2b1d8b4ec2d09 1356816257
+obj /usr/share/man/man8/vfs_smb_traffic_analyzer.8.bz2 61bdf9d338294e1e86fdcbea07717335 1356816257
+obj /usr/share/man/man8/vfs_catia.8.bz2 ba94cd5f61dbfdb526139f22996ad223 1356816256
+dir /usr/include
+obj /usr/include/netapi.h ef11ab10c0bc679fe92f7422967c1ece 1356816232
+obj /usr/include/libsmbclient.h 2c0029fdabda8ba61b5bf839f06a567c 1356816234
+dir /sbin
+obj /sbin/mount.cifs 692723de46a0f745b11ffe03088c729a 1356816340
+obj /sbin/umount.cifs 1b68b1c7a2c76b81fa8463209fdc15e2 1356816340
+sym /usr/lib/libnetapi.so -> libnetapi.so.0 1356816388

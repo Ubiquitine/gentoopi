@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/XIproto.h c864a525ba73ffa99df37fb746246a30 1356355463
+obj /usr/include/X11/extensions/XI2proto.h 54af8c4ada6e82c3b3ef72000a52922c 1356355463
+obj /usr/include/X11/extensions/XI2.h ac5c2a4201db45c6ea76da4c5daa92be 1356355463
+obj /usr/include/X11/extensions/XI.h ce5b985fb309dcaca87e278560da60e3 1356355463
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/inputproto.pc 7799329b765ee53f5baca1efdd447e37 1356355463
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/inputproto-2.2
+obj /usr/share/doc/inputproto-2.2/README.bz2 a1a9982275c58506599f269f753bd79e 1356355464
+obj /usr/share/doc/inputproto-2.2/ChangeLog.bz2 05ef4a4d2cae85801d7e33de387247ad 1356355464

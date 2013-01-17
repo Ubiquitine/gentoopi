@@ -1,0 +1,8 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/pthread-stubs.pc 585c9beb9e18828c1165116c28112a36 1356355943
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libpthread-stubs-0.3
+obj /usr/share/doc/libpthread-stubs-0.3/README.bz2 e2a456a598c6c679bf3d5af0fcbe3876 1356355943

@@ -1,0 +1,1 @@
+>=x11-libs/libX11-1.4.3 >x11-libs/libxcb-1.6 >=x11-libs/xcb-util-0.3.8 x11-proto/xproto || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

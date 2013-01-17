@@ -1,0 +1,17 @@
+dir /usr
+dir /usr/sbin
+dir /usr/include
+obj /usr/include/utempter.h b3b409d24e68f2933245cb8abe553d58 1171887248
+dir /usr/lib
+obj /usr/lib/libutempter.so.1.1.5 fcdd24dc7f2ba0450e3366d464555e23 1356515444
+dir /usr/lib/misc
+dir /usr/lib/misc/utempter
+obj /usr/lib/misc/utempter/utempter 7914047d14923c92854f9871bec2948b 1356515444
+obj /usr/lib/libutempter.a 953f2d8d63ce0e8b0f872665e1255947 1356515445
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libutempter-1.1.5
+obj /usr/share/doc/libutempter-1.1.5/README.bz2 0db1d0367e006ab435e9df74856c4904 1356515416
+sym /usr/sbin/utempter -> ../lib/misc/utempter/utempter 1356515469
+sym /usr/lib/libutempter.so.0 -> libutempter.so.1.1.5 1356515469
+sym /usr/lib/libutempter.so -> libutempter.so.0 1356515469

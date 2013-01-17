@@ -1,0 +1,195 @@
+dir /usr
+dir /usr/share
+dir /usr/share/lxshortcut
+obj /usr/share/lxshortcut/lxshortcut.ui c0826cdcb3c321d9f55a31a7edee3ac0 1356710400
+obj /usr/share/lxshortcut/choose-icon.ui 3eed040f8f4047273c5e246d66dc514d 1356710400
+dir /usr/share/doc
+dir /usr/share/doc/lxshortcut-0.1.2
+obj /usr/share/doc/lxshortcut-0.1.2/README.bz2 77c7d4b1ed676b0f374f86d4af52289e 1356710400
+obj /usr/share/doc/lxshortcut-0.1.2/ChangeLog.bz2 20feef6fa83f51a3e09b20d4048fa0ba 1356710400
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxshortcut.mo fe7119a5f52a181bc40d896f886db0fa 1356710383
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxshortcut.mo a22c898fcbb4bff4d4a14443fb76fd59 1356710390
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxshortcut.mo b94faf13f3abdf55b4d99fe8420f287d 1356710386
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxshortcut.mo 6bba189666451efd3106d273da23fa36 1356710397
+dir /usr/share/locale/am
+dir /usr/share/locale/am/LC_MESSAGES
+obj /usr/share/locale/am/LC_MESSAGES/lxshortcut.mo 7ca48b32dd7e1f53dcff935c2d057e85 1356710382
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxshortcut.mo ffa70631c8bf86d4977e9e162d77f176 1356710385
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxshortcut.mo 35eb2fc2581b18716225a24741dbf33e 1356710389
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxshortcut.mo e8f8fbcab6593d81bf5bcf1f640d8843 1356710383
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxshortcut.mo 9e793b6ab54ef5660ec002afe7322d9d 1356710384
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxshortcut.mo 90db152921df4d7ca62c54d0d332b06d 1356710398
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxshortcut.mo afd66ba03496e0a8e5bb203d8d5bb816 1356710390
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/lxshortcut.mo afd66ba03496e0a8e5bb203d8d5bb816 1356710397
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxshortcut.mo 843472767ea6a58fc833db70c352c2c3 1356710396
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxshortcut.mo acebe13dd543f4f2f3ea700b97dc420c 1356710387
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxshortcut.mo d8ebbd2748ca58ae80c3fcf825a43d3f 1356710400
+dir /usr/share/locale/km
+dir /usr/share/locale/km/LC_MESSAGES
+obj /usr/share/locale/km/LC_MESSAGES/lxshortcut.mo c4921d302421c4f198a78f9e315b5a26 1356710390
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxshortcut.mo b222545af07634b8b46d0a0548e54c3c 1356710394
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxshortcut.mo bfb4c7587478c2e86fa964e74b7880b3 1356710388
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxshortcut.mo 178e9ed65e6e60195d9391a3e6b27b68 1356710398
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxshortcut.mo c8d12250773f7b9e0012a7dd774b194b 1356710387
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxshortcut.mo afd66ba03496e0a8e5bb203d8d5bb816 1356710394
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxshortcut.mo 6430d51534ec1f12c70c2c9dd5aed8ad 1356710386
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxshortcut.mo 45210d3dcb62ff35dd386cdafbfc2f44 1356710385
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxshortcut.mo dc9f535cc736b6089012a8f817a6188b 1356710396
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxshortcut.mo 69984f9347678ff08e7d7c17787dc406 1356710399
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxshortcut.mo ed94b4dbc826e9f96f238dab6182ba7c 1356710398
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxshortcut.mo afd66ba03496e0a8e5bb203d8d5bb816 1356710391
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxshortcut.mo 54047ff15ff78f58b6ce78bc5229fdcc 1356710390
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxshortcut.mo 4e556d9eacfa64e819d46d0967fb7b78 1356710382
+dir /usr/share/locale/si
+dir /usr/share/locale/si/LC_MESSAGES
+obj /usr/share/locale/si/LC_MESSAGES/lxshortcut.mo b6b2c30791dc7ea563ad22fdaca1101c 1356710396
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxshortcut.mo a9dc0185fd380b40f2add7788f218d4a 1356710384
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxshortcut.mo 0485a4d31cfeb26ee10cb277f1f3ed27 1356710389
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxshortcut.mo 272f0cfd57654e7cb09b3310f9ded0cd 1356710383
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxshortcut.mo 336efbc52fdf67e7ef2403de1661eed5 1356710387
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxshortcut.mo 499520dc7baf4b52256cbfa97b90b968 1356710395
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxshortcut.mo 682d899b5ccaed96614e11d7d893b588 1356710399
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxshortcut.mo 0e00d15be183647db76b09b78f28e0a1 1356710391
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/lxshortcut.mo 275da1c4375611b1ee0e9c3b00f4b86b 1356710384
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxshortcut.mo 0d703bf50611c76312b07c3a2111e786 1356710399
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxshortcut.mo fa884f9199d65ea713594555044c9bea 1356710384
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxshortcut.mo 7bacb354b0d071cd4bb32a89f6231c63 1356710395
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxshortcut.mo 13afb4e171e04bf9cb3a09e2fc68c718 1356710397
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxshortcut.mo 4d11551df61eefabf0b88d5b6901e636 1356710391
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxshortcut.mo 61cd1ae335e1c889b1814a272f95bf35 1356710389
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxshortcut.mo 3fa7592663eaf0aeb10984589b4ee3c5 1356710396
+dir /usr/share/locale/ast
+dir /usr/share/locale/ast/LC_MESSAGES
+obj /usr/share/locale/ast/LC_MESSAGES/lxshortcut.mo 85011bdd509860d7e8383c5fefef9cd1 1356710383
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxshortcut.mo a0a16a0db5cc67f306d0c2c717f12cab 1356710392
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxshortcut.mo afd66ba03496e0a8e5bb203d8d5bb816 1356710387
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxshortcut.mo 9d8d1c8944b80925a0f05b04e3c4f999 1356710395
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxshortcut.mo 8f16230dd71d1c3cf3f4b430a617cb20 1356710395
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxshortcut.mo d21895836f222b66132a22139974b1b1 1356710389
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxshortcut.mo da6635315b27a3405f31cfe368622a76 1356710394
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxshortcut.mo 3a137775238b9e7457293d145fe52ab6 1356710392
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxshortcut.mo b94faf13f3abdf55b4d99fe8420f287d 1356710386
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxshortcut.mo 7e80a4465e8743c37d99bef83acc78eb 1356710388
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxshortcut.mo 855f4f52dc5a697bd4a2ad19543f654e 1356710388
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxshortcut.mo e1838a27b95997aaa7c1495ba7bf8938 1356710388
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxshortcut.mo 5ecdf969cd828d1f15ccff4349848334 1356710386
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxshortcut.mo 73a609f8fdf437692ad916dc9da443dc 1356710385
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxshortcut.mo 682d899b5ccaed96614e11d7d893b588 1356710398
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxshortcut.mo 68dbed905bbfad30d8c53136728e8701 1356710397
+dir /usr/bin
+obj /usr/bin/lxshortcut 621e0d9764efeca5e18d0081898d4010 1356710422

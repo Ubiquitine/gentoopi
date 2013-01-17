@@ -1,0 +1,19 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xorg
+obj /usr/include/xorg/xf86-mouse-properties.h 6cf317ca88e8e852b0e1c409234df57a 1356508815
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xorg-mouse.pc 55f72a924e2a4f6b42819078f7f80695 1356508816
+dir /usr/lib/xorg
+dir /usr/lib/xorg/modules
+dir /usr/lib/xorg/modules/input
+obj /usr/lib/xorg/modules/input/mouse_drv.so 169727c10b0dd6d987e416f9f81034d0 1356508842
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man4
+obj /usr/share/man/man4/mousedrv.4.bz2 7c14ce8074a164d184475babf09187ba 1356508816
+dir /usr/share/doc
+dir /usr/share/doc/xf86-input-mouse-1.8.1
+obj /usr/share/doc/xf86-input-mouse-1.8.1/README.bz2 c5b19b47c5aa1df916b000cee05166a7 1356508817
+obj /usr/share/doc/xf86-input-mouse-1.8.1/ChangeLog.bz2 40950dc1eff722e3fbe8039f2c2f563f 1356508817
