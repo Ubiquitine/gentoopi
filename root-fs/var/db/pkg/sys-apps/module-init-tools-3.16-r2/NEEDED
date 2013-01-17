@@ -1,0 +1,6 @@
+/bin/lsmod libc.so.6
+/sbin/depmod libz.so.1,libc.so.6
+/sbin/modinfo libz.so.1,libc.so.6
+/sbin/rmmod libc.so.6
+/sbin/modprobe libz.so.1,libc.so.6
+/sbin/insmod libc.so.6

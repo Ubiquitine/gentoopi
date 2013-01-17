@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/render.h 5f0a1486588e9bb8ba20b186b07b503a 1356433028
+obj /usr/include/X11/extensions/renderproto.h c83b68e2ede0cbde949b32ddbfdea228 1356433028
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/renderproto.pc 9d0c45d675be26694ac7e47bc080d90c 1356433027
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/renderproto-0.11.1
+obj /usr/share/doc/renderproto-0.11.1/README.bz2 2d7c4f16828bb6fa0ae27ed9fae3bfd6 1356433028
+obj /usr/share/doc/renderproto-0.11.1/renderproto.txt.bz2 5b85ed3774f8b653740a9622328535ee 1356433028
+obj /usr/share/doc/renderproto-0.11.1/ChangeLog.bz2 832a80f21717489ac5b2db3a4bda70bb 1356433029

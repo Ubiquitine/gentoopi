@@ -1,0 +1,55 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libgpm.so 89f1a7a0beef145794c188ec5fed704d 1355998215
+obj /usr/lib/libgpm.a fdddcc2fc899a83b4b7a8425b657dc30 1355998219
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/gpm.info.bz2 3ddecf81d0391bf662c1fec5b21ebd36 1355998215
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/gpm-types.7.bz2 1e5316b3fb44943f275d33f24b87a311 1355998215
+dir /usr/share/man/man1
+obj /usr/share/man/man1/mouse-test.1.bz2 ffa9262d2c29744f74b856af7a7137ca 1355998215
+obj /usr/share/man/man1/gpm-root.1.bz2 4e42c45b5e7e608e3aeb382c2bfbaab6 1355998215
+obj /usr/share/man/man1/mev.1.bz2 4884e178039931bf797bcc5b1d5df2a9 1355998215
+dir /usr/share/man/man8
+obj /usr/share/man/man8/gpm.8.bz2 97d4cc62a28a69c3aef7bc3413a61ed3 1355998215
+dir /usr/share/doc
+dir /usr/share/doc/gpm-1.20.6
+obj /usr/share/doc/gpm-1.20.6/README.gunze.bz2 14018e5d968a53284d859d4ce44a79bb 1355998216
+obj /usr/share/doc/gpm-1.20.6/README.bz2 567b21923316709d7fb8a0b32fcf5fe4 1355998215
+obj /usr/share/doc/gpm-1.20.6/Announce.bz2 886eac304823ef64bb36766e42f907e4 1355998216
+obj /usr/share/doc/gpm-1.20.6/README.twiddler.bz2 2d1135d5a8bec3d4e1aa1b9b64c1e89b 1355998216
+obj /usr/share/doc/gpm-1.20.6/README.microtouch.bz2 abdcbee2adf0621b865bcbeca535bc67 1355998216
+obj /usr/share/doc/gpm-1.20.6/BUGS.bz2 54e3b768d32dbeaec48315e87e83ea15 1355998215
+obj /usr/share/doc/gpm-1.20.6/TODO.bz2 43315cf75679038bc94da80f7dd02452 1355998215
+obj /usr/share/doc/gpm-1.20.6/FAQ.bz2 d7a5fd7f4b1d6a5bf43309bb396fed0a 1355998216
+obj /usr/share/doc/gpm-1.20.6/README.1.20.2.bz2 2c954a40e27fbc7f856356715e8eea3b 1355998216
+obj /usr/share/doc/gpm-1.20.6/Changes.bz2 b0f55d83e3aa88b5ba4c2fbcd16a6872 1355998215
+obj /usr/share/doc/gpm-1.20.6/README.synaptics.bz2 da64bd2b56fa8200fc972686e618cf80 1355998216
+obj /usr/share/doc/gpm-1.20.6/README.etouch.bz2 dbc0f4ea50918a2a1675d6468060646a 1355998216
+dir /usr/bin
+obj /usr/bin/disable-paste 2104dabbfc2f897c47088e067fe136bd 1355998219
+obj /usr/bin/display-coords 1c4c4e40af06fca0e31a95c6b63c3626 1355998219
+obj /usr/bin/gpm-root cf6d727a1653b92535073f55acd36c93 1355998219
+obj /usr/bin/mouse-test ef7a4e4a78105c39d69769d3535d0d85 1355998219
+obj /usr/bin/get-versions 52366f5bb43d72cb24582ab4780f3257 1355998219
+obj /usr/bin/display-buttons 240ee10505bfe72697fcc4f259f268e3 1355998219
+obj /usr/bin/mev 374d17b0085d605b5f3fc50fa9cae94d 1355998219
+obj /usr/bin/hltest a7a322cd3aa08583f0cc7a76bf1336b6 1355998219
+dir /usr/include
+obj /usr/include/gpm.h 574418d338db895fcf252ddc670d4464 1355998215
+dir /usr/sbin
+obj /usr/sbin/gpm 2a73ae96dc69bf751b8d603c8e7a8f02 1355998219
+dir /lib
+obj /lib/libgpm.so.1.20.0 9ff06651ebd559b8bc24e773867c1ac8 1355998219
+sym /lib/libgpm.so.1 -> libgpm.so.1.20.0 1355998225
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/gpm b1364fd3bf27cda742dbcfc87497cc18 1355998216
+dir /etc/gpm
+obj /etc/gpm/gpm-root.conf f7d7de63d6135a700874878a9cecf432 1355998215
+obj /etc/gpm/gpm-syn.conf 1d88c51413f8ba21ced13572892c5c91 1355998215
+obj /etc/gpm/gpm-twiddler.conf 028060db81745e1ade8267ec5c190791 1355998215
+dir /etc/conf.d
+obj /etc/conf.d/gpm 5968cb47e493e348cf289b0dd1990f4a 1355998216

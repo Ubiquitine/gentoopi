@@ -1,0 +1,19 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xorg
+obj /usr/include/xorg/evdev-properties.h 7c6773615a830ab85e16aa6ae641cd99 1356462388
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xorg-evdev.pc 8d1a5a8334bb4e369ab8b675a1cd1175 1356462388
+dir /usr/lib/xorg
+dir /usr/lib/xorg/modules
+dir /usr/lib/xorg/modules/input
+obj /usr/lib/xorg/modules/input/evdev_drv.so 081820e866d6cc811778c66cb87763c3 1356462414
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man4
+obj /usr/share/man/man4/evdev.4.bz2 168591360aa5f0a03ed00cc94e931dc1 1356462388
+dir /usr/share/doc
+dir /usr/share/doc/xf86-input-evdev-2.7.3
+obj /usr/share/doc/xf86-input-evdev-2.7.3/README.bz2 614fda0b2b762cbf78903287f200da66 1356462389
+obj /usr/share/doc/xf86-input-evdev-2.7.3/ChangeLog.bz2 1302bd021eb2efdb8663d1274a96ac21 1356462389

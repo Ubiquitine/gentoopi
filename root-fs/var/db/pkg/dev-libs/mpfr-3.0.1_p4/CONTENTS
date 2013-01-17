@@ -1,0 +1,31 @@
+dir /usr
+dir /usr/lib
+sym /usr/lib/libmpfr.so -> libmpfr.so.4.0.1 1355986568
+obj /usr/lib/libmpfr.a edb847113c3b1ab4d142d9c90b95fb77 1355986561
+sym /usr/lib/libmpfr.so.4 -> libmpfr.so.4.0.1 1355986568
+obj /usr/lib/libmpfr.so.4.0.1 a70e33b372bac8b39fc2933dbee87896 1355986560
+obj /usr/lib/libmpfr.la a2833201ff71131163c70306889e0584 1355986557
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/mpfr.info.bz2 6f9a0187ce40ff13465dcfeafb203d2f 1355986557
+dir /usr/share/doc
+dir /usr/share/doc/mpfr-3.0.1_p4
+obj /usr/share/doc/mpfr-3.0.1_p4/NEWS.bz2 e419435ac50ea7cc66e83dd623aec76a 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/COPYING.bz2 9c00576524f7887140b782ddc0404bed 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/README.bz2 738059c7feda2c74d38e11772ab274dd 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/COPYING.LESSER.bz2 2f42d88ebca4f9d4d769094be88e81c7 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/BUGS.bz2 ab89f5b8d294cc25a5485baa3fc958a1 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/TODO.bz2 ca989d3b9946a511199ba3483f4f7c9e 1355986557
+dir /usr/share/doc/mpfr-3.0.1_p4/examples
+obj /usr/share/doc/mpfr-3.0.1_p4/examples/version.c.bz2 7eb56b725631d4905d006f469c78dace 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/examples/rndo-add.c.bz2 d82acfebdee434a72df3bc39c15cc046 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/examples/divworst.c.bz2 19f4176af1683cab884d49d9fa0ed98e 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/examples/sample.c.bz2 7d693fd3431264391f025b953d21d5de 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/examples/ReadMe.bz2 11fc9030f7261f754d4b62b5cc70999e 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/ChangeLog.bz2 c0cf6aa580e322c5c2e012d8a27ee60b 1355986557
+dir /usr/share/doc/mpfr-3.0.1_p4/html
+obj /usr/share/doc/mpfr-3.0.1_p4/html/FAQ.html 97fc730e7d9c8dc4df370439ce467f64 1355986557
+obj /usr/share/doc/mpfr-3.0.1_p4/AUTHORS.bz2 3717f8a8ae5401cb7db59be5ca991442 1355986557
+dir /usr/include
+obj /usr/include/mpfr.h 346f5170f23db84ec2608b337f2d04c2 1355986557
+obj /usr/include/mpf2mpfr.h cbaf5484979dc211402cc758b5ba4219 1355986557

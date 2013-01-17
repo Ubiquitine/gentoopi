@@ -1,0 +1,69 @@
+dir /usr
+dir /usr/share
+dir /usr/share/eselect
+dir /usr/share/eselect/libs
+obj /usr/share/eselect/libs/core.bash 83e386c87a7b9b54cf3d0a118775141e 1355997211
+obj /usr/share/eselect/libs/skel.bash d3404da97b3b7886dc6bf0f66f63d528 1355997211
+obj /usr/share/eselect/libs/manip.bash 07ccdb5ceb8424e9f37bd40ca753580e 1355997211
+obj /usr/share/eselect/libs/path-manipulation.bash f36b5f6d7f77e0b6bbd4c064530c2a09 1355997211
+obj /usr/share/eselect/libs/multilib.bash 573599b44465e9bfd8384b8211ea43f2 1355997211
+obj /usr/share/eselect/libs/default.eselect 8894b83c8a538a9628a060061a12f75d 1355997211
+obj /usr/share/eselect/libs/tests.bash c0926ec22b15fc24085346910ee2b46e 1355997211
+obj /usr/share/eselect/libs/output.bash 40c695feae2f42741496bd637af4cb79 1355997211
+obj /usr/share/eselect/libs/config.bash 9f241d421e0fd6f49be65ec5f2c03d64 1355997211
+obj /usr/share/eselect/libs/package-manager.bash b6f8d3fe6c05c61c1ce0bc8bc2e1cf4c 1355997211
+obj /usr/share/eselect/libs/editor-variable.bash 8144b97c4b531f12ddfb226c96112255 1355997211
+dir /usr/share/eselect/modules
+obj /usr/share/eselect/modules/env.eselect 6f92b88ac7025ed75209ff5e199bfa20 1355997211
+obj /usr/share/eselect/modules/editor.eselect 5b14b25d69919418940144ef61fa9bdd 1355997211
+obj /usr/share/eselect/modules/visual.eselect 1600800d6365d954325e6ab34fd1788f 1355997211
+obj /usr/share/eselect/modules/profile.eselect d2297b4a410275e693470ceeaa47a0bc 1355997211
+obj /usr/share/eselect/modules/kernel.eselect 84212ced0a1db8bdd2c6801bd1d9b539 1355997211
+obj /usr/share/eselect/modules/news.eselect da1fccfc7b25a924fdca487bde10c77d 1355997211
+obj /usr/share/eselect/modules/rc.eselect e00ee8fd854183500ac6054b924b543a 1355997211
+obj /usr/share/eselect/modules/bashcomp.eselect 7af8c01cadfffdb0190ceba18e242d4e 1355997211
+obj /usr/share/eselect/modules/binutils.eselect 5e074f232e2ca404e490c5f55d944fce 1355997211
+obj /usr/share/eselect/modules/modules.eselect e3f2287607cbe1ab7485db8c1cf85c49 1355997211
+obj /usr/share/eselect/modules/locale.eselect 281566c6ceb88397d552384e7ee44bcd 1355997211
+obj /usr/share/eselect/modules/pager.eselect 75c279171ae554b993cb24fbda2bca65 1355997211
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/pager.eselect.5.bz2 a319591e850a4a335b5dfad81b9fbdc4 1355997210
+obj /usr/share/man/man5/visual.eselect.5.bz2 5ad31e7e206971cd5faa9c926aa9681d 1355997210
+obj /usr/share/man/man5/kernel.eselect.5.bz2 21d6bc0d51683c0b3dc48ca80c5bd3bc 1355997210
+obj /usr/share/man/man5/news.eselect.5.bz2 fa4ea526e472cdefbe7bf539eb8047b6 1355997210
+obj /usr/share/man/man5/binutils.eselect.5.bz2 032185339a27d8b3c98322007e30c662 1355997210
+obj /usr/share/man/man5/editor.eselect.5.bz2 aaff318dc80d955f75dae65d0cc25d6f 1355997210
+obj /usr/share/man/man5/bashcomp.eselect.5.bz2 7eb6e26687f457c933fc8bfa67e82c15 1355997210
+obj /usr/share/man/man5/rc.eselect.5.bz2 0bedfd4f2c28738677e55d6f40f4e6d5 1355997210
+obj /usr/share/man/man5/profile.eselect.5.bz2 37201383d0a467def3cb717ec55858d8 1355997210
+obj /usr/share/man/man5/env.eselect.5.bz2 2ac93b908ecc637ba401c7c16a978d99 1355997210
+dir /usr/share/man/man1
+obj /usr/share/man/man1/eselect.1.bz2 60f668fb665e707175b549b604a425f9 1355997210
+sym /usr/share/man/man1/rc-config.1.bz2 -> /usr/share/man/man5/rc.eselect.5.bz2 1355997218
+sym /usr/share/man/man1/kernel-config.1.bz2 -> /usr/share/man/man5/kernel.eselect.5.bz2 1355997218
+sym /usr/share/man/man1/bashcomp-config.1.bz2 -> /usr/share/man/man5/bashcomp.eselect.5.bz2 1355997218
+sym /usr/share/man/man1/profile-config.1.bz2 -> /usr/share/man/man5/profile.eselect.5.bz2 1355997218
+dir /usr/share/doc
+dir /usr/share/doc/eselect-1.3.1
+obj /usr/share/doc/eselect-1.3.1/user-guide.txt.bz2 4e827a43d4b7ca70f30d485f71949fc0 1355997211
+obj /usr/share/doc/eselect-1.3.1/NEWS.bz2 dd5dc4352072a75b13b71ee518aad4a8 1355997211
+obj /usr/share/doc/eselect-1.3.1/README.bz2 e7b58b34dec593a9ef941326894d2316 1355997211
+obj /usr/share/doc/eselect-1.3.1/TODO.bz2 d9e0099a773c5db3dcf824613e099627 1355997211
+obj /usr/share/doc/eselect-1.3.1/ChangeLog.bz2 007a1ddb4e862a923830ac9e7ab3ec2b 1355997211
+obj /usr/share/doc/eselect-1.3.1/release-guide.txt.bz2 adcc403cb65bf24f74f475b021706a0e 1355997211
+obj /usr/share/doc/eselect-1.3.1/AUTHORS.bz2 19507cbb31581b532c333ee540ebfa40 1355997211
+obj /usr/share/doc/eselect-1.3.1/developer-guide.txt.bz2 93f9de8e01c41ddfe3b27339bc607409 1355997211
+dir /usr/share/bash-completion
+obj /usr/share/bash-completion/eselect 26766f6a94744ae8950391d383670229 1355997211
+dir /usr/bin
+sym /usr/bin/kernel-config -> eselect 1355997218
+sym /usr/bin/profile-config -> eselect 1355997218
+obj /usr/bin/eselect 77aeb9e91d247f5bdc71c6f2735154ba 1355997211
+sym /usr/bin/rc-config -> eselect 1355997218
+sym /usr/bin/bashcomp-config -> eselect 1355997218
+dir /var
+dir /var/lib
+dir /var/lib/gentoo
+dir /var/lib/gentoo/news
+obj /var/lib/gentoo/news/.keep_app-admin_eselect-0 d41d8cd98f00b204e9800998ecf8427e 1355997211

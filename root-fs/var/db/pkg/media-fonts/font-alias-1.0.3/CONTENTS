@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/font-alias-1.0.3
+obj /usr/share/doc/font-alias-1.0.3/README.bz2 6ccdadc7b3ac549720a7e7544adfe417 1356518033
+obj /usr/share/doc/font-alias-1.0.3/ChangeLog.bz2 c7b58a6c54e8499fa65a193caea3bc5b 1356518034
+dir /usr/share/fonts
+dir /usr/share/fonts/100dpi
+obj /usr/share/fonts/100dpi/fonts.alias 85bebd6ca213aa656c301a72eb4397cb 1356518032
+dir /usr/share/fonts/75dpi
+obj /usr/share/fonts/75dpi/fonts.alias 6bc48023f2ae7f3bfc105db7b0ee6b49 1356518032
+dir /usr/share/fonts/cyrillic
+obj /usr/share/fonts/cyrillic/fonts.alias f40795b0640d6785826aecd3b16f6124 1356518032
+dir /usr/share/fonts/misc
+obj /usr/share/fonts/misc/fonts.alias a8ec05d528431d4c9703b55a7efd67a8 1356518033

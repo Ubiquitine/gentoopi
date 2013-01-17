@@ -1,0 +1,53 @@
+dir /etc
+dir /etc/xml
+dir /usr
+dir /usr/include
+dir /usr/include/libglade-2.0
+dir /usr/include/libglade-2.0/glade
+obj /usr/include/libglade-2.0/glade/glade-init.h 6d0a0652da0e1aaa135968b4a98e1eb1 1356699296
+obj /usr/include/libglade-2.0/glade/glade-xml.h 3f45c062f22352d12c86f58c2801d41c 1356699296
+obj /usr/include/libglade-2.0/glade/glade-build.h bd61b2c579736622f1e628133e376c75 1356699296
+obj /usr/include/libglade-2.0/glade/glade.h a879b07005792bc851a7bfd89361f72e 1356699296
+obj /usr/include/libglade-2.0/glade/glade-parser.h 711caae8fac878e899b2e5c9afd2f60a 1356699296
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libglade-2.0.pc 45af6e47784d8a041168d62e95138a0c 1356699299
+obj /usr/lib/libglade-2.0.so.0.0.7 1abf740cd0dd12b63594be195e8fcabe 1356699335
+sym /usr/lib/libglade-2.0.so -> libglade-2.0.so.0.0.7 1356699375
+dir /usr/share
+dir /usr/share/xml
+dir /usr/share/xml/libglade
+obj /usr/share/xml/libglade/glade-2.0.dtd f86c516a4b18bc124d4ee0885880e6d2 1356699299
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/libglade
+obj /usr/share/gtk-doc/html/libglade/libglade.devhelp2 b1df4187bb9923c65a23a5e04f9af57a 1356699297
+obj /usr/share/gtk-doc/html/libglade/libglade-extending.html 19dca8b5f20b34f6c513c3e043d9185c 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-notes.html 3182c65888926883f74254638c5f8bc0 1356699298
+obj /usr/share/gtk-doc/html/libglade/up.png 2f07d9272deb4ae870ca6821117877fa 1356699297
+obj /usr/share/gtk-doc/html/libglade/home.png f6192f4292d744423df690e785d60fdf 1356699297
+obj /usr/share/gtk-doc/html/libglade/right.png ebd7e6d206d73850d77d305ab548f957 1356699297
+obj /usr/share/gtk-doc/html/libglade/GladeXML.html a889c7a6eb7e395935651417493e5321 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-Libglade-Initialisation.html b94b4ca363a0c5f6b9b45458774ee2bf 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-i18n.html 6dad72da52ec31dcf8261e42ace88bb1 1356699298
+obj /usr/share/gtk-doc/html/libglade/style.css 4ac721803d1f00ede5396089656f0420 1356699297
+obj /usr/share/gtk-doc/html/libglade/libglade-embedding.html cb5ae9d625b18748dea580dea3b95157 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-modules.html 3564b9f8f0382a79035a1297b62b479c 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-Libglade-Build.html e9f6b893d8e1c039d506eea93ff2fb78 1356699298
+obj /usr/share/gtk-doc/html/libglade/index.sgml 69f7a196674f189cbb955d1ff4faaad6 1356699297
+obj /usr/share/gtk-doc/html/libglade/libglade-Libglade-SAX-Parser.html 37c77c201507ba2a7638788686a4fc64 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-dtd.html 457f6b1f614598ac8c23a1ff89dd2594 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade-dtd-exceptions.html ef8c3674108b2406dbfe9e09e6d48e3e 1356699298
+obj /usr/share/gtk-doc/html/libglade/libglade.devhelp 70dc635310029bc813792d6e14b501e2 1356699297
+obj /usr/share/gtk-doc/html/libglade/libglade-lib.html 7e21de1e7d81cd49ba9a81fb85576974 1356699298
+obj /usr/share/gtk-doc/html/libglade/left.png f771308152ab24a69682daed70ce136d 1356699297
+obj /usr/share/gtk-doc/html/libglade/index.html a0a84fa81fda2033750a983f3afd5181 1356699298
+dir /usr/share/doc
+dir /usr/share/doc/libglade-2.6.4
+obj /usr/share/doc/libglade-2.6.4/README.bz2 b4220ee15c2a4f70a09e7b513c6571fe 1356699300
+obj /usr/share/doc/libglade-2.6.4/AUTHORS.bz2 b0b6cbab4012f869015e7dc2ecb9a726 1356699300
+obj /usr/share/doc/libglade-2.6.4/ChangeLog.bz2 14ed67b81bea79f4645fbaf711819070 1356699300
+obj /usr/share/doc/libglade-2.6.4/NEWS.bz2 387804e8681d07add0f66afe9049e164 1356699300
+dir /usr/bin
+obj /usr/bin/libglade-convert dd6f22a3ca973a54ecfc8c94dd816b59 1356699301
+sym /usr/lib/libglade-2.0.so.0 -> libglade-2.0.so.0.0.7 1356699375

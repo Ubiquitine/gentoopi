@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.10:2 >=x11-libs/gtk+-2.8.10:2 >=dev-libs/atk-1.9 >=dev-libs/libxml2-2.4.10 virtual/pkgconfig || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool >=sys-apps/sed-4 =dev-lang/python-2*

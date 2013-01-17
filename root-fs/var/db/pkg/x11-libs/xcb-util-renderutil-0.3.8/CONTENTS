@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xcb
+obj /usr/include/xcb/xcb_renderutil.h c8732d30d204d3b55e956489f635cefb 1356716107
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcb-renderutil.pc 620922297259c32a82e5cba5f737f8ca 1356716106
+obj /usr/lib/libxcb-render-util.so.0.0.0 7eb0e9adb552462f8f0af69f647aff63 1356716133
+sym /usr/lib/libxcb-render-util.so.0 -> libxcb-render-util.so.0.0.0 1356716159
+sym /usr/lib/libxcb-render-util.so -> libxcb-render-util.so.0.0.0 1356716159
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-util-renderutil-0.3.8
+obj /usr/share/doc/xcb-util-renderutil-0.3.8/README.bz2 b9be7e4459de67e585a11dc154a6c715 1356716107
+obj /usr/share/doc/xcb-util-renderutil-0.3.8/ChangeLog.bz2 5a7a5032e1482adf8a7d3f6f571165e9 1356716109
+obj /usr/share/doc/xcb-util-renderutil-0.3.8/NEWS.bz2 a84481938eda17e617c22211b543a4e4 1356716108

@@ -1,0 +1,34 @@
+dir /usr
+dir /usr/share
+dir /usr/share/myspell
+obj /usr/share/myspell/en_US.dic 2f6e098411997f3d1217865bb468947f 1357498069
+obj /usr/share/myspell/en_NZ.aff 8f86fefcb0e9737aeb25fbe42a72ae81 1357498069
+obj /usr/share/myspell/en_GB.dic 815ef16900a7c5bde2ca3cf1310f0467 1357498068
+obj /usr/share/myspell/en_GB-oed.aff d1aba555c6046734d398e584af5898f8 1357498070
+obj /usr/share/myspell/en_CA.dic 8df20e84734801ed1348979d1e08aea0 1357498069
+obj /usr/share/myspell/hyph_en_GB.dic 4d5c56ac33ef0ef2044e9ad05ec2306e 1357498072
+obj /usr/share/myspell/en_GB-oed.dic 4a18bde32ba989cb8f93e1cf5469acd0 1357498071
+obj /usr/share/myspell/en_ZA.dic 276818b2748b79b56169ca446502531d 1357498070
+obj /usr/share/myspell/en_CA.aff 3cd695a592d6a8a22c4e98f7b0694783 1357498069
+obj /usr/share/myspell/en_US.aff ff0059b0644df7008c9f635f77da7601 1357498068
+obj /usr/share/myspell/dictionary.lst.en 6fb941f3eab883ecf4adb00ebcfc6b84 1357498074
+obj /usr/share/myspell/en_GB.aff bf3bf1853c24324cb05e9869e8f9aa49 1357498068
+obj /usr/share/myspell/th_en_US_v2.dat 0280c4cad9f10ad56bc649f365ab8160 1357498074
+obj /usr/share/myspell/en_AU.dic 50f9cea4e28fd880d10ee1835e3a3691 1357498067
+obj /usr/share/myspell/en_AU.aff dfec927fd882a92347f933c1dc9561bf 1357498067
+obj /usr/share/myspell/th_en_US_v2.idx 286ee05443ad71a346c567f47a9037f9 1357498074
+obj /usr/share/myspell/en_NZ.dic 3a0c6cb8769c940dfdefa3910b2747ce 1357498070
+obj /usr/share/myspell/en_ZA.aff bf3bf1853c24324cb05e9869e8f9aa49 1357498070
+dir /usr/share/doc
+dir /usr/share/doc/myspell-en-20081002
+obj /usr/share/doc/myspell-en-20081002/README_en_GB-oed.txt.bz2 ab589c029529c5e233e380ad107f33b1 1357498075
+obj /usr/share/doc/myspell-en-20081002/README_en_ZA.txt.bz2 c609cf64d094954829a70ba9f6e3672d 1357498077
+obj /usr/share/doc/myspell-en-20081002/README_en_GB.txt.bz2 3ab6554eff9dcbfdb117226fd702abff 1357498076
+obj /usr/share/doc/myspell-en-20081002/README_en_AU.txt.bz2 09a0c42345bf732131727b7768543818 1357498075
+obj /usr/share/doc/myspell-en-20081002/README_en_NZ.txt.bz2 b935ad042b97aa6dd697a441367aa78f 1357498076
+obj /usr/share/doc/myspell-en-20081002/README_en_CA.txt.bz2 09b2e0c136b75e9474aaa4c66a246b81 1357498075
+obj /usr/share/doc/myspell-en-20081002/README_th_en_US_v2.txt.bz2 a234f582f337a024937e94dfae980ac3 1357498077
+obj /usr/share/doc/myspell-en-20081002/README_en_US.txt.bz2 8fc16a38cafd42b9afcd22b552ce97b1 1357498076
+obj /usr/share/doc/myspell-en-20081002/VERSION_en_ZA.txt.bz2 a0bd5cf4d655d7ab7110d3f87799ae1f 1357498078
+obj /usr/share/doc/myspell-en-20081002/changelog.txt.bz2 4fa36ce39d9f89620a2a69d70e57db0a 1357498075
+obj /usr/share/doc/myspell-en-20081002/README_hyph_en_GB.txt.bz2 c5a1ea2edb03fbe9feb1fd63bd95c569 1357498077

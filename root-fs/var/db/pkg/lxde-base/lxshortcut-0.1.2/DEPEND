@@ -1,0 +1,1 @@
+x11-libs/gtk+:2 dev-libs/glib:2 sys-devel/gettext dev-util/intltool virtual/pkgconfig || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

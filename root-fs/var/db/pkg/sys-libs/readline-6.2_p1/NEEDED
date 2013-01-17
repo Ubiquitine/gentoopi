@@ -1,0 +1,3 @@
+/usr/bin/rlfe libreadline.so.6,libc.so.6
+/lib/libreadline.so.6.2 libncurses.so.5,libc.so.6
+/lib/libhistory.so.6.2 libc.so.6

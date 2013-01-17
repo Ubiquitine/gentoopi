@@ -1,0 +1,1 @@
+>=sys-libs/zlib-1.2.2.3 app-arch/bzip2 sys-devel/gettext >=sys-devel/flex-2.5.4a sys-devel/m4 !dev-libs/libelf

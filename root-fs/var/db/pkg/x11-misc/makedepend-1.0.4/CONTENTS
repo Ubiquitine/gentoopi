@@ -1,0 +1,12 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/makedepend.1.bz2 288daffc4722db6cbd000c1b1fb2d989 1356439983
+dir /usr/share/doc
+dir /usr/share/doc/makedepend-1.0.4
+obj /usr/share/doc/makedepend-1.0.4/README.bz2 6559f2095004af0c2c992ae557573eb3 1356439983
+obj /usr/share/doc/makedepend-1.0.4/AUTHORS.bz2 5f4171541823d7e96d61105b5292bee3 1356439984
+obj /usr/share/doc/makedepend-1.0.4/ChangeLog.bz2 8543dc5b46346a225c3b69c8389691d8 1356439984
+dir /usr/bin
+obj /usr/bin/makedepend c58d985ff71dab3307df7fd9608aa14f 1356440008

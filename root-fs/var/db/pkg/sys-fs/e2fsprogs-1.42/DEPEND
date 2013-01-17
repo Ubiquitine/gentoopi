@@ -1,0 +1,1 @@
+~sys-libs/e2fsprogs-libs-1.42 >=sys-apps/util-linux-2.16 virtual/libintl sys-devel/gettext virtual/pkgconfig sys-apps/texinfo

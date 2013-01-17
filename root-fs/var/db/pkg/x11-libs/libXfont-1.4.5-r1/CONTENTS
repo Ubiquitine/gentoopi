@@ -1,0 +1,31 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/fonts
+obj /usr/include/X11/fonts/bdfint.h 2e2dcac262cae9687ab1305b5bbdb833 1356440820
+obj /usr/include/X11/fonts/fontutil.h c132f9f5c8d47ca89ec629808fd8a997 1356440820
+obj /usr/include/X11/fonts/pcf.h aebd33b466df7850f741ebf71b68d792 1356440820
+obj /usr/include/X11/fonts/fontconf.h bd163acede94cd584e6fbe13bc606300 1356440820
+obj /usr/include/X11/fonts/fntfilst.h 6b76499a51a3f8b9ee668d51d93ac9d6 1356440820
+obj /usr/include/X11/fonts/fontencc.h e6a026bcf988fc087fd56e5e590b5179 1356440820
+obj /usr/include/X11/fonts/bitmap.h 599e6bd1ca60ce2738e4529407d8b5fd 1356440820
+obj /usr/include/X11/fonts/ft.h d99c153a4c6972a111474ae09243156b 1356440820
+obj /usr/include/X11/fonts/fntfil.h 87499f17010b3f8209df47d2fde4680d 1356440820
+obj /usr/include/X11/fonts/bufio.h d560c4993e914253398c319f2bde7d32 1356440820
+obj /usr/include/X11/fonts/ftfuncs.h c2227fe1210e543a5102d089ce4bcedf 1356440820
+obj /usr/include/X11/fonts/fontxlfd.h b0fcc81ffdd607c39d3a5fa9cc742e41 1356440820
+obj /usr/include/X11/fonts/fntfilio.h ed4d0ca2df22c6eac9550225d5c488a2 1356440820
+obj /usr/include/X11/fonts/fontshow.h fbb7e53198a943b7f460749d06c4f2d2 1356440820
+obj /usr/include/X11/fonts/fontmisc.h 95a72c844ecdf0649e57bad9f9df9538 1356440820
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xfont.pc a7e053b7a02c871b5fc1b21ef0bbd183 1356440820
+obj /usr/lib/libXfont.so.1.4.1 91252a0fd53aaf9266d5a5275d1053ec 1356440846
+sym /usr/lib/libXfont.so -> libXfont.so.1.4.1 1356440876
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libXfont-1.4.5-r1
+obj /usr/share/doc/libXfont-1.4.5-r1/README.bz2 f5b53ef913ad27b1e9abb327e21f224f 1356440821
+obj /usr/share/doc/libXfont-1.4.5-r1/AUTHORS.bz2 9f3e01612137cabc0da6ae6670540de0 1356440821
+obj /usr/share/doc/libXfont-1.4.5-r1/ChangeLog.bz2 8cfe13813e5a749ae5330879d4f997e5 1356440822
+sym /usr/lib/libXfont.so.1 -> libXfont.so.1.4.1 1356440876

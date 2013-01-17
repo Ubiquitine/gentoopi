@@ -1,0 +1,25 @@
+=media-gfx/graphite2-1.2.0 ~arm
+sys-devel/gcc ~arm
+#required by tmux (argument)
+=app-misc/tmux-1.7 ~arm
+#required by =x11-libs/gtk+-2.24.14 (argument)
+=x11-libs/gtk+-2.24.14 ~arm
+media-libs/harfbuzz ~arm
+net-libs/loudmouth ~arm
+net-im/gajim **
+ev-libs/icu ~arm
+#required by =dev-libs/icu-50.1-r2 (argument)
+=dev-libs/icu-50.1-r2 ~arm
+lxde-base/lxdm ~arm
+x11-apps/xkbset **
+www-client/midori ~arm
+net-im/ayttm **
+sys-auth/pam_mount **
+sys-libs/libhx **
+x11-themes/faenza-icon-theme **
+sys-auth/nss_ldap ~arm
+sys-auth/pam_ldap ~arm
+sys-apps/unscd **
+=mail-client/sylpheed-3.3.0 **
+mail-client/claws-mail ~arm
+x11-misc/xsel **

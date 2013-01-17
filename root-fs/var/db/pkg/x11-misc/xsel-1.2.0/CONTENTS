@@ -1,0 +1,12 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/xsel c3226efc5312a29082bff56f04486d79 1358414522
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xsel.1x.bz2 6887d5c8a9ccbeec053e4040e157396f 1358414505
+dir /usr/share/doc
+dir /usr/share/doc/xsel-1.2.0
+obj /usr/share/doc/xsel-1.2.0/AUTHORS.bz2 144e123a4d5e061e3c34efd7770b3b07 1358414506
+obj /usr/share/doc/xsel-1.2.0/ChangeLog.bz2 84b010f902ff45ac89a273a2d42477d1 1358414506
+obj /usr/share/doc/xsel-1.2.0/README.bz2 b162db863af6c1a38c772358efe3e4c8 1358414505

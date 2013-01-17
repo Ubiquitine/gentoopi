@@ -1,0 +1,326 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/binutils
+dir /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi
+dir /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22
+sym /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/libbfd.so -> libbfd-2.22.so 1355990344
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/libopcodes-2.22.so 32461f478c45707633215f52a7dc8372 1355990318
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/libbfd-2.22.so fc05bdd4e76580a00eb7599818300fbc 1355990318
+dir /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/objalloc.h 44b3dbe9efa457af0cf4f032193dd1f5 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/fibheap.h 6cd2afc8e147c2eed4404d0845dfa47a 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/hashtab.h b14b5907a8d21fe886487feead7161c8 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/symcat.h 4b6357d1d36b0981d1f437ab787cfa51 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/dyn-string.h 7e968442c6c0231dfe2def312758e765 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/bfdlink.h e0001069c855d4cdbe3d026324b4f858 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/plugin-api.h f09eca32351413c6ede8d270c2944078 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/ansidecl.h 9032b8a915f567d2b568e53ac7ac5b7a 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/splay-tree.h a137d3d4edba8fab397dddb9f3d5ccdb 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/dis-asm.h 00b2d16b5f1a99fc74893b0eaae554b0 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/demangle.h 552d5fee651e1276d17c0ad69e6e2364 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/libiberty.h 05580593c4144ecc727aec0ba59701b0 1355990310
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/include/bfd.h 3f9616e77f15447dd865f3a8cfdc8e14 1355990296
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/libiberty.a cc5dd27e20a2d20c15ffac6bf2e0c8da 1355990320
+dir /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xbn ef83678695db934c44202d37f69d8c60 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xn 1f7daf21d9dfa316625ed74aa72874c6 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xsw 1ee01be7e1fd7bb3079a42bfe7b0b4c8 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xdc 70b6a8c07539fc684bccfcbba36a5967 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xr 70d744307e81442c4c76cf972e6cda7f 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xu 7395b9f0ae4f8e65b5d365b670d506a7 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.x 981cfd50910192c23b23e6b09ed5ce6d 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xc d185d4387f5870b3c01ba2db6f1e69a0 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xbn 063464b27d086cdb612ec797fd382ddc 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xsc 4e3d496589054966a2498a39c0baee8d 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xdw 1568234f2e0964ec1b16083fd12c5a10 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xw 465fd8c41a15b6c1fff1e4ac57296b35 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xu fe814eab6c420f57cd91e391d0df7458 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xc 038a876b73aa1058a89ef9e0e6de6e95 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xs 733baddb2ec0246b68c887618564e5cf 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xd 20bebd996eec8ab0852e39f802337aea 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xn 536448b991f82e971eaf42e5aee3d6a9 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xs 637c9d15c6f7393cd6ea7eac261dd44f 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xdw d81da6108191a7ce1bb0687875bbf480 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xsw e428352b6a3ae621f439879b193a6dda 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xdc d7822cd8e02d569ccc927630196eb070 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xsc 9a24a474c1275f5b8be88898011b9f74 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xr cd354a984059fbe23a3857b740d51112 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.xw a04d8fc461ae303ebcd067602ad8bd1b 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelf_linux_eabi.xd 087577cae5ad0c13a17d0f90fb748d70 1355990299
+obj /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/ldscripts/armelfb_linux_eabi.x 26eb67c43fff54a75db63e48467d4ca2 1355990299
+sym /usr/lib/binutils/armv6j-hardfloat-linux-gnueabi/2.22/libopcodes.so -> libopcodes-2.22.so 1355990344
+dir /usr/share
+dir /usr/share/binutils-data
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info/bfd.info 564650551cd91ba7305a5814bc4f8f4d 1355990293
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info/gprof.info 5b39d86670cb03213d45f18559d5063d 1355990296
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info/as.info dd2194e9baa7fd04953866e12df879eb 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info/ld.info 79af4d31c25b791ac087898b07687999 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info/binutils.info b2114fcaf98f40028d96a800ea784ae9 1355990299
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/readelf.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/objcopy.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/nm.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/windmc.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/strings.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/c++filt.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/as.1 d41d8cd98f00b204e9800998ecf8427e 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/objdump.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/elfedit.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/ar.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/strip.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/gprof.1 d41d8cd98f00b204e9800998ecf8427e 1355990296
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/ranlib.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/ld.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/size.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/addr2line.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/dlltool.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/nlmconv.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/man/man1/windres.1 d41d8cd98f00b204e9800998ecf8427e 1355990299
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/eo
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/eo/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/eo/LC_MESSAGES/gprof.mo 0b53f02ce3a8eb7bb21dedc5b9d9a6e4 1355990294
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ga
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ga/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ga/LC_MESSAGES/opcodes.mo aaa7913c4672954f5afe196a57bea399 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ga/LC_MESSAGES/gprof.mo 82d1a6e0345a6dc65b323f04ea1f1375 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ga/LC_MESSAGES/ld.mo fc40639db7883536c193350b81dd7cc8 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/binutils.mo 9638463ad9f240dc22a4b620e565109b 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/gas.mo 9520a6893d16735418796e0fbbb2bd06 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/opcodes.mo 4fc385a3d1a922817163a002c5351ffc 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/bfd.mo 428f783cf48b71cb3854cf24914975de 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/gold.mo f5d465c1def148c3688d691b6676f6a1 1355990293
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/gprof.mo 3bd53d1b01f6bd62d97d53f552a56cf7 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/es/LC_MESSAGES/ld.mo a137a04abad2a023cb269e774e1d4a63 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN/LC_MESSAGES/binutils.mo e4e8cba721856bcf7d5ccf5016a7fdd4 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN/LC_MESSAGES/opcodes.mo 6e7ae21e20fe177fba4c9c7fe8afa55a 1355990298
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN/LC_MESSAGES/bfd.mo e0ac4c0bbc954826529362c28e86810f 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_CN/LC_MESSAGES/ld.mo 3efd8d4a930e84f4ad64bb4ccfab32aa 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_TW
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_TW/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_TW/LC_MESSAGES/binutils.mo d66dc645567221704d9a96af2951ec0f 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/zh_TW/LC_MESSAGES/ld.mo 83c6d4c200b0dbaca4a92d64305ef342 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ms
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ms/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ms/LC_MESSAGES/gprof.mo 7dfd99c4a1fcd67218ddf18e17d82cbf 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro/LC_MESSAGES/binutils.mo 7d9d0cc039b5e637e9203e0c1fe8a282 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro/LC_MESSAGES/opcodes.mo e216f1583ca03a04f8849dfb96b59c3f 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro/LC_MESSAGES/bfd.mo 844c1ea598f9bcc47870ecf122b15e7d 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ro/LC_MESSAGES/gprof.mo 4f7dcbcf961a162151794fbd0be3da7d 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES/binutils.mo 117dd5c4de6ebc8e658d21aacda82073 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES/opcodes.mo d7c42d78dd00ae4c8b71fecb736fd17c 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES/bfd.mo b04862da8728ddf3c4c8a45b18ee35f7 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES/gprof.mo 6f3be1926b6465af05884a7bbef70084 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sv/LC_MESSAGES/ld.mo 1458a539ab520ec9ecde71e95b38d325 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/binutils.mo 36148a48493f59cc4a227ae1e3a9d20a 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/gas.mo 20888a4a689d6f09aba59e93261ba117 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/opcodes.mo ea02e3cbcae7924813b49db479c2faf0 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/bfd.mo e2ea0b79036b74441b0d1669f634d9f9 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/gold.mo e872d3ee22824820ca7746144ab3eedc 1355990293
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/gprof.mo 871b46017f0b1344ca87d65b49f1db6e 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fi/LC_MESSAGES/ld.mo b594a802f243ab42bf3ff5a27c39a22b 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/binutils.mo 895352681d4358a82bacec4e25a00e70 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/gas.mo f921f25b46f5eda454485a4af9286c90 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/opcodes.mo 179cd41f0e8af51dd577fd5d7ab36c79 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/bfd.mo 495dc4f4a2e82ea81d7226370e07294f 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/gprof.mo e8a064faa7431c3994490313f73d4823 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/tr/LC_MESSAGES/ld.mo 3d1ef990f300fb1817b57310a731db3e 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sk
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sk/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/sk/LC_MESSAGES/binutils.mo 1f61241fcdfa161fa76d4d8728e0ad37 1355990301
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw/LC_MESSAGES/binutils.mo 574d299b75e61be9de2b50beda9a138a 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw/LC_MESSAGES/gas.mo 3e890a0b3ab0fdf3474873d5627b21f4 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw/LC_MESSAGES/bfd.mo e15c998ffa3537ef5f5c5ed225c18279 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/rw/LC_MESSAGES/gprof.mo 6caef4d7466f584c8a1833f08dda3a5d 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/binutils.mo 6495de85ae4a9bc16de19a933544ee01 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/gas.mo 9cee2a71c8a685f823334f2345fe6926 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/opcodes.mo bbdc560c49ae729616af290d86d1801a 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/bfd.mo adde21abfb12b19302e8f830a86a3b71 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/gold.mo 7103bf2876d97b9e71f3e6b20e3a16e7 1355990293
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/gprof.mo c45783507056bc5710c73362dbe5fb8f 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/id/LC_MESSAGES/ld.mo 53c1557e853cab0747c7be2c851a7a36 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/bg
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/bg/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/bg/LC_MESSAGES/binutils.mo 024d27e0e050ecbb5028623014af16aa 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/bg/LC_MESSAGES/gprof.mo 5e484f64f2a4e94587e5a5b34a051608 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/bg/LC_MESSAGES/ld.mo f6d8f46230eb87af11b5ec0b6b5b399d 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ja
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ja/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ja/LC_MESSAGES/binutils.mo aa394ecec1b8465cfe5f170279231efb 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ja/LC_MESSAGES/bfd.mo 94d7a982350d9e5fee01037195be34a5 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ja/LC_MESSAGES/ld.mo 593c3d8483eeaffa54d5ac135f45f219 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/pt_BR
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/pt_BR/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/pt_BR/LC_MESSAGES/opcodes.mo 1b79e075af1926ef6736fa317f054702 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/pt_BR/LC_MESSAGES/gprof.mo e3fddb2aecf0942f7a13aa5348ddd11a 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru/LC_MESSAGES/binutils.mo f0258240e9b64cf9611e1cd020985e0a 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru/LC_MESSAGES/gas.mo e21d5e731a31d115fc5685e7918e1180 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru/LC_MESSAGES/bfd.mo 7acdb654e9f9fd3cd04aaafd0952bb85 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/ru/LC_MESSAGES/gprof.mo 4ccf806f6741dd20dbd51ad675cf4877 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/de
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/de/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/de/LC_MESSAGES/opcodes.mo 6881ecf19052fe945c5dfefc588207ab 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/de/LC_MESSAGES/gprof.mo f1c150dcdb59dfcf53610b240c629ba7 1355990294
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/binutils.mo 810261257e415b8d194dfb95a28b5cf3 1355990301
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/opcodes.mo d47776e427a062eaf76832cfe02c122b 1355990298
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/bfd.mo 03155ac55999ea99fd93db756c85d4fc 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/gold.mo 0952fb13719f896dee741e4dd733e6a5 1355990293
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/gprof.mo 6672c85403a880ff77896d264d4e1dd6 1355990295
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/vi/LC_MESSAGES/ld.mo a5d95d7d9cb740c6063a10a39d0d38e5 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/nl
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/nl/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/nl/LC_MESSAGES/opcodes.mo 6b7f6db13ec1f340c587ccd58c898e8b 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/nl/LC_MESSAGES/gprof.mo 8fbf0eb42cbc660fa4f531e95ea0827f 1355990295
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/uk
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/uk/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/uk/LC_MESSAGES/binutils.mo 4bd2869e9a1ff1ccb2a810f590dfc9cf 1355990301
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/binutils.mo 66a7c50a91ce3a30ce6124b85d6a45ef 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/gas.mo df112bde534ccee4748328baf62e143c 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/opcodes.mo 0354d8ebde8359a359d0703d9d897ba8 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/bfd.mo 90ed30ac694404cbbf6ac7df992ec725 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/gprof.mo 42e353d68b836d3e53533f27ca76e83b 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/fr/LC_MESSAGES/ld.mo d5a10269096e204ee0ba6696952df9f4 1355990297
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da
+dir /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES/binutils.mo 464b47c4d20bc96d8db3946e7c473a20 1355990300
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES/opcodes.mo 40631143014bf28aa6c4c18fb42c7e3f 1355990297
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES/bfd.mo af59cbed52c0a16ed933a2add351b7fd 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES/gprof.mo 48e64f6435b31c4a0cd11c906a0d206b 1355990294
+obj /usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/locale/da/LC_MESSAGES/ld.mo aa3f5b6b19d37fd67dae7c5f9d67c868 1355990297
+dir /usr/share/doc
+dir /usr/share/doc/binutils-2.22-r1
+obj /usr/share/doc/binutils-2.22-r1/README.bz2 e804f66c8415baf8216b9e803b6865ce 1355990310
+dir /usr/share/doc/binutils-2.22-r1/gas
+obj /usr/share/doc/binutils-2.22-r1/gas/NEWS.bz2 db87eef292c94c632c60604989639f28 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2010.bz2 f1640c66650e8a4def6af7fde95a928f 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/README.bz2 ed9e7977b4da60ea6bb9fd6eb802c73e 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2005.bz2 7322671c18be9bf7065e685a1e003ac5 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2004.bz2 d302e31206149bcd14ebdd7dbc808685 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2006.bz2 dc968205ada424bc1694d41c7cebad7c 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2008.bz2 7983c6226dd8a5ffdb26137fa101ca79 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog.bz2 7919b36954577ea0e6c135fd3b9c4fb0 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-9697.bz2 59a9c4f28169ad522a9d43331d0aaaf2 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2009.bz2 bc2bac44445ece5cff7511f04cbd03cc 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-9899.bz2 0f8ead1f5d85bcfe2dfb0b362c9f53fa 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gas/CONTRIBUTORS.bz2 4ea77939a6b9422bd98613d2d047114d 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-0001.bz2 571c99a738193dbec98785d9778e3b95 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-2007.bz2 5b9a537a7d5e76b594bbfc66103c4ff4 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-9295.bz2 6147f1b2e501df943b9e03ef6de25e28 1355990311
+obj /usr/share/doc/binutils-2.22-r1/gas/ChangeLog-0203.bz2 4ee1aa5e71d294a868b146b0ee332149 1355990311
+dir /usr/share/doc/binutils-2.22-r1/libiberty
+obj /usr/share/doc/binutils-2.22-r1/libiberty/README.bz2 ac886506bce10898c5d18818c2cc2503 1355990313
+obj /usr/share/doc/binutils-2.22-r1/libiberty/ChangeLog.bz2 9077a056f79c4ee2d685c79e9a7baf5a 1355990313
+dir /usr/share/doc/binutils-2.22-r1/ld
+obj /usr/share/doc/binutils-2.22-r1/ld/NEWS.bz2 adfe9aba7ceb1c6bcb8ca200a2415190 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2010.bz2 3a0a54e175525eb266a55e4deed6c45c 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/README.bz2 448327155f82b6969885a61c77ec895f 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2005.bz2 bb671721ad1bddcef1133cf5566d2213 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2004.bz2 479073b6ef050e742bd2e288f48c0fa8 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2006.bz2 f06f27a604174ba54abc66bb5b2124d0 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2008.bz2 82dd91f49d7d3c66f59ce0f8efdac3f2 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/TODO.bz2 0d1b3388c846140c1d0406db6cb040cb 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog.bz2 4f792e209b25425ce901faef22678482 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-9197.bz2 9227ccdd387dde304582a8c1aa258567 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2009.bz2 f9a85e7be3d80fe14b848c7e46959a31 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-9899.bz2 8b403936f3d45fee3dabde31dd2e92ba 1355990313
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-0001.bz2 312da5223aa720eeec0667ad9b5bf36a 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-2007.bz2 9d228b7b6b66452bba6f6155e986aafa 1355990312
+obj /usr/share/doc/binutils-2.22-r1/ld/ChangeLog-0203.bz2 04b82ca3d2c3bf9ff085766fe19e3ee5 1355990312
+dir /usr/share/doc/binutils-2.22-r1/binutils
+obj /usr/share/doc/binutils-2.22-r1/binutils/NEWS.bz2 1678a76b2cf3c7c80bb577f977a16505 1355990311
+obj /usr/share/doc/binutils-2.22-r1/binutils/README.bz2 dfe46eeae9a662419051899c809f6ff9 1355990311
+obj /usr/share/doc/binutils-2.22-r1/binutils/ChangeLog.bz2 658a81c491f5b880a6643c44063f2211 1355990311
+dir /usr/share/doc/binutils-2.22-r1/opcodes
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2010.bz2 d578db7a316e1e13669ebff6705beee4 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2005.bz2 64c02ea1e83a5f6481f87f4b76f7b144 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2004.bz2 0e70ff458bfdc942612ad377c2b45df6 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2006.bz2 b900f6d9b37ab68779c2f56e20775e26 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2008.bz2 d1faa41ceff611d8b17ac485611532a5 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog.bz2 f14d19e9627334ba9811d35046348c13 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2009.bz2 af0700dcb033c35b2b944c86c23e179d 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-9899.bz2 308af07c15a1ea48946474605fed4797 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-9297.bz2 3d988b8d53f3455df96ba9b55d9e5573 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-0001.bz2 311b034bdc8c26036bb84689ee6fec66 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-2007.bz2 d6ff28d3755980cd811c48bf257da5f0 1355990313
+obj /usr/share/doc/binutils-2.22-r1/opcodes/ChangeLog-0203.bz2 a6fcdabc2f1d5cd3680c44e2d302ab09 1355990313
+dir /usr/share/doc/binutils-2.22-r1/bfd
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2010.bz2 1867e8a789badb73b552b3eb1a9caf62 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/README.bz2 a01d343cba5d4b0622e337a4f72be1e1 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2005.bz2 f54fdddb87295586a20b5fe70f33edc2 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2004.bz2 95d35100a09a2504cb01a81ac4aaae1c 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-9495.bz2 6afe9cb445af288dd20910939cbb774c 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2006.bz2 cf3e5d2ed22c04c66f08c85bb268da82 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2008.bz2 df85715e4fc02a43cfdcecb1e763cadc 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/TODO.bz2 b6d4f675ba1e2d7303b0c577e78ae280 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/PORTING.bz2 6a22d555a503091d6e5800a5f267e28d 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog.bz2 ccf669406c4f05fa340b2e0fabadd45c 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-9697.bz2 4cda34b82a2d7e83fdc2e1b247cc6d10 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2009.bz2 7868b9de5b4718c38a4097edfaaec428 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-9899.bz2 3633202f2c1bf046a6f7da4013b9043c 1355990311
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-0001.bz2 9c70f2bf3ccb610764ba237b4dca60a8 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-2007.bz2 3a0116dd58d75988fc110a7b686e0fad 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-0203.bz2 393c8b5271f14ffe12ce6362056235c1 1355990310
+obj /usr/share/doc/binutils-2.22-r1/bfd/ChangeLog-9193.bz2 0f7e8450b298abb50459b00489dca7c1 1355990311
+dir /usr/share/doc/binutils-2.22-r1/gprof
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2010.bz2 9debd4f30f99784240f710d5ea6c769f 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2005.bz2 31c842b1b22b659346e7e0bebdb2cd8a 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2004.bz2 e2e3fdee5363bb88f2cd908ca3795b8b 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2006.bz2 548b6f39c2f382da82a24060eaa23b44 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2008.bz2 09957e03cc2664c9c34e2a2506d4e442 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/TODO.bz2 2e7011e85d641e23a8714f663f664831 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog.bz2 9ecb4249c41d92f229a78e778c11e86e 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2009.bz2 7dde4535b181a2cda6bae47f30346932 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/bbconv.pl.bz2 6b3d26c7943f875d74448376cd931887 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/TEST.bz2 1c7c2617c08dfee5260486c7f17f394e 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-9203.bz2 6e33e3cd052e512f566c740567659524 1355990312
+obj /usr/share/doc/binutils-2.22-r1/gprof/ChangeLog-2007.bz2 771c52a0441f560d0f571fa0b312daf5 1355990312
+dir /usr/armv6j-hardfloat-linux-gnueabi
+dir /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin
+dir /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/c++filt 86c201c28d2658049e1e56ba6cc8e459 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/objcopy c8298e7f067d55f6c07e72c6eb4e3fbd 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/elfedit b8dabe6ab05248d9f6b21aca7f2421e9 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/ld 9178c24589ca857d3c70c662c7537eb9 1355990320
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/ld.bfd 9178c24589ca857d3c70c662c7537eb9 1355990320
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/addr2line aad7e935509e17bc5f48fb2162a6884c 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/strings 6a5f544dc2e33c6486640ce48adc4ebf 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/readelf 0e6b0c1444f6be1ab389fdfc4a2cfd5f 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/nm 66f09b3f17a5dbe97423e8c19080a4f8 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/ar 24a7ac3b2673689a9f23fc058f0d08a6 1355990318
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/strip f13ec026801d46a42fb9be7db0514438 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/size aecdb9c5ee53a9b378fcbe26b73f7510 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/objdump fb2fb2323d4eb714cf746552ef9b798c 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/ranlib 49fe0e0f454246f2c89e050fe77fe011 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/gprof 323a77ce96172279f9fcaa80e0dd84cd 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/as d74e817f7f47b0e67c38dff4e7ee99f5 1355990319
+obj /usr/armv6j-hardfloat-linux-gnueabi/binutils-bin/2.22/ld.gold f3381f35ee55cf48172f9fd4c52ed066 1355990320
+dir /etc
+dir /etc/env.d
+dir /etc/env.d/binutils
+obj /etc/env.d/binutils/armv6j-hardfloat-linux-gnueabi-2.22 48baf5a9a4364961b9b72e3d8dc422fe 1355990310

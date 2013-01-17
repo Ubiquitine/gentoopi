@@ -1,0 +1,6 @@
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/unscd f39678495b1a47816fb9cc5054b4ccd2 1357747103
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/unscd 9c5a269c579f03a5282680929f67cacc 1357747118

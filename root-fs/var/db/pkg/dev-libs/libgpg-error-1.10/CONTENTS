@@ -1,0 +1,51 @@
+dir /usr
+dir /usr/include
+obj /usr/include/gpg-error.h be7d84ced0ba2309c1e9d18dca792bac 1356354186
+dir /usr/lib
+obj /usr/lib/libgpg-error.la 84937c57434320e6403fd2ba7d2cb74f 1356354185
+obj /usr/lib/libgpg-error.so.0.8.0 db00d18e0da676e7bbfbdcb67ead1820 1356354210
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libgpg-error-1.10
+obj /usr/share/doc/libgpg-error-1.10/README.bz2 493415682b25be97a64df777e580cb6d 1356354189
+obj /usr/share/doc/libgpg-error-1.10/AUTHORS.bz2 1baedca0a52a274e9c67293ea35ade6a 1356354189
+obj /usr/share/doc/libgpg-error-1.10/ChangeLog.bz2 216304faab88789336aec8a505c8c258 1356354189
+obj /usr/share/doc/libgpg-error-1.10/NEWS.bz2 7dab0c9e85183939ce231066253878f0 1356354189
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/libgpg-error.mo 9c921612a9a2aada30445357ca2f9fe6 1356354187
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/libgpg-error.mo 517096365addb04f5542bde1aea60964 1356354187
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/libgpg-error.mo f02420fe566a8b5abc1f773cc9fba846 1356354187
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo 6b75a88070c37acaf497b974d01b79cd 1356354188
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/libgpg-error.mo 271443146f6009a31a9c772f5f5b594e 1356354188
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/libgpg-error.mo 365619385d6a6cd0c83aa13577560ce3 1356354187
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/libgpg-error.mo 24a9f201868e26da4785cb96cc97ca93 1356354187
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/libgpg-error.mo d77b4f12b64c2b7ec1269a18aec73ed3 1356354187
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/libgpg-error.mo 1669fe6368412a95ae1c13810c03f973 1356354187
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/libgpg-error.mo 8a6af6a7eec2eb6dd20aee41deef7bbb 1356354188
+dir /usr/share/aclocal
+obj /usr/share/aclocal/gpg-error.m4 febe3efab8954b17db440a16a389c81f 1356354186
+dir /usr/bin
+obj /usr/bin/gpg-error-config ae974852a4ce3ec2b89e2bc8c619351f 1356354186
+obj /usr/bin/gpg-error 6d7620bcb49dce212c7b06b6a90dc780 1356354210
+sym /usr/lib/libgpg-error.so.0 -> libgpg-error.so.0.8.0 1356354235
+sym /usr/lib/libgpg-error.so -> libgpg-error.so.0.8.0 1356354235

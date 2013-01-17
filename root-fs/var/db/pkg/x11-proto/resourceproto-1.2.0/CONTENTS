@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/XResproto.h e1c1e03ea65c39b8f926d1729eae3bc9 1356438275
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/resourceproto.pc 08248516aca03ebb26414cd9bba9ca8d 1356438275
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/resourceproto-1.2.0
+obj /usr/share/doc/resourceproto-1.2.0/README.bz2 91c57d5623ac7f1baa9560b7e4efc5e2 1356438276
+obj /usr/share/doc/resourceproto-1.2.0/resproto.txt.bz2 ee6188f29c085aac97a3e41f61ea24f4 1356438275
+obj /usr/share/doc/resourceproto-1.2.0/ChangeLog.bz2 9f3ce87cca636997834546eb96a4745d 1356438276

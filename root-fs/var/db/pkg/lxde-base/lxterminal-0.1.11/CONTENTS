@@ -1,0 +1,190 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lxterminal.1.bz2 09a77a7c9a034565514ed5c206bff132 1356712008
+dir /usr/share/doc
+dir /usr/share/doc/lxterminal-0.1.11
+obj /usr/share/doc/lxterminal-0.1.11/README.bz2 837ddfaffd2eb430bf9d62b1a6f6d067 1356712008
+obj /usr/share/doc/lxterminal-0.1.11/AUTHORS.bz2 dd53b0fe79c51dda4ab259490d32d065 1356712008
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxterminal.mo a25f12eb205acdb508c0d8a6b6f2c633 1356711993
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxterminal.mo 10e017cfe33f9ace38e9542e734fd1c0 1356711999
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxterminal.mo 027af4043958828274f9aa44a4d609fe 1356711996
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxterminal.mo 5a95d4507569a9d83269462ed1611798 1356712004
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxterminal.mo 32d27c710ab610bad3d02676694bd0a8 1356711994
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxterminal.mo 2f68cc5de1a7fbb4bd8d2b38a10c27e2 1356711998
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxterminal.mo 311da0dfb64b3e9a524e713d5dcec1a4 1356711993
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxterminal.mo 55bc933a368cbde0bb16c4477753be2d 1356711994
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxterminal.mo 9368d93b240b591a203ec890a3946193 1356712005
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxterminal.mo 548845807a4709fd02d1501fbd5ab4ba 1356711999
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/lxterminal.mo e39434e33a0ddd36c7ca9229388b8376 1356712005
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxterminal.mo 1c657d89f154712b04c551cbfe466344 1356712003
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxterminal.mo b27c6d3d5b04f41814feec7f5680c70e 1356711997
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxterminal.mo 412ecf54c582b114b3600065707e8227 1356712007
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxterminal.mo b438778ff3a22a10e642a55f9d480108 1356712001
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxterminal.mo a3ed385372644958dfdc028ade7ae0b4 1356711998
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxterminal.mo f0eb7e2e5511ea2e11fb43f51c43f500 1356712005
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxterminal.mo 7d991c7943f175c0ee11c77640761251 1356711996
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxterminal.mo ec348f33f9eca10ebfad6d5ea4425f26 1356712002
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxterminal.mo cedc096b39c8bfe49a8a7c062d7652a8 1356711996
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxterminal.mo c6065ef81f0a3c50d5629532a71c8cf1 1356711994
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxterminal.mo ff552c516bfb4134465c6a1077873374 1356712003
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxterminal.mo 1628ae49574e17fc078165f83d081457 1356712006
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxterminal.mo 8c7c7fa4acaf6c73fb1201e3bf9c371c 1356712005
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxterminal.mo 2e2a8ac6f0dac093819976c328944a00 1356712000
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxterminal.mo 38cf481c06faccbe63dbd0117eb2a284 1356712000
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxterminal.mo 6cf74acd5651e8fef746622070b9ad98 1356711992
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxterminal.mo b0ca64e3f5e861fb3b47145ebb6edc38 1356711993
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxterminal.mo 20b93710ed5b485dd021f696fc774537 1356711998
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxterminal.mo e36a2054ef7c56a34d0b0da833106709 1356711993
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxterminal.mo 6a2dad1645d230fb331370a8798695f8 1356711997
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxterminal.mo 09c842065b010ee5acb19c9a06d284ef 1356712002
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxterminal.mo b4101d8da6d8de83ce8ed6937138f8bf 1356712006
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxterminal.mo 6bf2fe41e9d20780edcc3373d0c26d28 1356712000
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/lxterminal.mo 106e5e8d187b268fe5f9978c64a06666 1356711993
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxterminal.mo 3b1d1bb000804929e9b4a604a5eb7237 1356712006
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxterminal.mo eefe5662afe92f8a1429e5264fe6d485 1356711994
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxterminal.mo 232c1d8e4278ef0e1a5529f22c9a67d8 1356712002
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxterminal.mo e63482554736cbefc3e6821761fec64e 1356712004
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxterminal.mo 88da6e0e8d0d8481da119d3e1767654c 1356712000
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxterminal.mo 3a8326308f5e27128913c0f9658f6802 1356711999
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxterminal.mo 6e55a212290ef4f1d82e696fb0d30e0e 1356712003
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxterminal.mo a8b8aee240b67b087da764ebd0acb45a 1356712001
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxterminal.mo dc5cae01a0053f1ada2d99f8400f7500 1356711996
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxterminal.mo 86920095b3accbb069f9e4853745dbf3 1356712003
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxterminal.mo b495e34ed7c96e83b492b09ed87ec700 1356712002
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxterminal.mo 05d571f2c128c5f33641950fb950cacf 1356711999
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxterminal.mo 858bc005a30b634e182767380926beef 1356712001
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxterminal.mo 6dce81226a2715623a4bdc55900c2d43 1356712001
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxterminal.mo 7d36b4e8cc82a651a72d7aaa2932b768 1356711995
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxterminal.mo 32adabddfbc4c2b83441472458bc6995 1356711998
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxterminal.mo ba135935c7d3025bcae936a7a355b17b 1356711997
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxterminal.mo c8f7f5434a6113747c6840a97852fc05 1356711997
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxterminal.mo 4f072a33cd94a606f21b3ed4186350c1 1356711995
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxterminal.mo d7d5dd68fb8554ec0bce8d4d25196a44 1356711995
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxterminal.mo b4101d8da6d8de83ce8ed6937138f8bf 1356712006
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxterminal.mo 491fe9d3a148ca2f6ed9c322c44f901a 1356712004
+dir /usr/share/lxterminal
+obj /usr/share/lxterminal/lxterminal-preferences.ui eef57c7a8de0c02d6334a746e563f375 1356712007
+obj /usr/share/lxterminal/lxterminal.conf eae2505b13cf768b4c6c180ffe7aa910 1356712007
+dir /usr/share/applications
+obj /usr/share/applications/lxterminal.desktop 3fe4a283d2958fdb704be014751d87da 1356712007
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/lxterminal.png 9785efde87aec69f16841e9db0208490 1356712007
+dir /usr/bin
+obj /usr/bin/lxterminal 64dea3bbacaba5b57d4d624c4d152c09 1356712021

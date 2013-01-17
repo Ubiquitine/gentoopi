@@ -1,0 +1,95 @@
+dir /usr
+dir /usr/include
+obj /usr/include/jerror.h d98ec1fe249d099804a98005be9762b9 1356706730
+obj /usr/include/jpeglib.h e5c51e34eb8773db0928c2d2dfe92026 1356706730
+obj /usr/include/jmorecfg.h 18ca9c4b784d4477a50ca2a78d4a9169 1356706730
+obj /usr/include/jconfig.h 94860038b578a0850fd386149526e821 1356706732
+obj /usr/include/turbojpeg.h 419b1cec5ffefa81589ff9d01a268db9 1356706730
+dir /usr/lib
+obj /usr/lib/libjpeg.so.8.0.2 dd03820358aecbac42376c2421e5a416 1356706769
+obj /usr/lib/libturbojpeg.so 3f0bfd490cf936c103905892c40bb854 1356706769
+sym /usr/lib/libjpeg.so -> libjpeg.so.8.0.2 1356706802
+sym /usr/lib/libjpeg.so.8 -> libjpeg.so.8.0.2 1356706802
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/rdjpgcom.1.bz2 b631a1889c1a93f8bf299d45979fb8e2 1356706732
+obj /usr/share/man/man1/djpeg.1.bz2 6d378e2fdc77d05d256971bc526bc4ce 1356706731
+obj /usr/share/man/man1/wrjpgcom.1.bz2 284d7bbbf4a6ea28d64cbc5e63e80e71 1356706732
+obj /usr/share/man/man1/cjpeg.1.bz2 a58fc2d6400c202180b6ce3b5a548300 1356706731
+obj /usr/share/man/man1/jpegtran.1.bz2 efbab91e6103c2a92e9da8720f98e39b 1356706732
+obj /usr/share/man/man1/exifautotran.1.bz2 d8cb1446f34e05fa16d1e6f676f32fe0 1356706743
+obj /usr/share/man/man1/jpegexiforient.1.bz2 cca8c7957aef5a83137e6b902f801911 1356706743
+dir /usr/share/doc
+dir /usr/share/doc/libjpeg-turbo-1.2.1
+obj /usr/share/doc/libjpeg-turbo-1.2.1/README.bz2 aafb78f61676d45a335c79e95db40322 1356706729
+obj /usr/share/doc/libjpeg-turbo-1.2.1/README-turbo.txt.bz2 6c2d500928b129d0a77f6a2fbb575774 1356706729
+obj /usr/share/doc/libjpeg-turbo-1.2.1/example.c.bz2 8b9845a94e3b5b7c0e1389f82eebcbf8 1356706730
+obj /usr/share/doc/libjpeg-turbo-1.2.1/usage.txt.bz2 16ef1df746ad309953776fbd65222208 1356706730
+obj /usr/share/doc/libjpeg-turbo-1.2.1/changelog.debian.bz2 9a84068a79a191ff21ea39d6cbf9a617 1356706743
+obj /usr/share/doc/libjpeg-turbo-1.2.1/structure.txt.bz2 93309972622ab022e7105c57b58008a5 1356706729
+obj /usr/share/doc/libjpeg-turbo-1.2.1/wizard.txt.bz2 043d7fdf55360a4c4b560e2b04e32ddf 1356706730
+obj /usr/share/doc/libjpeg-turbo-1.2.1/libjpeg.txt.bz2 c0ab381bbc19ead394aa1788758e4394 1356706729
+dir /usr/share/doc/libjpeg-turbo-1.2.1/html
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/structtjtransform.html 0c9d6cd268a76f5a6125d30bbbc63381 1356706742
+dir /usr/share/doc/libjpeg-turbo-1.2.1/html/search
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_77.html 14432f8d2e034c6650546a65f4a9bafa 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_64.html a2104f642c8df029663d330f4b3e5123 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_6f.html c23a7959675a1a5ee7cb4e743d9cdded 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_6e.html 964667c58c01592551c51a2101d8565b 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_63.html cc647f7c193d830ecf3b975ef8427048 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/search_r.png 03ee24f1971c0e31ffb6246882e18edd 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_78.html d2cf7ecab1c76df4fdd08bab18002d29 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/search_m.png 20910c4cfe0e8efc8211bc9f7e58b7ff 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_64.html a2104f642c8df029663d330f4b3e5123 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_79.html 5c2b47c345c94c2e2171338a04780810 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_74.html 3899c2811e1cdfd49b647d4213fe5835 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/search.css 611981097000d1cd9afe35d5c547e98d 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_63.html cc647f7c193d830ecf3b975ef8427048 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_78.html d2cf7ecab1c76df4fdd08bab18002d29 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/search.js 45cb9894c56c0bcaf24d9852748780e1 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/mag_sel.png be03e63d7379983b28a2c092867a1d67 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_6e.html 964667c58c01592551c51a2101d8565b 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_72.html 32271508e2a1e9af56816fac0306442d 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/close.png f466a7fdf1edfb1aa52ffab60f819119 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_77.html 14432f8d2e034c6650546a65f4a9bafa 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/search_l.png 496450f84d51c69db49f756b2d0acc20 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_72.html 32271508e2a1e9af56816fac0306442d 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_68.html 941de996484b4663c63b31cb96bec82d 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_68.html 941de996484b4663c63b31cb96bec82d 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/all_6f.html c23a7959675a1a5ee7cb4e743d9cdded 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/nomatches.html 2414ad3cc0ed34da17bdc0d12c6d8ed6 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/classes_74.html 3899c2811e1cdfd49b647d4213fe5835 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/search/variables_79.html 5c2b47c345c94c2e2171338a04780810 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/tab_h.png 1c9eb453ee5d829a7f0aa78726d24b02 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/functions_vars.html 8af90f16efb665fea986a3362b7b9275 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/structtjregion.html 4fb8c4ace803558c853db5aedb0900fc 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/group___turbo_j_p_e_g.html 1c2ceb00adcdd1290be1e4482016fb39 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/tabs.css eda221bbdce3c6877d00dc855808a583 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/modules.html af1e4491ad616a59226a48cbf9453096 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/annotated.html 78932b287a2071f37343bd8851d31131 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/nav_h.png fa55df91926234cb3a84a880f2b6593c 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/tab_s.png f0f51e7aa35137cbc4e0c2d4d7f4eaf7 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/installdox 682bfb22e0aab540f51a81ad25d1a109 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/nav_f.png 0d76351b6560933b02d7cb7877f0199a 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/functions.html e50477d7157fe434a312d7eeee86d801 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/tab_b.png 657cf13e55b800027fd46c17af02904c 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/closed.png b86c6f4907f4fc5a10694c3495ab759d 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/tab_a.png ef2875e1c0d52fe9056617c2ba3ae713 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/open.png 89b7c039fdfa803083989337312c177f 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/jquery.js f75690f25e3347ded91834300278729b 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/doxygen.png 1308b6e47c105a23f87d44820856e11f 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/doxygen.css d314ff9025baf2cfaa1f238c37723d7b 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/bc_s.png 39288f88be2912de1677afe29e288d2b 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/structtjscalingfactor.html 4edf2e5be402efefe789ce2d15284f16 1356706742
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/classes.html 293f11331d0c9caf98f20cc1da4af0b1 1356706741
+obj /usr/share/doc/libjpeg-turbo-1.2.1/html/index.html c925de8f2a1a3fc33b9c6ada58105205 1356706741
+dir /usr/bin
+obj /usr/bin/jpegexiforient 6ed1e476bf9375ae5925242fa6f761b6 1356706770
+obj /usr/bin/cjpeg df5d68dfe965596525e692340c36725c 1356706770
+obj /usr/bin/tjbench 6d540e5f402a273da50bbb13eb4ea2be 1356706770
+obj /usr/bin/exifautotran 1d48688e9eb459a7af8e24238521e11a 1356706743
+obj /usr/bin/wrjpgcom b3221de1969257aa2c8f7d733a1c4648 1356706770
+obj /usr/bin/rdjpgcom 6f6a73b0cf66129f0b826a851019a3b7 1356706770
+obj /usr/bin/djpeg 4103f12fbac8c57e729990da589bf505 1356706770
+obj /usr/bin/jpegtran 6633f8a58842c350c11606287ba79036 1356706770

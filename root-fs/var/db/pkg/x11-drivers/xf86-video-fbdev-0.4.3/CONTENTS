@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/xorg
+dir /usr/lib/xorg/modules
+dir /usr/lib/xorg/modules/drivers
+obj /usr/lib/xorg/modules/drivers/fbdev_drv.so 2042de4bac9376dfed37813e33065c84 1356462677
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man4
+obj /usr/share/man/man4/fbdev.4.bz2 15252eabeedb527453c638cffb7fc139 1356462652
+dir /usr/share/doc
+dir /usr/share/doc/xf86-video-fbdev-0.4.3
+obj /usr/share/doc/xf86-video-fbdev-0.4.3/README.bz2 fdf07210ed1b5cd0d069785fb0ca9aa0 1356462652
+obj /usr/share/doc/xf86-video-fbdev-0.4.3/ChangeLog.bz2 3833857ebc27db6e175c2eb246c18d12 1356462653

@@ -1,0 +1,1 @@
+sys-auth/consolekit x11-libs/libxcb x11-libs/gtk+:2 sys-devel/gettext virtual/pam

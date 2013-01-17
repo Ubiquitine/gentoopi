@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/eselect
+dir /usr/share/eselect/modules
+obj /usr/share/eselect/modules/python.eselect fbca8c9b8f65246777c648335a2d2edb 1355997241
+dir /usr/bin
+obj /usr/bin/python-wrapper 164dd2c8519908d1710bb91ad5f9bb1f 1355997243
+dir /etc
+dir /etc/env.d
+dir /etc/env.d/python
+obj /etc/env.d/python/.keep_app-admin_eselect-python-0 d41d8cd98f00b204e9800998ecf8427e 1355997241

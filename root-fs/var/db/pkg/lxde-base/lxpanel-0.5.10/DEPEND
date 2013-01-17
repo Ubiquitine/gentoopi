@@ -1,0 +1,1 @@
+x11-libs/gtk+:2 x11-libs/libXmu x11-libs/libXpm lxde-base/lxmenu-data lxde-base/menu-cache media-libs/alsa-lib virtual/pkgconfig sys-devel/gettext || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

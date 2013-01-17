@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/bigreqstr.h 776934e2e5d14c3cf79ed72d0be78207 1356436174
+obj /usr/include/X11/extensions/bigreqsproto.h 521f0325535cb7191a560040e60e28bf 1356436174
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/bigreqsproto.pc 2beb1bb3fca5e9eb8938c502808ed91e 1356436174
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/bigreqsproto-1.1.2
+obj /usr/share/doc/bigreqsproto-1.1.2/README.bz2 2a762a24d714d3fca1f3221054814f0b 1356436175
+obj /usr/share/doc/bigreqsproto-1.1.2/ChangeLog.bz2 ad243adc37ec3dd614cb106a2ebee3c2 1356436175

@@ -1,0 +1,41 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libattr.so c8c6f651f10480390917baf35cce9387 1355998702
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/attr.5.bz2 37591b60860aefcd0aeaeffe050f72b9 1355998701
+dir /usr/share/man/man3
+obj /usr/share/man/man3/attr_multi.3.bz2 e52a02df5a85160fd0a674d182a93eac 1355998702
+obj /usr/share/man/man3/attr_remove.3.bz2 20146a257fc8fae64f5b618480398094 1355998702
+sym /usr/share/man/man3/attr_removef.3.bz2 -> attr_remove.3.bz2 1355998712
+obj /usr/share/man/man3/attr_list.3.bz2 6c3f3cbaf764fc7c51c97f116e6a88f4 1355998701
+sym /usr/share/man/man3/attr_multif.3.bz2 -> attr_multi.3.bz2 1355998712
+obj /usr/share/man/man3/attr_set.3.bz2 52f0cc9e4e46f4f3a4e8f1c79a5fc72c 1355998702
+obj /usr/share/man/man3/attr_get.3.bz2 81f2efa8260af85626e227638358c6a3 1355998701
+sym /usr/share/man/man3/attr_listf.3.bz2 -> attr_list.3.bz2 1355998712
+dir /usr/share/man/man1
+obj /usr/share/man/man1/attr.1.bz2 b6ca7cca5602d05f2794f03c32a2a911 1355998700
+obj /usr/share/man/man1/setfattr.1.bz2 64ed1f6b85d6237556f8432908de2b97 1355998701
+obj /usr/share/man/man1/getfattr.1.bz2 cb87d0ebebbad318621637ea0471ea5e 1355998700
+dir /usr/share/doc
+dir /usr/share/doc/attr-2.4.46-r1
+obj /usr/share/doc/attr-2.4.46-r1/COPYING.bz2 3664dc3df3322e4ef69f5a3a536f0c00 1355998701
+obj /usr/share/doc/attr-2.4.46-r1/README.bz2 9d7503ad9e191ada9c6427d7fe2b59f5 1355998701
+obj /usr/share/doc/attr-2.4.46-r1/PORTING.bz2 cee77abd560ccd4a24756b6c56bfd156 1355998701
+obj /usr/share/doc/attr-2.4.46-r1/CHANGES.bz2 71b4b75bf05681225ffe7a84229abeb1 1355998701
+dir /usr/include
+dir /usr/include/attr
+obj /usr/include/attr/xattr.h 3a0e573885ff4ed98a6050d9c301b2c0 1355998701
+obj /usr/include/attr/error_context.h 6f42edf1e950883ad34ebc085e979e6b 1355998701
+obj /usr/include/attr/libattr.h 6a04e6fbc705ceb6a41f3b8f456d987f 1355998701
+obj /usr/include/attr/attributes.h 6e8cc1ed17abf2c230037b45e1aab4f4 1355998701
+dir /lib
+obj /lib/libattr.so.1.1.0 9a5953e3f43ac2102c45c1af17267df4 1355998705
+dir /bin
+obj /bin/getfattr 1e76994664261ba79b110cb83c538c95 1355998705
+obj /bin/attr 4b503af23b86f82059ab24e8d0a910d7 1355998705
+obj /bin/setfattr cb0f3f0cba35e0d46f1330c73981888f 1355998705
+sym /usr/share/man/man3/attr_setf.3.bz2 -> attr_set.3.bz2 1355998712
+sym /usr/share/man/man3/attr_getf.3.bz2 -> attr_get.3.bz2 1355998712
+sym /lib/libattr.so.1 -> libattr.so.1.1.0 1355998712

@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.31.0:2 >=media-libs/libpng-1.4:0 x11-libs/libX11 !<gnome-base/gail-1000 !<gnome-base/librsvg-2.31.0 !<x11-libs/gtk+-2.21.3:2 !<x11-libs/gtk+-2.90.4:3

@@ -1,0 +1,7 @@
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/build-docbook-catalog a271b1ba5c3a936078a146f347bbe0c2 1356804035
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/build-docbook-catalog-1.19.1
+obj /usr/share/doc/build-docbook-catalog-1.19.1/README.bz2 c25df53db7b0808462b746ee16f6ecb6 1356804035

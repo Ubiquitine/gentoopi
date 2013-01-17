@@ -1,0 +1,49 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/lxsession
+dir /etc/xdg/lxsession/LXDE
+obj /etc/xdg/lxsession/LXDE/desktop.conf b6f11f62331389ecf6b1c7ea4c85a74a 1356711772
+obj /etc/xdg/lxsession/LXDE/autostart 9958557aebbd124ef9a9d90fe65ad2b0 1356711772
+dir /etc/xdg/pcmanfm
+dir /etc/xdg/pcmanfm/LXDE
+obj /etc/xdg/pcmanfm/LXDE/pcmanfm.conf 4e9ba9070204d9b07be793c8b297b893 1356711773
+dir /etc/X11
+dir /etc/X11/Sessions
+obj /etc/X11/Sessions/lxde 99c9d50a0f97b09da4b940a0f4340da1 1356711773
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/startlxde.1.bz2 ffbcae32ea3f411986e8011dbf1dfcb4 1356711771
+obj /usr/share/man/man1/openbox-lxde.1.bz2 24c8fb15092e57f2395a89adf93135a1 1356711771
+obj /usr/share/man/man1/lxde-logout.1.bz2 597e094053efcf1e27b60ec7c030183f 1356711771
+dir /usr/share/lxpanel
+dir /usr/share/lxpanel/profile
+dir /usr/share/lxpanel/profile/LXDE
+obj /usr/share/lxpanel/profile/LXDE/config 0b3e670b0faa8a2dd1dcd3f9c2eae65b 1356711772
+dir /usr/share/lxpanel/profile/LXDE/panels
+obj /usr/share/lxpanel/profile/LXDE/panels/panel 0bb6177b264c18acc76d26cb5e918022 1356711772
+dir /usr/share/lxde
+dir /usr/share/lxde/openbox
+obj /usr/share/lxde/openbox/menu.xml 7592ced9af732e30640223f162bb3487 1356711773
+obj /usr/share/lxde/openbox/rc.xml d547dba35ef049599796b7d45f6fbeba 1356711773
+dir /usr/share/lxde/images
+obj /usr/share/lxde/images/logout-banner.png c092e06bac87407314fa470f4786165f 1356711772
+obj /usr/share/lxde/images/lxde-icon.png 711595f927e2b3a070c049fc17da965f 1356711772
+dir /usr/share/lxde/wallpapers
+obj /usr/share/lxde/wallpapers/lxde_blue.jpg f52ed9fbf7a01d62a299fec12c2752d0 1356711773
+obj /usr/share/lxde/wallpapers/lxde_red.jpg 52e3d89d8da70c9a13085cd18726d9a7 1356711773
+obj /usr/share/lxde/wallpapers/lxde_green.jpg 25c237ea2ff10ecc6267bf636f5ea435 1356711773
+dir /usr/share/doc
+dir /usr/share/doc/lxde-common-0.5.5-r3
+obj /usr/share/doc/lxde-common-0.5.5-r3/README.bz2 2489edf0ce9e8b92c470710d2d0ae3bb 1356711774
+obj /usr/share/doc/lxde-common-0.5.5-r3/AUTHORS.bz2 2bdfd5d0c22caf318c802efb39f37bcb 1356711774
+obj /usr/share/doc/lxde-common-0.5.5-r3/ChangeLog d41d8cd98f00b204e9800998ecf8427e 1356711774
+dir /usr/share/applications
+obj /usr/share/applications/lxde-logout.desktop 88fad1c5c9eecb6a027239c0bc5318d8 1356711772
+dir /usr/share/xsessions
+obj /usr/share/xsessions/LXDE.desktop bff953ccc47d65d1ca6410e76ca34e71 1356711773
+dir /usr/bin
+obj /usr/bin/openbox-lxde c3869fe62f3ce9da41ae6b492d2de8ba 1356711772
+obj /usr/bin/lxde-logout e802f844adcbca27bdb65a5e2a3fd93a 1356711772
+obj /usr/bin/startlxde 658357248739b16bada143b81e669a31 1356711772

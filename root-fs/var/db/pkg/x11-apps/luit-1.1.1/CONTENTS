@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/luit.1.bz2 b85e6e557cd58397a18aaa236b757521 1356516235
+dir /usr/share/doc
+dir /usr/share/doc/luit-1.1.1
+obj /usr/share/doc/luit-1.1.1/README.bz2 6dc091ad343394c0c38bbd3334372fa6 1356516236
+obj /usr/share/doc/luit-1.1.1/ChangeLog.bz2 5536f04246d9f7584d6e5315037481fd 1356516237
+dir /usr/bin
+obj /usr/bin/luit 84b4c9ef35fa9c664766e870225dfccf 1356516261

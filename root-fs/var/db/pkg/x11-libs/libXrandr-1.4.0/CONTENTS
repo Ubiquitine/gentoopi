@@ -1,0 +1,34 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xrandr.h a72429698c6f5364c15e95f0e63a6832 1356530826
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xrandr.pc cf08ace36e10b0604000818fd76fb0e2 1356530826
+obj /usr/lib/libXrandr.so.2.2.0 27501ba143eb45f763e9ee38ed952e3e 1356530854
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XRRQueryVersion.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRConfigSizes.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRRootToScreen.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRSetScreenConfigAndRate.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRSetScreenConfig.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRQueryExtension.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRFreeScreenConfigInfo.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRConfigCurrentConfiguration.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRConfigTimes.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRConfigRotations.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRGetScreenInfo.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRConfigCurrentRate.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/Xrandr.3.bz2 aa59ed8de2a36411ff5479c1cf6f8cac 1356530826
+obj /usr/share/man/man3/XRRConfigRates.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+obj /usr/share/man/man3/XRRSelectInput.3.bz2 91aeb5a55e7804d1e2744ffc37a60ef2 1356530826
+dir /usr/share/doc
+dir /usr/share/doc/libXrandr-1.4.0
+obj /usr/share/doc/libXrandr-1.4.0/README.bz2 cc8e64cbef0e4bb6544aa118fa74842c 1356530827
+obj /usr/share/doc/libXrandr-1.4.0/AUTHORS.bz2 b1b90d77221e136183a57dabdef6394d 1356530828
+obj /usr/share/doc/libXrandr-1.4.0/ChangeLog.bz2 d6c3f7c35fa0f32f228bf78f1c3d2a65 1356530828
+sym /usr/lib/libXrandr.so -> libXrandr.so.2.2.0 1356530883
+sym /usr/lib/libXrandr.so.2 -> libXrandr.so.2.2.0 1356530884

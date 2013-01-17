@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/opengl
+dir /usr/lib/opengl/global
+dir /usr/lib/opengl/global/include
+dir /usr/lib/opengl/global/include/GL
+obj /usr/lib/opengl/global/include/GL/glext.h 2e25aa62f33aa3f30248ddba2b159856 1356441699
+obj /usr/lib/opengl/global/include/GL/glxext.h 2038086f78d7c6bca91822ed4212a35e 1356441699
+dir /usr/share
+dir /usr/share/eselect
+dir /usr/share/eselect/modules
+obj /usr/share/eselect/modules/opengl.eselect a78f13be6b5863f0354f44527bb31e94 1356441698
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/opengl.eselect.5.bz2 deb7d69d5f02841835fc25572f3881dd 1356441698

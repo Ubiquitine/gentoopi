@@ -1,0 +1,5 @@
+/usr/lib/misc/awk/pwcat libc.so.6
+/usr/lib/misc/awk/grcat libc.so.6
+/usr/bin/dgawk libreadline.so.6,libdl.so.2,libm.so.6,libgcc_s.so.1,libc.so.6
+/usr/bin/pgawk libdl.so.2,libm.so.6,libgcc_s.so.1,libc.so.6
+/bin/gawk libdl.so.2,libm.so.6,libgcc_s.so.1,libc.so.6

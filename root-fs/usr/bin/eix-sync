@@ -1,0 +1,514 @@
+#! /usr/bin/env sh
+# This script is part of the eix project and distributed under the
+# terms of the GNU General Public License v2.
+#
+# Authors and Copyright (c):
+#   Emil Beinroth <emilbeinroth@gmx.net> (original)
+#   Martin V\"ath <vaeth@mathematik.uni-wuerzburg.de> (complete rewrite)
+#
+# This script calls emerge --sync and shows the differences.
+# See the eix manpage for details. (eix 0.25.5).
+
+time_begin=`date '+%s' 2>/dev/null` || time_begin=
+
+. '/usr/bin/eix-functions.sh'
+ReadFunctions
+
+ReadVar local_varcache EPREFIX_PORTAGE_CACHE
+ReadVar eixcache EIX_CACHEFILE
+ReadVar eixprevious EIX_PREVIOUS
+ReadVar local_portage_configroot PORTAGE_CONFIGROOT
+eixsyncconf="${local_portage_configroot}/etc/eix-sync.conf"
+
+Usage() {
+	n=${0##*/}
+	p='eix 0.25.5'
+	eval_gettext 'Usage: ${n} [options]
+Call layman/emerge --sync/--metadata and show updates. (${p})
+
+Unless the -t option is used, the old database will be saved to
+    ${eixprevious}.
+
+The file ${eixsyncconf} and the eix (environment) variable EIX_SYNC_CONF
+(which defaults to delayed substitution of EIX_SYNC_OPTS) determine for
+which overlays layman is called, which default options are used, and they
+can contain various hooks - "man eix" for details.
+
+Be aware that e.g. the default EIX_SYNC_OPTS are evaluated so be sure to
+quote them correctly and care about security risks.
+Moreover, "--" in the default options will forbid command line options.
+The following options are available:
+
+-i   Ignore all previous options (useful to ignore ${eixsyncconf} options).
+-s [USER@]SERVER[:DIR] Sync via rsync from SERVER.
+     USER defaults to current user and DIR defaults to PORTDIR.
+     An empty SERVER cancels this option. This option implies -0
+-0   No eix --sync
+-2 [USER@]CLIENT[:DIR] Sync via rsync *to* CLIENT after successful syncing;
+     you should later call eix-sync -u locally on CLIENT.
+     If you already have synced you might want to combine this option with -uU.
+-U   Do not touch the database and omit the hooks after eix-update (@ entries)
+     and do not show differences. This option implies -R
+-u   Update database only and show differences. This is equivalent to -0l@s ""
+-F   Make layman or failed hooks (! !! ~ @ @@ entries) fatal. This can be
+     forced/overridden in hooks by (un)setting FATAL_HOOKS or calling die.
+-l   Do not call layman (and the !commands in ${eixsyncconf}).
+     However, the !! lines and postponed hooks (@ and @@ entries)
+     will be executed anyway.
+-@   Do not execute the hooks (@ and @@ entries) of ${eixsyncconf}.
+-S   Do not execute the hooks after emerge --sync (@ entries).
+-M   Run emerge --metadata. You might need this when you use e.g.
+     PORTDIR_CACHE_METHOD=flat and a newer portage version when
+     FEATURES=metadata-transfer is inactive or disabled.
+-N   Cancel a previous -M.
+-t   Use temporary file to save the current database (-d will not be possible).
+-T   Do not measure time
+-q   Be quiet (close stdout)
+-w   Run emerge-webrsync instead of emerge --sync.
+-W   Run emerge-delta-webrsync instead of emerge --sync.
+-c CMD Run CMD instead of emerge --sync.
+-C OPT Add OPT to the emerge --sync command (or whatever is used instead).
+       This option can be used accumulatively.
+-o OPT Add OPT to each eix-update command.
+       This option can be used accumulatively.
+-L OPT Add OPT to each call of layman.
+       This option can be used accumulatively.
+-r   Clear /var/cache/edb/dep/* before syncing. This is only useful when you
+     use e.g. PORTDIR_CACHE_METHOD=flat and FEATURES=metadata-transfer
+     is active. (This option is not default anymore).
+-R   Cancel previous -r (e.g. if it was used in ${eixsyncconf}).
+-H   Suppress status line update.
+-h   Show this text and exit.'
+	echo
+	exitcode=${1:-1}
+	Exit ${exitcode}
+}
+
+WarnOrDie() {
+	[ -z "${FATAL_HOOKS:++}" ] || die "${@}"
+	ewarn "${@}"
+}
+
+DoExecute() {
+	for curr_cmd
+	do	set +f
+		eval "${curr_cmd}" || WarnOrDie "`eval_gettext \
+			'Something went wrong with ${curr_cmd}'`"
+	done
+}
+
+ParseConfigLine() {
+	j=${2}
+	while :
+	do	case ${j} in
+		' '*|'	'*)
+			j=${j#?};;
+		*' '|*'	')
+			j=${j%?};;
+		''|'#'*)
+			return;;
+		*)
+			break;;
+		esac
+	done
+	case ${j} in
+	'!!'*)
+		[ "${1}" = 'opts' ] && DoExecute "${j#??}"
+		return;;
+	'!'*)
+		j=${j#?}
+		mycmd='!';;
+	'@@'*)
+		j=${j#??}
+		mycmd='@@';;
+	'@'*)
+		j=${j#?}
+		mycmd='@';;
+	'~'*)
+		j=${j#?}
+		mycmd='~';;
+	'-'*)
+		config_opts="${config_opts} ${j}"
+		return;;
+	*)
+		mycmd='layman';;
+	esac
+	[ "${1}" = 'opts' ] && return
+	case ${mycmd} in
+	'@@')
+		Push after_update "${j}"
+		return;;
+	'@')
+		Push after_sync "${j}"
+		return;;
+	'~')
+		Push before_rsync "${j}"
+		return;;
+	'!')
+		${nolayman} || DoExecute "${j}"
+		return;;
+	esac
+	${nolayman} && return
+	case ${-} in
+	*f*)
+		eval "set -- ${layman_opt}";;
+	*)
+		set -f
+		eval "set -- ${layman_opt}"
+		set +f;;
+	esac
+	if [ "${j}" = '*' ]
+	then	MyRunCommand "`gettext 'Syncing all portage overlays'`" \
+			"${mycmd}" -S "${@}" \
+			|| WarnOrDie "`eval_gettext '${mycmd} -S failed'`"
+		return
+	fi
+	MyRunCommand "`eval_gettext 'Syncing portage overlay ${j}'`" \
+		"${mycmd}" -s "${j}" "${@}" \
+		|| WarnOrDie "`eval_gettext '${mycmd} -s ${j} failed'`"
+}
+
+test -r "${eixsyncconf}" && haveconf=: || haveconf=false
+ReadVar eix_sync_conf EIX_SYNC_CONF
+ExecuteConfig() {
+	after_sync=
+	after_update=
+	before_rsync=
+	config_opts=
+	rsync_opts=
+	${haveconf} && while read confline
+	do	ParseConfigLine "${1}" "${confline}"
+	done <"${eixsyncconf}"
+	while read confline
+	do	ParseConfigLine "${1}" "${confline}"
+	done <<END_EIX_SYNC_CONF
+${eix_sync_conf}
+END_EIX_SYNC_CONF
+}
+
+
+# Get options from cli
+
+DefaultOpts() {
+	Push -c emergecmd 'emerge' '--sync'
+	Push -c updatecmd 'eix-update'
+	Push -c layman_opt
+	clearcache=false
+	nolayman=false
+	nohooks=false
+	quiet=false
+	usetemp=false
+	measure_time=:
+	metadata=false
+	skip_sync=false
+	server=
+	client=
+	doupdate=:
+	synchooks=:
+	FATAL_HOOKS=
+}
+
+DefaultOpts
+ExecuteConfig 'opts'
+
+set -f
+eval "Push -c opt ${config_opts}"
+Push opt "${@}"
+eval "set -- ${opt}"
+set +f
+OPTIND=1
+while getopts 'is:02:UuFl@SMNtTqwWL:c:C:o:rRHh?' opt
+do	case ${opt} in
+	i)	DefaultOpts;;
+	s)	server=${OPTARG};;
+	0)	skip_sync=:;;
+	2)	client=${OPTARG};;
+	U)	doupdate=false;;
+	u)	nolayman=:
+		nohooks=:
+		skip_sync=:
+		server=;;
+	F)	FATAL_HOOKS=':';;
+	l)	nolayman=:;;
+	'@')	nohooks=:;;
+	S)	synchooks=false;;
+	M)	metadata=:;;
+	N)	metadata=false;;
+	t)	usetemp=:;;
+	T)	measure_time=false;;
+	q)	quiet=:;;
+	L)	Push layman_opt "${OPTARG}";;
+	w)	Push -c emergecmd 'emerge-webrsync';;
+	W)	Push -c emergecmd 'emerge-delta-webrsync';;
+	c)	Push -c emergecmd "${OPTARG}";;
+	C)	Push emergecmd "${OPTARG}";;
+	o)	Push updatecmd "${OPTARG}";;
+	r)	clearcache=:;;
+	R)	clearcache=false;;
+	H)	statusline=false
+		export NOSTATUSLINE=true;;
+	*)	Usage 0;;
+	esac
+done
+opt=
+[ -z "${server:++}" ] || skip_sync=:
+
+${measure_time} || time_begin=
+measure_time=false
+
+IsNumber() (
+	unset LC_ALL
+	LC_COLLATE=C
+	case ${1} in
+	*[!0-9]*)	false;;
+	esac
+)
+
+IsNumber "${time_begin:-x}" && [ "${time_begin}" -gt 99 ] && {
+	t=`Expr "${time_begin}" - 99 2>/dev/null` || t=0
+	[ "${t}" -gt 0 ] && [ "${time_begin}" -gt "${t}" ]
+} >/dev/null 2>&1 && measure_time=:
+
+MyRun() {
+	if [ "${1}" = '-t' ]
+	then	if ${measure_time}
+		then	timevar="time_${2}"
+			shift 2
+			begt=`date '+%s' 2>/dev/null` || measure_time=false
+			"${@}"
+			runstat=${?}
+			${measure_time} && endt=`date +%s 2>/dev/null` \
+				|| measure_time=false
+			${measure_time} && \
+				eval ${timevar}'=`Expr "${endt}" - "${begt}"`'
+			return ${runstat}
+		fi
+		shift 2
+	fi
+	"${@}"
+}
+
+MyRunCommand() {
+	StatusInfo "${1}"
+	shift
+	MyRun "${@}"
+}
+
+DoHook() {
+	${nohooks} && return
+	case ${-} in
+	*f*)
+		eval "set -- ${1}";;
+	*)
+		set -f
+		eval "set -- ${1}"
+		set +f;;
+	esac
+	DoExecute "${@}"
+}
+
+MyVarCommand() {
+	myvarcmdvar=${1}
+	shift
+	myvarcmdargs=${*}
+	case ${-} in
+	*f*)
+		eval "set -- ${myvarcmdvar}";;
+	*)
+		set -f
+		eval "set -- ${myvarcmdvar}"
+		set +f;;
+	esac
+	myvarcmd=${*}
+	MyRunCommand "`eval_gettext 'Running ${myvarcmd}'`" \
+		${myvarcmdargs} "${@}" \
+		|| die "`eval_gettext '${myvarcmd} failed'`"
+}
+
+time_iupdate=
+time_sync=
+time_client=
+time_metadata=
+time_update=
+time_diff=
+PrintingTimes() {
+	[ -n "${1:++}" ] && [ "${1}" -gt 0 ] && \
+		printf "`gettext '%6d seconds for %s\n'`" "${1}" "${2}"
+}
+PrintTimes() {
+	${measure_time} || return 0
+	measure_time=false
+	einfo "`gettext 'Time statistics:'`"
+	PrintingTimes "${time_iupdate}"  "`gettext 'initial eix-update'`"
+	PrintingTimes "${time_sync}"     "`gettext 'syncing'`"
+	PrintingTimes "${time_client}"   "`gettext 'client syncing'`"
+	PrintingTimes "${time_metadata}" "`gettext 'metadata update'`"
+	PrintingTimes "${time_update}"   "`gettext 'eix-update'`"
+	PrintingTimes "${time_diff}"     "`gettext 'eix-diff'`"
+	ftime=`date '+%s' 2>/dev/null` || return
+	ftime=`Expr "${ftime}" - "${time_begin}" 2>/dev/null` && \
+		printf "`gettext '%6d seconds total\n'`" "${ftime}"
+}
+
+tmpfile=
+exitcode=0
+ExitAll() {
+	trap : EXIT HUP INT TERM
+	[ -z "${tmpfile:++}" ] || rm -f -- "${tmpfile}"
+	tmpfile=
+	trap - EXIT HUP INT TERM
+	PrintTimes
+	Exit ${exitcode}
+}
+${measure_time} && trap ExitAll EXIT HUP INT TERM
+
+MakeTempFile() {
+	AssignTemp tmpfile
+	trap ExitAll EXIT HUP INT TERM
+}
+
+preprsync=false
+PrepRsync() {
+	GetPortdir
+	hostdir=${1#*:}
+	if [ -n "${hostdir:++}" ] && [ "${hostdir}" != "${1}" ]
+	then	hostdir=${1}
+	else	hostdir="${1%%:*}:${local_portdir}"
+	fi
+	hostdir="${hostdir%/}/"
+	${preprsync} || [ -n "${rsync_opts:++}" ] && return
+	ReadVar portage_rsync_opts PORTAGE_RSYNC_OPTS || \
+		portage_rsync_opts='--recursive --links --safe-links --perms --times --compress --force --whole-file --delete --stats --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages'
+	ReadVar portage_rsync_extra_opts PORTAGE_RSYNC_EXTRA_OPTS
+	case ${-} in
+	*f*)
+		eval "set -- ${before_rsync}";;
+	*)
+		set -f
+		eval "set -- ${before_rsync}"
+		set +f;;
+	esac
+	for curr_cmd
+	do	if c=`eval "${curr_cmd}"`
+		then	eval "${c}" || WarnOrDie "`eval_gettext \
+				'${c} (output of ${curr_cmd}) failed'`"
+		else	WarnOrDie "`eval_gettext '${curr_cmd} failed'`"
+		fi
+	done
+	rsync_opts="${portage_rsync_opts} ${portage_rsync_extra_opts} --exclude=/.unionfs"
+	preprsync=:
+}
+
+ClearCache() {
+	${clearcache} || return 0
+	# Cleaning old cache
+	# portage 2.1_pre1 doesn't do this anymore, so *we* need to do it.
+	case ${-} in
+	*f*)
+		set +f
+		set -- "${local_varcache}"/var/cache/edb/dep/*
+		set -f;;
+	*)
+		set -- "${local_varcache}"/var/cache/edb/dep/*;;
+	esac
+	MyRunCommand "`eval_gettext \
+	'Removing old portage-cache in ${local_varcache}/var/cache/edb/dep'`" \
+		rm -rf -- "${@}" || WarnOrDie "`eval_gettext \
+		'rm -rf ${local_varcache}/var/cache/edb/dep/* failed'`"
+}
+
+CallEmergeSync() {
+	if [ -n "${server:++}" ]
+	then	PrepRsync "${server}"
+		MyRunCommand "rsyncing from ${hostdir}" -t sync \
+		rsync ${rsync_opts} -- "${hostdir}" "${local_portdir}" || \
+			die "`eval_gettext 'Could not rsync from ${hostdir}'`"
+		return
+	fi
+	${skip_sync} && return
+	MyVarCommand "${emergecmd}" -t sync
+}
+
+CallSyncClient() {
+	[ -z "${client:++}" ] && return
+	PrepRsync "${client}"
+	MyRunCommand "`eval_gettext 'rsyncing to ${hostdir}'`" -t client \
+		rsync ${rsync_opts} -- "${local_portdir}" "${hostdir}" || \
+			die "`eval_gettext 'Could not rsync to ${hostdir}'`"
+}
+
+CallEmergeMetadata() {
+	${doupdate} && ${metadata} || return 0
+	MyVarCommand 'emerge --metadata' -t metadata
+}
+
+CondUpdate() {
+	if test ! -f "${eixcache}"
+	then	einfo "`gettext 'eix-cache does not exist.'`"
+		MyVarCommand "${updatecmd}" -t iupdate
+		return
+	fi
+	eix --is-current || {
+		einfo "`gettext 'eix-cache format has changed.'`"
+		MyVarCommand "${updatecmd}" -t iupdate
+	}
+}
+
+CopyToTemp() {
+	StatusInfo "`eval_gettext \
+		'Copying old ${eixcache} cache to temporary file'`"
+	MakeTempFile
+	chmod a+r -- "${tmpfile}"
+	cp -p -- "${eixcache}" "${tmpfile}" || die "`eval_gettext \
+		'Could not copy database to temporary file ${tmpfile}'`"
+}
+
+CopyToPrevious() {
+	StatusInfo "`eval_gettext 'Copying old database to ${eixprevious}'`"
+	cp -p -- "${eixcache}" "${eixprevious}" || die "`eval_gettext \
+		'Could not copy database to ${eixprevious}'`"
+}
+
+CopyPrevious() {
+	${doupdate} || return 0
+	if ${usetemp}
+	then	CopyToTemp
+	else	CopyToPrevious
+	fi
+}
+
+UpdateDiff() {
+	${doupdate} || return 0
+	if ${usetemp}
+	then	d=${tmpfile}
+	else	d=${eixprevious}
+	fi
+	if test "${eixcache}" -nt "${d}" >/dev/null 2>&1
+	then	einfo "`gettext \
+			'eix-update was apparently already called in a hook'`"
+	else	MyVarCommand "${updatecmd}" -t update
+	fi
+	DoHook "${after_update}"
+	MyRunCommand "`gettext 'Calling eix-diff'`" \
+		-t diff eix-diff -- "${d}" || \
+		die "`gettext 'Failed to diff against current cache'`"
+	PrintTimes
+}
+
+MainSync() {
+	CondUpdate
+	ClearCache
+	CopyPrevious
+	ExecuteConfig 'sync'
+	CallEmergeSync
+	${synchooks} && DoHook "${after_sync}"
+	CallSyncClient
+	CallEmergeMetadata
+	UpdateDiff
+}
+
+${quiet} && exec >/dev/null
+
+MainSync
+
+Exit 0

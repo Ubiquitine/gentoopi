@@ -1,0 +1,109 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/help2man
+obj /usr/lib/help2man/bindtextdomain.so 6d05117006aeeaf18b959b5973db33fa 1356000026
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/help2man.info.bz2 23955d73789be9909d7d3ddfa8f2da6c 1356000021
+dir /usr/share/man
+dir /usr/share/man/eo
+dir /usr/share/man/eo/man1
+obj /usr/share/man/eo/man1/help2man.1.bz2 a165d5b1e2a60033f47d636360db16df 1356000021
+dir /usr/share/man/sv
+dir /usr/share/man/sv/man1
+obj /usr/share/man/sv/man1/help2man.1.bz2 f0835dd26268277758319e5e4a8a6cdb 1356000022
+dir /usr/share/man/pl
+dir /usr/share/man/pl/man1
+obj /usr/share/man/pl/man1/help2man.1.bz2 3aa1243e426062ec5dd5b469a1c7429e 1356000022
+dir /usr/share/man/fi
+dir /usr/share/man/fi/man1
+obj /usr/share/man/fi/man1/help2man.1.bz2 071279baaf8e32c182df91e085164a58 1356000022
+dir /usr/share/man/ja
+dir /usr/share/man/ja/man1
+obj /usr/share/man/ja/man1/help2man.1.bz2 74ba4631e4cd454fcbaa77f5a2279475 1356000021
+dir /usr/share/man/pt_BR
+dir /usr/share/man/pt_BR/man1
+obj /usr/share/man/pt_BR/man1/help2man.1.bz2 1e03a2cd5f08550650c464b307f18a33 1356000022
+dir /usr/share/man/el
+dir /usr/share/man/el/man1
+obj /usr/share/man/el/man1/help2man.1.bz2 d3cfa6c3f9818980977b8a8fb877dc13 1356000023
+dir /usr/share/man/ru
+dir /usr/share/man/ru/man1
+obj /usr/share/man/ru/man1/help2man.1.bz2 d06a1efe36c749306b9322cbd54ca364 1356000022
+dir /usr/share/man/de
+dir /usr/share/man/de/man1
+obj /usr/share/man/de/man1/help2man.1.bz2 6bcf6f4ec52b474c71d1cdff66849891 1356000022
+dir /usr/share/man/sr
+dir /usr/share/man/sr/man1
+obj /usr/share/man/sr/man1/help2man.1.bz2 0115b6341b440bdfda9f7fc6deeb15ea 1356000022
+dir /usr/share/man/vi
+dir /usr/share/man/vi/man1
+obj /usr/share/man/vi/man1/help2man.1.bz2 5bbde942b0b7391c70fb6412b92b3fb5 1356000022
+dir /usr/share/man/hr
+dir /usr/share/man/hr/man1
+obj /usr/share/man/hr/man1/help2man.1.bz2 0d1d11b42a9f3b63ab70a2a58155f5e2 1356000022
+dir /usr/share/man/it
+dir /usr/share/man/it/man1
+obj /usr/share/man/it/man1/help2man.1.bz2 8bd300eba359e15134508697641f7538 1356000022
+dir /usr/share/man/uk
+dir /usr/share/man/uk/man1
+obj /usr/share/man/uk/man1/help2man.1.bz2 47b1f282d6c312c93248f7f900926c98 1356000022
+dir /usr/share/man/fr
+dir /usr/share/man/fr/man1
+obj /usr/share/man/fr/man1/help2man.1.bz2 9c7a5792f4f0d1cde8fdb3d2bea857c2 1356000022
+dir /usr/share/man/man1
+obj /usr/share/man/man1/help2man.1.bz2 6bde0aed488ddc6cccfe94870b72f42f 1356000021
+dir /usr/share/locale
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/help2man.mo d9a6ccf175125c3416f9e29674e901a1 1356000021
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/help2man.mo 0023bbccb9525d0150cb37205f179d22 1356000022
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/help2man.mo f19cde68ce98bb3b956852122545a051 1356000022
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/help2man.mo 39f27b6d6a420b52437714cc1782fbfe 1356000022
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/help2man.mo a88d0762b20b7c1e25dd5de500a26649 1356000021
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/help2man.mo d40eb784961ebcdcbca9053690e3ef71 1356000022
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/help2man.mo 8758bc7b89d3261a264756882b185668 1356000023
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/help2man.mo 72362b84f80ad75fc3aed2a3f6a34eb2 1356000022
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/help2man.mo 71de4162bc6928b21178964ea0e0fd04 1356000022
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/help2man.mo d0c398d97317ffb199853797c60710bf 1356000021
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/help2man.mo 368f47d048677df1e43162f5afed81a6 1356000022
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/help2man.mo 7dbb3d9688b3b22d0ec8382fcc6f53c8 1356000022
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/help2man.mo 7d4cf8dfa998b2c71515c4f0d1dfab98 1356000022
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/help2man.mo 5310844e997dc247ba5653132425f658 1356000022
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/help2man.mo ea8ae62321bbacb4704f5505f2fb6dd2 1356000022
+dir /usr/share/doc
+dir /usr/share/doc/help2man-1.40.11
+obj /usr/share/doc/help2man-1.40.11/THANKS.bz2 5fb56134fd94986ded58936ceaebd355 1356000023
+obj /usr/share/doc/help2man-1.40.11/NEWS.bz2 fa90ac38d3b7dc4f8bb93949afe20142 1356000023
+obj /usr/share/doc/help2man-1.40.11/changelog.bz2 7fcbb199fec3e332665064b1c48b7e46 1356000023
+obj /usr/share/doc/help2man-1.40.11/README.bz2 7766c4048991d3297fa51dc1dc7b639f 1356000023
+dir /usr/bin
+obj /usr/bin/help2man 043244926de90050a16f435350e89450 1356000021

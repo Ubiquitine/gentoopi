@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/recordstr.h ff872b8a5c3097422c541dac4f81a7d3 1356438500
+obj /usr/include/X11/extensions/recordproto.h 69a7b52b5b7698a42288e9588fc788cf 1356438500
+obj /usr/include/X11/extensions/recordconst.h e209d6701f720ce5734d10826f536ed1 1356438500
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/recordproto.pc bed8795f0ce6d04a8412296faf75013c 1356438500
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/recordproto-1.14.2
+obj /usr/share/doc/recordproto-1.14.2/README.bz2 7e0adb9505cf536934b3a84357041317 1356438501
+obj /usr/share/doc/recordproto-1.14.2/ChangeLog.bz2 5bc50ca2e1ccfc116e4f252a55421b52 1356438501

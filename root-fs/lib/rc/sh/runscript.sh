@@ -1,0 +1,315 @@
+#!/bin/sh
+# Shell wrapper for runscript
+
+# Copyright (c) 2007-2009 Roy Marples <roy@marples.name>
+# Released under the 2-clause BSD license.
+
+verify_boot()
+{
+	if [ ! -e ${RC_SVCDIR}/softlevel ]; then
+		eerror "You are attempting to run an openrc service on a"
+		eerror "system which openrc did not boot."
+		eerror "You may be inside a chroot or you may have used"
+		eerror "another initialization system to boot this system."
+		eerror "In this situation, you will get unpredictable results!"
+		eerror
+		eerror "If you really want to do this, issue the following command:"
+		eerror "touch ${RC_SVCDIR}/softlevel"
+		exit 1
+	fi
+	return 0
+}
+
+sourcex()
+{
+	if [ "$1" = "-e" ]; then
+		shift
+		[ -e "$1" ] || return 1
+	fi
+	if ! . "$1"; then
+		eerror "$RC_SVCNAME: error loading $1"
+		exit 1
+	fi
+}
+
+sourcex "/lib/rc/sh/functions.sh"
+sourcex "/lib/rc/sh/rc-functions.sh"
+
+# Support LiveCD foo
+if sourcex -e "/sbin/livecd-functions.sh"; then
+	livecd_read_commandline
+fi
+
+if [ -z "$1" -o -z "$2" ]; then
+	eerror "$RC_SVCNAME: not enough arguments"
+	exit 1
+fi
+
+# So daemons know where to recall us if needed
+export RC_SERVICE="$1"
+shift
+
+# Compat
+export SVCNAME=$RC_SVCNAME
+
+# Dependency function
+config() {
+	[ -n "$*" ] && echo "config $*"
+}
+need() {
+	[ -n "$*" ] && echo "need $*"
+}
+use() {
+	[ -n "$*" ] && echo "use $*"
+}
+before() {
+	[ -n "$*" ] && echo "before $*"
+}
+after() {
+	[ -n "$*" ] && echo "after $*"
+}
+provide() {
+	[ -n "$*" ] && echo "provide $*"
+}
+keyword() {
+	[ -n "$*" ] && echo "keyword $*"
+}
+
+# Describe the init script to the user
+describe()
+{
+	if [ -n "$description" ]; then
+		einfo "$description"
+	else
+		ewarn "No description for $RC_SVCNAME"
+	fi
+
+	local svc= desc=
+	for svc in ${extra_commands:-$opts} $extra_started_commands \
+		$extra_stopped_commands; do
+		eval desc=\$description_$svc
+		if [ -n "$desc" ]; then
+			einfo "$HILITE$svc$NORMAL: $desc"
+		else
+			ewarn "$HILITE$svc$NORMAL: no description"
+		fi
+	done
+}
+
+# Report status
+_status()
+{
+	if service_stopping; then
+		ewarn "status: stopping"
+		return 4
+	elif service_starting; then
+		ewarn "status: starting"
+		return 8
+	elif service_inactive; then
+		ewarn "status: inactive"
+		return 16
+	elif service_started; then
+		if service_crashed; then
+			eerror "status: crashed"
+			return 32
+		fi
+		einfo "status: started"
+		return 0
+	else
+		einfo "status: stopped"
+		return 3
+	fi
+}
+
+# Template start / stop / status functions
+start()
+{
+	[ -n "$command" ] || return 0
+	local _background=
+	ebegin "Starting ${name:-$RC_SVCNAME}"
+	if yesno "${command_background}"; then
+		if [ -z "${pidfile}" ]; then
+			eend 1 "command_background option used but no pidfile specified"
+			return 1
+		fi
+		_background="--background --make-pidfile"
+	fi
+	if yesno "$start_inactive"; then
+		local _inactive=false
+		service_inactive && _inactive=true
+		mark_service_inactive
+	fi
+	eval start-stop-daemon --start \
+		--exec $command \
+		${procname:+--name} $procname \
+		${pidfile:+--pidfile} $pidfile \
+		$_background $start_stop_daemon_args \
+		-- $command_args
+	eend $? "Failed to start $RC_SVCNAME" && return 0
+	if yesno "$start_inactive"; then
+		if ! $_inactive; then
+			mark_service_stopped
+		fi
+	fi
+	return 1
+}
+
+stop()
+{
+	[ -n "$command" -o -n "$procname" -o -n "$pidfile" ] || return 0
+	ebegin "Stopping ${name:-$RC_SVCNAME}"
+	start-stop-daemon --stop \
+		${retry:+--retry} $retry \
+		${command:+--exec} $command \
+		${procname:+--name} $procname \
+		${pidfile:+--pidfile} $pidfile \
+		${stopsig:+--signal} $stopsig
+	eend $? "Failed to stop $RC_SVCNAME"
+}
+
+status()
+{
+	_status
+}
+
+yesno $RC_DEBUG && set -x
+
+_conf_d=${RC_SERVICE%/*}/../conf.d
+# If we're net.eth0 or openvpn.work then load net or openvpn config
+_c=${RC_SVCNAME%%.*}
+if [ -n "$_c" -a "$_c" != "$RC_SVCNAME" ]; then
+	if ! sourcex -e "$_conf_d/$_c.$RC_RUNLEVEL"; then
+		sourcex -e "$_conf_d/$_c"
+	fi
+fi
+unset _c
+
+# Overlay with our specific config
+if ! sourcex -e "$_conf_d/$RC_SVCNAME.$RC_RUNLEVEL"; then
+	sourcex -e "$_conf_d/$RC_SVCNAME"
+fi
+unset _conf_d
+
+# Load any system overrides
+sourcex -e "/etc/rc.conf"
+
+if [ "$RC_UNAME" = "Linux" -a "$1" = "start" ]; then
+	if [ -d /sys/fs/cgroup/openrc ]; then
+		mkdir -p /sys/fs/cgroup/openrc/${RC_SVCNAME}
+		echo $$ > /sys/fs/cgroup/openrc/${RC_SVCNAME}/tasks
+	fi
+	#todo: add processes to cgroups based on settings in conf.d
+fi
+
+# Apply any ulimit defined
+[ -n "${rc_ulimit:-$RC_ULIMIT}" ] && ulimit ${rc_ulimit:-$RC_ULIMIT}
+
+# Load our script
+sourcex "$RC_SERVICE"
+
+for _d in $required_dirs; do
+	if [ ! -d $_d ]; then
+		eerror "$RC_SVCNAME: \`$_d' is not a directory"
+		exit 1
+	fi
+done
+unset _d
+
+for _f in $required_files; do
+	if [ ! -r $_f ]; then
+		eerror "$RC_SVCNAME: \`$_f' is not readable"
+		exit 1
+	fi
+done
+unset _f
+
+if [ -n "$opts" ]; then
+		ewarn "Use of the opts variable is deprecated and will be"
+		ewarn "removed in the future."
+		ewarn "Please use extra_commands, extra_started_commands or extra_stopped_commands."
+fi
+
+while [ -n "$1" ]; do
+	# Special case depend
+	if [ "$1" = depend ]; then
+		shift
+
+		# Enter the dir of the init script to fix the globbing
+		# bug 412677
+		cd ${RC_SERVICE%/*}
+		_depend
+		cd /
+		continue
+	fi
+	# See if we have the required function and run it
+	for _cmd in describe start stop status ${extra_commands:-$opts} \
+		$extra_started_commands $extra_stopped_commands
+	do
+		if [ "$_cmd" = "$1" ]; then
+			if [ "$(command -v "$1")" = "$1" ]; then
+				# If we're in the background, we may wish to
+				# fake some commands. We do this so we can
+				# "start" ourselves from inactive which then
+				# triggers other services to start which
+				# depend on us.
+				# A good example of this is openvpn.
+				if yesno $IN_BACKGROUND; then
+					for _cmd in $in_background_fake; do
+						if [ "$_cmd" = "$1" ]; then
+							shift
+							continue 3
+						fi
+					done
+				fi
+				# Check to see if we need to be started before
+				# we can run this command
+				for _cmd in $extra_started_commands; do
+					if [ "$_cmd" = "$1" ]; then
+						if verify_boot && ! service_started; then
+							eerror "$RC_SVCNAME: cannot \`$1' as it has not been started"
+							exit 1
+						fi
+					fi
+				done
+				# Check to see if we need to be stopped before
+				# we can run this command
+				for _cmd in $extra_stopped_commands; do
+					if [ "$_cmd" = "$1" ]; then
+						if verify_boot && ! service_stopped; then
+							eerror "$RC_SVCNAME: cannot \`$1' as it has not been stopped"
+							exit 1
+						fi
+					fi
+				done
+				unset _cmd
+				case $1 in
+						start|stop|status) verify_boot;;
+				esac
+				if [ "$(command -v "$1_pre")" = "$1_pre" ]
+				then
+					"$1"_pre || exit $?
+				fi
+				"$1" || exit $?
+				if [ "$(command -v "$1_post")" = "$1_post" ]
+				then
+					"$1"_post || exit $?
+				fi
+				shift
+				continue 2
+			else
+				if [ "$_cmd" = "start" -o "$_cmd" = "stop" ]
+				then
+					shift
+					continue 2
+				else
+					eerror "$RC_SVCNAME: function \`$1' defined but does not exist"
+					exit 1
+				fi
+			fi
+		fi
+	done
+	eerror "$RC_SVCNAME: unknown function \`$1'"
+	exit 1
+done
+
+exit 0

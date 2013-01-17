@@ -1,0 +1,95 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/MITMisc.h 9d02ccd02ae6a066c1232e5ab0c1500c 1356361946
+obj /usr/include/X11/extensions/Xext.h fc8dfcfce100712b6b8d89355c31b3b0 1356361946
+obj /usr/include/X11/extensions/Xdbe.h 5ed4be015113240ef706f334def6a006 1356361946
+obj /usr/include/X11/extensions/Xag.h 38c643ff53dd946dfaeace2473eeeae5 1356361946
+obj /usr/include/X11/extensions/dpms.h c72797538304fb64536e60d5a4fbc607 1356361946
+obj /usr/include/X11/extensions/multibuf.h 084e9bf08c649aa72b81d160e9c78b22 1356361946
+obj /usr/include/X11/extensions/security.h 2185e93fb5bf9a454ce20c07caaff1d0 1356361946
+obj /usr/include/X11/extensions/XLbx.h 46762e197a151a897b5980a2549fb1c2 1356361946
+obj /usr/include/X11/extensions/Xge.h e5549463078381da840741684dc800dc 1356361946
+obj /usr/include/X11/extensions/XEVI.h 9bb79a53caa0754ff05477bf2e745649 1356361946
+obj /usr/include/X11/extensions/shape.h b118d22c50fcd76c8569042b72b6b9ac 1356361946
+obj /usr/include/X11/extensions/xtestext1.h 38676f4e2fbbe1c61d1ed3aec0773c36 1356361946
+obj /usr/include/X11/extensions/Xcup.h e632e818b53849464468e4b2c4a4be3e 1356361946
+obj /usr/include/X11/extensions/extutil.h 3c17bb194b00ccbcc7eda96ab148b46e 1356361946
+obj /usr/include/X11/extensions/sync.h b64d65a37e850f6d506c14cf070ff920 1356361946
+obj /usr/include/X11/extensions/XShm.h c573d36e5148f3a57f1d5d56c6a1c5be 1356361946
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xext.pc 8af85b27366ba37381c90ebfa9b53042 1356361947
+obj /usr/lib/libXext.so.6.4.0 ad1cd551909a52d0e4b054d8e9a673b2 1356361972
+sym /usr/lib/libXext.so.6 -> libXext.so.6.4.0 1356362009
+sym /usr/lib/libXext.so -> libXext.so.6.4.0 1356362009
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XmbufGetScreenInfo.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XShapeQueryExtension.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XmbufDisplayBuffers.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/DPMSGetTimeouts.3.bz2 e50273094b0db6b3f57fa7f989ca9841 1356361945
+obj /usr/share/man/man3/XShapeCombineShape.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XmbufGetVersion.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XShmGetEventBase.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XeviQueryVersion.3.bz2 a4a7a74bfce1d1746ca3b029d46870c8 1356361945
+obj /usr/share/man/man3/XShmCreateImage.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XShmPutImage.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/DPMSForceLevel.3.bz2 a07ed0c013ed4f4badf5c317528c543b 1356361945
+obj /usr/share/man/man3/XmbufGetBufferAttributes.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XmbufGetWindowAttributes.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/DBE.3.bz2 b56cfd209d0395a94dc57075863d07eb 1356361945
+obj /usr/share/man/man3/XShmAttach.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XShapeCombineMask.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XShmGetImage.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XShmQueryVersion.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XdbeFreeVisualInfo.3.bz2 362cdc57bffd1b9dc3d21d4859530c1e 1356361945
+obj /usr/share/man/man3/XcupStoreColors.3.bz2 0f3a5626cbedae161929cfbfce94bbb1 1356361945
+obj /usr/share/man/man3/XdbeDeallocateBackBufferName.3.bz2 ba3aee7a10026317801383ac16bbd90d 1356361945
+obj /usr/share/man/man3/XmbufQueryExtension.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XcupGetReservedColormapEntries.3.bz2 76f7947dd0b93813f166f57588b08589 1356361945
+obj /usr/share/man/man3/DPMSQueryExtension.3.bz2 49c6876b6bfc6b668d22a0bf6c4351bc 1356361945
+obj /usr/share/man/man3/XeviGetVisualInfo.3.bz2 a4a7a74bfce1d1746ca3b029d46870c8 1356361945
+obj /usr/share/man/man3/DPMSGetVersion.3.bz2 3229739ba08aa0d799a3ab404276a2dd 1356361945
+obj /usr/share/man/man3/XShape.3.bz2 08641a07fbdc6c7e346ec9074b9ba4a7 1356361945
+obj /usr/share/man/man3/XShmQueryExtension.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XeviQueryExtension.3.bz2 a4a7a74bfce1d1746ca3b029d46870c8 1356361945
+obj /usr/share/man/man3/XdbeSwapBuffers.3.bz2 6562d1fc6dacbd209b13848d4158376e 1356361945
+obj /usr/share/man/man3/Xevi.3.bz2 87c7f25e1aa4834fd62516899ce512f6 1356361945
+obj /usr/share/man/man3/XShapeOffsetShape.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/DPMSSetTimeouts.3.bz2 7215d57aedd697d006d00a0086c3d06d 1356361945
+obj /usr/share/man/man3/XShmDetach.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/Xmbuf.3.bz2 53e1338590a01d3f9057a3fdf6ae84e8 1356361945
+obj /usr/share/man/man3/XdbeGetBackBufferAttributes.3.bz2 1c1b79b226051875194ac2ca08c10734 1356361945
+obj /usr/share/man/man3/XShapeCombineRegion.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/DPMSInfo.3.bz2 df1340020c11a036875c3e0a2f6affd1 1356361945
+obj /usr/share/man/man3/XdbeBeginIdiom.3.bz2 a3d943bd706f626a44452401201f3a84 1356361945
+obj /usr/share/man/man3/XdbeQueryExtension.3.bz2 029b30efa745d92b0afb02350950b2e8 1356361945
+obj /usr/share/man/man3/XmbufCreateStereoWindow.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XShapeInputSelected.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XdbeAllocateBackBufferName.3.bz2 57e3e86332e30298a94f901ef8da1044 1356361945
+obj /usr/share/man/man3/XmbufCreateBuffers.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XShapeSelectInput.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XShapeCombineRectangles.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XShmCreatePixmap.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/DPMSCapable.3.bz2 bd8f1c3544a78d3718a168a0e9eab4a3 1356361945
+obj /usr/share/man/man3/XShapeQueryVersion.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XShmPixmapFormat.3.bz2 dcb98c7cc2bbeb869c5c4d5697f91957 1356361945
+obj /usr/share/man/man3/XShapeGetRectangles.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/DPMSDisable.3.bz2 75f1dc06fb964d5e193964c3207843e2 1356361945
+obj /usr/share/man/man3/XmbufChangeBufferAttributes.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XcupQueryVersion.3.bz2 fd0e71659ff2f2201a8420985a202077 1356361945
+obj /usr/share/man/man3/XShapeQueryExtents.3.bz2 66741b2b9b1a7958742c3d6a76f31e7e 1356361945
+obj /usr/share/man/man3/XmbufChangeWindowAttributes.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XmbufDestroyBuffers.3.bz2 4ae0d786f118eb8dde3e84558497ecef 1356361945
+obj /usr/share/man/man3/XShm.3.bz2 248f258b8c8846d134d0eb631c635f6c 1356361945
+obj /usr/share/man/man3/XdbeGetVisualInfo.3.bz2 2f379dc4410683c168421a558031115a 1356361945
+obj /usr/share/man/man3/DPMSEnable.3.bz2 ac5f020f137d552765786f71cdcce2d5 1356361945
+obj /usr/share/man/man3/XdbeEndIdiom.3.bz2 f09424f923c47b20240775bab6bd0445 1356361945
+dir /usr/share/doc
+dir /usr/share/doc/libXext-1.3.1
+obj /usr/share/doc/libXext-1.3.1/README.bz2 a486bb74801b4665e97a0b0ee70ce4c9 1356361947
+obj /usr/share/doc/libXext-1.3.1/AUTHORS.bz2 543605be4999506a6bcbd9d4e4a95ddf 1356361948
+obj /usr/share/doc/libXext-1.3.1/ChangeLog.bz2 6dda7be2342dc2c8c58b960679a372bb 1356361948

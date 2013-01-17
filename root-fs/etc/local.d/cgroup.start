@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cdir=/sys/fs/cgroup
+ch="`cat /proc/mounts | grep $cdir`"
+if [ -n "$ch" ]; then
+    mkdir -m 0777 "${cdir}"/user
+    echo /usr/local/sbin/cgroup_clean >"${cdir}"/release_agent
+else
+    echo "cgroups fs not mounted"
+    exit 1
+fi
+
+exit 0

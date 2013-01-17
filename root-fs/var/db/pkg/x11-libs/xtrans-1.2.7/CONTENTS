@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/Xtrans
+obj /usr/include/X11/Xtrans/Xtranslcl.c f2c0319306262eb967341cf6d619bb47 1356354865
+obj /usr/include/X11/Xtrans/transport.c b25b0a744128f48d4778900f232d2990 1356354865
+obj /usr/include/X11/Xtrans/Xtranssock.c f622ff4730797d240861966fec6c53de 1356354865
+obj /usr/include/X11/Xtrans/Xtransint.h f267d257a4ac9bcde83e1505194457fa 1356354865
+obj /usr/include/X11/Xtrans/Xtransutil.c 3ef209f73c0b217016252c37b5631bc6 1356354865
+obj /usr/include/X11/Xtrans/Xtrans.h 8689122f0b730bd52b8708396e87fa27 1356354865
+obj /usr/include/X11/Xtrans/Xtrans.c db73f4915040bcb079f6c6d45e6cd146 1356354865
+obj /usr/include/X11/Xtrans/Xtranstli.c a1315ca32380f1b4dead53d3ac683ff6 1356354865
+dir /usr/share
+dir /usr/share/pkgconfig
+obj /usr/share/pkgconfig/xtrans.pc 177abef7859f184de1ca647b38d64271 1356354865
+dir /usr/share/doc
+dir /usr/share/doc/xtrans-1.2.7
+obj /usr/share/doc/xtrans-1.2.7/README.bz2 037b02ee9f6fbb076872eeefbe3ddcf3 1356354865
+obj /usr/share/doc/xtrans-1.2.7/AUTHORS.bz2 c9a2a3e90fa94bc1599228ff2ff234b5 1356354866
+obj /usr/share/doc/xtrans-1.2.7/ChangeLog.bz2 1c484051bd78c0657c6314f2e5e1ac59 1356354866
+dir /usr/share/aclocal
+obj /usr/share/aclocal/xtrans.m4 86b5c19ac4b1a556743729f47128aa59 1356354865

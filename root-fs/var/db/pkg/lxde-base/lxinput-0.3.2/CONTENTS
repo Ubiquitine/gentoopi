@@ -1,0 +1,204 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lxinput.1.bz2 e998d91a11362bb8d831d1dbdc020da7 1356709306
+dir /usr/share/doc
+dir /usr/share/doc/lxinput-0.3.2
+obj /usr/share/doc/lxinput-0.3.2/README.bz2 d5a4331cf8c2a5b3c18f058d97215dcb 1356709307
+obj /usr/share/doc/lxinput-0.3.2/AUTHORS.bz2 02a5af9f2272901060660f87b865ab6f 1356709307
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxinput.mo 19bcca0e33e68b13c2d5e671df1ef9ed 1356709289
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxinput.mo c81b18708ec595800602bae4b1f19f15 1356709296
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxinput.mo 851a86e6a7c0258c5d105073e53f3435 1356709292
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxinput.mo 8fb06d3757f8b55e226602d9bde87779 1356709302
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxinput.mo 4bd98a8ec29632d3154fbc27f6ede09a 1356709291
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxinput.mo 8204b9e3d9124101f29667f2ae187f2c 1356709295
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxinput.mo 404576d3b662c95f4b99430a57a0c74b 1356709289
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxinput.mo d206708f916a80939ba9f854c36d88f8 1356709291
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxinput.mo bb2f945e0e92e1255541727ae9cedd2d 1356709303
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxinput.mo 1574b502da40bc60f69001a58387b0e9 1356709297
+dir /usr/share/locale/kk
+dir /usr/share/locale/kk/LC_MESSAGES
+obj /usr/share/locale/kk/LC_MESSAGES/lxinput.mo 51baf93776a4853fbfe49ab966d048d4 1356709296
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/lxinput.mo 95baeb35e506441a44c5acf98b6b5b11 1356709302
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxinput.mo cb2e8eeb9c6253c16fbad518e9f8bd6f 1356709301
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxinput.mo 1c150a92e2d1636703f6f6a0529c1169 1356709294
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxinput.mo 189d8297dfe9cd0437c85cbdaa6a54a5 1356709305
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxinput.mo 4968fdb072e27ffc22f95abb687a1b08 1356709299
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxinput.mo 1a24ed0b2e6f08a83bc90afa4e3bf9d4 1356709295
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxinput.mo 9598b065832dd2bb32680ddb5a8afc0b 1356709303
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxinput.mo 5142baf9c0975afe1f7f229d571934c3 1356709293
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxinput.mo 0d05d0a7a667090c2b1550a5a379fd62 1356709299
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxinput.mo 8b48e8cb8ae398823398a696b094c5fa 1356709293
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxinput.mo 71186a26191f01efa99fd8859bd6e420 1356709291
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxinput.mo 8ae1b10801e0b0df638ff991c8fb6113 1356709301
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxinput.mo c25ff94396e68c929cef75c02d04b6f1 1356709305
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxinput.mo 3eadbc916d12796881e7cf0f1498c96c 1356709303
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxinput.mo 0d05d0a7a667090c2b1550a5a379fd62 1356709298
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxinput.mo b6684fa5248680824d420fa39cec7cf7 1356709297
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxinput.mo e8f544f1cf9dcb1576c942e84b3e7052 1356709288
+dir /usr/share/locale/si
+dir /usr/share/locale/si/LC_MESSAGES
+obj /usr/share/locale/si/LC_MESSAGES/lxinput.mo b066bd5b3c0d1512bcd29db4ae76d79c 1356709301
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxinput.mo 4d1a8e8a8592cd4932c26b8187741d5f 1356709290
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxinput.mo 04c73b11f781bb9375101a4a02ab6892 1356709295
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxinput.mo 4c33e63b811ebc4bbca4f48abe771311 1356709290
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxinput.mo 4d9e14c86defbceac9e44a7535f793a0 1356709294
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxinput.mo 438291ab832ce4db31d9cb58ca600de0 1356709300
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxinput.mo 9ceba31eaead64a970f97093f8011ee6 1356709305
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxinput.mo e9e4a6eaf41a7f43ab56e6184f26970d 1356709297
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/lxinput.mo 5b5260caf642bd7e58248fdbc31b0858 1356709290
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxinput.mo 29d7332fe80fc3a6503a2b4b0ec6f57e 1356709305
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxinput.mo 87735f5b89acec7d313af18201b58ecf 1356709291
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxinput.mo b71de64b24928aadb82cc3f4dede4a2f 1356709300
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxinput.mo c46910e2a965062ea4504855de5cbf42 1356709302
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/lxinput.mo d97e321ff7d868c813761ad4ff206198 1356709292
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxinput.mo 7ea7fb27e78258824c2828dece0e0748 1356709298
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxinput.mo 8d43ef437e7175a8e31c45ba8988d90b 1356709296
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxinput.mo fc529b6951604a2dc51d7345839a3c49 1356709301
+dir /usr/share/locale/ast
+dir /usr/share/locale/ast/LC_MESSAGES
+obj /usr/share/locale/ast/LC_MESSAGES/lxinput.mo 54d350d332617229988d8004efbb36b6 1356709289
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxinput.mo 4f6a01e46004d4d7ceff94b8bfebe8b8 1356709298
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxinput.mo 0d05d0a7a667090c2b1550a5a379fd62 1356709293
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxinput.mo d86920abaaa3a456a5138ff70b8a8ba2 1356709300
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxinput.mo 5127ab57451c0457e53593fa6d2d4f9b 1356709300
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxinput.mo bb85cc1d5db0e72c6d887c5ab8835887 1356709296
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxinput.mo db0ce62724bfaedeced3c6c03bee3c41 1356709298
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxinput.mo 480dcdd931edb4456bcc11ae8ab1c5cb 1356709298
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxinput.mo 916239b1979068e7ff28e23ea54d36c6 1356709292
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxinput.mo 921bd738cb09fbfd9cf1682012ab151b 1356709295
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxinput.mo 8d17a93cfd182a1b19aded250bbb5f5d 1356709294
+dir /usr/share/locale/ug
+dir /usr/share/locale/ug/LC_MESSAGES
+obj /usr/share/locale/ug/LC_MESSAGES/lxinput.mo 11b409b0eb346d4a0973a6534bccf8d1 1356709303
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxinput.mo 20c8707ac1f1bf0864bec950131a2c16 1356709294
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxinput.mo 1f2d3daa57981b6c764b5d114b21098b 1356709292
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxinput.mo d6dbaba07e7bea0946293fb6931132db 1356709292
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxinput.mo 9ceba31eaead64a970f97093f8011ee6 1356709304
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxinput.mo 13f7dded39b3071f6aa2a591043c24f4 1356709302
+dir /usr/share/lxinput
+obj /usr/share/lxinput/lxinput.ui 0fb6ceb9da8fa252ec7c4e29e3e44f4b 1356709306
+obj /usr/share/lxinput/input-keyboard.png 66afdeda9fcf7d0e6ea4003760ae3cce 1356709306
+obj /usr/share/lxinput/input-mouse.png ed271f31bd6dc07b47be8ad77617bb43 1356709306
+dir /usr/share/applications
+obj /usr/share/applications/lxinput.desktop 2677d4917648acc7cfb48f7a2086069f 1356709306
+dir /usr/bin
+obj /usr/bin/lxinput 1e6b63ea5619813f55d0c02db120aec6 1356709319

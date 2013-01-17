@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.12:2 >=x11-libs/gtk+-2.11:2 x11-libs/libX11 sys-devel/gettext virtual/pkgconfig >=sys-apps/sed-4

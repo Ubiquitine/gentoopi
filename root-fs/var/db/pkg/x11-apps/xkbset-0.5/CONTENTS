@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/xkbset eaab77fc18b259e19497b163a029eba3 1357478448
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xkbset-0.5
+obj /usr/share/doc/xkbset-0.5/TODO.bz2 6666c087c8b47141de2cafc41df2d456 1357478428
+obj /usr/share/doc/xkbset-0.5/README.bz2 ffd87f4fb3c5986e772eef262ba335ca 1357478428
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xkbset.1.bz2 ddd9e65f018bb9549dbb6216eeaacbd3 1357478428

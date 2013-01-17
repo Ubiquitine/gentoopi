@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xfixesproto.h fcfb0d4532a76861bee8ff4d61e8d397 1356435343
+obj /usr/include/X11/extensions/xfixeswire.h 3d57f72f5af263ab68a6dc8c9d796784 1356435343
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/fixesproto.pc 67fd552408e9b30ac3a3dfd267add507 1356435343
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/fixesproto-5.0
+obj /usr/share/doc/fixesproto-5.0/README.bz2 3c57f83cd810db4b62e3c6a5e8614d0c 1356435343
+obj /usr/share/doc/fixesproto-5.0/AUTHORS.bz2 31cf7fbe133babf0ad2ebcfe8ab58a79 1356435344
+obj /usr/share/doc/fixesproto-5.0/fixesproto.txt.bz2 28ff720ec428a13b2e33e71777a897b3 1356435342
+obj /usr/share/doc/fixesproto-5.0/ChangeLog.bz2 694644a2d7c5b89ae63210992a874dfd 1356435344

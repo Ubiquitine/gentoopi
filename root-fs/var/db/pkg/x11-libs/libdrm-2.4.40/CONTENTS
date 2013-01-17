@@ -1,0 +1,47 @@
+dir /usr
+dir /usr/include
+dir /usr/include/omap
+obj /usr/include/omap/omap_drm.h d27cf0810a8b3abd9c917c7bf5ae8d98 1356434036
+obj /usr/include/xf86drm.h f0a372b903dc13b1c63867c937907648 1356434033
+obj /usr/include/xf86drmMode.h 50d79368dc4fb62b57a7706eb4ab35e4 1356434033
+dir /usr/include/libdrm
+obj /usr/include/libdrm/r128_drm.h 9862ce1e440314d6a73a71410d5b5ea0 1356434041
+obj /usr/include/libdrm/mga_drm.h 0f66e2cc3b69e8229f1b22e3992ff8c5 1356434041
+obj /usr/include/libdrm/sis_drm.h 9b077ebd1e0a26f0f4c9c35216d45eb8 1356434041
+obj /usr/include/libdrm/drm_sarea.h ca35e5158951742510c3d4c2dc2afb60 1356434041
+obj /usr/include/libdrm/drm_fourcc.h 3026ab0c37df949059b3521be7e633d9 1356434041
+obj /usr/include/libdrm/i915_drm.h 5ef26b6fffa18a7aef2cb7bfb7d66828 1356434041
+obj /usr/include/libdrm/savage_drm.h 8bd5d78bf1b0a9c7140057a9a6359a7f 1356434041
+obj /usr/include/libdrm/omap_drmif.h 66f395e53f40a8fb8d226aac6df0ec3f 1356434036
+obj /usr/include/libdrm/drm_mode.h 35714fdadbab576f08af4cb8a229c603 1356434041
+obj /usr/include/libdrm/radeon_drm.h dc4a6e417fce9cfbadff96db30a16ad6 1356434041
+obj /usr/include/libdrm/exynos_drmif.h 5923d9a7320501291a50d21fa1eea6c1 1356434040
+obj /usr/include/libdrm/via_drm.h f0b014136c5ea77c888aaa53734ed59d 1356434041
+obj /usr/include/libdrm/mach64_drm.h a5a1ddc2aa2d0341dcb0e9e55a1ab00f 1356434041
+obj /usr/include/libdrm/drm.h 24c083ddca948ba89f2c465f6258e966 1356434041
+obj /usr/include/libdrm/nouveau_drm.h 5d8ba733bb52b5c46d7bd923c3d5afdf 1356434041
+dir /usr/include/exynos
+obj /usr/include/exynos/exynos_drm.h b12b8203a051510a49eec95773b56e65 1356434039
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libdrm_omap.pc 0d31b0f17bc004ab9805b0aa416e3e5e 1356434036
+obj /usr/lib/pkgconfig/libdrm.pc f380fea10d6084c29c2a8f4f1768abfb 1356434033
+obj /usr/lib/pkgconfig/libdrm_exynos.pc 333e0ef0e198772af0a40f694f5b13ef 1356434040
+obj /usr/lib/libdrm.so.2.4.0 d0bc9107721dd666729f60739b7395a0 1356434066
+sym /usr/lib/libdrm.so.2 -> libdrm.so.2.4.0 1356434096
+obj /usr/lib/libdrm_omap.so.1.0.0 e040ea69f5a2a38110c5b9805aaaaef1 1356434067
+sym /usr/lib/libdrm.so -> libdrm.so.2.4.0 1356434096
+obj /usr/lib/libdrm_exynos.so.1.0.0 44e3ca34827c2ab949bc76d26abf0dbb 1356434067
+sym /usr/lib/libdrm_omap.so.1 -> libdrm_omap.so.1.0.0 1356434096
+sym /usr/lib/libdrm_exynos.so.1 -> libdrm_exynos.so.1.0.0 1356434096
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/drmHandleEvent.3.bz2 d95fe4b96a0c1d1722f65bdbaa0ff923 1356434041
+obj /usr/share/man/man3/drmModeGetResources.3.bz2 f3d7f9381f7ebcf495ada7f2d6077507 1356434041
+obj /usr/share/man/man3/drmAvailable.3.bz2 a3191a08898022ea67bedf62ce024b04 1356434041
+dir /usr/share/doc
+dir /usr/share/doc/libdrm-2.4.40
+obj /usr/share/doc/libdrm-2.4.40/README.bz2 33419f21b569296e4ee96f86786fc43a 1356434042
+sym /usr/lib/libdrm_exynos.so -> libdrm_exynos.so.1.0.0 1356434096
+sym /usr/lib/libdrm_omap.so -> libdrm_omap.so.1.0.0 1356434096

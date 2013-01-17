@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xrandr.1.bz2 3b32681b7763d716ab73ab7fd4e60ac9 1356710628
+dir /usr/share/doc
+dir /usr/share/doc/xrandr-1.3.5
+obj /usr/share/doc/xrandr-1.3.5/README.bz2 9dba590022f2d7dfeabaecb46d57bcf1 1356710629
+obj /usr/share/doc/xrandr-1.3.5/ChangeLog.bz2 6ac91561c1d4d652da07afe762dc632f 1356710630
+dir /usr/bin
+obj /usr/bin/xrandr f5dbf45645ccb06756194e617597ba48 1356710653

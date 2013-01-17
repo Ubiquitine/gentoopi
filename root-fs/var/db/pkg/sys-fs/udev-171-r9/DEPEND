@@ -1,0 +1,1 @@
+>=sys-apps/util-linux-2.16 !<sys-libs/glibc-2.11 virtual/pkgconfig virtual/os-headers !<sys-kernel/linux-headers-2.6.34

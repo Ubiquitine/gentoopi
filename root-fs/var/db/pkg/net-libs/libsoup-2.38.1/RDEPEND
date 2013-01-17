@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.31.7:2 >=dev-libs/libxml2-2:2 >=net-libs/glib-networking-2.30.0[ssl] net-fs/samba

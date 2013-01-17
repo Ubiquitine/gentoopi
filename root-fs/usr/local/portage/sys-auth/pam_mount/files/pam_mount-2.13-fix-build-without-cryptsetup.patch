@@ -1,0 +1,12 @@
+--- src/Makefile.am.orig	2011-12-30 00:50:03.079768002 +0100
++++ src/Makefile.am	2011-12-30 00:50:25.926768001 +0100
+@@ -8,7 +8,9 @@
+ moduledir		= @PAM_MODDIR@
+ module_LTLIBRARIES	= pam_mount.la
+ sbin_PROGRAMS		= pmvarrun
++if HAVE_LIBCRYPTSETUP
+ sbin_PROGRAMS		+= pmt-ehd
++endif
+ ssbin_PROGRAMS		= mount.crypt
+ noinst_PROGRAMS		= autoloop ismnt
+ noinst_SCRIPTS 		= umount.crypt

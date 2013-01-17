@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.24:2 >=x11-libs/cairo-1.2 >=x11-libs/pango-1.16 >=dev-libs/libxml2-2.7:2 >=dev-libs/libcroco-0.6.1 x11-libs/gdk-pixbuf:2

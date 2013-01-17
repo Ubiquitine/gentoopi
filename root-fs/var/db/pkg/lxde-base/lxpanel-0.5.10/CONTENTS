@@ -1,0 +1,342 @@
+dir /usr
+dir /usr/include
+dir /usr/include/lxpanel
+obj /usr/include/lxpanel/plugin.h 56efebf6701985f20ecf2c0317054690 1356712902
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/lxpanel.pc 00c91d77474e95da92617851803a73ca 1356712921
+dir /usr/lib/lxpanel
+dir /usr/lib/lxpanel/plugins
+obj /usr/lib/lxpanel/plugins/kbled.so d19fdb2f5c5555c7157222ba489f55b2 1356712945
+obj /usr/lib/lxpanel/plugins/batt.so 3269bc66b864aa41aa0ba83a21ea55d6 1356712945
+obj /usr/lib/lxpanel/plugins/monitors.so c77868492b74a1038f45843d7c5dfff7 1356712945
+obj /usr/lib/lxpanel/plugins/cpu.so a3e54326ce2704ff6a9f9855c08f9aed 1356712945
+obj /usr/lib/lxpanel/plugins/deskno.so e701f8191491ce4a16ed324ff74d9bd7 1356712945
+obj /usr/lib/lxpanel/plugins/cpufreq.so 1c18aa200f5ef6ef8250001db06b0d07 1356712945
+obj /usr/lib/lxpanel/plugins/volumealsa.so d642d0c3e14dab501cdd0b88409e2744 1356712946
+obj /usr/lib/lxpanel/plugins/thermal.so 4833cd19b453185f5951f1d5b5a1913f 1356712946
+obj /usr/lib/lxpanel/plugins/netstatus.so b19ca0ad60e66c6c748f0bc76724ad2c 1356712946
+obj /usr/lib/lxpanel/plugins/xkb.so 53c40688c88bb82259ec982c4cf6f265 1356712946
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lxpanel.1.bz2 59f4c9579b19a88dcba7859e6cf8c901 1356712920
+obj /usr/share/man/man1/lxpanelctl.1.bz2 709df27f856a07d3b05f55ee3d3666e0 1356712920
+dir /usr/share/lxpanel
+dir /usr/share/lxpanel/ui
+obj /usr/share/lxpanel/ui/launchbar.ui 1a71cbb4473f9fc316f3289155a1ffb1 1356712904
+obj /usr/share/lxpanel/ui/panel-pref.ui 7ddca0ab86437f1cc82686c73042ae2b 1356712904
+obj /usr/share/lxpanel/ui/netstatus.ui 3ae7ca2c2030f1d289595222910dcb92 1356712904
+dir /usr/share/lxpanel/images
+obj /usr/share/lxpanel/images/ns-senddata.png 35be953eb24890e725e029ec6ee58198 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-txrx.png 91e4a953cfbf518b5f1d3bb59a011da9 1356712903
+obj /usr/share/lxpanel/images/capslock-off.png 747dac170ba194b0c2765b5b25b6d141 1356712903
+obj /usr/share/lxpanel/images/window-manager.png dd517fd194de0db9fd70e6cf58b0733d 1356712903
+obj /usr/share/lxpanel/images/ns-problem.png c448480f23ca3f0a9594ecd46bbdee30 1356712903
+obj /usr/share/lxpanel/images/mute.png 292bf626a8770ccd696dab583f2c8077 1356712903
+obj /usr/share/lxpanel/images/cpufreq-icon.png bea0c2e1a5e99a8f935a8cf886a8e189 1356712903
+obj /usr/share/lxpanel/images/ns-connected.png 7ab8e84c5db8388da84ff1fd14e84a76 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-50-74.png 29aad76efe8b6cacc4bd7a55bf8c1995 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-error.png 68c914c97ddec8d83dc34a16173d11f4 1356712903
+obj /usr/share/lxpanel/images/background.png 143a58528d1a540dee8f5fb053ab9123 1356712903
+obj /usr/share/lxpanel/images/ns-lock.png 841ecfa368d8fb5c2b3adf310d1ba438 1356712903
+dir /usr/share/lxpanel/images/xkb-flags
+obj /usr/share/lxpanel/images/xkb-flags/mn.png 5545218762300cf30becd456c281f1fd 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ly.png 8bc33461f178fdf736276aa473f29e74 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/dj.png 4d42897b8f8db1ccc4fcb048482136eb 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ro.png b0ec7f55bc3ba8e819012e0b2978fedb 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/jp.png 06f3fb4f87fbc4d44be175ed6765e108 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/eu.png 09c3d7d85e13ca563b3bc9057a55481d 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/sk.png 2bd80c4d4b7f27b199f13eab9c954a53 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/il.png ba2598b5befb9d276a308e1b533813e4 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/es.png e86a79d402f15609579046f46615cff6 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/am.png eb2edec96fb976cd73787617d221ac8c 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/lb.png db5581e932202e2f2b79bbb30b5cb409 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/cz.png efd2ada6605677afe26a8f5c65319dc5 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/iq.png 7cfb5468760805fc70410489b61440e3 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/tr.png aa309a95ad4dd2766aa17908a60bd5f0 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/jo.png 618a1855f0ad31f4cb3b857fc7833cf1 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/cu.png eafefc0ab136b92f9d3944593b1505cf 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/uk.png 96b5a9f86efb6cd0f24c57b232963a5b 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/sy.png 628b0126136e2b8238517c1c70fd2021 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/sa.png 9545924cf8dcc86bc2dd9eead10895e0 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/lt.png 13646ebfbc5268dbd5f6bff687776179 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/sr.png 3a5ad62728100ba2bbf94e3aafea603c 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/un.png e98da081caf43025b54d1776919404a8 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ua.png f0660ff1ae8a687890dac5c30cfae3e9 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ch.png 3ffb7a13773d1d71c2f30c18eb0ceb19 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/km.png e994427e9f3811b7d9183f9fbac16da6 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/us.png d9164a323029220f202791468dc1d2cb 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/se.png 85f446af718d8da6414d3d649d61ec81 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/hu.png e5074497e58957a5970da069c6ddf984 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/sd.png 999f325b305551aff23dc5dbbc967571 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/mk.png 3ddf6e108f00ec31e8b60e6d29c12046 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/qc.png a880e841e2df753fcac4f146246b7f60 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ye.png 8b19e00449493a97149928aef051cef6 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/vn.png f02eab6130b874d1f69440d5049ceb59 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/kw.png 95affc131dcd250c515478bfc498818a 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/nl.png ccb8be8b405d3af03125762dea0c7bd0 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/th.png 43067758e62ea4defb6fef5047fde874 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/pt.png d007907e619ded22ae5a34dc69c9547b 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/be.png c47c0bc2052064ed15500d850b536171 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/dk.png f5ca71ac2e761710f0c1e09481c9bcb4 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/hr.png a5e38c199859ef47918423ba751df575 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/la.png 6b6ab1260bb6110749b322f7bd4247ff 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/dz.png 734caff0ac8d61c07cd293277a062eb2 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ma.png 628ee0e5d173bd6714bc7b3b49eec66c 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/qa.png 7da7972684d0b262dc143f966449bf8a 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ar.png d52079efb05917ef1724ea27371671d5 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/de.png e7a2e0fdf9a920be67c0c6e1dc639d7d 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/by.png e28f172f266a089f4c7e2e42089c897b 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/si.png eccc237010dedebc60364851b3953eee 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/pl.png c4ce11de70cc89da9b90e90da47489bf 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ae.png 1fab05c179aeed74ab1071fa555781a6 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/fr.png fc3d36f5b37f45602c5d3f41db8c63b0 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/so.png f1906218bda0f1f83ba74ae33a8f378f 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/gr.png f3a5466308de9d823d86aa0e320d9fe3 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/bg.png 0a4913519a8c1e3d240908eedd29e91e 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/bh.png 4c26987fedeb34b5f13062c1d162bdee 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/is.png 2945b8cebf39e09f752267e91f496cdc 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/eg.png 9d8c0e1210cda0f18a623edd0635a4c2 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/at.png 89f6e6e56b6cab68e2542f0c36cb99c7 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/mx.png eefb80cf3a330325dde925547ade2b25 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ca.png 23b7bff7da9e02ed9538e3fba9b47545 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/no.png fb2bcaf8c9733fa1c3e7ff4366b2dc4f 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/az.png 79b66fd98b39e60c98a3ff84190d0390 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/br.png 747c216059a7b85e5fcd8a1b81e15ae6 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/om.png 34e4666df3d5affe895c02923e1dd921 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/fi.png 80f7d4312c430344c4ef0095ad61d4bf 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ee.png d4da21cc07bbf7d251c907828de3db1b 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/uy.png 77e8ee7bfc7b82ac393f52938517eb58 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/yu.png a220a2c69df328eeb2cfed84f9c7a9f5 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ge.png 6f6cdf204203f478b051e066faed2479 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/it.png f157e7cfaf2c02684c73b0162a20964f 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/kr.png 4fafae8af87fa28d468e3d002b8090f3 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ps.png acc578165fc90e98efa4cabe2895e529 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/ru.png 23b6e43bd563764c290acdcaeb4bb776 1356712899
+obj /usr/share/lxpanel/images/xkb-flags/tn.png 851a8c38b161179add53a729f2767620 1356712899
+obj /usr/share/lxpanel/images/volume-medium.png 39cd6ad31a8d8533c636fc26d2b19848 1356712903
+obj /usr/share/lxpanel/images/ns-bothrs.png 86ec1154b19a3fba81514669d72870ad 1356712903
+obj /usr/share/lxpanel/images/clock.png b4bdb24b753d14ce19221c676766265b 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-25-49.png 2191884e1eb4f6f1deadcbe802a853d8 1356712903
+obj /usr/share/lxpanel/images/scrllock-off.png 60fa19bc07b6a0177b67cbb50af784a2 1356712903
+obj /usr/share/lxpanel/images/my-computer.png 6aa04ffcb068c35c647c9eb0232d3a46 1356712903
+obj /usr/share/lxpanel/images/ns-disconnect.png f52baccb842316b3c7e6670e8aae9f44 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-idle.png b8329eb60ca1a5574f31ebe6b8e8d29f 1356712903
+obj /usr/share/lxpanel/images/file-manager.png c6ede7a936d2d58269e039a7601709bd 1356712903
+obj /usr/share/lxpanel/images/volume-high.png ea833f5577ebdcbe60b48ea9f0a3912b 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-disconn.png a821d345af5917579c5188375fdc34c4 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-0-24.png d5b548399a847e74d8de9484d216b1c7 1356712903
+obj /usr/share/lxpanel/images/ns-recvdata.png eba974e26cc86b0cf3a5f3d0efd00762 1356712903
+obj /usr/share/lxpanel/images/numlock-on.png b66681bfea07252e22cb82bb06d8c7c3 1356712903
+obj /usr/share/lxpanel/images/gnome-logout.png 9b002894eb365c1c8f087dcbf531e703 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-75-100.png f275ea7a4ecf48f6778106a40cac35d2 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-tx.png e615245dbebc252a2f6f35dd5b063ac6 1356712903
+obj /usr/share/lxpanel/images/capslock-on.png a85706e6315bc858f054fce21cff3328 1356712903
+obj /usr/share/lxpanel/images/gnome-netstatus-rx.png fc91d89d88cdaac4f5d66afe2fed4cf6 1356712903
+obj /usr/share/lxpanel/images/numlock-off.png c540b3e83e7c3c788bea3f134d714bac 1356712903
+obj /usr/share/lxpanel/images/volume-low.png afd5faaa221528553ff840e60258b4c1 1356712903
+obj /usr/share/lxpanel/images/scrllock-on.png cdd1b6f22a4ad888226a774b681c2080 1356712903
+obj /usr/share/lxpanel/images/stock_volume.png 8298a2b6bd65c25df90b0f6a457e0b6e 1356712903
+dir /usr/share/lxpanel/profile
+dir /usr/share/lxpanel/profile/default
+obj /usr/share/lxpanel/profile/default/config 83fb5f55f9286dd356d1b73683a5e3cc 1356712903
+dir /usr/share/lxpanel/profile/default/panels
+obj /usr/share/lxpanel/profile/default/panels/panel 686e445bf0e3afdf15b5dbed1f824cd7 1356712903
+dir /usr/share/lxpanel/profile/two_panels
+obj /usr/share/lxpanel/profile/two_panels/config d41d8cd98f00b204e9800998ecf8427e 1356712903
+dir /usr/share/lxpanel/profile/two_panels/panels
+obj /usr/share/lxpanel/profile/two_panels/panels/top 4906d5ff1b1d68057e3c66016fbb3cd8 1356712903
+obj /usr/share/lxpanel/profile/two_panels/panels/bottom 2fc85eba80c829b25b5eecc1452321aa 1356712903
+dir /usr/share/doc
+dir /usr/share/doc/lxpanel-0.5.10
+obj /usr/share/doc/lxpanel-0.5.10/README.bz2 3b003965a7a2832b10b9d8323c93500e 1356712921
+obj /usr/share/doc/lxpanel-0.5.10/AUTHORS.bz2 ba971f457848bfb5b4241daa18060fa8 1356712921
+obj /usr/share/doc/lxpanel-0.5.10/ChangeLog.bz2 a3f8cd89dc3d0bccd522011559e9ba2f 1356712921
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxpanel.mo 61fabf50c04312d9aad6e906c1d9a771 1356712905
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxpanel.mo 9de107a46efc14b8c3e9b210243ba1db 1356712911
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxpanel.mo 4ef5265e5a075eeab4b93127036de8c1 1356712908
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxpanel.mo b3a2ad0f98834b70763485334426a0a2 1356712917
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxpanel.mo 8227c11224a0b483a7683de50014c793 1356712907
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxpanel.mo 1c50f2f29e9b224197f361cd1067e1ab 1356712910
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxpanel.mo a9c606c8c4801ff70e717d25ba5270ab 1356712905
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxpanel.mo 59db5a02961312ffbc7e0a3a803f091a 1356712906
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxpanel.mo bb0a29520b206c2e611cf5cb39d6efcc 1356712918
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxpanel.mo 25a17e87db8dd2ec282d16a8aee1d56d 1356712912
+dir /usr/share/locale/kk
+dir /usr/share/locale/kk/LC_MESSAGES
+obj /usr/share/locale/kk/LC_MESSAGES/lxpanel.mo 98ec516c307a5d1b833649ad58b37247 1356712912
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/lxpanel.mo 94635a877074b3f0a5574e1d9dfc07ce 1356712918
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxpanel.mo 5c4a39ff3eaff321ada8f77c061663e1 1356712916
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxpanel.mo ea76109ddf287c29e098f7c7d7a791f6 1356712909
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxpanel.mo 134a4ba1457caa726fb3977648309c9c 1356712920
+dir /usr/share/locale/km
+dir /usr/share/locale/km/LC_MESSAGES
+obj /usr/share/locale/km/LC_MESSAGES/lxpanel.mo c3d97fe9afd99fbd4c9fe58955252e9b 1356712912
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxpanel.mo a68f6b9802c58388cad583879f12ff69 1356712915
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxpanel.mo 717c2a7b21f2b5635096a95fe97fc51e 1356712910
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxpanel.mo bad41a5281580fa0f9b62d87503e57b1 1356712919
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxpanel.mo bf274c6734f7d871d6a77f955033299a 1356712909
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxpanel.mo 94635a877074b3f0a5574e1d9dfc07ce 1356712915
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxpanel.mo aad9c619b74934c5d7f869735278ddf3 1356712908
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxpanel.mo adcf5c8ce596f2e2784c3e948b6f0dfa 1356712906
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxpanel.mo 12c931965485a413e244536623b6b850 1356712917
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxpanel.mo 71d4653c03437f3596ab18bff8ec2592 1356712920
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxpanel.mo 403b187ceea6cee99b2646be69ed7287 1356712918
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxpanel.mo 3208ea0a3d316f67c783b050608c9bcd 1356712913
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo 20f5b763d41309c6ef90b8b2481da636 1356712912
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxpanel.mo 088bb7261bc39cec17ab7b33392a2d83 1356712904
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxpanel.mo 714ac0377579bebe1f81f8d8d1c092d9 1356712906
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxpanel.mo 2778e52a9f7cf370a9f5740cfafcc257 1356712911
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxpanel.mo a971f91755ff57dfc1f73e61fcb7f6c6 1356712905
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxpanel.mo 81e8f41b9e6c2f9b2756a62d5301ea7c 1356712909
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxpanel.mo 28b32da9c0bffe755879a6ac8bcd3a01 1356712915
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxpanel.mo 02ff5f2bece68ee087fd79d4a3a02e27 1356712919
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxpanel.mo cc970d7ddce0e5dd5eca6a060d03f805 1356712913
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/lxpanel.mo 2f1570bd46b3d186bc229e13a1afa2ae 1356712905
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxpanel.mo 630daae5c3aa97e26f87c41beb1e947d 1356712920
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxpanel.mo 510eb84ea247e4122d1786c185646396 1356712906
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxpanel.mo 197491c7097f158e8bd5b30ceecab5b4 1356712916
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxpanel.mo e854f2482a53fb48a78ed2730d055ef3 1356712917
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxpanel.mo 521c726cb85e722211c9be7c73f23667 1356712913
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxpanel.mo fd741d63f47a1c93fea47ea54928683a 1356712911
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxpanel.mo 416c7763f64a1e9187f9761d85894aeb 1356712916
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxpanel.mo a94cf00a30e70d8be9c3d1549c090c72 1356712914
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxpanel.mo 9d93d6aa261a48d366478d765f7542e8 1356712908
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxpanel.mo bf215db042128d77be1c5b5d08624d08 1356712916
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxpanel.mo c6acc877eba40accf5340e893259053f 1356712915
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxpanel.mo d2bf4f2ab2ff8569dd7d7a0abf435202 1356712911
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxpanel.mo cb7aae3f020ec6b88b01fe7c66f0f718 1356712914
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxpanel.mo cbaf7892819dff7d622cd4b9809717c7 1356712914
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxpanel.mo 2bf695e5adf096578fd9066c88409ad2 1356712908
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxpanel.mo ca1085fafe4d6b7f857e396f50ef23c8 1356712910
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxpanel.mo d74e03c43b284119208809c9171fec3b 1356712910
+dir /usr/share/locale/ug
+dir /usr/share/locale/ug/LC_MESSAGES
+obj /usr/share/locale/ug/LC_MESSAGES/lxpanel.mo dd72c2f10ea3b1ec3a3f95054a83ff9d 1356712919
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxpanel.mo 2c1da228b63360574f672d60337956ef 1356712909
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxpanel.mo 337005f9cd2da9766584ad2a838d4a10 1356712907
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/lxpanel.mo 1712248ca4e8e45ff766c04d26e6aaa2 1356712914
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxpanel.mo bae7cdb8548e0c822f6214f72302bdf2 1356712907
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxpanel.mo 9258ef12bb6a17d7d752754f3d05d6bd 1356712919
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxpanel.mo 21b3379811839345ac87c8f313aa212e 1356712917
+dir /usr/bin
+obj /usr/bin/lxpanel 0b4e54a00100a85621b9a9d598419080 1356712947
+obj /usr/bin/lxpanelctl 419050c790a40e1dcd02eddc69e74d5e 1356712947

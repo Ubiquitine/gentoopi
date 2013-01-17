@@ -1,0 +1,47 @@
+# -*- mode: sh; indent-tabs-mode: nil; -*-  vim: set ft=sh tw=80 sw=4 et :
+# Copyright 2005-2012 Gentoo Foundation
+# Distributed under the terms of the GNU GPL version 2 or later
+# $Id: eselect.bashcomp 859 2012-01-21 11:04:25Z ulm $
+
+# bash command-line completion for eselect
+# Author: Aaron Walker <ka0ttic@gentoo.org>
+
+_eselect() {
+    local cur sedcmd2 sedcmd3 possibles
+    local options="--brief --color --colour"
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    sedcmd2='s/^  \([[:alnum:]-][[:alnum:]_-]*\)[[:space:],].*$/\1/p'
+    sedcmd3='s/^  \[[[:digit:]][[:digit:]]*\] *\([[:graph:]]*\).*$/\1/p'
+
+    set - "${COMP_WORDS[@]:1}"
+    # skip global options
+    while [[ $# -gt 1 && $1 == -* ]]; do
+        shift
+    done
+    # skip any subaction options
+    while [[ $# -gt 3 && $3 == -* ]]; do
+        set - "${@:1:2}" "${@:4}"
+    done
+
+    case $# in
+        1) possibles="${options} $(eselect --brief modules list 2>/dev/null)"
+            ;;
+        2) possibles=$(eselect --brief "$1" usage 2>/dev/null \
+            | sed -n -e "${sedcmd2}") ;;
+        3)
+            case $2 in
+                set|enable|disable)
+                    possibles=$(eselect "$1" list 2>/dev/null \
+                        | sed -n -e "${sedcmd3}") ;;
+            esac
+            ;;
+    esac
+
+    [[ -n "${possibles}" ]] && \
+        COMPREPLY=( $(compgen -W "${possibles}" -- ${cur}) )
+
+    return 0
+}
+
+complete -F _eselect eselect

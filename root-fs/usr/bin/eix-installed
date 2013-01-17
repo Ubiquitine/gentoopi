@@ -1,0 +1,153 @@
+#! /usr/bin/env sh
+# This script is part of the eix project and distributed under the
+# terms of the GNU General Public License v2.
+#
+# Author and Copyright (c):
+#   Martin V\"ath <vaeth@mathematik.uni-wuerzburg.de>
+
+read_var_prg=eix
+. '/usr/bin/eix-functions.sh'
+ReadGettext
+
+Usage() {
+	n=${0##*/}
+	p='eix 0.25.5'
+	eval_gettext 'Usage: ${n} [options] ARG [ARG ARG ...]
+This script is part of ${p}.
+It outputs all installed packages, or packages installed with/without
+repository or buildtime information.
+Packages emerged with new version of portage contain repository and buildtime
+information. It is advantageous but not mandatory for eix to have this
+(see CHECK_INSTALLED_OVERLAYS and USE_BUILD_TIME in the eix manpage).
+
+ARG determines which packages are output:
+
+all          - output all installed packages
+repo         - output packages installed with    repository information.
+no-repo      - output packages installed without repository information.
+buildtime    - output packages installed with    buildtime  information.
+no-buildtime - output packages installed without buildtime  information.
+
+The following options are available:
+-=  Output packages prefixed with "="
+-q  Output only packages, no explaining text
+-a  Substitute for "-q all" (ARG is ignored)
+
+ARG can be abbreviated, e.g. instead of "no-repo" you can use "nr".'
+	echo
+	Exit ${1:-1}
+}
+
+forced=false
+equal=
+quiet=false
+OPTIND=1
+while getopts 'aq=h?' opt
+do	case ${opt} in
+	a)	quiet=:
+		forced=:;;
+	q)	quiet=:;;
+	'=')	equal='=';;
+	*)	Usage 0;;
+	esac
+done
+[ ${OPTIND} -le 1 ] || shift `Expr ${OPTIND} - 1`
+${forced} && set -- all
+
+ScanVarDbPkg() {
+	n=${1}
+	${quiet} || printf '%s\n\n' "${2}"
+	shift 2
+	c=0
+	set +f
+	for i in *
+	do	for j in "${i}"/*
+		do	test -d "${j}" || continue
+			f=false
+			for k
+			do	if test -r "${j}/${k}"
+				then	f=:
+					break
+				fi
+			done
+			if ${f}
+			then	${n} || continue
+			else	${n} && continue
+			fi
+			printf '%s\n' "${equal}${j}"
+			${quiet} || c=`Expr "${c}" + 1`
+		done
+	done
+	${quiet} && return
+	if [ ${c} -eq 0 ]
+	then	gettext 'none'
+	elif [ ${c} -ne 1 ]
+	then	echo
+		eval_gettext '(total number of versions listed above: ${c})'
+	fi
+	echo
+}
+
+All() {
+	ScanVarDbPkg false "`gettext \
+		'The following package versions are installed:'`"
+}
+
+Repository() {
+	if ${1}
+	then	ScanVarDbPkg ${1} "`gettext \
+'The following package versions are installed with repository information:'`" \
+repository REPOSITORY
+	else	ScanVarDbPkg ${1} "`gettext \
+'The following package versions are installed without repository information:'`" \
+repository REPOSITORY
+	fi
+}
+
+BuildTime() {
+	if ${1}
+	then	ScanVarDbPkg ${1} "`gettext \
+'The following package versions are installed with build-time information:'`" \
+BUILD_TIME
+	else	ScanVarDbPkg ${1} "`gettext \
+'The following package versions are installed without build-time information:'`" \
+BUILD_TIME
+	fi
+}
+
+ParseArgs() {
+	while myarg=${1#-}
+	do	myarg=${myarg#-}
+		case ${myarg} in
+		[aA]*)
+			${emulatemode} || All :;;
+		[nN]*[bBdDtT]*)
+			${emulatemode} || BuildTime false;;
+		[bBdDtT]*)
+			${emulatemode} || BuildTime :;;
+		[nN]*[rR]*)
+			${emulatemode} || Repository false;;
+		[rR]*)
+			${emulatemode} || Repository :;;
+		[hH]*)
+			Usage 0;;
+		*)
+			Usage;;
+		esac
+		[ ${#} -eq 1 ] && break
+		shift
+		${emulatemode} || printf '\n%s\n' '--'
+	done
+}
+
+[ ${#} -ge 1 ] || Usage
+emulatemode=:
+ParseArgs "${@}"
+
+ReadVar vardb EPREFIX_INSTALLED
+vardb="${vardb%/}/var/db/pkg"
+cd "${vardb}" >/dev/null 2>&1 \
+	|| die "`gettext 'cannot locate your database of installed packages'`"
+emulatemode=false
+ParseArgs "${@}"
+Exit 0

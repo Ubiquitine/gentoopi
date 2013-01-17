@@ -1,0 +1,43 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/eject.1.bz2 34613116195314fb6e80860b49f063b0 1356707166
+obj /usr/share/man/man1/volname.1.bz2 b30b3e84630fa1fa7b197723cf072613 1356707166
+dir /usr/share/doc
+dir /usr/share/doc/eject-2.1.5-r2
+obj /usr/share/doc/eject-2.1.5-r2/PORTING.bz2 88112423390803cf3835f7509505b80f 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/README.bz2 9807e83610f1fae5357daa8cc1fdf5ba 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/AUTHORS.bz2 bf71146c6dd767be5042252372c4de8b 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/PROBLEMS.bz2 256ca9c41178604a831bbef4b9c6dfe2 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/TODO.bz2 8d74ede63517174f90535f68abf2aaa4 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/ChangeLog.bz2 012cd9036970b8d649692018e4dee960 1356707167
+obj /usr/share/doc/eject-2.1.5-r2/NEWS.bz2 e461615a6d8e5e56ca7a2b3049bdc9ec 1356707167
+dir /usr/share/locale
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/eject.mo 3e0c99a81c7e4f887753dd238ccf0b92 1356707165
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/eject.mo 2a7bf09c3c96ea655e4c83c3e6947681 1356707164
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/eject.mo 9c556dee4565b484d05e72f1429cceef 1356707165
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/eject.mo 8d527f0c397819b7d06807c67605e406 1356707165
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/eject.mo 5de33c4bc51bb47b5197cb48113c2d7d 1356707165
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/eject.mo 98bec477824a2598a7d6e75cf636cd07 1356707164
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/eject.mo a574054bf7bc31a47e85edc755d98032 1356707165
+dir /usr/share/locale/cs_CZ
+dir /usr/share/locale/cs_CZ/LC_MESSAGES
+obj /usr/share/locale/cs_CZ/LC_MESSAGES/eject.mo f202fbbef126670fd88a1fe54a50edf5 1356707165
+dir /usr/bin
+obj /usr/bin/eject 16c74e8ed6bb6364b61a6b9dd72f5234 1356707186
+obj /usr/bin/volname 175f579d92c7c23db9f49f1ebd21281b 1356707186

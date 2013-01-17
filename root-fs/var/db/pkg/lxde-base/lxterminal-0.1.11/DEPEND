@@ -1,0 +1,1 @@
+x11-libs/gtk+:2 dev-libs/glib:2 x11-libs/vte:0 virtual/pkgconfig sys-devel/gettext >=dev-util/intltool-0.40.0

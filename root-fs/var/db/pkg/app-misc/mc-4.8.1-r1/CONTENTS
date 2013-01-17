@@ -1,0 +1,360 @@
+dir /etc
+dir /etc/mc
+obj /etc/mc/mc.keymap.default 608a872932eb5b42816d3ff6ea088fa6 1356818851
+obj /etc/mc/edit.spell.rc 6c46bc0859a452b43f4fa7fb435b1325 1356818851
+obj /etc/mc/sfs.ini 316dc92f3fdec60a7aaf0866edc361db 1356818836
+obj /etc/mc/mc.menu a1499fbbe8b14f66cc74dd0fb27ccf9c 1356818851
+obj /etc/mc/edit.indent.rc 008c6d0205315a87a977c7cd74a1526e 1356818851
+obj /etc/mc/filehighlight.ini cb059edc6842387cce30003c7be2fc75 1356818851
+obj /etc/mc/mc.menu.sr b394f31ffaea9efd083c142491bc1ad7 1356818851
+obj /etc/mc/mc.keymap 608a872932eb5b42816d3ff6ea088fa6 1356818851
+obj /etc/mc/mc.ext 0e30992a185eb48b2117c74c11b682d4 1356818851
+obj /etc/mc/mc.keymap.emacs 7595d64c8d3521500867218ed89ef5dc 1356818851
+obj /etc/mc/mcedit.menu ee4162e45f2bf4a9d6ba22cb6506431e 1356818851
+dir /usr
+dir /usr/bin
+obj /usr/bin/mc 82eb7f3a2a6412e07ed98163df13473d 1356818872
+sym /usr/bin/mcdiff -> mc 1356818905
+sym /usr/bin/mcedit -> mc 1356818905
+sym /usr/bin/mcview -> mc 1356818905
+dir /usr/lib
+dir /usr/share
+dir /usr/share/mc
+dir /usr/share/mc/help
+obj /usr/share/mc/help/mc.hlp.es 2ff3722a8f1c3bf5be8a1dbbd3bf8327 1356818847
+obj /usr/share/mc/help/mc.hlp.hu 0645f8c8336735ca0c500a4e62566472 1356818847
+obj /usr/share/mc/help/mc.hlp.it 23f7bd2e953f1315668ca0e97bbf38be 1356818847
+obj /usr/share/mc/help/mc.hlp.pl 6dbe3d2a6a9dcb3bf899a8b937594106 1356818847
+obj /usr/share/mc/help/mc.hlp.ru a084c8d8fe3849a6b15ccd87316d503f 1356818848
+obj /usr/share/mc/help/mc.hlp.sr ece15077bd2c3cc51b0fe92eede9e1e0 1356818848
+obj /usr/share/mc/help/mc.hlp 3307f4b5954d28355726ddc4cd5e64a4 1356818848
+dir /usr/share/mc/hints
+obj /usr/share/mc/hints/mc.hint 2048f36ec4dcb35ad4688cc45028f2de 1356818841
+obj /usr/share/mc/hints/mc.hint.cs 4db7e809d4ed7366db0773c2a58e7bc6 1356818841
+obj /usr/share/mc/hints/mc.hint.es 20598d5f33c810d7de0e2d29fe1837e1 1356818841
+obj /usr/share/mc/hints/mc.hint.hu e34f3f7f312b0ddb8a7329dbd1c2e038 1356818841
+obj /usr/share/mc/hints/mc.hint.it 958b290f183a52275ded801213c72a80 1356818841
+obj /usr/share/mc/hints/mc.hint.nl 70d28043e465fc3fe5aa7f120500c425 1356818841
+obj /usr/share/mc/hints/mc.hint.pl 644b0dc344fee222a37eb2c9c303644d 1356818841
+obj /usr/share/mc/hints/mc.hint.ru 0a3b0a47a98273fca7aa4b9aa2fc9319 1356818841
+obj /usr/share/mc/hints/mc.hint.sr 714f023dcbf9e92dca019bbbdc0eec9c 1356818841
+obj /usr/share/mc/hints/mc.hint.uk 04f629de636e1240b5e505a2c6e48d34 1356818841
+obj /usr/share/mc/hints/mc.hint.zh afdee18221c487612fd8546ea81ac7d3 1356818841
+dir /usr/share/mc/skins
+obj /usr/share/mc/skins/dark.ini 7c60bd67c32bbb4341e4b3e450bebe83 1356818850
+obj /usr/share/mc/skins/default.ini 8a1fdd28959dd7736dcd3a7203b417c8 1356818850
+obj /usr/share/mc/skins/gotar.ini af92eb2ea534ae054c96eda42d576f6d 1356818850
+obj /usr/share/mc/skins/xoria256.ini 7541aa185bb2bcf7ecd9483ad0ca1c1b 1356818850
+obj /usr/share/mc/skins/featured.ini f8b30e35eca8bc3463bc96408bcd22c4 1356818850
+obj /usr/share/mc/skins/darkfar.ini c9adbae8081d29e1c2b05b7a016a6f55 1356818850
+obj /usr/share/mc/skins/double-lines.ini 607ad34d263f7d6ea3ce6c86eab2d382 1356818850
+obj /usr/share/mc/skins/mc46.ini 5183c25fa9bc43e711b1002acf89a449 1356818850
+obj /usr/share/mc/skins/sand256.ini ce8eefabacf3b7e954163460ef82aba2 1356818850
+obj /usr/share/mc/skins/nicedark.ini a7a49a6abe683a5df762185a726abbbb 1356818850
+obj /usr/share/mc/mc.charsets 29ce00bd14ee0187aca2fdab4b8a078d 1356818851
+obj /usr/share/mc/mc.lib c59f6d301f3e1397d73c2618e8d39e26 1356818851
+dir /usr/share/mc/syntax
+obj /usr/share/mc/syntax/strace.syntax bd90e8f3aefcc91db0396946af78e3dc 1356818850
+obj /usr/share/mc/syntax/php.syntax 1029547d4fd1922b1f56676a8a84b454 1356818850
+obj /usr/share/mc/syntax/makefile.syntax a683e5a7a5f2e26d9dbcd3fc3ddddfec 1356818850
+obj /usr/share/mc/syntax/filehighlight.syntax f2f523f313040918eb6a9dacb424d879 1356818850
+obj /usr/share/mc/syntax/changelog.syntax e66f356fd4329978ff1501d58429b4aa 1356818850
+obj /usr/share/mc/syntax/c.syntax 787fecfa7c0bac889db0183942864044 1356818850
+obj /usr/share/mc/syntax/sh.syntax 4dd37a1f5f37939970f8f52786a1c3b6 1356818850
+obj /usr/share/mc/syntax/cython.syntax 167b910c6a16b741f36fe44b118897f7 1356818850
+obj /usr/share/mc/syntax/named.syntax 7639006e511ae2757790d26461808d78 1356818850
+obj /usr/share/mc/syntax/octave.syntax 23ff049b1ecd5cbd171bada96501392f 1356818850
+obj /usr/share/mc/syntax/texinfo.syntax 3854b29894394dd84ef3bc64bf3a6810 1356818850
+obj /usr/share/mc/syntax/procmail.syntax 7718f1eb64cd946eb4e454173f39c57c 1356818850
+obj /usr/share/mc/syntax/perl.syntax bf514abd697d8bf94cdbe02f3940dfcc 1356818850
+obj /usr/share/mc/syntax/slang.syntax 1cd4eb139ee9863d739ed6a1637b5362 1356818850
+obj /usr/share/mc/syntax/ada95.syntax 8b0914d235387e89993bd4f559c51c8e 1356818850
+obj /usr/share/mc/syntax/python.syntax 4cf9b616c44383a01e338a9642c9b57e 1356818850
+obj /usr/share/mc/syntax/m4.syntax 46d5b0cc21cd0c108918b5d81f74b537 1356818850
+obj /usr/share/mc/syntax/yxx.syntax 0cdc071640865fff8ff25a1b2aa4ac7b 1356818850
+obj /usr/share/mc/syntax/html.syntax e415e8e705014a6b73dd82c6556f437d 1356818850
+obj /usr/share/mc/syntax/Syntax ced11866a4717da8a0f91caa68ece63f 1356818850
+obj /usr/share/mc/syntax/vhdl.syntax 7ef04f2d12da27e899be11d71e9e1115 1356818850
+obj /usr/share/mc/syntax/smalltalk.syntax 4320643652042704ee36b0d481cf6c76 1356818850
+obj /usr/share/mc/syntax/unknown.syntax 5f0893aa488ac008ce83476ae73e505e 1356818850
+obj /usr/share/mc/syntax/j.syntax 67f02b62d25bea5adef10b75e817870b 1356818850
+obj /usr/share/mc/syntax/spec.syntax f144014f70e2930eec4e684924fa5d4c 1356818850
+obj /usr/share/mc/syntax/PKGBUILD.syntax eff5a7994b10c39a43154d7d8183c14b 1356818850
+obj /usr/share/mc/syntax/ruby.syntax dec4a876a3226d4b5bc8289c7a989577 1356818850
+obj /usr/share/mc/syntax/fortran.syntax e3c4f9a5b93498959fde7721deae4584 1356818850
+obj /usr/share/mc/syntax/ini.syntax 0408ea160973a6147466a55dec95ee2d 1356818850
+obj /usr/share/mc/syntax/debian-sources-list.syntax 1b564f2b8f531b576193f66e17487c7b 1356818850
+obj /usr/share/mc/syntax/lisp.syntax 57a3b809b6339a13a302418af9f03598 1356818850
+obj /usr/share/mc/syntax/xml.syntax ae8c5968962f1947dfed1f89eebdd3a1 1356818850
+obj /usr/share/mc/syntax/lua.syntax d75cac8cc46bf9423875530a5be55bd7 1356818850
+obj /usr/share/mc/syntax/properties.syntax acd56b18cc8d92b5e2fe7d2ce37b053b 1356818850
+obj /usr/share/mc/syntax/povray.syntax 3c97a132e661c975be63ff1300132502 1356818850
+obj /usr/share/mc/syntax/lsm.syntax 4690aa23ef31328057c81a44b9054ebd 1356818850
+obj /usr/share/mc/syntax/assembler.syntax eb8fa50c50a51bc7611ec2b1d10a2b6c 1356818850
+obj /usr/share/mc/syntax/idl.syntax eb5497fb378d3e0a15f88268b7efe1a1 1356818850
+obj /usr/share/mc/syntax/sql.syntax 86c89a87321a77ddaa292d75b4aa6793 1356818850
+obj /usr/share/mc/syntax/debian-control.syntax 9133c2ab7cff080a7a71b0f1bf673eba 1356818850
+obj /usr/share/mc/syntax/js.syntax 77e241b2f3176c872c92fd6ba13946a1 1356818850
+obj /usr/share/mc/syntax/debian-description.syntax 4211f2fcb2bf29eb5572855b7ecf464d 1356818850
+obj /usr/share/mc/syntax/erlang.syntax 402ea2d7face50a8bfeabd85bddbe023 1356818850
+obj /usr/share/mc/syntax/java.syntax 887589e50ade5fd48087457959f8b8b1 1356818850
+obj /usr/share/mc/syntax/po.syntax e86c21623e1a12d14dec02edb7a6fa35 1356818850
+obj /usr/share/mc/syntax/cs.syntax 58449d047e6c36510925cf2a8cec91f7 1356818850
+obj /usr/share/mc/syntax/cabal.syntax 6527796dd9df18e8acbc54a165b69b32 1356818850
+obj /usr/share/mc/syntax/d.syntax b0b59d67990947fee4e4e5c99b567367 1356818850
+obj /usr/share/mc/syntax/cxx.syntax 0e5900651c3ab5a0e8dcfff893c5cc24 1356818850
+obj /usr/share/mc/syntax/haskell.syntax edd18122f975a35bb3ef6e98bc9de2a3 1356818850
+obj /usr/share/mc/syntax/tcl.syntax d021d29cec9b36f9066cd9b02083a008 1356818850
+obj /usr/share/mc/syntax/swig.syntax 06353c0e31e2f5477b02de9841cdd891 1356818850
+obj /usr/share/mc/syntax/nemerle.syntax 0701adadbec809640cc66a76563b0c37 1356818850
+obj /usr/share/mc/syntax/latex.syntax 4ba8bcac5004415fd1b7b80dbdcd7911 1356818850
+obj /usr/share/mc/syntax/dos.syntax 0cbe72ed2b48b77e12ba60e7ab6b7ed1 1356818850
+obj /usr/share/mc/syntax/verilog.syntax e147ef103e96534dea04800ea63bfc20 1356818850
+obj /usr/share/mc/syntax/nroff.syntax 047c8d693b4bca6f58c6ecab0753c315 1356818850
+obj /usr/share/mc/syntax/awk.syntax 0f1580a3b5e22144d1363723d2828115 1356818850
+obj /usr/share/mc/syntax/yum-repo.syntax e70b778ac230482d2e611113476f7863 1356818850
+obj /usr/share/mc/syntax/eiffel.syntax 60b5370a2af71281cfd3ebdf37ceb219 1356818850
+obj /usr/share/mc/syntax/ebuild.syntax 436b4772418dbaa31afb16d9530fbab1 1356818850
+obj /usr/share/mc/syntax/mail.syntax 75855cf1cddc87a6e4c8b19bae910031 1356818850
+obj /usr/share/mc/syntax/css.syntax 667f93192747b9085e9feccc4587d69c 1356818850
+obj /usr/share/mc/syntax/f90.syntax e031a56981222630cc19f7458d7e003e 1356818850
+obj /usr/share/mc/syntax/syntax.syntax df38cb23a07479a6fe3ee5b037ad1804 1356818850
+obj /usr/share/mc/syntax/aspx.syntax 65a8b4238e52bb49d9e166e6429c4c1b 1356818850
+obj /usr/share/mc/syntax/debian-changelog.syntax d40012051318fdf14fcdb0b691febca1 1356818850
+obj /usr/share/mc/syntax/tt.syntax f235f84bc34fc7f0533906b1426d9f8c 1356818850
+obj /usr/share/mc/syntax/diff.syntax 37bd14c3154ef842bb84974a75c776ec 1356818850
+obj /usr/share/mc/syntax/pascal.syntax af816e295799896748d01ce2dcdf2700 1356818850
+obj /usr/share/mc/syntax/ml.syntax 4ba0d954f8be6ceda9adb67503fb1c05 1356818850
+dir /usr/share/mc/examples
+dir /usr/share/mc/examples/macros.d
+obj /usr/share/mc/examples/macros.d/macro.0.sh a22e64c7f9f781bd8745e549ba0d2754 1356818849
+obj /usr/share/mc/examples/macros.d/macro.1.sh 491437fbfc1eaa5976ffc65c14bdb9df 1356818850
+obj /usr/share/mc/examples/macros.d/macro.3.sh d493f0ee6e39aa0d1b1c9545a67f4f4d 1356818850
+obj /usr/share/mc/examples/macros.d/macro.4.sh e7b8b6a008e2e048d59c7d4ed9164083 1356818850
+obj /usr/share/mc/examples/macros.d/macro.5.sh b5f18b994f5a5b71a63a4122184446a8 1356818850
+obj /usr/share/mc/examples/macros.d/macro.6.sh c177747ae16fc21946bc13670dfd0f15 1356818850
+obj /usr/share/mc/examples/macros.d/macro.7.sh 4248d3f2944b438d50fb691a23cb7f5f 1356818850
+dir /usr/share/doc
+dir /usr/share/doc/mc-4.8.1-r1
+obj /usr/share/doc/mc-4.8.1-r1/AUTHORS.bz2 193ce5ddf0d717ffbf4142701cb1c368 1356818851
+obj /usr/share/doc/mc-4.8.1-r1/NEWS.bz2 f4837aed7850a9fed4a9888527c672eb 1356818851
+obj /usr/share/doc/mc-4.8.1-r1/README.bz2 c05a67e48281d0d4f8e256207f6d5876 1356818851
+dir /usr/share/man
+dir /usr/share/man/es
+dir /usr/share/man/es/man1
+obj /usr/share/man/es/man1/mc.1.bz2 d5a40e5b7a724e4d63b591af65843f91 1356818841
+dir /usr/share/man/hu
+dir /usr/share/man/hu/man1
+obj /usr/share/man/hu/man1/mc.1.bz2 35299c74e09517bece4605e058391aec 1356818841
+dir /usr/share/man/it
+dir /usr/share/man/it/man1
+obj /usr/share/man/it/man1/mc.1.bz2 352481d704f2c0c9e321504b754a876c 1356818842
+dir /usr/share/man/pl
+dir /usr/share/man/pl/man1
+obj /usr/share/man/pl/man1/mc.1.bz2 50b0eede034f438e6a13b14f89e2f57f 1356818842
+dir /usr/share/man/ru
+dir /usr/share/man/ru/man1
+obj /usr/share/man/ru/man1/mc.1.bz2 dbd93262de7dcbcfa151a5efc39c4b85 1356818842
+dir /usr/share/man/sr
+dir /usr/share/man/sr/man1
+obj /usr/share/man/sr/man1/mc.1.bz2 5d6dcd7939316559c630d48f156411e9 1356818844
+dir /usr/share/man/man1
+obj /usr/share/man/man1/mcedit.1.bz2 9f7bf6f70c1500b4ea0367db5af35827 1356818846
+obj /usr/share/man/man1/mcview.1.bz2 8d97a1e415d6c741c7b3b38a49d8ba04 1356818846
+obj /usr/share/man/man1/mc.1.bz2 8e44d4c2787103ef42070949046cd2e9 1356818845
+dir /usr/share/locale
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/mc.mo eb28897fe893e33c5bcee86710ddc3e3 1356818827
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/mc.mo 156bbaa59fea3d5dced85a4212be7190 1356818827
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/mc.mo a45fc8395a41b0147030bd12da42539e 1356818827
+dir /usr/share/locale/az
+dir /usr/share/locale/az/LC_MESSAGES
+obj /usr/share/locale/az/LC_MESSAGES/mc.mo ed9f634a41824d320017e5d644e3466b 1356818827
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/mc.mo 6a70f57545c8bccba5721311745e2006 1356818828
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/mc.mo 33d847e92f021daa7e112a2ddfd26872 1356818828
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/mc.mo fdd5f77996791a8ef60d1fd1c3cd36ed 1356818828
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/mc.mo 773be1b2d669fd3cf64a3468b56633f2 1356818828
+dir /usr/share/locale/eo
+dir /usr/share/locale/eo/LC_MESSAGES
+obj /usr/share/locale/eo/LC_MESSAGES/mc.mo ed8eb094b276f91268656b4a03fdf916 1356818828
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/mc.mo 2b7760f92122acf14accc6a8c68e3fea 1356818828
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/mc.mo 2b754914d400dcd75f89aed8322ece89 1356818829
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/mc.mo ccdf8737cc0e5bd99514ee54d7a0ac25 1356818829
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/mc.mo dd76a069305404f6e8998ef050d7a855 1356818829
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/mc.mo a06f0f20a6d9d950acedf553cbde0945 1356818829
+dir /usr/share/locale/ia
+dir /usr/share/locale/ia/LC_MESSAGES
+obj /usr/share/locale/ia/LC_MESSAGES/mc.mo 2d38ca70c8905a5464a7b99b5fc90933 1356818830
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/mc.mo fd8350b5f95121d87e31335e3832c974 1356818829
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/mc.mo a907d407d1ae7d99592d56b1d25755d8 1356818829
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/mc.mo 2f9d743e7e91489eef12cc7b4eef7192 1356818830
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/mc.mo 4bd1a8d3727f2fef47c39842484220f9 1356818830
+dir /usr/share/locale/ka
+dir /usr/share/locale/ka/LC_MESSAGES
+obj /usr/share/locale/ka/LC_MESSAGES/mc.mo 79727b9f4b8d527727a332fc76c8a376 1356818830
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/mc.mo 589db73f78ece79e5587218e48e0f410 1356818830
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/mc.mo 8b9300819d9ddf3f17ed3f010fbb1d04 1356818830
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/mc.mo 5b822cc496ade3e4b361c78662e58375 1356818831
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/mc.mo 1cded679c3d80ecd050179b1f66c4d2c 1356818831
+dir /usr/share/locale/mn
+dir /usr/share/locale/mn/LC_MESSAGES
+obj /usr/share/locale/mn/LC_MESSAGES/mc.mo 42d920af4288cc00dd4a8d53b328f1ee 1356818831
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/mc.mo e575f2556aadda896f17057b5b6ed8bd 1356818831
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/mc.mo 2ae900ed8f37c7c9272d5dca223c8810 1356818831
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/mc.mo 0348d06d5c243db756d55b1bdb1315ea 1356818831
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/mc.mo 91dd7be3456df59fb568ea5b446ed2ee 1356818832
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/mc.mo c4eaddf68512ecece7fa52579528c596 1356818832
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/mc.mo cd8f78d8120d12333905472cf1d573b7 1356818832
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/mc.mo 0b3d7c0cc1510341420f9f55c6390a1c 1356818832
+dir /usr/share/locale/ta
+dir /usr/share/locale/ta/LC_MESSAGES
+obj /usr/share/locale/ta/LC_MESSAGES/mc.mo 2344e17dc2fc26e5c33064dc8d800b0a 1356818833
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/mc.mo f3cd9b7d456f8a30e52819eaf447313c 1356818832
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/mc.mo d162022ec5f79f038a5231e55522e782 1356818832
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/mc.mo f253b4d2a69c65b82fab27734e29dc0a 1356818833
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/mc.mo 0c930e8d83bc20746f8825ec11fc7aa8 1356818833
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/mc.mo 2c5e1fa66d785587349dd5411a5f1da1 1356818833
+dir /usr/share/locale/wa
+dir /usr/share/locale/wa/LC_MESSAGES
+obj /usr/share/locale/wa/LC_MESSAGES/mc.mo b353ddf770d28593474a7c99f3ebff31 1356818833
+dir /usr/share/locale/fi_FI
+dir /usr/share/locale/fi_FI/LC_MESSAGES
+obj /usr/share/locale/fi_FI/LC_MESSAGES/mc.mo 0105a3431f64df320679622a59a4bc1e 1356818829
+dir /usr/share/locale/it_IT
+dir /usr/share/locale/it_IT/LC_MESSAGES
+obj /usr/share/locale/it_IT/LC_MESSAGES/mc.mo 935ffd4ae3550cce7e235b7faf681c1d 1356818830
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/mc.mo cd05f33af62d4022361ce60a023c8ae4 1356818832
+dir /usr/share/locale/sv_SE
+dir /usr/share/locale/sv_SE/LC_MESSAGES
+obj /usr/share/locale/sv_SE/LC_MESSAGES/mc.mo 3ba4818bf532c9994bf346e2ac709f6d 1356818833
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/mc.mo d2272d55a7417c555d4d44b3bb4cf0ae 1356818834
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/mc.mo df8514409eaeaaa52c75761c2ecdb976 1356818834
+dir /usr/libexec
+dir /usr/libexec/mc
+dir /usr/libexec/mc/fish
+obj /usr/libexec/mc/fish/ln 2479ad61db0e7bc57cc214d443a96358 1356818837
+obj /usr/libexec/mc/fish/ls 3b141193fa7a3fcc4bcb84c926fdba3c 1356818837
+obj /usr/libexec/mc/fish/mv 192da6e572693e064f94bf321483e8f2 1356818837
+obj /usr/libexec/mc/fish/get 4ae4f5c449eceba1f72dfaafcf7eb2d9 1356818837
+obj /usr/libexec/mc/fish/info cbb68e40bdd2c6f99caa2d83cf9d6919 1356818837
+obj /usr/libexec/mc/fish/send cc3a7065fcda327ea14df25d65a6a80d 1356818837
+obj /usr/libexec/mc/fish/chmod c2c8588df4adf8f128c094c09280027d 1356818837
+obj /usr/libexec/mc/fish/chown 07bb8cc381f291c7055bdd910dfed769 1356818837
+obj /usr/libexec/mc/fish/mkdir 13eb78e14aeb5536d5d9dc79d9bc9be4 1356818837
+obj /usr/libexec/mc/fish/rmdir 7a2c7cd66523a7149647d9bea2b58b4e 1356818837
+obj /usr/libexec/mc/fish/utime a2578cb50c8b81c588ced14d689b3944 1356818837
+obj /usr/libexec/mc/fish/fexists e689b926535d36eb253ada4f8ead9c88 1356818837
+obj /usr/libexec/mc/fish/append 08849f2c02f7746f5b9d6c68b125580d 1356818837
+obj /usr/libexec/mc/fish/hardlink 117380c3f67761aab670613e4a79e1d1 1356818837
+obj /usr/libexec/mc/fish/unlink 3eb4214254f5f603f24c0d1be50a02b9 1356818837
+obj /usr/libexec/mc/fish/README.fish 3194eaab63b49cb3634697892d370a25 1356818837
+obj /usr/libexec/mc/mc.sh ddec2a9b2bc9048b3f9e2163f20e8a49 1356818849
+obj /usr/libexec/mc/mc-wrapper.sh fdcf3d89ff6078bf7d34ef655df51959 1356818849
+obj /usr/libexec/mc/mc-wrapper.csh 323ed791be66c427570ee04c5a3bf5d0 1356818849
+dir /usr/libexec/mc/extfs.d
+obj /usr/libexec/mc/extfs.d/a+ 4d0bf64585116e15fb3ea6a8c8768fe4 1356818836
+obj /usr/libexec/mc/extfs.d/bpp 8d044367738af0ffd746a5d3c5b99e5c 1356818836
+obj /usr/libexec/mc/extfs.d/deb f4b2f2a2201ca11978c06d9acbd0a557 1356818836
+obj /usr/libexec/mc/extfs.d/s3+ 7acbc0392e192fc50a6ab8ce5aab2008 1356818836
+obj /usr/libexec/mc/extfs.d/u7z 6294d569a0153b80a3235c826fa2dfae 1356818836
+obj /usr/libexec/mc/extfs.d/rpm 8e5c3ca1436d4ee6a705d7e762aa63d8 1356818836
+obj /usr/libexec/mc/extfs.d/uar 2f368ced5312b9aced9003cc80187851 1356818836
+obj /usr/libexec/mc/extfs.d/uha 303e637f1f1c4269a37f14b0f7d3a5af 1356818836
+obj /usr/libexec/mc/extfs.d/apt+ 7d476b14130fbecdd2a3a2c4b5f79e4c 1356818836
+obj /usr/libexec/mc/extfs.d/deba a1fc51859919324f1c09c0d3920b4f31 1356818836
+obj /usr/libexec/mc/extfs.d/debd cbcd352fd2c3800a7513499ae2632fb2 1356818836
+obj /usr/libexec/mc/extfs.d/lslR fa3e064f5b5855ac775efd59aa1828ee 1356818836
+obj /usr/libexec/mc/extfs.d/uace 83fc778b548124177d45c51ad9354487 1356818836
+obj /usr/libexec/mc/extfs.d/ualz 5abcbabdb101144262cfb7f57e495c6b 1356818836
+obj /usr/libexec/mc/extfs.d/uarc 54bc067804fcb103ba058d3fb50b1693 1356818836
+obj /usr/libexec/mc/extfs.d/uarj 3e6956d5e3db82d1ebd45b467d99084b 1356818836
+obj /usr/libexec/mc/extfs.d/ucab b2886cd46cdad186fcd00a3330400113 1356818836
+obj /usr/libexec/mc/extfs.d/trpm b93bcdc4bdf6671e9c6189be090af296 1356818836
+obj /usr/libexec/mc/extfs.d/ulha 4633f04b0ff93e801a6e6420097f3eb4 1356818836
+obj /usr/libexec/mc/extfs.d/urar a92f5e29b8933bbf86a4cdc288b011cf 1356818836
+obj /usr/libexec/mc/extfs.d/uzip 3eb2d2056fba39083f308181d044bf3f 1356818836
+obj /usr/libexec/mc/extfs.d/uzoo 1a668fba2a7048fb4fb0d5d9f3ebd6e7 1356818836
+obj /usr/libexec/mc/extfs.d/patchsetfs 2cd51a2a47c11b1d50c1d2e043b8c257 1356818836
+obj /usr/libexec/mc/extfs.d/audio bbdd0996961251d6f58c290d15f3919d 1356818836
+obj /usr/libexec/mc/extfs.d/dpkg+ 6ee2e5d9359d365877e98483c5e91bcc 1356818836
+obj /usr/libexec/mc/extfs.d/hp48+ 1936901f528515a3a7a42c1edfff8742 1356818836
+obj /usr/libexec/mc/extfs.d/rpms+ fa7ac7e1a9af1ee53eac50926e2cfaa5 1356818836
+obj /usr/libexec/mc/extfs.d/README 7431c2e5c295fa8f67d6b1a06042f87a 1356818836
+obj /usr/libexec/mc/extfs.d/gitfs+ 3cbd6d9cfec038c4c37aab2caef2cc54 1356818836
+obj /usr/libexec/mc/extfs.d/README.extfs 201824371e12c307d8757be9f4180117 1356818836
+obj /usr/libexec/mc/extfs.d/mailfs b50338c5c9068d022284e916d809f387 1356818836
+obj /usr/libexec/mc/extfs.d/uc1541 eb77723e25e009bb4a4f1b2247e0b9b0 1356818836
+obj /usr/libexec/mc/extfs.d/patchfs 40c234cc14f0bae9552d3a715319c2c7 1356818836
+obj /usr/libexec/mc/extfs.d/iso9660 8b26165156f4c222da3889a569b24e64 1356818836
+obj /usr/libexec/mc/extfs.d/changesetfs 32de8681d12c90d2e44900ccbf3e1f72 1356818836
+obj /usr/libexec/mc/cons.saver 59499196e6c1a5537130ee99d6f885a6 1356818872
+obj /usr/libexec/mc/mc.csh 8f0aca076a82f0a055c558265ae9573a 1356818849

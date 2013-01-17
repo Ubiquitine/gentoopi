@@ -1,0 +1,1 @@
+>=dev-libs/libtasn1-0.3.4 <dev-libs/libtasn1-3 >=dev-libs/nettle-2.1[gmp] virtual/libintl >=sys-libs/zlib-1.2.3.1 virtual/pkgconfig sys-devel/libtool sys-devel/gettext || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

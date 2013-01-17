@@ -1,0 +1,1 @@
+x11-libs/libX11 x11-libs/libXt x11-libs/libXext x11-proto/xextproto x11-proto/xproto sys-devel/gettext || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

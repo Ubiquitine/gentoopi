@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ayttm jabber 
+GenericName=Jabber client
+X-GNOME-Fullname=Ayttm IM
+Comment=Jabber
+X-GNOME-Keywords=Internet;IM
+X-AppInstall-Keywords=Internet;IM
+Categories=GTK;Network;IM;
+MimeType=text/html;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/geo;image/svg+xml;
+Exec=ayttm
+Icon=ayttm
+Terminal=false
+StartupNotify=true
+X-Osso-Type=application/x-executable
+

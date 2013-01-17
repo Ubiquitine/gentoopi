@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xf86vmproto.h faa4088b33949f46f2f440a9242c2186 1356434591
+obj /usr/include/X11/extensions/xf86vmstr.h 71270b39fd56b53bb933048f99b9e776 1356434591
+obj /usr/include/X11/extensions/xf86vm.h c04fac045fc5177343b0e80bef8e0240 1356434591
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xf86vidmodeproto.pc 1e57d081cd41c34906d20564a890f641 1356434591
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xf86vidmodeproto-2.3.1
+obj /usr/share/doc/xf86vidmodeproto-2.3.1/README.bz2 99e00e2c82f5792579537f345289e273 1356434591
+obj /usr/share/doc/xf86vidmodeproto-2.3.1/ChangeLog.bz2 f326c9e438e5e382e436c10cee416b78 1356434592

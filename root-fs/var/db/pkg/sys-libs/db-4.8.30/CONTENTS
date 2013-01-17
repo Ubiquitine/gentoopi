@@ -1,0 +1,43 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libdb_cxx-4.8.la 184048d824ac72ef898be7058dd036c1 1355990694
+obj /usr/lib/libdb_cxx-4.8.a 352e274374c9c4de42b73d919eb36d34 1355990717
+obj /usr/lib/libdb_stl-4.8.la 9625232899ee23b2722bcdc3a8f5cb8a 1355990696
+obj /usr/lib/libdb_cxx-4.8.so 44ed9f1084e5092e9de357395d46c0be 1355990716
+obj /usr/lib/libdb_stl-4.8.so e0c251937af82fa622fe965c9ea9b1d9 1355990716
+obj /usr/lib/libdb-4.8.a 7efaed5ba29bac35fc88b0c2a06abea8 1355990717
+obj /usr/lib/libdb_stl-4.8.a 04b62e61607c99a0817f04fde92210f8 1355990717
+obj /usr/lib/libdb-4.8.la fb5d06d74a4649cac8b551588beaa391 1355990693
+obj /usr/lib/libdb-4.8.so 5d667f0d61a39ae5781af10d2d991b6f 1355990716
+dir /usr/bin
+obj /usr/bin/db4.8_dump 64990dffb877b08521b03f22e9fdfb85 1355990716
+obj /usr/bin/db4.8_upgrade 8515e0e4c7f09d4bb2517db83affe5a3 1355990716
+obj /usr/bin/db4.8_verify 8b03ba41a225328ffd3e73132d54f5a9 1355990716
+obj /usr/bin/db4.8_hotbackup 2b608177feb8fbbfd24144be12991b41 1355990716
+obj /usr/bin/db4.8_sql e5c3bb70fdcf0e0a138b1ad83779e65d 1355990716
+obj /usr/bin/db4.8_deadlock 98e791d5175cf15e4c4b076d02ae8aaa 1355990716
+obj /usr/bin/db4.8_archive 8b0fb7dad398cce595b3382e9231993a 1355990716
+obj /usr/bin/db4.8_checkpoint d674c4e3bc62e3d3bdedaba853d6d925 1355990716
+obj /usr/bin/db4.8_stat 48798f7fe9e3cad07b19e502d9ceea71 1355990716
+obj /usr/bin/db4.8_printlog eaf95c6be1126e3609bc208e21bac38d 1355990717
+obj /usr/bin/db4.8_load 8a8826a53c1fde66d006bad28c4d6487 1355990717
+obj /usr/bin/db4.8_recover 855eb4a4a400fe8d39d13e8d4f7e4614 1355990717
+dir /usr/include
+dir /usr/include/db4.8
+obj /usr/include/db4.8/db_cxx.h 6998e7d7d14990752a0f2a9564c0abe4 1355990473
+obj /usr/include/db4.8/dbstl_container.h c781e141bd4b9a10bffc75408c762c42 1271103935
+obj /usr/include/db4.8/db.h c95613c96f5e939e8dcd04b5308e9d15 1355990473
+obj /usr/include/db4.8/dbstl_vector.h f42354b60e3f32e4abc536a74e75b9cc 1271103935
+obj /usr/include/db4.8/dbstl_base_iterator.h 2e1a8d2414c62d24c7c5283c49ff696b 1271103935
+obj /usr/include/db4.8/dbstl_set.h 6895bc0213be080956d42a428aa65896 1271103935
+obj /usr/include/db4.8/dbstl_exception.h 2b3a01cb74b3e036677314aacbbdad4d 1271103935
+obj /usr/include/db4.8/dbstl_map.h a5edfc1b058eee1021e5ffb8d7ddffdc 1271103935
+obj /usr/include/db4.8/dbstl_resource_manager.h 3a06ad97302af0acd4bd2a7e3b64ed63 1271103935
+obj /usr/include/db4.8/db_185.h 9cda1b36efa2f3421fb454ef2522fd53 1355990473
+obj /usr/include/db4.8/dbstl_dbc.h ed949feb3ea5a0038cb4579e683c3b3c 1271103935
+obj /usr/include/db4.8/dbstl_inner_utility.h 78da6e93e8388b50d14e55d6970c269b 1271103935
+obj /usr/include/db4.8/dbstl_utility.h e434664bc44a1613c3f0d49405e434ec 1271103935
+obj /usr/include/db4.8/dbstl_element_ref.h c259f76b3088db162cb9b60df61acbf3 1271103935
+obj /usr/include/db4.8/dbstl_dbt.h 7d8859b78236da1f8ba70d239ee4d29f 1271103935
+obj /usr/include/db4.8/dbstl_common.h d03133e9a949d4bf81a4be003e8dfb84 1355990473
+dir /usr/sbin

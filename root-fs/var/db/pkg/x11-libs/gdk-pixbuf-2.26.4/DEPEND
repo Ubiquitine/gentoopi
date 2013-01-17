@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.31.0:2 >=media-libs/libpng-1.4:0 x11-libs/libX11 >=dev-util/gtk-doc-am-1.11 >=sys-devel/gettext-0.17 virtual/pkgconfig app-arch/xz-utils

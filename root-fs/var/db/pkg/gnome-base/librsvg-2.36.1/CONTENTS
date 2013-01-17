@@ -1,0 +1,60 @@
+dir /usr
+dir /usr/include
+dir /usr/include/librsvg-2.0
+dir /usr/include/librsvg-2.0/librsvg
+obj /usr/include/librsvg-2.0/librsvg/rsvg-cairo.h 5b05d4815a38c1503c3f23756496973a 1357551254
+obj /usr/include/librsvg-2.0/librsvg/librsvg-features.h 122d6e2fe00404a24f968e96b5d75fa1 1357551254
+obj /usr/include/librsvg-2.0/librsvg/librsvg-enum-types.h b5ba010b68cc183713befc4a4d4d1bb6 1357551254
+obj /usr/include/librsvg-2.0/librsvg/rsvg.h f4995c1ec3e0c43572adb2287da0ce88 1357551254
+dir /usr/bin
+obj /usr/bin/rsvg-convert 89db633cbd0d095b7f15a0e3d49c0d30 1357551302
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/rsvg-convert.1.bz2 0ecc438ca3d7b53e300bf473fa5f7cda 1357551253
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/rsvg-2.0
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-4.html f4fe002ea4d89bd849a6eb5506387767 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-36.html cd4130bb85f010119ca72ad422c00ed9 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-GdkPixbuf.html ab1d9b11261b53d50a919bb03d87f4a5 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-deprecated.html 80932ea5e65a7ab50ba2525aaedb06b0 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/licence.html a379d5b2bd9b287a0a76835d043ccf7c 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-GIO.html 7055615623e3390fceb02d4fe4f27001 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg-2.0.devhelp2 22d7b8b37b803a40bec241fa7a00ff7c 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg.html d04fe3204e6142e04c6c5b63862ec5d9 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/object-tree.html 4b309b16f0edc1759d9cf0ff363ee230 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/up.png 2f07d9272deb4ae870ca6821117877fa 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/right.png ebd7e6d206d73850d77d305ab548f957 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg-Version-check-and-feature-tests.html f7ceac517150ffa1338bdb0411ae236a 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-14.html d6703ac291c6bb17ad78bedadcdf8e2d 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-8.html 42e90a49a5d842e90f63c9a80d3d29f1 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/index.html fbe5343ec7b0cb6f4cd49da4017562ad 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-cairo.html 604bd1fb64ab10c4cce8cfa0cd9d750a 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/style.css b9b769c722d264951331b0c6cdbf0bc0 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/RsvgHandle.html a61159ca7d5de151af1c5e8b942f1c40 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/annotation-glossary.html dc6a3fd900426d55906758a71db4290c 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-9.html f9fbe3322a96b9e8d29150bd90f7135a 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/left.png f771308152ab24a69682daed70ce136d 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/index.sgml bd68bdab431b19d365e1bbfeb1c3d04b 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-full.html 09ef0b1b186b100d05f8fe69d60d9c3c 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-22.html 508e17cf8b8f4226d621cba115397fc6 1357551269
+obj /usr/share/gtk-doc/html/rsvg-2.0/home.png f6192f4292d744423df690e785d60fdf 1357551267
+obj /usr/share/gtk-doc/html/rsvg-2.0/api-index-2-32.html 3884727282784a6f884ace3ba177e211 1357551269
+dir /usr/share/doc
+dir /usr/share/doc/librsvg-2.36.1
+obj /usr/share/doc/librsvg-2.36.1/README.bz2 501b560b52942eaa8907faad69f56e7b 1357551270
+obj /usr/share/doc/librsvg-2.36.1/NEWS.bz2 4599541d6a1aa623d9ae0c23f85ca08c 1357551270
+obj /usr/share/doc/librsvg-2.36.1/AUTHORS.bz2 517f713ffb334140a8c5492683e0ba40 1357551270
+obj /usr/share/doc/librsvg-2.36.1/TODO.bz2 0eb063c1df9acec02b8b5a331f7d62e8 1357551270
+obj /usr/share/doc/librsvg-2.36.1/ChangeLog.bz2 5b712d563764a825994562bc53797808 1357551270
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/librsvg-2.0.pc 68a8986ed13667bc05cd7154d702e392 1357551254
+obj /usr/lib/librsvg-2.so.2.36.1 fe5a4a2bcc1ec9edbb55c70eeb8e9380 1357551302
+sym /usr/lib/librsvg-2.so.2 -> librsvg-2.so.2.36.1 1357551350
+sym /usr/lib/librsvg-2.so -> librsvg-2.so.2.36.1 1357551350
+dir /usr/lib/gdk-pixbuf-2.0
+dir /usr/lib/gdk-pixbuf-2.0/2.10.0
+dir /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+obj /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so aa2294177810c459289a6006d68c2798 1357551302

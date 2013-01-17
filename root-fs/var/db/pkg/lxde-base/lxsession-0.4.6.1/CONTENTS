@@ -1,0 +1,207 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lxsession.1.bz2 31c2f72119bd56328637e881ceeefbf0 1356714466
+obj /usr/share/man/man1/lxsession-logout.1.bz2 fa9ded21e6ac142853b71b9017302340 1356714466
+dir /usr/share/lxsession
+dir /usr/share/lxsession/images
+obj /usr/share/lxsession/images/gnome-session-switch.png 90ef356acf0bb07037eb4a653b42e3dc 1356714466
+obj /usr/share/lxsession/images/gnome-session-suspend.png b158ead7965f5af7b862d26db883a3b1 1356714466
+obj /usr/share/lxsession/images/system-log-out.png 153d5bcce63cc5dc5b11b654a2275630 1356714466
+obj /usr/share/lxsession/images/gnome-session-hibernate.png 39f70a30a3fde056ea6adc2c97451e02 1356714466
+obj /usr/share/lxsession/images/system-shutdown.png 0ee8ab10e9f034643bfd5b5620b10f61 1356714466
+obj /usr/share/lxsession/images/gnome-session-reboot.png 00ca6988b97109520a6e76577c0ee860 1356714466
+dir /usr/share/doc
+dir /usr/share/doc/lxsession-0.4.6.1
+obj /usr/share/doc/lxsession-0.4.6.1/README.bz2 f7f03ab32be504fd99029a9b27664973 1356714466
+obj /usr/share/doc/lxsession-0.4.6.1/AUTHORS.bz2 90e345443b1cc0c98f5a0ae79d0c1116 1356714466
+obj /usr/share/doc/lxsession-0.4.6.1/ChangeLog.bz2 13d8767604663a1054872311046de074 1356714466
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxsession.mo 3edeb75c201f4d57a6f46705537ed545 1356714449
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxsession.mo d2b33793b978443664f295ab8fd25368 1356714457
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/lxsession.mo 6b77c0df0741d3976d2079ef4f3a360c 1356714452
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxsession.mo 3a35bb9995a3d8a502aba1fb61d54d3d 1356714463
+dir /usr/share/locale/am
+dir /usr/share/locale/am/LC_MESSAGES
+obj /usr/share/locale/am/LC_MESSAGES/lxsession.mo bc4a70f866ca1ec6030893889fcc0ffa 1356714449
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxsession.mo 3d7e1c93e589e7e4fbc5f5cd356ee576 1356714451
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxsession.mo 81c382872d3a0fee2cd112971de78d60 1356714456
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxsession.mo 4886e2edd497831a2360e33813530267 1356714449
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxsession.mo dd0dc8680c1c5bce83943254a7da58a7 1356714451
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxsession.mo 86d3c7c6ba7ae16884605a63d5851ac4 1356714464
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxsession.mo 8708aac77d34d49d7def34f38a23c340 1356714457
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/lxsession.mo 1fd0b7057bdcbc53c1686945a2927ad6 1356714463
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/lxsession.mo 88795289fbae2e0dfd462005c6939dd5 1356714462
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxsession.mo 111ae06c4b7a6a0aa801b1d509483e4e 1356714453
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxsession.mo 8f6dc22996578678de11bb364c54b671 1356714465
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxsession.mo 382722315f3020a530a832a217e20b60 1356714460
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxsession.mo 21e9a64bba71a561e308dec5cfcb2a74 1356714456
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxsession.mo 827ab71c1ab4013bdf0ba4d8d5e18daf 1356714464
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxsession.mo 5ca6e672f473abd0027c31a6de719f43 1356714453
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/lxsession.mo 1fd0b7057bdcbc53c1686945a2927ad6 1356714460
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxsession.mo bd9465220bab9f97065404371ead373b 1356714453
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxsession.mo 1ea393c528d583ddaaef8a8298e93ad8 1356714451
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxsession.mo c6acf62b1d534ba32928a51727b3ff67 1356714462
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxsession.mo c4cd909b9de0a96cba169f4b4ded160f 1356714465
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxsession.mo d41701adb800692434aa01828da22579 1356714463
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/lxsession.mo 8708aac77d34d49d7def34f38a23c340 1356714458
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxsession.mo e41bfd40e521c8f804d4873e539edca6 1356714458
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/lxsession.mo 31a91119254149fdd3cfea6a2a9c4d7e 1356714448
+dir /usr/share/locale/si
+dir /usr/share/locale/si/LC_MESSAGES
+obj /usr/share/locale/si/LC_MESSAGES/lxsession.mo 53dface50d898ab39f1be6d88eee94ae 1356714461
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/lxsession.mo b10fc791fb1c718401652164336c5122 1356714450
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxsession.mo 84f2bda82a2aad4e230934d06c23bbae 1356714456
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxsession.mo dce0eefc360cd353b69a167df9ef0597 1356714450
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxsession.mo cb2d336591d5472dfc131653b8bfb995 1356714454
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxsession.mo fad15ee3cc4f60a5d0bfc965a7bfaf9b 1356714461
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/lxsession.mo 823fcf161b658ce1c9a8b451f18e8c1a 1356714464
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxsession.mo abdcb45f1f21122e1b765ea6f85f792e 1356714458
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/lxsession.mo fcc9cf73c2e6ef76d42eed17566a7a48 1356714450
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxsession.mo 733a2df65d9eb73989cc5ba01f685a4f 1356714465
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/lxsession.mo cc9ef8545422619aa0a7879fa5ed35d5 1356714450
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxsession.mo 4ef08a2cacaa2a62fe14926b58b96465 1356714461
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxsession.mo 587c67e9f19209ae56fbcf5302038f02 1356714462
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/lxsession.mo 927b8eea950aacb16d3b9fc42090b628 1356714458
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxsession.mo 9dfca2fa304e954b7b451fcecd84c8f6 1356714457
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxsession.mo 23ff74668079ec55e4e80c0c4e015520 1356714462
+dir /usr/share/locale/ast
+dir /usr/share/locale/ast/LC_MESSAGES
+obj /usr/share/locale/ast/LC_MESSAGES/lxsession.mo 272262f0033dc0f1269b20bb4e7b38b5 1356714449
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/lxsession.mo 1940c1d1914013f18b4ebfd8d9dcdb86 1356714459
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/lxsession.mo 6a5ff25dbe23202026b6d12fc9091fc6 1356714453
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxsession.mo c979f6ab98e5906b91dfbcbc020d2fcc 1356714461
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxsession.mo e932012310551f61a91855b9beb20930 1356714460
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxsession.mo 496f3092e687cf729f0e9bc1ecba133c 1356714457
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/lxsession.mo 14b9185ed0bba70591463321f7aef93a 1356714459
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxsession.mo cc8c598812ea475eedf278f53d8a8044 1356714459
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxsession.mo 6b77c0df0741d3976d2079ef4f3a360c 1356714452
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxsession.mo 30b3edf3b607c5023cd597df1d20f8fa 1356714456
+dir /usr/share/locale/frp
+dir /usr/share/locale/frp/LC_MESSAGES
+obj /usr/share/locale/frp/LC_MESSAGES/lxsession.mo 9a4f790795310379ec63c633a1cda8eb 1356714455
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxsession.mo ebc547a74e9038c80f5d0e1d1db99dea 1356714454
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxsession.mo 68bbd2cfc36bad8b3b7558e36de76c8a 1356714452
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/lxsession.mo d0c7d1ce95a2b4da6a6bef9facf87602 1356714459
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxsession.mo 74b20811796fe9eb8c49e9343e32938e 1356714452
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/lxsession.mo 823fcf161b658ce1c9a8b451f18e8c1a 1356714464
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxsession.mo 796561375bd294219796557ef59e7f33 1356714463
+dir /usr/bin
+obj /usr/bin/lxsession 33b28101c5b8b611873c7900b4680fdd 1356714479
+obj /usr/bin/lxlock 6a69c61b0546def0abb11d96b54bafbf 1356714466
+obj /usr/bin/lxsession-logout 90db6d7e4fe8fba6a289e01cca6fb27a 1356714479

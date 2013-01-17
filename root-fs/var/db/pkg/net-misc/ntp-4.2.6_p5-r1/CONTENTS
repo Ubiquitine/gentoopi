@@ -1,0 +1,289 @@
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/ntp-client 57100f0ec06fd6e920df73be64d10c0d 1356358318
+obj /etc/init.d/ntpd 49a30ff9af7a2f0ca60fe724966ca9d4 1356358319
+obj /etc/ntp.conf dc50e31c2d46104d40c1a494af1f9fc6 1356358317
+dir /etc/conf.d
+obj /etc/conf.d/ntp-client c32e38bccb0a0f90584d2a31cd01c771 1356358319
+obj /etc/conf.d/ntpd 5e1591f145a63cf66ee20ab65495781a 1356358318
+dir /var
+dir /var/lib
+dir /var/lib/ntp
+obj /var/lib/ntp/.keep_net-misc_ntp-0 d41d8cd98f00b204e9800998ecf8427e 1356358319
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/ntpd 185f38a6159e2c74e6cfc093f7e5fec4 1356358342
+obj /usr/sbin/ntpdate c1436f2d551192f44be852c27ae77149 1356358342
+dir /usr/lib
+dir /usr/share
+dir /usr/share/ntp
+obj /usr/share/ntp/ntp.conf dc50e31c2d46104d40c1a494af1f9fc6 1356358316
+obj /usr/share/ntp/ntp-status e3df40cbd877929e901799d9fba2f39a 1356358316
+obj /usr/share/ntp/html2man 646d5184492a9c0f4436a588e2f0ce2e 1356358316
+obj /usr/share/ntp/summary 3410dcd68ae0c3169205ecc93d5e29ef 1356358316
+obj /usr/share/ntp/freq_adj 954adbb190f0b17e25f66e796d756b39 1356358316
+obj /usr/share/ntp/VersionName 10e1d17a4d3cec5ed5861066f5a17028 1356358316
+dir /usr/share/ntp/monitoring
+obj /usr/share/ntp/monitoring/ntptrap 04903a6b00086d1d903b5aefaf626ff7 1356358316
+obj /usr/share/ntp/monitoring/lr.pl 6dacf496e49ef68e1577385ec0a3b8be 1356358316
+obj /usr/share/ntp/monitoring/ntp.pl 9e00e2813324cd1605cead96347e1743 1356358316
+obj /usr/share/ntp/monitoring/loopwatch.config.SAMPLE 3012552e4677b6bb0a8222e8a804a30a 1356358316
+obj /usr/share/ntp/monitoring/ntploopwatch ae13c4041d0ab2e38ab60df445f5bf06 1356358316
+obj /usr/share/ntp/monitoring/README 9485ecd788f43b1f61efd1f7f3543cb7 1356358316
+obj /usr/share/ntp/monitoring/timelocal.pl e096803a46f7e31587e8d7fb07c53e62 1356358316
+obj /usr/share/ntp/monitoring/ntploopstat cc0f57c03a5094566d1ee02bf9c0f480 1356358316
+obj /usr/share/ntp/check--help 268561c6ede7f1874f8c40ad3128bc96 1356358316
+obj /usr/share/ntp/plot_summary e2dc6ae386780873971e0da9d9a08567 1356358316
+obj /usr/share/ntp/calc_tickadj c489744104f57a1e3d7f467477beb234 1356358316
+obj /usr/share/ntp/fixautomakedepsmagic 1bb578fc0a376bacda97d3733e08695a 1356358316
+obj /usr/share/ntp/checktime 399b3158638661927fa5815607e0e409 1356358316
+obj /usr/share/ntp/genCommitLog 7817e771c1cd723c8b8360eeb9a28356 1356358316
+obj /usr/share/ntp/README de05be4f8730593a3d7764ea4e970ffa 1356358316
+obj /usr/share/ntp/ntpver bad5de385dcde02c2787ea7f92194ea5 1356358316
+obj /usr/share/ntp/ntptrace a02d49fd4e0807ed11933e21f796ea7e 1356358316
+dir /usr/share/ntp/rc2
+obj /usr/share/ntp/rc2/local.ntpd f7263980745d121405c1d71958308414 1356358316
+obj /usr/share/ntp/ntp-close 11631b4ea337cd2862799480dbed01ee 1356358316
+obj /usr/share/ntp/ntp-wait 9868458e01f07fcb01568ff6a97168ab 1356358316
+obj /usr/share/ntp/mkver 7b44957ff0da150db7b391b13e808b60 1356358316
+obj /usr/share/ntp/checkChangeLog 9637e5096a5691fd69ca41aa72922358 1356358316
+dir /usr/share/ntp/rc1
+obj /usr/share/ntp/rc1/postinstall d21caa25b437d323e0532aed0cde9898 1356358316
+obj /usr/share/ntp/rc1/preremove f47c0afd53a86a7777046e0e1ccc4db1 1356358316
+obj /usr/share/ntp/rc1/preinstall 3faef2721ca6d1743fa3b3b40bc8c614 1356358316
+obj /usr/share/ntp/rc1/xntp 8f6079de28ef4266a282f2ff15cd77f4 1356358316
+obj /usr/share/ntp/rc1/prototype e9c355dc863b089ba5fae73b6846aabb 1356358316
+obj /usr/share/ntp/ntp-groper d3734cd7969a34fbb4313719c90428cb 1356358316
+obj /usr/share/ntp/UpdatePoint 41275085716c9ff01920a9b284a82cf3 1356358316
+obj /usr/share/ntp/ntp-restart 9defffae77954b501a1db8dacde49cce 1356358316
+obj /usr/share/ntp/ntpsweep b811f3b8a3d83d7dc4e1ca8bcc09105e 1356358316
+obj /usr/share/ntp/hpadjtime.sh a48466adb7bda0f3739696a1be4f33ec 1356358316
+obj /usr/share/ntp/cvo.sh 696bee897a41298860a8fc14b4da197f 1356358316
+dir /usr/share/ntp/stats
+obj /usr/share/ntp/stats/itf.awk 3f842a2d62052dd589b42ae15a7b04c0 1356358316
+obj /usr/share/ntp/stats/clock.awk bd4ebb0b8cd436341b5cd1795f5e5323 1356358316
+obj /usr/share/ntp/stats/loop.S efd0e66c967c16ac722fc8f43552bd4b 1356358316
+obj /usr/share/ntp/stats/loop.awk 2343faaf3e5a49e0a1bb91d24e69a325 1356358316
+obj /usr/share/ntp/stats/etf.awk e07b5a54df8921d2fa6ec93b935a88b9 1356358316
+obj /usr/share/ntp/stats/tdata.S d194047063313e0af56a2cf065142b87 1356358316
+obj /usr/share/ntp/stats/dupe.awk 06a3a1ad098b2e51ac4ef1d9de11a85f 1356358316
+obj /usr/share/ntp/stats/ensemble.S 1e7727a3e42cf108297156aa4bef2b82 1356358316
+obj /usr/share/ntp/stats/psummary.awk e8a171589154e01746abc6bbc8a9e791 1356358316
+obj /usr/share/ntp/stats/summary.sh fc91591a2340c01cc9142de4b5eae5e7 1356358316
+obj /usr/share/ntp/stats/README bf1eee0292c0aecf5bd20de63f43f1ad 1356358316
+obj /usr/share/ntp/stats/ensemble.awk c2e2439d20b484249fa7846c3de5e846 1356358316
+obj /usr/share/ntp/stats/README.stats 4b5dc7df5a670ab832030d11ba3ab262 1356358316
+obj /usr/share/ntp/stats/itf.S 4647c0f2b0ff53b75ff2aa9fe08f1f5f 1356358316
+obj /usr/share/ntp/stats/README.timecodes f3783a66338e3c152f14cdc5a4a633b4 1356358316
+obj /usr/share/ntp/stats/loop_summary 4c61f6b53b17e64a5270e31a50a2e7a7 1356358316
+obj /usr/share/ntp/stats/peer.awk f001d76c0b5206baecb236c992ed943f 1356358316
+obj /usr/share/ntp/stats/tdata.awk ab3c064f770f8d2c1938b163935c10d3 1356358316
+obj /usr/share/ntp/stats/etf.S a4689f09592a62cff31e6d780ba9ec3b 1356358316
+obj /usr/share/ntp/genver d942b86ef81b7c2e3b1a7cafbea92250 1356358316
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/sntp.1.bz2 17acbffd0a930b22e938507684ca1fde 1356358281
+obj /usr/share/man/man1/ntpsnmpd.1.bz2 155d51b4a629e60c33dbf5fa7211d5c0 1356358292
+obj /usr/share/man/man1/ntp-keygen.1.bz2 13f0af618affe931a731664c3cd37337 1356358296
+obj /usr/share/man/man1/ntpq.1.bz2 b65d6eafc98dd07b536db967e7a07c6a 1356358291
+obj /usr/share/man/man1/ntpd.1.bz2 dd81b2f7fa1461f8e0afcc8410f7aca6 1356358286
+obj /usr/share/man/man1/ntpdc.1.bz2 633a01006ea7f78f7ba0f72fe2cd2fad 1356358289
+dir /usr/share/man/man5
+obj /usr/share/man/man5/ntp.conf.5.bz2 e8f54afca756e7062ec915c6737f025e 1356358297
+obj /usr/share/man/man5/ntp.keys.5.bz2 04bfbce6ea3dd887f6c4c313337be3cb 1356358297
+dir /usr/share/man/man8
+obj /usr/share/man/man8/ntpdsim.8.bz2 9c2f1264e51dbb0c09082d4311e723d5 1356358297
+obj /usr/share/man/man8/ntpdate.8.bz2 58e78e1884803163b9d0d26111a4ecf8 1356358297
+obj /usr/share/man/man8/ntpdc.8.bz2 53f8924682b9afedeb9ea07451eac2c0 1356358297
+obj /usr/share/man/man8/ntpd.8.bz2 767c8c9af53f3a81d752cdebc91ac2e8 1356358297
+obj /usr/share/man/man8/ntptrace.8.bz2 ff4719be0c6f55e67dd46930470c74b9 1356358297
+obj /usr/share/man/man8/tickadj.8.bz2 4d39fe13d05ba6d6c8d32c013cabc9f7 1356358297
+obj /usr/share/man/man8/ntptime.8.bz2 dd27d595adc6a522cc2de72c7ac093d1 1356358297
+obj /usr/share/man/man8/keygen.8.bz2 3cb97227515b22808fada403a933bfe5 1356358297
+obj /usr/share/man/man8/ntpq.8.bz2 66f36457cde84e5f7bc681c53ece55d0 1356358297
+dir /usr/share/doc
+dir /usr/share/doc/ntp-4.2.6_p5-r1
+obj /usr/share/doc/ntp-4.2.6_p5-r1/README.bz2 f31c200ce53c140d0656a255ccc28862 1356358296
+obj /usr/share/doc/ntp-4.2.6_p5-r1/INSTALL.bz2 568703cc41920dfe09704e6d44ea0e40 1356358296
+obj /usr/share/doc/ntp-4.2.6_p5-r1/WHERE-TO-START.bz2 cdac2f7f7f59f6b75f481aa2fa2cdb23 1356358297
+obj /usr/share/doc/ntp-4.2.6_p5-r1/TODO.bz2 201165c94e339cf2c3255a5a134fd103 1356358297
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/extern.html 6b7e9ac799e5bae6154e3b236f3d2030 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/quick.html bb0bfa25c2b798d8c5c2bacff083bd71 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/kern.html 32a3f1863cedb8def34f69abe372f3d2 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/sitemap.html 4a085d38129799a9ff9d45f8e92fef06 1356358316
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpd.html 6766d29d4618f94b98820fbef3044c23 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpdsim_new.html afaba48b99ebb50960abdf861b17769d 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/accopt.html c0c13ce0692de1dcfbae748bcd17df9b 1356358299
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/rate.html a538f7e504a2c5dda5b4f81eb043404b 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/sntp.html fc975e9e35aa7d47b96b1d1d588a06e9 1356358316
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/prefer.html 48792794dbfda5d8d801aeafc78f20d3 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/audio.html 7faea255b7e5084ed4ad7b9e8eb08613 1356358299
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/rdebug.html 2a38adacbb0d423a1d31a7bec1cd468f 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/config.html 28700579e93a036fcbf20f970a4912b7 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/release.html 07e320427c6ff6190a296a52579ae1d2 1356358315
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver5.html d57e52151cb5b963474417c27448b4d9 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver27.html 45e855e7b1710486b6b5632d70628b19 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver42.html 6343a5615fa99f8bd71c651055df9f3e 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver10.html 422ad4b2aeb751c4af3dcc36d9e74812 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver9.html bac558288bab8c83dcee7bfd767d0dad 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver44.html ffb7cf89a709ea9abfb210b9a4b416e2 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver26.html 0ca0505d7f711d56a62b5bb4a6bf1489 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver22.html 1701287359675639b164ae9529a30f12 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver20.html 649781fca922a4f255d0df41caed24e8 1356358301
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver39.html 9bd73be4e612837515b4416abc36f9b8 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver34.html 418501d21bb4612f369d743d39570dca 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver4.html ad9ff5f5e81acef75bb37e06a460b6f0 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver28.html 3816ee23406bd4139232e744b9b2c695 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/oncore-shmem.html e10b8e38f3d5ad0717771fbbe0cc597e 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver19.html a571c63499390d5d56e27ea07537fa49 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver2.html 713003338be9bb1ead83445767973b42 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver30.html ba33cc804c22f2d748b95cbfcaea0169 1356358302
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/scripts
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/scripts/style.css 786d869708bc60bee4d803e1b4a7a19e 1356358302
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver32.html a54fe1b74e1b2b96fa0d0bd36e552b5f 1356358303
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/icons
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/icons/mail2.gif 5c9753f93911ac246f1036d325c2832c 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/icons/home.gif d5017cc2ec8fe4dd6fed961dd503a266 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver38.html 2b081618756d3e4763f526ef388516e0 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver12.html 4257f47ef60196148961aacc65147667 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver35.html a032ddc2edc8596118491787e9cb2491 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver7.html cf3ea785a154ac4505f01946f3f38587 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver43.html d6a6e68b7c7fafeded892f00dd0ddd2a 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver8.html c1313c29a4efab9af52b9323afeceb34 1356358303
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver18.html 375ce615b327a1502e068b504dd14173 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver6.html 78a712eb4025509e1ee33b8bc587993c 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/mx4200data.html 6ee33b8815aa76716087b2bcff0080a3 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver11.html 4fda239983ea395101ec7dbaa38b972c 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/tf582_4.html 52a83b0bbf75929ddf25fec2d8b46995 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver33.html 7b1349cbc50915ad41810028924ea7b3 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver40.html 284415ed51fc5b46ffa8f1b7db4c65ac 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver36.html 5b9144404fff05d14ba7ccf7d675b19d 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver3.html 3861f728f6ee8a969c9806341478e5c8 1356358304
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver31.html 6c61f611d882178114f2e1e81304e425 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver37.html bc1b3cc10e36ed7295287042e671c69d 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver16.html c52ddcbe70baf4fc18e428c99bc5f7cf 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver1.html b162db303d0506716f3bd27035d4f625 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/drivers/driver29.html d1972d56668daf5b0f9379ef5896c230 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/debug.html 03283676b9d8d07c06dfdcb82ee79a07 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/howto.html 53b7326f2d0442a272ec8bfe91ec5634 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/keygen.html e5a73d6e67bd504c13b87f71c8f5d25a 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/tickadj.html 07b7499e707d3e9dc567f63bf6d8a974 1356358316
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/pic
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/panda.gif b829acfa839754cf035f1b6a51b4a476 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice23.gif bfe63c0f615571fd2e4e6d24d59a2331 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/gps167.jpg 556211e049205eb22bef00f97def52d5 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/flatheads.gif f410929a175a2eadb05fe9e6c9a0433b 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/hornraba.gif 27893aba5530fe8eb2fc84df590ae0d4 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/rabbit.gif 42cf06e07f85b359e95418112cd8f085 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/fg6021.gif 3d9d643fd240aac9741ae1a42611293b 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo.gif 20fbe8d1653f444cb47ae7126ba4905d 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/boom3a.gif 2bec794ebf4e5a867daf7a21b22afe79 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice32.gif 9f0e505bdcc83e0cc909ad747dc3365c 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/thunderbolt.jpg 6b3d25543ef93627f4101db6972cbde2 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice47.gif b4627fc7f68cd1d48b3113816f1fb61e 1356358309
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pzf511.jpg 0f52acb39cda919e7cf0210919b65ab5 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/gadget.jpg 1b28c3e796caa22f8c30b14fc433d4fc 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/freq1211.gif 453716ee344f2c921fe6ce5a1af4ef98 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/igclock.gif 440cae441d826b50beaea77b60df09a8 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pzf509.jpg 491e0154e2119ae8c6de9615daa9f0a8 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/broad.gif c68a8ddc8e3e8f9213634c143b0e8644 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/oncore_remoteant.jpg 847946272148e7c0ba8f67cdb367b538 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/9400n.jpg e02e84af13666110304d19bbeba4f46f 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/driver43_2.jpg 587256084e8d9310d184db800553dc61 1356358310
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/dogsnake.gif 8049d4e611abb86bbd400a22cdd044cc 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/driver43_1.gif 2e3605644d1e09cfd3a32ad0b0013ed5 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pd_om011.gif 9eb577661151e53f8bd49734d1b9c02a 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/tribeb.gif b052da6b7c63f482dad58e0e860a7676 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/barnstable.gif 23102acd83deb095b1fc404b29a82d20 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo5.gif fd90357c9f6fb691a1b58d3916fda267 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/oz2.gif 410d4b016b2535fbc431c036760e3471 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/tonea.gif 9449357fe0ac89936b4684a398152a28 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice44.gif 892e5d3332ad802b9664e352efdd3932 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/offset1211.gif 50ff5bbc7b580f2eec7eac586ee50a30 1356358311
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/bustardfly.gif 2a7506718fa47308014cbd55c96e2760 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/description.jpg e3d7b0acf198a1345935f1a6e2beabec 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice51.gif 60e98987b7950e3039ca4357784a6f86 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/radio2.jpg 6cbe65dc653122dc038bf18daf83c7e5 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/stack1a.jpg eed807a6e11126d27025e2b2e4c6d316 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo3a.gif 8e25e21807c16a1933c91a204844c8b1 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo7.gif aeff41c2ab91f90d9e49459627f69f2f 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/fg6039.jpg 0f35bee9082d446713ab3d76e2ea13d7 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/boom4.gif 1466a1737dff18236519ff04693b1dcf 1356358312
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/boom3.gif 60b60515f686d33da565c11c9481077a 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice31.gif 01b22389a9c09422945fecbac52b7b9a 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo8.gif 1107d42438b21038160a5f13a9d30abd 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/peer.gif 5d3f5398cccdf3dfbaf325a73343247d 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo6.gif 3eae9445108e33980d17836b68caab47 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice13.gif dbd34f8b4de2e134c532bf861e30dd45 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/wingdorothy.gif 554ea84d2b9100d92f2be53b2291731b 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pd_om006.gif 21e1a5aaa016751b7f42ad3f3d8cf662 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice35.gif ff22e7df89ebd109d50624b0147e569c 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/sheepb.jpg efdbf2647f89c3d650d87289311e5d40 1356358313
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/oncore_evalbig.gif ab1eaa29a4b28476bcafe0546409859e 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice61.gif 560be997862a9e87cc055e69a5b5d0e5 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/oncore_utplusbig.gif 2c3f892b6dc9fb3b82570e19b30ebf02 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice15.gif d89f29a0e22da86d1764128ea70e3d4d 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice11.gif 4e0f4d238fc9b712c2c61094bdccde82 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/c51.jpg a0c0e0b6216f3fdcbcf817ee0b83de1d 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/driver29.gif 7381ac324ac187f12800e479ef940922 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/beaver.gif 9be61a84be05dd2a51d61219f3e3e722 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo1a.gif c6253213ecb21bb377059f025c0c2456 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/pogo4.gif 2a8a43c14dc2fb97a9dc6550b8e86dd2 1356358314
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/neoclock4x.gif 8111c73f3e1a41262e691f8bee12fb57 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pic/alice38.gif 3cdf0a623b308de7cca52d476f9ef68a 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/confopt.html fca0f339c2b1a00e55e47e33098c7c1c 1356358300
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/scripts
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/scripts/style.css 627308fed8552c94b2b94dab00b82c39 1356358316
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/manyopt.html 903d3670aaf87b20c9137dc8d6305adb 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpdc.html ac908813dfd0917bdfa6da7a1fa07794 1356358307
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/icons
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/icons/mail2.gif 5c9753f93911ac246f1036d325c2832c 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/icons/home.gif d5017cc2ec8fe4dd6fed961dd503a266 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/kernpps.html 549605e6307858cfc0cdc962a58395f0 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntp_conf.html 05d3e486d110dd21ff70263853373226 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/copyright.html 754b8ad6b4a8a373af1413d303580e56 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/miscopt.html dfb280a2c693dac795ef2cdee283ac95 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/bugs.html 93bf7b1c941554af5fb186bccef10db7 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpq.html 3fbd1e5a343b608fa08494a561ae31f7 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints.html f628f8b0771cbbed132f1308c7be9d86 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/comdex.html 3bdef8e11645e63e92d8f44505d0ec6b 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntp-wait.html 44bdafa2fa95e8455bc49435e4e6b313 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/clockopt.html 43f235c450cb5215d832f35444c21d67 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/gadget.html 2bbf1a079a39efe13110bf009a5e0a1f 1356358305
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/description_files
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/description_files/description.jpg e3d7b0acf198a1345935f1a6e2beabec 1356358301
+dir /usr/share/doc/ntp-4.2.6_p5-r1/html/hints
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints/solaris-dosynctodr.html 59dc13a76385c657f0f8cbfc479c882c 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints/solaris.html 57004b6d53bd66db0e81dcfa35d2bea3 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints/winnt.html df819eafda96f1589855483b33311b50 1356358305
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints/vxworks.html dde6e876cbf653a04a4bfdba6c490228 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/hints/sco.html a3d5b4727ada07d353482b77188dd83f 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/msyslog.html 025b979c98502acd8f79818da6e3aba0 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpdate.html 0436179a92ff74843f7feb3c7c142111 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/refclock.html 05c17fab84139291b960b8ee2716acea 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/pps.html 8048fab168f30bb0bf867aa506594724 1356358315
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntpdsim.html 6a3b5dda105a458dae3e50e488b321aa 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/build.html 891f1ab3e3c5a1399bf992a0db19beaa 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/parsenew.html 39f278e4b03934f20fc144786b76c921 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/decode.html 55a75465fe0936eb4a58fc1e69ce21db 1356358300
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntptime.html e0a2ba33bc3e4776a7ec8929c31157e6 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/ntptrace.html 35badefafa477006b15f7031cd13c896 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/authopt.html 93e848ace9de2306382328d8f4f96daa 1356358299
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/parsedata.html 36a154e4b36373275f9084409f361176 1356358308
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/xleave.html 1aad03753992302298f012d65440013e 1356358316
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/index.html a3ec264124b683871316528ff3864821 1356358306
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/assoc.html 03f43657ff2a408dfac3dfa7a9ce7a20 1356358299
+obj /usr/share/doc/ntp-4.2.6_p5-r1/html/monopt.html ba3c00d0b42f691ef7707f39e2a3c451 1356358307
+obj /usr/share/doc/ntp-4.2.6_p5-r1/ChangeLog.bz2 64b42ce7605585cd3c8d5e635bca151d 1356358296
+obj /usr/share/doc/ntp-4.2.6_p5-r1/NEWS.bz2 bf64027ad0cdd2bc0b7673b4dfd63d7b 1356358296
+dir /usr/bin
+obj /usr/bin/ntpq 804a08e068b664557fa54b26e5d88c97 1356358342
+obj /usr/bin/tickadj c0746bbfb0e343d80a6e22ec6307d654 1356358343
+obj /usr/bin/ntpdc 2b24207720c39ccc710052eeaa5d7044 1356358343
+obj /usr/bin/sntp eec8cc41b7e539bd21f1bb5fee40563a 1356358343
+obj /usr/bin/ntptrace a02d49fd4e0807ed11933e21f796ea7e 1356358275
+obj /usr/bin/ntp-keygen 3a9c86aa13a59eda104ed8123410526b 1356358343
+obj /usr/bin/ntp-wait 9868458e01f07fcb01568ff6a97168ab 1356358275
+obj /usr/bin/ntptime 0103f408da8ad176b857385f54fe1d49 1356358344

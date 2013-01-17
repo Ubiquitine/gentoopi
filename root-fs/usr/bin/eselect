@@ -1,0 +1,201 @@
+#!/bin/bash
+# -*-eselect-*-  vim: ft=eselect
+# Copyright (c) 2005-2012 Gentoo Foundation
+# $Id: eselect.in 859 2012-01-21 11:04:25Z ulm $
+# This file is part of the 'eselect' tools framework.
+#
+# eselect is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 2 of the License, or (at your option) any later
+# version.
+#
+# eselect is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# eselect.  If not, see <http://www.gnu.org/licenses/>.
+
+# Where are our data?
+ESELECT_DATA_PATH="/usr/share/eselect"
+
+# Where are modules installed by default?
+ESELECT_DEFAULT_MODULES_PATH="${ESELECT_DATA_PATH}/modules"
+
+# Look in these places for modules
+ESELECT_MODULES_PATH=( \
+	"${HOME}/.eselect/modules" \
+	"${ESELECT_DEFAULT_MODULES_PATH}" )
+
+# Look in this place for libraries
+ESELECT_CORE_PATH="${ESELECT_DATA_PATH}/libs"
+
+# Look here for the default contents of a module
+ESELECT_DEFAULT_ACTIONS="${ESELECT_CORE_PATH}/default.eselect"
+
+# Our program name and version
+ESELECT_VERSION="1.3.1"
+ESELECT_PROGRAM_NAME="eselect"
+
+# Invocation information
+ESELECT_BINARY_NAME="$0"
+ESELECT_KILL_TARGET="$$"
+
+# Support variables for Gentoo Prefix
+EPREFIX=""
+EROOT="${ROOT}${EPREFIX}"
+
+# Remove all alias definitions. Unset functions and variables that are
+# known to cause trouble.
+"unalias" -a
+unset -f rm
+unset CDPATH GLOBIGNORE
+IFS=$' \t\n'
+
+shopt -s extglob
+shopt -s expand_aliases
+
+# Load core functions
+source "${ESELECT_CORE_PATH}/core.bash" || exit 255
+# Load necessary functions for the main script
+inherit manip output path-manipulation tests
+
+# Sneaky trick to make die in subshells work. If you don't get
+# it, don't ask...
+trap 'echo "exiting" >&2; exit 250' 15
+
+# es_find_module foo
+# Find and echo the filename of the foo module. If there's no foo module,
+# die.
+es_find_module() {
+	local modname="$1" modpath="" modfile=""
+	[[ -z ${modname} ]] && die "Usage: ${FUNCNAME} <module>"
+	for modpath in "${ESELECT_MODULES_PATH[@]}"; do
+		[[ -f ${modpath}/${modname}.eselect ]] && break
+	done
+
+	modfile="${modpath}/${modname}.eselect"
+	[[ -r ${modfile} ]] || die -q "Can't load module ${modname}"
+	echo ${modfile}
+}
+
+# es_do_usage
+# Display eselect usage
+es_do_usage() {
+	echo "Usage: eselect <global options> <module name> <module options>"
+}
+
+# es_do_help
+# Display eselect help
+es_do_help() {
+	set_output_mode default
+	es_do_usage
+	echo
+	es_do_list_options
+	echo
+	es_do_list_modules
+}
+
+# es_do_version
+# Display eselect version
+es_do_version() {
+	echo "eselect ${ESELECT_VERSION}"
+	echo
+	echo "Copyright (c) 2005-2012 Gentoo Foundation."
+	echo "Distributed under the terms of the GNU GPL version 2 or later."
+}
+
+# es_do_list_options
+# Display all recognized global options
+es_do_list_options() {
+	write_list_start "Global options:"
+	write_kv_list_entry "--brief" "Make output shorter"
+	write_kv_list_entry "--colour=<yes|no|auto>" \
+		"Enable or disable colour output (default 'auto')"
+}
+
+# es_do_list_modules
+# Display all available eselect modules DEPRECATED
+es_do_list_modules() {
+	do_action modules list "$@"
+}
+
+### main code ###
+
+# figure out what the action is. we need to know whether we're
+# invoked as a something-config/something-update.
+action=""
+
+for suffix in config update{,r} tool manager reader; do
+	if [[ ${0%%-${suffix}} != "$0" ]]; then
+		action=$(basename "$0")
+		action=${action%%-${suffix}}
+		break
+	fi
+done
+unset suffix
+
+if [[ -z ${action} ]]; then
+	binname=$(basename "$0")
+	for prefix in config update{,r} manage 'read'; do
+		if [[ ${binname##${prefix}-} != ${binname} ]]; then
+			action=$(basename "$0")
+			action=${action##${prefix}-}
+			break
+		fi
+	done
+	unset binname prefix
+fi
+
+if [[ -z ${action} ]] && [[ -n ${1##--} ]]; then
+	while [[ ${1##--} != "$1" ]]; do
+		case ${1##--} in
+			brief)
+				set_output_mode brief
+				;;
+			colour=*|color=*|colour|color)
+				# accept all arguments that are valid for ls or emerge
+				case ${1#*=} in
+					yes|y|always|force|$1) colour=yes ;;
+					no|n|never|none) colour=no ;;
+					auto|tty|if-tty) colour="" ;;
+					*) die -q "Invalid argument for ${1%%=*} option" ;;
+				esac
+				;;
+			no-colour|no-color)	# legacy option
+				colour=no
+				;;
+			help|version)
+				action=${1##--}
+				;;
+			*)
+				die -q "Unknown option $1"
+				;;
+		esac
+		shift
+	done
+	if [[ -z ${action} ]]; then
+		action=$1
+		shift
+	fi
+fi
+
+# enable colour output and get width of terminal iff stdout is a tty
+if [[ -t 1 ]]; then
+	if [[ ${colour} = no ]]; then nocolours; else colours; fi
+	init_columns
+else
+	if [[ ${colour} = yes ]]; then colours; else nocolours; fi
+fi
+unset colour
+
+if [[ -n ${action} ]]; then
+	if is_function "es_do_${action//-/_}"; then
+		[[ $# -gt 0 ]] && die -q "Too many parameters"
+		es_do_${action//-/_}
+	else
+		do_action "${action}" "$@"
+	fi
+else
+	es_do_help
+fi

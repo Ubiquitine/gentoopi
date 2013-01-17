@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xdamage.h 63d995c64f3965a32825fa17354e3566 1356441564
+dir /usr/lib
+obj /usr/lib/libXdamage.so.1.1.0 63cec86fb66348ee27626cf4fd0d8dd8 1356441590
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xdamage.pc 6be29d320169a0798c6906bd832cf918 1356441564
+sym /usr/lib/libXdamage.so -> libXdamage.so.1.1.0 1356441615
+sym /usr/lib/libXdamage.so.1 -> libXdamage.so.1.1.0 1356441615
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libXdamage-1.1.3
+obj /usr/share/doc/libXdamage-1.1.3/README.bz2 673f31620313d6c128447ba9dc3eeae9 1356441565
+obj /usr/share/doc/libXdamage-1.1.3/AUTHORS.bz2 d68d01250210c3762bddf718d431b35d 1356441565
+obj /usr/share/doc/libXdamage-1.1.3/ChangeLog.bz2 00c1002cbd573e90d600a51d18051421 1356441566
+obj /usr/share/doc/libXdamage-1.1.3/NEWS.bz2 b0094ab56b24ebd1f9aa5ba214aa5923 1356441565

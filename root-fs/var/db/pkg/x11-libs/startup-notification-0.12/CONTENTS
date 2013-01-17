@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/include
+dir /usr/include/startup-notification-1.0
+dir /usr/include/startup-notification-1.0/libsn
+obj /usr/include/startup-notification-1.0/libsn/sn-util.h c4d2da14f5aace5aa9453efe4b31dc7f 1356716640
+obj /usr/include/startup-notification-1.0/libsn/sn-launchee.h 872e70d798287e68c83166e8fa0a855f 1356716640
+obj /usr/include/startup-notification-1.0/libsn/sn-common.h 8a1004439270ba5d9ce2febcddec8fb3 1356716640
+obj /usr/include/startup-notification-1.0/libsn/sn-launcher.h d03437e47097433fb677575bb8a5faba 1356716640
+obj /usr/include/startup-notification-1.0/libsn/sn-monitor.h e9f77e04fb3bb87816956449d76eb662 1356716640
+obj /usr/include/startup-notification-1.0/libsn/sn.h 48b597a572e219fac87fb4a768852b21 1356716640
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libstartup-notification-1.0.pc dfc907c31c4a0284e6db9a4c0cad49bd 1356716641
+obj /usr/lib/libstartup-notification-1.so.0.0.0 9760d6576416b3b897bfa9a3955e918e 1356716665
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/startup-notification-0.12
+obj /usr/share/doc/startup-notification-0.12/AUTHORS.bz2 83c8146363e9a3bfb7484373551f8e01 1356716641
+obj /usr/share/doc/startup-notification-0.12/startup-notification.txt.bz2 db962cc089b5d8d888405d5eaa4ab982 1356716641
+obj /usr/share/doc/startup-notification-0.12/ChangeLog.bz2 4a0b5236bc2f218025db69caeb384580 1356716642
+obj /usr/share/doc/startup-notification-0.12/NEWS.bz2 a6cdfd09b86c2a3ea2518afeb8368f44 1356716641
+sym /usr/lib/libstartup-notification-1.so -> libstartup-notification-1.so.0.0.0 1356716692
+sym /usr/lib/libstartup-notification-1.so.0 -> libstartup-notification-1.so.0.0.0 1356716692

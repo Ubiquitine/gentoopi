@@ -1,0 +1,1 @@
+>=dev-libs/expat-2 >=dev-libs/glib-2.26 >=sys-apps/dbus-1.6.2 virtual/pkgconfig

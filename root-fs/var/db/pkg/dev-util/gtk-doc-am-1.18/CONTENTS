@@ -1,0 +1,6 @@
+dir /usr
+dir /usr/share
+dir /usr/share/aclocal
+obj /usr/share/aclocal/gtk-doc.m4 906048948cfd91807c29f0e81d09a69f 1355992211
+dir /usr/bin
+obj /usr/bin/gtkdoc-rebase 72ef69e0fd2ee273a64c679a71882f35 1355992211

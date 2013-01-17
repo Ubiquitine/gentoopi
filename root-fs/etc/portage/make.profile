@@ -1,0 +1,1 @@
+../../../../usr/portage/profiles/default/linux/arm/10.0/armv6j

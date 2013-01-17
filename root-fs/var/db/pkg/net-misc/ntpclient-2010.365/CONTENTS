@@ -1,0 +1,10 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/ntpclient-2010.365
+obj /usr/share/doc/ntpclient-2010.365/README.bz2 921e1f55d5766e84fab13055c36b3e49 1356354745
+obj /usr/share/doc/ntpclient-2010.365/HOWTO.bz2 05976a55698305f553251887195bc2b7 1356354745
+obj /usr/share/doc/ntpclient-2010.365/rate.awk.bz2 49729a17b8a400bf1dbd4c6c8aca439c 1356354745
+obj /usr/share/doc/ntpclient-2010.365/rate2.awk.bz2 3d4c910690bbc3fd50e9df7baa9fc88c 1356354745
+dir /usr/bin
+obj /usr/bin/ntpclient b52eca18df08df116b27c7b90b9f53ec 1356354765

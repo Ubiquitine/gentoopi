@@ -1,0 +1,1 @@
+>=sys-devel/gcc-3.4.4 >=sys-devel/binutils-2.16.90 >=sys-devel/gcc-4.1.0 >=sys-devel/binutils-2.15.94 >=app-misc/pax-utils-0.1.10 virtual/os-headers !<sys-apps/sandbox-1.2.18.1-r2 !<sys-apps/portage-2.1.2 !<sys-devel/patch-2.6 >=sys-libs/timezone-data-2007c sys-devel/gnuconfig

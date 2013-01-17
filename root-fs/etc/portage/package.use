@@ -1,0 +1,15 @@
+net-misc/ntp caps
+#required by media-libs/mesa-9.0, required by x11-base/xorg-server-1.13.0-r1[-minimal], required by x11-drivers/xf86-input-mouse-1.8.1, required by x11-base/xorg-drivers-1.13[input_devices_mouse]
+=dev-libs/libxml2-2.8.0-r3 python
+x11-libs/pango -introspection
+net-libs/loudmouth -ssl
+net-im/gajim -crypt -srv
+dev-lang/python sqlite
+sys-auth/pam_mount -crypt
+net-libs/webkit-gtk -gstreamer -jit
+x11-themes/faenza-icon-theme minimal
+sys-fs/lvm2 -thin -readline -udev -lvm1
+net-im/ayttm jabber
+mail-client/sylpheed ldap
+mail-client/claws-mail ldap
+dev-vcs/git -perl -webdav -threads -gpg -pcre

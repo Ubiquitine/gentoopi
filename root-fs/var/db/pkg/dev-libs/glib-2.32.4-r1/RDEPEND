@@ -1,0 +1,1 @@
+virtual/libiconv virtual/libffi sys-libs/zlib || ( >=dev-libs/elfutils-0.142 >=dev-libs/libelf-0.8.12 )

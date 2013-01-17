@@ -1,0 +1,6 @@
+/usr/bin/sexp-conv libnettle.so.4,libc.so.6
+/usr/bin/pkcs1-conv libhogweed.so.2,libnettle.so.4,libc.so.6
+/usr/bin/nettle-lfib-stream libnettle.so.4,libc.so.6
+/usr/bin/nettle-hash libnettle.so.4,libc.so.6
+/usr/lib/libhogweed.so.2.2 libnettle.so.4,libgmp.so.10,libc.so.6
+/usr/lib/libnettle.so.4.4 libc.so.6

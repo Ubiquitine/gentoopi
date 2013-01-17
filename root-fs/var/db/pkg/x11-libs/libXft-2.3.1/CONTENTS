@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/Xft
+obj /usr/include/X11/Xft/XftCompat.h 0acc042178c68b30be218b5a58377d36 1356519686
+obj /usr/include/X11/Xft/Xft.h 124c06cea9965e5cbfe1d9aeb3d0adaa 1356519686
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xft.pc 80f4c8cec0f2daa29876fdef9aafcedd 1356519686
+obj /usr/lib/libXft.so.2.3.1 f241b947bba67a7d60fced14d68f9780 1356519712
+sym /usr/lib/libXft.so -> libXft.so.2.3.1 1356519741
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/Xft.3.bz2 f1d5f8f8d93580412fddd931ebf75c8a 1356519685
+dir /usr/share/doc
+dir /usr/share/doc/libXft-2.3.1
+obj /usr/share/doc/libXft-2.3.1/README.bz2 97dc39ae90cfdc63327591d6415a6d32 1356519687
+obj /usr/share/doc/libXft-2.3.1/AUTHORS.bz2 8387f1408e611aa8640179893edb1174 1356519687
+obj /usr/share/doc/libXft-2.3.1/ChangeLog.bz2 a6f0db43e9e87cc6ecbcc95a739159e4 1356519688
+obj /usr/share/doc/libXft-2.3.1/NEWS.bz2 8fd3d24f0f3903d78fcf1288fd63f7db 1356519687
+sym /usr/lib/libXft.so.2 -> libXft.so.2.3.1 1356519741

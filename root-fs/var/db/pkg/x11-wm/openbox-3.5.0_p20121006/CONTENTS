@@ -1,0 +1,268 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/openbox
+obj /etc/xdg/openbox/menu.xml c201a38068c7ec12aac2c8d431eedf70 1356709071
+obj /etc/xdg/openbox/environment 34bbf463555dbfb8f97fe957489d73b7 1356709072
+obj /etc/xdg/openbox/rc.xml bb7b9f58b28bcd0413455047e7814357 1356709071
+obj /etc/xdg/openbox/autostart cf7cd22e452ddfb7c5887e465d97d4f5 1356709073
+dir /etc/X11
+dir /etc/X11/Sessions
+obj /etc/X11/Sessions/openbox 98dc72a56beaf330cec701c2e4c5a647 1356709062
+dir /usr
+dir /usr/include
+dir /usr/include/openbox
+dir /usr/include/openbox/3.5
+dir /usr/include/openbox/3.5/obt
+obj /usr/include/openbox/3.5/obt/keyboard.h 75b176e9636e99a1e7261e7234c866e1 1356709073
+obj /usr/include/openbox/3.5/obt/display.h 6a5e110d6017f3338f799e7b914c1278 1356709073
+obj /usr/include/openbox/3.5/obt/util.h 53fe9e25c5039348f45a711b335a8498 1356709073
+obj /usr/include/openbox/3.5/obt/xqueue.h bd2677752496c5aeade031d99e626f09 1356709073
+obj /usr/include/openbox/3.5/obt/prop.h 4de45c86758782be9995a37cd66402b2 1356709073
+obj /usr/include/openbox/3.5/obt/signal.h e04d9d0ff04beff197335d46246397fe 1356709073
+obj /usr/include/openbox/3.5/obt/link.h cce8b52c28cafbab33708bf3119452b3 1356709073
+obj /usr/include/openbox/3.5/obt/paths.h 9247483d8b1b0e33ec3af35f36f30a99 1356709073
+obj /usr/include/openbox/3.5/obt/xml.h 8ecd56dda9eb24512a2dde77db1b8268 1356709073
+obj /usr/include/openbox/3.5/obt/version.h 271be86290bc9e5e24a7f1a01b1ded18 1356709073
+dir /usr/include/openbox/3.5/obrender
+obj /usr/include/openbox/3.5/obrender/color.h c8b4aad0bcb2b2382d113d5422eaf00c 1356709074
+obj /usr/include/openbox/3.5/obrender/instance.h 712c9e157377a4869a00866646bc9bc9 1356709074
+obj /usr/include/openbox/3.5/obrender/mask.h b719cb60ca0d2f6e711f24acd328e475 1356709074
+obj /usr/include/openbox/3.5/obrender/render.h 7245a1f781a5730535a74fce233ff53e 1356709074
+obj /usr/include/openbox/3.5/obrender/geom.h b3cd9a97ab41d9358bcf8321bcd4bc7e 1356709074
+obj /usr/include/openbox/3.5/obrender/image.h 9a6d02e76c0835018b09a3b1b8c9f418 1356709074
+obj /usr/include/openbox/3.5/obrender/theme.h 3435c4ae7f86701a3245685b6b68474e 1356709074
+obj /usr/include/openbox/3.5/obrender/gradient.h 285538d5f25cf321cc48d4720d8c0b32 1356709074
+obj /usr/include/openbox/3.5/obrender/font.h 13429aebae0a8c09e78973dbbb80946c 1356709074
+obj /usr/include/openbox/3.5/obrender/version.h 69c2907553551c0eaac7567e163986fd 1356709074
+dir /usr/libexec
+obj /usr/libexec/openbox-autostart f46ef36a1b61f7d999bea77bc0bd26dc 1356709067
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/obrender-3.5.pc 68e6c0880fa239b6a9b7c672b97261c6 1356709073
+obj /usr/lib/pkgconfig/obt-3.5.pc a0c3930afa2dcaf8cfce6efa4980b86b 1356709073
+obj /usr/lib/libobt.so.0.0.1 151a790bcbc3e24325c9c02bc1f77e08 1356709109
+sym /usr/lib/libobt.so -> libobt.so.0.0.1 1356709145
+obj /usr/lib/libobrender.so.27.0.1 10faad14327e15565cad6ebbc8a3005d 1356709109
+sym /usr/lib/libobrender.so.27 -> libobrender.so.27.0.1 1356709145
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/openbox-kde-session.1.bz2 2396a3b82c0d4911d8565fc21329730a 1356709072
+obj /usr/share/man/man1/openbox-session.1.bz2 11b3d7e690e49bc7073142b7b04d0508 1356709072
+obj /usr/share/man/man1/openbox.1.bz2 ab641c22bf36ddf68f16181e45bd57d2 1356709072
+obj /usr/share/man/man1/obxprop.1.bz2 24d6d0110fbe19cb71f38658eb40fe1d 1356709072
+obj /usr/share/man/man1/openbox-gnome-session.1.bz2 c4c70515b162f9fae8731e4c5dbd7d32 1356709072
+dir /usr/share/gnome
+dir /usr/share/gnome/wm-properties
+obj /usr/share/gnome/wm-properties/openbox.desktop dda15968c8bcc8e9143396c1ec783879 1356709070
+dir /usr/share/doc
+dir /usr/share/doc/openbox-3.5.0_p20121006
+obj /usr/share/doc/openbox-3.5.0_p20121006/CHANGELOG.bz2 47d9765f7231e3b7b11318150a4e2fb2 1356709069
+dir /usr/share/doc/openbox-3.5.0_p20121006/xbm
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/max_toggled.xbm.bz2 7dfa277235d499584a85b20ecb7efe34 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/desk_toggled.xbm.bz2 2e44973d9598a15b646c227230964b4f 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/iconify.xbm.bz2 61961319304bfbb270be6ffe870fd74d 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/close.xbm.bz2 542b0ad9240cc7719e53cd816a3ed8c1 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/max.xbm.bz2 84435ff5cd00a6ee62f4605cadc93bba 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/bullet.xbm.bz2 c126797c7640c53d318d5273a0c08159 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/shade.xbm.bz2 39f4dd5342d503e4de1f981b0254ab0f 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/shade_toggled.xbm.bz2 39f4dd5342d503e4de1f981b0254ab0f 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/xbm/desk.xbm.bz2 ce677eebe0b42af8d89f006f5f672aee 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/README.bz2 9e01f068ba9dc4228598afca520967e2 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/AUTHORS.bz2 2aaea48a07216fad21410e9f07e95029 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/menu.xsd.bz2 222e84514dda1bf0e123b56c05597087 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/COMPLIANCE.bz2 d38f41d8fc2603e68a74886dba499d47 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/rc-mouse-focus.xml.bz2 86dc3ec3266318121054feb5a33db1f7 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/COPYING.bz2 7c173a6559d779702a2e072b68ef49de 1356709069
+obj /usr/share/doc/openbox-3.5.0_p20121006/rc.xsd.bz2 874de3e65113018a0e70adb7aaceb383 1356709069
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/openbox.mo 1c86d42da8e872aa23c0c6fea10f3133 1356709065
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/openbox.mo 5d094afbb8305055bb3c67dfb92bf401 1356709066
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/openbox.mo 7d32a91380a8e9e77be925e547f75537 1356709063
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/openbox.mo acae953205196e3665ef15574f726ebe 1356709066
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/openbox.mo af2411d4d5ff307a9c9738d9d03f83a6 1356709065
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/openbox.mo 3ea9ae2e70477d95d22b0ceea9915907 1356709064
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/openbox.mo 623517cf0fd42c8527429f4247fbcd88 1356709065
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/openbox.mo 3b276990018cb18257a646a9ce77db6c 1356709063
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/openbox.mo ac16932ddb9a8f97b9baa891a948774c 1356709064
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/openbox.mo 7a58c23d29b6d41a1fd45e4a99b137dd 1356709066
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/openbox.mo e88c2e38bd9c143594b6275d83cd7b18 1356709065
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/openbox.mo ef48b71fe64e85154279040a728ad9a3 1356709066
+dir /usr/share/locale/en@quot
+dir /usr/share/locale/en@quot/LC_MESSAGES
+obj /usr/share/locale/en@quot/LC_MESSAGES/openbox.mo b82ecff9be1106a44aa5f12d27d5524d 1356709065
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/openbox.mo 0d03739b1e93210f708ac2196c7622fc 1356709063
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/openbox.mo 76551bb37b2bb50ed28752c7be9dfd49 1356709063
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/openbox.mo 31f8d50397f4055c052e79b17fd43e51 1356709066
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/openbox.mo 86bb737d5768310743aa7704e4574544 1356709065
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/openbox.mo f6727c49345de7936b5c5579a3fd623f 1356709066
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/openbox.mo fa7725cd476190aeab69f4f6d55c2eaa 1356709064
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/openbox.mo e19a28515c22abbf6d30db526119edbd 1356709066
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/openbox.mo 383bc2033a6c76b128b078436314530b 1356709065
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/openbox.mo b9b51502779686200f9209bcd89a5e29 1356709064
+dir /usr/share/locale/en@boldquot
+dir /usr/share/locale/en@boldquot/LC_MESSAGES
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/openbox.mo ebaa5dfa1fa97440d8a44ffe0857aaf3 1356709065
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/openbox.mo a5d1f98c33ae8600efe5f16b5de548dd 1356709063
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/openbox.mo 09cdcedf2311e1507a72c45f3456a472 1356709065
+dir /usr/share/locale/no
+dir /usr/share/locale/no/LC_MESSAGES
+obj /usr/share/locale/no/LC_MESSAGES/openbox.mo fbe8e4cf2f2588202f29e3822c1c8f18 1356709064
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/openbox.mo 2992b32075d84fc76586b990a5e30670 1356709064
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/openbox.mo 74c0df9d4e90b8772506000b68af417a 1356709064
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/openbox.mo cc33c619d815fdd77087228887177201 1356709064
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/openbox.mo 6044f91d10c60b835bb53b5acbdb2547 1356709065
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/openbox.mo dbf2d801a298e3602b27c02d6b9123a7 1356709064
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/openbox.mo b09a9986d177066d3964196b0e5e7dce 1356709066
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/openbox.mo fca9254053294222aaeb3a93640f1cb6 1356709064
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/openbox.mo 1025e8b03f8dfeb581fab3569171eac5 1356709064
+dir /usr/share/gnome-session
+dir /usr/share/gnome-session/sessions
+obj /usr/share/gnome-session/sessions/openbox-gnome.session f5357672cd778fae2f9252316f6a8dad 1356709070
+obj /usr/share/gnome-session/sessions/openbox-gnome-fallback.session bddaad8285b1453ba39a6ea733c282d0 1356709070
+dir /usr/share/themes
+dir /usr/share/themes/Clearlooks-Olive
+dir /usr/share/themes/Clearlooks-Olive/openbox-3
+obj /usr/share/themes/Clearlooks-Olive/openbox-3/themerc e2a0576d56c2bdb58d419e6e5f734a32 1356709069
+dir /usr/share/themes/Artwiz-boxed
+dir /usr/share/themes/Artwiz-boxed/openbox-3
+obj /usr/share/themes/Artwiz-boxed/openbox-3/themerc d40cdb22483c0186bf739209386eae50 1356709068
+dir /usr/share/themes/Natura
+dir /usr/share/themes/Natura/openbox-3
+obj /usr/share/themes/Natura/openbox-3/desk_hover.xbm f4aaea7d0cc7d3da735d4e688448b002 1356709070
+obj /usr/share/themes/Natura/openbox-3/shade_hover.xbm 765cff2b9271d0ac8e86b15e32b264e1 1356709070
+obj /usr/share/themes/Natura/openbox-3/close_hover.xbm 683b8ba24bb19c7a7cd8486c6ac12a49 1356709070
+obj /usr/share/themes/Natura/openbox-3/desk_toggled.xbm 45baa240ed15c817ce73d4b20c0527f2 1356709070
+obj /usr/share/themes/Natura/openbox-3/close.xbm 1e58633245eb1589dc59a55c1a6411db 1356709070
+obj /usr/share/themes/Natura/openbox-3/iconify_hover.xbm 06dbdff2f0aaf5519077500ee32747ac 1356709070
+obj /usr/share/themes/Natura/openbox-3/max.xbm 221dd6b68e311a2678a7372691b0cfd9 1356709070
+obj /usr/share/themes/Natura/openbox-3/themerc 4a3157c3b4555b5e93c7f56cacbb22c5 1356709070
+obj /usr/share/themes/Natura/openbox-3/desk.xbm 6efb6dc61ac2629fcb438b9673b3e41a 1356709070
+obj /usr/share/themes/Natura/openbox-3/max_toggled.xbm ad801a87c018d4397f923933e49f3219 1356709070
+obj /usr/share/themes/Natura/openbox-3/iconify.xbm 70facb363f74c52328a63496862c8317 1356709070
+obj /usr/share/themes/Natura/openbox-3/max_hover.xbm 50a9e6b8002f7443737dcd7682313112 1356709070
+obj /usr/share/themes/Natura/openbox-3/shade.xbm ac164d01346be921805980fd0306898f 1356709070
+dir /usr/share/themes/Syscrash
+dir /usr/share/themes/Syscrash/openbox-3
+obj /usr/share/themes/Syscrash/openbox-3/max.xbm bc6bad84cbca87b3b4c47689219fbc0c 1356709072
+obj /usr/share/themes/Syscrash/openbox-3/themerc fb4a525ec773a70b299387f547abdf5f 1356709072
+obj /usr/share/themes/Syscrash/openbox-3/max_pressed.xbm 1157689c16e1e5c1dbf9a67602f0963c 1356709072
+obj /usr/share/themes/Syscrash/openbox-3/max_toggled.xbm 40da3a7bc2f9afeb82e2d75333ee5951 1356709072
+obj /usr/share/themes/Syscrash/openbox-3/max_disabled.xbm 1157689c16e1e5c1dbf9a67602f0963c 1356709072
+dir /usr/share/themes/Mikachu
+dir /usr/share/themes/Mikachu/openbox-3
+obj /usr/share/themes/Mikachu/openbox-3/bullet.xbm 99472801b8e022d2a961ea8a45c7fe78 1356709070
+obj /usr/share/themes/Mikachu/openbox-3/close.xbm e42e98a2d90827a6b5c8d29815e70ef8 1356709070
+obj /usr/share/themes/Mikachu/openbox-3/max.xbm 649a0191ce4e26a841c79adda97da938 1356709070
+obj /usr/share/themes/Mikachu/openbox-3/themerc 875a008fa6b713bab63542cf7b4697dd 1356709070
+obj /usr/share/themes/Mikachu/openbox-3/desk.xbm e206628f753397da9ba1e5f72109670b 1356709070
+obj /usr/share/themes/Mikachu/openbox-3/iconify.xbm 2b74353a78af08b4bacef2b37f5c2e06 1356709070
+dir /usr/share/themes/Clearlooks-3.4
+dir /usr/share/themes/Clearlooks-3.4/openbox-3
+obj /usr/share/themes/Clearlooks-3.4/openbox-3/themerc 2cc84883a63608ddc857bf88e53f1afb 1356709068
+dir /usr/share/themes/Bear2
+dir /usr/share/themes/Bear2/openbox-3
+obj /usr/share/themes/Bear2/openbox-3/shade_pressed.xbm c496e83545a64e8e960ee489f3097cd8 1356709068
+obj /usr/share/themes/Bear2/openbox-3/desk_toggled.xbm 45baa240ed15c817ce73d4b20c0527f2 1356709068
+obj /usr/share/themes/Bear2/openbox-3/close.xbm 1e58633245eb1589dc59a55c1a6411db 1356709068
+obj /usr/share/themes/Bear2/openbox-3/iconify_pressed.xbm e6914b926efc7eb1197ad91645ef6e2a 1356709068
+obj /usr/share/themes/Bear2/openbox-3/max.xbm 221dd6b68e311a2678a7372691b0cfd9 1356709068
+obj /usr/share/themes/Bear2/openbox-3/themerc 4a5042b041928a1278ef5d6608f00f7a 1356709068
+obj /usr/share/themes/Bear2/openbox-3/max_pressed.xbm ac9735d32d298e87d2cc6a0a5f1de59d 1356709068
+obj /usr/share/themes/Bear2/openbox-3/desk.xbm 3f8c3f9ad13b14f08c46053196b53a28 1356709068
+obj /usr/share/themes/Bear2/openbox-3/max_toggled.xbm ad801a87c018d4397f923933e49f3219 1356709068
+obj /usr/share/themes/Bear2/openbox-3/iconify.xbm f5cddcf98aafcde94c03dee531e9217e 1356709068
+obj /usr/share/themes/Bear2/openbox-3/close_pressed.xbm 2abccfb3e7222df6166835da8730db3a 1356709068
+obj /usr/share/themes/Bear2/openbox-3/shade.xbm 138cf8eb4aa8bcf78c675c9e1f2947d6 1356709068
+dir /usr/share/themes/Orang
+dir /usr/share/themes/Orang/openbox-3
+obj /usr/share/themes/Orang/openbox-3/themerc a1ec52959825913389152f7fae46544d 1356709071
+dir /usr/share/themes/Clearlooks
+dir /usr/share/themes/Clearlooks/openbox-3
+obj /usr/share/themes/Clearlooks/openbox-3/themerc 46b77d741633fe4b72175059edbabf06 1356709069
+dir /usr/share/themes/Onyx-Citrus
+dir /usr/share/themes/Onyx-Citrus/openbox-3
+obj /usr/share/themes/Onyx-Citrus/openbox-3/themerc 60f016d919027de6191ac5fdf898f7dc 1356709071
+dir /usr/share/themes/Onyx
+dir /usr/share/themes/Onyx/openbox-3
+obj /usr/share/themes/Onyx/openbox-3/themerc 9bf006eefdc653f7df6b165f3a736e62 1356709071
+dir /usr/share/applications
+obj /usr/share/applications/openbox.desktop 4434b96d123a412aec2bb921084da8a8 1356709068
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/openbox.png bfe5521509fd0d2b3c04e26562478754 1356709071
+dir /usr/share/xsessions
+obj /usr/share/xsessions/openbox-kde.desktop 4929f633fb38ee0e71f22f9583456737 1356709073
+obj /usr/share/xsessions/openbox.desktop 89d5226b9fded36773aec678636dcbf8 1356709073
+obj /usr/share/xsessions/openbox-gnome.desktop ee2050ca1f1042c33fa8a77493413276 1356709073
+dir /usr/bin
+obj /usr/bin/gnome-panel-control 2cb490bda3a427785e713a2dde72feba 1356709110
+obj /usr/bin/openbox-kde-session 3a5b4cca98224d6d24c5b8db11faeea0 1356709067
+obj /usr/bin/openbox 6ff6554b4c8a549a535b28b05a262666 1356709110
+obj /usr/bin/obxprop 49823d928bb19ecdda24652e3d09d21f 1356709110
+obj /usr/bin/gdm-control 794256a7bea7c758305ff34de3a48d73 1356709110
+obj /usr/bin/openbox-session 42fca81cae58cee54ab013f6dde3653f 1356709067
+obj /usr/bin/openbox-gnome-session b18dbbe3a90c8c4d21d0a0ec80ed7b46 1356709067
+sym /usr/lib/libobt.so.0 -> libobt.so.0.0.1 1356709148
+sym /usr/lib/libobrender.so -> libobrender.so.27.0.1 1356709148

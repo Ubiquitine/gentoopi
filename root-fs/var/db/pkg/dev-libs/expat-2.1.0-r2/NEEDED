@@ -1,0 +1,4 @@
+/usr/lib/libexpat.so.1.6.0 libgcc_s.so.1,libc.so.6
+/usr/lib/libexpatw.so.1.6.0 libgcc_s.so.1,libc.so.6
+/usr/lib/libexpatu.so.1.6.0 libgcc_s.so.1,libc.so.6
+/usr/bin/xmlwf libexpat.so.1,libgcc_s.so.1,libc.so.6

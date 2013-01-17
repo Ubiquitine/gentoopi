@@ -1,0 +1,25 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libz.so 3ab91dc7d8c844aa15530a5c70693030 1355985194
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/zlib.pc c73c6dd3172d6c2cf5c0d22b9cad6db4 1355985194
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/zlib.3.bz2 b9de4b502f2c1dfa66429472945d8d35 1355985194
+dir /usr/share/doc
+dir /usr/share/doc/zlib-1.2.7
+obj /usr/share/doc/zlib-1.2.7/README.bz2 ee96645a544910b64c41aff120024f4e 1355985194
+obj /usr/share/doc/zlib-1.2.7/rfc1951.txt.bz2 ae9d5af5197cb1212b22fe81259959a5 1355985194
+obj /usr/share/doc/zlib-1.2.7/txtvsbin.txt.bz2 7158d1948b3e84a3aab311f51ff23ce6 1355985195
+obj /usr/share/doc/zlib-1.2.7/algorithm.txt.bz2 61853746dec9ebb2221d220d350269cc 1355985194
+obj /usr/share/doc/zlib-1.2.7/rfc1952.txt.bz2 ad8beb5ec4ab80b62a9fcceec1cd16d8 1355985195
+obj /usr/share/doc/zlib-1.2.7/FAQ.bz2 67829bfe237cad9747279a9413ea4a45 1355985194
+obj /usr/share/doc/zlib-1.2.7/ChangeLog.bz2 f94f78ebd39ebc6c1cb777ad02654ffb 1355985194
+obj /usr/share/doc/zlib-1.2.7/rfc1950.txt.bz2 f8a202b177cd70b346552b82dda01d34 1355985194
+dir /usr/include
+obj /usr/include/zconf.h 9cc518f939c3bc547e876042e85f7146 1355985194
+obj /usr/include/zlib.h 9ed8f761776107937d6a9e89c57af8a7 1355985194
+dir /lib
+obj /lib/libz.so.1.2.7 3f6c7b425b6c5b60650653082c205e8b 1355985197
+sym /lib/libz.so.1 -> libz.so.1.2.7 1355985203

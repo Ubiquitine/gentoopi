@@ -1,0 +1,93 @@
+dir /usr
+dir /usr/include
+dir /usr/include/curl
+obj /usr/include/curl/typecheck-gcc.h c9faf7516b8c4134fc0232818505ef63 1357503538
+obj /usr/include/curl/curlbuild.h 83aa443ab3bad17745b90f6fc78d41ab 1357503538
+obj /usr/include/curl/curlver.h 270a24b07e632d411f70f2935f088cca 1357503538
+obj /usr/include/curl/multi.h 63dd390e82a97e3115abc2795d9e77ab 1357503538
+obj /usr/include/curl/mprintf.h aa358cbaa44e19f43cc05ea772d037af 1357503538
+obj /usr/include/curl/stdcheaders.h 18c029ed6fdad0ce85ac094ca2841515 1357503538
+obj /usr/include/curl/easy.h 0bacb9036436a91bf66c007a56a2f9b9 1357503538
+obj /usr/include/curl/curlrules.h 9e7f8b768255827f9bac344297a1d51f 1357503538
+obj /usr/include/curl/curl.h 0e2f6791d8e9f7f8e185436005b63a0d 1357503538
+dir /usr/bin
+obj /usr/bin/curl-config 2443f79ed888447c1b60b71b9bbaf077 1357503537
+obj /usr/bin/curl 45d875065552b91b4e37cb799513f575 1357503570
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/curl_easy_escape.3.bz2 295f4f0cee39f01da29ca12a095a7047 1357503539
+obj /usr/share/man/man3/curl_easy_init.3.bz2 b6a75d912fc355d74e0ef28d10ad7390 1357503539
+obj /usr/share/man/man3/curl_easy_pause.3.bz2 e06207da32530b7f81ce6f6b93404001 1357503539
+obj /usr/share/man/man3/curl_slist_append.3.bz2 c5c59720482d3ad4eaf792a7b4fa5eb6 1357503539
+obj /usr/share/man/man3/curl_version_info.3.bz2 6fbac6e82e8fce6247fa76b669b0d61e 1357503539
+obj /usr/share/man/man3/libcurl-errors.3.bz2 b09dc406a5f140e5f25340fea64403af 1357503539
+obj /usr/share/man/man3/curl_share_init.3.bz2 ada4e56c15eda25d215b5f70b6701add 1357503539
+obj /usr/share/man/man3/curl_easy_recv.3.bz2 bee81272bcd293b7ea81710d1ba59144 1357503539
+obj /usr/share/man/man3/curl_share_setopt.3.bz2 4ee91794672e9bc94dc960adc3b0a8d8 1357503539
+obj /usr/share/man/man3/curl_share_strerror.3.bz2 f5e9b87f43dba9a24b9c1fc8a0956efc 1357503539
+obj /usr/share/man/man3/curl_formadd.3.bz2 f5129960c3463fa50d285c87d2253a4e 1357503539
+obj /usr/share/man/man3/curl_slist_free_all.3.bz2 e924f731eda766ac9796b92525882aec 1357503539
+obj /usr/share/man/man3/curl_escape.3.bz2 6b5127aabca1e35892a338e12aa0995e 1357503539
+obj /usr/share/man/man3/curl_easy_setopt.3.bz2 4723fb233b6fb831abbe2179105e1d86 1357503539
+obj /usr/share/man/man3/libcurl-easy.3.bz2 44cac4d96e16cb97f88c3e37c63740b0 1357503539
+obj /usr/share/man/man3/curl_multi_perform.3.bz2 dcbd17f48edcba2fab1afa5918d29a98 1357503539
+obj /usr/share/man/man3/curl_unescape.3.bz2 0fcc199320a1e34e24386300ff3f5c87 1357503539
+obj /usr/share/man/man3/curl_formget.3.bz2 a843e09e814514752c995f50d9d2296c 1357503539
+obj /usr/share/man/man3/curl_version.3.bz2 7f9ed608438bafb951be9eb5e3f325ad 1357503539
+obj /usr/share/man/man3/curl_getenv.3.bz2 ac31a487db980430973ea4f9e0571342 1357503539
+obj /usr/share/man/man3/curl_easy_send.3.bz2 15daa3edd84f96ee1785f77e7a2c29da 1357503539
+obj /usr/share/man/man3/libcurl-multi.3.bz2 bfefee14cf63732f722fcc7484500a12 1357503539
+obj /usr/share/man/man3/curl_multi_setopt.3.bz2 a66640a7084596ae105d88afec96ec8a 1357503539
+obj /usr/share/man/man3/curl_multi_fdset.3.bz2 5dc56148083228c7cc476728ef578c7f 1357503539
+obj /usr/share/man/man3/curl_easy_unescape.3.bz2 414d546d101e94459d0cc838c19f02cb 1357503539
+obj /usr/share/man/man3/curl_formfree.3.bz2 c22042a3be08fdba8ba065d889fdad17 1357503539
+obj /usr/share/man/man3/curl_global_init_mem.3.bz2 f1ef6470ef2a574dc7e6b964e4188744 1357503539
+obj /usr/share/man/man3/curl_easy_perform.3.bz2 ed07df0f5e5947f2810b3308013b9bc6 1357503539
+obj /usr/share/man/man3/curl_mprintf.3.bz2 0590fd2761a13090cffb5504dbb18975 1357503539
+obj /usr/share/man/man3/libcurl-tutorial.3.bz2 f4a7cc65ca013794ea07b25802048045 1357503539
+obj /usr/share/man/man3/curl_multi_assign.3.bz2 6f7e7ef79d91712a697f720856694dde 1357503539
+obj /usr/share/man/man3/curl_global_init.3.bz2 400c79692cb90cd32598906c27b1871e 1357503539
+obj /usr/share/man/man3/curl_multi_socket.3.bz2 89b17896609f00bcd458f0069f8afc9d 1357503539
+obj /usr/share/man/man3/curl_easy_getinfo.3.bz2 40605817be544f490b1012075e44da89 1357503539
+obj /usr/share/man/man3/curl_multi_add_handle.3.bz2 d24196335d84fee8b315cd7e206056dc 1357503539
+obj /usr/share/man/man3/curl_easy_cleanup.3.bz2 0fc92de8dd3f10a63b9ad36b0209eb13 1357503539
+obj /usr/share/man/man3/curl_getdate.3.bz2 4da8d0572dc0b0626a860b95f32e08ea 1357503539
+obj /usr/share/man/man3/curl_multi_cleanup.3.bz2 2fa97b0a321274a05fbeefa734b5aac0 1357503539
+obj /usr/share/man/man3/curl_strequal.3.bz2 d1024ed0ccd0497c3c96c556165a6b89 1357503539
+obj /usr/share/man/man3/curl_multi_remove_handle.3.bz2 0d09603339a695479f27dd79ac8e0ae9 1357503539
+obj /usr/share/man/man3/curl_multi_timeout.3.bz2 53a473b364ea44f8c496e5fe10b557f0 1357503539
+obj /usr/share/man/man3/curl_multi_init.3.bz2 df41046031bf34b46fc7d25adb8ef768 1357503539
+obj /usr/share/man/man3/libcurl.3.bz2 98a6bc91dd04954064b0bbcafcd946aa 1357503539
+obj /usr/share/man/man3/curl_easy_strerror.3.bz2 cfadf80fce7a8f7d611e1d63bd88b1e0 1357503539
+obj /usr/share/man/man3/curl_free.3.bz2 aba9a88dc5e9e3d59da53a1a30995206 1357503539
+obj /usr/share/man/man3/curl_multi_socket_action.3.bz2 fb8f0179afccf369475aa915f03a8b15 1357503539
+obj /usr/share/man/man3/curl_easy_reset.3.bz2 7e30947850356a1ebb2c759af14bbbec 1357503539
+obj /usr/share/man/man3/libcurl-share.3.bz2 f2d41b3e55bdf73e86bc40797b668ba4 1357503539
+obj /usr/share/man/man3/curl_multi_info_read.3.bz2 ab42ce027427e9271cba18f846e97030 1357503539
+obj /usr/share/man/man3/curl_multi_strerror.3.bz2 f0a637fe5a1fb82116655dd1bad490d6 1357503539
+obj /usr/share/man/man3/curl_global_cleanup.3.bz2 dd825d09181292edb76ad1b47743d233 1357503539
+obj /usr/share/man/man3/curl_easy_duphandle.3.bz2 bb638a72f37e9857fbbac20a951bbc96 1357503539
+obj /usr/share/man/man3/curl_share_cleanup.3.bz2 1f7e2dbd7f43f5128dfed15251fab906 1357503539
+dir /usr/share/man/man1
+obj /usr/share/man/man1/curl.1.bz2 978616b07e763855c8ba7c944d90a2da 1357503540
+obj /usr/share/man/man1/mk-ca-bundle.1.bz2 4cd6a8b29617b16038eea211ad0c2af0 1357503540
+obj /usr/share/man/man1/curl-config.1.bz2 6963546000796f36c54227e0a387b6c2 1357503540
+dir /usr/share/aclocal
+obj /usr/share/aclocal/libcurl.m4 5e22a13d29fa628c83c267cf9b4f3218 1357503541
+dir /usr/share/doc
+dir /usr/share/doc/curl-7.26.0
+obj /usr/share/doc/curl-7.26.0/README.bz2 e2f62489a3fa47877c117a22b505246e 1357503540
+obj /usr/share/doc/curl-7.26.0/BUGS.bz2 819786717c011919d2a68fd10f8eac82 1357503540
+obj /usr/share/doc/curl-7.26.0/FEATURES.bz2 8f9f9a8661c6cc77ab83bfbc9453daca 1357503540
+obj /usr/share/doc/curl-7.26.0/FAQ.bz2 59b8b054ec4bb075d0f6abb9ea1cc074 1357503540
+obj /usr/share/doc/curl-7.26.0/CHANGES.bz2 6893e8f425f1de091ac5bbc030fcc72f 1357503540
+obj /usr/share/doc/curl-7.26.0/INTERNALS.bz2 4f0d8b97811a10ed2592c938c153cf1d 1357503540
+obj /usr/share/doc/curl-7.26.0/MANUAL.bz2 600d982660808483c76a4f585ac348c0 1357503540
+obj /usr/share/doc/curl-7.26.0/CONTRIBUTE.bz2 5bd394010ba461c27b1b7cd36bffd155 1357503540
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libcurl.pc 6290bee992f896089ad2cc26d1bb792e 1357503537
+obj /usr/lib/libcurl.so.4.2.0 4facc12e4a4753d0c6175fecca85fe0a 1357503570
+sym /usr/lib/libcurl.so.4 -> libcurl.so.4.2.0 1357503610
+sym /usr/lib/libcurl.so -> libcurl.so.4.2.0 1357503610

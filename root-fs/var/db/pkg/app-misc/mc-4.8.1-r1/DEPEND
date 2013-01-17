@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.8:2 sys-libs/gpm sys-fs/e2fsprogs sys-libs/ncurses net-fs/samba x11-libs/libX11 x11-libs/libICE x11-libs/libXau x11-libs/libXdmcp x11-libs/libSM app-arch/xz-utils virtual/pkgconfig sys-devel/gettext

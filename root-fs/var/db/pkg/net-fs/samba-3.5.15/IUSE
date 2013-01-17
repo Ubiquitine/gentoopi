@@ -1,0 +1,1 @@
+acl addns ads +aio avahi caps +client cluster cups debug doc examples fam ldap ldb +netapi pam quota +readline selinux +server +smbclient smbsharemodes smbtav2 swat syslog winbind

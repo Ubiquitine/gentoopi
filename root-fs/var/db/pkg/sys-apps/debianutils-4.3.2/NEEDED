@@ -1,0 +1,2 @@
+/bin/tempfile libc.so.6
+/bin/run-parts libc.so.6

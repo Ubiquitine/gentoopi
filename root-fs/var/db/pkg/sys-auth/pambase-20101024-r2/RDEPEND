@@ -1,0 +1,1 @@
+|| ( >=sys-libs/pam-0.99.9.0-r1 ( sys-auth/openpam || ( sys-freebsd/freebsd-pam-modules sys-netbsd/netbsd-pam-modules ) ) ) >=sys-libs/pam-0.99[cracklib] >=sys-libs/pam-1.0.1 !<sys-freebsd/freebsd-pam-modules-6.2-r1 !<sys-libs/pam-0.99.9.0-r1

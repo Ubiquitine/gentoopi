@@ -1,0 +1,18 @@
+#!/sbin/runscript
+# Copyright 1999-2012 Gentoo Foundation
+# Released under the 2-clause BSD license.
+
+description="set up tmpfiles.d entries"
+
+depend()
+{
+	need localmount
+}
+
+start()
+{
+	ebegin "setting up tmpfiles.d entries"
+	/lib/rc/sh/tmpfiles.sh --create --remove ${tmpfiles_opts}
+	eend $?
+	return 0
+}

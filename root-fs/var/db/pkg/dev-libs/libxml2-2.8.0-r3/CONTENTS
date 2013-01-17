@@ -1,0 +1,89 @@
+dir /usr
+dir /usr/include
+dir /usr/include/libxml2
+dir /usr/include/libxml2/libxml
+obj /usr/include/libxml2/libxml/xmlreader.h 305a520a6238025e25926c4f836a7567 1356447379
+obj /usr/include/libxml2/libxml/xmlwriter.h 1f7ce673b236fd79a225243f05466a25 1356447379
+obj /usr/include/libxml2/libxml/valid.h e664b015babb9cbe4d739297b991a694 1356447379
+obj /usr/include/libxml2/libxml/DOCBparser.h b6c782181514e6041832177e737e970b 1356447379
+obj /usr/include/libxml2/libxml/xmlmemory.h c0167c625ecaf670d76480506425b472 1356447379
+obj /usr/include/libxml2/libxml/debugXML.h f68037df4116eca43de5d5ab8ad0334a 1356447379
+obj /usr/include/libxml2/libxml/xmlversion.h 06c8cce97c6182f0c2dadc1f7c96fb66 1356447379
+obj /usr/include/libxml2/libxml/globals.h eb03437a51e53aa6d793a3e883fc7b54 1356447379
+obj /usr/include/libxml2/libxml/xmlexports.h 7f1cf461101a5b7a4d64db5e4452239f 1356447379
+obj /usr/include/libxml2/libxml/xmlerror.h 4250023e878013cab94ddc95f85fcd08 1356447379
+obj /usr/include/libxml2/libxml/xmlIO.h 71b2594d6fec6e050724f65fa9db8485 1356447379
+obj /usr/include/libxml2/libxml/HTMLparser.h 0145c54144e4e2635f213568fa30c317 1356447379
+obj /usr/include/libxml2/libxml/xmlschemastypes.h 250d74650e30465b6cb6f7d6d09e1fc1 1356447379
+obj /usr/include/libxml2/libxml/pattern.h db123ed3ecc27ab31b3f808e96edb492 1356447379
+obj /usr/include/libxml2/libxml/schemasInternals.h b4f2066ea93d1954204c470d5400b7a7 1356447379
+obj /usr/include/libxml2/libxml/chvalid.h 4e1ca6554b98687e75d03662cd92d14e 1356447379
+obj /usr/include/libxml2/libxml/xinclude.h 1f8b2beb8f49da4bf3a658d31dccb2ef 1356447379
+obj /usr/include/libxml2/libxml/xmlautomata.h c7b55c94918e79e5ded769790677709a 1356447379
+obj /usr/include/libxml2/libxml/catalog.h f7f1de4d13c363efce39667e2964cd54 1356447379
+obj /usr/include/libxml2/libxml/nanoftp.h 65623ff323e6dfcc3f09486fe1e547d2 1356447379
+obj /usr/include/libxml2/libxml/uri.h 032d430e35153af35f2fe17a9e9c37bf 1356447379
+obj /usr/include/libxml2/libxml/xmlregexp.h fea3110c96e8cd9013900e1c8e5b6c0b 1356447379
+obj /usr/include/libxml2/libxml/relaxng.h a328442632f38bca7dd8da7033a940de 1356447379
+obj /usr/include/libxml2/libxml/xmlschemas.h 4269f688687f75a0999c9f38eef485e0 1356447379
+obj /usr/include/libxml2/libxml/entities.h 7c2e1736fec58a24a94909f84214f562 1356447378
+obj /usr/include/libxml2/libxml/xmlstring.h 341bf56e7dcc4e3043e03812337157c5 1356447379
+obj /usr/include/libxml2/libxml/list.h 9dc0d6059a65cfb465d17fd033bc9097 1356447379
+obj /usr/include/libxml2/libxml/parserInternals.h 7b49fa53423d84ae469db7f4451311a3 1356447379
+obj /usr/include/libxml2/libxml/xlink.h 35bbb14cd1f44c56f51d19940a1b77b9 1356447379
+obj /usr/include/libxml2/libxml/SAX2.h af1837e10439a9b51594d24fb9e7467c 1356447379
+obj /usr/include/libxml2/libxml/parser.h af2ee1446de4b3ea1c49b729e77c620c 1356447379
+obj /usr/include/libxml2/libxml/threads.h 2c630b6409352bcd1e10d94177215265 1356447379
+obj /usr/include/libxml2/libxml/xmlunicode.h b9f0b8acddfee9b620ea822978a51d29 1356447379
+obj /usr/include/libxml2/libxml/xmlmodule.h ee56b03672d9a5d68ea54bd2a7530403 1356447379
+obj /usr/include/libxml2/libxml/SAX.h e12fcd63e7794f33e8d8413d0d8af7d9 1356447378
+obj /usr/include/libxml2/libxml/xpath.h 3526594252e89efb988c0e4910133bb7 1356447379
+obj /usr/include/libxml2/libxml/tree.h 12102c36fa9031059bd22cc0905fc886 1356447379
+obj /usr/include/libxml2/libxml/HTMLtree.h e635cbd8ce1a315aafbc375729d11e68 1356447379
+obj /usr/include/libxml2/libxml/encoding.h e7ad254d10003bc3012693aa0ff5a92c 1356447378
+obj /usr/include/libxml2/libxml/schematron.h 512411b4dcc6d2ac6d838807a43329c0 1356447379
+obj /usr/include/libxml2/libxml/nanohttp.h daca1a0b46b8f397d4c947b60af2e2d6 1356447379
+obj /usr/include/libxml2/libxml/xmlsave.h eed2463cad941f74f99b8b9bc03aa74d 1356447379
+obj /usr/include/libxml2/libxml/c14n.h 2a73fb87430067b161174c3680f9bc59 1356447379
+obj /usr/include/libxml2/libxml/hash.h 26383e1054e30d81cf63124e8178d379 1356447379
+obj /usr/include/libxml2/libxml/xpathInternals.h a88c5771e2d0d485d65af8a271144823 1356447379
+obj /usr/include/libxml2/libxml/dict.h 35fd9bfc7e7902a33f41587cfb1e13aa 1356447379
+obj /usr/include/libxml2/libxml/xpointer.h 7784ffc4f10dfe649aeea3592f7405aa 1356447379
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libxml-2.0.pc 946daa3b4487ff35557ab3e9830a16d3 1356447383
+obj /usr/lib/xml2Conf.sh a3215062e22b7071a996614fe0d87a8f 1356447382
+sym /usr/lib/libxml2.so.2 -> libxml2.so.2.8.0 1356447467
+dir /usr/lib/python2.7
+dir /usr/lib/python2.7/site-packages
+obj /usr/lib/python2.7/site-packages/libxml2.py 14370fb9a1b858fe3106b1e1a51d9151 1356447387
+obj /usr/lib/python2.7/site-packages/drv_libxml2.py a361da92c2c04ebd3fc3dc0d0bc998f8 1356447387
+obj /usr/lib/python2.7/site-packages/libxml2mod.so 9bf1c59637dc4c3c6c95f58df1fb2240 1356447428
+sym /usr/lib/libxml2.so -> libxml2.so.2.8.0 1356447467
+obj /usr/lib/libxml2.so.2.8.0 431d1b962a5be5c02845dc440a1fbf77 1356447428
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xmlcatalog.1.bz2 cc69138c17409fc9330cfd3fb9536dce 1356447385
+obj /usr/share/man/man1/xml2-config.1.bz2 9c06743bb7e989c7d0f4b43f3c0f3abc 1356447382
+obj /usr/share/man/man1/xmllint.1.bz2 497a5ae50ba5a9c9db092312091e3e0b 1356447385
+dir /usr/share/man/man3
+obj /usr/share/man/man3/libxml.3.bz2 119e7133d1d9c9927204fd1f73242e74 1356447383
+dir /usr/share/doc
+dir /usr/share/doc/libxml2-2.8.0-r3
+obj /usr/share/doc/libxml2-2.8.0-r3/README.bz2 b80602b024f8fcd48be63e19bbdc5310 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/AUTHORS.bz2 a34e3622deadf27ca6de3712229b4324 1356447393
+dir /usr/share/doc/libxml2-2.8.0-r3/python
+obj /usr/share/doc/libxml2-2.8.0-r3/python/TODO.bz2 14c96cd0b386c1b1841efbef6dd97033 1356447387
+obj /usr/share/doc/libxml2-2.8.0-r3/Copyright.bz2 266270a0cc41573fc91f8ee0ca0a3aa6 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/TODO.bz2 75f03f78d4c9fe75e9d2858e163589b7 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/README.tests.bz2 a8d4fbc6b2f15976260debc1ac917557 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/TODO_SCHEMAS.bz2 4258774e2ff988d54472adeaaaad6a53 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/ChangeLog.bz2 edc5b911577ae79b5378b319ae64178c 1356447393
+obj /usr/share/doc/libxml2-2.8.0-r3/NEWS.bz2 b134d26e151cb85d5e013b46ef856950 1356447393
+dir /usr/share/aclocal
+obj /usr/share/aclocal/libxml.m4 a07f9db1c83755505dbf961c953efdf8 1356447382
+dir /usr/bin
+obj /usr/bin/xmlcatalog 1e1779e60d2bc69798f645f48797cb3f 1356447429
+obj /usr/bin/xmllint 832b12fbf2db8da49ae633212b0d12dd 1356447429
+obj /usr/bin/xml2-config dc970f95a9e775e95b909f0ccabd9a91 1356447381

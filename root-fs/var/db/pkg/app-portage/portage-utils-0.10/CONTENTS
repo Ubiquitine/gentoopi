@@ -1,0 +1,48 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/qsearch.1.bz2 8b7123ff2cb2b0cde95d93a45d9c0f92 1355985816
+obj /usr/share/man/man1/q.1.bz2 eb786d871cb904f135c8743cd5e19715 1355985816
+obj /usr/share/man/man1/qfile.1.bz2 caae801b7880adf1955099c499d47735 1355985816
+obj /usr/share/man/man1/qcache.1.bz2 2722dce95b5e5266810cf433217201b1 1355985816
+obj /usr/share/man/man1/qsize.1.bz2 124ed4eb1282a1c8369912089a9b0827 1355985816
+obj /usr/share/man/man1/qatom.1.bz2 ce7a42eb94db561f608528a00cc81270 1355985816
+obj /usr/share/man/man1/qtbz2.1.bz2 4ec6e9138dc97adea5b62752ac2bdc06 1355985816
+obj /usr/share/man/man1/qlist.1.bz2 df1b521695edd136846eb30721ae5513 1355985816
+obj /usr/share/man/man1/qmerge.1.bz2 b318a3dd9f0aca99ca82351f5e0ed50c 1355985816
+obj /usr/share/man/man1/qlop.1.bz2 f2b003d86dd7de03ee03ee2cfe7bddf8 1355985816
+obj /usr/share/man/man1/qdepends.1.bz2 17c462bd9d0c61040cfe49b7399c13d0 1355985816
+obj /usr/share/man/man1/qgrep.1.bz2 91de6a339f8f3bbf02f56eb4a9ef44c6 1355985816
+obj /usr/share/man/man1/qcheck.1.bz2 6011d4ae6453b32e643bc8bf94f3f776 1355985816
+obj /usr/share/man/man1/qxpak.1.bz2 c3910277dfdef8a4ef48afdc11d485ab 1355985816
+obj /usr/share/man/man1/qpkg.1.bz2 945771e201f9fc9173293621e250c178 1355985816
+obj /usr/share/man/man1/quse.1.bz2 64cd0a430938d27a887b7fc9895b8aa5 1355985816
+dir /usr/share/doc
+dir /usr/share/doc/portage-utils-0.10
+obj /usr/share/doc/portage-utils-0.10/README.bz2 7b9eda75458da239038465b13d7a1b17 1355985816
+obj /usr/share/doc/portage-utils-0.10/TODO.bz2 fc4814f3b2fb92de02cc983c582a49ab 1355985816
+obj /usr/share/doc/portage-utils-0.10/qsync.bz2 e75059276256196bef48e7e4e1001476 1355985816
+dir /usr/bin
+obj /usr/bin/q 2851dc7341460b2ee74b7271cea65c05 1355985819
+sym /usr/bin/qfile -> q 1355985825
+sym /usr/bin/qsearch -> q 1355985825
+sym /usr/bin/qxpak -> q 1355985825
+dir /etc
+dir /etc/portage
+dir /etc/portage/postsync.d
+obj /etc/portage/postsync.d/q-reinitialize a72caa53a17a4d5edfd49f3d090e5175 1355985817
+dir /etc/portage/bin
+obj /etc/portage/bin/post_sync 4819f4f035421ad6fe537aa8465e011e 1355985817
+sym /usr/bin/qdepends -> q 1355985825
+sym /usr/bin/qcheck -> q 1355985825
+sym /usr/bin/qatom -> q 1355985825
+sym /usr/bin/qcache -> q 1355985825
+sym /usr/bin/qgrep -> q 1355985825
+sym /usr/bin/qlist -> q 1355985825
+sym /usr/bin/qmerge -> q 1355985825
+sym /usr/bin/qtbz2 -> q 1355985825
+sym /usr/bin/qsize -> q 1355985825
+sym /usr/bin/qpkg -> q 1355985825
+sym /usr/bin/quse -> q 1355985825
+sym /usr/bin/qlop -> q 1355985825

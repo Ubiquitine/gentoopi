@@ -1,0 +1,6 @@
+bash_history
+/tmp/*
+/proc/*
+/sys/*
+/dev/*
+/mnt/*

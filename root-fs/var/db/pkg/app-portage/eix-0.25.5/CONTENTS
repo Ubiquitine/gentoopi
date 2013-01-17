@@ -1,0 +1,50 @@
+dir /etc
+obj /etc/eixrc 2a377bd26bf62c7b2be86b93459b7673 1356512095
+dir /var
+dir /var/cache
+dir /var/cache/eix
+obj /var/cache/eix/.keep_app-portage_eix-0 d41d8cd98f00b204e9800998ecf8427e 1356512098
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/de
+dir /usr/share/man/de/man1
+obj /usr/share/man/de/man1/eix.1.bz2 12f2165bcd967fe52044f1d058519d28 1356512096
+dir /usr/share/man/man1
+obj /usr/share/man/man1/eix.1.bz2 14aa7e0523bda3e1ccac1706d7ecb72a 1356512096
+dir /usr/share/man/ru
+dir /usr/share/man/ru/man1
+obj /usr/share/man/ru/man1/eix.1.bz2 b9572a1d232ba52cad03ed61f3edcb65 1356512096
+dir /usr/share/doc
+dir /usr/share/doc/eix-0.25.5
+obj /usr/share/doc/eix-0.25.5/AUTHORS.bz2 965c76d4eeb66aca439d39a511586a8c 1356512098
+obj /usr/share/doc/eix-0.25.5/TODO.bz2 d1b76479e5d13fa01c1f77fa684ca2ca 1356512098
+obj /usr/share/doc/eix-0.25.5/ChangeLog.bz2 fe11bf7630f1d6e51b2e54b48be7cf5b 1356512097
+dir /usr/share/bash-completion
+obj /usr/share/bash-completion/eix 8f683685e2044bf081df6ead21c855f6 1356512098
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/eix.mo c616a745a5a7b647f9b4c7a6ef8d0819 1356512094
+dir /usr/share/locale/en@quot
+dir /usr/share/locale/en@quot/LC_MESSAGES
+obj /usr/share/locale/en@quot/LC_MESSAGES/eix.mo 3cb18f6e83c36e24b430b87abbd123ef 1356512094
+dir /usr/share/locale/en@boldquot
+dir /usr/share/locale/en@boldquot/LC_MESSAGES
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/eix.mo a8d9116cc55472588513a66d1348bd6c 1356512094
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/eix.mo a6820b1a2e54c272dd00079e9ba062cf 1356512094
+dir /usr/bin
+obj /usr/bin/eix-functions.sh c499a59ca9c9537db3d6bce5d82cad60 1356512095
+obj /usr/bin/eix-test-obsolete d5899058223bdddae96766b52b8f7b6d 1356512095
+obj /usr/bin/eix-sync cf2f764895c1da5eb0683b76a26fb519 1356512095
+obj /usr/bin/eix-installed 68b0d0903d214e69d28c7a7ac97db058 1356512095
+obj /usr/bin/eix-remote 066fbb0ed38791b6c4c446244abead6c 1356512095
+obj /usr/bin/eix-layman 21564dddb6cc95a2b33e82d29028b761 1356512095
+obj /usr/bin/eix 6fc6fd2e2f22421ff648bd8475ecae07 1356512113
+sym /usr/bin/eix-drop-permissions -> eix 1356512138
+obj /usr/bin/eix-installed-after 6a33982c553e5b9edcaf243e0ab0a6b8 1356512095
+sym /usr/bin/eix-diff -> eix 1356512138
+sym /usr/bin/eix-update -> eix 1356512138
+sym /usr/bin/versionsort -> eix 1356512138

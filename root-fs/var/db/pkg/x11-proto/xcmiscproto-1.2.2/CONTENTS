@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/xcmiscproto.h 3313e18e2c666e9816b96b944532a5fe 1356438725
+obj /usr/include/X11/extensions/xcmiscstr.h 5da1b54281f6c60b5c0ebd3217d7251d 1356438725
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcmiscproto.pc 2dfe493341f00744a42b844f72075759 1356438724
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcmiscproto-1.2.2
+obj /usr/share/doc/xcmiscproto-1.2.2/README.bz2 aac4d7ae6a5c753e4c5397a40621f271 1356438725
+obj /usr/share/doc/xcmiscproto-1.2.2/ChangeLog.bz2 e8ca6f9c46d127b895548040ce5563ac 1356438726

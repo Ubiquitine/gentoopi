@@ -1,0 +1,34 @@
+dir /usr
+dir /usr/share
+dir /usr/share/autoconf
+obj /usr/share/autoconf/acgeneral.m4 c2278af9c1157f6d09fda68c78957f70 1356531964
+obj /usr/share/autoconf/acconfig.h b86bc90ec8a3227ae049b1935397ef2c 1356531964
+obj /usr/share/autoconf/acprograms aad264ecac794e6560e29ce6b8e8ebcb 1356531965
+obj /usr/share/autoconf/acheaders 3f93c399f4c480354c1633edcd167419 1356531965
+obj /usr/share/autoconf/autoheader.m4 af895ff6848e371caa4ac4a0b3f83996 1356531964
+obj /usr/share/autoconf/autoheader.m4f 3f16b7f92187827606e2dad72d154d9c 1356531964
+obj /usr/share/autoconf/acidentifiers 2f45b6f31934bc63cbcf58d84d91703c 1356531965
+obj /usr/share/autoconf/autoconf.m4f b4d27abfd2af87874d25f15e6d63ca5d 1356531964
+obj /usr/share/autoconf/acoldnames.m4 d99fb8efa830a9cfc37dee357b7305ec 1356531964
+obj /usr/share/autoconf/acmakevars 9d688df9dd8e35211b14f12278974bda 1356531965
+obj /usr/share/autoconf/acspecific.m4 b51312ecb338cff3ef94f2428a1dd091 1356531964
+obj /usr/share/autoconf/autoconf.m4 d54e47abbf57262f40b3544727a580d3 1356531964
+obj /usr/share/autoconf/acfunctions bdf80b1882f7b316d25cd971beb83fa9 1356531965
+dir /usr/share/doc
+dir /usr/share/doc/autoconf-2.13
+obj /usr/share/doc/autoconf-2.13/ChangeLog.1.bz2 80af4be4dfe1cecc099ade874e00691c 1356531966
+obj /usr/share/doc/autoconf-2.13/README.bz2 9ce0d965eaf9d3e6e0296b30e5eee483 1356531965
+obj /usr/share/doc/autoconf-2.13/AUTHORS.bz2 385b9801dfe644ad54be203b88748a20 1356531965
+obj /usr/share/doc/autoconf-2.13/ChangeLog.0.bz2 73bd5e782a2ed1022f52bb970f003cf2 1356531966
+obj /usr/share/doc/autoconf-2.13/TODO.bz2 1b8027e5dce4ca3f0dbaed21af76e12c 1356531965
+obj /usr/share/doc/autoconf-2.13/ChangeLog.bz2 a31f089b9abf3867f25965d7b835d9f7 1356531965
+obj /usr/share/doc/autoconf-2.13/NEWS.bz2 33b3b0fc66458686d331e2a824558c77 1356531965
+dir /usr/share/info
+obj /usr/share/info/autoconf-2.13.info.bz2 075abe65eb6d3495526db8ba88e686a4 1356531964
+dir /usr/bin
+obj /usr/bin/autoheader-2.13 071a0b76caa896796c68fc1540d1f7a8 1356531964
+obj /usr/bin/autoconf-2.13 8555c8b737c08312f812f4f10a3de8ab 1356531964
+obj /usr/bin/ifnames-2.13 e75113f337cd61e4e30e8eaacb1b5960 1356531964
+obj /usr/bin/autoreconf-2.13 7afcae0fb8088b7fee70d4557108dd5b 1356531964
+obj /usr/bin/autoupdate-2.13 93d8182a5b9ee4a0eead903b75f648e4 1356531964
+obj /usr/bin/autoscan-2.13 dcc3dc9d115eb9d9b1f0375cd2e2d7ce 1356531965

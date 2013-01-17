@@ -1,0 +1,20 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/eventlog.pc bb1679269adf028adc157e18769b57da 1357749516
+obj /usr/lib/libevtlog.so.0.0.0 fc977ffc6c635327dc22b02733e3bb6c 1357749539
+sym /usr/lib/libevtlog.so -> libevtlog.so.0.0.0 1357749566
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/eventlog-0.2.12
+obj /usr/share/doc/eventlog-0.2.12/CREDITS.bz2 d8f1a1586da3af0bd4cf58fdb56e72dd 1357749516
+obj /usr/share/doc/eventlog-0.2.12/AUTHORS.bz2 4fc6e21f52f5ff5d4c33d35e1e223434 1357749516
+obj /usr/share/doc/eventlog-0.2.12/NEWS.bz2 a0641e4933208eef907df98bbd8f7443 1357749516
+obj /usr/share/doc/eventlog-0.2.12/README.bz2 2c3bc61824cad84786488cb093c2b251 1357749517
+obj /usr/share/doc/eventlog-0.2.12/PORTS.bz2 c6d48e4238a85340b6f14648f85bad91 1357749517
+obj /usr/share/doc/eventlog-0.2.12/ChangeLog.bz2 a8042cc4e3809cf389ec5ef406711ab1 1357749516
+dir /usr/include
+dir /usr/include/eventlog
+obj /usr/include/eventlog/evtmaps.h 83852112b85af3a50af7be1ed74e8457 1357749515
+obj /usr/include/eventlog/evtlog.h e32e8eac3423cb915b5cc39ce125522c 1357749515
+sym /usr/lib/libevtlog.so.0 -> libevtlog.so.0.0.0 1357749566

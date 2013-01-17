@@ -1,0 +1,79 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Manpage of dbus\-cleanup\-sockets</TITLE>
+</HEAD><BODY>
+<H1>dbus\-cleanup\-sockets</H1>
+Section: User Commands  (1)<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+dbus-cleanup-sockets - clean up leftover sockets in a directory
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<P>
+
+<B>dbus-cleanup-sockets [DIRECTORY]</B>
+
+<P>
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<P>
+The <I>dbus-cleanup-sockets</I> command cleans up unused D-Bus
+connection sockets. See <A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A> for
+more information about the big picture.
+<P>
+<P>
+
+If given no arguments, <I>dbus-cleanup-sockets</I> cleans up sockets 
+in the standard default socket directory for the
+per-user-login-session message bus; this is usually /tmp. 
+Optionally, you can pass a different directory on the command line.
+<P>
+<P>
+
+On Linux, this program is essentially useless, because D-Bus defaults
+to using &quot;abstract sockets&quot; that exist only in memory and don't have a
+corresponding file in /tmp. 
+<P>
+<P>
+
+On most other flavors of UNIX, it's possible for the socket files to
+leak when programs using D-Bus exit abnormally or without closing
+their D-Bus connections. Thus, it might be interesting to run
+dbus-cleanup-sockets in a cron job to mop up any leaked sockets.
+Or you can just ignore the leaked sockets, they aren't really hurting
+anything, other than cluttering the output of &quot;ls /tmp&quot;
+<P>
+<A NAME="lbAE">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+dbus-cleanup-sockets was adapted by Havoc Pennington from
+linc-cleanup-sockets written by Michael Meeks.
+<P>
+<A NAME="lbAF">&nbsp;</A>
+<H2>BUGS</H2>
+
+Please send bug reports to the D-Bus mailing list or bug tracker,
+see <A HREF="http://www.freedesktop.org/software/dbus/">http://www.freedesktop.org/software/dbus/</A>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">AUTHOR</A><DD>
+<DT><A HREF="#lbAF">BUGS</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 12:47:24 GMT, December 26, 2012
+</BODY>
+</HTML>

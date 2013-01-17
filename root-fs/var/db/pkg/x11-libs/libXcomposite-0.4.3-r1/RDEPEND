@@ -1,0 +1,1 @@
+x11-libs/libX11 x11-libs/libXfixes >=x11-proto/compositeproto-0.4 x11-proto/xproto

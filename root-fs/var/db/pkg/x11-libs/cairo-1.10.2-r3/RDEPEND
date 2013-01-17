@@ -1,0 +1,1 @@
+media-libs/fontconfig media-libs/freetype:2 media-libs/libpng:0 sys-libs/zlib >=x11-libs/pixman-0.18.4 dev-libs/glib:2 >=x11-libs/libXrender-0.6 x11-libs/libX11

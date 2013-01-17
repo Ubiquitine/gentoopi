@@ -1,0 +1,170 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/pcmanfm
+dir /etc/xdg/pcmanfm/default
+obj /etc/xdg/pcmanfm/default/pcmanfm.conf e3be1d528eb1c452837469ae1c4d5776 1356714919
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pcmanfm-0.9.10
+obj /usr/share/doc/pcmanfm-0.9.10/README.bz2 e555c9085e70d61230549cedb0601f93 1356714920
+obj /usr/share/doc/pcmanfm-0.9.10/AUTHORS.bz2 6e388a1f5f12b839dea6fcdb5b44d094 1356714920
+obj /usr/share/doc/pcmanfm-0.9.10/TODO.bz2 0cbd2c23a21b0c36aec3b69fd33461be 1356714920
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/pcmanfm.mo 965bc09348d64f07fd2c0294e80154a9 1356714906
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/pcmanfm.mo acee361ecc414511c81d0042f733b130 1356714912
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/pcmanfm.mo b3dd852536773e0a04a6ca7bedda8411 1356714917
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/pcmanfm.mo 4d817ea5ffc4c3d2d733e6d32e01db13 1356714908
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/pcmanfm.mo 88225963604da22e9116c8989d700cff 1356714911
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/pcmanfm.mo 567a4eb203bc15892b8d3bc549aa97e6 1356714906
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/pcmanfm.mo 2444c5bef76afd470b54d1e96dfe237f 1356714907
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/pcmanfm.mo 507bb5a6ac03c959974999ea778f3a47 1356714917
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/pcmanfm.mo 818dd1d3531f4b46c4dca46327043933 1356714912
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/pcmanfm.mo 96380262dfa20773c61ff9d98c92156d 1356714917
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/pcmanfm.mo 0de05051f570b9adf52ea8c1a21645a9 1356714915
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/pcmanfm.mo 23300bf4fb015713346b6194438309dd 1356714910
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/pcmanfm.mo e0f3f40ebb7b35464a649b29a275986b 1356714918
+dir /usr/share/locale/km
+dir /usr/share/locale/km/LC_MESSAGES
+obj /usr/share/locale/km/LC_MESSAGES/pcmanfm.mo 64e75cbffe6b1754376cadea6c49baf1 1356714912
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/pcmanfm.mo e5c91c532e08e47a278ffcb3db34d7b8 1356714914
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/pcmanfm.mo f48693f6b515e2c709679c41ee0efff0 1356714910
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/pcmanfm.mo b877443b7a312aa49718dc255fd196c3 1356714918
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/pcmanfm.mo aabd0c46af705fe705c07f7c16edc6b9 1356714909
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/pcmanfm.mo 4ba89c91ac7831a880e1d0c1a36de15b 1356714909
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/pcmanfm.mo 4f58b539e0b2db4d2358464d676df03f 1356714907
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/pcmanfm.mo d0e2ade178cc92333dd35ae719635ea1 1356714916
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/pcmanfm.mo 0ea7b73c125820e794b6871a7fb986a3 1356714918
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/pcmanfm.mo 129c90d0c74a3fa5ce6ea2624f6d4aa8 1356714917
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/pcmanfm.mo 6db7b6b2b407a8fa5a8ad678871fdc8e 1356714913
+dir /usr/share/locale/si
+dir /usr/share/locale/si/LC_MESSAGES
+obj /usr/share/locale/si/LC_MESSAGES/pcmanfm.mo 51f1c028a42dbb3f2b5deeffc1d8c4c1 1356714915
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/pcmanfm.mo 87d7296718d33f6dd3048a0ad58efe2a 1356714911
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/pcmanfm.mo e5c7318e8ab8ea5ce240f1216c0f2b26 1356714906
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/pcmanfm.mo c194f4747f031677e8b199f3625cf3df 1356714910
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/pcmanfm.mo cea9e092f8cee74a920c2ac3cd49cdbd 1356714915
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/pcmanfm.mo a49aaccc7735b1ca66ed0c744063c5fa 1356714913
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/pcmanfm.mo 223aa06b7e8a62fb8bef7bb0dddf6b1f 1356714907
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/pcmanfm.mo d7729abed65d6eca911291eab18fa440 1356714918
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/pcmanfm.mo c9afb4ac566c390af78aaee3cd253a39 1356714907
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/pcmanfm.mo acb1d9f374e6f4ca29483da5e36b8d83 1356714916
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/pcmanfm.mo c5b7c6d571db4b1fd2d445c2d6abd0c6 1356714912
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/pcmanfm.mo bf9fd6a20171a7e2783c8e8a45deeed0 1356714916
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/pcmanfm.mo 860e3d7496bb3e07eeeabc2e46f86d6c 1356714909
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/pcmanfm.mo 6d764df811e7489ddeafb7d33bada2ca 1356714915
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/pcmanfm.mo 04de3d312d785fe6a753c26629059952 1356714914
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/pcmanfm.mo ae44413e163f933a5a91b832f26a40a9 1356714911
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/pcmanfm.mo 1cc182a4c386b190b7d8bed8fc503c56 1356714914
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/pcmanfm.mo 1702d83c5ea69a68c10d1c64cd573b7a 1356714908
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/pcmanfm.mo d125d65c8a64e5bff449085fccaab144 1356714911
+dir /usr/share/locale/lv
+dir /usr/share/locale/lv/LC_MESSAGES
+obj /usr/share/locale/lv/LC_MESSAGES/pcmanfm.mo 7333fe3abc2b8bb31a608fdd9d9e821a 1356714913
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/pcmanfm.mo 5e78e8c5a27593bee3dee26bd1608c0e 1356714910
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/pcmanfm.mo c370921b81571cacc14167d748881ffb 1356714908
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/pcmanfm.mo 93dd7955eb37be4bb9378e6c4f47bbb9 1356714914
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/pcmanfm.mo fafb5bbb8102d4f9227c15b7e66a77c4 1356714908
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/pcmanfm.mo 3e5fa2db71a7d7c8cb77077717dca787 1356714916
+dir /usr/share/applications
+obj /usr/share/applications/pcmanfm.desktop 6da0f3c6eb754ec547b6651a6eccf32c 1356714919
+dir /usr/share/pcmanfm
+dir /usr/share/pcmanfm/ui
+obj /usr/share/pcmanfm/ui/about.ui 3cac730855871dbe702b553500d14fcf 1356714919
+obj /usr/share/pcmanfm/ui/autorun.ui e9516031ffd8d293d8f930bf5b778518 1356714919
+obj /usr/share/pcmanfm/ui/desktop-pref.ui 69caa71e0e2c5a669677eda55c63909e 1356714919
+obj /usr/share/pcmanfm/ui/pref.ui 6edf7cbf789fb2d78c1fb1a43a7bc6fe 1356714919
+dir /usr/bin
+obj /usr/bin/pcmanfm 058596e8a0a622e74e60aafb2f5b976c 1356714938

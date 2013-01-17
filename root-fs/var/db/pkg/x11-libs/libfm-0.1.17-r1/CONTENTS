@@ -1,0 +1,264 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/libfm
+obj /etc/xdg/libfm/libfm.conf 22eada0093fe614d3d96798214a5a8b6 1356714114
+obj /etc/xdg/libfm/pref-apps.conf e4a6247077480c47ae1ffea3172f8365 1356714114
+dir /usr
+dir /usr/include
+dir /usr/include/libfm
+dir /usr/include/libfm/libfm
+obj /usr/include/libfm/libfm/fm-job.h c0df499ee8921092dfe3aa93cec517a8 1356714090
+obj /usr/include/libfm/libfm/fm-folder-view.h cb87ae19aff5b8b34b3a9c9760ad2d62 1356714090
+obj /usr/include/libfm/libfm/fm-dir-tree-view.h b833fabac8f0d00d7ad6df3a7bd7cbaa 1356714090
+obj /usr/include/libfm/libfm/fm-icon.h b77e1e474af1d90388cd1912b85b4616 1356714090
+obj /usr/include/libfm/libfm/fm-dnd-dest.h 860072ef6a361338ea4e3ba622d5dac2 1356714090
+obj /usr/include/libfm/libfm/fm-file-launcher.h 4eaab2d882da6dfefdeedcc88c91f605 1356714090
+obj /usr/include/libfm/libfm/fm-thumbnail.h 84679a486a2c67fdd60fabbfb1f9ed3d 1356714090
+obj /usr/include/libfm/libfm/fm-app-menu-view.h 49a4fc86b8befe10dae57a246ec99017 1356714090
+obj /usr/include/libfm/libfm/fm-monitor.h d3e8f39ae35e78d354e5d3972eb6e29e 1356714090
+obj /usr/include/libfm/libfm/fm-dir-list-job.h edc8143e0e3722d239e3a1f4e548cbd1 1356714090
+obj /usr/include/libfm/libfm/fm-path-entry.h ee788c9b35d6d4213619d51df7088e6d 1356714090
+obj /usr/include/libfm/libfm/fm-icon-pixbuf.h 429755351511ed948a0fae650713006b 1356714090
+obj /usr/include/libfm/libfm/fm-file-info.h a2b1e7dcd8d33ac3107542958b567b98 1356714090
+obj /usr/include/libfm/libfm/fm-dnd-auto-scroll.h f8215b3c004d6ebeebe9478755a71429 1356714090
+obj /usr/include/libfm/libfm/fm-path.h 078ea47faaf790b5f486f558fdbe0771 1356714090
+obj /usr/include/libfm/libfm/fm-bookmarks.h 6896995a8fcd1800fb29a1162e932408 1356714090
+obj /usr/include/libfm/libfm/fm-path-bar.h ec7ef614375cc0b4987ac8cfbe67bfe8 1356714090
+obj /usr/include/libfm/libfm/fm-dnd-src.h 8d8915441e7da4e631e8a301b6c13e1d 1356714090
+obj /usr/include/libfm/libfm/fm-file-ops-job.h f9a52b1053bbec8ccdb70ff9ef41b068 1356714090
+obj /usr/include/libfm/libfm/fm-file-menu.h 502162efa05a72bce8578c9a8cafcfe7 1356714090
+obj /usr/include/libfm/libfm/fm-file-ops-job-xfer.h b46af8d53dccc66f3790ad1780fd39b8 1356714090
+obj /usr/include/libfm/libfm/fm-config.h c96a6a7b7b43e3e2c48e69b591a6f0d7 1356714090
+obj /usr/include/libfm/libfm/fm-cell-renderer-pixbuf.h 2de83ba8c515ee3d738658eee40eefb4 1356714090
+obj /usr/include/libfm/libfm/fm-tab-label.h 8ffb760050e772f90a2231b6d2791d5b 1356714090
+obj /usr/include/libfm/libfm/fm-app-chooser-dlg.h 8d0015e2c1eb39b8fe5042b59065a443 1356714090
+obj /usr/include/libfm/libfm/fm-nav-history.h 74ed892f979e95680751ffd907bca105 1356714090
+obj /usr/include/libfm/libfm/fm-gtk.h 8835ec0f5c50c0995e2f23bd6e7e7240 1356714090
+obj /usr/include/libfm/libfm/fm-simple-job.h 98c1b310aa23bd9c597a74d16babad70 1356714090
+obj /usr/include/libfm/libfm/fm-mime-type.h 7ee6cb956fdf58fb95c1c4f0c324d490 1356714090
+obj /usr/include/libfm/libfm/fm-app-info.h 814b0ca77d4448885c319a5b43c9f52f 1356714090
+obj /usr/include/libfm/libfm/fm-dir-tree-model.h fee7546308589837601123a09f6d5eb4 1356714090
+obj /usr/include/libfm/libfm/fm.h 7b8b5fcc514d5689f4107f811353de3b 1356714090
+obj /usr/include/libfm/libfm/fm-list.h 8549350eb0142e497e298dbcfa7f2276 1356714090
+obj /usr/include/libfm/libfm/fm-folder-model.h 3fdef315aae4bfa7092a48ec4a5cb7fb 1356714090
+obj /usr/include/libfm/libfm/fm-gtk-file-launcher.h 8e8a17598a865fcd117bcb01a76a3456 1356714090
+obj /usr/include/libfm/libfm/fm-side-pane.h 5d390e6514f394e06705ffc721ed77c0 1356714090
+obj /usr/include/libfm/libfm/fm-places-model.h 776eb3f347016bed69c19010b73feddf 1356714090
+obj /usr/include/libfm/libfm/fm-archiver.h 1f71104fecaa906a7da2ec0016861d49 1356714090
+obj /usr/include/libfm/libfm/fm-file-ops-job-change-attr.h 052c3ad60e2b102e0c41d521a6bea66d 1356714090
+obj /usr/include/libfm/libfm/fm-utils.h e4f3549d0ba89413aba68b9bb10871f6 1356714090
+obj /usr/include/libfm/libfm/fm-marshal.h 81140f17a935c037949aea9acef067cc 1356714090
+obj /usr/include/libfm/libfm/fm-progress-dlg.h 55d534f5b80f52ac90b3f677f9ffd20f 1356714090
+obj /usr/include/libfm/libfm/fm-file-properties.h 75efe124ba756c071472e2ab8045f022 1356714090
+obj /usr/include/libfm/libfm/fm-cell-renderer-text.h b2badf7e0f2f4f4dbd7358ddeea2fd09 1356714090
+obj /usr/include/libfm/libfm/fm-file-ops-job-delete.h b8ddbfd4599a40d6fc3c2efb6ff9b4d8 1356714090
+obj /usr/include/libfm/libfm/fm-gtk-utils.h e97bc43f0bf78a8844c1db9e69e88c4b 1356714090
+obj /usr/include/libfm/libfm/fm-deep-count-job.h b003e6f75bce0a1aa525b72e2dc88a1d 1356714090
+obj /usr/include/libfm/libfm/fm-app-chooser-combo-box.h 15e9468800845f0de0129d5bef2a0281 1356714090
+obj /usr/include/libfm/libfm/fm-clipboard.h 5f7b917381c09894a131da5ccece3228 1356714090
+obj /usr/include/libfm/libfm/fm-file-info-job.h 9b5462473c3cd0149178d984827dba1e 1356714090
+obj /usr/include/libfm/libfm/fm-gtk-marshal.h 42ef8eec602726a3b7da9bd1eff111bb 1356714090
+obj /usr/include/libfm/libfm/fm-dummy-monitor.h 5d412b3df3258ec14bea01cff7b0fccf 1356714090
+obj /usr/include/libfm/libfm/fm-places-view.h 25306b8ae865440c272bea1d94e115d4 1356714090
+obj /usr/include/libfm/libfm/fm-folder.h e0a8ebccd6b6173fcd527596925b0ce9 1356714090
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/libfm-gtk.pc 8e1acb82e7e26abdc8dac23c212da1b0 1356714114
+obj /usr/lib/pkgconfig/libfm.pc 0e304f24739ec1f02c68f5e3e19974f9 1356714114
+obj /usr/lib/libfm-gtk.so.1.0.0 8850daa68e201de79952789486e08cdf 1356714138
+obj /usr/lib/libfm.so.1.0.0 50117c87244504d628b5c78e23f17e21 1356714138
+sym /usr/lib/libfm-gtk.so -> libfm-gtk.so.1.0.0 1356714168
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libfm-0.1.17-r1
+obj /usr/share/doc/libfm-0.1.17-r1/README.bz2 e555c9085e70d61230549cedb0601f93 1356714115
+obj /usr/share/doc/libfm-0.1.17-r1/AUTHORS.bz2 5f0249278ea70e399c88f2a5b3c699b4 1356714115
+obj /usr/share/doc/libfm-0.1.17-r1/TODO.bz2 77e07ae5624882375a68763e571798ce 1356714115
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/libfm.mo 2d057c086541cdd671c584dbbde6c940 1356714099
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/libfm.mo c6756c0de9accf41c9d135c1835d1854 1356714105
+dir /usr/share/locale/es_VE
+dir /usr/share/locale/es_VE/LC_MESSAGES
+obj /usr/share/locale/es_VE/LC_MESSAGES/libfm.mo f1973d9628fdfe9c172f05416ae1c8d2 1356714102
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/libfm.mo 1775d434b8e7eba3d9978b006a22e146 1356714111
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/libfm.mo 7c672be99574ebd3d68fb4697e4b8990 1356714101
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/libfm.mo c3e4d6703b6d6fbea4357849a5d852f8 1356714104
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/libfm.mo 27786a777d865cad43038422f0f06bd3 1356714099
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/libfm.mo 3ae1e1ca4b91a09b62b484a1d544a714 1356714100
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/libfm.mo 8893b5f7441be9d76116f87f9ef8585c 1356714111
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/libfm.mo 99136bc24991a8efb0c5bea4c71fc404 1356714105
+dir /usr/share/locale/th
+dir /usr/share/locale/th/LC_MESSAGES
+obj /usr/share/locale/th/LC_MESSAGES/libfm.mo 512782bc71f5150945eef9abfc235cda 1356714111
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/libfm.mo 1ad703f7811b8b10a56420689d242f02 1356714109
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/libfm.mo 241468c59c8794751df7f0608a1e8d04 1356714103
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/libfm.mo 2c6a203cb9eba5d25b72ad8571961ae8 1356714113
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/libfm.mo e83d38ed486a848564f7868135bf1f1c 1356714108
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/libfm.mo f4dfe88c110dbfcc6022867b0ee38f2f 1356714104
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/libfm.mo 1432630c2896c95f88688685ebdf20e1 1356714112
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/libfm.mo a244c3fe66d706549316a43c7efc58d0 1356714103
+dir /usr/share/locale/ps
+dir /usr/share/locale/ps/LC_MESSAGES
+obj /usr/share/locale/ps/LC_MESSAGES/libfm.mo 512782bc71f5150945eef9abfc235cda 1356714108
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/libfm.mo f7535a0b7f48c37a68438f24b9dceabb 1356714102
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/libfm.mo e75ccedd3b5d68318e7168b1e0607442 1356714100
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/libfm.mo 7cf3bea21d9cb5a298828b3efaec48c9 1356714110
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/libfm.mo 878087824c15aa6eee0d52be3c292156 1356714113
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/libfm.mo eefc83c39311c6c4eb03bc4484c66f19 1356714111
+dir /usr/share/locale/ml
+dir /usr/share/locale/ml/LC_MESSAGES
+obj /usr/share/locale/ml/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714106
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/libfm.mo d8e15b98c995b8d9159ec6fd0c30aaa0 1356714106
+dir /usr/share/locale/af
+dir /usr/share/locale/af/LC_MESSAGES
+obj /usr/share/locale/af/LC_MESSAGES/libfm.mo b898e9335363d7b6cea101c391cfb1fc 1356714098
+dir /usr/share/locale/bn_IN
+dir /usr/share/locale/bn_IN/LC_MESSAGES
+obj /usr/share/locale/bn_IN/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714100
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/libfm.mo 02521b7c6adfac03202c7ea0c883e13b 1356714104
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/libfm.mo 191a3fc8fb080409287a5e737939dee8 1356714099
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/libfm.mo db3dc8a66f2f0e5b21beeb77ccbc7da9 1356714103
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/libfm.mo 0ed283c471787897d17e58831637efb2 1356714108
+dir /usr/share/locale/ur_PK
+dir /usr/share/locale/ur_PK/LC_MESSAGES
+obj /usr/share/locale/ur_PK/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714112
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/libfm.mo e9a8a0b29feb1173de3fa69d0cbee7ea 1356714106
+dir /usr/share/locale/bn
+dir /usr/share/locale/bn/LC_MESSAGES
+obj /usr/share/locale/bn/LC_MESSAGES/libfm.mo 4ce6317d9df19caa2febe4e72b4a1d7d 1356714099
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/libfm.mo bb1d30920e1103b3bfa9e2e153eacb00 1356714112
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/libfm.mo a9f2a5fb5b28d68acf8ea3ee0893af66 1356714100
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/libfm.mo 35f06f20676c33b94e0abec32f9af247 1356714109
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/libfm.mo f82f10abd54ab6c46a4a52ca7974662f 1356714110
+dir /usr/share/locale/ms
+dir /usr/share/locale/ms/LC_MESSAGES
+obj /usr/share/locale/ms/LC_MESSAGES/libfm.mo 512782bc71f5150945eef9abfc235cda 1356714106
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/libfm.mo d04dc564199d247f4e753a3f0493573d 1356714105
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/libfm.mo db68583128181f5e28ff5705f4c47c2e 1356714109
+dir /usr/share/locale/nb
+dir /usr/share/locale/nb/LC_MESSAGES
+obj /usr/share/locale/nb/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714107
+dir /usr/share/locale/eu
+dir /usr/share/locale/eu/LC_MESSAGES
+obj /usr/share/locale/eu/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714102
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/libfm.mo fbfef6d36b9a5a1bff12a6ffd00c8eb7 1356714109
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/libfm.mo cd240ba8a27f77dd89701b4f197227a5 1356714108
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/libfm.mo af1389e4b89dffe32f3750df0a0ea1ba 1356714105
+dir /usr/share/locale/nn
+dir /usr/share/locale/nn/LC_MESSAGES
+obj /usr/share/locale/nn/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714107
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/libfm.mo 64c148e2ee1f067597bb1dbacf1b167c 1356714107
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/libfm.mo 632a74b68bb6e9eb0de674a6be1ab030 1356714101
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/libfm.mo 03c73431ebffaaa8220160b7b2bb0f35 1356714104
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/libfm.mo c87e47cc23c22f6bfe8f4ee014fb1e84 1356714103
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/libfm.mo e2796f0a7415cb622da606c7cdc68288 1356714101
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/libfm.mo d06f3ecb0806a4820e5c15c3cea13850 1356714101
+dir /usr/share/locale/ur
+dir /usr/share/locale/ur/LC_MESSAGES
+obj /usr/share/locale/ur/LC_MESSAGES/libfm.mo 4d72f57c8e6872f95282fb312110d379 1356714112
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/libfm.mo 148c90fa6b73454f49f6fa60cd7a2edf 1356714110
+dir /usr/share/libfm
+dir /usr/share/libfm/ui
+obj /usr/share/libfm/ui/progress.ui 64e8b7ca964ee4ed528bf7ac3913d147 1356714113
+obj /usr/share/libfm/ui/exec-file.ui c54a22f463841e3fac59dcad147ee759 1356714113
+obj /usr/share/libfm/ui/preferred-apps.ui 347927f5647bbad470b576edd91310e9 1356714113
+obj /usr/share/libfm/ui/ask-rename.ui 5dc8c4a6c1889ba6d742d8fb12e4793c 1356714113
+obj /usr/share/libfm/ui/file-prop.ui d74e7aceb154a301ef5455243cb23dc3 1356714113
+obj /usr/share/libfm/ui/app-chooser.ui 0a54b6d29d0a2dcaf7e529bdd7848ce4 1356714113
+obj /usr/share/libfm/archivers.list 9b50d38269b9ab54c933bbde16d77bc8 1356714114
+dir /usr/share/applications
+obj /usr/share/applications/libfm-pref-apps.desktop dc74df5ca5bd68a2c3d415df74991d87 1356714114
+dir /usr/share/mime
+dir /usr/share/mime/packages
+obj /usr/share/mime/packages/libfm.xml e72e53d91c05847f6e9618751832a9e6 1356714114
+dir /usr/bin
+obj /usr/bin/libfm-pref-apps 1a19f379607f3b29a41c349097d5771a 1356714139
+sym /usr/lib/libfm.so.1 -> libfm.so.1.0.0 1356714170
+sym /usr/lib/libfm-gtk.so.1 -> libfm-gtk.so.1.0.0 1356714170
+sym /usr/lib/libfm.so -> libfm.so.1.0.0 1356714170

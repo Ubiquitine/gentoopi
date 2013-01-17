@@ -1,0 +1,14 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/showrgb.1.bz2 6dcef09743ed23f1e221d12166804bc3 1356436787
+dir /usr/share/doc
+dir /usr/share/doc/rgb-1.0.4
+obj /usr/share/doc/rgb-1.0.4/README.bz2 a465187a21e764255dc7bbfde3d18f53 1356436788
+obj /usr/share/doc/rgb-1.0.4/AUTHORS.bz2 bff355b23fd9ba253c70d08ba2686173 1356436788
+obj /usr/share/doc/rgb-1.0.4/ChangeLog.bz2 47d919cd85caf9e3644aa1a17aad6251 1356436789
+dir /usr/share/X11
+obj /usr/share/X11/rgb.txt 001968dec64099af71ebb4c914dca955 1356436788
+dir /usr/bin
+obj /usr/bin/showrgb 451a4066113dd2de3db1e1a35b913982 1356436813

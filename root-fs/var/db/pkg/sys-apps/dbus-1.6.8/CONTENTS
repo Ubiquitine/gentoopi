@@ -1,0 +1,95 @@
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/dbus bc835765907698a95da8d8e5bf199378 1356526085
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/.keep_sys-apps_dbus-0 d41d8cd98f00b204e9800998ecf8427e 1356526086
+dir /etc/dbus-1/session.d
+obj /etc/dbus-1/session.d/.keep_sys-apps_dbus-0 d41d8cd98f00b204e9800998ecf8427e 1356526086
+obj /etc/dbus-1/session.conf 3ec4497bcff6f8e1445db64b23bda595 1356526090
+obj /etc/dbus-1/system.conf de8403f29a81ec91a204ca8050ad5922 1356526090
+dir /etc/X11
+dir /etc/X11/xinit
+dir /etc/X11/xinit/xinitrc.d
+obj /etc/X11/xinit/xinitrc.d/80-dbus e8931de962e99ddbdcad26a2a7c08eab 1356526085
+dir /var
+dir /var/lib
+dir /var/lib/dbus
+obj /var/lib/dbus/.keep_sys-apps_dbus-0 d41d8cd98f00b204e9800998ecf8427e 1356526086
+dir /var/run
+dir /var/run/dbus
+dir /usr
+dir /usr/include
+dir /usr/include/dbus-1.0
+dir /usr/include/dbus-1.0/dbus
+obj /usr/include/dbus-1.0/dbus/dbus-shared.h c13c271a54279826065732a1fb8b663c 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-connection.h 53574842742b77bcf2345177538be900 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-misc.h 4e204126c0643d0b09fa8f6886f483c3 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-address.h 7be92bba2922e4b63eb847c831e1e2f8 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-pending-call.h 164c47aac69e9a1c1291c73a57f5d0da 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-message.h 06f657dfe16ea28f22e9dc72d3988b4c 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-errors.h 91dd91d38e2f1e422d5e7fec40dea57e 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus.h 487a5572c0414eb7e5f99ba910cc9cb3 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-memory.h f904923e10ecbcfcae33ffbe249a0e7a 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-bus.h 4dfdeb4b8f491affbf3027fd2fbbad63 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-signature.h 08a600fedec41bc980ecfdeba2d9a42c 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-protocol.h 95058e534c8f0c00c340c6603671f1b9 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-syntax.h 9cbd11c92aeb88f4e55a96cb2ebb253a 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-server.h e8e05b9ab7f9b42a39221c034f47246d 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-threads.h ea676b7002c10afe92c71ff1dc81a284 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-types.h 23fd296aa5e199b59f0591a20d0f5c4c 1356526088
+obj /usr/include/dbus-1.0/dbus/dbus-macros.h c1bff7d8c9f57efe1049080ac0cb097a 1356526088
+dir /usr/libexec
+obj /usr/libexec/dbus-daemon-launch-helper 6e9a99ec0fa739b878b8b7680af26c65 1356526136
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/dbus-1.pc 78f584abeebf87e405c4d4f908ec151a 1356526098
+dir /usr/lib/dbus-1.0
+dir /usr/lib/dbus-1.0/include
+dir /usr/lib/dbus-1.0/include/dbus
+obj /usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h 909d2c5aaf4b6b5f4e27426ab3afca7d 1356526088
+obj /usr/lib/libdbus-1.so.3.7.2 b02025ed4049026914b742b7bfc54eac 1356526136
+sym /usr/lib/libdbus-1.so -> libdbus-1.so.3.7.2 1356526175
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/dbus-daemon.1.bz2 19c5e286fc2ab92604ba4919c68f96e4 1356526098
+obj /usr/share/man/man1/dbus-send.1.bz2 16dc500ae2df218e7f50a8ccc7d69f29 1356526098
+obj /usr/share/man/man1/dbus-monitor.1.bz2 b7b27580e13947351e35028338f8a8f7 1356526098
+obj /usr/share/man/man1/dbus-uuidgen.1.bz2 a09ae2caf0e0a33ea77ca4d57c98f77f 1356526098
+obj /usr/share/man/man1/dbus-cleanup-sockets.1.bz2 7c4ed15e6673dff3e39e72348e1080ff 1356526098
+obj /usr/share/man/man1/dbus-launch.1.bz2 9e07da0e7243dac886ceeee2bc2532a4 1356526098
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+dir /usr/share/dbus-1/services
+obj /usr/share/dbus-1/services/.keep_sys-apps_dbus-0 d41d8cd98f00b204e9800998ecf8427e 1356526086
+dir /usr/share/doc
+dir /usr/share/doc/dbus-1.6.8
+obj /usr/share/doc/dbus-1.6.8/README.bz2 ddcd9a025ed458af56bc618b681d3399 1356526086
+obj /usr/share/doc/dbus-1.6.8/AUTHORS.bz2 c810b26beebd4bc583da3d356890a23d 1356526086
+obj /usr/share/doc/dbus-1.6.8/TODO.bz2 184746d9efb774bc3a4fe784eba61abc 1356526086
+obj /usr/share/doc/dbus-1.6.8/system-activation.txt.bz2 2ee28171cb168f21458312f1ad48f76a 1356526097
+dir /usr/share/doc/dbus-1.6.8/html
+obj /usr/share/doc/dbus-1.6.8/html/dbus-daemon.1.html d8d1fd6c8171e6fb8fa239276029fc7c 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/diagram.png fd03c2cc19d6c3e22794db6e555339da 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-launch.1.html c4b771548a281cd0dc33645f5caa40bd 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/diagram.svg 0780bbe3d553cd4d055abf70f759f6bc 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-test-plan.html 5b46e15b418c9c7d1cbae76b3a5b7fe8 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-faq.html 66a4cca4e4980fdbe1149d7a01f6f65b 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-cleanup-sockets.1.html 1f9074e10a7d3a1609788d23364fbd69 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-uuidgen.1.html 8940dbe3435deb5452c79d533393ce75 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-specification.html 99735f12d008f3f9319a753632d2d513 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-send.1.html 40051a989dc5b7d558ff026a50f7f50a 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-monitor.1.html 3e1b0e6ccfa863427c2ccdb8bed7c4a1 1356526098
+obj /usr/share/doc/dbus-1.6.8/html/dbus-tutorial.html 69c7236d4e3aded784376148a1e8e89d 1356526098
+obj /usr/share/doc/dbus-1.6.8/HACKING.bz2 edc11fe2c2b87de39f45e290e8278289 1356526086
+obj /usr/share/doc/dbus-1.6.8/ChangeLog.bz2 80e532a74d95c794b8a4d22ac738d363 1356526086
+obj /usr/share/doc/dbus-1.6.8/NEWS.bz2 c9c38334d7bb7411164a263b01ef24ca 1356526086
+dir /usr/bin
+obj /usr/bin/dbus-send 9f09556d7d2dc585788fbcbbb53add8a 1356526136
+obj /usr/bin/dbus-cleanup-sockets 08a42d185910e6413f89bbe281fcd849 1356526136
+obj /usr/bin/dbus-daemon 428b48b9c156c031d884c165c7169448 1356526137
+obj /usr/bin/dbus-monitor 14b535a4398e083ad0377b59b776eb0e 1356526137
+obj /usr/bin/dbus-uuidgen c5fb4aa5ee8f158be06740a6a662cef2 1356526137
+obj /usr/bin/dbus-launch 9b252958492701f34e97347230c68c04 1356526137
+sym /usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.7.2 1356526176

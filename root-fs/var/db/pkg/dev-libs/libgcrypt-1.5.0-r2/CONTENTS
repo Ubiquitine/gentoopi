@@ -1,0 +1,26 @@
+dir /usr
+dir /usr/include
+obj /usr/include/gcrypt-module.h ed9f0332d80b875611307f50b30ce945 1356356992
+obj /usr/include/gcrypt.h 096f39984a0963db0895e462a95fb63f 1356356992
+dir /usr/lib
+obj /usr/lib/libgcrypt.so.11.7.0 9116a6e283af3278817f43788e11c955 1356357015
+sym /usr/lib/libgcrypt.so.11 -> libgcrypt.so.11.7.0 1356357043
+sym /usr/lib/libgcrypt.so -> libgcrypt.so.11.7.0 1356357043
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libgcrypt-1.5.0-r2
+obj /usr/share/doc/libgcrypt-1.5.0-r2/README.bz2 899ba87f6199239134998aa1813c3011 1356356993
+obj /usr/share/doc/libgcrypt-1.5.0-r2/AUTHORS.bz2 f7cb9611aa478474cbb03e3c855753e7 1356356993
+obj /usr/share/doc/libgcrypt-1.5.0-r2/TODO.bz2 54639a551d9ef747719fe95ca45f1b31 1356356993
+obj /usr/share/doc/libgcrypt-1.5.0-r2/THANKS.bz2 2f2b013decd7130b79c6f57808c72719 1356356993
+obj /usr/share/doc/libgcrypt-1.5.0-r2/ChangeLog.bz2 5ac968e3ecda393338f54f304f867e8b 1356356993
+obj /usr/share/doc/libgcrypt-1.5.0-r2/NEWS.bz2 831a0ef811bed26c036d65688be9b080 1356356993
+dir /usr/share/info
+obj /usr/share/info/gcrypt.info-1.bz2 93d508babb3cab530a7dd97a0781c2da 1356356992
+obj /usr/share/info/gcrypt.info.bz2 7cc49fc0125d982af8ea2dcda67d401a 1356356992
+dir /usr/share/aclocal
+obj /usr/share/aclocal/libgcrypt.m4 c3d27cb78a502f322bd6a28c098621d8 1356356992
+dir /usr/bin
+obj /usr/bin/libgcrypt-config 5906b6eb178f64de6296a2206d7de721 1356356992
+obj /usr/bin/dumpsexp 80396bd288bfdc5bf236814da8939834 1356357016
+obj /usr/bin/hmac256 53ca17734b6fb85dedef45ff0bb9f676 1356357016

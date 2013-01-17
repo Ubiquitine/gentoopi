@@ -1,0 +1,65 @@
+dir /usr
+dir /usr/share
+dir /usr/share/mimelnk
+dir /usr/share/mimelnk/application
+obj /usr/share/mimelnk/application/x-openbox-theme.desktop 4254b2aae9649d251be2c13c6b5e3da7 1356717057
+dir /usr/share/obconf
+obj /usr/share/obconf/video-display.png 8bc35fd062b57dd3066105d05c15cfda 1356717057
+obj /usr/share/obconf/obconf.glade c04ac51b5923591f07912f3d673c4108 1356717057
+dir /usr/share/doc
+dir /usr/share/doc/obconf-2.0.3_p20111019
+obj /usr/share/doc/obconf-2.0.3_p20111019/CHANGELOG.bz2 95e1705ab77c0e527eb553efbbca0b7d 1356717058
+obj /usr/share/doc/obconf-2.0.3_p20111019/README.bz2 7873778a8c080ca663085ee0edd9f5a9 1356717058
+obj /usr/share/doc/obconf-2.0.3_p20111019/AUTHORS.bz2 bed2157253f259230d8c34a76466f7e1 1356717058
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/obconf.mo 49d9791e53b895e92ab599f09b5c39b6 1356717053
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/obconf.mo 96de132f987546e9368ab5e5cbeb8ddc 1356717052
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/obconf.mo e2fdf4b24f3bfebb72f424a3da106f6a 1356717052
+dir /usr/share/locale/en@quot
+dir /usr/share/locale/en@quot/LC_MESSAGES
+obj /usr/share/locale/en@quot/LC_MESSAGES/obconf.mo a5285bb313623aeccc59bb4b3209103a 1356717051
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/obconf.mo 8739c05e376c844dad2bbded884871da 1356717052
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/obconf.mo 385bc85e71cd592c16c2a952b6f80bc1 1356717052
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/obconf.mo 1b467e3a0e90d14b0b23e3452f5aea1d 1356717052
+dir /usr/share/locale/en@boldquot
+dir /usr/share/locale/en@boldquot/LC_MESSAGES
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/obconf.mo f02ae6c3ab23ae44b38362d858f9ebc6 1356717052
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/obconf.mo ebe7a6a50d9e67053a57de826ef584f9 1356717052
+dir /usr/share/locale/no
+dir /usr/share/locale/no/LC_MESSAGES
+obj /usr/share/locale/no/LC_MESSAGES/obconf.mo 9b17608f2ddac958c49bf8ac0790ec32 1356717052
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/obconf.mo 5f46e67513a7dffdc7b43c51925d69ba 1356717053
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/obconf.mo 587b85aafe1194a44a78ffef7bf4b573 1356717052
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/obconf.mo 24927ea20961e98e01fb59004268bd45 1356717052
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/obconf.mo 0d6bb4741e5bdd79fe6ad6c343c92d08 1356717052
+dir /usr/share/applications
+obj /usr/share/applications/obconf.desktop 21a537a2e3b47432b458ed22411c9264 1356717056
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/obconf.png 3badf457e1b21cf99f3f3e92c0ecbc5c 1356717057
+dir /usr/share/mime
+dir /usr/share/mime/packages
+obj /usr/share/mime/packages/obconf.xml 25cb8240902e3ea5a86d3fa5731f900b 1356717057
+dir /usr/bin
+obj /usr/bin/obconf c9e5c837811d97badeb4932235d38fa8 1356717080

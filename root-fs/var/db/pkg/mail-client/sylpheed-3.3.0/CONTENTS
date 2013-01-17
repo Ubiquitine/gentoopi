@@ -1,0 +1,252 @@
+dir /usr
+dir /usr/include
+dir /usr/include/sylpheed
+dir /usr/include/sylpheed/sylph
+obj /usr/include/sylpheed/sylph/prefs_common.h b17ed676d32010c58427dda455b939d6 1358107182
+obj /usr/include/sylpheed/sylph/ssl.h 4a125ff20ea07d8dd9ee321c985d1f99 1358107183
+obj /usr/include/sylpheed/sylph/procmime.h fd6678baef78584e2b6c6bbf1a7053f0 1358107182
+obj /usr/include/sylpheed/sylph/mbox.h 309b72b0992898f1d0482036607a9671 1358107179
+obj /usr/include/sylpheed/sylph/nntp.h 711772c356ade92c4b131082c4978d96 1358107181
+obj /usr/include/sylpheed/sylph/socks.h ca84aafc4755ec1b02b95e99275e96bd 1358107183
+obj /usr/include/sylpheed/sylph/virtual.h d8ddeb652ff4ab5d401d128aaa6f752a 1358107184
+obj /usr/include/sylpheed/sylph/pop.h 3c0010517b92a448bcdd81b49b15a07b 1358107181
+obj /usr/include/sylpheed/sylph/news.h c8cbf12c903f8b1fc3e04a5675dbb53f 1358107180
+obj /usr/include/sylpheed/sylph/xml.h 5bb545b4e98db3c3539c32c372c763e5 1358107184
+obj /usr/include/sylpheed/sylph/procmsg.h d4dc5266374a70e3c5d6c1297ff2d4b7 1358107182
+obj /usr/include/sylpheed/sylph/base64.h 79a584cb2c08a2423af86f531562fc42 1358107178
+obj /usr/include/sylpheed/sylph/md5_hmac.h 605a8a02ca5c0a923b822000e9330dd1 1358107180
+obj /usr/include/sylpheed/sylph/codeconv.h 79ecfd9e78a65c41ee3e371d1e059ab0 1358107178
+obj /usr/include/sylpheed/sylph/prefs.h e00c40e6add3f0826b83ca8c4574f9d2 1358107181
+obj /usr/include/sylpheed/sylph/unmime.h 70c439a7f3cf1f5d35f6122a13cd9110 1358107183
+obj /usr/include/sylpheed/sylph/sylmain.h 85735d6ea7ef822229d34a126325fe97 1358107183
+obj /usr/include/sylpheed/sylph/defs.h 0db3fe37a3663ca010e8ba1664b9b5b6 1358107177
+obj /usr/include/sylpheed/sylph/stringtable.h 12e3a3b0638287d03f9877089317218e 1358107183
+obj /usr/include/sylpheed/sylph/smtp.h b10d4d864670843da7e6f736cda200be 1358107183
+obj /usr/include/sylpheed/sylph/recv.h 5e241f9a69f7f194a8fc4978c00a35af 1358107183
+obj /usr/include/sylpheed/sylph/mh.h 1f8c7d76a50746f0ed97d09669d3f11b 1358107180
+obj /usr/include/sylpheed/sylph/utils.h 39c19cca778b1bdbef3ae34cf3384117 1358107184
+obj /usr/include/sylpheed/sylph/imap.h e2fcf6cc7c0926ac56d2326fac8d8583 1358107179
+obj /usr/include/sylpheed/sylph/session.h 3c1f7fd7aa1596a7a47c9080cf606ab8 1358107183
+obj /usr/include/sylpheed/sylph/uuencode.h 2692bd0bb4eafa6d79b06d4fb24ca638 1358107184
+obj /usr/include/sylpheed/sylph/folder.h a53f8301db7f6b685388f45c14ce8466 1358107179
+obj /usr/include/sylpheed/sylph/prefs_account.h b59eb9f2b1c9d44f39d094f1e5611cf6 1358107182
+obj /usr/include/sylpheed/sylph/md5.h 0609f6b5bfa5a848025f67f105eaf53e 1358107180
+obj /usr/include/sylpheed/sylph/procheader.h 54e4056a6873b39b6456d4735fddbeac 1358107182
+obj /usr/include/sylpheed/sylph/syl-marshal.h a57ee4c2101acdbd214fa13eb603b4fd 1358107184
+obj /usr/include/sylpheed/sylph/account.h 205b13af8859eea829a37ab28bfd2e1e 1358107178
+obj /usr/include/sylpheed/sylph/quoted-printable.h 502a2ae59082e6b3b43e164012caecb5 1358107182
+obj /usr/include/sylpheed/sylph/displayheader.h 11a9c32b716fcb916758eed8cfdb93e6 1358107178
+obj /usr/include/sylpheed/sylph/socket.h 4c0836e7780727ee10fa68a15a72cb59 1358107183
+obj /usr/include/sylpheed/sylph/customheader.h bd589b8d9574f386070aaec1a9001225 1358107178
+obj /usr/include/sylpheed/sylph/enums.h 625cb890b29a2e7160c2dd51b8a443b7 1358107177
+obj /usr/include/sylpheed/sylph/filter.h 87ef49e94a882f513cbdc4e8d6a3f2d6 1358107179
+obj /usr/include/sylpheed/sylph/html.h f7c3b56be6540285f66001b8fedb8d17 1358107179
+obj /usr/include/sylpheed/plugin.h 022c713d2fa47c311a4a654b5d8dc10a 1358107186
+dir /usr/bin
+obj /usr/bin/sylpheed 8e374e60bb3b3e3a4d4bc5a003b5a6d8 1358107295
+dir /usr/share
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/sylpheed-128x128.png 62b90c056ddbc9be8a9055e0ddd3690c 1358107248
+obj /usr/share/pixmaps/sylpheed-64x64.png fea7811a2a17fab83ae2c8571a1ce1c1 1358107249
+obj /usr/share/pixmaps/sylpheed.png e91ba56436d6dbd98b5fade1379d78c3 1358107251
+dir /usr/share/applications
+obj /usr/share/applications/sylpheed.desktop 059938ee26ccfbd28f46489675e5ca24 1358107251
+dir /usr/share/locale
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/sylpheed.mo 004320d7a11e7150f535ad4e0dbe3079 1358107211
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/sylpheed.mo 8660dd4abda8071820676d6ac75a5663 1358107216
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/sylpheed.mo cebe4b554da7f5909bdcbc8a5cfd44b9 1358107221
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/sylpheed.mo 7b64f09a904528c93082b8a2a8003135 1358107217
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/sylpheed.mo a75acf4be80c8907e07a547697f1eff6 1358107208
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/sylpheed.mo 03e742151ac50cda8c4532665292f43e 1358107206
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/sylpheed.mo 1bf238fc4a8c38558499791fd4f8f011 1358107212
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/sylpheed.mo 9c781a74412e8622d595e434cc5497b0 1358107212
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/sylpheed.mo ca5232f5e2e062efe24e6426b1c670b1 1358107213
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/sylpheed.mo a277ddd5e8bc2883d9748d6af9abcf3f 1358107210
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/sylpheed.mo 40cda3ffc1ddd60fa386991c3c0910b4 1358107224
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/sylpheed.mo 3a5c009939ce37f9a85d82bc11077fb3 1358107222
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/sylpheed.mo 2485491662e67e851af1fd9c7c523556 1358107204
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/sylpheed.mo c41923f0fd376392459f8ebcb45825ea 1358107208
+dir /usr/share/locale/sk
+dir /usr/share/locale/sk/LC_MESSAGES
+obj /usr/share/locale/sk/LC_MESSAGES/sylpheed.mo 8d41bfcf1ff65e05ce876670b9a55fd1 1358107218
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/sylpheed.mo ef94483015ad89b5e0efb9c8d270ad53 1358107217
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo 9891914b63a5edb2decda9400235b5f1 1358107206
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/sylpheed.mo c234afd03ddcef66541fc6efb3b54841 1358107222
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/sylpheed.mo 03394d5bb230764381228b94a80686b9 1358107209
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/sylpheed.mo a16cbee277f436a9e4a04f690514cafe 1358107216
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/sylpheed.mo beab16ef82ddee25e5b17e24e9d3e5ab 1358107211
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/sylpheed.mo ee0386423fa9159711778419571ce6c2 1358107207
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/sylpheed.mo 349abcf3f889c6eb6fb3b311fb895162 1358107210
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo 483e3ab8a927fdeca5732664067050e6 1358107205
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/sylpheed.mo df537c04dde07a88713f85c75c3fde49 1358107221
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/sylpheed.mo 924e0d376d3c9daad0a1d2741fb6f0e5 1358107221
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/sylpheed.mo b5290f809f5adbeef0a1ac4a3c83437d 1358107217
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/sylpheed.mo 36de7d374f1356a2b00d69f00cf2daac 1358107223
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/sylpheed.mo b8aa58d882d1427cfc25e0a8d7900e81 1358107220
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/sylpheed.mo ec88fe1518f23a56a0a99ae4dcc02b8e 1358107209
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/sylpheed.mo be0886752cf9c4d49bcaa93ba35a1aba 1358107207
+dir /usr/share/doc
+dir /usr/share/doc/sylpheed-3.3.0
+obj /usr/share/doc/sylpheed-3.3.0/NEWS-1.0.bz2 f6dac2d1ecf19efb071c3a0f53f281b6 1358107243
+obj /usr/share/doc/sylpheed-3.3.0/README.bz2 de6141552fab128a62fdb3ae56515339 1358107248
+obj /usr/share/doc/sylpheed-3.3.0/README.es.bz2 a33d3e811313628c912ff1b91af0e045 1358107248
+obj /usr/share/doc/sylpheed-3.3.0/ChangeLog-1.0.bz2 155cff2b517959f423660393883e2b1b 1358107241
+obj /usr/share/doc/sylpheed-3.3.0/NEWS.bz2 77d7a7752154cf70d953bc31f6b2185a 1358107243
+obj /usr/share/doc/sylpheed-3.3.0/AUTHORS.bz2 6569bfca4966e9d2a08931a90c9b74f6 1358107240
+dir /usr/share/doc/sylpheed-3.3.0/html
+dir /usr/share/doc/sylpheed-3.3.0/html/faq
+dir /usr/share/doc/sylpheed-3.3.0/html/faq/es
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/es/sylpheed-faq-1.html 19abe4a298fccac8c7f1f3b13457915a 1358107235
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/es/sylpheed-faq-2.html cdd1eef7f7b65a6ee809899d0fe1e564 1358107236
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/es/sylpheed-faq-3.html cb25ae5b11696960d44929fe273fde12 1358107236
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/es/sylpheed-faq.html 728b9418b67d5e2746d6982fb9a1c65c 1358107236
+dir /usr/share/doc/sylpheed-3.3.0/html/faq/it
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/it/sylpheed-faq-1.html e2885d51f83bc53c8b1caf3a4efd9e0a 1358107237
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/it/sylpheed-faq-2.html 1c8ec05f9249d7a76a329e5497c7ce71 1358107238
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/it/sylpheed-faq-3.html 92db69ad7e2aa4a3d2754f3419b334fd 1358107238
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/it/sylpheed-faq.html c535b82dbc7570d1ad45adf45c95f382 1358107238
+dir /usr/share/doc/sylpheed-3.3.0/html/faq/en
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/en/sylpheed-faq-1.html 7708fb48702618a45ebe856efe0baf93 1358107234
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/en/sylpheed-faq-2.html bba4b4cfa7acfba0a78faa52612ebda0 1358107234
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/en/sylpheed-faq-3.html 5444458137235a531a73e2f79ce59412 1358107235
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/en/sylpheed-faq-4.html 6c236148dcee0cf849abfd1a092891e6 1358107235
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/en/sylpheed-faq.html f7c0eb1a4f19162d7b2a7d52e9826350 1358107235
+dir /usr/share/doc/sylpheed-3.3.0/html/faq/fr
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/fr/sylpheed-faq-1.html 98b49868b486ecfb558371bb0ddc50d8 1358107236
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/fr/sylpheed-faq-2.html 4f530110143169e88fc0af58cd89fdc5 1358107237
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/fr/sylpheed-faq-3.html 93992d75455dde4869cf696f941c9336 1358107237
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/fr/sylpheed-faq.html 1a4c55ea0f5caa9adb2d431a6eb56bf4 1358107237
+dir /usr/share/doc/sylpheed-3.3.0/html/faq/de
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/de/sylpheed-faq-1.html 11a7e132278eeae20897ad23a1df5db2 1358107233
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/de/sylpheed-faq-2.html 58526bcbb6e210d1449662f6c57da731 1358107233
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/de/sylpheed-faq-3.html f4c9e7c7d9960bbdbb2bfdd209f91261 1358107233
+obj /usr/share/doc/sylpheed-3.3.0/html/faq/de/sylpheed-faq.html acb3fa518dae4b2159ceedf0c9f71b25 1358107233
+dir /usr/share/doc/sylpheed-3.3.0/html/manual
+dir /usr/share/doc/sylpheed-3.3.0/html/manual/ja
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed.html 6b8df5e327194409cc2693d85255fa7a 1358107232
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-20.html be5b8749aa2bcc0a56b8d01057f4dbfd 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-3.html e59d1f98c03fc46645bda6e6b81eda6b 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-7.html e244b219b12ea4dde3951edf6062194f 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-25.html 5beee594df88b7809ce210d5f0d39525 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-5.html c25e5276e6e81c81aac61b0005779add 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-11.html 04eccc756c24c94f2f60e2740de26f8c 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-1.html 123297433a0724b31a8a8eb1a4de8984 1358107228
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-17.html 645d581440126c124a6db13a0bf7b961 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-9.html c7e8b261c12506cc3f79a2adf4a25d19 1358107232
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-12.html 4ad038688139f0ab40e86062bc28486a 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-15.html 27cb0e4a18ecfc3c682f91b58723b1e8 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-18.html d2f559478fbdec5f11f77e80a5265866 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-14.html 193f1f2a3a1749bce7ce3bf78d7c4eac 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-10.html f3f423521cb04a5ac84fff5bbc5179d1 1358107228
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-26.html 99a9ce5c9cdd917806f3d19708b447ff 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-19.html fa5050bb3b81f71a54e4685561999fdb 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-2.html 2aff0a6c662d3ef30558e69251cb0359 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-16.html d0fb4a0857135acf3c29e07d5d12e833 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-24.html ec96956248c8b2a4418fed88a27a193c 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-8.html 1ad8b70fde16f5da91193900ab424a77 1358107232
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-13.html 9af2dea329a9dba32de2542327de1c17 1358107229
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-23.html b51a1b71d0abdb5ca33dc213a05074d6 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-6.html 13ca207a225437102c820467884c3561 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-21.html aa574975e267de06fa3c352c5e44b499 1358107230
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-4.html f8d0f727020aefa1233d957a9513a627 1358107231
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/ja/sylpheed-22.html 44f72f7bb1cac73a89b702285464e178 1358107230
+dir /usr/share/doc/sylpheed-3.3.0/html/manual/en
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed.html 5430e09819033420c7aada03f1bb03f3 1358107228
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-20.html 89cc5aabc567d68570cf9afc77eb180c 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-3.html fadd588f39bf7eb3d84f856c2c81eb29 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-7.html b4eaa8173b96e7f598ba3f33abbb1428 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-5.html f1eaa2d13d0e6e0d3a32696da6c4f4d8 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-11.html 2b2e616aa89ae1cd6e257e8e7e9e537b 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-1.html 5a77e95e62c0443294ff795420234ca8 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-17.html 0e2f903a295a40203e9b1578c1d15761 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-9.html c79066eb3df6028931fce8af36a30a7d 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-12.html 1ca1b36db50b95060b297489c80f33c9 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-15.html 798a03f522bb4e3c9ee0fb705d2372b3 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-18.html d436d67c23f736a5d2e426493cbcf779 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-14.html 6f4e7b5b95aba598a96e31007bf54af5 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-10.html 50d2fbc2e36dd65a64a5fa09ec26c82e 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-19.html 573f1deb97d60cec4e92d651be2860e9 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-2.html f5d653d0086f455f9e7b951dc6e48f4f 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-16.html bdd5eea434467cb501d269a2abdeac9e 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-8.html 702b632a01cf8e7e8ac730ddc8e9cb4e 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-13.html 540fc5fe3ab5ff07e14ab3922cc5dc3e 1358107225
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-6.html 6593577c2d5d972ceed0e5baac2d09dd 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-21.html 38bcf59ec3ed26f54c4d8f6592894230 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-4.html c6714723e21e169ccd9738a1667a4134 1358107227
+obj /usr/share/doc/sylpheed-3.3.0/html/manual/en/sylpheed-22.html 9d9de23db6b4f62f841230a36b2e7306 1358107226
+obj /usr/share/doc/sylpheed-3.3.0/TODO.ja.bz2 fb45c12739ab05fdc4b9ac96f4d40f9a 1358107248
+obj /usr/share/doc/sylpheed-3.3.0/ChangeLog.ja.bz2 b013024c29037691c435d2b8306a5597 1358107243
+obj /usr/share/doc/sylpheed-3.3.0/NEWS-2.0.bz2 2db6ed93a477dc609eecbe2bde451c6a 1358107243
+obj /usr/share/doc/sylpheed-3.3.0/ChangeLog-1.0.ja.bz2 2a5b2a5b98677a6c6acc9545f8a6699c 1358107242
+obj /usr/share/doc/sylpheed-3.3.0/TODO.bz2 60c54355b70f49c6baee79f3de2f9f86 1358107248
+obj /usr/share/doc/sylpheed-3.3.0/ChangeLog.bz2 b5719261ea18e2aaed1aff8510750ff3 1358107241
+obj /usr/share/doc/sylpheed-3.3.0/README.ja.bz2 bb4f29408f80f5b982648704db0f5704 1358107248
+dir /usr/lib
+obj /usr/lib/libsylpheed-plugin-0.la 32657e760d54f1af3f363df423718f80 1358107287
+obj /usr/lib/libsylpheed-plugin-0.so.1.1.0 2397b7ce46a6c641c32d60a3d196b03f 1358107294
+sym /usr/lib/libsylpheed-plugin-0.so -> libsylpheed-plugin-0.so.1.1.0 1358107382
+obj /usr/lib/libsylph-0.so.1.1.0 9ee116ac711aab50b8af4bf4dede081b 1358107295
+obj /usr/lib/libsylph-0.la e0c56a1397ab29f63ea09c5d5319ad5a 1358107182
+sym /usr/lib/libsylph-0.so.1 -> libsylph-0.so.1.1.0 1358107382
+sym /usr/lib/libsylph-0.so -> libsylph-0.so.1.1.0 1358107382
+sym /usr/lib/libsylpheed-plugin-0.so.1 -> libsylpheed-plugin-0.so.1.1.0 1358107382

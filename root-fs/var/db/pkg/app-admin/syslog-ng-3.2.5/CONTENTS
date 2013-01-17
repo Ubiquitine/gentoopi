@@ -1,0 +1,81 @@
+dir /etc
+dir /etc/syslog-ng
+dir /etc/syslog-ng/patterndb.d
+obj /etc/syslog-ng/patterndb.d/.keep_app-admin_syslog-ng-0 d41d8cd98f00b204e9800998ecf8427e 1357750832
+obj /etc/syslog-ng/scl.conf 8f8362660d66f42fdd41a46562fe311a 1357750826
+obj /etc/syslog-ng/modules.conf 48b71c9ee3f46a60d8f6feaec1110525 1357750826
+obj /etc/syslog-ng/syslog-ng.conf 017e68271aba026a37c6c93471dcff9b 1357750830
+dir /etc/conf.d
+obj /etc/conf.d/syslog-ng 252ddaf4e3475b15b715b62f6c149fc1 1357750832
+dir /etc/init.d
+obj /etc/init.d/syslog-ng 231136236b494627935d92b5b000c28a 1357750831
+dir /etc/logrotate.d
+obj /etc/logrotate.d/syslog-ng 7b71a486962d5a9913d708041560c43f 1357750831
+dir /usr
+dir /usr/bin
+obj /usr/bin/update-patterndb 04e2fb3399352a650487bf37e5b76c6b 1357750823
+obj /usr/bin/loggen 7f7ab780c762f9643e81e1d7fd1ab999 1357750856
+obj /usr/bin/pdbtool b443c370e929c478df1f701baf34a882 1357750856
+dir /usr/lib
+obj /usr/lib/libsyslog-ng.so.0.0.0 8e89cb8d2537b8677f56ad4e0c57e8e1 1357750856
+dir /usr/lib/syslog-ng
+obj /usr/lib/syslog-ng/libsyslogformat.so 0d6801a0692831adada214db89549bc6 1357750857
+obj /usr/lib/syslog-ng/libdbparser.so 91c7292382c2ec42fd798c2b697c21b1 1357750857
+obj /usr/lib/syslog-ng/libafsocket-notls.so 2f930623fabe3e398c7eb45a6f233b1a 1357750857
+obj /usr/lib/syslog-ng/libafuser.so 674f8cb2c61e0ae822c075c3c3627ad9 1357750857
+obj /usr/lib/syslog-ng/libbasicfuncs.so 6ac2a73c1a04d16514506d46f825edd8 1357750857
+obj /usr/lib/syslog-ng/libconvertfuncs.so 923d02a82c9e166e8023a5d4284ffa48 1357750857
+obj /usr/lib/syslog-ng/libafsocket-tls.so 2d07daac9c88b51a5e7c0dfbaa250c22 1357750858
+obj /usr/lib/syslog-ng/libafprog.so 7310b4367ed88b8aa93841d6119f1182 1357750858
+obj /usr/lib/syslog-ng/libdummy.so d067cf165bcd3b2d7bbabb831fcca9c0 1357750858
+sym /usr/lib/syslog-ng/libafsocket.so -> libafsocket-tls.so 1357750891
+obj /usr/lib/syslog-ng/libconfgen.so 8b515657b9190faf6a26ee7c7af04f4e 1357750858
+obj /usr/lib/syslog-ng/libaffile.so 4b3d81698c9fbbe0ef5052375cb48fd9 1357750858
+obj /usr/lib/syslog-ng/libcsvparser.so 754fbe5538f95e0623a70b492437ca53 1357750859
+sym /usr/lib/libsyslog-ng.so -> libsyslog-ng.so.0.0.0 1357750891
+sym /usr/lib/libsyslog-ng.so.0 -> libsyslog-ng.so.0.0.0 1357750891
+dir /usr/sbin
+obj /usr/sbin/syslog-ng 646675da4c19cc68f63f02e64064b5f5 1357750859
+obj /usr/sbin/syslog-ng-ctl d39e13c529298c557b759659f394fe01 1357750859
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/syslog-ng-3.2.5
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.fbsd.3.2.bz2 70332f99c2b1856bceb2142c11d3788e 1357750829
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.fbsd.3.3.bz2 059c4b42a41890e09369ae3f1b4d086a 1357750829
+obj /usr/share/doc/syslog-ng-3.2.5/AUTHORS.bz2 aa3ce04f8147a263a0605c5ee4095b06 1357750827
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.doc.bz2 dcac90f184472e89c99f55189d19d999 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/NEWS.bz2 da597bc83632fcd2901acd87ca7b6500 1357750827
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.RedHat.bz2 ee8769fdae859ef39881125260fe0f17 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/syslog2ng.bz2 c0d6a714494bf7972debfc676581f4fe 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/README.bz2 c8631fd4381aa2350effebabfeceab4d 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.hardened.3.2.bz2 c3aeb28176b41349fe33b8a63f5f9e8d 1357750829
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.hardened.3.3.bz2 a843f1f126d8766c565a12022db6a82d 1357750829
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.3.2.bz2 a7d5c43682c54796410a6afcec3ae856 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.gentoo.3.3.bz2 49fc22b2873224948aabb396866c80d8 1357750829
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.HP-UX.bz2 4539560b2d99186e779b948615e614ae 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/syslog-ng.conf.SunOS.bz2 d7824039a3171d6859a9f9107513e0a0 1357750828
+obj /usr/share/doc/syslog-ng-3.2.5/ChangeLog.bz2 4b5e4cf85ebb50cc5c37afe2bb1279e4 1357750827
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/syslog-ng-ctl.1.bz2 66eda726b6e240245459c699d0ea0228 1357750824
+obj /usr/share/man/man1/loggen.1.bz2 317c7fce90789e7e4f4301ee2fc5d67a 1357750824
+obj /usr/share/man/man1/pdbtool.1.bz2 ab5edeb0e50d9505b786fa8d83bb0327 1357750824
+dir /usr/share/man/man5
+obj /usr/share/man/man5/syslog-ng.conf.5.bz2 ca69b172f74c8425ebbc63db9f0d7936 1357750825
+dir /usr/share/man/man8
+obj /usr/share/man/man8/syslog-ng.8.bz2 dfb28fbf69da24c470917e3e7d4c8fa9 1357750825
+dir /usr/share/xsd
+obj /usr/share/xsd/patterndb-1.xsd 62ee00c580fd39a2d916a986cc142525 1357750825
+obj /usr/share/xsd/patterndb-2.xsd 71658bd0eb4c726f07a95789720cccb3 1357750825
+obj /usr/share/xsd/patterndb-3.xsd 10952c8c5023e89a15f4328710e51a2f 1357750825
+dir /usr/share/include
+dir /usr/share/include/scl
+dir /usr/share/include/scl/pacct
+obj /usr/share/include/scl/pacct/plugin.conf f1e4e23c95153f37b2f9621009782bcf 1318184646
+dir /usr/share/include/scl/syslogconf
+obj /usr/share/include/scl/syslogconf/plugin.conf 93e8f84a9ee4f85c07474353940512cc 1318184646
+obj /usr/share/include/scl/syslogconf/README 928483656457e60b79158f0b272da348 1290242853
+obj /usr/share/include/scl/syslogconf/convert-syslogconf.awk 4b2458452bb4da4676722476878916de 1290242853
+dir /usr/share/include/scl/system
+obj /usr/share/include/scl/system/plugin.conf cc9269c70a5cc438ad3847974dfc04b9 1318184646
+obj /usr/share/include/scl/system/generate-system-source.sh c7e4edd1fbf98c6c1942d21d1690d6d5 1318184646

@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/perl5
+dir /usr/lib/perl5/vendor_perl
+dir /usr/lib/perl5/vendor_perl/5.12.4
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/Locale
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/Locale/gettext
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/Locale/gettext/gettext.so bf91725a88b060222df2cc5030aa470d 1355999997
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/Locale
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/Locale/gettext.pm 101c89ecc8054565d39e57d06c02fa60 1355999994
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/Locale-gettext-1.50.0
+obj /usr/share/doc/Locale-gettext-1.50.0/README.bz2 1efbc2b335e58db04b5d062f5a1b4abf 1355999994

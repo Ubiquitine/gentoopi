@@ -1,0 +1,8 @@
+#!/bin/sh
+prefix=/usr
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+sysconfdir=/etc/syslog-ng
+localstatedir=/var/lib/misc
+
+${bindir}/pdbtool merge -r --glob *.pdb -D ${sysconfdir}/patterndb.d -p ${localstatedir}/patterndb.xml

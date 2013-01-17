@@ -1,0 +1,157 @@
+dir /usr
+dir /usr/include
+dir /usr/include/lxappearance
+obj /usr/include/lxappearance/lxappearance.h 3d25c268cd745f2b4c24d4fe68d47fbe 1356709535
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/lxappearance.pc 56143c7384bcf06f096e4519982dc4a6 1356709522
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lxappearance.1.bz2 5f2712f840b96809dd9716ec5fd6a976 1356709523
+dir /usr/share/doc
+dir /usr/share/doc/lxappearance-0.5.2
+obj /usr/share/doc/lxappearance-0.5.2/README.bz2 e00735ccd5a887b1625d87917ab015cb 1356709536
+obj /usr/share/doc/lxappearance-0.5.2/AUTHORS.bz2 71b192ebe7e57174718152ac0ecef883 1356709536
+obj /usr/share/doc/lxappearance-0.5.2/NEWS.bz2 3d85c2b48e39aeb8f3c3ae0c6d16fd77 1356709537
+dir /usr/share/locale
+dir /usr/share/locale/ar
+dir /usr/share/locale/ar/LC_MESSAGES
+obj /usr/share/locale/ar/LC_MESSAGES/lxappearance.mo 355c8d71a479594fbae87b3161a882ed 1356709524
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/lxappearance.mo ba798dc665f23d5706b4e91f35de6725 1356709529
+dir /usr/share/locale/te
+dir /usr/share/locale/te/LC_MESSAGES
+obj /usr/share/locale/te/LC_MESSAGES/lxappearance.mo f35701c7854a0684fcb3a0f38160211a 1356709533
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/lxappearance.mo f3f23cfb015ec74962ced79d31a19d29 1356709525
+dir /usr/share/locale/hr
+dir /usr/share/locale/hr/LC_MESSAGES
+obj /usr/share/locale/hr/LC_MESSAGES/lxappearance.mo 54aa5508bd0234af8ec39a86114c9e75 1356709528
+dir /usr/share/locale/be
+dir /usr/share/locale/be/LC_MESSAGES
+obj /usr/share/locale/be/LC_MESSAGES/lxappearance.mo 28fddf1897826c1696577652310b6ff0 1356709524
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/lxappearance.mo f102521ce46328072596eea34095b8e4 1356709524
+dir /usr/share/locale/tt_RU
+dir /usr/share/locale/tt_RU/LC_MESSAGES
+obj /usr/share/locale/tt_RU/LC_MESSAGES/lxappearance.mo d51d83e9e2b08015f4bff44cfcd37f31 1356709534
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/lxappearance.mo c70ce30fab32c4c527aec65628fb5f7f 1356709529
+dir /usr/share/locale/kk
+dir /usr/share/locale/kk/LC_MESSAGES
+obj /usr/share/locale/kk/LC_MESSAGES/lxappearance.mo 595322d60cbd640260ea10b37d3a47b1 1356709529
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/lxappearance.mo 637d936d80f4eef955eb19c5fb06168b 1356709526
+dir /usr/share/locale/zh_TW
+dir /usr/share/locale/zh_TW/LC_MESSAGES
+obj /usr/share/locale/zh_TW/LC_MESSAGES/lxappearance.mo 18d87a634f829639f69c78076a7aafa9 1356709535
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/lxappearance.mo 9575b5207240f5bdfdf4f103fc020a43 1356709531
+dir /usr/share/locale/gl
+dir /usr/share/locale/gl/LC_MESSAGES
+obj /usr/share/locale/gl/LC_MESSAGES/lxappearance.mo d9dd4553949c6d79f802b6ab3f7a9957 1356709527
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/lxappearance.mo d37f175a347eea650e898bbda124db73 1356709534
+dir /usr/share/locale/fa
+dir /usr/share/locale/fa/LC_MESSAGES
+obj /usr/share/locale/fa/LC_MESSAGES/lxappearance.mo 650d5714d5877603787c1275d3442439 1356709526
+dir /usr/share/locale/et
+dir /usr/share/locale/et/LC_MESSAGES
+obj /usr/share/locale/et/LC_MESSAGES/lxappearance.mo 7a9f5bf627f88bf9e071c7737b46af9e 1356709526
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/lxappearance.mo 03f3d6214ef3360dfecc25e6fb3a92c6 1356709525
+dir /usr/share/locale/sr
+dir /usr/share/locale/sr/LC_MESSAGES
+obj /usr/share/locale/sr/LC_MESSAGES/lxappearance.mo 9172c0cc146c10fe11eb81ebe0efd2ac 1356709532
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/lxappearance.mo ecb63d9825eaa059ec2b164c3d38bfa1 1356709535
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/lxappearance.mo 2a422ae59bee2c0de36c6de5f7eb569b 1356709533
+dir /usr/share/locale/lg
+dir /usr/share/locale/lg/LC_MESSAGES
+obj /usr/share/locale/lg/LC_MESSAGES/lxappearance.mo dcb79875925477f7adc8373bed486b53 1356709530
+dir /usr/share/locale/hu
+dir /usr/share/locale/hu/LC_MESSAGES
+obj /usr/share/locale/hu/LC_MESSAGES/lxappearance.mo 76aeb209ae747148ee96bfff84526711 1356709528
+dir /usr/share/locale/bg
+dir /usr/share/locale/bg/LC_MESSAGES
+obj /usr/share/locale/bg/LC_MESSAGES/lxappearance.mo f52ee0cccdc6d2c8b79f7dfd484f22de 1356709524
+dir /usr/share/locale/fo
+dir /usr/share/locale/fo/LC_MESSAGES
+obj /usr/share/locale/fo/LC_MESSAGES/lxappearance.mo 3a0e6a9c2cdb4802184ebc3c9326ad94 1356709527
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/lxappearance.mo 0856a8526885c6fcc7af6432ae342b46 1356709531
+dir /usr/share/locale/lt
+dir /usr/share/locale/lt/LC_MESSAGES
+obj /usr/share/locale/lt/LC_MESSAGES/lxappearance.mo 7bafb19bb4492223c99caaf28569c221 1356709530
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/lxappearance.mo 2c03374043e98fef8b9d42e01078761d 1356709535
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/lxappearance.mo e02d82a313d998494d1184c7e0bbbb32 1356709532
+dir /usr/share/locale/sr@latin
+dir /usr/share/locale/sr@latin/LC_MESSAGES
+obj /usr/share/locale/sr@latin/LC_MESSAGES/lxappearance.mo c03cc278e4fac5fbd56d9f6661283058 1356709533
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/lxappearance.mo 01db241df9a4128e612054a097a70e9d 1356709529
+dir /usr/share/locale/sl
+dir /usr/share/locale/sl/LC_MESSAGES
+obj /usr/share/locale/sl/LC_MESSAGES/lxappearance.mo 7a53adbb0b9f7197080cea9024847d5c 1356709532
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/lxappearance.mo 6a1e60f77e31a8b0eef52f22a7fde91c 1356709532
+dir /usr/share/locale/pt
+dir /usr/share/locale/pt/LC_MESSAGES
+obj /usr/share/locale/pt/LC_MESSAGES/lxappearance.mo 0932a9d97723841558d4e39c1712b4c9 1356709531
+dir /usr/share/locale/id
+dir /usr/share/locale/id/LC_MESSAGES
+obj /usr/share/locale/id/LC_MESSAGES/lxappearance.mo 367c76491694b20d9881a6f8fa33c609 1356709528
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/lxappearance.mo 2020e34e18fa9a4150bca75b5b0b2eec 1356709530
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/lxappearance.mo 6db5c046da409b1cfab4565c7d9de894 1356709526
+dir /usr/share/locale/he
+dir /usr/share/locale/he/LC_MESSAGES
+obj /usr/share/locale/he/LC_MESSAGES/lxappearance.mo c8966ada293ed31524c987fe879f072a 1356709528
+dir /usr/share/locale/ug
+dir /usr/share/locale/ug/LC_MESSAGES
+obj /usr/share/locale/ug/LC_MESSAGES/lxappearance.mo bf3c6fdc12dcbd84ffe5103549a122db 1356709534
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/lxappearance.mo 844a9f89cab4442ad1d956204f0f2945 1356709527
+dir /usr/share/locale/en_GB
+dir /usr/share/locale/en_GB/LC_MESSAGES
+obj /usr/share/locale/en_GB/LC_MESSAGES/lxappearance.mo 3d2b72dc004c3cdc59f053c89e708837 1356709525
+dir /usr/share/locale/pa
+dir /usr/share/locale/pa/LC_MESSAGES
+obj /usr/share/locale/pa/LC_MESSAGES/lxappearance.mo f9ae12b397a6593f918ec7f638355ac9 1356709531
+dir /usr/share/locale/el
+dir /usr/share/locale/el/LC_MESSAGES
+obj /usr/share/locale/el/LC_MESSAGES/lxappearance.mo be2c209def37db782cae5cf68ef39858 1356709525
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/lxappearance.mo 9bf8083bcd2af08afec556bd00a18457 1356709533
+dir /usr/share/lxappearance
+dir /usr/share/lxappearance/ui
+obj /usr/share/lxappearance/ui/about.ui 094bf57b07bb16dbfc3434015260c6a1 1356709522
+obj /usr/share/lxappearance/ui/lxappearance.ui bc63bf73eae755b1b16026cf82a01d09 1356709522
+dir /usr/share/applications
+obj /usr/share/applications/lxappearance.desktop 1de870dadc33080ce177f3d184a208bf 1356709522
+dir /usr/bin
+obj /usr/bin/lxappearance 24b3f9a67a94260776283a7d6d65d660 1356709548

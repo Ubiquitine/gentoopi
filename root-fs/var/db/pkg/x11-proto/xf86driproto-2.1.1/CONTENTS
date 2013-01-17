@@ -1,0 +1,15 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/dri
+obj /usr/include/X11/dri/xf86dri.h 86e207e17bb0f060774c8ddd3a6fb467 1356433739
+obj /usr/include/X11/dri/xf86driproto.h 4f17c6bf2b99edd3256508b96c367e1c 1356433739
+obj /usr/include/X11/dri/xf86dristr.h 5a41f121da01ec61c9c2746292ee1783 1356433739
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xf86driproto.pc e3fcfa063cb7414588b60c30215a6b17 1356433739
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xf86driproto-2.1.1
+obj /usr/share/doc/xf86driproto-2.1.1/README.bz2 f5e653bcffc15c501a27ecbb457e32af 1356433739
+obj /usr/share/doc/xf86driproto-2.1.1/ChangeLog.bz2 4ef086ddd23c79295df3941c00a2a890 1356433740

@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/include
+dir /usr/include/xcb
+obj /usr/include/xcb/xcb_pixel.h 521d9e72784d3367c5992ea353241cbb 1356716384
+obj /usr/include/xcb/xcb_bitops.h fd371e4b7da99e2e7a7045c8229d98d3 1356716384
+obj /usr/include/xcb/xcb_image.h e0dbcd89fdf2d28ac6ef7450b32660c4 1356716384
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcb-image.pc e3b55c7cef0c29329234fe7e46d3e876 1356716384
+obj /usr/lib/libxcb-image.so.0.0.0 319e96c1b69de08185a5290ef591ab33 1356716409
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-util-image-0.3.9
+obj /usr/share/doc/xcb-util-image-0.3.9/README.bz2 ddd496d37c14c380cfbc9d8a2e57532e 1356716385
+obj /usr/share/doc/xcb-util-image-0.3.9/ChangeLog.bz2 dab7b902669d58533e3eabfa9b8f6c0b 1356716386
+obj /usr/share/doc/xcb-util-image-0.3.9/NEWS.bz2 c000445f683ee2c10727b842f07156bf 1356716385
+sym /usr/lib/libxcb-image.so.0 -> libxcb-image.so.0.0.0 1356716437
+sym /usr/lib/libxcb-image.so -> libxcb-image.so.0.0.0 1356716437

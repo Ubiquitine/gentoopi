@@ -1,0 +1,6 @@
+version="0.6.3-1"
+default_arrive_snd=/usr/share/ayttm/sounds/BuddyArrive.au
+default_leave_snd=/usr/share/ayttm/sounds/BuddyLeave.au
+default_send_snd=/usr/share/ayttm/sounds/Send.au
+default_recv_snd=/usr/share/ayttm/sounds/Receive.au
+default_module_path=/usr/lib/ayttm

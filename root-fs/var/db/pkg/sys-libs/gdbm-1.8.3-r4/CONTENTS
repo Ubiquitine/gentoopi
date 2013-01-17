@@ -1,0 +1,28 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libgdbm_compat.la 35b5b6e80face9f1af758c6a0e63e6fa 1355990779
+obj /usr/lib/libgdbm.a 364846d61de0016b0d5ec98355de8531 1355990779
+obj /usr/lib/libgdbm.la 36f72e2da183f19544574844376d0080 1355990774
+obj /usr/lib/libgdbm_compat.so.3.0.0 578f21a79ca5edf3a63c66609ca813d5 1355990779
+obj /usr/lib/libgdbm.so.3.0.0 a6ade3274e17cc799fd6ec4fec47c1ff 1355990779
+obj /usr/lib/libgdbm_compat.a b5487e3da067d3850e67c5143f484fd6 1355990779
+sym /usr/lib/libgdbm_compat.so.3 -> libgdbm_compat.so.3.0.0 1355990785
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/gdbm.info.bz2 97035f2dfda6dd1384662f0c90b40f39 1355990774
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/gdbm.3.bz2 a11cafb8727bef7543d6ecdc11a26540 1355990774
+dir /usr/share/doc
+dir /usr/share/doc/gdbm-1.8.3-r4
+obj /usr/share/doc/gdbm-1.8.3-r4/NEWS.bz2 b2fb25e794e6664d01deab51367c9334 1355990776
+obj /usr/share/doc/gdbm-1.8.3-r4/README.bz2 dd9ca2bb50bdda362f7a4b250cde1252 1355990776
+obj /usr/share/doc/gdbm-1.8.3-r4/ChangeLog.bz2 fca9dc55150ecb3619271b38d1f6844e 1355990776
+dir /usr/include
+obj /usr/include/gdbm.h 47030c403f28f9ae2012254f12df4c7b 1355990774
+dir /usr/include/gdbm
+obj /usr/include/gdbm/dbm.h ef456914768692e10669f29afce699b6 1355990776
+obj /usr/include/gdbm/ndbm.h 25e4fed3e6a27b0340a7d6ad9ecb084e 1355990776
+sym /usr/lib/libgdbm.so.3 -> libgdbm.so.3.0.0 1355990785
+sym /usr/lib/libgdbm.so -> libgdbm.so.3.0.0 1355990785
+sym /usr/lib/libgdbm_compat.so -> libgdbm_compat.so.3.0.0 1355990785

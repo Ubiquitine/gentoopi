@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.18:2 >=x11-libs/gtk+-2.22.1:2 >=lxde-base/menu-cache-0.3.2 >=x11-libs/libfm-0.1.16 virtual/eject virtual/freedesktop-icon-theme

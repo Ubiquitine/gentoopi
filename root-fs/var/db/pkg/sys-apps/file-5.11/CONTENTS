@@ -1,0 +1,25 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libmagic.so.1.0.0 b3116a66f69a82390759b3d1702b01a4 1355985931
+sym /usr/lib/libmagic.so.1 -> libmagic.so.1.0.0 1355985938
+sym /usr/lib/libmagic.so -> libmagic.so.1.0.0 1355985938
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man4
+obj /usr/share/man/man4/magic.4.bz2 b4a90ec4c8158fb1043851940bae3713 1355985927
+dir /usr/share/man/man5
+dir /usr/share/man/man3
+obj /usr/share/man/man3/libmagic.3.bz2 87a21f2ff11238369a15bb6a4761ca75 1355985927
+dir /usr/share/man/man1
+obj /usr/share/man/man1/file.1.bz2 f5accfa4d503f8a77ffefa3da187fdb9 1355985927
+dir /usr/share/doc
+dir /usr/share/doc/file-5.11
+obj /usr/share/doc/file-5.11/README.bz2 d3af6bc9c23a817c97bc758bbaeb5222 1355985927
+obj /usr/share/doc/file-5.11/ChangeLog.bz2 a6a8c7e0f884407d8904318ef9c1f7fa 1355985927
+obj /usr/share/doc/file-5.11/MAINT.bz2 baf15f2406fd73dc7f880fdca80a96b1 1355985927
+dir /usr/share/misc
+obj /usr/share/misc/magic.mgc 5caecd544c5de1c13245bf7a2213868c 1355985927
+dir /usr/bin
+obj /usr/bin/file 11521eede8a0297cf467f6e5cec20ac6 1355985931
+dir /usr/include
+obj /usr/include/magic.h e5ae6e6e4ef4e7b8a05a5fb6c4e57430 1355985926

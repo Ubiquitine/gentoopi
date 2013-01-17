@@ -1,0 +1,260 @@
+#! /usr/bin/env sh
+# This script is part of the eix project and distributed under the
+# terms of the GNU General Public License v2.
+#
+# Author and Copyright (c):
+#   Martin V\"ath <vaeth@mathematik.uni-wuerzburg.de>
+#
+# This script gives a structured output of eix -tTc (eix 0.25.5).
+
+read_var_prg=eix
+. '/usr/bin/eix-functions.sh'
+ReadGettext
+
+Usage() {
+	n=${0##*/}
+	p='eix 0.25.5'
+	eval_gettext 'Usage: ${n} [options] detail|brief
+This is a wrapper script for eix (${p}).
+
+It calls eix -tTc several times with various variable settings in order to
+display missing packages or packages with obsolete entries in
+/etc/portage/package.* in a more organized manner than eix -tTc would do alone.
+The speed and displayed details depend on whether you use the argument
+"detail" or "brief". Note that the result depends on your settings of the
+REDUNDANT_IF_* and NONEXISTENT_IF_* variables. In particular, the variables
+REDUNDANT_IF_{IN,DOUBLE}_{USE,ENV,CFLAGS} and REDUNDANT_IF_MIXED are
+false by default. Thus, e.g. to activate the two possible tests for
+/etc/portage/package.use you should set something like
+REDUNDANT_IF_IN_USE="-some" REDUNDANT_IF_DOUBLE_USE="some".
+
+The following options are available:
+	-c  use CHECK_INSTALLED_OVERLAYS=true
+	-C  use CHECK_INSTALLED_OVERLAYS=repository
+	-d  This can be used instead of the argument "detail"
+	-b  This can be used instead of the argument "brief"
+	-H  Suppress status line update
+	-h  Show this help text
+
+Options -b and -d are meant as to be used in EIX_TEST_OBSOLETE_OPTS to specify
+the default behavior.
+
+If neither -c nor -C is used, then CHECK_INSTALLED_OVERLAYS is not modified.
+The (recommended) default for CHECK_INSTALLED_OVERLAYS is \"repository\" which
+is much faster than CHECK_INSTALLED_OVERLAYS=true but works only reliable for
+packages installed with repository information (which is done by all recent
+portage versions).
+
+The argument can be abbreviated, e.g. instead of "brief" you can just use "b".'
+	echo
+	Exit ${1:-1}
+}
+
+nodetails=false
+myarg=
+# Once an option with paths as arguments is introduced, it is probably
+# necessary to turn the next command into eval "Push -c ..."
+# In the moment this seems not necessary, so we avoid that security risk:
+Push -c opt `eix --print EIX_TEST_OBSOLETE_OPTS`
+Push opt "${@}"
+set -f
+eval "set -- ${opt}"
+OPTIND=1
+while getopts 'cCdbHh?' opt
+do	case ${opt} in
+	c) export CHECK_INSTALLED_OVERLAYS=true;;
+	C) export CHECK_INSTALLED_OVERLAYS=repository;;
+	d) myarg='detail';;
+	b) myarg='brief';;
+	H) statusline=false;;
+	*) Usage 0;;
+	esac
+done
+[ ${OPTIND} -le 1 ] || shift `Expr ${OPTIND} - 1`
+[ ${#} -gt 1 ] && Usage
+[ ${#} -eq 1 ] && myarg=${1#-}
+case ${myarg#-} in
+[dD]*)	nodetails=false;;
+[bB]*)	nodetails=:;;
+[hH]*)	Usage 0;;
+*)	Usage;;
+esac
+
+export DEFAULT_FORMAT=compact
+
+Statusline 'eix -t'
+eix '-t*!'
+
+# sets is the list of all "*" for which there are set_* variables
+sets=
+
+# Defines a new set_* variable
+DefineSet() {
+	sets="${sets} ${1}"
+	eval "shift
+	set_${1}=\${*}"
+}
+
+# Return true if all variables in arg are "false" according to eix.
+AllFalse() {
+	for s
+	do	ReadBoolean "${s}" eix && return 1
+	done
+	return 0
+}
+
+
+# Set all variables listed in set_* to "false" except for those in set_${1}
+FalseExcept() {
+	for s in ${sets}
+	do	[ "${s}" = "${1}" ] || eval "for c in \${set_${s}}
+		do	eval export \${c}=false
+		done"
+	done
+}
+
+Output() {
+	if ! NOFOUND_STATUS=1 COUNT_ONLY_PRINTED=false eix -Tq0
+	then	[ -z "${1:++}" ] || printf '%s\n' "${1}"
+		return
+	fi
+	printf '\n%s\n' "${2}"
+	if [ ${#} -le 3 ] || ${nodetails}
+	then	eix -T
+		echo
+		return
+	fi
+	shift 2
+	for z
+	do	(
+			for j
+			do	[ "${z}" = "${j}" ] || eval export ${j}=false
+			done
+			Output '' "`eval_gettext '... considered as ${z}'`"
+		)
+	done
+}
+
+Check() (
+	if eval AllFalse \${set_${1}}
+	then	printf '%s\n' "${4}"
+		return
+	fi
+	FalseExcept ${1}
+	eval "shift
+	Output \"\${1}\" \"\${2}\" \${set_${1}}"
+)
+
+ReadVar rump PORTAGE_CONFIGROOT
+rump="${rump}/etc/portage/package."
+
+DefineSet nonexistent \
+	TEST_FOR_NONEXISTENT
+DefineSet keywords \
+	REDUNDANT_IF_DOUBLE \
+	REDUNDANT_IF_MIXED \
+	REDUNDANT_IF_WEAKER \
+	REDUNDANT_IF_STRANGE \
+	REDUNDANT_IF_NO_CHANGE \
+	REDUNDANT_IF_DOUBLE_LINE
+DefineSet mask \
+	REDUNDANT_IF_MASK_NO_CHANGE \
+	REDUNDANT_IF_DOUBLE_MASKED
+DefineSet unmask \
+	REDUNDANT_IF_UNMASK_NO_CHANGE \
+	REDUNDANT_IF_DOUBLE_UNMASKED
+DefineSet use \
+	REDUNDANT_IF_DOUBLE_USE
+DefineSet env \
+	REDUNDANT_IF_DOUBLE_ENV
+DefineSet license \
+	REDUNDANT_IF_DOUBLE_LICENSE
+DefineSet cflags \
+	REDUNDANT_IF_DOUBLE_CFLAGS
+DefineSet in_keywords \
+	REDUNDANT_IF_IN_KEYWORDS
+DefineSet in_mask \
+	REDUNDANT_IF_IN_MASK
+DefineSet in_unmask \
+	REDUNDANT_IF_IN_UNMASK
+DefineSet in_use \
+	REDUNDANT_IF_IN_USE
+DefineSet in_env \
+	REDUNDANT_IF_IN_ENV
+DefineSet in_license \
+	REDUNDANT_IF_IN_LICENSE
+DefineSet in_cflags \
+	REDUNDANT_IF_IN_CFLAGS
+
+Statusline 'accept_keywords'
+Check keywords "`eval_gettext \
+	'No  redundant  entries in ${rump}{,accept_}keywords'`" \
+	"`eval_gettext 'Redundant in ${rump}{,accept_}keywords:'`" \
+	"`eval_gettext \
+	'Skipping check:  redundant  entries in ${rump}{,accept_}keywords'`"
+Check in_keywords "`eval_gettext \
+	'No uninstalled entries in ${rump}{,accept_}keywords'`" \
+	"`eval_gettext 'Not installed but in ${rump}{,accept_}keywords:'`" \
+	"`eval_gettext \
+	'Skipping check: uninstalled entries in ${rump}{,accept_}keywords'`"
+Statusline 'mask'
+Check mask "`eval_gettext \
+	'No  redundant  entries in ${rump}mask'`" \
+	"`eval_gettext 'Redundant in ${rump}mask:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}mask'`"
+Check in_mask "`eval_gettext \
+	'No uninstalled entries in ${rump}mask'`" \
+	"`eval_gettext 'Not installed but in ${rump}mask:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}mask'`"
+Statusline 'unmask'
+Check unmask "`eval_gettext \
+	'No  redundant  entries in ${rump}unmask'`" \
+	"`eval_gettext 'Redundant in ${rump}unmask:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}unmask'`"
+Check in_unmask "`eval_gettext \
+	'No uninstalled entries in ${rump}unmask'`" \
+	"`eval_gettext 'Not installed but in ${rump}unmask:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}unmask'`"
+Statusline 'use'
+Check use "`eval_gettext \
+	'No  redundant  entries in ${rump}use'`" \
+	"`eval_gettext 'Redundant in ${rump}use:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}use'`"
+Check in_use "`eval_gettext \
+	'No uninstalled entries in ${rump}use'`" \
+	"`eval_gettext 'Not installed but in ${rump}use:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}use'`"
+Statusline 'env'
+Check env "`eval_gettext \
+	'No  redundant  entries in ${rump}env'`" \
+	"`eval_gettext 'Redundant in ${rump}env:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}env'`"
+Check in_env "`eval_gettext \
+	'No uninstalled entries in ${rump}env'`" \
+	"`eval_gettext 'Not installed but in ${rump}env:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}env'`"
+Statusline 'license'
+Check license "`eval_gettext \
+	'No  redundant  entries in ${rump}license'`" \
+	"`eval_gettext 'Redundant in ${rump}license:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}license'`"
+Check in_license "`eval_gettext \
+	'No uninstalled entries in ${rump}license'`" \
+	"`eval_gettext 'Not installed but in ${rump}license:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}license'`"
+Statusline 'cflags'
+Check cflags "`eval_gettext \
+	'No  redundant  entries in ${rump}cflags'`" \
+	"`eval_gettext 'Redundant in ${rump}cflags:'`" \
+	"`eval_gettext 'Skipping check:  redundant  entries in ${rump}cflags'`"
+Check in_cflags "`eval_gettext \
+	'No uninstalled entries in ${rump}cflags'`" \
+	"`eval_gettext 'Not installed but in ${rump}cflags:'`" \
+	"`eval_gettext 'Skipping check: uninstalled entries in ${rump}cflags'`"
+Statusline 'installed'
+Check nonexistent "`gettext \
+	'All installed versions of packages are in the database.'`" \
+	"`gettext \
+	'Installed packages with a version not in the database (or masked):'`" \
+	"`gettext 'Skipping check: installed but not in the database'`"
+Exit 0

@@ -1,0 +1,13 @@
+/lib/udev/input_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/cdrom_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/ata_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/scsi_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/usb_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/collect librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/path_id librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/mtd_probe libc.so.6
+/lib/udev/firmware librt.so.1,libgcc_s.so.1,libc.so.6
+/lib/udev/v4l_id libc.so.6
+/lib/libudev.so.0.11.5 librt.so.1,libgcc_s.so.1,libc.so.6
+/sbin/udevadm librt.so.1,libgcc_s.so.1,libc.so.6
+/sbin/udevd librt.so.1,libgcc_s.so.1,libc.so.6

@@ -1,0 +1,17 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/gperf.1.bz2 4eff7fcbeb9040b9c4434d45bd46e601 1356705793
+dir /usr/share/doc
+dir /usr/share/doc/gperf-3.0.4
+obj /usr/share/doc/gperf-3.0.4/README.bz2 0be5ca096f48a09552f9cd2fd4313586 1356705794
+obj /usr/share/doc/gperf-3.0.4/AUTHORS.bz2 3aa830af757f1f64fd9c8ea1dc283e83 1356705793
+dir /usr/share/doc/gperf-3.0.4/html
+obj /usr/share/doc/gperf-3.0.4/html/gperf.html e777223bd6a05330d679e1a011b332c5 1356705793
+obj /usr/share/doc/gperf-3.0.4/ChangeLog.bz2 10c9e50e2e9b32d6c5a0f9ec19a713e8 1356705793
+obj /usr/share/doc/gperf-3.0.4/NEWS.bz2 570b505551c4e9ce3f495b0e90ed9d82 1356705793
+dir /usr/share/info
+obj /usr/share/info/gperf.info.bz2 9b19ace05e43533b31b34ba3ee5e1548 1356705793
+dir /usr/bin
+obj /usr/bin/gperf c7063ac48d77d7ea2269f0ff821aa259 1356705805

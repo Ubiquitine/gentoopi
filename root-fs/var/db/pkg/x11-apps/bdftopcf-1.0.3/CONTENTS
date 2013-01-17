@@ -1,0 +1,12 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/bdftopcf.1.bz2 e7c48ee46605964cdbcb2a09c69c520d 1356516436
+dir /usr/share/doc
+dir /usr/share/doc/bdftopcf-1.0.3
+obj /usr/share/doc/bdftopcf-1.0.3/README.bz2 652a271ed4200ce389c7a85edb7d89c0 1356516436
+obj /usr/share/doc/bdftopcf-1.0.3/AUTHORS.bz2 eda6c22d1f24b3c4f484ab3e31a15ff9 1356516436
+obj /usr/share/doc/bdftopcf-1.0.3/ChangeLog.bz2 4e5235f2053f9e3e95cd347cf1f0c223 1356516437
+dir /usr/bin
+obj /usr/bin/bdftopcf 4434398cd0cd3210714251c2c9d0b04c 1356516461

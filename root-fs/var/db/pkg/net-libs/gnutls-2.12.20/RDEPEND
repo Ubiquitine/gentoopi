@@ -1,0 +1,1 @@
+>=dev-libs/libtasn1-0.3.4 <dev-libs/libtasn1-3 >=dev-libs/nettle-2.1[gmp] virtual/libintl >=sys-libs/zlib-1.2.3.1

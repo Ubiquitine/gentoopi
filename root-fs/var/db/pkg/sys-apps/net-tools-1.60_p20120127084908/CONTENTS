@@ -1,0 +1,107 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/ethers.5.bz2 f89fca27f9512664a6df6fd57f7376f4 1355986076
+dir /usr/share/man/de_DE
+dir /usr/share/man/de_DE/man5
+obj /usr/share/man/de_DE/man5/ethers.5.bz2 353c506eed4155325ac165133025b802 1355986076
+dir /usr/share/man/de_DE/man1
+obj /usr/share/man/de_DE/man1/nisdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/de_DE/man1/domainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/de_DE/man1/dnsdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/de_DE/man1/hostname.1.bz2 84db47217928c18ff1d8d469141e0646 1355986076
+obj /usr/share/man/de_DE/man1/ypdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+dir /usr/share/man/de_DE/man8
+obj /usr/share/man/de_DE/man8/arp.8.bz2 a091f2c15791d9d30f38ebedb88a8c50 1355986076
+obj /usr/share/man/de_DE/man8/slattach.8.bz2 16eac0122a93ae4bc2ba14bfc943a013 1355986076
+obj /usr/share/man/de_DE/man8/rarp.8.bz2 ca0a650021ca8152063f248ed697dd71 1355986076
+obj /usr/share/man/de_DE/man8/plipconfig.8.bz2 adba40eb52a744e651f41ca8291ccc6d 1355986076
+obj /usr/share/man/de_DE/man8/ifconfig.8.bz2 185a201da449c20b7632adbf4d8e3272 1355986076
+obj /usr/share/man/de_DE/man8/netstat.8.bz2 7cf43f655f9747d13a4086cd9ac2a74d 1355986076
+obj /usr/share/man/de_DE/man8/route.8.bz2 7dde8b55b4d5d69670ca7645f39a0295 1355986076
+dir /usr/share/man/pt_BR
+dir /usr/share/man/pt_BR/man1
+obj /usr/share/man/pt_BR/man1/nisdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/pt_BR/man1/domainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/pt_BR/man1/dnsdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/pt_BR/man1/hostname.1.bz2 7955046030fd1364dba637893a9ddc72 1355986076
+obj /usr/share/man/pt_BR/man1/ypdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+dir /usr/share/man/pt_BR/man8
+obj /usr/share/man/pt_BR/man8/arp.8.bz2 28d2cddf9628a57ae9adc4e12e5ed8b5 1355986076
+obj /usr/share/man/pt_BR/man8/rarp.8.bz2 692b5590c6aac4017c87e914ea1a739f 1355986076
+obj /usr/share/man/pt_BR/man8/ifconfig.8.bz2 1ace31d2fb97f7e906ec5f64e077356e 1355986076
+obj /usr/share/man/pt_BR/man8/netstat.8.bz2 3db6e04ccb0d34285afc0ae90ff93cce 1355986076
+obj /usr/share/man/pt_BR/man8/route.8.bz2 0db91ee310eb04b00dd785416f839a59 1355986076
+dir /usr/share/man/fr_FR
+dir /usr/share/man/fr_FR/man5
+obj /usr/share/man/fr_FR/man5/ethers.5.bz2 62f32d0cff2a2db2bfc95c39752b9e2b 1355986076
+dir /usr/share/man/fr_FR/man1
+obj /usr/share/man/fr_FR/man1/nisdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/fr_FR/man1/domainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/fr_FR/man1/dnsdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/fr_FR/man1/hostname.1.bz2 0cb86a30ffabe88b0086a6b0a0f759f4 1355986076
+obj /usr/share/man/fr_FR/man1/ypdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+dir /usr/share/man/fr_FR/man8
+obj /usr/share/man/fr_FR/man8/arp.8.bz2 5d0edcc6f39860ade75818a0e2679690 1355986076
+obj /usr/share/man/fr_FR/man8/slattach.8.bz2 0562b37a64bd57089134c8107959ca03 1355986076
+obj /usr/share/man/fr_FR/man8/rarp.8.bz2 c37e6c2f03a91899fdcb44d3264ffbd4 1355986076
+obj /usr/share/man/fr_FR/man8/plipconfig.8.bz2 68c555a020c51de9b84055157a76cb1c 1355986076
+obj /usr/share/man/fr_FR/man8/ifconfig.8.bz2 35d7023c0d63bdb489adb5d94c0e744c 1355986076
+obj /usr/share/man/fr_FR/man8/netstat.8.bz2 d78a738a391c86412fc3f4ff757c01a5 1355986076
+obj /usr/share/man/fr_FR/man8/route.8.bz2 63941041cde46cb8a58c50ad99b7b27c 1355986076
+dir /usr/share/man/man1
+obj /usr/share/man/man1/nisdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/man1/domainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/man1/dnsdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+obj /usr/share/man/man1/hostname.1.bz2 313c29ae8061388a4056d7cb6994d652 1355986076
+obj /usr/share/man/man1/ypdomainname.1.bz2 026c8164af8528e63292d6f7f6b3f375 1355986076
+dir /usr/share/man/man8
+obj /usr/share/man/man8/nameif.8.bz2 2887340a4d256534948278e9fffda5ef 1355986076
+obj /usr/share/man/man8/arp.8.bz2 75f52e49ef33e6e38deaa5666aad8189 1355986076
+obj /usr/share/man/man8/slattach.8.bz2 3f407761762596f8ef92ea5bc6ef5524 1355986076
+obj /usr/share/man/man8/mii-tool.8.bz2 0422a5f1e509b0a3d8ce38788f4c9784 1355986076
+obj /usr/share/man/man8/rarp.8.bz2 bdea06163f21ff7ff05d153cc426ac34 1355986076
+obj /usr/share/man/man8/plipconfig.8.bz2 045ed7e0bccba28ffe374539698cb046 1355986076
+obj /usr/share/man/man8/ifconfig.8.bz2 fa36519fe1d716cda5b8b0a585ea4f31 1355986076
+obj /usr/share/man/man8/netstat.8.bz2 b2103136acfd026569295f2bf4ab0cf9 1355986076
+obj /usr/share/man/man8/route.8.bz2 380bba86272c4534a5dda2d5e6aedea7 1355986076
+dir /usr/share/locale
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/net-tools.mo 271151948faf722c732ccc6f5f53f2fd 1355986076
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/net-tools.mo 2caec2694e737a62fe431f52d7ee27a0 1355986076
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/net-tools.mo ea69597096a077a59493b61153627ccb 1355986076
+dir /usr/share/locale/et_EE
+dir /usr/share/locale/et_EE/LC_MESSAGES
+obj /usr/share/locale/et_EE/LC_MESSAGES/net-tools.mo 9322e68a79450146d39ab019b8ac248b 1355986076
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/net-tools.mo fb6ad9fe053f58f9e7f7c5f783d000d5 1355986076
+dir /usr/share/doc
+dir /usr/share/doc/net-tools-1.60_p20120127084908
+obj /usr/share/doc/net-tools-1.60_p20120127084908/README.bz2 e09d8b1eba943d359f2732d84155d36c 1355986076
+obj /usr/share/doc/net-tools-1.60_p20120127084908/README.ipv6.bz2 c0b0ad13afc52b51febe2b4dba6725cd 1355986076
+obj /usr/share/doc/net-tools-1.60_p20120127084908/TODO.bz2 8f85aeab01ecc05e132132b8aebd0481 1355986077
+dir /bin
+sym /bin/nisdomainname -> hostname 1355986086
+obj /bin/netstat 842fb794a9bb840152e853c8f32c3e8e 1355986080
+obj /bin/route eafd3f8a7affb792a7fbd065457c63fd 1355986080
+sym /bin/domainname -> hostname 1355986086
+obj /bin/hostname b03d66796a9e5db665eb96ebfa30b29c 1355986080
+sym /bin/ypdomainname -> hostname 1355986086
+obj /bin/ifconfig 4131a0b72400b46de8a9a1aac5e65137 1355986080
+sym /bin/dnsdomainname -> hostname 1355986086
+dir /sbin
+obj /sbin/mii-tool 08cd083792ac0659b7bc01a722dc3a29 1355986080
+obj /sbin/arp e7c44f7766c8f9d563b70cc5854015ec 1355986080
+obj /sbin/rarp ebe3e657657ef5691229edd95fbe95bb 1355986080
+obj /sbin/nameif be57f218d292f7fc5fdba13331fafacb 1355986080
+obj /sbin/ipmaddr 176c47c44b67c9a78ead9dfbb89f98a3 1355986080
+obj /sbin/plipconfig be2ed8128564e97c8b748f70960a18f4 1355986080
+obj /sbin/iptunnel 30ee02d469efc920e9be5787e48d9ae8 1355986080
+obj /sbin/slattach 9504b0244151b4d39e09dd1e082f6719 1355986080

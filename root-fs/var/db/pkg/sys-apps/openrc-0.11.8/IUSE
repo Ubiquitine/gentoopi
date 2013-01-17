@@ -1,0 +1,1 @@
+debug elibc_glibc ncurses pam newnet prefix selinux static-libs unicode kernel_linux kernel_FreeBSD

@@ -1,0 +1,68 @@
+dir /usr
+dir /usr/include
+dir /usr/include/hunspell
+obj /usr/include/hunspell/langnum.hxx 2f8fdab5e859dd71b10f6cc744497e70 1357513812
+obj /usr/include/hunspell/phonet.hxx 8837591744d9084e1b09ff460604d2e5 1357513812
+obj /usr/include/hunspell/baseaffix.hxx b39e2b96a619cec6702db3a92c426503 1357513812
+obj /usr/include/hunspell/w_char.hxx ea5dc9aff8dc6455a7897d2e1f73bdb4 1357513812
+obj /usr/include/hunspell/affentry.hxx 6ded67bbdf6d0604dd792f83cdf62ff7 1357513812
+obj /usr/include/hunspell/filemgr.hxx af1f6b1366f71d377f9b10ccc26133e1 1357513812
+obj /usr/include/hunspell/affixmgr.hxx 73a3d69b61938d4c7fd04087d631f4f7 1357513812
+obj /usr/include/hunspell/csutil.hxx 7e3afa3245e3f072e2a954d8bb4639cc 1357513812
+obj /usr/include/hunspell/hunspell.hxx dc4e15af2c8729e1c91a9eccea4c1740 1357513812
+obj /usr/include/hunspell/hunspell.h b71dc914fb686a6908ca244457834eb7 1357513812
+obj /usr/include/hunspell/hunzip.hxx 47630895deb5ce6c8173969bf41516e0 1357513812
+obj /usr/include/hunspell/suggestmgr.hxx 600270342be2edebc0b882bfbf1a54a2 1357513812
+obj /usr/include/hunspell/dictmgr.hxx 65907863da26c2ccab7543a800504866 1357513812
+obj /usr/include/hunspell/hashmgr.hxx 6a56af158c617493626353a3000e9348 1357513812
+obj /usr/include/hunspell/atypes.hxx a939c96a6f69e4ee2f569c885d994278 1357513812
+obj /usr/include/hunspell/htypes.hxx b6b5db8b2c94de560b6dee543b4ba373 1357513812
+obj /usr/include/hunspell/hunvisapi.h 5fb2b842e482aa2209dfd8a1c9119eb1 1357513812
+obj /usr/include/hunspell/replist.hxx e4e4bdfc7ec3c782625730e10441b932 1357513812
+dir /usr/bin
+obj /usr/bin/hunspell-unmunch 64fb784111bdf6ea926f66534aafb4c3 1357513851
+obj /usr/bin/affixcompress 5c3132b36938e536953e00b87f7cbf3a 1357513814
+obj /usr/bin/wordforms fd0c05c49423f2b3b97f001f3b04505f 1357513814
+obj /usr/bin/wordlist2hunspell c3843ceb656d9732f674b66fd15d134c 1357513814
+obj /usr/bin/hunspell-munch ab51a161199ddd99ab891c43dfc977af 1357513851
+obj /usr/bin/ispellaff2myspell ff0444c2f19c61d82d13b934aec62060 1357513814
+obj /usr/bin/hunspell-analyze 65a04e0dd635aec3b647a57630173345 1357513851
+obj /usr/bin/makealias a82cb5ab9f2953de219d1ce2f3300bc3 1357513814
+obj /usr/bin/hunspell 71477bcefaf2e2cbfcdb5c9a9f626052 1357513851
+obj /usr/bin/hunspell-chmorph de943dde2f19eb82921e08e1e8e43d57 1357513852
+obj /usr/bin/hunzip 45e890c8e2ce0c0ba2cc562ca78b94c3 1357513852
+obj /usr/bin/hzip b45fe166ae741eb22bf3b27fb9e763f3 1357513852
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/hu
+dir /usr/share/man/hu/man4
+obj /usr/share/man/hu/man4/hunspell.4.bz2 75f553ca0f37b8b74e9388b17c185375 1357513817
+dir /usr/share/man/hu/man1
+obj /usr/share/man/hu/man1/hunspell.1.bz2 32dc8f333b90d602926c45f8e208cf15 1357513817
+dir /usr/share/man/man4
+obj /usr/share/man/man4/hunspell.4.bz2 4f25c818c4096f982346019b9e35dc4f 1357513818
+dir /usr/share/man/man3
+obj /usr/share/man/man3/hunspell.3.bz2 2deae83653d4f34a581d73cc52d14be5 1357513818
+dir /usr/share/man/man1
+obj /usr/share/man/man1/hzip.1.bz2 66732f774ccf108b3522c5928b4ada7c 1357513818
+obj /usr/share/man/man1/hunspell.1.bz2 8de121ba67599e96f016ff38613eb76c 1357513818
+obj /usr/share/man/man1/hunzip.1.bz2 f9d8e191058df325575beea602c247f5 1357513818
+dir /usr/share/doc
+dir /usr/share/doc/hunspell-1.3.2-r3
+obj /usr/share/doc/hunspell-1.3.2-r3/README.bz2 5352784bf6a1786239b476337afb8edf 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/license.hunspell.bz2 f81adf0808de139cf1c5d3e590a346f5 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/AUTHORS.myspell.bz2 baa9919132b7c91b5230ad9dc89687f7 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/NEWS.bz2 0d52949c1a2a416b08f445ed123010c3 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/license.myspell.bz2 2ad025bdb613e6dbb2b9e2798f00efba 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/AUTHORS.bz2 e066600107bda406a881ab534c290ca0 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/README.myspell.bz2 70507a61914d00570d3adb0aac339b7a 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/TODO.bz2 66d99656e81c10fb13bc6666b38034f5 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/ChangeLog.bz2 46b12faa7539841c4f759371b6f7b0a3 1357513820
+obj /usr/share/doc/hunspell-1.3.2-r3/THANKS.bz2 71c5ac772e47506d6c7430027ec07cdd 1357513820
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/hunspell.pc cbd78e419e48e82344cae04af37d411c 1357513819
+obj /usr/lib/libhunspell-1.3.so.0.0.0 5f0f01ced87d227a92b1d930ca0a76f6 1357513852
+sym /usr/lib/libhunspell-1.3.so.0 -> libhunspell-1.3.so.0.0.0 1357513891
+sym /usr/lib/libhunspell-1.3.so -> libhunspell-1.3.so.0.0.0 1357513891
+sym /usr/lib/libhunspell.so -> libhunspell-1.3.so.0.0.0 1357513891

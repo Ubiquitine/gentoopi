@@ -1,0 +1,1 @@
+sys-libs/db >=sys-libs/gdbm-1.8.3 >=sys-devel/libperl-5.10.1 !!<sys-devel/libperl-5.10.1 app-arch/bzip2 sys-libs/zlib

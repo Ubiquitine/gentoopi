@@ -1,0 +1,1 @@
+dev-libs/libpthread-stubs x11-libs/libXau x11-libs/libXdmcp dev-lang/python[xml] dev-libs/libxslt >=x11-proto/xcb-proto-1.7-r1 || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool virtual/pkgconfig

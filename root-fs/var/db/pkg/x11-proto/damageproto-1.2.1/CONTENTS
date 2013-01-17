@@ -1,0 +1,17 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/damageproto.h be1f1c7b5e87d597e6238a7c4dff3d75 1356434783
+obj /usr/include/X11/extensions/damagewire.h 06c6e463ebb206cc5602345732987d86 1356434783
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/damageproto.pc 4c638fadb1191fb45e5bbdcbeeb4d7e7 1356434783
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/damageproto-1.2.1
+obj /usr/share/doc/damageproto-1.2.1/README.bz2 5bc60b10a0fb7441b89b1eb00ba81cb1 1356434784
+obj /usr/share/doc/damageproto-1.2.1/AUTHORS.bz2 d68d01250210c3762bddf718d431b35d 1356434784
+obj /usr/share/doc/damageproto-1.2.1/damageproto.txt.bz2 d9419d1190f4c4c4f2b61175b4168bf9 1356434784
+obj /usr/share/doc/damageproto-1.2.1/ChangeLog.bz2 3c1295dc9b3f40c583772c9c57903c15 1356434785
+obj /usr/share/doc/damageproto-1.2.1/NEWS.bz2 7e28656a6d5a8ac2f20f8d50dbd4b420 1356434785

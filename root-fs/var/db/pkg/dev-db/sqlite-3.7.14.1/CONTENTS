@@ -1,0 +1,16 @@
+dir /usr
+dir /usr/include
+obj /usr/include/sqlite3.h 31719de05abe932e484986f427919ad3 1356608516
+obj /usr/include/sqlite3ext.h 41586fd97964475e0668a74198532208 1356608516
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/sqlite3.pc 72742c02c6e9a01a9336e96720e15bea 1356608517
+obj /usr/lib/libsqlite3.so.0.8.6 73581eda1421db2b983a016a7eaa1c24 1356608543
+sym /usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6 1356608571
+sym /usr/lib/libsqlite3.so -> libsqlite3.so.0.8.6 1356608571
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/sqlite3.1.bz2 1656be98d1012ad17cc8e939a4bdd664 1356608519
+dir /usr/bin
+obj /usr/bin/sqlite3 d650cd78be94f9d9136e845ec192429a 1356608543

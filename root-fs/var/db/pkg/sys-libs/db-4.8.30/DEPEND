@@ -1,0 +1,1 @@
+>=sys-devel/binutils-2.16.1 || ( >=sys-devel/automake-1.11.1 >=sys-devel/automake-1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

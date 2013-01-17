@@ -1,0 +1,1 @@
+>=dev-libs/glib-2.8:2 >=dev-libs/libIDL-0.8.2 virtual/pkgconfig dev-util/gtk-doc-am >=sys-apps/sed-4 || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

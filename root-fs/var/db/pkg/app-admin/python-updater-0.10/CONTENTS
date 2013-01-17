@@ -1,0 +1,10 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/python-updater.1.bz2 dcafa3ba9a091b2a92efe90f5126173f 1355986784
+dir /usr/share/doc
+dir /usr/share/doc/python-updater-0.10
+obj /usr/share/doc/python-updater-0.10/AUTHORS.bz2 9d0b1a78cec8b4740b826e47018674de 1355986784
+dir /usr/sbin
+obj /usr/sbin/python-updater fe0363b8a42ad120852aa80bdffa6f3c 1355986784

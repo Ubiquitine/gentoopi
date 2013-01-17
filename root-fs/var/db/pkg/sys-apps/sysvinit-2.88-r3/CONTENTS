@@ -1,0 +1,60 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man5
+obj /usr/share/man/man5/initscript.5.bz2 ddccbe5f516c976c6319755d61c7726f 1355986730
+obj /usr/share/man/man5/inittab.5.bz2 291cdd11369cd2fa1028394d909f77b7 1355986730
+dir /usr/share/man/man1
+obj /usr/share/man/man1/wall.1.bz2 53da0479262abaab79d8b74071ee25e9 1355986730
+obj /usr/share/man/man1/utmpdump.1.bz2 114c5a12a2cbdb084560ac96cbda9514 1355986730
+obj /usr/share/man/man1/last.1.bz2 eebd15ce4c678578c7ad7accf506399b 1355986730
+obj /usr/share/man/man1/mesg.1.bz2 a32f8278e4344df670cca3e3d0674eb1 1355986730
+obj /usr/share/man/man1/lastb.1.bz2 cd0820e101869dfefeaf41ae565e9207 1355986730
+dir /usr/share/man/man8
+obj /usr/share/man/man8/poweroff.8.bz2 2c95052832418a32d92e173fc00f1b85 1355986730
+obj /usr/share/man/man8/sulogin.8.bz2 2321eaac35a1dd0ecf55e1c21271c188 1355986730
+obj /usr/share/man/man8/pidof.8.bz2 368f9c5de772d48a0309147e2a5bc095 1355986730
+obj /usr/share/man/man8/halt.8.bz2 cf9de57bdd6d57470b0faf8426f0da6a 1355986730
+obj /usr/share/man/man8/reboot.8.bz2 2c95052832418a32d92e173fc00f1b85 1355986730
+obj /usr/share/man/man8/telinit.8.bz2 980a4f9f10b32bb85d87679de9d0eee3 1355986730
+obj /usr/share/man/man8/shutdown.8.bz2 6c7cce14d8235ccf69c3f3c631b42409 1355986730
+obj /usr/share/man/man8/runlevel.8.bz2 b508108480056e210e19f75f074ea6fd 1355986730
+obj /usr/share/man/man8/bootlogd.8.bz2 cd2093b7186dedc2b75d1427127ed14a 1355986730
+obj /usr/share/man/man8/init.8.bz2 842f0956e2cd81544eaac9f515f82e7e 1355986730
+obj /usr/share/man/man8/fstab-decode.8.bz2 2a544dee92f37ac310a16d66025af8eb 1355986730
+obj /usr/share/man/man8/killall5.8.bz2 4d02a510809c117df2a06eac3131ee8b 1355986730
+dir /usr/share/doc
+dir /usr/share/doc/sysvinit-2.88-r3
+obj /usr/share/doc/sysvinit-2.88-r3/Install.bz2 af6845ce175d8d6b71135e70f5792248 1355986730
+obj /usr/share/doc/sysvinit-2.88-r3/README.bz2 7119c6974e2d0c365e9c6fe64b7eec27 1355986730
+obj /usr/share/doc/sysvinit-2.88-r3/Propaganda.bz2 83500771ea3bc39478aa5a86d631d77d 1355986730
+obj /usr/share/doc/sysvinit-2.88-r3/sysvinit-2.86.lsm.bz2 285b0dab4d1bb0112af04099f4670c8b 1355986730
+obj /usr/share/doc/sysvinit-2.88-r3/Changelog.bz2 557155144bb90978a98607a38f6028e3 1355986730
+obj /usr/share/doc/sysvinit-2.88-r3/bootlogd.README.bz2 7f0da52be10dd0681d66edb80736eeeb 1355986730
+dir /usr/bin
+obj /usr/bin/last a959ebedb6dccd5e4adb69160055ce0f 1355986733
+obj /usr/bin/wall f1a25d1b3ab81ab43c045287ee8f3224 1355986733
+obj /usr/bin/utmpdump 8ab462b17d0188689ff5030d7be581cd 1355986733
+obj /usr/bin/mesg 81f22110c92c1be290899789eac019d6 1355986733
+sym /usr/bin/lastb -> last 1355986739
+dir /usr/include
+obj /usr/include/initreq.h fbd874a6453d2bac21543a92eed6aeff 1355986730
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/reboot.sh ff45138d41965b23c2ed3677a4625880 1355986730
+obj /etc/init.d/shutdown.sh 6f3b1e4382c8395cfb6b475730e6ac71 1355986730
+obj /etc/inittab feabfadc449f74e2c19586b846fc40d6 1355986730
+dir /bin
+sym /bin/pidof -> /sbin/killall5 1355986739
+dir /sbin
+obj /sbin/init 786ee87c0b89fe958b7581fa2170f1cc 1355986733
+obj /sbin/shutdown 2b39b0316f50db0079d79af7db49575c 1355986733
+obj /sbin/runlevel 8019a4672d552a4328e8429fd14ba381 1355986733
+sym /sbin/reboot -> halt 1355986739
+sym /sbin/telinit -> init 1355986739
+obj /sbin/bootlogd b5ee29283ab1bed5d8ba1102a3b5abbc 1355986733
+obj /sbin/halt 9772afd8d4d4d1767fe79e0e5554387b 1355986733
+obj /sbin/killall5 62473c1322eded13453a2e9f2541f613 1355986733
+obj /sbin/sulogin 35b115dacbb1ed6b5edcc385439b3c41 1355986733
+sym /sbin/poweroff -> halt 1355986739
+obj /sbin/fstab-decode ccbfce25cf834e2962224487a5b38911 1355986733

@@ -1,0 +1,1 @@
+>=dev-libs/expat-2 x11-libs/libX11 x11-libs/libXt virtual/pkgconfig || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

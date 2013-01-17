@@ -1,0 +1,46 @@
+dir /etc
+dir /etc/fonts
+dir /etc/fonts/conf.avail
+obj /etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf 0cbf30e4580c5a8570da071ab12c5e4d 1356519272
+obj /etc/fonts/conf.avail/57-dejavu-sans.conf 29cfe6c581fe2dbc222525ce00097002 1356519273
+obj /etc/fonts/conf.avail/57-dejavu-sans-mono.conf d3e4d007a9ac6c47243b5994f1d195e3 1356519273
+obj /etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf e90c678d46f49bb9d6ba469b64e80c0c 1356519273
+obj /etc/fonts/conf.avail/57-dejavu-serif.conf 1dca2f4ec93842e94f3919f7e0c8f7a9 1356519274
+obj /etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf f7df7bba810dd953dd78212900f4dcad 1356519273
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/dejavu-2.33
+obj /usr/share/doc/dejavu-2.33/README.bz2 37b48ac107f7a27e68da1d92c6828d1b 1356519274
+obj /usr/share/doc/dejavu-2.33/AUTHORS.bz2 40e40439c02c37ab2d5040467b630bcc 1356519275
+obj /usr/share/doc/dejavu-2.33/unicover.txt.bz2 bc514be8c9618ffc68c73258951d531e 1356519274
+obj /usr/share/doc/dejavu-2.33/BUGS.bz2 14c42df4813a9c37fc35b6ce78d4589c 1356519275
+obj /usr/share/doc/dejavu-2.33/langcover.txt.bz2 fc5f2585c7bc867d90db1913e307ef53 1356519274
+obj /usr/share/doc/dejavu-2.33/status.txt.bz2 3f6f59983a8b0c6bf6f18ceeb3c78384 1356519274
+obj /usr/share/doc/dejavu-2.33/NEWS.bz2 c1b3a48010ff18df91e24f3d42b26763 1356519275
+dir /usr/share/fonts
+dir /usr/share/fonts/dejavu
+obj /usr/share/fonts/dejavu/DejaVuSans.ttf eccb7a74720fc377b60d6b2110530fd9 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSerifCondensed.ttf c01fb6d344d6c179a3c037875d6c69a6 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf 81a57a2411ba2b9f6b605befc5eca02b 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSerifCondensed-BoldItalic.ttf d3ff2825dab54513d33bf4c846bf5a6c 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSansCondensed.ttf c05bb037ab3ccfe47a03a913799d9903 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf bf35c26509b7f4654a6490c7d11861d9 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf a853c46d69c39abc45d15601c7c8b5c1 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf ba0d224e31e29d3c0ad5a8a37dae14c2 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSerif-Italic.ttf bf123a71cbb4732369dde37ca0c7f012 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSerif.ttf 5bc094b834f5a547b92f53b50817d637 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf 621420f35d9eb4c0a6c4ada36abbc65d 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf f5b435e042123f193035256df7f70d4a 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf 44f2c073f5676fcf0c1748e9e28f2b03 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSerifCondensed-Italic.ttf a46631be1e996bdc0e7a63668ac9aff7 1356519271
+obj /usr/share/fonts/dejavu/fonts.dir cc494636463adcd25f2cf125db6ae46b 1356519272
+obj /usr/share/fonts/dejavu/DejaVuSansMono.ttf 0fa23684c88737952788b01bba227ea9 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf ee14498581142ad399d0b7bfb1d70e3f 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSans-Bold.ttf aa0fe4048d408361d65bbf913a3aee22 1356519270
+obj /usr/share/fonts/dejavu/fonts.scale cc494636463adcd25f2cf125db6ae46b 1356519272
+obj /usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf 80e5791b476a8e9c4e9e611e34b9d31a 1356519270
+obj /usr/share/fonts/dejavu/DejaVuSerifCondensed-Bold.ttf f3aafb6ed5299d8c10df115acd5b672f 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSerif-BoldItalic.ttf 453f57f8c3e3a74c68dd7cf707a4403d 1356519271
+obj /usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf 26dd9aa93361477f10b4f949a0a76a61 1356519270
+obj /usr/share/fonts/dejavu/encodings.dir ee83191b62d90dc91a155389d26d5b02 1356519272

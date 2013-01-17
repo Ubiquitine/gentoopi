@@ -1,0 +1,1 @@
+>=dev-libs/dbus-glib-0.98 >=dev-libs/glib-2.22 sys-libs/zlib x11-libs/libX11 sys-apps/acl virtual/udev !<sys-fs/udev-171-r9999[extras] virtual/pam dev-libs/libxslt virtual/pkgconfig || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool

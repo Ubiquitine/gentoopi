@@ -1,0 +1,35 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libss.so c642699877649c5a5c23e898c95d25c8 1356001932
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/com_err.pc d7a260b1bb6b158100d788c5e4e8be75 1356001932
+obj /usr/lib/pkgconfig/ss.pc ce6ef6cfe49e47e7a925f2fe35913a87 1356001932
+obj /usr/lib/libcom_err.so 1f5c98ce229af66ad395a5917204fc79 1356001932
+dir /usr/share
+dir /usr/share/ss
+obj /usr/share/ss/ct_c.sed 6d97bf10cfcb43d1615c5408bd8ebb0a 1356001932
+obj /usr/share/ss/ct_c.awk b1083c00c9b18f06e378a9851af9d7a9 1356001932
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/com_err.3.bz2 c845b53341ff3f01e10ffc265488e33a 1356001932
+dir /usr/share/man/man1
+obj /usr/share/man/man1/mk_cmds.1.bz2 75a66bdc3189b7c91fdacf2d224fe417 1356001932
+obj /usr/share/man/man1/compile_et.1.bz2 862c87b07b783bd75b86eb4700b3d4a1 1356001932
+dir /usr/share/et
+obj /usr/share/et/et_h.awk a5c6d9dd3bf259cda5ef92c2f62910e9 1356001932
+obj /usr/share/et/et_c.awk 71fdfd25214d12014217706002cd3711 1356001932
+dir /usr/bin
+obj /usr/bin/mk_cmds 67c5d0c639c459ac1ed49cf74d0b8d63 1356001932
+obj /usr/bin/compile_et 960cec160ac5ca7d6b188bce921f623e 1356001932
+dir /usr/include
+dir /usr/include/ss
+obj /usr/include/ss/ss_err.h 84563809242582dc7904684bf476380d 1356001932
+obj /usr/include/ss/ss.h ef54b2602c81e47c098dddf5a7ebe94e 1356001932
+obj /usr/include/com_err.h b1e3784cd241530eb4c773216ebb4944 1356001932
+dir /usr/include/et
+obj /usr/include/et/com_err.h b1e3784cd241530eb4c773216ebb4944 1356001932
+dir /lib
+obj /lib/libcom_err.so.2.1 58597ebbee7a5836f15ef3925dfc392f 1356001935
+obj /lib/libss.so.2.0 95dfe540e9003fc3589340d0324459bf 1356001935
+sym /lib/libcom_err.so.2 -> libcom_err.so.2.1 1356001940
+sym /lib/libss.so.2 -> libss.so.2.0 1356001940

@@ -1,0 +1,31 @@
+dir /usr
+dir /usr/include
+dir /usr/include/X11
+dir /usr/include/X11/extensions
+obj /usr/include/X11/extensions/Xcomposite.h 13c104ff06dce331bc61c8ccc587b5b1 1356531573
+dir /usr/lib
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/xcomposite.pc d4e3a88ee31d12cceacf17b39031b8d7 1356531573
+obj /usr/lib/libXcomposite.so.1.0.0 d91041f5e4ce1e53d0434a444f8a2d18 1356531599
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/XCompositeReleaseOverlayWindow.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeQueryVersion.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeUnredirectSubwindows.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeQueryExtension.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeUnredirectWindow.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeCreateRegionFromBorderClip.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeRedirectWindow.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeRedirectSubwindows.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeGetOverlayWindow.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/XCompositeVersion.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+obj /usr/share/man/man3/Xcomposite.3.bz2 bf3545c498024487b10e75bcba83f31a 1356531573
+obj /usr/share/man/man3/XCompositeNameWindowPixmap.3.bz2 3bbbe2ed68fc82ef3be21a82218c55af 1356531573
+dir /usr/share/doc
+dir /usr/share/doc/libXcomposite-0.4.3-r1
+obj /usr/share/doc/libXcomposite-0.4.3-r1/README.bz2 25d91ad9bfc8999e5f7ec4a1ff2456e5 1356531574
+obj /usr/share/doc/libXcomposite-0.4.3-r1/AUTHORS.bz2 31cf7fbe133babf0ad2ebcfe8ab58a79 1356531574
+obj /usr/share/doc/libXcomposite-0.4.3-r1/ChangeLog.bz2 4be606b59c0e73e377aba6a76d69428f 1356531575
+sym /usr/lib/libXcomposite.so.1 -> libXcomposite.so.1.0.0 1356531630
+sym /usr/lib/libXcomposite.so -> libXcomposite.so.1.0.0 1356531630

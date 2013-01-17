@@ -1,0 +1,96 @@
+dir /usr
+dir /usr/lib
+obj /usr/lib/libelf.a e7b03d53371a396becb9fc7f0d8107bb 1356000719
+dir /usr/lib/elfutils
+obj /usr/lib/elfutils/libebl_s390-0.149.so e8f82d2dfc04a58c85076a031785c7d8 1356000719
+sym /usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.149.so 1356000727
+obj /usr/lib/elfutils/libebl_ppc64-0.149.so 4018c3ae10c6045f6680fa6cb5b64027 1356000719
+obj /usr/lib/elfutils/libebl_sh-0.149.so f3c7f74f0e5ebc300c16efefa6068290 1356000719
+obj /usr/lib/elfutils/libebl_x86_64-0.149.so ae0986fa8edfafbd44194a2a78e9b849 1356000719
+obj /usr/lib/elfutils/libebl_alpha-0.149.so 583c04ee77d36a181627175bb5410ad2 1356000719
+obj /usr/lib/elfutils/libebl_i386-0.149.so 7c8bfc48e72d14c5d9fd8b57da8fabd9 1356000719
+obj /usr/lib/elfutils/libebl_sparc-0.149.so 3ccb16a39a0ae3b52c936120521d4438 1356000719
+obj /usr/lib/elfutils/libebl_ia64-0.149.so 635111e399219b564f72b995a6153dab 1356000719
+obj /usr/lib/elfutils/libebl_arm-0.149.so d0908751c322a8d6d089cdfb0c79bad7 1356000719
+sym /usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.149.so 1356000727
+obj /usr/lib/elfutils/libebl_ppc-0.149.so 7d976681cf8c3f60c2b3b736bab71c76 1356000719
+obj /usr/lib/libebl.a bd920a246b33dd42b2439ac6ce6e11cf 1356000719
+obj /usr/lib/libdw.a f6dc98c3e15fb0bb7e0c60f5bb65f788 1356000720
+obj /usr/lib/libelf-0.149.so bef8d75e5167c5cde4b34abc04051702 1356000719
+obj /usr/lib/libasm-0.149.so d64f89dd8df9e941dcaca0c5b0959afa 1356000719
+obj /usr/lib/libasm.a d27085d036361b14ed2b11b9a2b78fa0 1356000719
+obj /usr/lib/libdw-0.149.so d0ff42d2ab156eb7da147268d402672c 1356000719
+dir /usr/share
+dir /usr/share/locale
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/elfutils.mo f7f15bc7be7c2092cd11a173b2850da5 1356000715
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/elfutils.mo c18184aa7d5fdd3d46713dcc9849dc63 1356000715
+dir /usr/share/locale/en@quot
+dir /usr/share/locale/en@quot/LC_MESSAGES
+obj /usr/share/locale/en@quot/LC_MESSAGES/elfutils.mo a84e8524672ae409adb74a062fad5b07 1356000715
+dir /usr/share/locale/ja
+dir /usr/share/locale/ja/LC_MESSAGES
+obj /usr/share/locale/ja/LC_MESSAGES/elfutils.mo c276b5412a65a245f7df612b744910f2 1356000715
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/elfutils.mo 659a9b484bf0180fb322b561b96e0568 1356000715
+dir /usr/share/locale/en@boldquot
+dir /usr/share/locale/en@boldquot/LC_MESSAGES
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo 12501bd2c97b599b6e9e84e87d7a9ef9 1356000715
+dir /usr/share/locale/uk
+dir /usr/share/locale/uk/LC_MESSAGES
+obj /usr/share/locale/uk/LC_MESSAGES/elfutils.mo 1813e1a59cb0a783ddd7250d80a5d8e1 1356000715
+dir /usr/share/doc
+dir /usr/share/doc/elfutils-0.149
+obj /usr/share/doc/elfutils-0.149/THANKS.bz2 5f8fbc3c9f11b08fcded4b176ca39ba3 1356000716
+obj /usr/share/doc/elfutils-0.149/NEWS.bz2 27a9e5a5de909298e6c3504eb66552dc 1356000715
+obj /usr/share/doc/elfutils-0.149/README.bz2 17d4a3a43153d365f1a39f8a9445c8d2 1356000715
+obj /usr/share/doc/elfutils-0.149/TODO.bz2 e3265d2b8e215557496b6a7f7a252cfe 1356000716
+obj /usr/share/doc/elfutils-0.149/NOTES.bz2 c8fb7e8370f7e517a23fb332793d3faa 1356000715
+obj /usr/share/doc/elfutils-0.149/ChangeLog.bz2 6bb5e5290c0ce2e245a07410f164f62a 1356000715
+obj /usr/share/doc/elfutils-0.149/AUTHORS.bz2 4c03da6ed8bb8da0954212637c219dd8 1356000715
+dir /usr/bin
+obj /usr/bin/eu-readelf 38d87a48c512ca21f7a040af1a65a1a0 1356000719
+obj /usr/bin/eu-strings 5a38e2a959d76beeec192f019e59a879 1356000719
+obj /usr/bin/eu-nm acc1c6de8a7f784bd617c30cc3e4475c 1356000719
+obj /usr/bin/eu-ar 474f6f3ed9b2602fa3006739cab56a1f 1356000719
+obj /usr/bin/eu-ld 2ca68f1dfc9f6b93d78edbf21811a906 1356000719
+obj /usr/bin/eu-make-debug-archive 4749a5c26c6a3482bbd30d111067c117 1356000715
+obj /usr/bin/eu-unstrip 294555d8a75d0a27721f2f7b4eb8dcec 1356000719
+obj /usr/bin/eu-addr2line d9a4fe348c5caf5192ac6752b2c2f48c 1356000719
+obj /usr/bin/eu-elflint 192065f908307554a153ada59bb54d2b 1356000719
+obj /usr/bin/eu-findtextrel 82508fa92f092aa45bd54f420c8d6df8 1356000719
+obj /usr/bin/eu-objdump 051979d5cea2523983063ca2bbe1b3dc 1356000719
+obj /usr/bin/eu-strip b9e2fab15d20fb5c3210dc0d3ea43fb8 1356000719
+obj /usr/bin/eu-ranlib 6d9128e48efe84d0580638677963e946 1356000719
+obj /usr/bin/eu-elfcmp 7d17cafb247dc164123b7d57c17527b9 1356000719
+obj /usr/bin/eu-size d5f8e703eee11678dd4fbc69595da4c8 1356000719
+dir /usr/include
+dir /usr/include/elfutils
+obj /usr/include/elfutils/version.h c7c8dda9f290418f0a28447c90bb5e26 1356000715
+obj /usr/include/elfutils/libdw.h 978c893633db55fa73126e75c57fa872 1356000702
+obj /usr/include/elfutils/libdwfl.h eea61003a4bc2a94126555426794a293 1356000701
+obj /usr/include/elfutils/libebl.h b9efbdfb7f5015718fecbff1e47c417f 1356000701
+obj /usr/include/elfutils/elf-knowledge.h 567afe0fbc13497bd9272e50740b9d40 1356000700
+obj /usr/include/elfutils/libasm.h 043f2248e47df257ac7bc781e3fdcccc 1356000702
+obj /usr/include/nlist.h 1810dc1325d3b0d3243bd546990b9b18 1356000700
+obj /usr/include/gelf.h 2d5080d0e443a6d3fc9485455c5549d7 1356000700
+obj /usr/include/dwarf.h 45f1e94b4a2f8748ef1fd8e8d9f709a8 1356000702
+obj /usr/include/libelf.h 3959d997806a5e98189751a84ab95976 1356000700
+sym /usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.149.so 1356000727
+sym /usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.149.so 1356000727
+sym /usr/lib/libelf.so.1 -> libelf-0.149.so 1356000727
+sym /usr/lib/libelf.so -> libelf.so.1 1356000727
+sym /usr/lib/libasm.so.1 -> libasm-0.149.so 1356000727
+sym /usr/lib/libdw.so.1 -> libdw-0.149.so 1356000727
+sym /usr/lib/libasm.so -> libasm.so.1 1356000727
+sym /usr/lib/libdw.so -> libdw.so.1 1356000727

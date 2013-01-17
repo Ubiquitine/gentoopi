@@ -1,0 +1,51 @@
+dir /usr
+dir /usr/lib
+dir /usr/lib/perl5
+dir /usr/lib/perl5/vendor_perl
+dir /usr/lib/perl5/vendor_perl/5.12.4
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser.pm 3e40d002bd3d55354e404e479189a67a 1355992185
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Expat.pm 5ac3a7613d6c08c455fccb35107f9663 1355992185
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-sjis-jisx0221.enc aa5f7a50e3b2f4d3edfbf4d45a9389ef 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-euc-jp-jisx0221.enc f27c7b37561b1221fb6e8cf391013206 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-euc-jp-unicode.enc cddf8b9829774fdceefbaebda285da61 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-7.enc 58eed89c4eaa4d77fa0095477fbfa6b7 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/windows-1255.enc e20a8a4899be3f0af009edb074cb93bf 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/ibm866.enc 2fa2c0609c74fd3aee091a7034fbeba8 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/Japanese_Encodings.msg b74f7b3e3efefa3ac3068f149b380a55 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/windows-1252.enc 4060347f610115de7c34fb673a9f0c14 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-2.enc a16a5598a422d3d46555682fc549f21e 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-9.enc 0698a98a07291372d0989bfe192427ff 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/euc-kr.enc aa2c91b57e83d51a9f82e3cda18cf3c2 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/koi8-r.enc 74e9bf605510b9e9cb93472b6aee75bf 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-sjis-unicode.enc d74b87e43e8ed8e961680a69db006cbf 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/README 5c45783650b35613261ae132590da594 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-sjis-jdk117.enc 0cbb5ae294874f982fd609ad8b992bb9 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-3.enc 6f9e1b5c646177cc9dd6a9977ab2fb18 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-8.enc 3c85efacb2b0cabd58d8927cd47b58f0 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/x-sjis-cp932.enc e321db3292997372cb802b7665152749 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-4.enc e3f770ce43dc3cb8f1f3eaa4628923f2 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/windows-1250.enc fa03e9c6075594074c90cb8d36dc8876 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/windows-1251.enc 4eb3cbde3342d06e3ded0a74459dd4c9 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/big5.enc 7d43d2f8d1d1fc71642ceda554bdf72f 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Encodings/iso-8859-5.enc 8bb24716071cf4926c9bd855cef3e22b 1306294412
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/LWPExternEnt.pl a9d26bd63de61c6422dca1eef465dffb 1355992186
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style/Stream.pm 3c21df6064d0446acb5b0ad7b363a828 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style/Debug.pm 75648e28df895ae7a5ef67138b840cf6 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style/Objects.pm 7730688de213aa4be2d4604f59ea571b 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style/Tree.pm 048575dde3d4b55741bd5a5b2dffd792 1355992186
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/XML/Parser/Style/Subs.pm 344058651bd683794935f5d841dba455 1355992186
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/XML
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/XML/Parser
+dir /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/XML/Parser/Expat
+obj /usr/lib/perl5/vendor_perl/5.12.4/armv6j-linux/auto/XML/Parser/Expat/Expat.so d22f918663229ee36a21158ab9deade4 1355992189
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/XML-Parser-2.410.0
+obj /usr/share/doc/XML-Parser-2.410.0/README.bz2 67644d51dd8a1e252466f7d996486737 1355992186
+obj /usr/share/doc/XML-Parser-2.410.0/Changes.bz2 48ca8561d7057f590d7238113c625f8d 1355992186

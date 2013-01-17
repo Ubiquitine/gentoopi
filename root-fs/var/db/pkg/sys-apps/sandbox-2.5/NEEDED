@@ -1,0 +1,2 @@
+/usr/lib/libsandbox.so libc.so.6,libdl.so.2,libgcc_s.so.1
+/usr/bin/sandbox libc.so.6

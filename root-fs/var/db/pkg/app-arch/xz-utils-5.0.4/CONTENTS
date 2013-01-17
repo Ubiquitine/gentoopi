@@ -1,0 +1,117 @@
+dir /usr
+dir /usr/lib
+sym /usr/lib/liblzma.so -> liblzma.so.5.0.4 1355985283
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/liblzma.pc bab3a86c5604fb40bf666eda7be6f8e6 1355985271
+obj /usr/lib/liblzma.so.5.0.4 e0bfb2ce2caf56bbb4dbde793a17f8d4 1355985276
+sym /usr/lib/liblzma.so.5 -> liblzma.so.5.0.4 1355985283
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/xzless.1.bz2 d8a285a0d946d03992ee14eee363346d 1355985272
+obj /usr/share/man/man1/xzmore.1.bz2 9fbcd0a867faac02687d2b1490512562 1355985272
+sym /usr/share/man/man1/lzmore.1.bz2 -> xzmore.1.bz2 1355985283
+obj /usr/share/man/man1/xz.1.bz2 3c4598ae6a6f95c7d2a14a28c5d5736e 1355985272
+sym /usr/share/man/man1/lzma.1.bz2 -> xz.1.bz2 1355985283
+sym /usr/share/man/man1/unxz.1.bz2 -> xz.1.bz2 1355985283
+sym /usr/share/man/man1/lzless.1.bz2 -> xzless.1.bz2 1355985283
+sym /usr/share/man/man1/unlzma.1.bz2 -> xz.1.bz2 1355985283
+obj /usr/share/man/man1/xzgrep.1.bz2 acdd40d6bf0b5a8f51a7524092909119 1355985272
+obj /usr/share/man/man1/lzmainfo.1.bz2 a943fa81ba8fb20c3d76c97b2909ef09 1355985272
+sym /usr/share/man/man1/xzcat.1.bz2 -> xz.1.bz2 1355985283
+obj /usr/share/man/man1/xzdiff.1.bz2 50cc91b454d3c941dedb3ab26efe967d 1355985272
+sym /usr/share/man/man1/xzegrep.1.bz2 -> xzgrep.1.bz2 1355985283
+obj /usr/share/man/man1/xzdec.1.bz2 2991e1e4928f5d390654f13f15615c11 1355985272
+sym /usr/share/man/man1/lzmadec.1.bz2 -> xzdec.1.bz2 1355985283
+dir /usr/share/locale
+dir /usr/share/locale/cs
+dir /usr/share/locale/cs/LC_MESSAGES
+obj /usr/share/locale/cs/LC_MESSAGES/xz.mo 219768e3be4cc08c0ea90282edc1da84 1355985273
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/xz.mo b8790e889591c045effb5f641e5c5a01 1355985273
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/xz.mo db9ffc3bd24f8c9d439f39ce1a93be85 1355985273
+dir /usr/share/locale/it
+dir /usr/share/locale/it/LC_MESSAGES
+obj /usr/share/locale/it/LC_MESSAGES/xz.mo 95b6a8f6cb533806d4c43c120c701015 1355985273
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/xz.mo b9c57f5e19e4cf0f610a161fdfd4af9e 1355985273
+dir /usr/share/doc
+dir /usr/share/doc/xz-utils-5.0.4
+obj /usr/share/doc/xz-utils-5.0.4/THANKS.bz2 462041253d6d5e87aa2cf8d2a0cd9413 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/NEWS.bz2 c82b22b0ca881fe2dddb4c7ea9c29a3f 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/README.bz2 ecfa19226f01a5d9f22603786ba5771a 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/TODO.bz2 b08b336fa220bd64884d55c3762b7ccc 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/ChangeLog.bz2 b258bb98da7a118bfa165e490cb33ace 1355985273
+dir /usr/share/doc/xz-utils-5.0.4/xz
+obj /usr/share/doc/xz-utils-5.0.4/xz/THANKS.bz2 462041253d6d5e87aa2cf8d2a0cd9413 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/NEWS.bz2 c82b22b0ca881fe2dddb4c7ea9c29a3f 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/lzma-file-format.txt.bz2 ce8713df20544ec9ad002955cfe01f1c 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/README.bz2 ecfa19226f01a5d9f22603786ba5771a 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/history.txt.bz2 8f080930bc8ca793c71158cac27db853 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/TODO.bz2 b08b336fa220bd64884d55c3762b7ccc 1355985273
+dir /usr/share/doc/xz-utils-5.0.4/xz/examples_old
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples_old/xz_pipe_comp.c.bz2 53356894853a9b1eebee2d34985c9b23 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples_old/xz_pipe_decomp.c.bz2 44e3b7a2fe4d354d3e77612167872097 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/faq.txt.bz2 9aba982afb49666e44d5135541fcf369 1355985273
+dir /usr/share/doc/xz-utils-5.0.4/xz/examples
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples/03_compress_custom.c.bz2 76ff2c75dc8237d82926bba2caf7b36e 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples/02_decompress.c.bz2 2f47e9e53e916044e7ca7ace188ff9a8 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples/01_compress_easy.c.bz2 b898c2158a96546c251a1778aad35295 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples/Makefile.bz2 2ddc414b04037df2faabfc3e9d93a9b9 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/examples/00_README.txt.bz2 19c8589511c7eb023391317bd1dd9c23 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/xz-file-format.txt.bz2 22319f431ea4d5e69081ddef6e858737 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/xz/AUTHORS.bz2 3fb7ef74d17cab6a6e382484ecb0cd17 1355985273
+obj /usr/share/doc/xz-utils-5.0.4/AUTHORS.bz2 3fb7ef74d17cab6a6e382484ecb0cd17 1355985273
+dir /usr/bin
+obj /usr/bin/xzmore d1309de6a98a6b9a5bfb5ab48f417bca 1355985272
+sym /usr/bin/lzfgrep -> xzgrep 1355985283
+obj /usr/bin/lzmainfo 4f96bf74422f5b5237beffe8dab5ca45 1355985276
+obj /usr/bin/xzgrep a0b6968cd68fc400f8bae447e82848be 1355985272
+sym /usr/bin/lzcat -> xz 1355985283
+sym /usr/bin/xzcmp -> xzdiff 1355985283
+sym /usr/bin/xzegrep -> xzgrep 1355985283
+obj /usr/bin/xzdiff c91b7646e373532c272977d4c5121534 1355985272
+sym /usr/bin/lzcmp -> xzdiff 1355985283
+obj /usr/bin/xzless b18ade69f6bac4e7743918f9f5901cdb 1355985272
+sym /usr/bin/lzma -> xz 1355985283
+sym /usr/bin/lzmore -> xzmore 1355985283
+obj /usr/bin/xzdec bf99cb101b0d7bfc49b0f7cff4dff136 1355985276
+obj /usr/bin/xz be26f3fc8aa3c8657322931a674dcb0a 1355985276
+sym /usr/bin/lzegrep -> xzgrep 1355985283
+sym /usr/bin/xzcat -> xz 1355985283
+sym /usr/bin/lzless -> xzless 1355985283
+obj /usr/bin/lzmadec e2fc90827855e804c4ba3798a4a1e661 1355985276
+sym /usr/bin/unxz -> xz 1355985283
+sym /usr/bin/lzgrep -> xzgrep 1355985283
+sym /usr/bin/lzdiff -> xzdiff 1355985283
+sym /usr/bin/unlzma -> xz 1355985283
+sym /usr/bin/xzfgrep -> xzgrep 1355985283
+dir /usr/include
+dir /usr/include/lzma
+obj /usr/include/lzma/block.h bf8cbafce550217b909c63081e414910 1355985271
+obj /usr/include/lzma/version.h ed9eb96777c1e3f6df09a1fe95d66761 1355985271
+obj /usr/include/lzma/vli.h e1aa51527ce08aa260777d4fb351a0b7 1355985271
+obj /usr/include/lzma/filter.h 5eb86d86854a7619ed1d1ac1b57b2484 1355985271
+obj /usr/include/lzma/base.h 81a3070447cc5b61b56cfbed076853db 1355985271
+obj /usr/include/lzma/check.h b07c3297e2bcc14bb477793d08325ee3 1355985271
+obj /usr/include/lzma/delta.h 397cde14a8f4a544385c9c6ecc7e0cc9 1355985271
+obj /usr/include/lzma/stream_flags.h d3814c86a389337e759db33a259f1072 1355985271
+obj /usr/include/lzma/bcj.h a1035092336f34cf9afafbb05b1edd83 1355985271
+obj /usr/include/lzma/lzma.h c59c540efa0aff44f03d71331089fff8 1355985271
+obj /usr/include/lzma/hardware.h 1c76f7f15d37106607dad60a79cc2568 1355985271
+obj /usr/include/lzma/container.h 7f878de3abe07c50108c7f7da139bedb 1355985271
+obj /usr/include/lzma/index.h 923fbd07d3b348bf7a676d089b5c066f 1355985271
+obj /usr/include/lzma/index_hash.h 93f41ec399d5b72fa726dbb2f572cbec 1355985271
+obj /usr/include/lzma.h 872a873c553b69d5f8ec0ef649aad718 1355985271
+sym /usr/share/man/man1/lzcmp.1.bz2 -> xzdiff.1.bz2 1355985283
+sym /usr/share/man/man1/lzcat.1.bz2 -> xz.1.bz2 1355985283
+sym /usr/share/man/man1/lzgrep.1.bz2 -> xzgrep.1.bz2 1355985283
+sym /usr/share/man/man1/xzfgrep.1.bz2 -> xzgrep.1.bz2 1355985283
+sym /usr/share/man/man1/lzdiff.1.bz2 -> xzdiff.1.bz2 1355985283
+sym /usr/share/man/man1/lzfgrep.1.bz2 -> xzgrep.1.bz2 1355985283
+sym /usr/share/man/man1/lzegrep.1.bz2 -> xzgrep.1.bz2 1355985283
+sym /usr/share/man/man1/xzcmp.1.bz2 -> xzdiff.1.bz2 1355985283
