@@ -1,4 +1,0 @@
-exec=/sbin/udevd
-argv_0=/sbin/udevd
-argv_1=--daemon
-pidfile=

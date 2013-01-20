@@ -1,3 +1,0 @@
-# Created by /lib/udev/write_root_link_rule
-# This rule should create /dev/root as link to real root device.
-SUBSYSTEM=="block", ENV{MAJOR}=="179", ENV{MINOR}=="2", SYMLINK+="root"
