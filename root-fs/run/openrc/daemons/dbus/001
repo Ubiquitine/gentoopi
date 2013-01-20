@@ -1,0 +1,4 @@
+exec=/usr/bin/dbus-daemon
+argv_0=/usr/bin/dbus-daemon
+argv_1=--system
+pidfile=/var/run/dbus.pid

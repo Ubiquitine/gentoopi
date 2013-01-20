@@ -1,0 +1,7 @@
+N:mmcblk0
+S:disk/by-id/mmc-00000_0x21bf422b
+W:4
+I:4592992
+E:ID_NAME=00000
+E:ID_SERIAL=0x21bf422b
+E:ID_PART_TABLE_TYPE=dos

@@ -1,0 +1,3 @@
+exec=/usr/sbin/sshd
+argv_0=/usr/sbin/sshd
+pidfile=/var/run/sshd.pid
