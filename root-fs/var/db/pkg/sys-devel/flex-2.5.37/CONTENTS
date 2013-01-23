@@ -1,0 +1,81 @@
+dir /usr
+dir /usr/include
+obj /usr/include/FlexLexer.h 09b454bc31eefe6c9c7ed6d172d4dde3 1358770415
+dir /usr/lib
+obj /usr/lib/libfl_pic.a c0f7bdc61c0c0dbd743a1aebcbd56b27 1358770461
+obj /usr/lib/libfl.a f02edbc345bf49a737faf7df8167a29e 1358770461
+dir /usr/bin
+obj /usr/bin/flex bc79c6010852af7f1d81743295a61ec7 1358770461
+sym /usr/bin/lex -> flex 1358770509
+sym /usr/bin/flex++ -> flex 1358770509
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/flex.1.bz2 b1c4e9d03eb55d5e24b7f3cb3288eb03 1358770417
+dir /usr/share/info
+obj /usr/share/info/flex.info-1.bz2 7d31dfc6c9cee1dd085cc3fb380742c0 1358770417
+obj /usr/share/info/flex.info-2.bz2 9e16bd95b4cced69cc666ce40e81517a 1358770417
+obj /usr/share/info/flex.info.bz2 dae9ac0ae510aa68b48cf3e2f6ce42c4 1358770417
+dir /usr/share/locale
+dir /usr/share/locale/de
+dir /usr/share/locale/de/LC_MESSAGES
+obj /usr/share/locale/de/LC_MESSAGES/flex.mo 759cc780b842e46ac52c0b92f24133e8 1358770419
+dir /usr/share/locale/vi
+dir /usr/share/locale/vi/LC_MESSAGES
+obj /usr/share/locale/vi/LC_MESSAGES/flex.mo ea33f210f3e14a9d05b1b9d379385086 1358770422
+dir /usr/share/locale/fr
+dir /usr/share/locale/fr/LC_MESSAGES
+obj /usr/share/locale/fr/LC_MESSAGES/flex.mo 15e8634558faec8ce1f38d2ee1d0e62d 1358770420
+dir /usr/share/locale/ca
+dir /usr/share/locale/ca/LC_MESSAGES
+obj /usr/share/locale/ca/LC_MESSAGES/flex.mo ed2fa12b77c7ea98dd4464fef05a9441 1358770418
+dir /usr/share/locale/pt_BR
+dir /usr/share/locale/pt_BR/LC_MESSAGES
+obj /usr/share/locale/pt_BR/LC_MESSAGES/flex.mo 13da17d1f104dc40e539b1cfb409f8b0 1358770421
+dir /usr/share/locale/ko
+dir /usr/share/locale/ko/LC_MESSAGES
+obj /usr/share/locale/ko/LC_MESSAGES/flex.mo 1e3ac76efd08e677e274b3a11c6f66be 1358770420
+dir /usr/share/locale/ga
+dir /usr/share/locale/ga/LC_MESSAGES
+obj /usr/share/locale/ga/LC_MESSAGES/flex.mo 679c1802cf123938521c87344130bb9f 1358770420
+dir /usr/share/locale/es
+dir /usr/share/locale/es/LC_MESSAGES
+obj /usr/share/locale/es/LC_MESSAGES/flex.mo 19c728b8f8cc58c5296e0170448553c0 1358770419
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo 99649c541b840f7d2529bbd91756091d 1358770422
+dir /usr/share/locale/tr
+dir /usr/share/locale/tr/LC_MESSAGES
+obj /usr/share/locale/tr/LC_MESSAGES/flex.mo c15f660a5cfd69dfce4e8424b2171b80 1358770421
+dir /usr/share/locale/sv
+dir /usr/share/locale/sv/LC_MESSAGES
+obj /usr/share/locale/sv/LC_MESSAGES/flex.mo 4a1b43b8d4af40b9773c9c261be8233f 1358770421
+dir /usr/share/locale/fi
+dir /usr/share/locale/fi/LC_MESSAGES
+obj /usr/share/locale/fi/LC_MESSAGES/flex.mo e8c2767daf356bf06d658925b8db1b9f 1358770419
+dir /usr/share/locale/pl
+dir /usr/share/locale/pl/LC_MESSAGES
+obj /usr/share/locale/pl/LC_MESSAGES/flex.mo c47a02392afd2a37bb793011ab65c42d 1358770420
+dir /usr/share/locale/nl
+dir /usr/share/locale/nl/LC_MESSAGES
+obj /usr/share/locale/nl/LC_MESSAGES/flex.mo bde297b0b3155550df7b7db31d6f5aad 1358770420
+dir /usr/share/locale/da
+dir /usr/share/locale/da/LC_MESSAGES
+obj /usr/share/locale/da/LC_MESSAGES/flex.mo 6ffc5c0d04e9b5cd1d38103a2ecedebd 1358770419
+dir /usr/share/locale/ru
+dir /usr/share/locale/ru/LC_MESSAGES
+obj /usr/share/locale/ru/LC_MESSAGES/flex.mo 9712ed6d58e12b390833d8ad78e7440d 1358770421
+dir /usr/share/locale/ro
+dir /usr/share/locale/ro/LC_MESSAGES
+obj /usr/share/locale/ro/LC_MESSAGES/flex.mo 678693dbe940115d32c728c94f60399a 1358770421
+dir /usr/share/doc
+dir /usr/share/doc/flex-2.5.37
+obj /usr/share/doc/flex-2.5.37/NEWS.bz2 76d4f3ed68f9b090967a548a4348300a 1358770430
+obj /usr/share/doc/flex-2.5.37/AUTHORS.bz2 6c84e299a94ac991be7ad59f73f9346b 1358770429
+obj /usr/share/doc/flex-2.5.37/README-alpha.bz2 dd7573bdd2761037ed2e5eb54d409b47 1358770430
+obj /usr/share/doc/flex-2.5.37/THANKS.bz2 98d4ac560e01bafefdf660d044a08a63 1358770431
+obj /usr/share/doc/flex-2.5.37/README.cvs.bz2 6b159a202794a868a13f65ece0b7d1ec 1358770430
+obj /usr/share/doc/flex-2.5.37/ONEWS.bz2 6b292c62a2bc5b7bba1c59cff8ce856d 1358770430
+obj /usr/share/doc/flex-2.5.37/TODO.bz2 5faf84fc891ffdaa6da7a968f93da973 1358770431
+obj /usr/share/doc/flex-2.5.37/ChangeLog.bz2 558d1e13a96fbef0fb1e95a836a60a0d 1358770429
+obj /usr/share/doc/flex-2.5.37/README.bz2 c3e4045e8792267a376d78ea9281d416 1358770430

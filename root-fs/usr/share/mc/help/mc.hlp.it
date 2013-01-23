@@ -117,6 +117,9 @@ OPZIONI
 
 "-x"    Forza la modalità xterm. Usata quando è in funzione su terminali abilitati-xterm (due modalità video e in grado di spedire sequenze mouse di escape).
 
+-X, --no-x11
+        Do not use X11 to get the state of modifiers Alt, Ctrl, Shift
+
 -g, --oldmouse
         Force a "normal tracking" mouse mode. Used when running on xterm-capable terminals (tmux/screen).
 
@@ -1414,7 +1417,7 @@ Il tasto di completamento rappresenta le sequenze di escape usate per invocare
 [FILES]
 FILE
 
-Il programma recupera tutte le informazioni relative al proprio funzionamento dalla variabile ambiente MC_DATADIR, e se la variabile non è impostata, passerà alla directory /usr/share/mc .
+Il programma recupera tutte le informazioni relative al proprio funzionamento dalla variabile ambiente MC_DATADIR, e se la variabile non è impostata, passerà alla directory /usr/share/mc .
 
 /usr/share/mc/mc.hlp
 
@@ -1458,7 +1461,9 @@ Il programma recupera tutte le informazioni relative al proprio funzionamento da
 
 ./.mc.menu
 
-        Menu locale definito dall'utente. Se questo file è presente viene usato al posto del menu delle applicazioni utente o di sistema.[AVAILABILITY]
+        Menu locale definito dall'utente. Se questo file è presente viene usato al posto del menu delle applicazioni utente o di sistema.
+
+To change default home directory of MC, you can use MC_HOME environment variable. The value of MC_HOME must be an absolute path. If MC_HOME is unset or empty, HOME variable is used. If HOME is unset or empty, MC directories are get from GLib library.[AVAILABILITY]
 REPERIBILITA'
 
 L'ultima versione di questo programma si trova su ftp://ftp.gnu.org/gnu/mc/.[SEE ALSO]

@@ -40,16 +40,16 @@ include lsm.syntax
 file .\*(bash_completion|profile|\\.(sh|bash_login|bash_profile|bash_logout|bash_aliases|bash_exports|bash_history|bashrc|profile))$ Shell\sScript ^#!\s\*/(.\*/|usr/bin/env\s)([a-z]?|ba|pdk)sh
 include sh.syntax
 
-file ..\*\\.(pl|PL|pm|PM)$ Perl\sProgram ^#!.\*([\s/]perl|@PERL@)
+file ..\*\\.(pl|PL|pm|PM|psgi|PSGI)$ Perl\sProgram ^#!.\*([\s/]perl|/usr/bin/perl)
 include perl.syntax
 
-file ..\*\\.(py|PY)$ Python\sProgram ^#!.\*([\s/]python|@PYTHON@)
+file ..\*\\.(py|PY)$ Python\sProgram ^#!.\*([\s/]python|/usr/bin/python)
 include python.syntax
 
 file ..\*\\.(pyx|pxd|pxi)$ Cython\sor\sPyrex\sProgram
 include cython.syntax
 
-file ..\*\\.(rb|RB)$ Ruby\sProgram ^#!.\*([\s/]ruby|@RUBY@)
+file ..\*\\.(rb|RB)$ Ruby\sProgram ^#!.\*([\s/]ruby|/usr/bin/ruby)
 include ruby.syntax
 
 file ..\*\\.(man|[0-9n]|[0-9](x|ncurses|ssl|p|pm|menu|form|vga|t|td))$ NROFF\sSource
@@ -67,6 +67,9 @@ include tt.syntax
 file (.\*[Mm]akefile[\\\.A-Za-z0-9]\*|..\*\\.mk|Kbuild)$ Makefile
 include makefile.syntax
 
+file CMakeLists.txt$ CMake
+include cmake.syntax
+
 file ..\*\\.(pp|PP|pas|PAS|dpr|DPR|inc|INC)$ Pascal\sProgram
 include pascal.syntax
 
@@ -82,13 +85,13 @@ include slang.syntax
 file ..\*\\.tex$ LaTeX\s2.09\sDocument
 include latex.syntax
 
-file ..\*\.(texi|texinfo|TEXI|TEXINFO)$ Texinfo\sDocument
+file ..\*\\.(texi|texinfo|TEXI|TEXINFO)$ Texinfo\sDocument
 include texinfo.syntax
 
 file ..\*\\.c$ C\sProgram
 include c.syntax
 
-file ..\*\\.([hC]|CC|cxx|cc|cpp|CPP|CXX|hxx|hh|hpp|HPP|h\.in)$ C/C\+\+\sProgram
+file ..\*\\.([hC]|CC|cxx|cc|cpp|CPP|CXX|hxx|hh|hpp|HPP|h\\.in)$ C/C\+\+\sProgram
 include cxx.syntax
 
 file ..\*\\.d$ D\sProgram
@@ -121,6 +124,9 @@ include cs.syntax
 file ..\*\\.(js|JS)$ JavaScript\sProgram
 include js.syntax
 
+file ..\*\\.(as|AS)$ ActionScript\sProgram
+include as.syntax
+
 file ..\*\\.(asax|aspx|ascx|asmx|ashx)$ ASPX\sFile
 include aspx.syntax
 
@@ -139,7 +145,7 @@ include octave.syntax
 file ..\*\\.(sql|SQL)$ SQL\sProgram
 include sql.syntax
 
-file ..\*\\.(spec|spec\.in)$ RPM\sSpecfile
+file ..\*\\.(spec|spec\\.in)$ RPM\sSpecfile
 include spec.syntax
 
 file ..\*\\.repo$ YUM\sRepo\sFile
@@ -165,7 +171,7 @@ include po.syntax
 
 file ..\*\\.([Aa][Ss][Mm]|s|S)$ ASM\sProgram
 include assembler.syntax
- 
+
 file ..\*\\.([Pp][Oo][Vv])$ POV\sScript
 include povray.syntax
 
@@ -184,7 +190,7 @@ include ini.syntax
 file Don_t_match_me Mail\sfolder ^(From|Return-(P|p)ath:|From:|Date:)\s
 include mail.syntax
 
-file \.procmailrc$ Procmail\sRC\sFile ^#/usr/bin/procmail
+file \\.procmailrc$ Procmail\sRC\sFile ^#/usr/bin/procmail
 include procmail.syntax
 
 file sources.list$ sources\slist
@@ -240,6 +246,9 @@ include sh.syntax
 
 file ..\*\\.(l|y|yxx|ypp)$ Lex/Flex/Yacc/Bison\ssource
 include yxx.syntax
+
+file ..\*\\.dlink\\.sw$ D-Link\sSwitch\sCommands
+include dlink.syntax
 
 file .\* unknown
 include unknown.syntax

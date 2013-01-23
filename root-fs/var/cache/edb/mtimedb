@@ -1,91 +1,232 @@
 {
 	"info": {
-		"/usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info": 1358351708, 
+		"/usr/share/binutils-data/armv6j-hardfloat-linux-gnueabi/2.22/info": 1358883522, 
 		"/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.5.4/info": 1356004254, 
-		"/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.6.3/info": 1358351708, 
-		"/usr/share/info": 1358351702
+		"/usr/share/gcc-data/armv6j-hardfloat-linux-gnueabi/4.6.3/info": 1358883521, 
+		"/usr/share/info": 1358929361
 	}, 
 	"ldpath": {
-		"/lib": 1357834557, 
-		"/usr/lib": 1358238168, 
-		"/usr/lib/opengl/xorg-x11/lib": 1356457217, 
-		"/usr/local/lib": 1355966197
+		"/lib": 1358873929, 
+		"/usr/lib": 1358929161, 
+		"/usr/lib/opengl/xorg-x11/lib": 1358798145, 
+		"/usr/local/lib": 1358253614
 	}, 
 	"resume_backup": {
 		"favorites": [
-			"dev-vcs/git"
+			"@world"
 		], 
 		"mergelist": [
 			[
 				"ebuild", 
 				"/", 
-				"app-arch/cpio-2.11", 
+				"dev-libs/mpfr-3.1.1", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"dev-libs/libksba-1.2.0", 
+				"net-misc/rsync-3.0.9-r2", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"dev-libs/libassuan-2.0.3", 
+				"sys-libs/slang-2.2.4", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"dev-libs/pth-2.0.7-r3", 
+				"sys-apps/tcp-wrappers-7.6-r8", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"net-mail/mailbase-1", 
+				"sys-apps/hwids-20121119", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"mail-mta/ssmtp-2.64-r2", 
+				"sys-apps/less-457", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"virtual/mta-0", 
+				"sys-apps/debianutils-4.3.4", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"app-admin/eselect-pinentry-0.3", 
+				"sys-devel/autoconf-2.69", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"app-crypt/pinentry-0.8.2", 
+				"x11-libs/libX11-1.5.0", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"app-crypt/gnupg-2.0.19", 
+				"x11-libs/libICE-1.0.8", 
 				"merge"
 			], 
 			[
 				"ebuild", 
 				"/", 
-				"dev-vcs/git-1.7.12.4", 
+				"x11-libs/libdrm-2.4.40", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-apps/util-linux-2.21.2", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"x11-libs/libSM-1.2.1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"x11-libs/libXmu-1.1.1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-process/psmisc-22.16", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-apps/groff-1.21", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"x11-apps/xauth-1.0.7", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-devel/flex-2.5.37", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"media-libs/mesa-9.0.1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"x11-base/xorg-server-1.13.1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-lang/python-3.2.3", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-apps/portage-2.1.11.31", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-apps/man-pages-3.44", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-apps/busybox-1.20.2", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"net-misc/wget-1.14", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"net-misc/iputils-20101006-r2", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-devel/gcc-4.6.3", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"gnome-base/gconf-2.32.4", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"sys-auth/pam_mount-2.13-r1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"net-misc/ntp-4.2.6_p5-r1", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"app-misc/mc-4.8.7", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-libs/libxslt-1.1.28", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"dev-libs/libevent-2.0.21", 
+				"merge"
+			], 
+			[
+				"ebuild", 
+				"/", 
+				"net-misc/openssh-5.9_p1-r4", 
 				"merge"
 			]
 		], 
 		"myopts": {
+			"--deep": true, 
+			"--newuse": true, 
 			"--quiet-build": "y", 
 			"--tree": true, 
+			"--update": true, 
 			"--verbose": true
 		}
 	}, 

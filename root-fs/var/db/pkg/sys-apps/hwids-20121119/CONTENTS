@@ -1,0 +1,10 @@
+dir /usr
+dir /usr/share
+dir /usr/share/misc
+obj /usr/share/misc/usb.ids ef48fa5b6dcf4645a4640fe241c76e26 1358698803
+obj /usr/share/misc/pci.ids c93d9e0dd564dbe214af5953371a75c1 1358698803
+obj /usr/share/misc/pci.ids.gz ff6a34bd49ceb0ae77168c28ba3d3197 1358698803
+obj /usr/share/misc/usb.ids.gz 25623f3a86aae8c09f1551c2a202526e 1358698803
+dir /usr/share/doc
+dir /usr/share/doc/hwids-20121119
+obj /usr/share/doc/hwids-20121119/README.md.bz2 82546e018ee60e08937eed035fcf2262 1358698804

@@ -65,7 +65,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 # Compiler options
 OPT=		-DNDEBUG 
 BASECFLAGS=	
-CONFIGURE_CFLAGS=	-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fwrapv
+CONFIGURE_CFLAGS=	-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fomit-frame-pointer -w -fwrapv
 CONFIGURE_CPPFLAGS=	
 CONFIGURE_LDFLAGS=
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
@@ -152,7 +152,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/usr' '--build=armv6j-hardfloat-linux-gnueabi' '--host=armv6j-hardfloat-linux-gnueabi' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--datadir=/usr/share' '--sysconfdir=/etc' '--localstatedir=/var/lib' '--with-fpectl' '--enable-shared' '--enable-ipv6' '--with-threads' '--with-wide-unicode' '--infodir=${prefix}/share/info' '--mandir=${prefix}/share/man' '--with-computed-gotos' '--with-dbmliborder=gdbm' '--with-libc=' '--enable-loadable-sqlite-extensions' '--with-system-expat' '--with-system-ffi' 'build_alias=armv6j-hardfloat-linux-gnueabi' 'host_alias=armv6j-hardfloat-linux-gnueabi' 'CFLAGS=-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fwrapv' 'LDFLAGS=-Wl,-O1 -Wl,--as-needed -L.' 'CPPFLAGS='
+CONFIG_ARGS=	 '--prefix=/usr' '--build=armv6j-hardfloat-linux-gnueabi' '--host=armv6j-hardfloat-linux-gnueabi' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--datadir=/usr/share' '--sysconfdir=/etc' '--localstatedir=/var/lib' '--with-fpectl' '--enable-shared' '--disable-ipv6' '--with-threads' '--with-wide-unicode' '--infodir=${prefix}/share/info' '--mandir=${prefix}/share/man' '--with-computed-gotos' '--with-dbmliborder=gdbm' '--with-libc=' '--enable-loadable-sqlite-extensions' '--with-system-expat' '--with-system-ffi' 'build_alias=armv6j-hardfloat-linux-gnueabi' 'host_alias=armv6j-hardfloat-linux-gnueabi' 'CFLAGS=-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fomit-frame-pointer -w -fwrapv' 'LDFLAGS=-Wl,-O1 -Wl,--as-needed -L.' 'CPPFLAGS='
 
 
 # Subdirectories with code

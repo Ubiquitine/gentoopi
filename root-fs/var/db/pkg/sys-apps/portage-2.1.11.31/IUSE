@@ -1,1 +1,1 @@
-build doc epydoc +ipc linguas_pl pypy1_9 python2 python3 selinux xattr
+build doc epydoc +ipc linguas_pl pypy2_0 python2 python3 selinux xattr

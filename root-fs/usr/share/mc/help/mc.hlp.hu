@@ -113,6 +113,9 @@ A bash és zsh funkciók lehetnének rövidebbek is, de a bash környezete nem f
 
 "-x"    Belép xterm módba. (Két képernyős módban használható, és az egér escape szekvenciái is használhatóak).
 
+-X, --no-x11
+        Do not use X11 to get the state of modifiers Alt, Ctrl, Shift
+
 -g, --oldmouse
         Force a "normal tracking" mouse mode. Used when running on xterm-capable terminals (tmux/screen).
 
@@ -1412,7 +1415,7 @@ A complete billentyű szimbólum megjeleníti az escape szekvenciát, amely a 
 [FILES]
 Fájlok
 
-A progam minden ezzel kapcsolatos infomációt az MCHOME környezeti változóban tárol. Ha ezt a változót nem állítottuk be, akkor ez vissza fog állítódni a /usr könyvtárra.
+A progam minden ezzel kapcsolatos infomációt az MC_DATADIR környezeti változóban tárol. Ha ezt a változót nem állítottuk be, akkor ez vissza fog állítódni a /usr könyvtárra.
 
 /usr/share/mc/mc.hlp
 
@@ -1458,7 +1461,9 @@ find / -type d -print | sort > ~/.cache/mc/Tree"
 
 ./.mc.menu
 
-        Helyi felhasználó által definiált menü. Ha ez a fájl létezik, ezt használja a home, vagy rendszerszintű alkalmazás menü helyett.[AVAILABILITY]
+        Helyi felhasználó által definiált menü. Ha ez a fájl létezik, ezt használja a home, vagy rendszerszintű alkalmazás menü helyett.
+
+To change default home directory of MC, you can use MC_HOME environment variable. The value of MC_HOME must be an absolute path. If MC_HOME is unset or empty, HOME variable is used. If HOME is unset or empty, MC directories are get from GLib library.[AVAILABILITY]
 A Midnight Commander frissítése
 
 A program legutolsó verzióját az ftp.nuclecu.unam.mx címen a /linux/local könyvtárban találhatod meg, Európából pedig a sunsite.mff.cuni.cz címen a /GNU/mc könyvtárban és az ftp.teuto.de címen az /lmb/mc könyvtárban.[SEE ALSO]

@@ -94,7 +94,7 @@ m4_definedefine
 F9,6
 m4_sysvalsysval
 T17,17
-m4_PACKAGE_STRINGGNU Autoconf 2.68
+m4_PACKAGE_STRINGGNU Autoconf 2.69
 T15,12
 m4_PACKAGE_NAMEGNU Autoconf
 T18,202
@@ -123,7 +123,7 @@ T12,48
 m4_re_escapem4_bpatsubst([$1],
 	      [[][*+.?\^$]], [\\\&])
 T17,152
-m4_version_prereqm4_if(m4_version_compare([2.68], [$1]),
+m4_version_prereqm4_if(m4_version_compare([2.69], [$1]),
 	[-1],
 	[m4_default([$3],
 		    [m4_fatal([Autoconf version $1 or higher is required],
@@ -390,10 +390,11 @@ m4_make_listm4_join([,
 T17,203
 m4_cr_not_Letters	
  !"#*%&'()$+,./0123456789:;<=>?@[\]^_`{|}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ-
-T17,209
+T17,292
 _m4_require_checkm4_if(_m4_defn([_m4_diverting]), [$2], [m4_ignore],
        m4_ifdef([_m4_diverting([$2])], [-]), [-], [m4_warn([syntax],
-   [$3: `$1' was expanded before it was required])_m4_require_call],
+   [$3: `$1' was expanded before it was required
+http://www.gnu.org/software/autoconf/manual/autoconf.html#Expanded-Before-Required])_m4_require_call],
        [m4_ignore])
 T13,42
 m4_mapall_sepm4_if([$3], [], [], [_$0([$1], [$2], $3)])
@@ -404,7 +405,7 @@ _m4_define_cr_notm4_define([m4_cr_not_$1],
 	   m4_translit(m4_dquote(m4_defn([m4_cr_all])),
 		       m4_defn([m4_cr_$1])))
 T15,4
-m4_PACKAGE_YEAR2010
+m4_PACKAGE_YEAR2012
 F14,6
 _m4_divert_rawdivert
 T18,72
@@ -530,7 +531,7 @@ m4_cdrm4_if([$#], 0, [m4_fatal([$0: cannot be called without arguments])],
        [$#], 1, [],
        [m4_dquote(m4_shift($@))])
 T18,4
-m4_PACKAGE_VERSION2.68
+m4_PACKAGE_VERSION2.69
 T10,27
 m4_joinall[$2]_$0([$1], m4_shift($@))
 T17,64

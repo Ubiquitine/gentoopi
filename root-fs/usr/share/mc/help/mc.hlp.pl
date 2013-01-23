@@ -124,6 +124,9 @@ alias mc 'setenv MC `/usr/bin/mc -P !*`; cd $MC; unsetenv MC'
 
 -x      Wymusza włączenie trybu xterm. Używane kiedy działa się na terminalach wyposażonych w opcje xterm (dwa tryby ekranu i możliwość wysyłania myszą sygnałów wyjścia).
 
+-X, --no-x11
+        Do not use X11 to get the state of modifiers Alt, Ctrl, Shift
+
 -g, --oldmouse
         Force a "normal tracking" mouse mode. Used when running on xterm-capable terminals (tmux/screen).
 
@@ -1528,7 +1531,7 @@ Symbol klawisza complete reprezentuje sekwencję wyjścia używaną do wywoły
 PLIKI
 
 
-Program będzie pobierał wszystkie swoje informacje ze zmiennej MCHOME, jeśli jest ona nie ustawiona to znowu przetwarzany jest katalog /usr.
+Program będzie pobierał wszystkie swoje informacje ze zmiennej MC_DATADIR, jeśli jest ona nie ustawiona to znowu przetwarzany jest katalog /usr.
 
 /usr/share/mc.hlp
 
@@ -1574,7 +1577,7 @@ Program będzie pobierał wszystkie swoje informacje ze zmiennej MCHOME, jeśli 
 
         Lokalny plik zdefiniowany przez użytkownika. Jeśli ten plik jest dostępny, jest używany zamiast pliku w katalogu domowym i ogólnosystemowego.
 
-[AVAILABILITY]
+To change default home directory of MC, you can use MC_HOME environment variable. The value of MC_HOME must be an absolute path. If MC_HOME is unset or empty, HOME variable is used. If HOME is unset or empty, MC directories are get from GLib library.[AVAILABILITY]
 DOSTĘPNOŚĆ
 
 Najnowsza wersja programu jest do zdobycia na serwerze ftp.nuclecu.unam.mc w katalogu /linux/local i w Europie na serwerze sunsite.mff.cuni.cz w katalogu /GNU/mc i na serwerze ftp.teuto.de w katalogu /lmb/mc.[SEE ALSO]

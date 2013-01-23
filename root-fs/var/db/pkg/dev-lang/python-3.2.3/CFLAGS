@@ -1,1 +1,1 @@
--O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fwrapv
+-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard -fomit-frame-pointer -w -fwrapv

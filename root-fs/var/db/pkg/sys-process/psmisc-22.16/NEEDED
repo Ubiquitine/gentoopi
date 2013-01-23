@@ -1,5 +1,5 @@
-/usr/bin/pstree libncurses.so.5,libc.so.6
-/usr/bin/killall libc.so.6
+/bin/fuser libc.so.6
 /usr/bin/peekfd libc.so.6
 /usr/bin/prtstat libc.so.6
-/bin/fuser libc.so.6
+/usr/bin/killall libc.so.6
+/usr/bin/pstree libncurses.so.5,libc.so.6

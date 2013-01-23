@@ -1,0 +1,22 @@
+dir /usr
+dir /usr/bin
+sym /usr/bin/lesspipe.sh -> lesspipe 1358699259
+obj /usr/bin/lesspipe a03ce800374b7046b7ebd75062ca185a 1358699199
+obj /usr/bin/less 36bb8624a62b86a2f0262bb43a171182 1358699222
+obj /usr/bin/lesskey 643a44c4273dc50f90397ec8b2673b62 1358699222
+obj /usr/bin/lessecho b80a4ae839ef91d9d60d3f701b2587f4 1358699222
+obj /usr/bin/code2color 2a080a0b41b6fab008719edd160c0a20 1358699199
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/less.1.bz2 953a2e6e90f7eb7f066b54f96f518a92 1358699198
+obj /usr/share/man/man1/lesskey.1.bz2 c80726e88cfcda14a0559a772a09ad13 1358699198
+obj /usr/share/man/man1/lessecho.1.bz2 d766fc39f79e0cd037546b38fb3fd2ff 1358699198
+dir /usr/share/doc
+dir /usr/share/doc/less-457
+obj /usr/share/doc/less-457/NEWS.bz2 033391414f8a61c92f2a4ee937a57b5c 1358699199
+obj /usr/share/doc/less-457/README.Gentoo.bz2 df78e25dd8533dd2fc035034aadfd3a5 1358699201
+obj /usr/share/doc/less-457/README.bz2 9c98b2bbaad7f4845afb7ce9983f5e6f 1358699199
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/70less c805eb302fa124719c8fc95a40e5eddc 1358699200

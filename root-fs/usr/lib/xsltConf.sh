@@ -4,4 +4,4 @@
 XSLT_LIBDIR="-L/usr/lib"
 XSLT_LIBS="-lxslt  -lxml2 -lz -lm -lm -lrt"
 XSLT_INCLUDEDIR="-I/usr/include"
-MODULE_VERSION="xslt-1.1.27"
+MODULE_VERSION="xslt-1.1.28"

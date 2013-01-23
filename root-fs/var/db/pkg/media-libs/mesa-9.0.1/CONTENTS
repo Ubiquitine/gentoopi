@@ -1,0 +1,63 @@
+dir /usr
+dir /usr/include
+dir /usr/include/GL
+obj /usr/include/GL/gl_mangle.h f7ea7f5b724145ccd21b499ff6fd84c8 1358798048
+dir /usr/include/GL/internal
+obj /usr/include/GL/internal/dri_interface.h 43532145f3a2aa4998818f2c353a7804 1358798054
+obj /usr/include/GL/vms_x_fix.h 140928dd25d90106a4dc1c2c7bc2004b 1358798048
+obj /usr/include/GL/wmesa.h bdc5f95a5d8b51e4dcb77ba86cf603ea 1358798048
+obj /usr/include/GL/glx_mangle.h 05ef9a979e6c9063b72963c9d7e42678 1358798048
+obj /usr/include/GL/osmesa.h 0c5e82b168408e1f83b4fe84e8606da4 1358798048
+obj /usr/include/GL/wglext.h a1b24b32ee5671d1ef91ca58c95129e7 1358798048
+dir /usr/lib
+dir /usr/lib/dri
+sym /usr/lib/dri/swrastg_dri.so -> ../mesa/swrastg_dri.so 1358798135
+obj /usr/lib/dri/.keep_media-libs_mesa-0 d41d8cd98f00b204e9800998ecf8427e 1358798069
+sym /usr/lib/libglapi.so.0 -> libglapi.so.0.0.0 1358798135
+dir /usr/lib/egl
+obj /usr/lib/egl/egl_gallium.so b487fafcf1bd25e597dcb2b1a3157041 1358798096
+obj /usr/lib/libglapi.so.0.0.0 900e3c9927bb9aeb6547947efc69cd5e 1358798096
+obj /usr/lib/libdricore9.0.1.so.1.0.0 a6ecd95243edd5b30e9b2b92916072cc 1358798097
+dir /usr/lib/pkgconfig
+obj /usr/lib/pkgconfig/dri.pc efb6393829212bb349e5c31aa472b537 1358798054
+obj /usr/lib/pkgconfig/egl.pc 1b5f2a3ec79fdc591feb9b851129195d 1358798061
+obj /usr/lib/pkgconfig/gl.pc b47b0e87f24d2c6eafcd156fda5ef7aa 1358798048
+sym /usr/lib/libdricore9.0.1.so -> libdricore9.0.1.so.1.0.0 1358798136
+dir /usr/lib/mesa
+obj /usr/lib/mesa/swrastg_dri.so eb18fb6251f8ed0171626aad876a5882 1358798098
+obj /usr/lib/mesa/swrast_dri.so bfad12432a2ee453526f7387372a5a71 1358798102
+dir /usr/lib/opengl
+dir /usr/lib/opengl/xorg-x11
+dir /usr/lib/opengl/xorg-x11/include
+dir /usr/lib/opengl/xorg-x11/include/EGL
+obj /usr/lib/opengl/xorg-x11/include/EGL/eglmesaext.h 2e719a82e8a012f00fdd902cfe11ceca 1358798061
+obj /usr/lib/opengl/xorg-x11/include/EGL/egl.h c217461f2034c605864f83cf853f796e 1358798061
+obj /usr/lib/opengl/xorg-x11/include/EGL/eglplatform.h 1144d2e8466606e3211abc42d1e9cc90 1358798061
+obj /usr/lib/opengl/xorg-x11/include/EGL/eglext.h c890929bd75d46451d4e9c438cb26562 1358798061
+dir /usr/lib/opengl/xorg-x11/include/GL
+obj /usr/lib/opengl/xorg-x11/include/GL/glxext.h 2038086f78d7c6bca91822ed4212a35e 1358798048
+obj /usr/lib/opengl/xorg-x11/include/GL/glx.h e708926e5449622bfa9960827061c8bb 1358798048
+obj /usr/lib/opengl/xorg-x11/include/GL/gl.h 8376d83a55815afe3adf195cb339b7e4 1358798048
+obj /usr/lib/opengl/xorg-x11/include/GL/glext.h b8d4490052c03ccd70b337dfa57ee178 1358798048
+dir /usr/lib/opengl/xorg-x11/include/KHR
+obj /usr/lib/opengl/xorg-x11/include/KHR/khrplatform.h b312fd18f336906776bef33fea261120 1358798061
+dir /usr/lib/opengl/xorg-x11/lib
+sym /usr/lib/opengl/xorg-x11/lib/libEGL.so -> libEGL.so.1.0.0 1358798145
+sym /usr/lib/opengl/xorg-x11/lib/libGL.so -> libGL.so.1.2.0 1358798145
+sym /usr/lib/opengl/xorg-x11/lib/libGL.so.1 -> libGL.so.1.2.0 1358798145
+sym /usr/lib/opengl/xorg-x11/lib/libEGL.so.1 -> libEGL.so.1.0.0 1358798145
+obj /usr/lib/opengl/xorg-x11/lib/libGL.so.1.2.0 0ef74f52558b2823d87b69a645adea88 1358798098
+obj /usr/lib/opengl/xorg-x11/lib/libEGL.so.1.0.0 fecd08ace55ee5ac9001d641aad9c53e 1358798098
+dir /usr/lib/opengl/xorg-x11/extensions
+sym /usr/lib/libglapi.so -> libglapi.so.0.0.0 1358798145
+dir /usr/bin
+obj /usr/bin/glsl_compiler ee18a03d662536d8f1750a2da37b0c2e 1358798098
+dir /usr/share
+dir /usr/share/mesa
+obj /usr/share/mesa/eselect-mesa.conf dcda2375e31247d06777eac0764006fe 1358798068
+dir /usr/share/doc
+dir /usr/share/doc/mesa-9.0.1
+obj /usr/share/doc/mesa-9.0.1/patents.txt.bz2 376deb6340f2f36823765d6de79293a2 1358798067
+dir /etc
+obj /etc/drirc e5e2f9d440e55e954f4ced963096a98f 1358798050
+sym /usr/lib/libdricore9.0.1.so.1 -> libdricore9.0.1.so.1.0.0 1358798149

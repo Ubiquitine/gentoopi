@@ -7,7 +7,7 @@ m4_providem4_ifdef([m4_provide($1)], [],
 [m4_set_add([_m4_provide], [$1], [m4_define([m4_provide($1)],
   m4_ifdef([_m4_diverting], [_m4_defn([_m4_diverting])]))])])
 T30,33
-m4_location(AC_HAVE_POUNDBANG)../../lib/autoconf/specific.m4:78
+m4_location(AC_HAVE_POUNDBANG)../../lib/autoconf/specific.m4:76
 T15,55
 _AS_TR_SH_INDIR`AS_ECHO(["_AS_ESCAPE([[$1]], [`], [\])"]) | $as_tr_sh`
 T20,177
@@ -30,7 +30,7 @@ undivertm4_if([$#], [0], [m4_fatal([$0: missing argument])],
        [$#], [1], [_m4_undivert(_m4_divert([$1]))],
        [m4_map_args([$0], $@)])
 T25,34
-m4_location(_AC_DO_LIMIT)../../lib/autoconf/general.m4:2413
+m4_location(_AC_DO_LIMIT)../../lib/autoconf/general.m4:2412
 T21,342
 _AS_BOURNE_COMPATIBLEAS_IF([test -n "${ZSH_VERSION+set}" && (emulate sh) >/dev/null 2>&1],
  [emulate sh
@@ -81,9 +81,9 @@ _AC_CANONICAL_SPLIT(build)
 m4_ifdef([_m4_diverting([AC_CANONICAL_BUILD])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_CANONICAL_BUILD],], [, _m4_divert_dump)]]))
 T30,30
-m4_location(AC_NO_EXECUTABLES)../../lib/autoconf/lang.m4:407
+m4_location(AC_NO_EXECUTABLES)../../lib/autoconf/lang.m4:406
 T28,35
-m4_location(AC_FUNC_GETPGRP)../../lib/autoconf/functions.m4:832
+m4_location(AC_FUNC_GETPGRP)../../lib/autoconf/functions.m4:828
 T24,1011
 _AC_FEATURE_CHECK_LENGTH# Check for GNU $1 and select it if it is found.
   _AC_PATH_PROG_FLAVOR_GNU([$$1],
@@ -116,7 +116,7 @@ T16,110
 AC_CHECK_MEMBERS_m4_defun_pro([$0])m4_map_args_sep([AC_CHECK_MEMBER(_$0(], [)[
 $2], [$3], [$4])], [], $1)[]_m4_defun_epi([$0])
 T29,30
-m4_location(_AS_EXPR_PREPARE)../../lib/m4sugar/m4sh.m4:1073
+m4_location(_AS_EXPR_PREPARE)../../lib/m4sugar/m4sh.m4:1108
 T24,33
 m4_location(AC_CYGWIN32)../../lib/autoconf/oldnames.m4:86
 T8,198
@@ -131,7 +131,7 @@ T11,190
 AC_SET_MAKE_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_SET_MAKE' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_PROG_MAKE_SET], [AC_PROG_MAKE_SET($@)])[]_m4_defun_epi([$0])
-T9,1754
+T9,1944
 AC_OPENMP_m4_defun_pro([$0])
   OPENMP_[]_AC_LANG_PREFIX[]FLAGS=
   AC_ARG_ENABLE([openmp],
@@ -149,12 +149,16 @@ AC_OPENMP_m4_defun_pro([$0])
 	  dnl   SGI C, PGI C         -mp
 	  dnl   Tru64 Compaq C       -omp
 	  dnl   IBM C (AIX, Linux)   -qsmp=omp
+          dnl   Cray CCE             -homp
+          dnl   NEC SX               -Popenmp
+          dnl   Lahey Fortran (Linux)  --openmp
 	  dnl If in this loop a compiler is passed an option that it doesn't
 	  dnl understand or that it misinterprets, the AC_LINK_IFELSE test
 	  dnl will fail (since we know that it failed without the option),
 	  dnl therefore the loop will continue searching for an option, and
 	  dnl no output file called 'penmp' or 'mp' is created.
-	  for ac_option in -fopenmp -xopenmp -openmp -mp -omp -qsmp=omp; do
+	  for ac_option in -fopenmp -xopenmp -openmp -mp -omp -qsmp=omp -homp \
+                           -Popenmp --openmp; do
 	    ac_save_[]_AC_LANG_PREFIX[]FLAGS=$[]_AC_LANG_PREFIX[]FLAGS
 	    _AC_LANG_PREFIX[]FLAGS="$[]_AC_LANG_PREFIX[]FLAGS $ac_option"
 	    AC_LINK_IFELSE([_AC_LANG_OPENMP],
@@ -174,7 +178,7 @@ AC_OPENMP_m4_defun_pro([$0])
   AC_SUBST([OPENMP_]_AC_LANG_PREFIX[FLAGS])
 []_m4_defun_epi([$0])
 T34,33
-m4_location(__AC_FC_NAME_MANGLING)../../lib/autoconf/fortran.m4:897
+m4_location(__AC_FC_NAME_MANGLING)../../lib/autoconf/fortran.m4:924
 T17,2041
 _AC_PATH_X_DIRECT# Standard set of common directories for X headers.
 # Check X11 before X11Rn because it is often a symlink to the current release.
@@ -260,7 +264,7 @@ AC_LANG_COMPILERAC_BEFORE([AC_LANG_COMPILER(]_AC_LANG[)],
 	   [AC_LANG_PREPROC(]_AC_LANG[)])dnl
 _AC_LANG_DISPATCH([$0], _AC_LANG, $@)
 T24,34
-m4_location(AC_TRY_LINK)../../lib/autoconf/general.m4:2688
+m4_location(AC_TRY_LINK)../../lib/autoconf/general.m4:2687
 T24,33
 m4_location(AC_TIMEZONE)../../lib/autoconf/oldnames.m4:80
 F5,5
@@ -271,7 +275,7 @@ T9,68
 _AS_TR_SH_AS_LITERAL_IF([$1], [*][	 ][
 ])([], [$0_INDIR], [$0_LITERAL])([$1])
 T19,34
-m4_location(_AC_DO)../../lib/autoconf/general.m4:2378
+m4_location(_AC_DO)../../lib/autoconf/general.m4:2377
 T44,27
 m4_location(AC_LANG_COMPILER(Objective C++))../../lib/autoconf/c.m4:992
 F7,4
@@ -318,7 +322,7 @@ _ACEOF
 esac
 []_m4_defun_epi([$0])
 T22,30
-m4_location(AC_OBJEXT)../../lib/autoconf/lang.m4:492
+m4_location(AC_OBJEXT)../../lib/autoconf/lang.m4:491
 T29,33
 m4_location(AC_HEADER_ASSERT)../../lib/autoconf/headers.m4:437
 T13,814
@@ -366,9 +370,9 @@ m4_divert_pop([$1])
 F5,5
 indexindex
 T34,30
-m4_location(AC_LANG_FUNC_LINK_TRY)../../lib/autoconf/lang.m4:281
+m4_location(AC_LANG_FUNC_LINK_TRY)../../lib/autoconf/lang.m4:280
 T32,33
-m4_location(AC_DECL_SYS_SIGLIST)../../lib/autoconf/specific.m4:41
+m4_location(AC_DECL_SYS_SIGLIST)../../lib/autoconf/specific.m4:39
 T19,112
 _AC_CACHE_CHECK_INT_m4_defun_pro([$0])AC_CACHE_CHECK([$1], [$2],
    [AC_COMPUTE_INT([$2], [$3], [$4], [$5])])
@@ -431,9 +435,9 @@ T10,3
 m4_newline
 $1
 T32,33
-m4_location(AC_REQUIRE_SHELL_FN)../../lib/autoconf/general.m4:183
+m4_location(AC_REQUIRE_SHELL_FN)../../lib/autoconf/general.m4:181
 T22,26
-m4_location(AC_LANG_C)../../lib/autoconf/c.m4:73
+m4_location(AC_LANG_C)../../lib/autoconf/c.m4:72
 T20,181
 AS_FUNCTION_DESCRIBE@%:@ $1[]m4_ifval([$2], [ $2])
 @%:@ m4_translit(m4_format([%*s],
@@ -562,15 +566,16 @@ if test $ac_cv_func_wait3_rusage = yes; then
 fi
 []_m4_defun_epi([$0])
 T23,34
-m4_location(AC_TRY_RUN)../../lib/autoconf/general.m4:2765
-T24,1844
+m4_location(AC_TRY_RUN)../../lib/autoconf/general.m4:2764
+T24,1910
 _AC_PROG_LEX_YYTEXT_DECLcat >conftest.l <<_ACEOF[
 %%
 a { ECHO; }
 b { REJECT; }
 c { yymore (); }
 d { yyless (1); }
-e { yyless (input () != 0); }
+e { /* IRIX 6.5 flex 2.5.4 underquotes its yyless argument.  */
+    yyless ((input () != 0)); }
 f { unput (yytext[0]); }
 . { BEGIN INITIAL; }
 %%
@@ -659,7 +664,7 @@ else
 fi
 []_m4_defun_epi([$0])
 T23,34
-m4_location(AC_VERBOSE)../../lib/autoconf/general.m4:2282
+m4_location(AC_VERBOSE)../../lib/autoconf/general.m4:2281
 T19,204
 AC_CANONICAL_SYSTEM_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_CANONICAL_SYSTEM' is obsolete.
 You should run autoupdate.])dnl
@@ -670,11 +675,11 @@ undefinem4_if([$#], [0], [[$0]],
 			    [m4_fatal([$0: undefined macro: $1])])],
        [m4_map_args([$0], $@)])
 T22,30
-m4_location(AS_ECHO_N)../../lib/m4sugar/m4sh.m4:1001
+m4_location(AS_ECHO_N)../../lib/m4sugar/m4sh.m4:1034
 T39,34
-m4_location(AC_DISABLE_OPTION_CHECKING)../../lib/autoconf/general.m4:1498
+m4_location(AC_DISABLE_OPTION_CHECKING)../../lib/autoconf/general.m4:1497
 T27,34
-m4_location(AC_CHECK_DECLS)../../lib/autoconf/general.m4:2881
+m4_location(AC_CHECK_DECLS)../../lib/autoconf/general.m4:2880
 T14,491
 AC_HEADER_TIME_m4_defun_pro([$0])AC_CACHE_CHECK([whether time.h and sys/time.h may both be included],
   ac_cv_header_time,
@@ -769,7 +774,7 @@ AS_IDENTIFIER_IFm4_if(_$0(m4_if(m4_index([$1], [@]), [-1],
 T30,27
 m4_location(AC_LANG_CPLUSPLUS)../../lib/autoconf/c.m4:252
 T29,33
-m4_location(AC_CONFIG_SRCDIR)../../lib/autoconf/general.m4:483
+m4_location(AC_CONFIG_SRCDIR)../../lib/autoconf/general.m4:481
 T7,91
 m4_argnm4_assert([0 < $1])m4_pushdef([_$0], [_m4_popdef([_$0])]m4_dquote([$]m4_incr([$1])))_$0($@)
 T10,91
@@ -811,7 +816,7 @@ static unsigned long int ulongval () { return $2; }
   return ferror (f) || fclose (f) != 0;
 ])
 T28,32
-m4_location(AC_CONFIG_LINKS)../../lib/autoconf/status.m4:923
+m4_location(AC_CONFIG_LINKS)../../lib/autoconf/status.m4:921
 T17,780
 _AS_ERROR_PREPAREAS_REQUIRE_SHELL_FN([as_fn_error],
   [AS_FUNCTION_DESCRIBE([as_fn_error], [STATUS ERROR]m4_ifval(AS_MESSAGE_LOG_FD,
@@ -833,9 +838,45 @@ m4_define([AS_MESSAGE_LOG_FD])], [m4_pushdef([AS_MESSAGE_LOG_FD])])dnl
 _m4_popdef([AS_MESSAGE_LOG_FD])dnl
   AS_EXIT([$as_status])])
 T27,31
-m4_location(AC_TYPE_MODE_T)../../lib/autoconf/types.m4:606
+m4_location(AC_TYPE_MODE_T)../../lib/autoconf/types.m4:614
 T9,28
 _m4_quotem4_if([$#], [0], [], [[$*]])
+T15,1002
+AC_FC_PP_DEFINE_m4_defun_pro([$0])AC_LANG_PUSH([Fortran])dnl
+ac_fc_pp_define_srcext_save=$ac_fc_srcext
+AC_FC_PP_SRCEXT([F])
+AC_CACHE_CHECK([how to define symbols for preprocessed Fortran],
+  [ac_cv_fc_pp_define],
+[ac_fc_pp_define_srcext_save=$ac_fc_srcext
+ac_cv_fc_pp_define=unknown
+ac_fc_pp_define_FCFLAGS_save=$FCFLAGS
+for ac_flag in -D -WF,-D -Wp,-D -Wc,-D
+do
+  FCFLAGS="$ac_fc_pp_define_FCFLAGS_save ${ac_flag}FOOBAR ${ac_flag}ZORK=42"
+  AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [[
+#ifndef FOOBAR
+      choke me
+#endif
+#if ZORK != 42
+      choke me
+#endif]])],
+    [ac_cv_fc_pp_define=$ac_flag])
+  test x"$ac_cv_fc_pp_define" != xunknown && break
+done
+FCFLAGS=$ac_fc_pp_define_FCFLAGS_save
+])
+ac_fc_srcext=$ac_fc_pp_define_srcext_save
+if test "x$ac_cv_fc_pp_define" = xunknown; then
+  FC_DEFINE=
+  m4_default([$2],
+	     [AC_MSG_ERROR([Fortran does not allow to define preprocessor symbols], 77)])
+else
+  FC_DEFINE=$ac_cv_fc_pp_define
+  $1
+fi
+AC_SUBST([FC_DEFINE])dnl
+AC_LANG_POP([Fortran])dnl
+[]_m4_defun_epi([$0])
 T8,33
 m4_applym4_if([$2], [], [$1], [$1($2)])[]
 T15,67
@@ -862,13 +903,13 @@ else
 fi
 []_m4_defun_epi([$0])
 T24,34
-m4_location(_AC_DO_ECHO)../../lib/autoconf/general.m4:2351
+m4_location(_AC_DO_ECHO)../../lib/autoconf/general.m4:2350
 T8,0
 _m4_warn
 T35,34
-m4_location(AC_PRESERVE_HELP_ORDER)../../lib/autoconf/general.m4:1434
+m4_location(AC_PRESERVE_HELP_ORDER)../../lib/autoconf/general.m4:1433
 T31,33
-m4_location(AC_HEADER_SYS_WAIT)../../lib/autoconf/headers.m4:725
+m4_location(AC_HEADER_SYS_WAIT)../../lib/autoconf/headers.m4:734
 T17,1797
 _AC_FC_DUMMY_MAIN_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
 m4_define(_AC_LANG_PROGRAM_C_[]_AC_FC[]_HOOKS,
@@ -922,11 +963,11 @@ fi])],
 T15,68
 AC_CONFIG_LINKS_m4_defun_pro([$0])_AC_CONFIG_FOOS([LINKS], $@)[]_m4_defun_epi([$0])
 T21,29
-m4_location(AS_UNSET)../../lib/m4sugar/m4sh.m4:638
+m4_location(AS_UNSET)../../lib/m4sugar/m4sh.m4:671
 T32,31
-m4_location(AC_TYPE_LONG_DOUBLE)../../lib/autoconf/types.m4:388
+m4_location(AC_TYPE_LONG_DOUBLE)../../lib/autoconf/types.m4:389
 T38,33
-m4_location(AC_LANG_COMPILER(Fortran))../../lib/autoconf/fortran.m4:262
+m4_location(AC_LANG_COMPILER(Fortran))../../lib/autoconf/fortran.m4:261
 T10,103
 m4_flattenm4_if(m4_index([$1], [
 ]), [-1], [[$1]],
@@ -1114,14 +1155,14 @@ if test -n "$ac_unrecognized_opts" && test "$enable_option_checking" != no; then
   AC_MSG_WARN([unrecognized options: $ac_unrecognized_opts])
 fi
 
-T14,1331
+T14,1347
 AC_FC_FREEFORM_m4_defun_once([AC_FC_FREEFORM], [AC_LANG_PUSH([Fortran])dnl
 AC_CACHE_CHECK([for Fortran flag needed to accept free-form source],
 	       [ac_cv_fc_freeform],
 [ac_cv_fc_freeform=unknown
 ac_fc_freeform_FCFLAGS_save=$FCFLAGS
 for ac_flag in none -ffree-form -FR -free -qfree -Mfree -Mfreeform \
-	       -freeform "-f free" +source=free -nfix
+	       -freeform "-f free" -8 +source=free -nfix --nfix -Free
 do
   test "x$ac_flag" != xnone && FCFLAGS="$ac_fc_freeform_FCFLAGS_save $ac_flag"
 dnl Use @&t@ below to ensure that editors don't turn 8+ spaces into tab.
@@ -1151,17 +1192,17 @@ AC_LANG_POP([Fortran])dnl
 m4_ifdef([_m4_diverting([AC_FC_FREEFORM])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_FC_FREEFORM],], [, _m4_divert_dump)]]))
 T31,33
-m4_location(_AC_FORTRAN_ASSERT)../../lib/autoconf/fortran.m4:159
+m4_location(_AC_FORTRAN_ASSERT)../../lib/autoconf/fortran.m4:158
 T26,34
-m4_location(AC_LIBSOURCES)../../lib/autoconf/general.m4:2921
+m4_location(AC_LIBSOURCES)../../lib/autoconf/general.m4:2920
 T29,66
 AC_LANG_COMPILER(Objective C)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_OBJC])[]_m4_defun_epi([$0])
 T27,28
 m4_location(AC_PROG_OBJCXX)../../lib/autoconf/c.m4:1010
 T33,33
-m4_location(AC_F77_NAME_MANGLING)../../lib/autoconf/fortran.m4:972
+m4_location(AC_F77_NAME_MANGLING)../../lib/autoconf/fortran.m4:999
 T29,31
-m4_location(AC_CHECK_MEMBERS)../../lib/autoconf/types.m4:913
+m4_location(AC_CHECK_MEMBERS)../../lib/autoconf/types.m4:921
 T25,297
 AC_LANG_CALL(Objective C)AC_LANG_PROGRAM([$1
 m4_if([$2], [main], ,
@@ -1176,7 +1217,7 @@ T12,115
 AC_COPYRIGHTAS_COPYRIGHT([$1])[]m4_divert_text(m4_default_quoted([$2], [VERSION_USER]),
 [m4_default([$3], [m4_newline])([$1])])
 T27,34
-m4_location(AC_DECL_YYTEXT)../../lib/autoconf/programs.m4:793
+m4_location(AC_DECL_YYTEXT)../../lib/autoconf/programs.m4:792
 F12,9
 m4_debugmodedebugmode
 F11,11
@@ -1353,7 +1394,7 @@ _AC_PROG_OBJC_G
 AC_LANG_POP(Objective C)dnl
 []_m4_defun_epi([$0])
 T28,30
-m4_location(_AC_LANG_ABBREV)../../lib/autoconf/lang.m4:142
+m4_location(_AC_LANG_ABBREV)../../lib/autoconf/lang.m4:141
 T14,698
 AC_LANG_DEFINEm4_define([AC_LANG($1)], [$6])
 m4_define([_AC_LANG_ABBREV($1)], [$2])
@@ -1402,7 +1443,7 @@ AC_FUNC_MEMCMP_m4_defun_pro([$0])AC_CACHE_CHECK([for working memcmp], ac_cv_func
 test $ac_cv_func_memcmp_working = no && AC_LIBOBJ([memcmp])
 []_m4_defun_epi([$0])
 T20,30
-m4_location(AS_LN_S)../../lib/m4sugar/m4sh.m4:1218
+m4_location(AS_LN_S)../../lib/m4sugar/m4sh.m4:1257
 T22,33
 m4_location(AC_PREFIX)../../lib/autoconf/oldnames.m4:38
 T7,0
@@ -1449,7 +1490,7 @@ AC_FUNC_STRFTIME[]_m4_defun_epi([$0])
 T26,33
 m4_location(AC_RETSIGTYPE)../../lib/autoconf/oldnames.m4:71
 T25,34
-m4_location(AC_CACHE_VAL)../../lib/autoconf/general.m4:2032
+m4_location(AC_CACHE_VAL)../../lib/autoconf/general.m4:2031
 T21,3
 _m4_divert(HELP_WITH)103
 T14,102
@@ -1461,9 +1502,9 @@ AC_TRY_COMMAND_m4_defun_pro([$0]){ ac_try='$1'
 T19,114
 AC_REQUIRE_SHELL_FN_m4_defun_pro([$0])AS_REQUIRE_SHELL_FN([$1], [$2], [$3], m4_default_quoted([$4], [SHELL_FN]))[]_m4_defun_epi([$0])
 T31,34
-m4_location(_AC_PREPROC_IFELSE)../../lib/autoconf/general.m4:2504
+m4_location(_AC_PREPROC_IFELSE)../../lib/autoconf/general.m4:2503
 T34,35
-m4_location(AC_FUNC_ERROR_AT_LINE)../../lib/autoconf/functions.m4:490
+m4_location(AC_FUNC_ERROR_AT_LINE)../../lib/autoconf/functions.m4:486
 T7,84
 _m4_for$4[$1]$5[]m4_if([$1], [$2], [],
 		 [$0(m4_eval([$1 + $3]), [$2], [$3], [$4], [$5])])
@@ -1505,7 +1546,7 @@ if test $ac_cv_func_strcoll_works = yes; then
 fi
 []_m4_defun_epi([$0])
 T24,34
-m4_location(AC_IRIX_SUN)../../lib/autoconf/specific.m4:470
+m4_location(AC_IRIX_SUN)../../lib/autoconf/specific.m4:474
 T13,1
 AS_MESSAGE_FD6
 T18,1
@@ -1513,12 +1554,12 @@ _AC_LANG_ABBREV(C)c
 T11,55
 AC_TRY_EVAL_m4_defun_pro([$0])_AC_EVAL([$$1])[]_m4_defun_epi([$0])
 T27,33
-m4_location(ac_cv_prog_g77)../../lib/autoconf/fortran.m4:269
+m4_location(ac_cv_prog_g77)../../lib/autoconf/fortran.m4:268
 T27,30
-m4_location(_AS_CR_PREPARE)../../lib/m4sugar/m4sh.m4:1775
+m4_location(_AS_CR_PREPARE)../../lib/m4sugar/m4sh.m4:1793
 T24,34
-m4_location(AC_F77_FUNC)../../lib/autoconf/fortran.m4:1084
-T18,1020
+m4_location(AC_F77_FUNC)../../lib/autoconf/fortran.m4:1111
+T18,1268
 _AS_LINENO_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_CR_PREPARE])AS_REQUIRE([_AS_ME_PREPARE])_AS_DETECT_SUGGESTED([_AS_LINENO_WORKS])m4_pushdef([AS_MESSAGE_LOG_FD])m4_pushdef([AS_ERROR],
   [{ AS_MESSAGE(]m4_dquote([error: $][1])[, [2]); AS_EXIT([1]); }])_AS_LINENO_WORKS || {
 [  # Blame Lee E. McMahon (1931-1989) for sed's syntax.  :-)
@@ -1540,6 +1581,10 @@ _AS_LINENO_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_CR_PREPARE])AS_REQUIRE([_AS
   chmod +x "$as_me.lineno"] ||
     AS_ERROR([cannot create $as_me.lineno; rerun with a POSIX shell])
 
+  # If we had to re-execute with $CONFIG_SHELL, we're ensured to have
+  # already done that, so ensure we don't try to do so again and fall
+  # in an infinite loop.  This has already happened in practice.
+  _as_can_reexec=no; export _as_can_reexec
   # Don't try to exec as it changes $[0], causing all sort of problems
   # (the dirname of $[0] is not the place where we might find the
   # original and so on.  Autoconf is especially sensitive to this).
@@ -1549,11 +1594,11 @@ _AS_LINENO_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_CR_PREPARE])AS_REQUIRE([_AS
 }
 _m4_popdef([AS_MESSAGE_LOG_FD], [AS_ERROR])[]_m4_defun_epi([$0])
 T40,30
-m4_location(_AS_VERSION_COMPARE_PREPARE)../../lib/m4sugar/m4sh.m4:1679
+m4_location(_AS_VERSION_COMPARE_PREPARE)../../lib/m4sugar/m4sh.m4:1697
 T33,27
 m4_location(_AC_ARG_VAR_CPPFLAGS)../../lib/autoconf/c.m4:308
 T23,33
-m4_location(AC_FOREACH)../../lib/autoconf/general.m4:196
+m4_location(AC_FOREACH)../../lib/autoconf/general.m4:194
 T17,528
 AC_TYPE_MBSTATE_T_m4_defun_pro([$0])AC_CACHE_CHECK([for mbstate_t], ac_cv_type_mbstate_t,
      [AC_COMPILE_IFELSE(
@@ -1576,8 +1621,41 @@ AC_LANG_PUSH(Fortran)dnl
 _AC_PROG_FC_C_O
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
+T20,459
+AC_LANG_INT_SAVE(Go)AC_LANG_PROGRAM([$1
+import (
+	"fmt"
+	"os"
+)
+],
+[f, err := os.Open("conftest.val", os.O_CREATE|os.O_WRONLY, 0777)
+ if err != nil {
+	os.Exit(1)
+ }
+ if $2 < 0 {
+	int64 i = int64($2)
+	if i != $2 {
+		os.Exit(1)
+	}
+	if _, err := fmt.Print(f, i); err != nil {
+		os.Exit(1)
+	}
+ } else {
+	uint64 i = uint64($2)
+	if i != $2 {
+		os.Exit(1)
+	}
+	if _, err := fmt.Print(f, i); err != nil {
+		os.Exit(1)
+	}
+ }
+ if err = f.Close(); err != nil {
+	os.Exit(1)
+ }
+ os.Exit(0);
+])
 T26,34
-m4_location(AC_CHECK_FUNC)../../lib/autoconf/functions.m4:60
+m4_location(AC_CHECK_FUNC)../../lib/autoconf/functions.m4:59
 T17,369
 _AC_INIT_DIRCHECK_m4_defun_pro([$0])m4_divert_push([PARSE_ARGS])dnl
 
@@ -1593,7 +1671,7 @@ m4_divert_pop([PARSE_ARGS])dnl
 T31,33
 m4_location(AC_WORDS_BIGENDIAN)../../lib/autoconf/oldnames.m4:83
 T35,34
-m4_location(AC_SYS_LONG_FILE_NAMES)../../lib/autoconf/specific.m4:189
+m4_location(AC_SYS_LONG_FILE_NAMES)../../lib/autoconf/specific.m4:193
 T21,33
 m4_location(AC_PID_T)../../lib/autoconf/oldnames.m4:69
 T11,31
@@ -1657,7 +1735,7 @@ m4_ifdef([_AC_LIST_SUBDIRS],
 ])])dnl
 
 T21,30
-m4_location(AS_TR_SH)../../lib/m4sugar/m4sh.m4:1808
+m4_location(AS_TR_SH)../../lib/m4sugar/m4sh.m4:1826
 T20,334
 AC_HEADER_TIOCGWINSZ_m4_defun_pro([$0])_AC_HEADER_TIOCGWINSZ_IN_TERMIOS_H
 if test $ac_cv_sys_tiocgwinsz_in_termios_h != yes; then
@@ -1680,11 +1758,11 @@ else
 fi
 []_m4_defun_epi([$0])
 T30,33
-m4_location(AC_PREFIX_DEFAULT)../../lib/autoconf/general.m4:452
+m4_location(AC_PREFIX_DEFAULT)../../lib/autoconf/general.m4:450
 T27,28
-m4_location(AC_C_BIGENDIAN)../../lib/autoconf/c.m4:1436
+m4_location(AC_C_BIGENDIAN)../../lib/autoconf/c.m4:1444
 T30,29
-m4_location(_AS_UNSET_PREPARE)../../lib/m4sugar/m4sh.m4:624
+m4_location(_AS_UNSET_PREPARE)../../lib/m4sugar/m4sh.m4:657
 T16,400
 _AS_EXIT_PREPARE_m4_defun_pro([$0])AS_REQUIRE_SHELL_FN([as_fn_set_status],
   [AS_FUNCTION_DESCRIBE([as_fn_set_status], [STATUS],
@@ -1717,8 +1795,8 @@ AC_COMPUTE_INT_m4_defun_pro([$0])AC_LANG_COMPILER_REQUIRE()AC_REQUIRE_SHELL_FN([
 []_m4_defun_epi([$0])
 T37,33
 m4_location(_AC_CHECK_HEADER_COMPILE)../../lib/autoconf/headers.m4:162
-T23,29
-m4_location(AS_DIRNAME)../../lib/m4sugar/m4sh.m4:969
+T23,30
+m4_location(AS_DIRNAME)../../lib/m4sugar/m4sh.m4:1002
 T24,27
 m4_location(AC_PROG_CPP)../../lib/autoconf/c.m4:388
 T11,165
@@ -1732,7 +1810,7 @@ m4_n([$2])$1 ()
 $3
 } @%:@ $1[]
 T30,31
-m4_location(AC_TYPE_UINTPTR_T)../../lib/autoconf/types.m4:365
+m4_location(AC_TYPE_UINTPTR_T)../../lib/autoconf/types.m4:366
 T15,1718
 _AC_FC_WRAPPERS_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
 AH_TEMPLATE(_AC_FC[_FUNC],
@@ -1819,7 +1897,7 @@ m4_if($#, 0, [AC_TYPE_UID_T], [AC_TYPE_UID_T($@)])[]_m4_defun_epi([$0])
 T12,0
 AC_LIBSOURCE
 T28,34
-m4_location(_AC_COMPUTE_INT)../../lib/autoconf/general.m4:3075
+m4_location(_AC_COMPUTE_INT)../../lib/autoconf/general.m4:3074
 T13,179
 AC_PATH_PROGS_m4_defun_pro([$0])for ac_prog in $2
 do
@@ -1829,9 +1907,9 @@ done
 m4_ifvaln([$3], [test -n "$$1" || $1="$3"])dnl
 []_m4_defun_epi([$0])
 T28,34
-m4_location(AC_PROG_INSTALL)../../lib/autoconf/programs.m4:526
+m4_location(AC_PROG_INSTALL)../../lib/autoconf/programs.m4:524
 T27,34
-m4_location(AC_ARG_PROGRAM)../../lib/autoconf/general.m4:1637
+m4_location(AC_ARG_PROGRAM)../../lib/autoconf/general.m4:1636
 T13,76
 _AC_DO_TOKENS_m4_defun_pro([$0]){ ac_try='$1'
   _AC_DO([$ac_try]); }[]_m4_defun_epi([$0])
@@ -1868,6 +1946,12 @@ _AC_LIST_MEMBER_IF_m4_defun_pro([$0])m4_if([$1], , [m4_fatal([$0: missing argume
 
   AS_IF([test x"$ac_exists" = xtrue], [$3], [$4])[]dnl
 []_m4_defun_epi([$0])
+T19,34
+AC_LANG_PROGRAM(Go)package main
+$1
+func main() {
+$2
+}
 T19,212
 AC_LANG(Fortran 77)ac_ext=f
 ac_compile='$F77 -c $FFLAGS conftest.$ac_ext >&AS_MESSAGE_LOG_FD'
@@ -1875,9 +1959,9 @@ ac_link='$F77 -o conftest$ac_exeext $FFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&AS
 ac_compiler_gnu=$ac_cv_f77_compiler_gnu
 
 T30,33
-m4_location(_AC_INIT_DIRCHECK)../../lib/autoconf/general.m4:493
+m4_location(_AC_INIT_DIRCHECK)../../lib/autoconf/general.m4:491
 T30,34
-m4_location(AC_PREPROC_IFELSE)../../lib/autoconf/general.m4:2519
+m4_location(AC_PREPROC_IFELSE)../../lib/autoconf/general.m4:2518
 T23,67
 AC_STRUCT_DIRENT_D_TYPE_m4_defun_pro([$0])_AC_STRUCT_DIRENT([d_type])[]_m4_defun_epi([$0])
 T11,30
@@ -1887,9 +1971,9 @@ AC_LANG_ERLANG_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LANG_ERL
 You should run autoupdate.])dnl
 AC_LANG(Erlang)[]_m4_defun_epi([$0])
 T28,36
-m4_location(AC_FUNC_SETPGRP)../../lib/autoconf/functions.m4:1481
+m4_location(AC_FUNC_SETPGRP)../../lib/autoconf/functions.m4:1477
 T34,35
-m4_location(AC_FUNC_CLOSEDIR_VOID)../../lib/autoconf/functions.m4:464
+m4_location(AC_FUNC_CLOSEDIR_VOID)../../lib/autoconf/functions.m4:460
 T17,1
 _m4_divert(BINSH)0
 T16,84
@@ -1967,23 +2051,26 @@ rm -f conftest*
 T19,95
 _AC_LANG_IO_PROGRAM_m4_defun_pro([$0])AC_LANG_SOURCE([_AC_LANG_DISPATCH([$0], _AC_LANG, $@)])[]_m4_defun_epi([$0])
 T29,31
-m4_location(AC_TYPE_UINT16_T)../../lib/autoconf/types.m4:621
+m4_location(AC_TYPE_UINT16_T)../../lib/autoconf/types.m4:629
 T7,119
 m4_casem4_if([$#], 0, [],
        [$#], 1, [],
        [$#], 2, [$2],
        [$1], [$2], [$3],
        [$0([$1], m4_shift3($@))])
-T30,468
+T30,523
 AC_TYPE_UNSIGNED_LONG_LONG_INT_m4_defun_pro([$0])
   AC_CACHE_CHECK([for unsigned long long int],
     [ac_cv_type_unsigned_long_long_int],
-    [AC_LINK_IFELSE(
-       [_AC_TYPE_LONG_LONG_SNIPPET],
-       [ac_cv_type_unsigned_long_long_int=yes],
-       [ac_cv_type_unsigned_long_long_int=no])])
+    [ac_cv_type_unsigned_long_long_int=yes
+     if test "x${ac_cv_prog_cc_c99-no}" = xno; then
+       AC_LINK_IFELSE(
+	 [_AC_TYPE_LONG_LONG_SNIPPET],
+	 [],
+	 [ac_cv_type_unsigned_long_long_int=no])
+     fi])
   if test $ac_cv_type_unsigned_long_long_int = yes; then
-    AC_DEFINE([HAVE_UNSIGNED_LONG_LONG_INT], 1,
+    AC_DEFINE([HAVE_UNSIGNED_LONG_LONG_INT], [1],
       [Define to 1 if the system has the type `unsigned long long int'.])
   fi
 []_m4_defun_epi([$0])
@@ -2009,8 +2096,8 @@ AC_SUBST([ERLANG_ROOT_DIR], [$ac_cv_erlang_root_dir])
 []_m4_defun_epi([$0])
 T13,57
 AS_ME_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_$0])[]_m4_defun_epi([$0])
-T20,29
-m4_location(AS_ECHO)../../lib/m4sugar/m4sh.m4:993
+T20,30
+m4_location(AS_ECHO)../../lib/m4sugar/m4sh.m4:1026
 T21,76
 _m4_set_add_all_checkm4_if([$#], [2], [],
        [m4_set_add([$1], [$3])$0([$1], m4_shift2($@))])
@@ -2107,14 +2194,14 @@ AC_LONG_FILE_NAMES_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LONG
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_SYS_LONG_FILE_NAMES], [AC_SYS_LONG_FILE_NAMES($@)])[]_m4_defun_epi([$0])
 T32,30
-m4_location(_AC_LANG_IO_PROGRAM)../../lib/autoconf/lang.m4:266
+m4_location(_AC_LANG_IO_PROGRAM)../../lib/autoconf/lang.m4:265
 T10,54
 m4_includem4_include_unique([$1])dnl
 m4_builtin([include], [$1])
-T14,179
+T14,181
 _AS_LITERAL_IFm4_if(m4_index([$1], [@S|@]), [-1], [$0_(m4_translit([$1],
-  [-:%/@{}[]#(),.$2]][[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789]][,
-  [+++++$$`````]))], [$0_NO])
+  [-:=%/@{}[]#(),.$2]][[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789]][,
+  [++++++$$`````]))], [$0_NO])
 T13,333
 _AC_FUNC_FORK_m4_defun_pro([$0])AC_CACHE_CHECK(for working fork, ac_cv_func_fork_works,
     [AC_RUN_IFELSE(
@@ -2133,9 +2220,9 @@ AS_REQUIRE_SHELL_FNm4_provide_if([AS_SHELL_FN_$1], [],
 [m4_provide([AS_SHELL_FN_$1])_$0($@)],
 m4_default_quoted([$4], [M4SH-INIT-FN]))])
 T40,34
-m4_location(AC_SYS_RESTARTABLE_SYSCALLS)../../lib/autoconf/specific.m4:228
+m4_location(AC_SYS_RESTARTABLE_SYSCALLS)../../lib/autoconf/specific.m4:232
 T22,34
-m4_location(AC_CYGWIN)../../lib/autoconf/specific.m4:317
+m4_location(AC_CYGWIN)../../lib/autoconf/specific.m4:321
 T12,115
 AC_MSG_ERRORas_fn_error m4_default([$2], [$?]) "_AS_QUOTE([$1])"m4_ifval(AS_MESSAGE_LOG_FD,
   [ "$LINENO" AS_MESSAGE_LOG_FD])[]
@@ -2151,32 +2238,13 @@ test $ac_cv_sizeof_int = 2 &&
 	    [Define to 1 if `sizeof (int)' = 2.  Obsolete, use `SIZEOF_INT'.])
 []_m4_defun_epi([$0])
 T22,30
-m4_location(AC_PATH_X)../../lib/autoconf/libs.m4:324
-T16,590
-_AS_TEST_PREPARE_m4_defun_pro([$0])if test -x / >/dev/null 2>&1; then
-  as_test_x='test -x'
-else
-  if ls -dL / >/dev/null 2>&1; then
-    as_ls_L_option=L
-  else
-    as_ls_L_option=
-  fi
-  as_test_x='
-    eval sh -c '\''
-      if test -d "$[]1"; then
-	test -d "$[]1/.";
-      else
-	case $[]1 in @%:@(
-	-*)set "./$[]1";;
-	esac;
-	case `ls -ld'$as_ls_L_option' "$[]1" 2>/dev/null` in @%:@((
-	???[[sx]]*):;;*)false;;esac;fi
-    '\'' sh
-  '
-fi
-dnl as_executable_p is present for backward compatibility with Libtool
-dnl 1.5.22, but it should go away at some point.
-as_executable_p=$as_test_x
+m4_location(AC_PATH_X)../../lib/autoconf/libs.m4:323
+T16,283
+_AS_TEST_PREPARE_m4_defun_pro([$0])AS_REQUIRE_SHELL_FN([as_fn_executable_p],
+  [AS_FUNCTION_DESCRIBE([as_fn_executable_p], [FILE],
+    [Test if FILE is an executable regular file.])],
+  [  test -f "$[]1" && test -x "$[]1"])as_test_x='test -x'
+as_executable_p=as_fn_executable_p
 []_m4_defun_epi([$0])
 T17,51
 _AS_ECHO_UNQUOTEDAS_ECHO(["$1"]) >&m4_default([$2], [AS_MESSAGE_FD])
@@ -2185,22 +2253,26 @@ _AS_CLEAN_DIRif test -d $1; then
   find $1 -type d ! -perm -700 -exec chmod u+rwx {} \;
   rm -fr $1/* $1/.[[!.]] $1/.??*
 fi
+T10,3
+_AC_CC(Go)GOC
 T16,89
 AC_CONFIG_SRCDIR_m4_defun_pro([$0])m4_divert_text([DEFAULTS], [ac_unique_file="$1"])[]_m4_defun_epi([$0])
 T29,29
-m4_location(_AS_EXIT_PREPARE)../../lib/m4sugar/m4sh.m4:535
+m4_location(_AS_EXIT_PREPARE)../../lib/m4sugar/m4sh.m4:568
 T27,36
-m4_location(AM_FUNC_MKTIME)../../lib/autoconf/functions.m4:1199
+m4_location(AM_FUNC_MKTIME)../../lib/autoconf/functions.m4:1195
+T23,28
+m4_location(AC_PROG_GO)../../lib/autoconf/go.m4:150
 T27,28
-m4_location(AC_PROG_CC_C99)../../lib/autoconf/c.m4:1362
+m4_location(AC_PROG_CC_C99)../../lib/autoconf/c.m4:1370
 F9,6
 m4_definedefine
 F9,6
 m4_sysvalsysval
 T36,33
-m4_location(AC_CONFIG_COMMANDS_POST)../../lib/autoconf/status.m4:1073
+m4_location(AC_CONFIG_COMMANDS_POST)../../lib/autoconf/status.m4:1071
 T17,17
-m4_PACKAGE_STRINGGNU Autoconf 2.68
+m4_PACKAGE_STRINGGNU Autoconf 2.69
 T27,54
 AC_PATH_PROGS_FEATURE_CHECK_$0([$1], [$2], [$3], m4_default([$4], [:]), [$5])dnl
 
@@ -2211,7 +2283,7 @@ _AS_ECHO([$1]); }dnl
 T25,33
 m4_location(AC_ST_BLOCKS)../../lib/autoconf/oldnames.m4:77
 T27,33
-m4_location(AC_HEADER_STDC)../../lib/autoconf/headers.m4:668
+m4_location(AC_HEADER_STDC)../../lib/autoconf/headers.m4:677
 T15,12
 m4_PACKAGE_NAMEGNU Autoconf
 T9,2
@@ -2273,7 +2345,7 @@ choke me
 #endif
 ], [return $1 ();])
 T31,31
-m4_location(_AC_CHECK_TYPE_NEW)../../lib/autoconf/types.m4:147
+m4_location(_AC_CHECK_TYPE_NEW)../../lib/autoconf/types.m4:148
 T18,202
 m4_cr_not_symbols1	
  !"#*%&'()$+,./0123456789:;<=>?@[\]^`{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ-
@@ -2300,9 +2372,9 @@ T18,192
 m4_cr_not_symbols2	
  !"#*%&'()$+,./:;<=>?@[\]^`{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ-
 T33,34
-m4_location(AC_CONFIG_LIBOBJ_DIR)../../lib/autoconf/general.m4:2908
+m4_location(AC_CONFIG_LIBOBJ_DIR)../../lib/autoconf/general.m4:2907
 T31,34
-m4_location(AC_CONFIG_AUX_DIRS)../../lib/autoconf/general.m4:1689
+m4_location(AC_CONFIG_AUX_DIRS)../../lib/autoconf/general.m4:1688
 T17,950
 _AC_TYPE_INT_BODY  AS_LINENO_PUSH([$[]1])
   AC_CACHE_CHECK([for int$[]2_t], [$[]3],
@@ -2332,8 +2404,8 @@ _AC_TYPE_INT_BODY  AS_LINENO_PUSH([$[]1])
 
 T20,3
 _AC_LANG_ABBREV(C++)cxx
-T15,36
-AS_EXECUTABLE_P{ test -f $1 && AS_TEST_X([$1]); }[]
+T15,23
+AS_EXECUTABLE_Pas_fn_executable_p $1[]
 T15,129
 AS_EXECUTABLE_P_m4_defun_pro([$0])AS_REQUIRE([_AS_TEST_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T21,196
@@ -2390,7 +2462,7 @@ _AC_PROG_CC_C89
 AC_LANG_POP(C)dnl
 []_m4_defun_epi([$0])
 T27,31
-m4_location(AC_TYPE_INT8_T)../../lib/autoconf/types.m4:616
+m4_location(AC_TYPE_INT8_T)../../lib/autoconf/types.m4:624
 T10,121
 _AC_LIBOBJcase " $LIB@&t@OBJS " in
   *" $1.$ac_objext "* ) ;;
@@ -2404,12 +2476,14 @@ AC_LANG_PUSH(Fortran)dnl
 __AC_FC_NAME_MANGLING
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
+T35,34
+m4_location(AC_FC_MODULE_EXTENSION)../../lib/autoconf/fortran.m4:1696
 T34,33
-m4_location(AC_FC_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:710
+m4_location(AC_FC_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:737
 T33,34
-m4_location(AC_CHECK_TARGET_TOOL)../../lib/autoconf/programs.m4:293
+m4_location(AC_CHECK_TARGET_TOOL)../../lib/autoconf/programs.m4:291
 T24,34
-m4_location(AC_ARG_WITH)../../lib/autoconf/general.m4:1482
+m4_location(AC_ARG_WITH)../../lib/autoconf/general.m4:1481
 T27,3
 _AC_LANG_ABBREV(Fortran 77)f77
 T20,50
@@ -2420,14 +2494,14 @@ T15,192
 AC_HEADER_EGREP_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_HEADER_EGREP' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_EGREP_HEADER], [AC_EGREP_HEADER($@)])[]_m4_defun_epi([$0])
-T15,1208
+T15,1221
 AC_FC_FIXEDFORM_m4_defun_once([AC_FC_FIXEDFORM], [AC_LANG_PUSH([Fortran])dnl
 AC_CACHE_CHECK([for Fortran flag needed to accept fixed-form source],
 	       [ac_cv_fc_fixedform],
 [ac_cv_fc_fixedform=unknown
 ac_fc_fixedform_FCFLAGS_save=$FCFLAGS
 for ac_flag in none -ffixed-form -fixed -qfixed -Mfixed -fixedform "-f fixed" \
-	       +source=fixed -fix
+	       +source=fixed -fix --fix -Fixed
 do
   test "x$ac_flag" != xnone && FCFLAGS="$ac_fc_fixedform_FCFLAGS_save $ac_flag"
   AC_COMPILE_IFELSE([[
@@ -2454,7 +2528,7 @@ AC_LANG_POP([Fortran])dnl
 m4_ifdef([_m4_diverting([AC_FC_FIXEDFORM])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_FC_FIXEDFORM],], [, _m4_divert_dump)]]))
 T25,34
-m4_location(AC_XENIX_DIR)../../lib/autoconf/specific.m4:447
+m4_location(AC_XENIX_DIR)../../lib/autoconf/specific.m4:451
 T31,0
 m4_include(autoconf/fortran.m4)
 T15,193
@@ -2483,9 +2557,9 @@ AS_VAR_POPDEF([ac_File])dnl
 T10,62
 m4_noquotem4_changequote([-=<{(],[)}>=-])$1-=<{()}>=-m4_changequote([,])
 T32,30
-m4_location(_AS_MKDIR_P_PREPARE)../../lib/m4sugar/m4sh.m4:1257
+m4_location(_AS_MKDIR_P_PREPARE)../../lib/m4sugar/m4sh.m4:1296
 T28,31
-m4_location(AC_TYPE_INT64_T)../../lib/autoconf/types.m4:619
+m4_location(AC_TYPE_INT64_T)../../lib/autoconf/types.m4:627
 T10,211
 m4_dumpdefm4_if([$#], [0], [m4_fatal([$0: missing argument])],
        [$#], [1], [m4_ifdef([$1], [m4_errprintn(
@@ -2769,13 +2843,13 @@ AC_CHECK_TYPE_m4_defun_pro([$0])m4_cond([$#], [3],
 	       [$0: assuming `$2' is not a type])_AC_CHECK_TYPE_NEW],
   [_AC_CHECK_TYPE_NEW])($@)[]_m4_defun_epi([$0])
 T33,31
-m4_location(AC_STRUCT_ST_BLKSIZE)../../lib/autoconf/types.m4:965
+m4_location(AC_STRUCT_ST_BLKSIZE)../../lib/autoconf/types.m4:973
 T14,189
 AM_FUNC_STRTOD_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AM_FUNC_STRTOD' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_FUNC_STRTOD], [AC_FUNC_STRTOD($@)])[]_m4_defun_epi([$0])
 T28,34
-m4_location(_AC_EVAL_STDERR)../../lib/autoconf/general.m4:2433
+m4_location(_AC_EVAL_STDERR)../../lib/autoconf/general.m4:2432
 T23,39
 m4_expansion_stack_pushm4_pushdef([_m4_expansion_stack], [$1])
 T15,749
@@ -2843,16 +2917,16 @@ AC_TYPE_LONG_DOUBLE_WIDER_m4_defun_pro([$0])
   fi
 []_m4_defun_epi([$0])
 T17,152
-m4_version_prereqm4_if(m4_version_compare([2.68], [$1]),
+m4_version_prereqm4_if(m4_version_compare([2.69], [$1]),
 	[-1],
 	[m4_default([$3],
 		    [m4_fatal([Autoconf version $1 or higher is required],
 			      [63])])],
 	[$2])
 T23,34
-m4_location(AC_TRY_CPP)../../lib/autoconf/general.m4:2530
+m4_location(AC_TRY_CPP)../../lib/autoconf/general.m4:2529
 T26,34
-m4_location(AC_PROG_EGREP)../../lib/autoconf/programs.m4:357
+m4_location(AC_PROG_EGREP)../../lib/autoconf/programs.m4:355
 T16,27
 _AS_QUOTE_MODERN_AS_ESCAPE([$1], [`], [""])
 T19,157
@@ -2892,7 +2966,7 @@ AC_FUNC_REALLOC_m4_defun_pro([$0])_AC_FUNC_REALLOC_IF(
       [Define to rpl_realloc if the replacement function should be used.])])
 []_m4_defun_epi([$0])
 T29,34
-m4_location(AC_PROG_MAKE_SET)../../lib/autoconf/programs.m4:819
+m4_location(AC_PROG_MAKE_SET)../../lib/autoconf/programs.m4:818
 T14,116
 AS_LINENO_PUSH_m4_defun_pro([$0])as_lineno=${as_lineno-"$1"} as_lineno_stack=as_lineno_stack=$as_lineno_stack[]_m4_defun_epi([$0])
 T17,478
@@ -3027,14 +3101,16 @@ AC_SUBST(X_LIBS)dnl
 AC_SUBST(X_EXTRA_LIBS)dnl
 []_m4_defun_epi([$0])
 T28,35
-m4_location(fp_FUNC_FNMATCH)../../lib/autoconf/functions.m4:598
+m4_location(fp_FUNC_FNMATCH)../../lib/autoconf/functions.m4:594
 T21,33
 m4_location(AC_UID_T)../../lib/autoconf/oldnames.m4:82
 T8,150
 m4_defunm4_define([m4_location($1)], m4_location)m4_default([$3], [m4_define])([$1],
   [_m4_defun_pro(]m4_dquote($[0])[)$2[]_m4_defun_epi(]m4_dquote($[0])[)])
 T35,33
-m4_location(_AC_FC_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:612
+m4_location(_AC_FC_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:634
+T25,23
+_AC_LANG_NULL_PROGRAM(Go)AC_LANG_PROGRAM([], [])
 T24,604
 _AC_CHECK_HEADER_COMPILE_m4_defun_pro([$0])AC_REQUIRE_SHELL_FN([ac_fn_]_AC_LANG_ABBREV[_check_header_compile],
   [AS_FUNCTION_DESCRIBE([ac_fn_]_AC_LANG_ABBREV[_check_header_compile],
@@ -3065,9 +3141,11 @@ AC_SETVBUF_REVERSED_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_SET
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_FUNC_SETVBUF_REVERSED], [AC_FUNC_SETVBUF_REVERSED($@)])[]_m4_defun_epi([$0])
 T27,36
-m4_location(_AC_FUNC_VFORK)../../lib/autoconf/functions.m4:1849
+m4_location(_AC_FUNC_VFORK)../../lib/autoconf/functions.m4:1845
 T6,132
 divertm4_popdef([_m4_divert_stack])m4_define([_m4_divert_diversion], [$1])m4_divert_stack_push([$0], [$1])_m4_divert_raw(_m4_divert([$1]))
+T19,2
+_AC_LANG_PREFIX(Go)GO
 T22,677
 _AC_INIT_PARSE_ENABLE2-$1-* | --$1-*)
     ac_useropt=`expr "x$ac_option" : 'x-*$1-\(m4_if([$1], [$2], [[[^=]]], [.])*\)'`
@@ -3093,7 +3171,7 @@ T13,47
 AS_LITERAL_IF_$0(m4_expand([$1]), [	 ][
 ])([$4], [$3], [$2])
 T30,33
-m4_location(AC_PREFIX_PROGRAM)../../lib/autoconf/general.m4:465
+m4_location(AC_PREFIX_PROGRAM)../../lib/autoconf/general.m4:463
 T8,81
 m4_chompm4_format([[%.*s]], m4_index(m4_translit([[$1]], [
 /.], [/  ])[./.], [/.]), [$1])
@@ -3103,6 +3181,34 @@ AS_ERRORas_fn_error m4_default([$2], [$?]) "_AS_QUOTE([$1])"m4_ifval(AS_MESSAGE_
 T8,187
 AS_ERROR_m4_defun_pro([$0])m4_append_uniq([_AS_CLEANUP],
   [m4_divert_text([M4SH-INIT-FN], [_AS_ERROR_PREPARE[]])])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
+T10,792
+AC_PROG_GO_m4_defun_pro([$0])AC_LANG_PUSH(Go)dnl
+AC_ARG_VAR([GOC],   [Go compiler command])dnl
+AC_ARG_VAR([GOFLAGS], [Go compiler flags])dnl
+_AC_ARG_VAR_LDFLAGS()dnl
+m4_ifval([$1],
+      [AC_CHECK_TOOLS(GOC, [$1])],
+[AC_CHECK_TOOL(GOC, gccgo)
+if test -z "$GOC"; then
+  if test -n "$ac_tool_prefix"; then
+    AC_CHECK_PROG(GOC, [${ac_tool_prefix}gccgo], [$ac_tool_prefix}gccgo])
+  fi
+fi
+if test -z "$GOC"; then
+  AC_CHECK_PROG(GOC, gccgo, gccgo, , , false)
+fi
+])
+
+# Provide some information about the compiler.
+_AS_ECHO_LOG([checking for _AC_LANG compiler version])
+set X $ac_compile
+ac_compiler=$[2]
+_AC_DO_LIMIT([$ac_compiler --version >&AS_MESSAGE_LOG_FD])
+m4_expand_once([_AC_COMPILER_EXEEXT])[]dnl
+m4_expand_once([_AC_COMPILER_OBJEXT])[]dnl
+GOFLAGS="-g -O2"
+AC_LANG_POP(Go)dnl
+[]_m4_defun_epi([$0])
 T13,492
 AC_C_VOLATILE_m4_defun_pro([$0])AC_CACHE_CHECK([for working volatile], ac_cv_c_volatile,
 [AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [
@@ -3119,7 +3225,7 @@ if test $ac_cv_c_volatile = no; then
 fi
 []_m4_defun_epi([$0])
 T25,29
-m4_location(_AS_ECHO_LOG)../../lib/m4sugar/m4sh.m4:757
+m4_location(_AS_ECHO_LOG)../../lib/m4sugar/m4sh.m4:790
 T16,245
 m4_cr_not_digits	
  !"#*%&'()$+,./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ-
@@ -3129,9 +3235,9 @@ AC_CHECK_ALIGNOF_m4_defun_pro([$0])m4_if(m4_index(m4_translit([[$1]], [`\"], [$]
 F11,7
 m4_maketempmkstemp
 T27,30
-m4_location(AS_VAR_PUSHDEF)../../lib/m4sugar/m4sh.m4:2048
+m4_location(AS_VAR_PUSHDEF)../../lib/m4sugar/m4sh.m4:2066
 T26,34
-m4_location(AC_PROG_FGREP)../../lib/autoconf/programs.m4:372
+m4_location(AC_PROG_FGREP)../../lib/autoconf/programs.m4:370
 F10,7
 m4_builtinbuiltin
 T17,164
@@ -3146,6 +3252,8 @@ _AC_CC(Fortran 77)F77
 T19,83
 AC_REQUIRE_AUX_FILEAS_LITERAL_WORD_IF([$1], [],
 	       [m4_fatal([$0: requires a literal argument])])
+T18,2
+AC_LANG_SOURCE(Go)$1
 T6,86
 AH_TOPm4_define([_AH_COUNTER], m4_incr(_AH_COUNTER))dnl
 AH_VERBATIM([0000]_AH_COUNTER, [$1])
@@ -3159,8 +3267,8 @@ m4_define([_AC_LANG], [$1])[]_m4_defun_epi([$0])
 T28,33
 m4_location(AM_PROG_INSTALL)../../lib/autoconf/oldnames.m4:92
 T31,36
-m4_location(AC_FUNC_STRERROR_R)../../lib/autoconf/functions.m4:1629
-T15,3391
+m4_location(AC_FUNC_STRERROR_R)../../lib/autoconf/functions.m4:1625
+T15,3932
 _AC_PROG_CC_C99_m4_defun_pro([$0])_AC_C_STD_TRY([c99],
 [[#include <stdarg.h>
 #include <stdbool.h>
@@ -3298,11 +3406,20 @@ dnl AIX		-qlanglvl=extc99 (unused restrictive mode: -qlanglvl=stdc99)
 dnl HP cc	-AC99
 dnl Intel ICC	-std=c99, -c99 (deprecated)
 dnl IRIX	-c99
-dnl Solaris	-xc99=all (Forte Developer 7 C mishandles -xc99 on Solaris 9,
-dnl		as it incorrectly assumes C99 semantics for library functions)
+dnl Solaris	-D_STDC_C99=
+dnl		cc's -xc99 option uses linker magic to define the external
+dnl		symbol __xpg4 as if by "int __xpg4 = 1;", which enables C99
+dnl		behavior for C library functions.  This is not wanted here,
+dnl		because it means that a single module compiled with -xc99
+dnl		alters C runtime behavior for the entire program, not for
+dnl		just the module.  Instead, define the (private) symbol
+dnl		_STDC_C99, which suppresses a bogus failure in <stdbool.h>.
+dnl		The resulting compiler passes the test case here, and that's
+dnl		good enough.  For more, please see the thread starting at:
+dnl            http://lists.gnu.org/archive/html/autoconf/2010-12/msg00059.html
 dnl Tru64	-c99
 dnl with extended modes being tried first.
-[[-std=gnu99 -std=c99 -c99 -AC99 -xc99=all -qlanglvl=extc99]], [$1], [$2])[]dnl
+[[-std=gnu99 -std=c99 -c99 -AC99 -D_STDC_C99= -qlanglvl=extc99]], [$1], [$2])[]dnl
 []_m4_defun_epi([$0])
 T7,16
 AS_LN_S$as_ln_s $1 $2[]
@@ -3338,7 +3455,7 @@ AC_SUBST([SET_MAKE])dnl
 T12,16
 m4_wrap_lifo_m4_wrap([$1[]])
 T20,29
-m4_location(AS_CASE)../../lib/m4sugar/m4sh.m4:517
+m4_location(AS_CASE)../../lib/m4sugar/m4sh.m4:550
 T25,53
 _m4_expansion_stack_entry_m4_defn([m4_location($1)])[: $1 is expanded from...]
 T14,87
@@ -3357,9 +3474,9 @@ _AC_CHECK_TYPE_MAYBE_TYPE_Pm4_bmatch([$1], [^[_a-zA-Z0-9 ]+\([_a-zA-Z0-9() *]\|\
 	  1, 0)dnl
 
 T30,32
-m4_location(AC_STRUCT_ST_RDEV)../../lib/autoconf/types.m4:1003
+m4_location(AC_STRUCT_ST_RDEV)../../lib/autoconf/types.m4:1011
 T30,34
-m4_location(AC_FC_LINE_LENGTH)../../lib/autoconf/fortran.m4:1297
+m4_location(AC_FC_LINE_LENGTH)../../lib/autoconf/fortran.m4:1486
 T14,110
 m4_divert_pushm4_divert_stack_push([$0], [$1])m4_pushdef([_m4_divert_diversion], [$1])_m4_divert_raw(_m4_divert([$1], [$2]))
 T14,221
@@ -3369,7 +3486,7 @@ AC_CHECK_FUNCS_m4_defun_pro([$0])m4_map_args_w([$1], [_AH_CHECK_FUNC(], [)])AS_F
 	       [$3])dnl])
 []_m4_defun_epi([$0])
 T32,36
-m4_location(_AC_FUNC_REALLOC_IF)../../lib/autoconf/functions.m4:1396
+m4_location(_AC_FUNC_REALLOC_IF)../../lib/autoconf/functions.m4:1392
 T8,191
 AC_SUBSTAS_IDENTIFIER_IF([$1], [],
   [m4_fatal([$0: `$1' is not a valid shell variable name])])AC_SUBST_TRACE([$1])m4_pattern_allow([^$1$])m4_ifvaln([$2], [$1=$2])[]m4_set_add([_AC_SUBST_VARS], [$1])
@@ -3378,7 +3495,7 @@ AC_LANG_CONFTEST(Erlang)cat > conftest.$ac_ext <<_ACEOF
 AC_LANG_DEFINES_PROVIDED[]$1
 _ACEOF
 T26,29
-m4_location(AS_LINENO_POP)../../lib/m4sugar/m4sh.m4:871
+m4_location(AS_LINENO_POP)../../lib/m4sugar/m4sh.m4:904
 T30,33
 m4_location(AC_PROGRAMS_CHECK)../../lib/autoconf/oldnames.m4:39
 T14,159
@@ -3510,19 +3627,19 @@ T10,65
 _m4_shift3m4_if([$#], [3], [],
        [, m4_shift(m4_shift(m4_shift($@)))])
 T26,31
-m4_location(AC_TYPE_OFF_T)../../lib/autoconf/types.m4:603
+m4_location(AC_TYPE_OFF_T)../../lib/autoconf/types.m4:611
 T22,35
-m4_location(AC_ALLOCA)../../lib/autoconf/functions.m4:421
+m4_location(AC_ALLOCA)../../lib/autoconf/functions.m4:417
 T30,30
-m4_location(_AS_TR_SH_PREPARE)../../lib/m4sugar/m4sh.m4:1787
+m4_location(_AS_TR_SH_PREPARE)../../lib/m4sugar/m4sh.m4:1805
 T28,28
-m4_location(_AC_LANG_OPENMP)../../lib/autoconf/c.m4:1932
-T34,33
-m4_location(_AC_F77_NAME_MANGLING)../../lib/autoconf/fortran.m4:977
+m4_location(_AC_LANG_OPENMP)../../lib/autoconf/c.m4:1941
+T34,34
+m4_location(_AC_F77_NAME_MANGLING)../../lib/autoconf/fortran.m4:1004
 T23,36
-m4_location(AC_VPRINTF)../../lib/autoconf/functions.m4:1970
+m4_location(AC_VPRINTF)../../lib/autoconf/functions.m4:1966
 T28,30
-m4_location(AC_HAVE_LIBRARY)../../lib/autoconf/libs.m4:138
+m4_location(AC_HAVE_LIBRARY)../../lib/autoconf/libs.m4:137
 F6,6
 definedefine
 T26,23
@@ -3604,7 +3721,7 @@ AC_F77_NAME_MANGLING_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_F7
 You should run autoupdate.])dnl
 []_m4_defun_epi([$0])
 T26,28
-m4_location(_AC_C_STD_TRY)../../lib/autoconf/c.m4:1168
+m4_location(_AC_C_STD_TRY)../../lib/autoconf/c.m4:1167
 T15,148
 _m4_append_uniqm4_ifdef([$1],
 	  [m4_if(m4_index([$3]_m4_defn([$1])[$3], [$3$2$3]), [-1],
@@ -3628,11 +3745,11 @@ else
 fi
 []_m4_defun_epi([$0])
 T27,30
-m4_location(_AS_TR_PREPARE)../../lib/m4sugar/m4sh.m4:1860
+m4_location(_AS_TR_PREPARE)../../lib/m4sugar/m4sh.m4:1878
 T25,34
-m4_location(AC_PATH_PROG)../../lib/autoconf/programs.m4:157
+m4_location(AC_PATH_PROG)../../lib/autoconf/programs.m4:155
 T28,34
-m4_location(AC_F77_WRAPPERS)../../lib/autoconf/fortran.m4:1044
+m4_location(AC_F77_WRAPPERS)../../lib/autoconf/fortran.m4:1071
 T31,154
 AC_VALIDATE_CACHED_SYSTEM_TUPLE_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_VALIDATE_CACHED_SYSTEM_TUPLE' is obsolete.
 You should run autoupdate.])dnl
@@ -3651,7 +3768,7 @@ T14,107
 m4_set_map_sepm4_ifdef([_m4_set_cleanup($1)], [_m4_set_contents_1c],
 	  [_m4_set_contents_1])([$1])_m4_set_contents_2($@)
 T26,34
-m4_location(AC_RUN_IFELSE)../../lib/autoconf/general.m4:2749
+m4_location(AC_RUN_IFELSE)../../lib/autoconf/general.m4:2748
 T43,27
 m4_location(AC_LANG_PREPROC(Objective C++))../../lib/autoconf/c.m4:954
 T30,71
@@ -3659,11 +3776,11 @@ AC_LANG_PREPROC(Objective C++)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_OBJCXXCPP])
 T36,32
 m4_location(AC_LANG_PREPROC(Erlang))../../lib/autoconf/erlang.m4:160
 T28,35
-m4_location(AC_FUNC_MBRTOWC)../../lib/autoconf/functions.m4:931
+m4_location(AC_FUNC_MBRTOWC)../../lib/autoconf/functions.m4:927
 T26,34
-m4_location(AC_CHECK_PROG)../../lib/autoconf/programs.m4:102
-T10,66
-_AC_F95_FCgfortran g95 xlf95 f95 fort ifort ifc efc pgfortran pgf95 lf95 ftn
+m4_location(AC_CHECK_PROG)../../lib/autoconf/programs.m4:100
+T10,73
+_AC_F95_FCgfortran g95 xlf95 f95 fort ifort ifc efc pgfortran pgf95 lf95 ftn nagfor
 F11,8
 m4_translittranslit
 F9,6
@@ -3686,7 +3803,7 @@ AC_TYPE_INT32_T_m4_defun_pro([$0])_AC_TYPE_INT(32)[]_m4_defun_epi([$0])
 T25,111
 m4_stack_foreach_sep_lifo_m4_stack_reverse([$1], [m4_tmp-$1], [$2[]_m4_defn([m4_tmp-$1])$3], [$4[]])_m4_stack_reverse([m4_tmp-$1], [$1])
 T29,29
-m4_location(_AS_DIRNAME_EXPR)../../lib/m4sugar/m4sh.m4:942
+m4_location(_AS_DIRNAME_EXPR)../../lib/m4sugar/m4sh.m4:975
 T13,474
 _m4_text_wrapm4_pushdef([m4_Indent], m4_qlen([$2]))m4_pushdef([m4_Cursor], m4_qlen([$3]))m4_pushdef([m4_Separator], [m4_define([m4_Separator], [ ])])[$3]m4_cond([m4_Cursor], m4_Indent, [],
 	      [m4_eval(m4_Cursor > m4_Indent)], [1], [
@@ -3700,14 +3817,14 @@ m4_if($#, 0, [AC_FUNC_STRCOLL], [AC_FUNC_STRCOLL($@)])[]_m4_defun_epi([$0])
 T15,68
 AC_CONFIG_FILES_m4_defun_pro([$0])_AC_CONFIG_FOOS([FILES], $@)[]_m4_defun_epi([$0])
 T23,36
-m4_location(AC_STRCOLL)../../lib/autoconf/functions.m4:1748
+m4_location(AC_STRCOLL)../../lib/autoconf/functions.m4:1744
 T27,29
-m4_location(AC_SEARCH_LIBS)../../lib/autoconf/libs.m4:48
+m4_location(AC_SEARCH_LIBS)../../lib/autoconf/libs.m4:47
 T21,1
 _m4_divert(M4SH-INIT)6
 T16,4
 _m4_divert(BODY)1000
-T7,633
+T7,676
 AS_INIT# Wrap our cleanup prior to m4sugar's cleanup.
 m4_wrap([_AS_CLEANUP])
 m4_init
@@ -3727,17 +3844,18 @@ m4_divert_text([M4SH-INIT-FN], [m4_text_box([M4sh Shell Functions.])])
 m4_divert([BODY])dnl
 m4_text_box([Main body of script.])
 _AS_DETECT_REQUIRED([_AS_SHELL_FN_WORK])dnl
+_AS_DETECT_REQUIRED([_AS_TEST_X_WORKS])dnl
 AS_REQUIRE([_AS_UNSET_PREPARE], [], [M4SH-INIT-FN])dnl
 
 T25,31
-m4_location(_AC_TYPE_INT)../../lib/autoconf/types.m4:663
+m4_location(_AC_TYPE_INT)../../lib/autoconf/types.m4:671
 T27,31
-m4_location(AC_CHECK_TYPES)../../lib/autoconf/types.m4:177
+m4_location(AC_CHECK_TYPES)../../lib/autoconf/types.m4:178
 T16,187
 AC_PROGRAM_EGREP_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_PROGRAM_EGREP' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_EGREP_CPP], [AC_EGREP_CPP($@)])[]_m4_defun_epi([$0])
-T12,899
+T12,982
 AC_FC_SRCEXT_m4_defun_pro([$0])AC_LANG_PUSH(Fortran)dnl
 AC_CACHE_CHECK([for Fortran flag to compile .$1 files],
 		ac_cv_fc_srcext_$1,
@@ -3745,7 +3863,11 @@ AC_CACHE_CHECK([for Fortran flag to compile .$1 files],
 ac_fcflags_srcext_save=$ac_fcflags_srcext
 ac_fcflags_srcext=
 ac_cv_fc_srcext_$1=unknown
-for ac_flag in none -qsuffix=f=$1 -Tf; do
+case $ac_ext in #(
+  [[fF]]77) ac_try=f77;; #(
+  *) ac_try=f95;;
+esac
+for ac_flag in none -qsuffix=f=$1 -Tf "-x $ac_try"; do
   test "x$ac_flag" != xnone && ac_fcflags_srcext="$ac_flag"
   AC_COMPILE_IFELSE([AC_LANG_PROGRAM()], [ac_cv_fc_srcext_$1=$ac_flag; break])
 done
@@ -3776,7 +3898,7 @@ AS_LINENO_POP_m4_defun_pro([$0])eval $as_lineno_stack; ${as_lineno_stack:+:} uns
 T14,63
 AC_REQUIRE_CPP_m4_defun_pro([$0])AC_LANG_PREPROC_REQUIRE[]_m4_defun_epi([$0])
 T19,34
-m4_location(AC_AIX)../../lib/autoconf/specific.m4:432
+m4_location(AC_AIX)../../lib/autoconf/specific.m4:436
 T23,103
 AC_LANG_PREPROC(Erlang)_m4_defun_pro([$0])m4_warn([syntax],
 	 [$0: No preprocessor defined for ]_AC_LANG)[]_m4_defun_epi([$0])
@@ -3791,7 +3913,7 @@ AS_LITERAL_HEREDOC_IF_$0(m4_expand([$1]))([$2], [$3])
 T19,92
 AC_CHECK_DECLS_ONCE_m4_defun_pro([$0])m4_map_args_sep([_AC_CHECK_DECL_ONCE(], [)], [], $1)[]_m4_defun_epi([$0])
 T26,30
-m4_location(_AS_PATH_WALK)../../lib/m4sugar/m4sh.m4:1300
+m4_location(_AS_PATH_WALK)../../lib/m4sugar/m4sh.m4:1339
 T19,597
 _AC_COMPILER_OBJEXTAC_CACHE_CHECK([for suffix of object files], ac_cv_objext,
 [AC_LANG_CONFTEST([_AC_LANG_NULL_PROGRAM])
@@ -3852,7 +3974,7 @@ AC_C_RESTRICT_m4_defun_pro([$0])AC_CACHE_CHECK([for C/C++ restrict keyword], ac_
 T32,27
 m4_location(_AC_ARG_VAR_LDFLAGS)../../lib/autoconf/c.m4:318
 T39,28
-m4_location(AC_C_FLEXIBLE_ARRAY_MEMBER)../../lib/autoconf/c.m4:1837
+m4_location(AC_C_FLEXIBLE_ARRAY_MEMBER)../../lib/autoconf/c.m4:1846
 T9,26
 m4_ifndefm4_ifdef([$1], [$3], [$2])
 T26,1
@@ -3862,11 +3984,11 @@ _AC_CHECK_FUNC_ONCE_AH_CHECK_FUNC([$1])AC_DEFUN([_AC_Func_$1],
   [m4_divert_text([INIT_PREPARE], [AS_VAR_APPEND([ac_func_list], [" $1"])])
 _AC_FUNCS_EXPANSION])AC_REQUIRE([_AC_Func_$1])
 T26,36
-m4_location(_AC_FUNC_FORK)../../lib/autoconf/functions.m4:1833
+m4_location(_AC_FUNC_FORK)../../lib/autoconf/functions.m4:1829
 T30,27
 m4_location(AC_PROG_OBJCXXCPP)../../lib/autoconf/c.m4:961
 T27,34
-m4_location(AC_LINK_IFELSE)../../lib/autoconf/general.m4:2679
+m4_location(AC_LINK_IFELSE)../../lib/autoconf/general.m4:2678
 T13,26
 m4_cr_LETTERSABCDEFGHIJKLMNOPQRSTUVWXYZ
 T16,452
@@ -3896,9 +4018,9 @@ You should run autoupdate.])dnl
 T14,37
 m4_PACKAGE_URLhttp://www.gnu.org/software/autoconf/
 T27,31
-m4_location(AC_TYPE_SIGNAL)../../lib/autoconf/types.m4:738
+m4_location(AC_TYPE_SIGNAL)../../lib/autoconf/types.m4:746
 T29,31
-m4_location(AC_CHECK_ALIGNOF)../../lib/autoconf/types.m4:792
+m4_location(AC_CHECK_ALIGNOF)../../lib/autoconf/types.m4:800
 T11,62
 m4_cr_alnumabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 T9,127
@@ -3907,7 +4029,7 @@ _m4_splitm4_changequote([-=<{(],[)}>=-])[m4_bpatsubst(-=<{(-=<{($1)}>=-)}>=-, -=
 T20,3
 _m4_divert(HELP_END)106
 T22,33
-m4_location(AC_PREREQ)../../lib/autoconf/general.m4:307
+m4_location(AC_PREREQ)../../lib/autoconf/general.m4:305
 T37,32
 m4_location(AC_LANG_COMPILER(Erlang))../../lib/autoconf/erlang.m4:167
 T7,108
@@ -3920,11 +4042,11 @@ _AS_ESCAPEm4_if(m4_index(m4_translit([[$1]], [$3], [$2$2$2$2]), [$2]), [-1],
 T16,65
 AC_TYPE_UINT64_T_m4_defun_pro([$0])_AC_TYPE_UNSIGNED_INT(64)[]_m4_defun_epi([$0])
 T26,34
-m4_location(_AC_DO_STDERR)../../lib/autoconf/general.m4:2386
+m4_location(_AC_DO_STDERR)../../lib/autoconf/general.m4:2385
 T26,31
-m4_location(AC_TYPE_PID_T)../../lib/autoconf/types.m4:600
+m4_location(AC_TYPE_PID_T)../../lib/autoconf/types.m4:608
 T32,31
-m4_location(AC_STRUCT_ST_BLOCKS)../../lib/autoconf/types.m4:991
+m4_location(AC_STRUCT_ST_BLOCKS)../../lib/autoconf/types.m4:999
 F7,6
 m4_exitm4exit
 T16,2
@@ -3935,7 +4057,7 @@ T6,91
 _AC_DO_m4_defun_pro([$0])_AC_RUN_LOG([eval "$1"],
 	     [_AC_DO_ECHO([$1])])[]_m4_defun_epi([$0])
 T37,36
-m4_location(AC_FUNC_SETVBUF_REVERSED)../../lib/autoconf/functions.m4:1714
+m4_location(AC_FUNC_SETVBUF_REVERSED)../../lib/autoconf/functions.m4:1710
 T14,2883
 _AC_FUNC_VFORK_m4_defun_pro([$0])AC_CACHE_CHECK(for working vfork, ac_cv_func_vfork_works,
 [AC_RUN_IFELSE([AC_LANG_SOURCE([[/* Thanks to Paul Eggert for this test.  */
@@ -4034,7 +4156,7 @@ main ()
 T12,21
 AC_LANG_CASEm4_case(_AC_LANG, $@)
 T31,29
-m4_location(_AS_SHELL_SANITIZE)../../lib/m4sugar/m4sh.m4:419
+m4_location(_AS_SHELL_SANITIZE)../../lib/m4sugar/m4sh.m4:451
 T17,297
 AC_LANG_CALL(C++)AC_LANG_PROGRAM([$1
 m4_if([$2], [main], ,
@@ -4046,7 +4168,7 @@ extern "C"
 #endif
 char $2 ();])], [return $2 ();])
 T32,35
-m4_location(_AC_FUNC_FNMATCH_IF)../../lib/autoconf/functions.m4:512
+m4_location(_AC_FUNC_FNMATCH_IF)../../lib/autoconf/functions.m4:508
 T6,129
 AC_RSH_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_RSH' is obsolete.
 You should run autoupdate.])dnl
@@ -4255,6 +4377,8 @@ AC_DEFINE_UNQUOTED(GETGROUPS_T, $ac_cv_type_getgroups,
 		   [Define to the type of elements in the array set by
 		    `getgroups'. Usually this is either `int' or `gid_t'.])
 []_m4_defun_epi([$0])
+T20,64
+AC_LANG_COMPILER(Go)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_GO])[]_m4_defun_epi([$0])
 T18,3219
 AC_FUNC_GETLOADAVG_m4_defun_pro([$0])ac_have_func=no # yes means we've found a way to get the load average.
 
@@ -4359,13 +4483,17 @@ AC_LANG_SAVE_m4_defun_pro([$0])m4_pushdef([_AC_LANG], _AC_LANG)dnl
 AC_DIAGNOSE([obsolete], [The macro `AC_LANG_SAVE' is obsolete.
 You should run autoupdate.])[]_m4_defun_epi([$0])
 T29,31
-m4_location(AC_C_LONG_DOUBLE)../../lib/autoconf/types.m4:451
+m4_location(AC_C_LONG_DOUBLE)../../lib/autoconf/types.m4:452
 T22,2
 _m4_divert(PARSE_ARGS)20
 T12,64
 _AS_ECHO_LOG_AS_ECHO([$as_me:${as_lineno-$LINENO}: $1], AS_MESSAGE_LOG_FD)[]
 T12,131
 _AS_ECHO_LOG_m4_defun_pro([$0])AS_REQUIRE([_AS_LINENO_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
+T16,63
+AC_LANG_CALL(Go)AC_LANG_PROGRAM([$1
+m4_if([$2], [main], ,
+[func $2()])],[$2()])
 T14,416
 AC_C_STRINGIZE_m4_defun_pro([$0])AC_CACHE_CHECK([for preprocessor stringizing operator],
 		[ac_cv_c_stringize],
@@ -4381,7 +4509,7 @@ if test $ac_cv_c_stringize = yes; then
 fi
 []_m4_defun_epi([$0])
 T27,35
-m4_location(AC_FUNC_ALLOCA)../../lib/autoconf/functions.m4:366
+m4_location(AC_FUNC_ALLOCA)../../lib/autoconf/functions.m4:362
 T8,66
 m4_ifsetm4_ifdef([$1],
 	  [m4_ifval(_m4_defn([$1]), [$2], [$3])],
@@ -4402,23 +4530,23 @@ T8,150
 AC_DEFUNm4_define([m4_location($1)], m4_location)m4_default([$3], [m4_define])([$1],
   [_m4_defun_pro(]m4_dquote($[0])[)$2[]_m4_defun_epi(]m4_dquote($[0])[)])
 T33,33
-m4_location(_AC_OUTPUT_MAIN_LOOP)../../lib/autoconf/status.m4:1601
+m4_location(_AC_OUTPUT_MAIN_LOOP)../../lib/autoconf/status.m4:1599
 T28,34
-m4_location(_AC_FC_WRAPPERS)../../lib/autoconf/fortran.m4:1003
+m4_location(_AC_FC_WRAPPERS)../../lib/autoconf/fortran.m4:1030
 T23,29
-m4_location(AS_REQUIRE)../../lib/m4sugar/m4sh.m4:353
+m4_location(AS_REQUIRE)../../lib/m4sugar/m4sh.m4:385
 T27,1
 _m4_divert(HEADER-REVISION)1
 T15,76
 _AS_BOX_LITERALAS_ECHO(["_AS_ESCAPE(m4_dquote(m4_expand([m4_text_box($@)])), [`], [\"$])"])
 T27,34
-m4_location(AC_TRY_COMPILE)../../lib/autoconf/general.m4:2615
+m4_location(AC_TRY_COMPILE)../../lib/autoconf/general.m4:2614
 T11,81
 AC_PROG_AWK_m4_defun_pro([$0])AC_CHECK_PROGS(AWK, gawk mawk nawk awk, )[]_m4_defun_epi([$0])
 T31,35
-m4_location(_AC_FUNC_MALLOC_IF)../../lib/autoconf/functions.m4:891
+m4_location(_AC_FUNC_MALLOC_IF)../../lib/autoconf/functions.m4:887
 T25,32
-m4_location(AC_STRUCT_TM)../../lib/autoconf/types.m4:1018
+m4_location(AC_STRUCT_TM)../../lib/autoconf/types.m4:1026
 T13,116
 _AS_BOX_INDIRsed 'h;s/./m4_default([$2], [-])/g;s/^.../@%:@@%:@ /;s/...$/ @%:@@%:@/;p;x;p;x' <<_ASBOX
 @%:@@%:@ $1 @%:@@%:@
@@ -4436,7 +4564,7 @@ T17,91
 AC_PREPROC_IFELSE_m4_defun_pro([$0])AC_LANG_PREPROC_REQUIRE()dnl
 _AC_PREPROC_IFELSE($@)[]_m4_defun_epi([$0])
 T23,34
-m4_location(AC_MINGW32)../../lib/autoconf/specific.m4:345
+m4_location(AC_MINGW32)../../lib/autoconf/specific.m4:349
 T11,54
 m4_ifnblankm4_if(m4_translit([[$1]],  [ ][	][
 ]), [], [$3], [$2])
@@ -4541,13 +4669,13 @@ m4_undefinem4_if([$#], [0], [[$0]],
 			    [m4_fatal([$0: undefined macro: $1])])],
        [m4_map_args([$0], $@)])
 T29,30
-m4_location(_AS_LN_S_PREPARE)../../lib/m4sugar/m4sh.m4:1184
+m4_location(_AS_LN_S_PREPARE)../../lib/m4sugar/m4sh.m4:1223
 T23,33
 m4_location(AM_MINGW32)../../lib/autoconf/oldnames.m4:91
 T25,34
-m4_location(AC_ISC_POSIX)../../lib/autoconf/specific.m4:442
+m4_location(AC_ISC_POSIX)../../lib/autoconf/specific.m4:446
 T27,35
-m4_location(AC_FUNC_MKTIME)../../lib/autoconf/functions.m4:991
+m4_location(AC_FUNC_MKTIME)../../lib/autoconf/functions.m4:987
 T10,221
 AC_MINGW32_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_MINGW32' is obsolete.
 You should run autoupdate.])dnl
@@ -4557,8 +4685,23 @@ case $host_os in
 	  * ) MINGW32=no;;
 esac
 []_m4_defun_epi([$0])
+T37,34
+m4_location(AC_FC_MODULE_OUTPUT_FLAG)../../lib/autoconf/fortran.m4:1812
 T20,20
 m4_PACKAGE_BUGREPORTbug-autoconf@gnu.org
+T23,239
+_AC_LANG_IO_PROGRAM(Go)AC_LANG_PROGRAM([import ( "fmt"; "os" )],
+[f, err := os.Open("conftest.out", os.O_CREATE|os.O_WRONLY, 0777)
+ if err != nil {
+	fmt.Println(err)
+	os.Exit(1)
+ }
+ if err = f.Close(); err != nil {
+	fmt.Println(err)
+	os.Exit(1)
+ }
+ os.Exit(0)
+])
 T15,66
 AC_MSG_CHECKING{ _AS_ECHO_LOG([checking $1])
 _AS_ECHO_N([checking $1... ]); }dnl
@@ -4618,7 +4761,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 T32,0
 m4_include(autoconf/oldnames.m4)
 T30,31
-m4_location(AC_TYPE_GETGROUPS)../../lib/autoconf/types.m4:258
+m4_location(AC_TYPE_GETGROUPS)../../lib/autoconf/types.m4:259
 T21,479
 _AS_VAR_ARITH_PREPARE_m4_defun_pro([$0])AS_FUNCTION_DESCRIBE([as_fn_arith], [ARG...],
 [Perform arithmetic evaluation on the ARGs, and store the result in
@@ -4661,7 +4804,7 @@ _AC_FC_FUNC([$1],[$2])
 AC_LANG_POP(Fortran 77)dnl
 []_m4_defun_epi([$0])
 T31,32
-m4_location(_AC_LIST_MEMBER_IF)../../lib/autoconf/fortran.m4:80
+m4_location(_AC_LIST_MEMBER_IF)../../lib/autoconf/fortran.m4:79
 T15,891
 AC_FUNC_STRNLEN_m4_defun_pro([$0])AC_REQUIRE([AC_USE_SYSTEM_EXTENSIONS])dnl
 AC_REQUIRE([AC_CANONICAL_HOST]) dnl for cross-compiles
@@ -4692,7 +4835,7 @@ AC_CACHE_CHECK([for working strnlen], ac_cv_func_strnlen_working,
 test $ac_cv_func_strnlen_working = no && AC_LIBOBJ([strnlen])
 []_m4_defun_epi([$0])
 T30,29
-m4_location(_AS_BASENAME_EXPR)../../lib/m4sugar/m4sh.m4:888
+m4_location(_AS_BASENAME_EXPR)../../lib/m4sugar/m4sh.m4:921
 T32,31
 m4_location(AC_ERLANG_NEED_ERLC)../../lib/autoconf/erlang.m4:63
 T9,75
@@ -4702,9 +4845,9 @@ AC_MINIX_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_MINIX' is obso
 You should run autoupdate.])dnl
 AC_USE_SYSTEM_EXTENSIONS[]_m4_defun_epi([$0])
 T21,34
-m4_location(AC_MINIX)../../lib/autoconf/specific.m4:437
+m4_location(AC_MINIX)../../lib/autoconf/specific.m4:441
 T28,28
-m4_location(AC_C_PROTOTYPES)../../lib/autoconf/c.m4:1819
+m4_location(AC_C_PROTOTYPES)../../lib/autoconf/c.m4:1828
 F4,4
 decrdecr
 T15,808
@@ -4733,9 +4876,9 @@ fi
 AC_LANG_POP([C++])dnl
 []_m4_defun_epi([$0])
 T35,31
-m4_location(AC_STRUCT_DIRENT_D_INO)../../lib/autoconf/types.m4:956
+m4_location(AC_STRUCT_DIRENT_D_INO)../../lib/autoconf/types.m4:964
 T29,35
-m4_location(AC_REPLACE_FUNCS)../../lib/autoconf/functions.m4:133
+m4_location(AC_REPLACE_FUNCS)../../lib/autoconf/functions.m4:132
 T17,340
 AC_STRUCT_ST_RDEV_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_STRUCT_ST_RDEV' is obsolete.
 You should run autoupdate.])dnl
@@ -4773,16 +4916,16 @@ m4_ifdef([_m4_diverting([AC_CANONICAL_TARGET])], [-]), [-], [[m4_unquote(], [)]]
 T20,111
 m4_stack_foreach_sep_m4_stack_reverse([$1], [m4_tmp-$1])_m4_stack_reverse([m4_tmp-$1], [$1], [$2[]_m4_defn([m4_tmp-$1])$3], [$4[]])
 T38,31
-m4_location(AC_TYPE_LONG_DOUBLE_WIDER)../../lib/autoconf/types.m4:413
+m4_location(AC_TYPE_LONG_DOUBLE_WIDER)../../lib/autoconf/types.m4:414
 T10,79
 _m4_shiftnm4_if([$1], 1, [m4_shift(],
        [$0(m4_decr([$1])]), m4_shift(m4_shift($@)))
-T17,190
+T17,153
 _AC_REPLACE_FUNCSAS_LITERAL_IF([$1],
 [m4_map_args_w([$1], [_AC_REPLACE_FUNC(], [)
 ])],
 [AC_CHECK_FUNCS([$1],
-  [_AH_CHECK_FUNC([$ac_func])AC_DEFINE(AS_TR_CPP([HAVE_$ac_func]))],
+  [_AH_CHECK_FUNC([$ac_func])],
   [_AC_LIBOBJ([$ac_func])])])
 T15,114
 AS_VAR_TEST_SETAS_LITERAL_WORD_IF([$1],
@@ -4811,7 +4954,7 @@ AC_PREFIX_DEFAULT_m4_defun_pro([$0])m4_divert_text([DEFAULTS], [ac_default_prefi
 F6,6
 syscmdsyscmd
 T27,35
-m4_location(AC_FUNC_FSEEKO)../../lib/autoconf/functions.m4:605
+m4_location(AC_FUNC_FSEEKO)../../lib/autoconf/functions.m4:601
 T11,162
 m4_dumpdefsm4_if([$#], [0], [m4_fatal([$0: missing argument])],
        [$#], [1], [m4_stack_foreach_lifo([$1], [m4_dumpdef([$1])m4_ignore])],
@@ -4832,11 +4975,11 @@ AC_PROGRAMS_CHECK_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_PROGR
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_CHECK_PROGS], [AC_CHECK_PROGS($@)])[]_m4_defun_epi([$0])
 T25,34
-m4_location(AC_PROG_GREP)../../lib/autoconf/programs.m4:390
+m4_location(AC_PROG_GREP)../../lib/autoconf/programs.m4:388
 T26,34
-m4_location(AC_MSG_NOTICE)../../lib/autoconf/general.m4:2249
+m4_location(AC_MSG_NOTICE)../../lib/autoconf/general.m4:2248
 T26,31
-m4_location(AC_CHECK_TYPE)../../lib/autoconf/types.m4:231
+m4_location(AC_CHECK_TYPE)../../lib/autoconf/types.m4:232
 T13,124
 _m4_defun_prom4_ifdef([_m4_expansion_stack], [], [_m4_defun_pro_outer([$1])])m4_expansion_stack_push([$1])m4_pushdef([_m4_expanding($1)])
 T18,98
@@ -4847,14 +4990,16 @@ _AC_LANG_OPENMP(C)
 #include <omp.h>
 int main () { return omp_get_num_threads (); }
 
+T26,0
+m4_include(autoconf/go.m4)
 T15,194
 AC_HAVE_HEADERS_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_HAVE_HEADERS' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_CHECK_HEADERS], [AC_CHECK_HEADERS($@)])[]_m4_defun_epi([$0])
 T33,33
-m4_location(_AC_PROG_FC_V_OUTPUT)../../lib/autoconf/fortran.m4:492
+m4_location(_AC_PROG_FC_V_OUTPUT)../../lib/autoconf/fortran.m4:497
 T25,36
-m4_location(AC_FUNC_MMAP)../../lib/autoconf/functions.m4:1205
+m4_location(AC_FUNC_MMAP)../../lib/autoconf/functions.m4:1201
 T18,71
 AC_CONFIG_COMMANDS_m4_defun_pro([$0])_AC_CONFIG_FOOS([COMMANDS], $@)[]_m4_defun_epi([$0])
 T14,188
@@ -4870,17 +5015,70 @@ T7,13
 AS_ECHO$as_echo $1[]
 T7,124
 AS_ECHO_m4_defun_pro([$0])AS_REQUIRE([_$0_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
+T25,59
+AC_LANG_FUNC_LINK_TRY(Go)AC_LANG_PROGRAM(
+[func $1() int
+var f = $1
+], [return f()])
 T4,37
 m4_nm4_if([$1],
        [], [],
 	   [$1
 ])
 T26,31
-m4_location(AC_TYPE_UID_T)../../lib/autoconf/types.m4:582
+m4_location(AC_TYPE_UID_T)../../lib/autoconf/types.m4:590
 T24,28
-m4_location(AC_C_TYPEOF)../../lib/autoconf/c.m4:1894
+m4_location(AC_C_TYPEOF)../../lib/autoconf/c.m4:1903
+T15,1355
+AC_FC_PP_SRCEXT_m4_defun_pro([$0])AC_LANG_PUSH(Fortran)dnl
+AC_CACHE_CHECK([for Fortran flag to compile preprocessed .$1 files],
+		ac_cv_fc_pp_srcext_$1,
+[ac_ext=$1
+ac_fcflags_pp_srcext_save=$ac_fcflags_srcext
+ac_fcflags_srcext=
+ac_cv_fc_pp_srcext_$1=unknown
+case $ac_ext in #(
+  [[fF]]77) ac_try=f77-cpp-input;; #(
+  *) ac_try=f95-cpp-input;;
+esac
+for ac_flag in none -ftpp -fpp -Tf "-fpp -Tf" -xpp=fpp -Mpreprocess "-e Z" \
+               -cpp -xpp=cpp -qsuffix=cpp=$1 "-x $ac_try" +cpp -Cpp; do
+  test "x$ac_flag" != xnone && ac_fcflags_srcext="$ac_flag"
+  AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [[
+#if 0
+#include <ac_nonexistent.h>
+      choke me
+#endif]])],
+    [AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [[
+#if 1
+#include <ac_nonexistent.h>
+      choke me
+#endif]])],
+       [],
+       [ac_cv_fc_pp_srcext_$1=$ac_flag; break])])
+done
+rm -f conftest.$ac_objext conftest.$1
+ac_fcflags_srcext=$ac_fcflags_pp_srcext_save
+])
+if test "x$ac_cv_fc_pp_srcext_$1" = xunknown; then
+  m4_default([$3],
+             [AC_MSG_ERROR([Fortran could not compile preprocessed .$1 files])])
+else
+  ac_fc_srcext=$1
+  if test "x$ac_cv_fc_pp_srcext_$1" = xnone; then
+    ac_fcflags_srcext=""
+    FCFLAGS_[]$1[]=""
+  else
+    ac_fcflags_srcext=$ac_cv_fc_pp_srcext_$1
+    FCFLAGS_[]$1[]=$ac_cv_fc_pp_srcext_$1
+  fi
+  AC_SUBST(FCFLAGS_[]$1)
+  $2
+fi
+AC_LANG_POP(Fortran)dnl
+[]_m4_defun_epi([$0])
 T44,34
-m4_location(AC_VALIDATE_CACHED_SYSTEM_TUPLE)../../lib/autoconf/general.m4:1866
+m4_location(AC_VALIDATE_CACHED_SYSTEM_TUPLE)../../lib/autoconf/general.m4:1865
 T7,178
 AC_MMAP_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_MMAP' is obsolete.
 You should run autoupdate.])dnl
@@ -4957,7 +5155,7 @@ m4_location(AC_PROG_CXX_C_O)../../lib/autoconf/c.m4:779
 T33,27
 m4_location(AC_LANG_PREPROC(C++))../../lib/autoconf/c.m4:627
 T26,35
-m4_location(AC_GETLOADAVG)../../lib/autoconf/functions.m4:812
+m4_location(AC_GETLOADAVG)../../lib/autoconf/functions.m4:808
 T17,604
 _AS_SHELL_FN_WORKas_fn_return () { (exit [$]1); }
 as_fn_success () { as_fn_return 0; }
@@ -5015,9 +5213,9 @@ _AS_DIRNAME_EXPR$as_expr X[]$1 : 'X\(.*[[^/]]\)//*[[^/][^/]]*/*$' \| \
 T16,129
 _AS_DIRNAME_EXPR_m4_defun_pro([$0])AS_REQUIRE([_AS_EXPR_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T23,29
-m4_location(AS_MESSAGE)../../lib/m4sugar/m4sh.m4:801
+m4_location(AS_MESSAGE)../../lib/m4sugar/m4sh.m4:834
 T27,34
-m4_location(AC_CHECK_TOOLS)../../lib/autoconf/programs.m4:247
+m4_location(AC_CHECK_TOOLS)../../lib/autoconf/programs.m4:245
 T15,77
 _AC_LANG_ABBREV_m4_defun_pro([$0])_AC_LANG_DISPATCH([$0], _AC_LANG, $@)[]_m4_defun_epi([$0])
 T15,612
@@ -5047,7 +5245,7 @@ m4_map_args_pairm4_if([$#], [0], [m4_fatal([$0: too few arguments: $#])],
        [$#], [4], [$1([$3], [$4])[]],
        [$1([$3], [$4])[]$0([$1], [$2], m4_shift(m4_shift3($@)))])
 T34,34
-m4_location(_AC_LIBOBJS_NORMALIZE)../../lib/autoconf/general.m4:2950
+m4_location(_AC_LIBOBJS_NORMALIZE)../../lib/autoconf/general.m4:2949
 T18,457
 _AC_COMPILE_IFELSE_m4_defun_pro([$0])AC_REQUIRE_SHELL_FN([ac_fn_]_AC_LANG_ABBREV[_try_compile],
   [AS_FUNCTION_DESCRIBE([ac_fn_]_AC_LANG_ABBREV[_try_compile], [LINENO],
@@ -5055,8 +5253,14 @@ _AC_COMPILE_IFELSE_m4_defun_pro([$0])AC_REQUIRE_SHELL_FN([ac_fn_]_AC_LANG_ABBREV
   [$0_BODY])m4_ifvaln([$1], [AC_LANG_CONFTEST([$1])])AS_IF([ac_fn_[]_AC_LANG_ABBREV[]_try_compile "$LINENO"], [$2], [$3])
 rm -f core conftest.err conftest.$ac_objext[]m4_ifval([$1], [ conftest.$ac_ext])[]dnl
 []_m4_defun_epi([$0])
+T11,195
+AC_LANG(Go)ac_ext=go
+ac_compile='$GOC -c $GOFLAGS conftest.$ac_ext >&AS_MESSAGE_LOG_FD'
+ac_link='$GOC -o conftest$ac_exeext $GOFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&AS_MESSAGE_LOG_FD'
+ac_compiler_gnu=yes
+
 T36,31
-m4_location(AC_STRUCT_DIRENT_D_TYPE)../../lib/autoconf/types.m4:960
+m4_location(AC_STRUCT_DIRENT_D_TYPE)../../lib/autoconf/types.m4:968
 T18,256
 _m4_set_dump_checkm4_ifdef([_m4_set([$1])],
 	  [m4_set_contains([$1], _m4_defn([_m4_set([$1])]),
@@ -5070,8 +5274,10 @@ AC_LANG_PUSH(Fortran)dnl
 _AC_FC_WRAPPERS
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
+T33,34
+m4_location(_AC_FC_IMPLICIT_NONE)../../lib/autoconf/fortran.m4:1638
 T32,34
-m4_location(AC_PATH_TARGET_TOOL)../../lib/autoconf/programs.m4:273
+m4_location(AC_PATH_TARGET_TOOL)../../lib/autoconf/programs.m4:271
 T27,33
 m4_location(AC_CROSS_CHECK)../../lib/autoconf/oldnames.m4:56
 T8,0
@@ -5126,7 +5332,7 @@ _m4_defun_oncem4_pushdef([$1])$3[$2[]m4_provide([$1])]$4
 T9,5
 _m4_curry[$1])
 T24,29
-m4_location(_AS_PREPARE)../../lib/m4sugar/m4sh.m4:290
+m4_location(_AS_PREPARE)../../lib/m4sugar/m4sh.m4:322
 T14,53
 m4_cr_symbols1abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_
 T27,2
@@ -5177,13 +5383,13 @@ AC_SEARCH_LIBS(getmntent, [sun seq gen],
 	       [ac_cv_func_getmntent=no])
 []_m4_defun_epi([$0])
 T26,28
-m4_location(AC_C_VOLATILE)../../lib/autoconf/c.m4:1778
+m4_location(AC_C_VOLATILE)../../lib/autoconf/c.m4:1787
 T14,63
 m4_cr_symbols2abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789
 T36,23
 _AC_LANG_NULL_PROGRAM(Objective C++)AC_LANG_PROGRAM([], [])
 T29,31
-m4_location(AC_TYPE_UINT64_T)../../lib/autoconf/types.m4:623
+m4_location(AC_TYPE_UINT64_T)../../lib/autoconf/types.m4:631
 T29,33
 m4_location(AC_PROGRAM_CHECK)../../lib/autoconf/oldnames.m4:41
 T16,4775
@@ -5354,8 +5560,10 @@ T10,149
 AC_FOREACH_m4_defun_pro([$0])m4_foreach_w($@)dnl
 AC_DIAGNOSE([obsolete], [The macro `AC_FOREACH' is obsolete.
 You should run autoupdate.])[]_m4_defun_epi([$0])
+T36,33
+m4_location(AC_CHECK_HEADER_STDBOOL)../../lib/autoconf/headers.m4:600
 T32,34
-m4_location(AC_CHECK_DECLS_ONCE)../../lib/autoconf/general.m4:2895
+m4_location(AC_CHECK_DECLS_ONCE)../../lib/autoconf/general.m4:2894
 T18,316
 AC_LANG_PROGRAM(C)$1
 m4_ifdef([_AC_LANG_PROGRAM_C_F77_HOOKS], [_AC_LANG_PROGRAM_C_F77_HOOKS])[]dnl
@@ -5372,8 +5580,21 @@ $2
 T9,174
 m4_expandm4_pushdef([m4_divert], _m4_defn([_m4_divert_unsafe]))m4_pushdef([m4_divert_push], _m4_defn([_m4_divert_unsafe]))m4_chomp(_$0([$1
 ]))_m4_popdef([m4_divert], [m4_divert_push])
-T23,2942
-_AS_DETECT_BETTER_SHELL_m4_defun_pro([$0])m4_set_map([_AS_DETECT_SUGGESTED_BODY], [_AS_DETECT_SUGGESTED_PRUNE])m4_pushdef([AS_EXIT], [exit m4_default(]m4_dquote([$][1])[, 1)])if test "x$CONFIG_SHELL" = x; then
+T23,3173
+_AS_DETECT_BETTER_SHELL_m4_defun_pro([$0])m4_if(_AS_FORCE_REEXEC_WITH_CONFIG_SHELL, [yes],
+  [# Use a proper internal environment variable to ensure we don't fall
+  # into an infinite loop, continuously re-executing ourselves.
+  if test x"${_as_can_reexec}" != xno && test "x$CONFIG_SHELL" != x; then
+    _as_can_reexec=no; export _as_can_reexec;
+    _AS_REEXEC_WITH_SHELL([$CONFIG_SHELL])
+  fi
+  # We don't want this to propagate to other subprocesses.
+  dnl This might be especially important in case an m4sh-generated script
+  dnl is used to later execute other m4sh-generated scripts.  This happens
+  dnl for example in autoconf's own testsuite (and happens *a lot* there,
+  dnl in fact).
+  AS_UNSET([_as_can_reexec])
+])m4_set_map([_AS_DETECT_SUGGESTED_BODY], [_AS_DETECT_SUGGESTED_PRUNE])m4_pushdef([AS_EXIT], [exit m4_default(]m4_dquote([$][1])[, 1)])if test "x$CONFIG_SHELL" = x; then
   as_bourne_compatible="AS_ESCAPE(_m4_expand([_AS_BOURNE_COMPATIBLE]))"
   _AS_DETECT_EXPAND([as_required], [_AS_DETECT_REQUIRED_BODY])
   _AS_DETECT_EXPAND([as_suggested], [_AS_DETECT_SUGGESTED_BODY])
@@ -5401,21 +5622,8 @@ _AS_DETECT_BETTER_SHELL_m4_defun_pro([$0])m4_set_map([_AS_DETECT_SUGGESTED_BODY]
 	     [CONFIG_SHELL=$SHELL as_have_required=yes])])
 
       AS_IF([test "x$CONFIG_SHELL" != x],
-	[# We cannot yet assume a decent shell, so we have to provide a
-	# neutralization value for shells without unset; and this also
-	# works around shells that cannot unset nonexistent variables.
-	# Preserve -v and -x to the replacement shell.
-	BASH_ENV=/dev/null
-	ENV=/dev/null
-	(unset BASH_ENV) >/dev/null 2>&1 && unset BASH_ENV ENV
-	export CONFIG_SHELL
-	case $- in @%:@ ((((
-	  *v*x* | *x*v* ) as_opts=-vx ;;
-	  *v* ) as_opts=-v ;;
-	  *x* ) as_opts=-x ;;
-	  * ) as_opts= ;;
-	esac
-	exec "$CONFIG_SHELL" $as_opts "$as_myself" ${1+"$[@]"}])
+            [export CONFIG_SHELL
+             _AS_REEXEC_WITH_SHELL([$CONFIG_SHELL])])
 
 dnl Unfortunately, $as_me isn't available here.
     AS_IF([test x$as_have_required = xno],
@@ -5451,9 +5659,9 @@ AC_FUNC_MALLOC_m4_defun_pro([$0])_AC_FUNC_MALLOC_IF(
       [Define to rpl_malloc if the replacement function should be used.])])
 []_m4_defun_epi([$0])
 T28,30
-m4_location(_AC_LANG_PREFIX)../../lib/autoconf/lang.m4:150
+m4_location(_AC_LANG_PREFIX)../../lib/autoconf/lang.m4:149
 T29,31
-m4_location(AC_TYPE_INTPTR_T)../../lib/autoconf/types.m4:343
+m4_location(AC_TYPE_INTPTR_T)../../lib/autoconf/types.m4:344
 T28,33
 m4_location(AC_HAVE_HEADERS)../../lib/autoconf/oldnames.m4:35
 T14,96
@@ -5465,7 +5673,7 @@ AC_PROVIDEm4_ifdef([m4_provide($1)], [],
 [m4_set_add([_m4_provide], [$1], [m4_define([m4_provide($1)],
   m4_ifdef([_m4_diverting], [_m4_defn([_m4_diverting])]))])])
 T19,33
-m4_location(_AC_FC)../../lib/autoconf/fortran.m4:168
+m4_location(_AC_FC)../../lib/autoconf/fortran.m4:167
 T23,3
 _AC_LANG_ABBREV(Erlang)erl
 T11,88
@@ -5510,15 +5718,15 @@ AC_C_BACKSLASH_A_m4_defun_pro([$0])
   fi
 []_m4_defun_epi([$0])
 T21,34
-m4_location(_AC_EVAL)../../lib/autoconf/general.m4:2423
+m4_location(_AC_EVAL)../../lib/autoconf/general.m4:2422
 T27,35
-m4_location(AC_FUNC_MEMCMP)../../lib/autoconf/functions.m4:954
+m4_location(AC_FUNC_MEMCMP)../../lib/autoconf/functions.m4:950
 T11,162
 AC_CHECKING_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_CHECKING' is obsolete.
 You should run autoupdate.])dnl
 AS_MESSAGE([checking $1...])[]_m4_defun_epi([$0])
 T21,36
-m4_location(AC_WAIT3)../../lib/autoconf/functions.m4:2034
+m4_location(AC_WAIT3)../../lib/autoconf/functions.m4:2030
 T18,326
 _AC_RUN_LOG_STDERR_m4_defun_pro([$0]){ { $2; } >&AS_MESSAGE_LOG_FD
   ($1) 2>conftest.err
@@ -5697,8 +5905,8 @@ _AC_FC_DUMMY_MAIN($@)
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
 T31,33
-m4_location(AC_CONFIG_COMMANDS)../../lib/autoconf/status.m4:1011
-T16,834
+m4_location(AC_CONFIG_COMMANDS)../../lib/autoconf/status.m4:1009
+T16,838
 _AS_LN_S_PREPARE_m4_defun_pro([$0])rm -f conf$$ conf$$.exe conf$$.file
 if test -d conf$$.dir; then
   rm -f conf$$.dir/conf$$.file
@@ -5712,16 +5920,16 @@ if (echo >conf$$.file) 2>/dev/null; then
     # ... but there are two gotchas:
     # 1) On MSYS, both `ln -s file dir' and `ln file dir' fail.
     # 2) DJGPP < 2.04 has no symlinks; `ln -s' creates a wrapper executable.
-    # In both cases, we have to default to `cp -p'.
+    # In both cases, we have to default to `cp -pR'.
     ln -s conf$$.file conf$$.dir 2>/dev/null && test ! -f conf$$.exe ||
-      as_ln_s='cp -p'
+      as_ln_s='cp -pR'
   elif ln conf$$.file conf$$ 2>/dev/null; then
     as_ln_s=ln
   else
-    as_ln_s='cp -p'
+    as_ln_s='cp -pR'
   fi
 else
-  as_ln_s='cp -p'
+  as_ln_s='cp -pR'
 fi
 rm -f conf$$ conf$$.exe conf$$.dir/conf$$.file conf$$.file
 rmdir conf$$.dir 2>/dev/null
@@ -5787,14 +5995,15 @@ T23,83
 AC_CONFIG_COMMANDS_POST_m4_defun_pro([$0])m4_append([AC_OUTPUT_COMMANDS_POST], [$1
 ])[]_m4_defun_epi([$0])
 T28,34
-m4_location(AC_PROG_MKDIR_P)../../lib/autoconf/programs.m4:664
+m4_location(AC_PROG_MKDIR_P)../../lib/autoconf/programs.m4:662
 T7,93
 _AS_BOXm4_if(m4_index(m4_translit([[$1]], [`\"], [$$$]), [$]),
   [-1], [$0_LITERAL], [$0_INDIR])($@)
 T31,34
-m4_location(_AC_RUN_LOG_STDERR)../../lib/autoconf/general.m4:2316
-T22,2737
-_AC_FC_LIBRARY_LDFLAGS_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
+m4_location(_AC_RUN_LOG_STDERR)../../lib/autoconf/general.m4:2315
+T22,2800
+_AC_FC_LIBRARY_LDFLAGS_m4_defun_pro([$0])AC_REQUIRE([AC_CANONICAL_HOST])dnl
+_AC_FORTRAN_ASSERT()dnl
 _AC_PROG_FC_V
 AC_CACHE_CHECK([for _AC_LANG libraries of $[]_AC_FC[]], ac_cv_[]_AC_LANG_ABBREV[]_libs,
 [if test "x$[]_AC_LANG_PREFIX[]LIBS" != "x"; then
@@ -5826,7 +6035,11 @@ while test $[@%:@] != 1; do
 	  |-LANG:=* | -LIST:* | -LNO:* | -link)
 	  ;;
 	-lkernel32)
-	  test x"$CYGWIN" != xyes && ac_cv_[]_AC_LANG_ABBREV[]_libs="$ac_cv_[]_AC_LANG_ABBREV[]_libs $ac_arg"
+	  case $host_os in
+	  *cygwin*) ;;
+	  *) ac_cv_[]_AC_LANG_ABBREV[]_libs="$ac_cv_[]_AC_LANG_ABBREV[]_libs $ac_arg"
+	    ;;
+	  esac
 	  ;;
 	-[[LRuYz]])
 	  # These flags, when seen by themselves, take an argument.
@@ -5878,7 +6091,7 @@ fi # test "x$[]_AC_LANG_PREFIX[]LIBS" = "x"
 AC_SUBST([]_AC_LANG_PREFIX[]LIBS)
 []_m4_defun_epi([$0])
 T18,29
-m4_location(AS_IF)../../lib/m4sugar/m4sh.m4:606
+m4_location(AS_IF)../../lib/m4sugar/m4sh.m4:639
 F14,11
 m4_changequotechangequote
 T12,69
@@ -5918,7 +6131,7 @@ _m4_mapall_sepm4_apply([$1], [$3])_m4_foreach([m4_apply([$2[]$1],], [)], m4_shif
 T9,132
 m4_divertm4_popdef([_m4_divert_stack])m4_define([_m4_divert_diversion], [$1])m4_divert_stack_push([$0], [$1])_m4_divert_raw(_m4_divert([$1]))
 T26,30
-m4_location(AS_VAR_APPEND)../../lib/m4sugar/m4sh.m4:1921
+m4_location(AS_VAR_APPEND)../../lib/m4sugar/m4sh.m4:1939
 T13,293
 m4_defun_oncem4_define([m4_location($1)], m4_location)m4_define([$1], [_m4_defun_once([$1], [$2], m4_if(_m4_divert_dump, [],
   [[_m4_defun_pro([$1])m4_unquote(], [)_m4_defun_epi([$1])]],
@@ -6009,10 +6222,10 @@ AC_LANG_RESTORE_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LANG_RE
 You should run autoupdate.])dnl
 AC_LANG_POP($@)[]_m4_defun_epi([$0])
 T29,35
-m4_location(AC_TRY_LINK_FUNC)../../lib/autoconf/functions.m4:150
+m4_location(AC_TRY_LINK_FUNC)../../lib/autoconf/functions.m4:149
 T33,34
-m4_location(AC_CHECK_TOOL_PREFIX)../../lib/autoconf/programs.m4:185
-T24,7679
+m4_location(AC_CHECK_TOOL_PREFIX)../../lib/autoconf/programs.m4:183
+T24,7677
 _AC_OUTPUT_CONFIG_STATUSAC_MSG_NOTICE([creating $CONFIG_STATUS])
 dnl AS_MESSAGE_LOG_FD is not available yet:
 m4_pushdef([AS_MESSAGE_LOG_FD])AS_INIT_GENERATED([$CONFIG_STATUS],
@@ -6237,7 +6450,7 @@ cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
 dnl Check this before opening the log, to avoid a bug on MinGW,
 dnl which prohibits the recursive instance from truncating an open log.
 if \$ac_cs_recheck; then
-  set X '$SHELL' '$[0]' $ac_configure_args \$ac_configure_extra_args --no-create --no-recursion
+  set X $SHELL '$[0]' $ac_configure_args \$ac_configure_extra_args --no-create --no-recursion
   shift
   \AS_ECHO(["running CONFIG_SHELL=$SHELL \$[*]"]) >&AS_MESSAGE_FD
   CONFIG_SHELL='$SHELL'
@@ -6313,8 +6526,8 @@ _AC_CONFIG_DEPENDENCY_DEFAULTm4_if(m4_index([$2], [:]), [-1],
 		  [AS_LITERAL_IF([$2],
 		    [m4_fatal([Invalid AC_CONFIG_LINKS tag: `$2'])])],
 		  [:$2.in])])
-T9,17
-AS_TEST_X$as_test_x $1[][]
+T9,14
+AS_TEST_Xtest -x $1[][]
 T9,129
 AS_TEST_X_m4_defun_pro([$0])AS_REQUIRE([_AS_TEST_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T10,24
@@ -6372,7 +6585,7 @@ AC_PROG_CC_STDC_m4_defun_pro([$0]) AC_REQUIRE([AC_PROG_CC])dnl
 []_m4_defun_epi([$0])
 F8,5
 m4_ifdefifdef
-T16,1287
+T16,1461
 AC_SYS_LARGEFILE_m4_defun_pro([$0])AC_ARG_ENABLE(largefile,
 	       [  --disable-largefile     omit support for large files])
 if test "$enable_largefile" != no; then
@@ -6408,6 +6621,12 @@ if test "$enable_largefile" != no; then
       [Define for large files, on AIX-style hosts.],
       [_AC_SYS_LARGEFILE_TEST_INCLUDES])
   fi
+
+  AH_VERBATIM([_DARWIN_USE_64_BIT_INODE],
+[/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif])
 fi
 []_m4_defun_epi([$0])
 T31,31
@@ -6415,9 +6634,9 @@ m4_location(AC_ERLANG_PATH_ERL)../../lib/autoconf/erlang.m4:73
 T13,52
 m4_cr_LettersabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 T26,34
-m4_location(_AC_DO_TOKENS)../../lib/autoconf/general.m4:2404
+m4_location(_AC_DO_TOKENS)../../lib/autoconf/general.m4:2403
 T24,28
-m4_location(AC_C_INLINE)../../lib/autoconf/c.m4:1613
+m4_location(AC_C_INLINE)../../lib/autoconf/c.m4:1621
 T23,3
 _m4_divert(VERSION_END)203
 T12,576
@@ -6459,7 +6678,7 @@ T14,113
 AC_CHECK_TYPES_m4_defun_pro([$0])m4_map_args_sep([_AC_CHECK_TYPE_NEW(_$0(], [)[
 $2], [$3], [$4])], [], $1)[]_m4_defun_epi([$0])
 T30,34
-m4_location(_AC_RUN_LOG_LIMIT)../../lib/autoconf/general.m4:2333
+m4_location(_AC_RUN_LOG_LIMIT)../../lib/autoconf/general.m4:2332
 T14,109
 m4_file_appendm4_syscmd([cat >>$1 <<_m4eof
 $2
@@ -6499,6 +6718,8 @@ m4_map_args_sepm4_if([$#], [0], [m4_fatal([$0: too few arguments: $#])],
        [$#], [3], [],
        [$#], [4], [$1[$4]$2[]],
        [$1[$4]$2[]_m4_foreach([$3[]$1], [$2], m4_shift3($@))])
+T33,28
+m4_location(AC_LANG_COMPILER(Go))../../lib/autoconf/go.m4:143
 F12,8
 m4_bpatsubstpatsubst
 F8,8
@@ -6524,21 +6745,21 @@ AC_C_VARARRAYS_m4_defun_pro([$0])
 T10,32
 m4_set_mapm4_set_map_sep([$1], [$2(], [)])
 T24,33
-m4_location(_AC_FC_MAIN)../../lib/autoconf/fortran.m4:832
+m4_location(_AC_FC_MAIN)../../lib/autoconf/fortran.m4:859
 T20,36
-m4_location(AC_MMAP)../../lib/autoconf/functions.m4:1358
+m4_location(AC_MMAP)../../lib/autoconf/functions.m4:1354
 T8,77
 m4_stripm4_bpatsubsts([$1 ],
 	       [[	 ]+], [ ],
 	       [^. ?\(.*\) .$], [[[\1]]])
 T34,31
-m4_location(_AC_TYPE_UNSIGNED_INT)../../lib/autoconf/types.m4:710
+m4_location(_AC_TYPE_UNSIGNED_INT)../../lib/autoconf/types.m4:718
 T10,24
 AN_LIBRARYAN_OUTPUT([library], $@)
 T29,2
 AC_LANG_SOURCE(Objective C++)$1
 T26,35
-m4_location(AC_FUNC_CHOWN)../../lib/autoconf/functions.m4:428
+m4_location(AC_FUNC_CHOWN)../../lib/autoconf/functions.m4:424
 T20,201
 _AS_BASENAME_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_EXPR_PREPARE])if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
   as_basename=basename
@@ -6547,7 +6768,7 @@ else
 fi
 []_m4_defun_epi([$0])
 T25,34
-m4_location(AC_FC_SRCEXT)../../lib/autoconf/fortran.m4:1125
+m4_location(AC_FC_SRCEXT)../../lib/autoconf/fortran.m4:1154
 T11,37
 m4_list_cmp_$0_raw(m4_dquote($1), m4_dquote($2))
 T13,174
@@ -6585,27 +6806,28 @@ m4_make_listm4_join([,
 T27,27
 m4_location(ac_cv_prog_gcc)../../lib/autoconf/c.m4:436
 T27,34
-m4_location(AC_CHECK_FILES)../../lib/autoconf/general.m4:2809
+m4_location(AC_CHECK_FILES)../../lib/autoconf/general.m4:2808
 T17,203
 m4_cr_not_Letters	
  !"#*%&'()$+,./0123456789:;<=>?@[\]^_`{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ-
-T17,209
+T17,292
 _m4_require_checkm4_if(_m4_defn([_m4_diverting]), [$2], [m4_ignore],
        m4_ifdef([_m4_diverting([$2])], [-]), [-], [m4_warn([syntax],
-   [$3: `$1' was expanded before it was required])_m4_require_call],
+   [$3: `$1' was expanded before it was required
+http://www.gnu.org/software/autoconf/manual/autoconf.html#Expanded-Before-Required])_m4_require_call],
        [m4_ignore])
 T13,42
 m4_mapall_sepm4_if([$3], [], [], [_$0([$1], [$2], $3)])
 T23,28
-m4_location(AC_C_CONST)../../lib/autoconf/c.m4:1653
+m4_location(AC_C_CONST)../../lib/autoconf/c.m4:1661
 T9,15
 AS_ECHO_N$as_echo_n $1[]
 T9,129
 AS_ECHO_N_m4_defun_pro([$0])AS_REQUIRE([_AS_ECHO_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T28,36
-m4_location(AC_FUNC_REALLOC)../../lib/autoconf/functions.m4:1421
+m4_location(AC_FUNC_REALLOC)../../lib/autoconf/functions.m4:1417
 T34,34
-m4_location(AC_CHECK_TARGET_TOOLS)../../lib/autoconf/programs.m4:316
+m4_location(AC_CHECK_TARGET_TOOLS)../../lib/autoconf/programs.m4:314
 F11,11
 __program____program__
 T15,267
@@ -6619,7 +6841,7 @@ ac_link='$OBJC -o conftest$ac_exeext $OBJCFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_
 ac_compiler_gnu=$ac_cv_objc_compiler_gnu
 
 T33,33
-m4_location(AC_HEADER_TIOCGWINSZ)../../lib/autoconf/headers.m4:810
+m4_location(AC_HEADER_TIOCGWINSZ)../../lib/autoconf/headers.m4:819
 T17,105
 _m4_define_cr_notm4_define([m4_cr_not_$1],
 	   m4_translit(m4_dquote(m4_defn([m4_cr_all])),
@@ -6672,8 +6894,10 @@ T47,32
 m4_location(AC_ERLANG_SUBST_INSTALL_LIB_SUBDIR)../../lib/autoconf/erlang.m4:283
 T31,33
 m4_location(AC_GCC_TRADITIONAL)../../lib/autoconf/oldnames.m4:59
+T31,34
+m4_location(AC_FC_CHECK_BOUNDS)../../lib/autoconf/fortran.m4:1564
 T27,34
-m4_location(AC_COMPUTE_INT)../../lib/autoconf/general.m4:3057
+m4_location(AC_COMPUTE_INT)../../lib/autoconf/general.m4:3056
 T14,55
 AC_TYPE_INT8_T_m4_defun_pro([$0])_AC_TYPE_INT(8)[]_m4_defun_epi([$0])
 T37,1266
@@ -6709,16 +6933,18 @@ if test "x$ac_cv_func_lstat_dereferences_slashed_symlink" = xno; then
   AC_LIBOBJ([lstat])
 fi
 []_m4_defun_epi([$0])
-T32,29
-m4_location(_AS_DIRNAME_PREPARE)../../lib/m4sugar/m4sh.m4:978
+T32,30
+m4_location(_AS_DIRNAME_PREPARE)../../lib/m4sugar/m4sh.m4:1011
 T15,4
-m4_PACKAGE_YEAR2010
+m4_PACKAGE_YEAR2012
 T15,182
 AC_TEST_PROGRAM_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_TEST_PROGRAM' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_TRY_RUN], [AC_TRY_RUN($@)])[]_m4_defun_epi([$0])
 F7,7
 traceontraceon
+T32,34
+m4_location(AC_FC_IMPLICIT_NONE)../../lib/autoconf/fortran.m4:1684
 F14,6
 _m4_divert_rawdivert
 T29,33
@@ -6770,39 +6996,43 @@ _AC_COMPILE_IFELSE_BODY  AS_LINENO_PUSH([$[]1])
   AS_LINENO_POP
   AS_SET_STATUS([$ac_retval])
 
-T21,1136
+T21,1229
 AC_TYPE_LONG_LONG_INT_m4_defun_pro([$0])
+  AC_REQUIRE([AC_TYPE_UNSIGNED_LONG_LONG_INT])
   AC_CACHE_CHECK([for long long int], [ac_cv_type_long_long_int],
-    [AC_LINK_IFELSE(
-       [_AC_TYPE_LONG_LONG_SNIPPET],
-       [dnl This catches a bug in Tandem NonStop Kernel (OSS) cc -O circa 2004.
-	dnl If cross compiling, assume the bug isn't important, since
-	dnl nobody cross compiles for this platform as far as we know.
-	AC_RUN_IFELSE(
-	  [AC_LANG_PROGRAM(
-	     [[@%:@include <limits.h>
-	       @%:@ifndef LLONG_MAX
-	       @%:@ define HALF \
-			(1LL << (sizeof (long long int) * CHAR_BIT - 2))
-	       @%:@ define LLONG_MAX (HALF - 1 + HALF)
-	       @%:@endif]],
-	     [[long long int n = 1;
-	       int i;
-	       for (i = 0; ; i++)
-		 {
-		   long long int m = n << i;
-		   if (m >> i != n)
-		     return 1;
-		   if (LLONG_MAX / 2 < m)
-		     break;
-		 }
-	       return 0;]])],
-	  [ac_cv_type_long_long_int=yes],
-	  [ac_cv_type_long_long_int=no],
-	  [ac_cv_type_long_long_int=yes])],
-       [ac_cv_type_long_long_int=no])])
+     [ac_cv_type_long_long_int=yes
+      if test "x${ac_cv_prog_cc_c99-no}" = xno; then
+	ac_cv_type_long_long_int=$ac_cv_type_unsigned_long_long_int
+	if test $ac_cv_type_long_long_int = yes; then
+	  dnl Catch a bug in Tandem NonStop Kernel (OSS) cc -O circa 2004.
+	  dnl If cross compiling, assume the bug is not important, since
+	  dnl nobody cross compiles for this platform as far as we know.
+	  AC_RUN_IFELSE(
+	    [AC_LANG_PROGRAM(
+	       [[@%:@include <limits.h>
+		 @%:@ifndef LLONG_MAX
+		 @%:@ define HALF \
+			  (1LL << (sizeof (long long int) * CHAR_BIT - 2))
+		 @%:@ define LLONG_MAX (HALF - 1 + HALF)
+		 @%:@endif]],
+	       [[long long int n = 1;
+		 int i;
+		 for (i = 0; ; i++)
+		   {
+		     long long int m = n << i;
+		     if (m >> i != n)
+		       return 1;
+		     if (LLONG_MAX / 2 < m)
+		       break;
+		   }
+		 return 0;]])],
+	    [],
+	    [ac_cv_type_long_long_int=no],
+	    [:])
+	fi
+      fi])
   if test $ac_cv_type_long_long_int = yes; then
-    AC_DEFINE([HAVE_LONG_LONG_INT], 1,
+    AC_DEFINE([HAVE_LONG_LONG_INT], [1],
       [Define to 1 if the system has the type `long long int'.])
   fi
 []_m4_defun_epi([$0])
@@ -6813,7 +7043,7 @@ _AC_FUNC_FNMATCH_IF([GNU], [ac_cv_func_fnmatch_gnu],
 		    [_AC_LIBOBJ_FNMATCH])
 []_m4_defun_epi([$0])
 T28,31
-m4_location(AC_TYPE_UINT8_T)../../lib/autoconf/types.m4:620
+m4_location(AC_TYPE_UINT8_T)../../lib/autoconf/types.m4:628
 T24,2
 _AC_LANG_PREFIX(Fortran)FC
 T18,830
@@ -6877,7 +7107,7 @@ patsubstpatsubst
 T19,95
 _AS_DETECT_REQUIRED_m4_defun_pro([$0])m4_set_add([_AS_DETECT_REQUIRED_BODY], [$1 || AS_EXIT])[]_m4_defun_epi([$0])
 T32,35
-m4_location(AC_FUNC_FNMATCH_GNU)../../lib/autoconf/functions.m4:586
+m4_location(AC_FUNC_FNMATCH_GNU)../../lib/autoconf/functions.m4:582
 T14,122
 m4_append_uniqm4_ifval([$3], [m4_if(m4_index([$2], [$3]), [-1], [],
 		       [m4_warn([syntax],
@@ -6931,15 +7161,15 @@ AC_CACHE_CHECK([for Erlang/OTP library base directory],
 AC_SUBST([ERLANG_LIB_DIR], [$ac_cv_erlang_lib_dir])
 []_m4_defun_epi([$0])
 T22,30
-m4_location(AS_TR_CPP)../../lib/m4sugar/m4sh.m4:1841
+m4_location(AS_TR_CPP)../../lib/m4sugar/m4sh.m4:1859
 T26,33
 m4_location(AC_ST_BLKSIZE)../../lib/autoconf/oldnames.m4:76
 T24,32
 m4_default_nblank_quotedm4_ifblank([$1], [[$2]], [[$1]])
 T25,34
-m4_location(AC_PATH_TOOL)../../lib/autoconf/programs.m4:200
+m4_location(AC_PATH_TOOL)../../lib/autoconf/programs.m4:198
 T27,30
-m4_location(_AS_ME_PREPARE)../../lib/m4sugar/m4sh.m4:1087
+m4_location(_AS_ME_PREPARE)../../lib/m4sugar/m4sh.m4:1122
 T11,471
 _AC_FC_FUNC_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
 case $ac_cv_[]_AC_LANG_ABBREV[]_mangling in
@@ -6968,7 +7198,7 @@ _AC_COMPUTE_INT_BODY  AS_LINENO_PUSH([$[]1])
 T22,2
 AC_LANG_SOURCE(Erlang)$1
 T26,34
-m4_location(AC_CHECK_TOOL)../../lib/autoconf/programs.m4:222
+m4_location(AC_CHECK_TOOL)../../lib/autoconf/programs.m4:220
 T34,531
 AC_ERLANG_SUBST_INSTALL_LIB_SUBDIR_m4_defun_pro([$0])AC_REQUIRE([AC_ERLANG_SUBST_INSTALL_LIB_DIR])[]dnl
 AC_MSG_CHECKING([for Erlang/OTP '$1' library installation subdirectory])
@@ -7009,7 +7239,7 @@ esac
 AS_IF([test "x$ac_cv_prog_cc_$1" != xno], [$5], [$6])
 []_m4_defun_epi([$0])
 T25,34
-m4_location(AC_PROG_YACC)../../lib/autoconf/programs.m4:895
+m4_location(AC_PROG_YACC)../../lib/autoconf/programs.m4:894
 T17,28
 m4_default_nblankm4_ifblank([$1], [$2], [$1])
 T19,188
@@ -7039,7 +7269,7 @@ T12,83
 m4_set_unionm4_set_listc([$1])m4_if([$1], [$2], [],
   [m4_set_map_sep([$2], [_$0([$1],], [)])])
 T30,31
-m4_location(AM_TYPE_PTRDIFF_T)../../lib/autoconf/types.m4:303
+m4_location(AM_TYPE_PTRDIFF_T)../../lib/autoconf/types.m4:304
 T19,4
 _AC_CC(Objective C)OBJC
 T19,476
@@ -7114,13 +7344,13 @@ AS_IF([test "$ac_res" != no],
 AS_VAR_POPDEF([ac_Search])dnl
 []_m4_defun_epi([$0])
 T28,36
-m4_location(AC_FUNC_STRNLEN)../../lib/autoconf/functions.m4:1681
+m4_location(AC_FUNC_STRNLEN)../../lib/autoconf/functions.m4:1677
 T35,33
-m4_location(AC_CONFIG_COMMANDS_PRE)../../lib/autoconf/status.m4:1055
+m4_location(AC_CONFIG_COMMANDS_PRE)../../lib/autoconf/status.m4:1053
 T26,35
-m4_location(AC_FUNC_CHECK)../../lib/autoconf/functions.m4:156
+m4_location(AC_FUNC_CHECK)../../lib/autoconf/functions.m4:155
 T30,32
-m4_location(AC_CONFIG_HEADERS)../../lib/autoconf/status.m4:715
+m4_location(AC_CONFIG_HEADERS)../../lib/autoconf/status.m4:713
 T16,1438
 _AC_PATH_X_XMKMFAC_ARG_VAR(XMKMF, [Path to xmkmf, Makefile generator for X Window System])dnl
 rm -f -r conftest.dir
@@ -7167,7 +7397,7 @@ _AC_CC(C++)CXX
 T22,33
 m4_location(AC_SIZE_T)../../lib/autoconf/oldnames.m4:73
 T50,35
-m4_location(AC_FUNC_LSTAT_FOLLOWS_SLASHED_SYMLINK)../../lib/autoconf/functions.m4:853
+m4_location(AC_FUNC_LSTAT_FOLLOWS_SLASHED_SYMLINK)../../lib/autoconf/functions.m4:849
 T21,97
 m4_copyright_condensem4_text_wrap(m4_bpatsubst(m4_flatten([[$1]]),
 [(C)[-	 ,0-9]*\([1-9][0-9][0-9][0-9]\)], [(C) \1]))
@@ -7196,11 +7426,11 @@ AC_GETLOADAVG_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_GETLOADAV
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_FUNC_GETLOADAVG], [AC_FUNC_GETLOADAVG($@)])[]_m4_defun_epi([$0])
 T20,34
-m4_location(AC_WITH)../../lib/autoconf/general.m4:1493
+m4_location(AC_WITH)../../lib/autoconf/general.m4:1492
 T20,33
 m4_location(AC_WARN)../../lib/autoconf/oldnames.m4:33
 T26,36
-m4_location(AC_FUNC_WAIT3)../../lib/autoconf/functions.m4:1979
+m4_location(AC_FUNC_WAIT3)../../lib/autoconf/functions.m4:1975
 T7,182
 m4_condm4_if([$#], [0], [m4_fatal([$0: cannot be called without arguments])],
        [$#], [1], [$1],
@@ -7219,76 +7449,18 @@ _AC_LANG_IO_PROGRAM(C)AC_LANG_PROGRAM([@%:@include <stdio.h>],
 [FILE *f = fopen ("conftest.out", "w");
  return ferror (f) || fclose (f) != 0;
 ])
-T17,1812
-AC_HEADER_STDBOOL_m4_defun_pro([$0])AC_CACHE_CHECK([for stdbool.h that conforms to C99],
-   [ac_cv_header_stdbool_h],
-   [AC_COMPILE_IFELSE([AC_LANG_PROGRAM(
-      [[
-#include <stdbool.h>
-#ifndef bool
- "error: bool is not defined"
-#endif
-#ifndef false
- "error: false is not defined"
-#endif
-#if false
- "error: false is not 0"
-#endif
-#ifndef true
- "error: true is not defined"
-#endif
-#if true != 1
- "error: true is not 1"
-#endif
-#ifndef __bool_true_false_are_defined
- "error: __bool_true_false_are_defined is not defined"
-#endif
-
-	struct s { _Bool s: 1; _Bool t; } s;
-
-	char a[true == 1 ? 1 : -1];
-	char b[false == 0 ? 1 : -1];
-	char c[__bool_true_false_are_defined == 1 ? 1 : -1];
-	char d[(bool) 0.5 == true ? 1 : -1];
-	/* See body of main program for 'e'.  */
-	char f[(_Bool) 0.0 == false ? 1 : -1];
-	char g[true];
-	char h[sizeof (_Bool)];
-	char i[sizeof s.t];
-	enum { j = false, k = true, l = false * true, m = true * 256 };
-	/* The following fails for
-	   HP aC++/ANSI C B3910B A.05.55 [Dec 04 2003]. */
-	_Bool n[m];
-	char o[sizeof n == m * sizeof n[0] ? 1 : -1];
-	char p[-1 - (_Bool) 0 < 0 && -1 - (bool) 0 < 0 ? 1 : -1];
-	/* Catch a bug in an HP-UX C compiler.  See
-	   http://gcc.gnu.org/ml/gcc-patches/2003-12/msg02303.html
-	   http://lists.gnu.org/archive/html/bug-coreutils/2005-11/msg00161.html
-	 */
-	_Bool q = true;
-	_Bool *pq = &q;
-      ]],
-      [[
-	bool e = &s;
-	*pq |= q;
-	*pq |= ! q;
-	/* Refer to every declared value, to avoid compiler optimizations.  */
-	return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
-		+ !m + !n + !o + !p + !q + !pq);
-      ]])],
-      [ac_cv_header_stdbool_h=yes],
-      [ac_cv_header_stdbool_h=no])])
-AC_CHECK_TYPES([_Bool])
+T17,187
+AC_HEADER_STDBOOL_m4_defun_pro([$0])AC_CHECK_HEADER_STDBOOL
 if test $ac_cv_header_stdbool_h = yes; then
   AC_DEFINE(HAVE_STDBOOL_H, 1, [Define to 1 if stdbool.h conforms to C99.])
 fi
 []_m4_defun_epi([$0])
 T19,34
-m4_location(AC_RSH)../../lib/autoconf/programs.m4:859
+m4_location(AC_RSH)../../lib/autoconf/programs.m4:858
 T14,62
 m4_set_foreachm4_pushdef([$2])m4_set_map_sep([$1], [m4_define([$2],], [)$3])
 T32,35
-m4_location(AC_CHECK_FUNCS_ONCE)../../lib/autoconf/functions.m4:108
+m4_location(AC_CHECK_FUNCS_ONCE)../../lib/autoconf/functions.m4:107
 T14,201
 AC_TRY_COMPILE_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_TRY_COMPILE' is obsolete.
 You should run autoupdate.])dnl
@@ -7374,7 +7546,7 @@ if test $ac_cv_sys_restartable_syscalls = yes; then
 fi
 []_m4_defun_epi([$0])
 T25,36
-m4_location(AC_FUNC_FORK)../../lib/autoconf/functions.m4:1790
+m4_location(AC_FUNC_FORK)../../lib/autoconf/functions.m4:1786
 F7,7
 esyscmdesyscmd
 T22,3
@@ -7391,11 +7563,13 @@ _AC_LANG_DISPATCH([$0], _AC_LANG, $@)[]_m4_defun_epi([$0])
 T27,33
 m4_location(AC_SIZEOF_TYPE)../../lib/autoconf/oldnames.m4:44
 T26,34
-m4_location(AC_PATH_PROGS)../../lib/autoconf/programs.m4:166
+m4_location(AC_PATH_PROGS)../../lib/autoconf/programs.m4:164
+T30,34
+m4_location(AC_FC_MODULE_FLAG)../../lib/autoconf/fortran.m4:1752
 T28,36
-m4_location(AC_FUNC_OBSTACK)../../lib/autoconf/functions.m4:1366
+m4_location(AC_FUNC_OBSTACK)../../lib/autoconf/functions.m4:1362
 T26,34
-m4_location(AC_CHECK_FILE)../../lib/autoconf/general.m4:2778
+m4_location(AC_CHECK_FILE)../../lib/autoconf/general.m4:2777
 T20,53
 m4_divert_stack_pushm4_pushdef([_m4_divert_stack], m4_location[: $1: $2])
 T10,28
@@ -7407,9 +7581,9 @@ _AC_FC_MAIN
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
 T28,33
-m4_location(_AC_PROG_FC_C_O)../../lib/autoconf/fortran.m4:433
+m4_location(_AC_PROG_FC_C_O)../../lib/autoconf/fortran.m4:438
 T23,30
-m4_location(AS_MKDIR_P)../../lib/m4sugar/m4sh.m4:1250
+m4_location(AS_MKDIR_P)../../lib/m4sugar/m4sh.m4:1289
 T16,795
 AC_HEADER_ASSERT_m4_defun_once([AC_HEADER_ASSERT], [
   AC_MSG_CHECKING([whether to enable assertions])
@@ -7485,7 +7659,7 @@ m4_ifdef([_m4_diverting([AC_PROG_MKDIR_P])], [-]), [-], [[m4_unquote(], [)]],
 T24,33
 m4_location(AC_PROG_F77)../../lib/autoconf/fortran.m4:358
 T32,34
-m4_location(AC_CONFIG_MACRO_DIR)../../lib/autoconf/general.m4:1732
+m4_location(AC_CONFIG_MACRO_DIR)../../lib/autoconf/general.m4:1731
 T20,68
 AC_LANG_PREPROC(C++)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_CXXCPP])[]_m4_defun_epi([$0])
 T9,142
@@ -7515,7 +7689,7 @@ AC_STRUCT_ST_BLOCKS_m4_defun_pro([$0])AC_CHECK_MEMBERS([struct stat.st_blocks],
 		  [AC_LIBOBJ([fileblocks])])
 []_m4_defun_epi([$0])
 T31,30
-m4_location(AS_VERSION_COMPARE)../../lib/m4sugar/m4sh.m4:1749
+m4_location(AS_VERSION_COMPARE)../../lib/m4sugar/m4sh.m4:1767
 T11,544
 _AS_PREPARE_m4_defun_pro([$0])m4_pushdef([AS_REQUIRE])m4_pushdef([AS_REQUIRE_SHELL_FN], _m4_defn([_AS_REQUIRE_SHELL_FN])
 )m4_pushdef([AS_MESSAGE_LOG_FD], [-1])_AS_ERROR_PREPARE
@@ -7724,7 +7898,7 @@ AC_FATALm4_fatal($@)
 T27,27
 m4_location(AC_PROG_CXXCPP)../../lib/autoconf/c.m4:636
 T28,32
-m4_location(AC_CONFIG_FILES)../../lib/autoconf/status.m4:290
+m4_location(AC_CONFIG_FILES)../../lib/autoconf/status.m4:288
 T18,1
 _m4_divert(NOTICE)6
 T24,3
@@ -7734,9 +7908,9 @@ m4_set_dumpm4_ifdef([_m4_set_size($1)],
 	  [_m4_popdef([_m4_set_size($1)])])m4_ifdef([_m4_set_cleanup($1)],
     [_$0_check], [_$0])([$1], [], [$2])
 T20,29
-m4_location(AS_EXIT)../../lib/m4sugar/m4sh.m4:552
+m4_location(AS_EXIT)../../lib/m4sugar/m4sh.m4:585
 T28,30
-m4_location(AC_LANG_PROGRAM)../../lib/autoconf/lang.m4:242
+m4_location(AC_LANG_PROGRAM)../../lib/autoconf/lang.m4:241
 T11,17
 m4_location__file__:__line__
 T11,178
@@ -7762,11 +7936,39 @@ m4_quote[$*]
 T27,27
 m4_location(AC_PROG_OBJCPP)../../lib/autoconf/c.m4:822
 T28,36
-m4_location(AC_FUNC_VPRINTF)../../lib/autoconf/functions.m4:1959
+m4_location(AC_FUNC_VPRINTF)../../lib/autoconf/functions.m4:1955
 T29,33
 m4_location(AC_CHECK_HEADERS)../../lib/autoconf/headers.m4:249
 T14,4
 _AC_CC(Erlang)ERLC
+T22,777
+AC_FC_MODULE_EXTENSION_m4_defun_pro([$0])AC_CACHE_CHECK([Fortran 90 module extension], [ac_cv_fc_module_ext],
+[AC_LANG_PUSH(Fortran)
+mkdir conftest.dir
+cd conftest.dir
+ac_cv_fc_module_ext=unknown
+AC_COMPILE_IFELSE([[
+      module conftest_module
+      contains
+      subroutine conftest_routine
+      write(*,'(a)') 'gotcha!'
+      end subroutine
+      end module]],
+  [ac_cv_fc_module_ext=`ls | sed -n 's,conftest_module\.,,p'`
+   if test x$ac_cv_fc_module_ext = x; then
+dnl Some F90 compilers use upper case characters for the module file name.
+     ac_cv_fc_module_ext=`ls | sed -n 's,CONFTEST_MODULE\.,,p'`
+   fi])
+cd ..
+rm -rf conftest.dir
+AC_LANG_POP(Fortran)
+])
+FC_MODEXT=$ac_cv_fc_module_ext
+if test "$FC_MODEXT" = unknown; then
+  FC_MODEXT=
+fi
+AC_SUBST([FC_MODEXT])dnl
+[]_m4_defun_epi([$0])
 T28,33
 m4_location(AC_HEADER_CHECK)../../lib/autoconf/oldnames.m4:36
 T21,1512
@@ -7820,8 +8022,10 @@ AC_CHECK_HEADERS(nlist.h,
 
 T28,4
 _AC_LANG_ABBREV(Objective C)objc
+T19,2
+_AC_LANG_ABBREV(Go)go
 T34,35
-m4_location(AM_FUNC_ERROR_AT_LINE)../../lib/autoconf/functions.m4:505
+m4_location(AM_FUNC_ERROR_AT_LINE)../../lib/autoconf/functions.m4:501
 T28,32
 m4_location(AC_CHECK_HEADER)../../lib/autoconf/headers.m4:67
 T30,0
@@ -7832,12 +8036,14 @@ T13,110
 _AC_ENABLE_IF@%:@ Check whether --$1-$2 was given.
 _AC_ENABLE_IF_ACTION([$1], m4_translit([$2], [-+.], [___]), [$3], [$4])
 
+T33,34
+m4_location(AC_F77_IMPLICIT_NONE)../../lib/autoconf/fortran.m4:1675
 T7,111
 AS_EXIT_m4_defun_pro([$0])AS_REQUIRE([_AS_EXIT_PREPARE])[]as_fn_exit m4_ifval([$1], [$1], [$][?])[]_m4_defun_epi([$0])
 F9,6
 m4_syscmdsyscmd
 T28,31
-m4_location(AC_TYPE_INT32_T)../../lib/autoconf/types.m4:618
+m4_location(AC_TYPE_INT32_T)../../lib/autoconf/types.m4:626
 T31,33
 m4_location(AC_MINUS_C_MINUS_O)../../lib/autoconf/oldnames.m4:66
 T16,55
@@ -7872,7 +8078,7 @@ AS_VAR_POPDEF([ac_Lib])dnl
 F11,8
 m4_traceofftraceoff
 T29,33
-m4_location(AC_FC_DUMMY_MAIN)../../lib/autoconf/fortran.m4:816
+m4_location(AC_FC_DUMMY_MAIN)../../lib/autoconf/fortran.m4:843
 T8,2
 m4_count$#
 T19,609
@@ -8069,11 +8275,11 @@ dnl default behavior for universal builds.
  esac
 []_m4_defun_epi([$0])
 T24,30
-m4_location(AC_LANG_POP)../../lib/autoconf/lang.m4:108
+m4_location(AC_LANG_POP)../../lib/autoconf/lang.m4:107
 T22,33
 m4_location(AC_INLINE)../../lib/autoconf/oldnames.m4:61
 T31,30
-m4_location(_AS_TR_CPP_PREPARE)../../lib/m4sugar/m4sh.m4:1827
+m4_location(_AS_TR_CPP_PREPARE)../../lib/m4sugar/m4sh.m4:1845
 T20,4538
 _AC_OUTPUT_MAIN_LOOP_m4_defun_pro([$0])
 # If the user did not use the arguments to specify the items to instantiate,
@@ -8268,7 +8474,7 @@ AC_FUNC_GETMNTENT[]_m4_defun_epi([$0])
 T29,27
 m4_location(_AC_ARG_VAR_LIBS)../../lib/autoconf/c.m4:328
 T23,29
-m4_location(AS_PREPARE)../../lib/m4sugar/m4sh.m4:321
+m4_location(AS_PREPARE)../../lib/m4sugar/m4sh.m4:353
 T24,33
 m4_location(AC_TEST_CPP)../../lib/autoconf/oldnames.m4:45
 T19,443
@@ -8306,9 +8512,9 @@ AC_SYS_POSIX_TERMIOS_m4_defun_pro([$0])AC_CACHE_CHECK([POSIX termios], ac_cv_sys
 	     ac_cv_sys_posix_termios=no)])
 []_m4_defun_epi([$0])
 T27,34
-m4_location(_AC_RUN_IFELSE)../../lib/autoconf/general.m4:2730
+m4_location(_AC_RUN_IFELSE)../../lib/autoconf/general.m4:2729
 T28,36
-m4_location(AC_FUNC_STRCOLL)../../lib/autoconf/functions.m4:1729
+m4_location(AC_FUNC_STRCOLL)../../lib/autoconf/functions.m4:1725
 T19,153
 _AC_CONFIG_REGISTERm4_if([$1], [COMMANDS],
        [],
@@ -8319,9 +8525,9 @@ AC_MODE_T_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_MODE_T' is ob
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_TYPE_MODE_T], [AC_TYPE_MODE_T($@)])[]_m4_defun_epi([$0])
 T27,33
-m4_location(_AC_CHECK_PROG)../../lib/autoconf/programs.m4:42
+m4_location(_AC_CHECK_PROG)../../lib/autoconf/programs.m4:40
 T29,30
-m4_location(AC_LANG_INT_SAVE)../../lib/autoconf/lang.m4:298
+m4_location(AC_LANG_INT_SAVE)../../lib/autoconf/lang.m4:297
 T24,3
 _m4_divert(INIT_PREPARE)300
 T29,448
@@ -8375,7 +8581,7 @@ AC_PID_T_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_PID_T' is obso
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_TYPE_PID_T], [AC_TYPE_PID_T($@)])[]_m4_defun_epi([$0])
 T24,34
-m4_location(AC_PROG_SED)../../lib/autoconf/programs.m4:868
+m4_location(AC_PROG_SED)../../lib/autoconf/programs.m4:867
 T11,53
 _m4_joinallm4_if([$#], [2], [], [[$1$3]$0([$1], m4_shift2($@))])
 T32,122
@@ -8463,7 +8669,7 @@ _ACEOF
 T28,33
 m4_location(AC_PROGRAM_PATH)../../lib/autoconf/oldnames.m4:43
 T25,29
-m4_location(AC_LANG_PUSH)../../lib/autoconf/lang.m4:98
+m4_location(AC_LANG_PUSH)../../lib/autoconf/lang.m4:97
 T16,56
 _AS_TR_CPP_INDIR`AS_ECHO(["_AS_ESCAPE([[$1]], [`], [\])"]) | $as_tr_cpp`
 T9,373
@@ -8480,7 +8686,7 @@ m4_if([$2], [], [: "${TMPDIR:=/tmp}"])
 } || AS_ERROR([cannot create a temporary directory in m4_default([$2],
 	      [$TMPDIR])])
 T30,31
-m4_location(AC_TYPE_UINTMAX_T)../../lib/autoconf/types.m4:326
+m4_location(AC_TYPE_UINTMAX_T)../../lib/autoconf/types.m4:327
 T25,27
 m4_location(AC_PROG_OBJC)../../lib/autoconf/c.m4:871
 T10,728
@@ -8641,7 +8847,7 @@ m4_divert_once([HELP_ENABLE], [$2])dnl
 _AC_ENABLE_IF([enable], [$1], [$3], [$4])dnl
 []_m4_defun_epi([$0])
 T41,33
-m4_location(AC_LANG_COMPILER(Fortran 77))../../lib/autoconf/fortran.m4:255
+m4_location(AC_LANG_COMPILER(Fortran 77))../../lib/autoconf/fortran.m4:254
 T9,58
 m4_ifvalnm4_if([$1],
        [],   [m4_n([$3])],
@@ -8690,11 +8896,11 @@ AC_CONFIG_LIBOBJ_DIR_m4_defun_once([AC_CONFIG_LIBOBJ_DIR], [m4_divert_text([DEFA
 m4_ifdef([_m4_diverting([AC_CONFIG_LIBOBJ_DIR])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_CONFIG_LIBOBJ_DIR],], [, _m4_divert_dump)]]))
 T27,35
-m4_location(AC_FUNC_MALLOC)../../lib/autoconf/functions.m4:916
+m4_location(AC_FUNC_MALLOC)../../lib/autoconf/functions.m4:912
 F8,5
 m4_indexindex
 T28,34
-m4_location(_AC_LINK_IFELSE)../../lib/autoconf/general.m4:2662
+m4_location(_AC_LINK_IFELSE)../../lib/autoconf/general.m4:2661
 T8,85
 _m4_joinm4_if([$#$2], [2], [],
        [m4_if([$2], [], [], [[$1$2]])$0([$1], m4_shift2($@))])
@@ -8705,11 +8911,11 @@ m4_pattern_forbid
 T28,28
 m4_location(_AC_PROG_CC_C89)../../lib/autoconf/c.m4:1101
 T28,36
-m4_location(AM_FUNC_OBSTACK)../../lib/autoconf/functions.m4:1389
+m4_location(AM_FUNC_OBSTACK)../../lib/autoconf/functions.m4:1385
 T28,35
-m4_location(AC_FUNC_FNMATCH)../../lib/autoconf/functions.m4:550
+m4_location(AC_FUNC_FNMATCH)../../lib/autoconf/functions.m4:546
 T28,31
-m4_location(AC_CHECK_MEMBER)../../lib/autoconf/types.m4:880
+m4_location(AC_CHECK_MEMBER)../../lib/autoconf/types.m4:888
 T22,527
 _AS_VAR_APPEND_PREPARE_m4_defun_pro([$0])AS_FUNCTION_DESCRIBE([as_fn_append], [VAR VALUE],
 [Append the text in VALUE to the end of the definition contained in
@@ -8731,9 +8937,9 @@ AN_FUNCTIONAN_OUTPUT([function], $@)
 F10,7
 m4_traceontraceon
 T39,30
-m4_location(_AS_PATH_SEPARATOR_PREPARE)../../lib/m4sugar/m4sh.m4:1276
+m4_location(_AS_PATH_SEPARATOR_PREPARE)../../lib/m4sugar/m4sh.m4:1315
 T30,33
-m4_location(_AC_LINKER_OPTION)../../lib/autoconf/fortran.m4:124
+m4_location(_AC_LINKER_OPTION)../../lib/autoconf/fortran.m4:123
 T29,0
 m4_include(autoconf/types.m4)
 T10,84
@@ -8758,9 +8964,16 @@ AC_TYPE_INTMAX_T_m4_defun_pro([$0])
 	if <stdint.h> and <inttypes.h> do not define.])])
 []_m4_defun_epi([$0])
 T31,36
-m4_location(AC_FUNC_UTIME_NULL)../../lib/autoconf/functions.m4:1753
-T24,44
-_AC_LANG_OPENMP(Fortran)AC_LANG_FUNC_LINK_TRY([omp_get_num_threads])
+m4_location(AC_FUNC_UTIME_NULL)../../lib/autoconf/functions.m4:1749
+T24,117
+_AC_LANG_OPENMP(Fortran)
+      program main
+      implicit none
+!$    integer tid
+      tid = 42
+      call omp_set_num_threads(2)
+      end
+
 T18,243
 AC_ERLANG_PATH_ERL_m4_defun_pro([$0])AC_ARG_VAR([ERL], [Erlang/OTP interpreter command [autodetected]])dnl
 if test -n "$ERL"; then
@@ -8774,17 +8987,17 @@ T17,92
 AC_COMPILE_IFELSE_m4_defun_pro([$0])AC_LANG_COMPILER_REQUIRE()dnl
 _AC_COMPILE_IFELSE($@)[]_m4_defun_epi([$0])
 T31,33
-m4_location(AC_OUTPUT_COMMANDS)../../lib/autoconf/status.m4:1028
+m4_location(AC_OUTPUT_COMMANDS)../../lib/autoconf/status.m4:1026
 T27,32
 m4_location(AC_LANG_ERLANG)../../lib/autoconf/erlang.m4:112
-T10,1783
+T10,1813
 AC_C_CONST_m4_defun_pro([$0])AC_CACHE_CHECK([for an ANSI C-conforming const], ac_cv_c_const,
 [AC_COMPILE_IFELSE([AC_LANG_PROGRAM([],
-[[/* FIXME: Include the comments suggested by Paul. */
+[[
 #ifndef __cplusplus
-  /* Ultrix mips cc rejects this.  */
+  /* Ultrix mips cc rejects this sort of thing.  */
   typedef int charset[2];
-  const charset cs;
+  const charset cs = { 0, 0 };
   /* SunOS 4.1.1 cc rejects this.  */
   char const *const *pcpcc;
   char **ppc;
@@ -8801,8 +9014,9 @@ AC_C_CONST_m4_defun_pro([$0])AC_CACHE_CHECK([for an ANSI C-conforming const], ac
   ++pcpcc;
   ppc = (char**) pcpcc;
   pcpcc = (char const *const *) ppc;
-  { /* SCO 3.2v4 cc rejects this.  */
-    char *t;
+  { /* SCO 3.2v4 cc rejects this sort of thing.  */
+    char tx;
+    char *t = &tx;
     char const *s = 0 ? (char *) 0 : (char const *) 0;
 
     *t++ = 0;
@@ -8818,10 +9032,10 @@ AC_C_CONST_m4_defun_pro([$0])AC_CACHE_CHECK([for an ANSI C-conforming const], ac
     iptr p = 0;
     ++p;
   }
-  { /* AIX XL C 1.02.0.0 rejects this saying
+  { /* AIX XL C 1.02.0.0 rejects this sort of thing, saying
        "k.c", line 2.27: 1506-025 (S) Operand must be a modifiable lvalue. */
-    struct s { int j; const int *ap[3]; };
-    struct s *b; b->j = 5;
+    struct s { int j; const int *ap[3]; } bx;
+    struct s *b = &bx; b->j = 5;
   }
   { /* ULTRIX-32 V3.1 (Rev 9) vcc rejects this */
     const int foo = 10;
@@ -8838,7 +9052,7 @@ if test $ac_cv_c_const = no; then
 fi
 []_m4_defun_epi([$0])
 T31,30
-m4_location(_AS_LINENO_PREPARE)../../lib/m4sugar/m4sh.m4:1132
+m4_location(_AS_LINENO_PREPARE)../../lib/m4sugar/m4sh.m4:1167
 T46,33
 m4_location(_AC_INCLUDES_DEFAULT_REQUIREMENTS)../../lib/autoconf/headers.m4:297
 T12,110
@@ -8865,7 +9079,7 @@ esac])dnl
 T9,0
 AH_OUTPUT
 T27,30
-m4_location(AC_LANG_WERROR)../../lib/autoconf/lang.m4:720
+m4_location(AC_LANG_WERROR)../../lib/autoconf/lang.m4:719
 T8,175
 AC_CONST_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_CONST' is obsolete.
 You should run autoupdate.])dnl
@@ -8876,7 +9090,7 @@ m4_tolowerm4_translit([[$1]], [ABCDEFGHIJKLMNOPQRSTUVWXYZ],
 T10,121
 m4_re_word[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_][abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789]*
 T33,29
-m4_location(_AS_BASENAME_PREPARE)../../lib/m4sugar/m4sh.m4:921
+m4_location(_AS_BASENAME_PREPARE)../../lib/m4sugar/m4sh.m4:954
 T25,1
 _m4_divert(M4SH-SANITIZE)4
 T24,2
@@ -8892,7 +9106,7 @@ m4_dquote_eltm4_if([$#], [0], [],
 F6,6
 divnumdivnum
 T24,34
-m4_location(AC_PROG_LEX)../../lib/autoconf/programs.m4:711
+m4_location(AC_PROG_LEX)../../lib/autoconf/programs.m4:709
 T34,27
 m4_location(AC_LANG_COMPILER(C++))../../lib/autoconf/c.m4:667
 T28,0
@@ -8952,10 +9166,60 @@ $2
   ;
   return 0;
 }
+T17,1456
+AC_FC_MODULE_FLAG_m4_defun_pro([$0])
+AC_CACHE_CHECK([Fortran 90 module inclusion flag], [ac_cv_fc_module_flag],
+[AC_LANG_PUSH([Fortran])
+ac_cv_fc_module_flag=unknown
+mkdir conftest.dir
+cd conftest.dir
+AC_COMPILE_IFELSE([[
+      module conftest_module
+      contains
+      subroutine conftest_routine
+      write(*,'(a)') 'gotcha!'
+      end subroutine
+      end module]],
+  [cd ..
+   ac_fc_module_flag_FCFLAGS_save=$FCFLAGS
+   # Flag ordering is significant for gfortran and Sun.
+   for ac_flag in -M -I '-I ' '-M ' -p '-mod ' '-module ' '-Am -I'; do
+     # Add the flag twice to prevent matching an output flag.
+     FCFLAGS="$ac_fc_module_flag_FCFLAGS_save ${ac_flag}conftest.dir ${ac_flag}conftest.dir"
+     AC_COMPILE_IFELSE([[
+      program main
+      use conftest_module
+      call conftest_routine
+      end program]],
+       [ac_cv_fc_module_flag="$ac_flag"])
+     if test "$ac_cv_fc_module_flag" != unknown; then
+       break
+     fi
+   done
+   FCFLAGS=$ac_fc_module_flag_FCFLAGS_save
+])
+rm -rf conftest.dir
+AC_LANG_POP([Fortran])
+])
+if test "$ac_cv_fc_module_flag" != unknown; then
+  FC_MODINC=$ac_cv_fc_module_flag
+  $1
+else
+  FC_MODINC=
+  m4_default([$2],
+    [AC_MSG_ERROR([unable to find compiler flag for module search path])])
+fi
+AC_SUBST([FC_MODINC])
+# Ensure trailing whitespace is preserved in a Makefile.
+AC_SUBST([ac_empty], [""])
+AC_CONFIG_COMMANDS_PRE([case $FC_MODINC in #(
+  *\ ) FC_MODINC=$FC_MODINC'${ac_empty}' ;;
+esac])dnl
+[]_m4_defun_epi([$0])
 T28,33
-m4_location(_AC_INIT_SRCDIR)../../lib/autoconf/general.m4:512
+m4_location(_AC_INIT_SRCDIR)../../lib/autoconf/general.m4:510
 T27,29
-m4_location(AS_LINENO_PUSH)../../lib/m4sugar/m4sh.m4:861
+m4_location(AS_LINENO_PUSH)../../lib/m4sugar/m4sh.m4:894
 T10,36
 _m4_expand$0_([$1], [(], -=<{($1)}>=-, [}>=-])
 T20,359
@@ -8978,15 +9242,22 @@ m4_re_string[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789]*
 T24,27
 m4_location(AC_PROG_CXX)../../lib/autoconf/c.m4:694
 T31,34
-m4_location(AC_CANONICAL_BUILD)../../lib/autoconf/general.m4:1789
-T27,44
-_AC_LANG_OPENMP(Fortran 77)AC_LANG_FUNC_LINK_TRY([omp_get_num_threads])
+m4_location(AC_CANONICAL_BUILD)../../lib/autoconf/general.m4:1788
+T27,117
+_AC_LANG_OPENMP(Fortran 77)
+      program main
+      implicit none
+!$    integer tid
+      tid = 42
+      call omp_set_num_threads(2)
+      end
+
 T14,97
 AC_CHECK_FILES_m4_defun_pro([$0])m4_map_args_w([$1], [AC_CHECK_FILE(_$0(], [)[$2], [$3])])[]_m4_defun_epi([$0])
 T28,29
-m4_location(_AS_DIRNAME_SED)../../lib/m4sugar/m4sh.m4:949
+m4_location(_AS_DIRNAME_SED)../../lib/m4sugar/m4sh.m4:982
 T28,30
-m4_location(AS_EXECUTABLE_P)../../lib/m4sugar/m4sh.m4:1063
+m4_location(AS_EXECUTABLE_P)../../lib/m4sugar/m4sh.m4:1098
 F11,8
 m4_errprinterrprint
 T11,272
@@ -8998,7 +9269,7 @@ esac
 eval ac_try_echo="\"\$as_me:${as_lineno-$LINENO}: $ac_try_echo\""]
 AS_ECHO(["$ac_try_echo"])[]_m4_defun_epi([$0])
 T29,34
-m4_location(AC_COMPILE_CHECK)../../lib/autoconf/general.m4:2695
+m4_location(AC_COMPILE_CHECK)../../lib/autoconf/general.m4:2694
 T6,122
 m4_cdrm4_if([$#], 0, [m4_fatal([$0: cannot be called without arguments])],
        [$#], 1, [],
@@ -9040,7 +9311,7 @@ ATEOF
 ERLCFLAGS="$ERLCFLAGS"
 ])])[]_m4_defun_epi([$0])
 T18,4
-m4_PACKAGE_VERSION2.68
+m4_PACKAGE_VERSION2.69
 T21,1950
 __AC_FC_NAME_MANGLING_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
 AC_CACHE_CHECK([for _AC_LANG name-mangling scheme],
@@ -9125,9 +9396,9 @@ m4_if($#, 0, [AC_STRUCT_TIMEZONE], [AC_STRUCT_TIMEZONE($@)])[]_m4_defun_epi([$0]
 T10,27
 m4_joinall[$2]_$0([$1], m4_shift($@))
 T24,33
-m4_location(AC_UNISTD_H)../../lib/autoconf/headers.m4:824
+m4_location(AC_UNISTD_H)../../lib/autoconf/headers.m4:833
 T27,34
-m4_location(AC_FC_WRAPPERS)../../lib/autoconf/fortran.m4:1054
+m4_location(AC_FC_WRAPPERS)../../lib/autoconf/fortran.m4:1081
 T28,316
 AC_LANG_PROGRAM(Objective C)$1
 m4_ifdef([_AC_LANG_PROGRAM_C_F77_HOOKS], [_AC_LANG_PROGRAM_C_F77_HOOKS])[]dnl
@@ -9231,7 +9502,7 @@ m4_location(AC_GETGROUPS_T)../../lib/autoconf/oldnames.m4:60
 T21,33
 m4_location(AC_ERROR)../../lib/autoconf/oldnames.m4:34
 T27,34
-m4_location(AC_CACHE_CHECK)../../lib/autoconf/general.m4:2053
+m4_location(AC_CACHE_CHECK)../../lib/autoconf/general.m4:2052
 T13,333
 m4_divert_popm4_if([$1], [], [],
        [$1], _m4_defn([_m4_divert_diversion]), [],
@@ -9241,7 +9512,7 @@ m4_divert_popm4_if([$1], [], [],
 T15,95
 AC_LANG_PROGRAM_m4_defun_pro([$0])AC_LANG_SOURCE([_AC_LANG_DISPATCH([$0], _AC_LANG, $@)])[]_m4_defun_epi([$0])
 T23,33
-m4_location(AC_FC_MAIN)../../lib/autoconf/fortran.m4:874
+m4_location(AC_FC_MAIN)../../lib/autoconf/fortran.m4:901
 T15,864
 _AC_OUTPUT_LINK
   #
@@ -9280,11 +9551,11 @@ T33,36
 AC_LANG_FUNC_LINK_TRY(Fortran 77)AC_LANG_PROGRAM([],
 [      call $1])
 T30,30
-m4_location(AS_LINENO_PREPARE)../../lib/m4sugar/m4sh.m4:1131
+m4_location(AS_LINENO_PREPARE)../../lib/m4sugar/m4sh.m4:1166
 T14,103
 _AS_TR_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_TR_SH_PREPARE])AS_REQUIRE([_AS_TR_CPP_PREPARE])[]_m4_defun_epi([$0])
 T30,31
-m4_location(AC_TYPE_MBSTATE_T)../../lib/autoconf/types.m4:559
+m4_location(AC_TYPE_MBSTATE_T)../../lib/autoconf/types.m4:567
 T23,331
 _AC_PREPROC_IFELSE_BODY  AS_LINENO_PUSH([$[]1])
   AS_IF([_AC_DO_STDERR([$ac_cpp conftest.$ac_ext]) > conftest.i && {
@@ -9303,6 +9574,62 @@ _AC_LANG_IO_PROGRAM(Fortran)AC_LANG_PROGRAM([],
       open(unit=9,file='conftest.out')
       close(unit=9)
 ])
+T18,1980
+AC_FC_CHECK_BOUNDS_m4_defun_once([AC_FC_CHECK_BOUNDS], [AC_LANG_PUSH([Fortran])dnl
+AC_CACHE_CHECK([for Fortran flag to enable array-bounds checking],
+               [ac_cv_fc_check_bounds],
+[ac_cv_fc_check_bounds=unknown
+ac_fc_check_bounds_FCFLAGS_save=$FCFLAGS
+for ac_flag in -fcheck=bounds -fbounds-check -check_bounds -Mbounds -qcheck \
+               '-check bounds' +check=all --check '-Rb -Rc' -CB -C=all -C \
+               -ffortran-bounds-check "--chk e,s" "-chk e -chk s" -bounds
+do
+  FCFLAGS="$ac_fc_check_bounds_FCFLAGS_save $ac_flag"
+  # We should be able to link a correct program.
+  AC_LINK_IFELSE([AC_LANG_PROGRAM([], [])],
+    [AC_LINK_IFELSE([[
+      subroutine sub(a)
+      integer a(:)
+      a(8) = 0
+      end subroutine
+
+      program main
+      integer a(1:7)
+      interface
+         subroutine sub(a)
+         integer a(:)
+         end subroutine
+      end interface
+
+      call sub(a)
+      end program]],
+       [# If we can run the program, require failure at run time.
+	# In cross-compiling mode, we rely on the compiler not accepting
+	# unknown options.
+	AS_IF([test "$cross_compiling" = yes],
+	  [ac_cv_fc_check_bounds=$ac_flag; break],
+	  [AS_IF([_AC_DO_TOKENS(./conftest$ac_exeext)],
+	     [],
+	     [ac_cv_fc_check_bounds=$ac_flag; break])])])])
+done
+rm -f conftest$ac_exeext conftest.err conftest.$ac_objext conftest.$ac_ext \
+  core *.core core.conftest.*
+FCFLAGS=$ac_fc_check_bounds_FCFLAGS_save
+])
+if test "x$ac_cv_fc_check_bounds" = xunknown; then
+  m4_default([$2],
+             [AC_MSG_ERROR([no Fortran flag for bounds checking found], 77)])
+else
+  if test "x$ac_cv_fc_check_bounds" != xnone; then
+    FCFLAGS="$FCFLAGS $ac_cv_fc_check_bounds"
+  fi
+  $1
+fi
+AC_LANG_POP([Fortran])dnl
+], m4_if(_m4_divert_dump, [],
+  [[_m4_defun_pro([AC_FC_CHECK_BOUNDS])m4_unquote(], [)_m4_defun_epi([AC_FC_CHECK_BOUNDS])]],
+m4_ifdef([_m4_diverting([AC_FC_CHECK_BOUNDS])], [-]), [-], [[m4_unquote(], [)]],
+  [[_m4_require_call([AC_FC_CHECK_BOUNDS],], [, _m4_divert_dump)]]))
 T11,65
 m4_set_sizem4_ifdef([_m4_set_size($1)], [m4_indir([_m4_set_size($1)])], [0])
 T12,25
@@ -9317,11 +9644,11 @@ AC_REPLACE_FUNCS_m4_defun_pro([$0])_$0(m4_flatten([$1]))[]_m4_defun_epi([$0])
 T7,20
 m4_wrap_m4_wrap([], [$1[]])
 T25,30
-m4_location(AS_VAR_ARITH)../../lib/m4sugar/m4sh.m4:1963
+m4_location(AS_VAR_ARITH)../../lib/m4sugar/m4sh.m4:1981
 T16,77
 AC_LANG_INT_SAVE_m4_defun_pro([$0])_AC_LANG_DISPATCH([$0], _AC_LANG, $@)[]_m4_defun_epi([$0])
 T29,29
-m4_location(_AS_BASENAME_SED)../../lib/m4sugar/m4sh.m4:893
+m4_location(_AS_BASENAME_SED)../../lib/m4sugar/m4sh.m4:926
 T17,2
 _AC_SED_CMD_LIMIT99
 T13,640
@@ -9341,11 +9668,9 @@ if test $ac_cv_func_$1_empty_string_bug = yes; then
 		      given the zero-length file name argument.])
 fi
 
-T19,153
+T19,67
 _AC_COPYRIGHT_YEARS
-Copyright (C) 1992, 1993, 1994, 1995, 1996, 1998, 1999, 2000, 2001,
-2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software
-Foundation, Inc.
+Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
 
 T15,291
 _AC_CHECK_DECLSAC_CHECK_DECL([$1], [ac_have_decl=1], [ac_have_decl=0], [$4])AC_DEFINE_UNQUOTED(AS_TR_CPP(m4_bpatsubst(HAVE_DECL_[$1],[ *(.*])),
@@ -9353,7 +9678,7 @@ _AC_CHECK_DECLSAC_CHECK_DECL([$1], [ac_have_decl=1], [ac_have_decl=0], [$4])AC_D
   [Define to 1 if you have the declaration of `$1',
    and to 0 if you don't.])m4_ifvaln([$2$3], [AS_IF([test $ac_have_decl = 1], [$2], [$3])])
 T30,35
-m4_location(AC_FUNC_GETGROUPS)../../lib/autoconf/functions.m4:629
+m4_location(AC_FUNC_GETGROUPS)../../lib/autoconf/functions.m4:625
 T15,165
 _m4_set_add_allm4_if([$#], [2], [],
        [m4_ifdef([_m4_set([$1],$3)], [],
@@ -9365,9 +9690,9 @@ _AC_LANG_IO_PROGRAM(Objective C++)AC_LANG_PROGRAM([@%:@include <stdio.h>],
  return ferror (f) || fclose (f) != 0;
 ])
 T34,30
-m4_location(_AC_LANG_NULL_PROGRAM)../../lib/autoconf/lang.m4:257
+m4_location(_AC_LANG_NULL_PROGRAM)../../lib/autoconf/lang.m4:256
 T27,31
-m4_location(AC_INT_16_BITS)../../lib/autoconf/types.m4:821
+m4_location(AC_INT_16_BITS)../../lib/autoconf/types.m4:829
 T25,33
 m4_location(AC_FIND_XTRA)../../lib/autoconf/oldnames.m4:58
 T21,864
@@ -9399,13 +9724,13 @@ AC_CHECK_HEADERS_m4_defun_pro([$0])m4_map_args_w([$1], [_AH_CHECK_HEADER(], [)])
 T33,33
 m4_location(_AC_CHECK_HEADER_OLD)../../lib/autoconf/headers.m4:215
 T29,36
-m4_location(AC_FUNC_STRFTIME)../../lib/autoconf/functions.m4:1669
+m4_location(AC_FUNC_STRFTIME)../../lib/autoconf/functions.m4:1665
 T9,0
 AN_OUTPUT
 F8,8
 translittranslit
 T29,30
-m4_location(_AS_TEST_PREPARE)../../lib/m4sugar/m4sh.m4:1348
+m4_location(_AS_TEST_PREPARE)../../lib/m4sugar/m4sh.m4:1384
 T31,0
 m4_include(autoconf/headers.m4)
 T10,24
@@ -9420,13 +9745,13 @@ ac_compiler_gnu=$ac_cv_objcxx_compiler_gnu
 F7,7
 pushdefpushdef
 T31,34
-m4_location(_AC_COMPILE_IFELSE)../../lib/autoconf/general.m4:2591
+m4_location(_AC_COMPILE_IFELSE)../../lib/autoconf/general.m4:2590
 T25,3
 _m4_divert(VERSION_BEGIN)200
 T31,27
 m4_location(AC_PROG_CPP_WERROR)../../lib/autoconf/c.m4:422
 T27,34
-m4_location(AC_CHECK_PROGS)../../lib/autoconf/programs.m4:111
+m4_location(AC_CHECK_PROGS)../../lib/autoconf/programs.m4:109
 T19,584
 _AC_INIT_CONFIG_LOGm4_divert_text([INIT_PREPARE],
 [m4_define([AS_MESSAGE_LOG_FD], 5)dnl
@@ -9493,11 +9818,11 @@ popdefm4_if([$#], [0], [[$0]],
 			    [m4_fatal([$0: undefined macro: $1])])],
        [m4_map_args([$0], $@)])
 T20,34
-m4_location(AC_INIT)../../lib/autoconf/general.m4:1362
+m4_location(AC_INIT)../../lib/autoconf/general.m4:1358
 T28,36
-m4_location(AC_FUNC_STRTOLD)../../lib/autoconf/functions.m4:1593
+m4_location(AC_FUNC_STRTOLD)../../lib/autoconf/functions.m4:1589
 T21,33
-m4_location(AC_FD_CC)../../lib/autoconf/general.m4:385
+m4_location(AC_FD_CC)../../lib/autoconf/general.m4:383
 T24,495
 _AC_CHECK_HEADER_PREPROC_m4_defun_pro([$0])AC_REQUIRE_SHELL_FN([ac_fn_]_AC_LANG_ABBREV[_check_header_preproc],
   [AS_FUNCTION_DESCRIBE([ac_fn_]_AC_LANG_ABBREV[_check_header_preproc],
@@ -9521,7 +9846,7 @@ if test "$ERL" = "not found"; then
 fi
 []_m4_defun_epi([$0])
 T27,30
-m4_location(AC_REQUIRE_CPP)../../lib/autoconf/lang.m4:382
+m4_location(AC_REQUIRE_CPP)../../lib/autoconf/lang.m4:381
 T21,609
 AC_LANG_INT_SAVE(C++)AC_LANG_PROGRAM([$1
 static long int longval () { return $2; }
@@ -9551,7 +9876,7 @@ static unsigned long int ulongval () { return $2; }
   return ferror (f) || fclose (f) != 0;
 ])
 T31,35
-m4_location(_AC_LIBOBJ_FNMATCH)../../lib/autoconf/functions.m4:561
+m4_location(_AC_LIBOBJ_FNMATCH)../../lib/autoconf/functions.m4:557
 T15,192
 fp_FUNC_FNMATCH_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `fp_FUNC_FNMATCH' is obsolete.
 You should run autoupdate.])dnl
@@ -9586,7 +9911,7 @@ char $2 ();])], [return $2 ();])
 T7,48
 m4_qlenm4_ifdef([$0-$1], [_m4_defn([$0-]], [_$0(])[$1])
 T22,33
-m4_location(AC_OUTPUT)../../lib/autoconf/status.m4:1241
+m4_location(AC_OUTPUT)../../lib/autoconf/status.m4:1239
 T21,33
 m4_location(AC_CONST)../../lib/autoconf/oldnames.m4:55
 T14,41
@@ -9599,9 +9924,9 @@ else
 fi
 []_m4_defun_epi([$0])
 T28,35
-m4_location(AM_FUNC_FNMATCH)../../lib/autoconf/functions.m4:597
+m4_location(AM_FUNC_FNMATCH)../../lib/autoconf/functions.m4:593
 T22,34
-m4_location(AC_ENABLE)../../lib/autoconf/general.m4:1476
+m4_location(AC_ENABLE)../../lib/autoconf/general.m4:1475
 T14,95
 _m4_list_cmp_2_m4_list_cmp([$1$3], m4_cmp([$3+0], [$1+0]))(
   [_m4_list_cmp_1(m4_dquote(m4_shift3($@)), $2)])
@@ -9635,7 +9960,7 @@ do
 done
 
 T19,33
-m4_location(AC_USG)../../lib/autoconf/headers.m4:831
+m4_location(AC_USG)../../lib/autoconf/headers.m4:840
 T16,265
 AC_LANG(Fortran)ac_ext=${ac_fc_srcext-f}
 ac_compile='$FC -c $FCFLAGS $ac_fcflags_srcext conftest.$ac_ext >&AS_MESSAGE_LOG_FD'
@@ -9655,13 +9980,13 @@ m4_location(AC_YYTEXT_POINTER)../../lib/autoconf/oldnames.m4:84
 T28,33
 m4_location(AC_STDC_HEADERS)../../lib/autoconf/oldnames.m4:75
 T30,33
-m4_location(AC_F77_DUMMY_MAIN)../../lib/autoconf/fortran.m4:806
+m4_location(AC_F77_DUMMY_MAIN)../../lib/autoconf/fortran.m4:833
 T17,151
 _AC_CHECK_MEMBERS[$1], [AC_DEFINE_UNQUOTED(AS_TR_CPP([HAVE_$1]), [1],
   [Define to 1 if `]m4_bpatsubst([$1],
     [^\([^.]*\)\.\(.*\)], [[\2' is a member of `\1]])['.])]
 T34,30
-m4_location(_AS_VAR_ARITH_PREPARE)../../lib/m4sugar/m4sh.m4:1930
+m4_location(_AS_VAR_ARITH_PREPARE)../../lib/m4sugar/m4sh.m4:1948
 T12,18
 m4_errprintnm4_errprint([$1
 ])
@@ -9756,7 +10081,7 @@ m4_append_uniq([_AC_SUBST_FILES], [$1], [
 T27,27
 m4_location(ac_cv_prog_gxx)../../lib/autoconf/c.m4:674
 T35,34
-m4_location(AC_MSG_RESULT_UNQUOTED)../../lib/autoconf/general.m4:2274
+m4_location(AC_MSG_RESULT_UNQUOTED)../../lib/autoconf/general.m4:2273
 T15,221
 AC_FUNC_FNMATCH_m4_defun_pro([$0])_AC_FUNC_FNMATCH_IF([POSIX], [ac_cv_func_fnmatch_works],
 		     [AC_DEFINE([HAVE_FNMATCH], 1,
@@ -9778,7 +10103,7 @@ T10,86
 m4_toupperm4_translit([[$1]], [abcdefghijklmnopqrstuvwxyz],
 		     [ABCDEFGHIJKLMNOPQRSTUVWXYZ])
 T26,28
-m4_location(AC_C_RESTRICT)../../lib/autoconf/c.m4:1730
+m4_location(AC_C_RESTRICT)../../lib/autoconf/c.m4:1739
 T18,2
 _AS_LITERAL_IF_YES$3
 T14,148
@@ -9786,17 +10111,19 @@ AC_DECL_YYTEXT_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_DECL_YYT
 You should run autoupdate.])dnl
 AC_PROG_LEX[]_m4_defun_epi([$0])
 T31,32
-m4_location(AC_STRUCT_TIMEZONE)../../lib/autoconf/types.m4:1042
+m4_location(AC_STRUCT_TIMEZONE)../../lib/autoconf/types.m4:1050
 T28,33
 m4_location(AC_HEADER_MAJOR)../../lib/autoconf/headers.m4:509
 T11,2
 _AS_ESCAPE_$1
 T25,29
-m4_location(_AC_LANG_SET)../../lib/autoconf/lang.m4:82
+m4_location(_AC_LANG_SET)../../lib/autoconf/lang.m4:81
 T26,34
-m4_location(AC_GNU_SOURCE)../../lib/autoconf/specific.m4:310
+m4_location(AC_GNU_SOURCE)../../lib/autoconf/specific.m4:314
 T9,0
 m4_ignore
+T28,34
+m4_location(AC_FC_PP_DEFINE)../../lib/autoconf/fortran.m4:1302
 T21,192
 _AC_F77_NAME_MANGLING_m4_defun_pro([$0])AC_REQUIRE([AC_F77_LIBRARY_LDFLAGS])dnl
 AC_REQUIRE([AC_F77_DUMMY_MAIN])dnl
@@ -9807,13 +10134,13 @@ AC_LANG_POP(Fortran 77)dnl
 T16,73
 AH_CHECK_HEADERSm4_foreach_w([AC_Header], [$1], [_AH_CHECK_HEADER(m4_defn([AC_Header]))])
 T24,34
-m4_location(_AC_FC_FUNC)../../lib/autoconf/fortran.m4:1067
+m4_location(_AC_FC_FUNC)../../lib/autoconf/fortran.m4:1094
 T36,30
-m4_location(AC_LANG_PREPROC_REQUIRE)../../lib/autoconf/lang.m4:373
+m4_location(AC_LANG_PREPROC_REQUIRE)../../lib/autoconf/lang.m4:372
 T31,27
 m4_location(AC_LANG_PREPROC(C))../../lib/autoconf/c.m4:336
 T30,34
-m4_location(AC_COMPILE_IFELSE)../../lib/autoconf/general.m4:2607
+m4_location(AC_COMPILE_IFELSE)../../lib/autoconf/general.m4:2606
 T19,288
 _m4_set_contents_1cm4_ifdef([_m4_set([$1])],
 	  [m4_set_contains([$1], _m4_defn([_m4_set([$1])]),
@@ -9830,7 +10157,7 @@ AC_WORDS_BIGENDIAN_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_WORD
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_C_BIGENDIAN], [AC_C_BIGENDIAN($@)])[]_m4_defun_epi([$0])
 T22,33
-m4_location(AC_FD_MSG)../../lib/autoconf/general.m4:386
+m4_location(AC_FD_MSG)../../lib/autoconf/general.m4:384
 T14,44
 m4_divert_oncem4_expand_once([m4_divert_text([$1], [$2])])
 T17,169
@@ -9923,14 +10250,14 @@ if test $ac_cv_header_stdc = yes; then
 fi
 []_m4_defun_epi([$0])
 T29,30
-m4_location(AC_LANG_CONFTEST)../../lib/autoconf/lang.m4:194
+m4_location(AC_LANG_CONFTEST)../../lib/autoconf/lang.m4:193
 T17,129
 _AS_DETECT_EXPAND$1="m4_bpatsubst(m4_dquote(AS_ESCAPE(_m4_expand(m4_set_contents([$2], [
 ])))), [\\\$LINENO\(.*\)$], [";$1=$$1$LINENO;$1=$$1"\1])"
 T21,36
-m4_location(AC_VFORK)../../lib/autoconf/functions.m4:1952
+m4_location(AC_VFORK)../../lib/autoconf/functions.m4:1948
 T28,31
-m4_location(AC_CHECK_SIZEOF)../../lib/autoconf/types.m4:765
+m4_location(AC_CHECK_SIZEOF)../../lib/autoconf/types.m4:773
 T10,143
 m4_map_sepm4_pushdef([m4_Sep], [m4_define([m4_Sep], _m4_defn([m4_unquote]))])_m4_foreach([_m4_apply([m4_Sep([$2])[]$1],], [)], [], $3)m4_popdef([m4_Sep])
 T15,206
@@ -9960,7 +10287,7 @@ case `echo -n x` in @%:@(((((
   ECHO_N='-n';;
 esac
 []_m4_defun_epi([$0])
-T17,1966
+T17,2043
 _AC_LIBOBJ_ALLOCA# The SVR3 libPW and SVR4 libucb both contain incompatible functions
 # that cause trouble.  Some versions do not even contain alloca or
 # contain a buggy version.  If you still want to use their alloca,
@@ -9994,23 +10321,20 @@ AC_CACHE_CHECK([stack direction for C alloca],
 [AC_RUN_IFELSE([AC_LANG_SOURCE(
 [AC_INCLUDES_DEFAULT
 int
-find_stack_direction ()
+find_stack_direction (int *addr, int depth)
 {
-  static char *addr = 0;
-  auto char dummy;
-  if (addr == 0)
-    {
-      addr = &dummy;
-      return find_stack_direction ();
-    }
-  else
-    return (&dummy > addr) ? 1 : -1;
+  int dir, dummy = 0;
+  if (! addr)
+    addr = &dummy;
+  *addr = addr < &dummy ? 1 : addr == &dummy ? 0 : -1;
+  dir = depth ? find_stack_direction (addr, depth - 1) : 0;
+  return dir + dummy;
 }
 
 int
-main ()
+main (int argc, char **argv)
 {
-  return find_stack_direction () < 0;
+  return find_stack_direction (0, argc + !argv + 20) < 0;
 }])],
 	       [ac_cv_c_stack_direction=1],
 	       [ac_cv_c_stack_direction=-1],
@@ -10032,7 +10356,7 @@ AC_LANG_FORTRAN77_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LANG_
 You should run autoupdate.])dnl
 AC_LANG(Fortran 77)[]_m4_defun_epi([$0])
 T25,30
-m4_location(AC_PATH_XTRA)../../lib/autoconf/libs.m4:366
+m4_location(AC_PATH_XTRA)../../lib/autoconf/libs.m4:365
 T22,254
 AC_MSG_RESULT_UNQUOTED_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_MSG_RESULT_UNQUOTED' is obsolete.
 You should run autoupdate.])dnl
@@ -10043,11 +10367,11 @@ T7,75
 m4_warn_m4_warn([$1], [$2],
 m4_ifdef([_m4_expansion_stack], [m4_expansion_stack]))
 T33,29
-m4_location(_AS_DETECT_SUGGESTED)../../lib/m4sugar/m4sh.m4:168
+m4_location(_AS_DETECT_SUGGESTED)../../lib/m4sugar/m4sh.m4:167
 T22,30
-m4_location(AC_EXEEXT)../../lib/autoconf/lang.m4:491
+m4_location(AC_EXEEXT)../../lib/autoconf/lang.m4:490
 T26,33
-m4_location(AC_DIR_HEADER)../../lib/autoconf/headers.m4:874
+m4_location(AC_DIR_HEADER)../../lib/autoconf/headers.m4:883
 T33,0
 m4_include(autoconf/functions.m4)
 F4,4
@@ -10085,7 +10409,7 @@ m4_renamem4_copy([$1], [$2])m4_undefine([$1])
 T36,33
 m4_location(AC_RESTARTABLE_SYSCALLS)../../lib/autoconf/oldnames.m4:70
 T27,34
-m4_location(AC_PROG_RANLIB)../../lib/autoconf/programs.m4:852
+m4_location(AC_PROG_RANLIB)../../lib/autoconf/programs.m4:851
 T32,0
 m4_include(autoconf/programs.m4)
 T14,159
@@ -10111,8 +10435,70 @@ T17,192
 AC_YYTEXT_POINTER_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_YYTEXT_POINTER' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_DECL_YYTEXT], [AC_DECL_YYTEXT($@)])[]_m4_defun_epi([$0])
+T23,2319
+AC_CHECK_HEADER_STDBOOL_m4_defun_pro([$0])AC_CACHE_CHECK([for stdbool.h that conforms to C99],
+     [ac_cv_header_stdbool_h],
+     [AC_COMPILE_IFELSE(
+        [AC_LANG_PROGRAM(
+           [[
+             #include <stdbool.h>
+             #ifndef bool
+              "error: bool is not defined"
+             #endif
+             #ifndef false
+              "error: false is not defined"
+             #endif
+             #if false
+              "error: false is not 0"
+             #endif
+             #ifndef true
+              "error: true is not defined"
+             #endif
+             #if true != 1
+              "error: true is not 1"
+             #endif
+             #ifndef __bool_true_false_are_defined
+              "error: __bool_true_false_are_defined is not defined"
+             #endif
+
+             struct s { _Bool s: 1; _Bool t; } s;
+
+             char a[true == 1 ? 1 : -1];
+             char b[false == 0 ? 1 : -1];
+             char c[__bool_true_false_are_defined == 1 ? 1 : -1];
+             char d[(bool) 0.5 == true ? 1 : -1];
+             /* See body of main program for 'e'.  */
+             char f[(_Bool) 0.0 == false ? 1 : -1];
+             char g[true];
+             char h[sizeof (_Bool)];
+             char i[sizeof s.t];
+             enum { j = false, k = true, l = false * true, m = true * 256 };
+             /* The following fails for
+                HP aC++/ANSI C B3910B A.05.55 [Dec 04 2003]. */
+             _Bool n[m];
+             char o[sizeof n == m * sizeof n[0] ? 1 : -1];
+             char p[-1 - (_Bool) 0 < 0 && -1 - (bool) 0 < 0 ? 1 : -1];
+             /* Catch a bug in an HP-UX C compiler.  See
+                http://gcc.gnu.org/ml/gcc-patches/2003-12/msg02303.html
+                http://lists.gnu.org/archive/html/bug-coreutils/2005-11/msg00161.html
+              */
+             _Bool q = true;
+             _Bool *pq = &q;
+           ]],
+           [[
+             bool e = &s;
+             *pq |= q;
+             *pq |= ! q;
+             /* Refer to every declared value, to avoid compiler optimizations.  */
+             return (!a + !b + !c + !d + !e + !f + !g + !h + !i + !!j + !k + !!l
+                     + !m + !n + !o + !p + !q + !pq);
+           ]])],
+        [ac_cv_header_stdbool_h=yes],
+        [ac_cv_header_stdbool_h=no])])
+   AC_CHECK_TYPES([_Bool])
+[]_m4_defun_epi([$0])
 T37,30
-m4_location(AC_LANG_COMPILER_REQUIRE)../../lib/autoconf/lang.m4:330
+m4_location(AC_LANG_COMPILER_REQUIRE)../../lib/autoconf/lang.m4:329
 F12,9
 m4_changecomchangecom
 T15,95
@@ -10159,13 +10545,13 @@ m4_patsubstm4_expand_once([m4_warn([syntax],
 		 [do not use m4_patsubst: use patsubst or m4_bpatsubst])])dnl
 patsubst($@)
 T31,33
-m4_location(AC_SYS_INTERPRETER)../../lib/autoconf/specific.m4:61
+m4_location(AC_SYS_INTERPRETER)../../lib/autoconf/specific.m4:59
 T29,33
 m4_location(AC_HEADER_DIRENT)../../lib/autoconf/headers.m4:485
 T31,29
-m4_location(_AS_ECHO_N_PREPARE)../../lib/m4sugar/m4sh.m4:774
+m4_location(_AS_ECHO_N_PREPARE)../../lib/m4sugar/m4sh.m4:807
 T32,33
-m4_location(_AC_FC_DIALECT_YEAR)../../lib/autoconf/fortran.m4:279
+m4_location(_AC_FC_DIALECT_YEAR)../../lib/autoconf/fortran.m4:278
 F3,3
 dnldnl
 T13,134
@@ -10189,11 +10575,11 @@ AC_PREFIX_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_PREFIX' is ob
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_PREFIX_PROGRAM], [AC_PREFIX_PROGRAM($@)])[]_m4_defun_epi([$0])
 T32,36
-m4_location(AC_SETVBUF_REVERSED)../../lib/autoconf/functions.m4:1723
+m4_location(AC_SETVBUF_REVERSED)../../lib/autoconf/functions.m4:1719
 T24,33
-m4_location(AC_MEMORY_H)../../lib/autoconf/headers.m4:859
+m4_location(AC_MEMORY_H)../../lib/autoconf/headers.m4:868
 T29,32
-m4_location(AC_CONFIG_HEADER)../../lib/autoconf/status.m4:721
+m4_location(AC_CONFIG_HEADER)../../lib/autoconf/status.m4:719
 F9,6
 m4_formatformat
 T10,68
@@ -10233,7 +10619,7 @@ choke me
 #endif
 ], [return $1 ();])
 T39,31
-m4_location(_AC_TYPE_LONG_LONG_SNIPPET)../../lib/autoconf/types.m4:473
+m4_location(_AC_TYPE_LONG_LONG_SNIPPET)../../lib/autoconf/types.m4:474
 T7,54
 _m4_cdrm4_if([$#], 1, [],
        [, m4_dquote(m4_shift($@))])
@@ -10340,7 +10726,7 @@ AC_FIND_X_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_FIND_X' is ob
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_PATH_X], [AC_PATH_X($@)])[]_m4_defun_epi([$0])
 T25,30
-m4_location(AC_LANG_CALL)../../lib/autoconf/lang.m4:273
+m4_location(AC_LANG_CALL)../../lib/autoconf/lang.m4:272
 T18,94
 _m4_set_contents_2_m4_stack_reverse([_m4_set_($1)], [_m4_set([$1])],
   [$2[]_m4_defn([_m4_set_($1)])$3], [$4[]])
@@ -10351,6 +10737,10 @@ _m4_escapem4_changequote([-=<{(],[)}>=-])m4_bpatsubst(m4_bpatsubst(m4_bpatsubst(
       -=<{(\[)}>=-, -=<{(@<:@)}>=-),
     -=<{(\])}>=-, -=<{(@:>@)}>=-),
   -=<{(\$)}>=-, -=<{(@S|@)}>=-)m4_changequote([,])
+T20,67
+AC_LANG_CONFTEST(Go)cat > conftest.$ac_ext <<_ACEOF
+AC_LANG_DEFINES_PROVIDED[]$1
+_ACEOF
 T8,28
 _AS_CASE [@%:@(]
   $1[)] :
@@ -10368,6 +10758,10 @@ T19,165
 _AC_ARG_VAR_LDFLAGS_m4_defun_pro([$0])AC_ARG_VAR([LDFLAGS],
 	    [linker flags, e.g. -L<lib dir> if you have libraries in a
 	     nonstandard directory <lib dir>])[]_m4_defun_epi([$0])
+T10,144
+AC_LANG_GO_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LANG_GO' is obsolete.
+You should run autoupdate.])dnl
+AC_LANG(Go)[]_m4_defun_epi([$0])
 T12,4700
 AC_FUNC_MMAP_m4_defun_pro([$0])AC_CHECK_HEADERS_ONCE([stdlib.h unistd.h sys/param.h])
 AC_CHECK_FUNCS([getpagesize])
@@ -10577,7 +10971,7 @@ T11,55
 m4_sincludem4_include_unique([$1])dnl
 m4_builtin([sinclude], [$1])
 T36,36
-m4_location(AC_FUNC_SELECT_ARGTYPES)../../lib/autoconf/functions.m4:1438
+m4_location(AC_FUNC_SELECT_ARGTYPES)../../lib/autoconf/functions.m4:1434
 T7,156
 m4_defnm4_if([$#], [0], [[$0]],
        [$#], [1], [m4_ifdef([$1], [_m4_defn([$1])],
@@ -10586,7 +10980,7 @@ m4_defnm4_if([$#], [0], [[$0]],
 T18,65
 AC_LANG_PREPROC(C)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_CPP])[]_m4_defun_epi([$0])
 T29,31
-m4_location(AC_TYPE_UINT32_T)../../lib/autoconf/types.m4:622
+m4_location(AC_TYPE_UINT32_T)../../lib/autoconf/types.m4:630
 T6,190
 m4_maxm4_if([$#], [0], [m4_fatal([too few arguments to $0])],
        [$#], [1], [m4_eval([$1])],
@@ -10598,7 +10992,7 @@ _AC_OUTPUT_FILE_ADJUST_DIRs&@$1@&$ac_$1&;t t[]AC_SUBST_TRACE([$1])
 T42,27
 m4_location(_AC_PROG_PREPROC_WORKS_IFELSE)../../lib/autoconf/c.m4:345
 T32,34
-m4_location(AC_CANONICAL_SYSTEM)../../lib/autoconf/general.m4:1858
+m4_location(AC_CANONICAL_SYSTEM)../../lib/autoconf/general.m4:1857
 T13,60
 AC_FUNC_LSTAT_m4_defun_pro([$0])_AC_FUNC_STAT(lstat)[]_m4_defun_epi([$0])
 T18,1072
@@ -10633,7 +11027,7 @@ ac_configure="$SHELL $ac_aux_dir/configure"  # Please don't use this var.
 AC_PROVIDE([AC_CONFIG_AUX_DIR_DEFAULT])dnl
 []_m4_defun_epi([$0])
 T30,30
-m4_location(AS_INIT_GENERATED)../../lib/m4sugar/m4sh.m4:2103
+m4_location(AS_INIT_GENERATED)../../lib/m4sugar/m4sh.m4:2121
 T29,33
 m4_location(AC_CHAR_UNSIGNED)../../lib/autoconf/oldnames.m4:54
 T21,76
@@ -10642,7 +11036,7 @@ AC_LANG_CONFTEST(C++)cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 $1
 _ACEOF
 T19,4
-AC_AUTOCONF_VERSION2.68
+AC_AUTOCONF_VERSION2.69
 T16,0
 m4_pattern_allow
 T34,33
@@ -10661,11 +11055,11 @@ T24,107
 AC_LANG_COMPILER_REQUIRE_m4_defun_pro([$0])m4_require([AC_LANG_COMPILER(]_AC_LANG[)],
 	    [AC_LANG_COMPILER])[]_m4_defun_epi([$0])
 T38,32
-m4_location(_AC_HAVE_TOP_BUILD_PREFIX)../../lib/autoconf/status.m4:124
+m4_location(_AC_HAVE_TOP_BUILD_PREFIX)../../lib/autoconf/status.m4:122
 T21,29
-m4_location(AS_ERROR)../../lib/m4sugar/m4sh.m4:850
+m4_location(AS_ERROR)../../lib/m4sugar/m4sh.m4:883
 T30,33
-m4_location(AC_LANG_FORTRAN77)../../lib/autoconf/fortran.m4:153
+m4_location(AC_LANG_FORTRAN77)../../lib/autoconf/fortran.m4:152
 T11,1061
 _AC_SRCDIRSac_builddir=.
 
@@ -10731,9 +11125,9 @@ dnl Double quoted since that was the case in the original macro.
 AC_CONFIG_COMMANDS([default-]_AC_OUTPUT_COMMANDS_CNT, [[$1]], [[$2]])dnl
 []_m4_defun_epi([$0])
 T28,28
-m4_location(_AC_PROG_CC_C99)../../lib/autoconf/c.m4:1206
+m4_location(_AC_PROG_CC_C99)../../lib/autoconf/c.m4:1205
 T25,34
-m4_location(AC_EGREP_CPP)../../lib/autoconf/general.m4:2539
+m4_location(AC_EGREP_CPP)../../lib/autoconf/general.m4:2538
 T30,0
 m4_include(m4sugar/version.m4)
 T11,498
@@ -10766,7 +11160,7 @@ _AC_CHECK_HEADER_COMPILE_BODY  AS_LINENO_PUSH([$[]1])
 T29,33
 m4_location(AC_HEADER_RESOLV)../../lib/autoconf/headers.m4:543
 T22,34
-m4_location(AC_EMXOS2)../../lib/autoconf/specific.m4:331
+m4_location(AC_EMXOS2)../../lib/autoconf/specific.m4:335
 T14,549
 _AC_RUN_IFELSE_m4_defun_pro([$0])AC_REQUIRE_SHELL_FN([ac_fn_]_AC_LANG_ABBREV[_try_run],
   [AS_FUNCTION_DESCRIBE([ac_fn_]_AC_LANG_ABBREV[_try_run], [LINENO],
@@ -10818,7 +11212,7 @@ m4_if([$0], [m4_require], [[m4_defun]], [[AC_DEFUN]])['d macro])])m4_provide_if(
     [_m4_require_check([$1], _m4_defn([m4_provide($1)]), [$0])], [m4_ignore])],
   [_m4_require_call])([$1], [$2], _m4_divert_dump)
 T32,34
-m4_location(_AC_CACHE_CHECK_INT)../../lib/autoconf/general.m4:2065
+m4_location(_AC_CACHE_CHECK_INT)../../lib/autoconf/general.m4:2064
 T12,183
 AC_FIND_XTRA_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_FIND_XTRA' is obsolete.
 You should run autoupdate.])dnl
@@ -10850,12 +11244,12 @@ AC_CHECK_TYPES(ptrdiff_t)[]_m4_defun_epi([$0])
 T14,72
 AC_PROG_RANLIB_m4_defun_pro([$0])AC_CHECK_TOOL(RANLIB, ranlib, :)[]_m4_defun_epi([$0])
 T43,31
-m4_location(AC_TYPE_UNSIGNED_LONG_LONG_INT)../../lib/autoconf/types.m4:542
+m4_location(AC_TYPE_UNSIGNED_LONG_LONG_INT)../../lib/autoconf/types.m4:547
 T17,32
 m4_define_defaultm4_ifndef([$1], [m4_define($@)])
 T22,3
 _m4_divert(HELP_BEGIN)100
-T24,2030
+T24,2045
 AC_USE_SYSTEM_EXTENSIONS_m4_defun_once([AC_USE_SYSTEM_EXTENSIONS], [AC_BEFORE([$0], [AC_COMPILE_IFELSE])dnl
 AC_BEFORE([$0], [AC_RUN_IFELSE])dnl
 
@@ -10898,9 +11292,9 @@ dnl configure.ac when using autoheader 2.62.
   AC_CACHE_CHECK([whether it is safe to define __EXTENSIONS__],
     [ac_cv_safe_to_define___extensions__],
     [AC_COMPILE_IFELSE(
-       [AC_LANG_PROGRAM([
-#	  define __EXTENSIONS__ 1
-	  AC_INCLUDES_DEFAULT])],
+       [AC_LANG_PROGRAM([[
+#         define __EXTENSIONS__ 1
+          ]AC_INCLUDES_DEFAULT])],
        [ac_cv_safe_to_define___extensions__=yes],
        [ac_cv_safe_to_define___extensions__=no])])
   test $ac_cv_safe_to_define___extensions__ = yes &&
@@ -10920,17 +11314,21 @@ m4_stack_foreach_m4_stack_reverse([$1], [m4_tmp-$1])_m4_stack_reverse([m4_tmp-$1
 F10,7
 m4_pushdefpushdef
 T26,34
-m4_location(AC_CHECK_DECL)../../lib/autoconf/general.m4:2845
+m4_location(AC_CHECK_DECL)../../lib/autoconf/general.m4:2844
 T9,22
 AS_TR_CPP_$0(m4_expand([$1]))[]
 T9,124
 AS_TR_CPP_m4_defun_pro([$0])AS_REQUIRE([_$0_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T30,35
-m4_location(AC_FUNC_GETMNTENT)../../lib/autoconf/functions.m4:818
+m4_location(AC_FUNC_GETMNTENT)../../lib/autoconf/functions.m4:814
 T13,26
 m4_cr_lettersabcdefghijklmnopqrstuvwxyz
 T18,8
 m4_PACKAGE_TARNAMEautoconf
+T28,90
+AC_LANG_BOOL_COMPILE_TRY(Go)AC_LANG_PROGRAM([$1], [var test_array @<:@1 - 2 * !($2)@:>@int
+test_array @<:@0@:>@ = 0
+])
 T26,292
 _AS_PATH_SEPARATOR_PREPARE_m4_defun_pro([$0])# The user is always right.
 if test "${PATH_SEPARATOR+set}" != set; then
@@ -11150,7 +11548,7 @@ AC_ARG_ARRAY_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_ARG_ARRAY'
 You should run autoupdate.])dnl
 []_m4_defun_epi([$0])
 T27,30
-m4_location(AC_LANG_SOURCE)../../lib/autoconf/lang.m4:225
+m4_location(AC_LANG_SOURCE)../../lib/autoconf/lang.m4:224
 T18,457
 _AC_LIBOBJ_FNMATCH_m4_defun_pro([$0])AC_REQUIRE([AC_C_CONST])dnl
 AC_REQUIRE([AC_FUNC_ALLOCA])dnl
@@ -11164,7 +11562,7 @@ AC_DEFINE(fnmatch, rpl_fnmatch,
 	  [Define to rpl_fnmatch if the replacement function should be used.])
 []_m4_defun_epi([$0])
 T27,34
-m4_location(AC_FC_FREEFORM)../../lib/autoconf/fortran.m4:1179
+m4_location(AC_FC_FREEFORM)../../lib/autoconf/fortran.m4:1363
 F8,8
 __line____line__
 T17,1105
@@ -11200,7 +11598,7 @@ fi
 LIBS=$ac_save_LIBS
 []_m4_defun_epi([$0])
 T27,28
-m4_location(AC_C_VARARRAYS)../../lib/autoconf/c.m4:1873
+m4_location(AC_C_VARARRAYS)../../lib/autoconf/c.m4:1882
 T20,40
 _AS_VAR_APPEND_WORKSas_var=1; as_var+=2; test x$as_var = x12
 T14,708
@@ -11230,11 +11628,11 @@ AC_SUBST(CXXCPP)dnl
 AC_LANG_POP(C++)dnl
 []_m4_defun_epi([$0])
 T35,30
-m4_location(_AS_VAR_APPEND_PREPARE)../../lib/m4sugar/m4sh.m4:1888
+m4_location(_AS_VAR_APPEND_PREPARE)../../lib/m4sugar/m4sh.m4:1906
 T26,36
-m4_location(AC_FUNC_LSTAT)../../lib/autoconf/functions.m4:1530
+m4_location(AC_FUNC_LSTAT)../../lib/autoconf/functions.m4:1526
 T28,34
-m4_location(AC_FC_FIXEDFORM)../../lib/autoconf/fortran.m4:1235
+m4_location(AC_FC_FIXEDFORM)../../lib/autoconf/fortran.m4:1420
 T9,255
 m4_cr_all	
  !"#*%&'()$+,./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ-
@@ -11243,9 +11641,9 @@ AC_TYPE_MODE_T_m4_defun_pro([$0])AC_CHECK_TYPE(mode_t, int)[]_m4_defun_epi([$0])
 T19,2
 AC_LANG_SOURCE(C++)$1
 T27,36
-m4_location(AM_FUNC_STRTOD)../../lib/autoconf/functions.m4:1623
+m4_location(AM_FUNC_STRTOD)../../lib/autoconf/functions.m4:1619
 T26,35
-m4_location(AC_HAVE_FUNCS)../../lib/autoconf/functions.m4:161
+m4_location(AC_HAVE_FUNCS)../../lib/autoconf/functions.m4:160
 T16,116
 _AC_ARG_VAR_LIBS_m4_defun_pro([$0])AC_ARG_VAR([LIBS],
 	    [libraries to pass to the linker, e.g. -l<library>])[]_m4_defun_epi([$0])
@@ -11263,7 +11661,7 @@ fi
 T24,0
 AC_FILE_DEPENDENCY_TRACE
 T28,31
-m4_location(AC_LONG_64_BITS)../../lib/autoconf/types.m4:833
+m4_location(AC_LONG_64_BITS)../../lib/autoconf/types.m4:841
 T13,84
 _AS_QUOTE_OLDm4_warn([obsolete],
    [back quotes and double quotes must not be escaped in: $1])$1
@@ -11279,19 +11677,19 @@ AC_CACHE_CHECK([for egrep], ac_cv_path_EGREP,
  AC_SUBST([EGREP])
 []_m4_defun_epi([$0])
 T19,29
-m4_location(AS_FOR)../../lib/m4sugar/m4sh.m4:574
+m4_location(AS_FOR)../../lib/m4sugar/m4sh.m4:607
 T20,29
-m4_location(AC_LANG)../../lib/autoconf/lang.m4:89
+m4_location(AC_LANG)../../lib/autoconf/lang.m4:88
 T24,33
-m4_location(AC_F77_MAIN)../../lib/autoconf/fortran.m4:864
+m4_location(AC_F77_MAIN)../../lib/autoconf/fortran.m4:891
 T30,34
-m4_location(AC_CANONICAL_HOST)../../lib/autoconf/general.m4:1816
+m4_location(AC_CANONICAL_HOST)../../lib/autoconf/general.m4:1815
 T30,33
-m4_location(_AC_FC_DUMMY_MAIN)../../lib/autoconf/fortran.m4:752
+m4_location(_AC_FC_DUMMY_MAIN)../../lib/autoconf/fortran.m4:779
 T35,33
-m4_location(AC_F77_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:700
+m4_location(AC_F77_LIBRARY_LDFLAGS)../../lib/autoconf/fortran.m4:727
 T27,28
-m4_location(AC_C_STRINGIZE)../../lib/autoconf/c.m4:1799
+m4_location(AC_C_STRINGIZE)../../lib/autoconf/c.m4:1808
 T22,1406
 AC_SYS_LONG_FILE_NAMES_m4_defun_pro([$0])AC_CACHE_CHECK(for long file names, ac_cv_sys_long_file_names,
 [ac_cv_sys_long_file_names=yes
@@ -11363,14 +11761,15 @@ _AC_LINK_IFELSE_BODY  AS_LINENO_PUSH([$[]1])
   AS_SET_STATUS([$ac_retval])
 
 T23,30
-m4_location(_AC_PATH_X)../../lib/autoconf/libs.m4:298
+m4_location(_AC_PATH_X)../../lib/autoconf/libs.m4:297
 T26,30
-m4_location(AS_ME_PREPARE)../../lib/m4sugar/m4sh.m4:1086
+m4_location(AS_ME_PREPARE)../../lib/m4sugar/m4sh.m4:1121
 T26,36
-m4_location(AC_FUNC_VFORK)../../lib/autoconf/functions.m4:1948
-T37,95
+m4_location(AC_FUNC_VFORK)../../lib/autoconf/functions.m4:1944
+T37,125
 AC_LANG_BOOL_COMPILE_TRY(Objective C)AC_LANG_PROGRAM([$1], [static int test_array @<:@1 - 2 * !($2)@:>@;
-test_array @<:@0@:>@ = 0
+test_array @<:@0@:>@ = 0;
+return test_array @<:@0@:>@;
 ])
 T16,199
 AC_CHAR_UNSIGNED_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_CHAR_UNSIGNED' is obsolete.
@@ -11395,7 +11794,7 @@ AC_LINK_IFELSE([AC_LANG_PROGRAM([[@%:@include <strings.h>]],
 			   not depend upon it.])])
 AC_CHECK_HEADERS(string.h)[]_m4_defun_epi([$0])
 T23,34
-m4_location(AC_RUN_LOG)../../lib/autoconf/general.m4:2469
+m4_location(AC_RUN_LOG)../../lib/autoconf/general.m4:2468
 T33,23
 _AC_LANG_NULL_PROGRAM(Fortran 77)AC_LANG_PROGRAM([], [])
 T27,27
@@ -11463,7 +11862,7 @@ _AC_FC_DUMMY_MAIN($@)
 AC_LANG_POP(Fortran 77)dnl
 []_m4_defun_epi([$0])
 T37,34
-m4_location(AC_USE_SYSTEM_EXTENSIONS)../../lib/autoconf/specific.m4:364
+m4_location(AC_USE_SYSTEM_EXTENSIONS)../../lib/autoconf/specific.m4:368
 T30,0
 m4_include(autoconf/status.m4)
 T9,184
@@ -11517,7 +11916,7 @@ T27,103
 AC_LANG_PREPROC(Fortran 77)_m4_defun_pro([$0])m4_warn([syntax],
 	 [$0: No preprocessor defined for ]_AC_LANG)[]_m4_defun_epi([$0])
 T26,32
-m4_location(AC_LINK_FILES)../../lib/autoconf/status.m4:940
+m4_location(AC_LINK_FILES)../../lib/autoconf/status.m4:938
 T27,155
 _AC_LANG_IO_PROGRAM(Erlang)AC_LANG_PROGRAM([], [dnl
    ReturnValue = case file:write_file("conftest.out", "") of
@@ -11610,6 +12009,8 @@ AC_CHECK_DECLS([sys_siglist],,,
 #endif
 ])
 []_m4_defun_epi([$0])
+T28,34
+m4_location(AC_FC_PP_SRCEXT)../../lib/autoconf/fortran.m4:1240
 F7,4
 m4_evaleval
 T14,180
@@ -11632,15 +12033,16 @@ m4_define([_m4_divert(HELP_ENABLE)],    _m4_divert(HELP_WITH))
 T21,90
 AC_CHECK_HEADERS_ONCE_m4_defun_pro([$0])m4_map_args_w([$1], [_AC_CHECK_HEADER_ONCE(], [)])[]_m4_defun_epi([$0])
 T40,33
-m4_location(AC_LANG_PREPROC(Fortran 77))../../lib/autoconf/fortran.m4:239
+m4_location(AC_LANG_PREPROC(Fortran 77))../../lib/autoconf/fortran.m4:238
 F5,5
 ifdefifdef
-T27,95
+T27,125
 AC_LANG_BOOL_COMPILE_TRY(C)AC_LANG_PROGRAM([$1], [static int test_array @<:@1 - 2 * !($2)@:>@;
-test_array @<:@0@:>@ = 0
+test_array @<:@0@:>@ = 0;
+return test_array @<:@0@:>@;
 ])
 T29,31
-m4_location(AC_TYPE_INTMAX_T)../../lib/autoconf/types.m4:309
+m4_location(AC_TYPE_INTMAX_T)../../lib/autoconf/types.m4:310
 T8,19
 m4_curry$1(m4_shift($@,)_$0
 T11,368
@@ -11676,7 +12078,7 @@ T20,112
 _AC_MSG_LOG_CONFTESTAS_ECHO(["$as_me: failed program was:"]) >&AS_MESSAGE_LOG_FD
 sed 's/^/| /' conftest.$ac_ext >&AS_MESSAGE_LOG_FD
 
-T19,14432
+T19,14283
 _AC_INIT_PARSE_ARGSm4_divert_push([PARSE_ARGS])dnl
 
 # Initialize some variables set by options.
@@ -12078,8 +12480,6 @@ target=$target_alias
 if test "x$host_alias" != x; then
   if test "x$build_alias" = x; then
     cross_compiling=maybe
-    AC_MSG_WARN([if you wanted to set the --build type, don't use --host.
-    If a cross compiler is detected then cross compile mode will be used])
   elif test "x$build_alias" != "x$host_alias"; then
     cross_compiling=yes
   fi
@@ -12108,7 +12508,7 @@ case $host_os in
 esac
 []_m4_defun_epi([$0])
 T30,33
-m4_location(AC_CONFIG_SUBDIRS)../../lib/autoconf/status.m4:1099
+m4_location(AC_CONFIG_SUBDIRS)../../lib/autoconf/status.m4:1097
 T24,38
 AC_LANG_CALL(Fortran 77)AC_LANG_PROGRAM([$1],
 [      call $2])
@@ -12127,9 +12527,9 @@ AS_VAR_IF([ac_Symbol], [yes], [$2], [$3])
 AS_VAR_POPDEF([ac_Symbol])dnl
 []_m4_defun_epi([$0])
 T27,33
-m4_location(AC_PROG_FC_C_O)../../lib/autoconf/fortran.m4:470
+m4_location(AC_PROG_FC_C_O)../../lib/autoconf/fortran.m4:475
 T30,34
-m4_location(AC_CONFIG_AUX_DIR)../../lib/autoconf/general.m4:1671
+m4_location(AC_CONFIG_AUX_DIR)../../lib/autoconf/general.m4:1670
 T16,54
 m4_append_uniq_wm4_map_args_w([$2], [_m4_append_uniq([$1],], [, [ ])])
 T20,36
@@ -12150,7 +12550,7 @@ AM_EXEEXT_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AM_EXEEXT' is ob
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_EXEEXT], [AC_EXEEXT($@)])[]_m4_defun_epi([$0])
 T29,30
-m4_location(_AS_ECHO_PREPARE)../../lib/m4sugar/m4sh.m4:1011
+m4_location(_AS_ECHO_PREPARE)../../lib/m4sugar/m4sh.m4:1044
 T6,4
 m4_car[$1]
 T25,543
@@ -12184,16 +12584,16 @@ m4_text_boxm4_pushdef([m4_Border],
 ]))), []), [ ], m4_default_quoted([$2], [-])))[##] _m4_defn([m4_Border]) [##]
 [##] $1 [##]
 [##] _m4_defn([m4_Border]) [##]_m4_popdef([m4_Border])
-T33,33
-m4_location(_AC_FC_NAME_MANGLING)../../lib/autoconf/fortran.m4:988
+T33,34
+m4_location(_AC_FC_NAME_MANGLING)../../lib/autoconf/fortran.m4:1015
 T18,49
 AS_LITERAL_WORD_IF_AS_LITERAL_IF(m4_expand([$1]))([$4], [$3], [$2])
 T37,30
-m4_location(AC_LANG_BOOL_COMPILE_TRY)../../lib/autoconf/lang.m4:290
+m4_location(AC_LANG_BOOL_COMPILE_TRY)../../lib/autoconf/lang.m4:289
 T37,32
 m4_location(AC_ERLANG_SUBST_ROOT_DIR)../../lib/autoconf/erlang.m4:217
 T27,33
-m4_location(AC_HELP_STRING)../../lib/autoconf/general.m4:209
+m4_location(AC_HELP_STRING)../../lib/autoconf/general.m4:207
 T14,157
 ac_cv_prog_gcc_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `ac_cv_prog_gcc' is obsolete.
 You should run autoupdate.])dnl
@@ -12226,7 +12626,7 @@ AC_FUNC_MBRTOWC_m4_defun_pro([$0])
   fi
 []_m4_defun_epi([$0])
 T25,33
-m4_location(AC_ARG_ARRAY)../../lib/autoconf/specific.m4:84
+m4_location(AC_ARG_ARRAY)../../lib/autoconf/specific.m4:82
 T12,74
 _AC_LANG_SET_m4_defun_pro([$0])_AC_LANG_DISPATCH([AC_LANG], [$2])[]_m4_defun_epi([$0])
 T8,1075
@@ -12260,19 +12660,21 @@ AC_LANG_OBJC_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_LANG_OBJC'
 You should run autoupdate.])dnl
 AC_LANG(Objective C)[]_m4_defun_epi([$0])
 T32,29
-m4_location(_AS_DETECT_REQUIRED)../../lib/m4sugar/m4sh.m4:157
+m4_location(_AS_DETECT_REQUIRED)../../lib/m4sugar/m4sh.m4:156
 T24,34
-m4_location(AC_PROG_AWK)../../lib/autoconf/programs.m4:351
+m4_location(AC_PROG_AWK)../../lib/autoconf/programs.m4:349
 T23,34
-m4_location(AC_ARG_VAR)../../lib/autoconf/general.m4:1512
+m4_location(AC_ARG_VAR)../../lib/autoconf/general.m4:1511
 T7,65
 _m4_minm4_eval((([$1]) < ([$2])) * ([$1]) + (([$1]) >= ([$2])) * ([$2]))
 T20,33
 m4_location(AC_LN_S)../../lib/autoconf/oldnames.m4:62
 T25,30
-m4_location(AC_LANG_SAVE)../../lib/autoconf/lang.m4:126
+m4_location(AC_LANG_SAVE)../../lib/autoconf/lang.m4:125
+T23,27
+m4_location(AC_LANG_GO)../../lib/autoconf/go.m4:44
 T25,34
-m4_location(AC_DYNIX_SEQ)../../lib/autoconf/specific.m4:465
+m4_location(AC_DYNIX_SEQ)../../lib/autoconf/specific.m4:469
 T20,170
 _m4_version_unletterm4_bpatsubst(m4_bpatsubst(m4_translit([[[[0,$1]]]], [.-], [,,]),[[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]][+],
 	      [+1,-1,[0r36:\&]]), [,0], [,[0r10:0]])
@@ -12367,7 +12769,27 @@ AC_CROSS_CHECK_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_CROSS_CH
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_C_CROSS], [AC_C_CROSS($@)])[]_m4_defun_epi([$0])
 T23,34
-m4_location(_AC_DO_VAR)../../lib/autoconf/general.m4:2396
+m4_location(_AC_DO_VAR)../../lib/autoconf/general.m4:2395
+T21,696
+_AS_REEXEC_WITH_SHELL_m4_defun_pro([$0])dnl
+# We cannot yet assume a decent shell, so we have to provide a
+# neutralization value for shells without unset; and this also
+# works around shells that cannot unset nonexistent variables.
+# Preserve -v and -x to the replacement shell.
+BASH_ENV=/dev/null
+ENV=/dev/null
+(unset BASH_ENV) >/dev/null 2>&1 && unset BASH_ENV ENV
+case $- in @%:@ ((((
+  *v*x* | *x*v* ) as_opts=-vx ;;
+  *v* ) as_opts=-v ;;
+  *x* ) as_opts=-x ;;
+  * ) as_opts= ;;
+esac
+exec $1 $as_opts "$as_myself" ${1+"$[@]"}
+# Admittedly, this is quite paranoid, since all the known shells bail
+# out after a failed `exec'.
+AS_ECHO(["$[]0: could not re-execute with $1"]) >&2
+AS_EXIT([255])[]_m4_defun_epi([$0])
 T19,194
 _AC_CHECK_FUNC_BODY  AS_LINENO_PUSH([$[]1])
   AC_CACHE_CHECK([for $[]2], [$[]3],
@@ -12385,15 +12807,15 @@ _m4_maxm4_eval((([$1]) > ([$2])) * ([$1]) + (([$1]) <= ([$2])) * ([$2]))
 T13,66
 AC_TYPE_PID_T_m4_defun_pro([$0])AC_CHECK_TYPE(pid_t,  int)[]_m4_defun_epi([$0])
 T27,33
-m4_location(AC_HEADER_TIME)../../lib/autoconf/headers.m4:752
+m4_location(AC_HEADER_TIME)../../lib/autoconf/headers.m4:761
 T28,34
-m4_location(AC_EGREP_HEADER)../../lib/autoconf/general.m4:2557
+m4_location(AC_EGREP_HEADER)../../lib/autoconf/general.m4:2556
 T22,66
 AC_STRUCT_DIRENT_D_INO_m4_defun_pro([$0])_AC_STRUCT_DIRENT([d_ino])[]_m4_defun_epi([$0])
 T7,36
 m4_signm4_eval((([$1]) > 0) - (([$1]) < 0))
 T26,29
-m4_location(AS_SET_STATUS)../../lib/m4sugar/m4sh.m4:616
+m4_location(AS_SET_STATUS)../../lib/m4sugar/m4sh.m4:649
 T34,0
 m4_include(autoconf/autoheader.m4)
 T10,266
@@ -12425,7 +12847,7 @@ m4_popdefm4_if([$#], [0], [[$0]],
        [m4_map_args([$0], $@)])
 T31,0
 m4_include(autoconf/general.m4)
-T17,2143
+T17,2225
 AC_FC_LINE_LENGTH_m4_defun_once([AC_FC_LINE_LENGTH], [AC_LANG_PUSH([Fortran])dnl
 m4_case(m4_default([$1], [132]),
   [unlimited], [ac_fc_line_len_string=unlimited
@@ -12449,11 +12871,13 @@ AC_CACHE_CHECK(
 ac_fc_line_length_FCFLAGS_save=$FCFLAGS
 for ac_flag in none \
 	       -ffree-line-length-none -ffixed-line-length-none \
+	       -ffree-line-length-huge \
 	       -ffree-line-length-$ac_fc_line_len \
 	       -ffixed-line-length-$ac_fc_line_len \
 	       -qfixed=$ac_fc_line_len -Mextend \
 	       -$ac_fc_line_len -extend_source \
-	       "-W $ac_fc_line_len" +extend_source -wide -e
+	       -W$ac_fc_line_len -W +extend_source +es -wide --wide -w -e \
+               -f -Wf,-f -xline
 do
   test "x$ac_flag" != xnone && FCFLAGS="$ac_fc_line_length_FCFLAGS_save $ac_flag"
   AC_COMPILE_IFELSE([[$ac_fc_line_length_test
@@ -12478,7 +12902,7 @@ AC_LANG_POP([Fortran])dnl
 m4_ifdef([_m4_diverting([AC_FC_LINE_LENGTH])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_FC_LINE_LENGTH],], [, _m4_divert_dump)]]))
 T38,34
-m4_location(AC_CONFIG_AUX_DIR_DEFAULT)../../lib/autoconf/general.m4:1679
+m4_location(AC_CONFIG_AUX_DIR_DEFAULT)../../lib/autoconf/general.m4:1678
 T23,47
 _AC_CONFIG_COMPUTE_DESTm4_format([[%.*s]], m4_index([$1:], [:]), [$1])
 T15,650
@@ -12506,11 +12930,11 @@ m4_set_addm4_ifdef([_m4_set([$1],$2)],
 		     [1])m4_pushdef([_m4_set([$1])],
 				    [$2])_m4_set_size([$1], [m4_incr])$3])
 T22,28
-m4_location(AC_OPENMP)../../lib/autoconf/c.m4:1970
+m4_location(AC_OPENMP)../../lib/autoconf/c.m4:1986
 T23,34
-m4_location(AC_FC_FUNC)../../lib/autoconf/fortran.m4:1094
+m4_location(AC_FC_FUNC)../../lib/autoconf/fortran.m4:1121
 T24,34
-m4_location(AC_CHECKING)../../lib/autoconf/general.m4:2267
+m4_location(AC_CHECKING)../../lib/autoconf/general.m4:2266
 T15,140
 _AS_VAR_PUSHDEF_AS_LITERAL_IF([$2], [	 ][
 ])([], [as_$1=_AS_TR_SH_INDIR([$2])
@@ -12524,13 +12948,18 @@ AC_REPLACE_FNMATCH_m4_defun_pro([$0])_AC_FUNC_FNMATCH_IF([POSIX], [ac_cv_func_fn
 		     [rm -f "$ac_config_libobj_dir/fnmatch.h"],
 		     [_AC_LIBOBJ_FNMATCH])
 []_m4_defun_epi([$0])
-T10,262
+T10,324
 AC_PROG_FC_m4_defun_pro([$0])AC_LANG_PUSH(Fortran)dnl
 AC_ARG_VAR([FC],    [Fortran compiler command])dnl
 AC_ARG_VAR([FCFLAGS], [Fortran compiler flags])dnl
 _AC_ARG_VAR_LDFLAGS()dnl
 _AC_ARG_VAR_LIBS()dnl
 _AC_PROG_FC([$2], [$1])
+if test $ac_compiler_gnu = yes; then
+  GFC=yes
+else
+  GFC=
+fi
 AC_LANG_POP(Fortran)dnl
 []_m4_defun_epi([$0])
 T24,651
@@ -12559,15 +12988,15 @@ AC_BEFOREm4_provide_if([$2],
 F6,6
 sysvalsysval
 T27,30
-m4_location(AC_LANG_ASSERT)../../lib/autoconf/lang.m4:157
+m4_location(AC_LANG_ASSERT)../../lib/autoconf/lang.m4:156
 T26,2
 _AS_LITERAL_HEREDOC_IF_YES$1
 T9,166
 AC_LIBOBJ_m4_defun_pro([$0])_AC_LIBOBJ([$1])AS_LITERAL_WORD_IF([$1], [AC_LIBSOURCE([$1.c])],
   [AC_DIAGNOSE([syntax], [$0($1): you should use literals])])[]_m4_defun_epi([$0])
 T24,34
-m4_location(AC_SCO_INTL)../../lib/autoconf/specific.m4:477
-T20,2708
+m4_location(AC_SCO_INTL)../../lib/autoconf/specific.m4:481
+T20,3136
 _AC_PROG_FC_V_OUTPUT_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
 AC_LANG_CONFTEST([AC_LANG_PROGRAM([])])
 
@@ -12601,9 +13030,16 @@ ac_[]_AC_LANG_ABBREV[]_v_output="`echo $ac_[]_AC_LANG_ABBREV[]_v_output |
 #        that detects unbalanced quotes in FLIBS should be implemented
 #        and (ugh) tested at some point.
 case $ac_[]_AC_LANG_ABBREV[]_v_output in
-  # If we are using xlf then replace all the commas with spaces.
+  # With xlf replace commas with spaces,
+  # and remove "-link" and closing parenthesis.
   *xlfentry*)
-    ac_[]_AC_LANG_ABBREV[]_v_output=`echo $ac_[]_AC_LANG_ABBREV[]_v_output | sed 's/,/ /g'` ;;
+    ac_[]_AC_LANG_ABBREV[]_v_output=`echo $ac_[]_AC_LANG_ABBREV[]_v_output |
+      sed '
+        s/,/ /g
+        s/ -link / /g
+        s/) *$//
+      '
+    ` ;;
 
   # With Intel ifc, ignore the quoted -mGLOB_options_string stuff (quoted
   # $LIBS confuse us, and the libraries appear later in the output anyway).
@@ -12619,6 +13055,16 @@ case $ac_[]_AC_LANG_ABBREV[]_v_output in
 	s/-ignore  *'[[^']]*'/ /g; s/-ignore  *\"[[^\"]]*\"/ /g
 	s/-def  *'[[^']]*'/ /g; s/-def  *\"[[^\"]]*\"/ /g"` ;;
 
+  # If we are using fort77 (the f2c wrapper) then filter output and delete quotes.
+  *fort77*f2c*gcc*)
+    ac_[]_AC_LANG_ABBREV[]_v_output=`echo "$ac_[]_AC_LANG_ABBREV[]_v_output" | sed -n '
+        /:[[	 ]]\+Running[[	 ]]\{1,\}"gcc"/{
+          /"-c"/d
+          /[[.]]c"*/d
+          s/^.*"gcc"/"gcc"/
+          s/"//gp
+        }'` ;;
+
   # If we are using Cray Fortran then delete quotes.
   *cft90*)
     ac_[]_AC_LANG_ABBREV[]_v_output=`echo $ac_[]_AC_LANG_ABBREV[]_v_output | sed 's/"//g'` ;;
@@ -12631,13 +13077,13 @@ T14,131
 m4_set_add_allm4_define([_m4_set_size($1)], m4_eval(m4_set_size([$1])
   + m4_len(m4_ifdef([_m4_set_cleanup($1)], [_$0_check], [_$0])([$1], $@))))
 T28,31
-m4_location(AC_TYPE_INT16_T)../../lib/autoconf/types.m4:617
+m4_location(AC_TYPE_INT16_T)../../lib/autoconf/types.m4:625
 T19,62
 m4_version_unletterm4_substr(m4_map_args([.m4_eval], m4_unquote(_$0([$1]))), [3])
 T24,29
-m4_location(AS_BASENAME)../../lib/m4sugar/m4sh.m4:909
+m4_location(AS_BASENAME)../../lib/m4sugar/m4sh.m4:942
 T24,34
-m4_location(AC_TRY_EVAL)../../lib/autoconf/general.m4:2453
+m4_location(AC_TRY_EVAL)../../lib/autoconf/general.m4:2452
 T11,781
 AC_PROG_CPP_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_CC])dnl
 AC_ARG_VAR([CPP],      [C preprocessor])dnl
@@ -12730,7 +13176,7 @@ AC_SUBST([ERLANG_LIB_VER_$1], [$ac_cv_erlang_lib_ver_$1])
 AS_IF([test "$ac_cv_erlang_lib_dir_$1" = "not found"], [$3], [$2])
 []_m4_defun_epi([$0])
 T32,34
-m4_location(AC_CANONICAL_TARGET)../../lib/autoconf/general.m4:1834
+m4_location(AC_CANONICAL_TARGET)../../lib/autoconf/general.m4:1833
 T13,200
 AC_ST_BLKSIZE_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_ST_BLKSIZE' is obsolete.
 You should run autoupdate.])dnl
@@ -12763,13 +13209,13 @@ You should run autoupdate.])dnl
 m4_ifvaln([$1], [AC_MSG_CHECKING([for $1])])dnl
 AC_LINK_IFELSE([AC_LANG_PROGRAM([[$2]], [[$3]])], [$4], [$5])[]_m4_defun_epi([$0])
 T28,30
-m4_location(AC_LANG_RESTORE)../../lib/autoconf/lang.m4:135
+m4_location(AC_LANG_RESTORE)../../lib/autoconf/lang.m4:134
 T29,28
-m4_location(AC_C_BACKSLASH_A)../../lib/autoconf/c.m4:1388
+m4_location(AC_C_BACKSLASH_A)../../lib/autoconf/c.m4:1396
 T34,31
-m4_location(AC_TYPE_LONG_LONG_INT)../../lib/autoconf/types.m4:502
+m4_location(AC_TYPE_LONG_LONG_INT)../../lib/autoconf/types.m4:503
 T28,28
-m4_location(AC_PROG_CC_STDC)../../lib/autoconf/c.m4:1370
+m4_location(AC_PROG_CC_STDC)../../lib/autoconf/c.m4:1378
 T16,65
 AC_TYPE_UINT16_T_m4_defun_pro([$0])_AC_TYPE_UNSIGNED_INT(16)[]_m4_defun_epi([$0])
 T13,309
@@ -12809,27 +13255,114 @@ fi
 T23,33
 m4_location(AC_PROG_FC)../../lib/autoconf/fortran.m4:378
 T31,28
-m4_location(AC_C_CHAR_UNSIGNED)../../lib/autoconf/c.m4:1417
+m4_location(AC_C_CHAR_UNSIGNED)../../lib/autoconf/c.m4:1425
 T26,34
-m4_location(AC_ARG_ENABLE)../../lib/autoconf/general.m4:1463
+m4_location(AC_ARG_ENABLE)../../lib/autoconf/general.m4:1462
 T36,29
-m4_location(_AS_DETECT_BETTER_SHELL)../../lib/m4sugar/m4sh.m4:195
+m4_location(_AS_DETECT_BETTER_SHELL)../../lib/m4sugar/m4sh.m4:194
 T27,34
-m4_location(AC_CHECK_FUNCS)../../lib/autoconf/functions.m4:87
-T29,95
-AC_LANG_BOOL_COMPILE_TRY(C++)AC_LANG_PROGRAM([$1], [static int test_array @<:@1 - 2 * !($2)@:>@;
-test_array @<:@0@:>@ = 0
+m4_location(AC_CHECK_FUNCS)../../lib/autoconf/functions.m4:86
+T20,1337
+_AC_FC_IMPLICIT_NONE_m4_defun_pro([$0])_AC_FORTRAN_ASSERT()dnl
+AC_CACHE_CHECK([for flag to disallow _AC_LANG implicit declarations],
+               [ac_cv_[]_AC_LANG_ABBREV[]_implicit_none],
+[ac_cv_[]_AC_LANG_ABBREV[]_implicit_none=unknown
+ac_fc_implicit_none_[]_AC_LANG_PREFIX[]FLAGS_save=$[]_AC_LANG_PREFIX[]FLAGS
+for ac_flag in none -fimplicit-none -u -Wimplicit -implicitnone +implicit_none \
+               -qundef "-warn declarations" -in --in -AT "-e I" -Mdclchk \
+               "-u -warn errors"
+do
+  if test "x$ac_flag" != xnone; then
+    _AC_LANG_PREFIX[]FLAGS="$ac_fc_implicit_none_[]_AC_LANG_PREFIX[]FLAGS_save $ac_flag"
+  fi
+  AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [])],
+    [AC_COMPILE_IFELSE([AC_LANG_PROGRAM([], [[
+      i = 0
+      print *, i]])],
+       [],
+       [ac_cv_[]_AC_LANG_ABBREV[]_implicit_none=$ac_flag; break])])
+done
+rm -f conftest.err conftest.$ac_objext conftest.$ac_ext
+_AC_LANG_PREFIX[]FLAGS=$ac_fc_implicit_none_[]_AC_LANG_PREFIX[]FLAGS_save
 ])
+if test "x$ac_cv_[]_AC_LANG_ABBREV[]_implicit_none" = xunknown; then
+  m4_default([$3],
+    [AC_MSG_ERROR([no Fortran flag to disallow implicit declarations found], 77)])
+else
+  if test "x$ac_cv_[]_AC_LANG_ABBREV[]_implicit_none" != xnone; then
+    _AC_LANG_PREFIX[]FLAGS="$_AC_LANG_PREFIX[]FLAGS $ac_cv_[]_AC_LANG_ABBREV[]_implicit_none"
+  fi
+  $2
+fi
+[]_m4_defun_epi([$0])
+T29,125
+AC_LANG_BOOL_COMPILE_TRY(C++)AC_LANG_PROGRAM([$1], [static int test_array @<:@1 - 2 * !($2)@:>@;
+test_array @<:@0@:>@ = 0;
+return test_array @<:@0@:>@;
+])
+T24,1538
+AC_FC_MODULE_OUTPUT_FLAG_m4_defun_pro([$0])
+AC_CACHE_CHECK([Fortran 90 module output flag], [ac_cv_fc_module_output_flag],
+[AC_LANG_PUSH([Fortran])
+mkdir conftest.dir conftest.dir/sub
+cd conftest.dir
+ac_cv_fc_module_output_flag=unknown
+ac_fc_module_output_flag_FCFLAGS_save=$FCFLAGS
+# Flag ordering is significant: put flags late which some compilers use
+# for the search path.
+for ac_flag in -J '-J ' -fmod= -moddir= +moddir= -qmoddir= '-mod ' \
+	      '-module ' -M '-Am -M' '-e m -J '; do
+  FCFLAGS="$ac_fc_module_output_flag_FCFLAGS_save ${ac_flag}sub"
+  AC_COMPILE_IFELSE([[
+      module conftest_module
+      contains
+      subroutine conftest_routine
+      write(*,'(a)') 'gotcha!'
+      end subroutine
+      end module]],
+    [cd sub
+     AC_COMPILE_IFELSE([[
+      program main
+      use conftest_module
+      call conftest_routine
+      end program]],
+       [ac_cv_fc_module_output_flag="$ac_flag"])
+     cd ..
+     if test "$ac_cv_fc_module_output_flag" != unknown; then
+       break
+     fi])
+done
+FCFLAGS=$ac_fc_module_output_flag_FCFLAGS_save
+cd ..
+rm -rf conftest.dir
+AC_LANG_POP([Fortran])
+])
+if test "$ac_cv_fc_module_output_flag" != unknown; then
+  FC_MODOUT=$ac_cv_fc_module_output_flag
+  $1
+else
+  FC_MODOUT=
+  m4_default([$2],
+    [AC_MSG_ERROR([unable to find compiler flag to write module information to])])
+fi
+AC_SUBST([FC_MODOUT])
+# Ensure trailing whitespace is preserved in a Makefile.
+AC_SUBST([ac_empty], [""])
+AC_CONFIG_COMMANDS_PRE([case $FC_MODOUT in #(
+  *\ ) FC_MODOUT=$FC_MODOUT'${ac_empty}' ;;
+esac])dnl
+[]_m4_defun_epi([$0])
 T10,72
 m4_reversem4_if([$#], [0], [], [$#], [1], [[$1]],
        [$0(m4_shift($@)), [$1]])
 T24,34
-m4_location(_AC_RUN_LOG)../../lib/autoconf/general.m4:2299
-T17,156
+m4_location(_AC_RUN_LOG)../../lib/autoconf/general.m4:2298
+T17,196
 AS_SHELL_SANITIZE_AS_SHELL_SANITIZE
 m4_provide_if([AS_INIT], [],
 [m4_provide([AS_INIT])
 _AS_DETECT_REQUIRED([_AS_SHELL_FN_WORK])
+_AS_DETECT_REQUIRED([_AS_TEST_X_WORKS])
 _AS_DETECT_BETTER_SHELL
 _AS_UNSET_PREPARE
 ])
@@ -12844,8 +13377,8 @@ T18,211
 AC_GCC_TRADITIONAL_m4_defun_pro([$0])AC_DIAGNOSE([obsolete], [The macro `AC_GCC_TRADITIONAL' is obsolete.
 You should run autoupdate.])dnl
 m4_if($#, 0, [AC_PROG_GCC_TRADITIONAL], [AC_PROG_GCC_TRADITIONAL($@)])[]_m4_defun_epi([$0])
-T25,30
-m4_location(AC_CHECK_LIB)../../lib/autoconf/libs.m4:100
+T25,29
+m4_location(AC_CHECK_LIB)../../lib/autoconf/libs.m4:99
 T12,59
 AC_FUNC_STAT_m4_defun_pro([$0])_AC_FUNC_STAT(stat)[]_m4_defun_epi([$0])
 T7,1688
@@ -12886,12 +13419,11 @@ m4_wrap([m4_popdef([_m4_divert_diversion])m4_ifdef(
   [_m4_divert_diversion], [m4_fatal([$0: unbalanced m4_divert_push:
 ]m4_divert_stack)])_m4_popdef([_m4_divert_stack])m4_divert_push([KILL])])
 
-T15,1917
+T15,1885
 _AC_PROG_CC_C89_m4_defun_pro([$0])_AC_C_STD_TRY([c89],
 [[#include <stdarg.h>
 #include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
+struct stat;
 /* Most of the following tests are stolen from RCS 5.7's src/conf.sh.  */
 struct buf { int x; };
 FILE * (*rcsopen) (struct buf *, struct stat *, int);
@@ -12950,9 +13482,9 @@ m4_if($#, 0, [AC_PROG_LN_S], [AC_PROG_LN_S($@)])[]_m4_defun_epi([$0])
 T22,33
 m4_location(AC_FIND_X)../../lib/autoconf/oldnames.m4:57
 T26,33
-m4_location(_AC_PROG_FC_V)../../lib/autoconf/fortran.m4:559
+m4_location(_AC_PROG_FC_V)../../lib/autoconf/fortran.m4:581
 T22,30
-m4_location(AS_TEST_X)../../lib/m4sugar/m4sh.m4:1055
+m4_location(AS_TEST_X)../../lib/m4sugar/m4sh.m4:1090
 T11,70
 _m4_foreachm4_if([$#], [3], [],
        [$1[$4]$2[]$0([$1], [$2], m4_shift3($@))])
@@ -12996,12 +13528,12 @@ _AC_PROG_CXX_G
 AC_LANG_POP(C++)dnl
 []_m4_defun_epi([$0])
 T29,34
-m4_location(AC_SYS_LARGEFILE)../../lib/autoconf/specific.m4:136
+m4_location(AC_SYS_LARGEFILE)../../lib/autoconf/specific.m4:134
 T13,98
 _AC_DO_STDERR_m4_defun_pro([$0])_AC_RUN_LOG_STDERR([eval "$1"],
 		    [_AC_DO_ECHO([$1])])[]_m4_defun_epi([$0])
 T27,28
-m4_location(AC_PROG_CC_C89)../../lib/autoconf/c.m4:1354
+m4_location(AC_PROG_CC_C89)../../lib/autoconf/c.m4:1362
 T28,33
 m4_location(AC_HEADER_EGREP)../../lib/autoconf/oldnames.m4:37
 T13,188
@@ -13012,11 +13544,11 @@ T12,93
 m4_set_emptym4_ifdef([_m4_set_size($1)],
 	  [m4_if(m4_indir([_m4_set_size($1)]), [0], [$2], [$3])], [$2])
 T30,31
-m4_location(_AC_STRUCT_DIRENT)../../lib/autoconf/types.m4:931
+m4_location(_AC_STRUCT_DIRENT)../../lib/autoconf/types.m4:939
 T26,36
-m4_location(AC_UTIME_NULL)../../lib/autoconf/functions.m4:1783
+m4_location(AC_UTIME_NULL)../../lib/autoconf/functions.m4:1779
 T25,34
-m4_location(AC_PROG_LN_S)../../lib/autoconf/programs.m4:800
+m4_location(AC_PROG_LN_S)../../lib/autoconf/programs.m4:799
 T20,2
 _m4_divert(DEFAULTS)10
 T28,581
@@ -13090,14 +13622,14 @@ AC_RUN_LOG_m4_defun_pro([$0])_AC_RUN_LOG([$1],
 T25,98
 AC_CONFIG_AUX_DIR_DEFAULT_m4_defun_pro([$0])AC_CONFIG_AUX_DIRS("$srcdir" "$srcdir/.." "$srcdir/../..")[]_m4_defun_epi([$0])
 T30,33
-m4_location(AC_HEADER_STDBOOL)../../lib/autoconf/headers.m4:600
+m4_location(AC_HEADER_STDBOOL)../../lib/autoconf/headers.m4:667
 T22,82
 AC_CONFIG_COMMANDS_PRE_m4_defun_pro([$0])m4_append([AC_OUTPUT_COMMANDS_PRE], [$1
 ])[]_m4_defun_epi([$0])
 T9,22
 m4_shift2m4_shift(m4_shift($@))
 T26,34
-m4_location(_AC_PATH_PROG)../../lib/autoconf/programs.m4:122
+m4_location(_AC_PATH_PROG)../../lib/autoconf/programs.m4:120
 T9,0
 AU_DEFINE
 T19,304
@@ -13112,6 +13644,8 @@ AC_ARG_VAR([ERLCFLAGS], [Erlang/OTP compiler flags [none]])dnl
 []_m4_defun_epi([$0])
 T9,32
 m4_shift3m4_shift(m4_shift(m4_shift($@)))
+T34,29
+m4_location(_AS_REEXEC_WITH_SHELL)../../lib/m4sugar/m4sh.m4:279
 T6,598
 m4_form4_pushdef([$1], m4_eval([$2]))m4_cond([m4_eval(([$3]) > ([$2]))], 1,
 	   [m4_pushdef([_m4_step], m4_eval(m4_default_quoted([$4],
@@ -13128,16 +13662,21 @@ F12,9
 m4_debugfiledebugfile
 T21,95
 _AC_LANG_NULL_PROGRAM_m4_defun_pro([$0])AC_LANG_SOURCE([_AC_LANG_DISPATCH([$0], _AC_LANG, $@)])[]_m4_defun_epi([$0])
+T19,118
+AC_FC_IMPLICIT_NONE_m4_defun_pro([$0])AC_LANG_PUSH([Fortran])dnl
+_AC_FC_IMPLICIT_NONE($@)
+AC_LANG_POP([Fortran])dnl
+[]_m4_defun_epi([$0])
 T31,31
 m4_location(AC_ERLANG_NEED_ERL)../../lib/autoconf/erlang.m4:86
 T37,33
 m4_location(_AC_CHECK_HEADER_PREPROC)../../lib/autoconf/headers.m4:193
 T27,34
-m4_location(AC_TRY_COMMAND)../../lib/autoconf/general.m4:2462
+m4_location(AC_TRY_COMMAND)../../lib/autoconf/general.m4:2461
 T25,36
-m4_location(AC_FUNC_STAT)../../lib/autoconf/functions.m4:1529
+m4_location(AC_FUNC_STAT)../../lib/autoconf/functions.m4:1525
 T23,28
-m4_location(AC_C_CROSS)../../lib/autoconf/c.m4:1412
+m4_location(AC_C_CROSS)../../lib/autoconf/c.m4:1420
 T24,358
 _AC_CONFIG_REGISTER_DEST_AC_CONFIG_UNIQUE([$1], [$3])m4_if([$1 $3], [LINKS .],
        [m4_fatal([invalid destination of a config link: `.'])],
@@ -13151,13 +13690,13 @@ _AC_CONFIG_REGISTER_DEST_AC_CONFIG_UNIQUE([$1], [$3])m4_if([$1 $3], [LINKS .],
 T37,33
 m4_location(_AC_CHECK_HEADER_MONGREL)../../lib/autoconf/headers.m4:129
 T28,31
-m4_location(AC_TYPE_SSIZE_T)../../lib/autoconf/types.m4:597
+m4_location(AC_TYPE_SSIZE_T)../../lib/autoconf/types.m4:605
 T33,34
-m4_location(AC_SYS_POSIX_TERMIOS)../../lib/autoconf/specific.m4:288
+m4_location(AC_SYS_POSIX_TERMIOS)../../lib/autoconf/specific.m4:292
 T31,35
-m4_location(AC_REPLACE_FNMATCH)../../lib/autoconf/functions.m4:577
+m4_location(AC_REPLACE_FNMATCH)../../lib/autoconf/functions.m4:573
 T28,33
-m4_location(AC_PROG_F77_C_O)../../lib/autoconf/fortran.m4:460
+m4_location(AC_PROG_F77_C_O)../../lib/autoconf/fortran.m4:465
 T17,196
 _AC_LIBOBJ_STRTODAC_LIBOBJ(strtod)
 AC_CHECK_FUNC(pow)
@@ -13178,7 +13717,7 @@ _AC_CHECK_HEADER_PREPROC_BODY  AS_LINENO_PUSH([$[]1])
 T36,27
 m4_location(AC_PROG_GCC_TRADITIONAL)../../lib/autoconf/c.m4:543
 T25,34
-m4_location(AC_MSG_ERROR)../../lib/autoconf/general.m4:2250
+m4_location(AC_MSG_ERROR)../../lib/autoconf/general.m4:2249
 T13,20
 AS_VAR_APPENDas_fn_append $1 $2[]
 T13,155
@@ -13190,9 +13729,9 @@ m4_if($#, 0, [AC_PATH_PROG], [AC_PATH_PROG($@)])[]_m4_defun_epi([$0])
 T31,68
 AC_LANG_COMPILER(Objective C++)_m4_defun_pro([$0])AC_REQUIRE([AC_PROG_OBJCXX])[]_m4_defun_epi([$0])
 T26,34
-m4_location(_AC_TOOL_WARN)../../lib/autoconf/programs.m4:190
+m4_location(_AC_TOOL_WARN)../../lib/autoconf/programs.m4:188
 T27,31
-m4_location(AC_TYPE_SIZE_T)../../lib/autoconf/types.m4:594
+m4_location(AC_TYPE_SIZE_T)../../lib/autoconf/types.m4:602
 T26,104
 _AS_DETECT_SUGGESTED_PRUNEm4_set_contains([_AS_DETECT_REQUIRED_BODY], [$1],
 		 [m4_set_remove([_AS_DETECT_SUGGESTED_BODY], [$1])])
@@ -13275,6 +13814,8 @@ T11,146
 _m4_expand_m4_if([$4], [}>=-],
        [m4_changequote([-=<{$2], [)}>=-])$3m4_changequote([, ])],
        [$0([$1], [($2], -=<{($2$1)}>=-, [}>=-])m4_ignore$2])
+T16,9
+_AS_TEST_X_WORKStest -x /
 T17,395
 _AC_STRUCT_DIRENT_m4_defun_pro([$0])
   AC_REQUIRE([AC_HEADER_DIRENT])
@@ -13364,7 +13905,7 @@ T14,89
 AC_LINK_IFELSE_m4_defun_pro([$0])AC_LANG_COMPILER_REQUIRE()dnl
 _AC_LINK_IFELSE($@)[]_m4_defun_epi([$0])
 T27,36
-m4_location(AC_FUNC_STRTOD)../../lib/autoconf/functions.m4:1549
+m4_location(AC_FUNC_STRTOD)../../lib/autoconf/functions.m4:1545
 T15,3621
 AC_PROG_INSTALL_m4_defun_once([AC_PROG_INSTALL], [AC_REQUIRE([AC_CONFIG_AUX_DIR_DEFAULT])dnl
 AC_REQUIRE_AUX_FILE([install-sh])dnl
@@ -13457,7 +13998,7 @@ AC_SUBST(INSTALL_DATA)dnl
   [[_m4_defun_pro([AC_PROG_INSTALL])m4_unquote(], [)_m4_defun_epi([AC_PROG_INSTALL])]],
 m4_ifdef([_m4_diverting([AC_PROG_INSTALL])], [-]), [-], [[m4_unquote(], [)]],
   [[_m4_require_call([AC_PROG_INSTALL],], [, _m4_divert_dump)]]))
-T7,1043
+T7,1229
 AC_INIT# Forbidden tokens and exceptions.
 m4_pattern_forbid([^_?A[CHUM]_])
 m4_pattern_forbid([_AC_])
@@ -13465,6 +14006,9 @@ m4_pattern_forbid([^LIBOBJS$],
 		  [do not use LIBOBJS directly, use AC_LIBOBJ (see section `AC_LIBOBJ vs LIBOBJS'])
 # Actually reserved by M4sh.
 m4_pattern_allow([^AS_FLAGS$])
+# So that the autoconf-generated scripts will always re-execute
+# themselves with $CONFIG_SHELL, if that's set in the environment.
+m4_define([_AS_FORCE_REEXEC_WITH_CONFIG_SHELL], [yes])
 AS_INIT[]dnl
 AS_PREPARE[]dnl
 m4_divert_push([KILL])
@@ -13497,7 +14041,7 @@ dnl
 AC_LANG_PUSH(C)
 
 T37,33
-m4_location(AC_LANG_PREPROC(Fortran))../../lib/autoconf/fortran.m4:246
+m4_location(AC_LANG_PREPROC(Fortran))../../lib/autoconf/fortran.m4:245
 T15,272
 _AS_DIRNAME_SED_m4_defun_pro([$0])AS_ECHO([X[]$1]) |
     sed ['/^X\(.*[^/]\)\/\/*[^/][^/]*\/*$/{
@@ -13573,7 +14117,7 @@ rm -f conftest])
 interpval=$ac_cv_sys_interpreter
 []_m4_defun_epi([$0])
 T9,152
-AC_PREREQm4_if(m4_version_compare([2.68], [$1]),
+AC_PREREQm4_if(m4_version_compare([2.69], [$1]),
 	[-1],
 	[m4_default([$3],
 		    [m4_fatal([Autoconf version $1 or higher is required],
@@ -13581,9 +14125,10 @@ AC_PREREQm4_if(m4_version_compare([2.68], [$1]),
 	[$2])
 T27,1
 _AC_LANG_PREFIX(Fortran 77)F
-T39,95
+T39,125
 AC_LANG_BOOL_COMPILE_TRY(Objective C++)AC_LANG_PROGRAM([$1], [static int test_array @<:@1 - 2 * !($2)@:>@;
-test_array @<:@0@:>@ = 0
+test_array @<:@0@:>@ = 0;
+return test_array @<:@0@:>@;
 ])
 T16,63
 AC_CONFIG_HEADER_m4_defun_pro([$0])AC_CONFIG_HEADERS([$1])[]_m4_defun_epi([$0])
@@ -13743,7 +14288,7 @@ m4_divert_once([HELP_WITH], [$2])dnl
 _AC_ENABLE_IF([with], [$1], [$3], [$4])dnl
 []_m4_defun_epi([$0])
 T22,34
-m4_location(AC_LIBOBJ)../../lib/autoconf/general.m4:2939
+m4_location(AC_LIBOBJ)../../lib/autoconf/general.m4:2938
 T15,58
 m4_divert_stackm4_stack_foreach_sep_lifo([_m4_divert_stack], [], [], [
 ])
@@ -13753,8 +14298,13 @@ m4_assertm4_if(m4_eval([$1]), 0,
 T9,86
 AH_BOTTOMm4_define([_AH_COUNTER], m4_incr(_AH_COUNTER))dnl
 AH_VERBATIM([zzzz]_AH_COUNTER, [$1])
+T20,124
+AC_F77_IMPLICIT_NONE_m4_defun_pro([$0])AC_LANG_PUSH([Fortran 77])dnl
+_AC_FC_IMPLICIT_NONE($@)
+AC_LANG_POP([Fortran 77])dnl
+[]_m4_defun_epi([$0])
 T31,35
-m4_location(AC_FUNC_GETLOADAVG)../../lib/autoconf/functions.m4:719
+m4_location(AC_FUNC_GETLOADAVG)../../lib/autoconf/functions.m4:715
 T24,96
 _AC_PATH_PROG_FLAVOR_GNU# Check for GNU $1
 case `"$1" --version 2>&1` in

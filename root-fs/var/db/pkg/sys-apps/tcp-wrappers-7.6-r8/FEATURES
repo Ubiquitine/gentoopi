@@ -1,1 +1,1 @@
-assume-digests binpkg-logs buildpkg config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync parallel-fetch protect-owned sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch
+assume-digests binpkg-logs config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync news parallel-fetch protect-owned sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans userfetch

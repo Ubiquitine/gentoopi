@@ -1752,9 +1752,6 @@ GNU Gettext Utilities
 * xgettext: (gettext)xgettext Invocation.
                                 Extract strings into a PO file.
 
-GNU Libraries
-* libgcrypt: (gcrypt).          Cryptographic function library.
-
 GNU libraries
 * gmp: (gmp).                   GNU Multiple Precision Arithmetic Library.
 

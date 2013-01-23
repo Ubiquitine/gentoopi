@@ -1,0 +1,27 @@
+dir /usr
+dir /usr/include
+obj /usr/include/mpfr.h 1726c0a1682b072fdafd293a9434a6fa 1358696313
+obj /usr/include/mpf2mpfr.h b3be807e2f957869ab3efdc1e6627238 1358696313
+dir /usr/lib
+obj /usr/lib/libmpfr.so.4.1.1 a0c4963c245e3b7bd5b92fd29f4c2a91 1358696341
+sym /usr/lib/libmpfr.so.4 -> libmpfr.so.4.1.1 1358696385
+dir /usr/share
+dir /usr/share/info
+obj /usr/share/info/mpfr.info.bz2 a5ad2f5b28babea0445f4ef9b62c84d3 1358696309
+dir /usr/share/doc
+dir /usr/share/doc/mpfr-3.1.1
+obj /usr/share/doc/mpfr-3.1.1/NEWS.bz2 d183c3c351ffcd27aafb4bcc9c923c1f 1358696318
+dir /usr/share/doc/mpfr-3.1.1/examples
+obj /usr/share/doc/mpfr-3.1.1/examples/ReadMe.bz2 11fc9030f7261f754d4b62b5cc70999e 1358696315
+obj /usr/share/doc/mpfr-3.1.1/examples/divworst.c.bz2 1c12605abe5b081421a0db2bf718bd7a 1358696315
+obj /usr/share/doc/mpfr-3.1.1/examples/rndo-add.c.bz2 28e82da9c3858cd3f8b6a6ea80e44e3e 1358696315
+obj /usr/share/doc/mpfr-3.1.1/examples/sample.c.bz2 e8168a7f85619b02fe05f3e5a6138f54 1358696315
+obj /usr/share/doc/mpfr-3.1.1/examples/version.c.bz2 7f0374472aa83e09d892e6a393983cc6 1358696315
+obj /usr/share/doc/mpfr-3.1.1/AUTHORS.bz2 6022c011bdefd0ba1c5c9a711aeae8e5 1358696318
+obj /usr/share/doc/mpfr-3.1.1/BUGS.bz2 906f13af163eb0ab4bf6975b603d371c 1358696318
+obj /usr/share/doc/mpfr-3.1.1/TODO.bz2 5fd4ffbae8413fd8559147e979795a6b 1358696318
+obj /usr/share/doc/mpfr-3.1.1/ChangeLog.bz2 38fb1ee21230db5ddcb14a9f62e12dc4 1358696318
+obj /usr/share/doc/mpfr-3.1.1/README.bz2 17a2441bdaa403f8bbeb5f1f9f569d74 1358696318
+dir /usr/share/doc/mpfr-3.1.1/html
+obj /usr/share/doc/mpfr-3.1.1/html/FAQ.html 3ff65a287d9b335c884bd6aceecbcf5f 1358696317
+sym /usr/lib/libmpfr.so -> libmpfr.so.4.1.1 1358696387

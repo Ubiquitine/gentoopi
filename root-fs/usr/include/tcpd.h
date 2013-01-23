@@ -30,11 +30,7 @@ __BEGIN_DECLS
 struct host_info {
     char    name[STRING_LENGTH];	/* access via eval_hostname(host) */
     char    addr[STRING_LENGTH];	/* access via eval_hostaddr(host) */
-#ifdef INET6
-    struct sockaddr *sin;		/* socket address or 0 */
-#else
     struct sockaddr_in *sin;		/* socket address or 0 */
-#endif
     struct t_unitdata *unit;		/* TLI transport address or 0 */
     struct request_info *request;	/* for shared information */
 };

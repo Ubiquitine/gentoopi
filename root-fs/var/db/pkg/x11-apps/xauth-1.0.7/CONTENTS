@@ -1,11 +1,11 @@
 dir /usr
+dir /usr/bin
+obj /usr/bin/xauth cb1038dcf44913871e8e379239b6630f 1358769776
 dir /usr/share
 dir /usr/share/man
 dir /usr/share/man/man1
-obj /usr/share/man/man1/xauth.1.bz2 588c3747c32b2aeff58c3f9c71cf7196 1356363194
+obj /usr/share/man/man1/xauth.1.bz2 588c3747c32b2aeff58c3f9c71cf7196 1358769742
 dir /usr/share/doc
 dir /usr/share/doc/xauth-1.0.7
-obj /usr/share/doc/xauth-1.0.7/README.bz2 8d6b69f9f7930b0c3c353c88c580ac96 1356363194
-obj /usr/share/doc/xauth-1.0.7/ChangeLog.bz2 3d211fc76be05ca23d6a9f08735832ce 1356363195
-dir /usr/bin
-obj /usr/bin/xauth 27bb4129011b9e694bacaf9dde2521ec 1356363219
+obj /usr/share/doc/xauth-1.0.7/ChangeLog.bz2 3d211fc76be05ca23d6a9f08735832ce 1358769744
+obj /usr/share/doc/xauth-1.0.7/README.bz2 8d6b69f9f7930b0c3c353c88c580ac96 1358769743

@@ -61,6 +61,7 @@ Topics:
     FTP File SystemFTP File System
     Tar File SystemTar File System
     FIle transfer over SHell filesystemFIle transfer over SHell filesystem
+    SFTP (SSH File Transfer Protocol) filesystemSFTP (SSH File Transfer Protocol) filesystem
     Undelete File SystemUndelete File System
     SMB File SystemSMB File System
     EXTernal File SystemEXTernal File System
@@ -102,7 +103,8 @@ OPTIONS
 -C arg, --colors=arg
         Specify a different color set in the command line. The format of arg is documented in the ColorsColors section.
 
--S arg  Specify a name of skin in the command line. Technology of skins is documented in the SkinsSkins. section.
+-S arg, --skin=arg
+        Specify a name of skin in the command line. Technology of skins is documented in the SkinsSkins section.
 
 -d, --nomouse
         Disable mouse support.
@@ -122,7 +124,8 @@ OPTIONS
 -k, --resetsoft
         Reset softkeys to their default from the termcap/terminfo database. Only useful on HP terminals when the function keys don't work.
 
--K file Specify a name of keymap file in the command line.
+-K file, --keymap=file
+        Specify a name of keymap file in the command line.
 
 --nokeymap
         Don't load key bindings from any file, use default hardcoded keys.
@@ -130,10 +133,14 @@ OPTIONS
 -l file, --ftplog=file
         Save the ftpfs dialog with the server in file.
 
+-D N, --debuglevel=N
+        Save the debug level for SMB VFS. N is in 0-10 range.
+
 -P file, --printwd=file
         Print the last working directory to the specified file. This option is not meant to be used directly. Instead, it's used from a special shell script that automatically changes the current directory of the shell to the last directory the Midnight Commander was in. Source the file /usr/share/mc/bin/mc.sh (bash and zsh users) or /usr/share/mc/bin/mc.csh (tcsh users) respectively to define mc as an alias to the appropriate shell script.
 
--s      Set alternative mode drawing of frameworks. If the section [Lines] is not filled, the symbol for the pseudographics frame is a space, otherwise the frame characters are taken from follow params. You can redefine the following variables:
+-s, --slow
+        Set alternative mode drawing of frameworks. If the section [Lines] is not filled, the symbol for the pseudographics frame is a space, otherwise the frame characters are taken from follow params. You can redefine the following variables:
 
 lefttop left-top corner
 
@@ -189,6 +196,9 @@ OPTIONS
 -x, --xterm
         Force xterm mode. Used when running on xterm-capable terminals (two screen modes, and able to send mouse escape sequences).
 
+-X, --no-x11
+        Do not use X11 to get the state of modifiers Alt, Ctrl, Shift
+
 -g, --oldmouse
         Force a "normal tracking" mouse mode. Used when running on xterm-capable terminals (tmux/screen).
 
@@ -243,14 +253,12 @@ The Shell Command LineShell Command Line section list the keys which are used
 Input Line KeysInput Line Keys are used for editing input lines. This means both the command line and the input lines in the query dialogs.[Keys_redefine]
 Redefine hotkey bindings
 
-Hotkey bindings may be read from external file (keymap-file). A keymap-file is searched on the following algorithm (to the first one found):
+Hotkey bindings may be read from external file (keymap-file). Initially, Mignight Commander creates key bindings using keymap defined in the source code. Then, two files /usr/share/mc/mc.keymap and /etc/mc/mc.keymap are loaded always, sequentially reassigned key bindings defined earlier. User-defined keymap-file is searched on the following algorithm (to the first one found):
 
         1) command line option -K <keymap> or --keymap=<keymap>
         2) Environment variable MC_KEYMAP
         3) Parameter keymap in section [Midnight-Commander] of config file.
         4) File ~/.config/mc/mc.keymap
-        5) File /etc/mc/mc.keymap
-        6) File /usr/share/mc/mc.keymap
 
 Command line option, environment variable and parameter in config file may contain the absolute path to the keymap-file (with the extension .keymap or without it). Search of keymap-file will occur in (to the first one found):
 
@@ -351,7 +359,7 @@ This section lists the keys which operate on the directory panels. If you want t
         displays the directory history, equivalent to depressing the 'v' with the mouse.[Quick search]
 Quick search
 
-The Quick search mode allows to perform fast file search in file panel. Press C-s or Alt-s to start a filename search in the directory listing.
+The Quick search mode allows you to perform fast file search in file panel. Press C-s or Alt-s to start a filename search in the directory listing.
 
 When the search is active, the user input will be added to the search string instead of the command line. If the Show mini-status option is enabled the search string is shown on the mini-status line. When typing, the selection bar will move to the next file starting with the typed letters. The Backspace or DEL keys can be used to correct typing mistakes. If C-s is pressed again, the next match is searched for.
 
@@ -1242,9 +1250,9 @@ For example, you want to copy directory /foo containing file bar to /bla/fo
 
 determines whether to preserve the permissions, timestamps and (if you are root) the ownership of the original files. If this option is not set, the current value of the umask will be respected.
 
-Use shell patterns on
+Use shell patterns
 
-When the shell patterns option is on you can use the '*' and '?' wildcards in the source mask. They work like they do in the shell. In the target mask only the '*' and '\<digit>' wildcards are allowed. The first '*' wildcard in the target mask corresponds to the first wildcard group in the source mask, the second '*' corresponds to the second group and so on. The '\1' wildcard corresponds to the first wildcard group in the source mask, the '\2' wildcard corresponds to the second group and so on all the way up to '\9'. The '\0' wildcard is the whole filename of the source file.
+When this option is on you can use the '*' and '?' wildcards in the source mask. They work like they do in the shell. In the target mask only the '*' and '\<digit>' wildcards are allowed. The first '*' wildcard in the target mask corresponds to the first wildcard group in the source mask, the second '*' corresponds to the second group and so on. The '\1' wildcard corresponds to the first wildcard group in the source mask, the '\2' wildcard corresponds to the second group and so on all the way up to '\9'. The '\0' wildcard is the whole filename of the source file.
 
 Two examples:
 
@@ -1270,7 +1278,7 @@ If you use '\U' or '\L' in the target mask, the next characters will be converte
 
 The '\u' and '\l' are stronger than '\U' and '\L'.
 
-For example, if the source mask is '*' (shell patterns on) or '^\(.*\)$' (shell patterns off) and the target mask is '\L\u*' the file names will be converted to have initial upper case and otherwise lower case.
+For example, if the source mask is '*' ( Use shell patterns on) or '^\(.*\)$' ( Use shell patterns off) and the target mask is '\L\u*' the file names will be converted to have initial upper case and otherwise lower case.
 
 You can also use '\' as a quote character. For example, '\\' is a backslash and '\*' is an asterisk.
 
@@ -1457,7 +1465,7 @@ Virtual File System
 
 The Midnight Commander is provided with a code layer to access the file system; this code layer is known as the virtual file system switch. The virtual file system switch allows the Midnight Commander to manipulate files not located on the Unix file system.
 
-Currently the Midnight Commander is packaged with some Virtual File Systems (VFS): the local file system, used for accessing the regular Unix file system; the ftpfs, used to manipulate files on remote systems with the FTP protocol; the tarfs, used to manipulate tar and compressed tar files; the undelfs, used to recover deleted files on ext2 file systems (the default file system for Linux systems), fish (for manipulating files over shell connections such as rsh and ssh). If the code was compiled with smbfs support, you can manipulate files on remote systems with the SMB (CIFS) protocol.
+Currently the Midnight Commander is packaged with some Virtual File Systems (VFS): the local file system, used for accessing the regular Unix file system; the ftpfs, used to manipulate files on remote systems with the FTP protocol; the tarfs, used to manipulate tar and compressed tar files; the undelfs, used to recover deleted files on ext2 file systems (the default file system for Linux systems), fish (for manipulating files over shell connections such as rsh and ssh). If the code was compiled with sftpfs (for manipulating files over SFTP connections). If the code was compiled with smbfs support, you can manipulate files on remote systems with the SMB (CIFS) protocol.
 
 A generic extfs (EXTernal virtual File System) is provided in order to easily expand VFS capabilities using scripts and external software.
 
@@ -1517,6 +1525,23 @@ Examples:
     sh://joe@want.compression.edu:C/private
     sh://joe@noncompressed.ssh.edu/private
     sh://joe@somehost.ssh.edu:2222/private
+[SFTP (SSH File Transfer Protocol) filesystem]
+SFTP (SSH File Transfer Protocol) filesystem
+
+The SFTP file system is a network based file system that allows you to manipulate the files in a remote machine as if they were local.
+
+To connect to a remote machine, you just need to chdir into a special directory which name is in the following format:
+
+sftp://[user@]machine:[port]/[remote-dir]
+
+The user, port and remote-dir elements are optional. If you specify the user element, the Midnight Commander will try to login on the remote machine as that user, otherwise it will use your login name. port - specify the port used by remote server (22 by default). If the remote-dir element is present, your current directory on the remote machine will be set to this one.
+
+Examples:
+
+    sftp://onlyrsh.mx/linux/local
+    sftp://joe:password@want.compression.edu/private
+    sftp://joe@noncompressed.ssh.edu/private
+    sftp://joe@somehost.ssh.edu:2222/private
 [Undelete File System]
 Undelete File System
 
@@ -1545,7 +1570,7 @@ Examples:
 [EXTernal File System]
 EXTernal File System
 
-extfs allows to integrate numerous features and file types into GNU Midnight Commander in an easy way, by writing scripts.
+extfs allows you to integrate numerous features and file types into GNU Midnight Commander in an easy way, by writing scripts.
 
 Extfs filesystems can be divided into two categories:
 
@@ -1667,7 +1692,7 @@ A skin-file is searched on the following algorithm (to the first one found):
 Command line option, environment variable and parameter in config file may contain the absolute path to the skin-file (with the extension .ini or without it). Search of skin-file will occur in (to the first one found):
 
         1) ~/.local/share/mc/skins/
-        2) /etc/mc/skins/
+        2) @sysconfdir@/mc/skins/
         3) /usr/share/mc/skins/
 
 For getting extended info, refer to:
@@ -1994,7 +2019,7 @@ The complete key symbol represents the escape sequences used to invoke the com
 [FILES]
 FILES
 
-Full paths below may vary between installations. They are also affected by the MC_DATADIR environment variable. If it's set, its value is used instead of /usr/share/mc in the paths below.
+Full paths below may vary between installations. They are also affected by the MC_DATADIR environment variable. If it's set, its value is used instead of /usr/share/mc in the paths below.
 
 /usr/share/mc/mc.hlp
 
@@ -2038,7 +2063,9 @@ Full paths below may vary between installations. They are also affected by the M
 
 ~/.local/share/mc.menu
 
-        Local user-defined menu. If this file is present, it is used instead of the home or system-wide applications menu.[AVAILABILITY]
+        Local user-defined menu. If this file is present, it is used instead of the home or system-wide applications menu.
+
+To change default root directory of MC, you can use MC_HOME environment variable. The value of MC_HOME must be an absolute path. If MC_HOME is unset or empty, HOME variable is used. If HOME is unset or empty, MC directories are get from GLib library.[AVAILABILITY]
 AVAILABILITY
 
 The latest version of this program can be found at ftp://ftp.gnu.org/gnu/mc/.[SEE ALSO]

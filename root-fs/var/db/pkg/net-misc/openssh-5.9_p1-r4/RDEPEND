@@ -1,1 +1,1 @@
-virtual/pam >=dev-libs/openssl-0.9.6d:0[-bindist] >=sys-libs/zlib-1.2.3 >=sys-apps/tcp-wrappers-7.6 virtual/shadow >=sys-auth/pambase-20081028
+virtual/pam >=dev-libs/openssl-0.9.6d:0[-bindist] >=sys-libs/zlib-1.2.3 >=sys-apps/tcp-wrappers-7.6 x11-apps/xauth virtual/shadow >=sys-auth/pambase-20081028

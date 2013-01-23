@@ -1,1 +1,1 @@
-debug doc +introspection ldap policykit debug
+debug gtk +introspection ldap policykit debug

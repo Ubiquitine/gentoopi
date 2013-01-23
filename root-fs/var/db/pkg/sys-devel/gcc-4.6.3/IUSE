@@ -1,1 +1,1 @@
-build multislot nls nptl test vanilla altivec cxx fortran nopie nossp bootstrap doc gcj gtk hardened multilib objc objc-gc mudflap libssp objc++ openmp fixed-point graphite go
+build multislot nls nptl test vanilla altivec cxx fortran nopie nossp bootstrap doc gcj gtk hardened multilib objc objc-gc mudflap libssp objc++ openmp fixed-point graphite

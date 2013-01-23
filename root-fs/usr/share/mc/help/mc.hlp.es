@@ -7,6 +7,7 @@
   Soporte de RatónMouse Support
 
   TeclasKeys
+    Redefinición de teclasKeys_redefine
     Otras TeclasMiscellaneous Keys
     Paneles de DirectorioDirectory Panels
     Quick searchQuick search
@@ -54,8 +55,9 @@
   TerminaciónCompletion
   Sistemas de Archivos Virtuales (VFS)Virtual File System
     Sistema de archivos Tar (tarfs)Tar File System
-    Sistema de archivos FTP (FTPfs)FTP File System
-    Sistema de archivos a través de SHell (FISH)FIle transfer over SHell filesystem
+    Sistema de archivos FTPFTP File System
+    Sistema de archivos a través de SHellFIle transfer over SHell filesystem
+    Sistema de archivos SFTP (FTP sobre SSH)SFTP (SSH File Transfer Protocol) filesystem
     Sistema de archivos SMBSMB File System
     Sistema de archivos de RecuperaciónUndelete File System
     Sistema de archivos EXTerno (extfs)EXTernal File System
@@ -99,7 +101,8 @@ OPCIONES
 -C arg, --colors=arg
         Usado para especificar un juego de colores diferentes desde la línea de órdenes. El formato de arg está documentado en la sección ColoresColors.
 
--S arg  Permite elegir un skin o apariencia para mc. La configuración de las características de visualización (colores, líneas, etc.) se explica detalladamente en la sección SkinsSkins.
+-S arg, --skin=arg
+        Permite elegir un skin o apariencia para mc. La configuración de las características de visualización (colores, líneas, etc.) se explica detalladamente en la sección SkinsSkins.
 
 -d, --nomouse
         Deshabilita el soporte de ratón.
@@ -110,26 +113,77 @@ OPCIONES
 -f, --datadir
         Muestra las rutas de búsqueda compiladas para archivos de Midnight Commander.
 
+-F, --datadir-info
+        Muestra información más extensa sobre las rutas de búsqueda compiladas en Midnight Commander.
+
+--configure-options
+        Muestra opciones de configuración compiladas.
+
 -k, --resetsoft
-        Resetea softkeys a su valor por defecto según la base de datos de termcap/terminfo. Sólo útil en terminales HP cuando la función keys no funciona.
+        Restablece las softkeys a su valor por defecto según la base de datos de termcap/terminfo. Solo útil en terminales HP cuando las teclas de función no funcionan.
+
+-K arch, --keymap=arch
+        Carga desde un archivo la configuración de teclas para la línea de órdenes.
+
+--nokeymap
+        No cargar asociaciones de teclas desde ningún archivo, utilizar las teclas nativas del sistema.
 
 -l reg, --ftplog=reg
         Guarda el diálogo FTPfs con el servidor en el archivo.
+
+-D N, --debuglevel=N
+        Guarda el nivel de depuración para el istema de archivos virtual SMB. N puede estar en el rango 0-10.
 
 -P arch, --printwd=arch
         Al salir del programa, Midnight Commander registrará el último directorio de trabajo en el archivo indicado. Esta opción no debe ser usada directamente, sino desde un guión de shell adecuado, para dejar como directorio activo el directorio que estaba en uso dentro de Midnight Commander. Consúltese en los archivos /usr/share/mc/bin/mc.sh (usuarios de bash y zsh) y /usr/share/mc/bin/mc.csh (usuarios de tcsh) la manera de definir mc como un alias para el correspondiente guión de shell.
 
 -s, --slow
-        Activa el modo para terminales lentos. En este modo el programa no dibuja bordes con líneas de caracteres y desactiva el modo detallado.
+        Activa el modo para terminales lentos. En este modo el programa no dibuja bordes con líneas de caracteres y desactiva el modo detallado. Si no se rellana la sección [Lines] el marco pseudo-gráfico estará formado por espacios; en caso contrario el marco se contruye con caracteres de texto según los parámetros siguientes:
+
+lefttop esquina superior izquierda
+
+righttop
+        esquina superior derecha
+
+centertop
+        cruz superior central
+
+centerbottom
+        cruz inferior central
+
+leftbottom
+        esquina inferior izquierda
+
+rightbottom
+        esquina inferior derecha
+
+leftmiddle
+        cruz central izquierda
+
+rightmiddle
+        cruz central derecha
+
+centermiddle
+        cruz central
+
+horiz   línea horizontal por defecto
+
+vert    línea vertical por defecto
+
+thinhoriz
+        línea horizontal fina
+
+thinvert
+        línea vertical fina
 
 -t, --termcap
-        Usado sólo si el código fue compilado con Slang y terminfo: hace que Midnight Commander use el valor de la variable de entorno TERMCAP para obtener la información del terminal, en vez de la base de datos de terminales del sistema.
+        Usado solo si el código fue compilado con Slang y terminfo: hace que Midnight Commander use el valor de la variable de entorno TERMCAP para obtener la información del terminal, en vez de la base de datos de terminales del sistema.
 
 -u, --nosubshell
-        Deshabilita el uso de shell concurrente (sólo tiene sentido si este Midnight Commander fue construido con soporte de shell concurrente).
+        Deshabilita el uso de shell concurrente (solo tiene sentido si este Midnight Commander fue construido con soporte de shell concurrente).
 
 -U, --subshell
-        Habilita el uso de shell concurrente (sólo tiene sentido si este Midnight Commander fue construido con soporte de subshell opcional).
+        Habilita el uso de shell concurrente (solo tiene sentido si este Midnight Commander fue construido con soporte de subshell opcional).
 
 -v arch, --view=arch
         Iniciar el visor interno para ver el archivo indicado. Véase la página de manual de mcview (1).
@@ -139,6 +193,9 @@ OPCIONES
 
 -x, --xterm
         Fuerza el modo xterm. Usado cuando se ejecuta en terminales con características de xterm (dos modos de pantalla, y pueden enviar secuencias de escape de ratón).
+
+-X, --no-x11
+        Do not use X11 to get the state of modifiers Alt, Ctrl, Shift
 
 -g, --oldmouse
         Force a "normal tracking" mouse mode. Used when running on xterm-capable terminals (tmux/screen).
@@ -161,8 +218,6 @@ Una doble pulsación sobre un archivo intentará ejecutar el comando si se trata
 
 Además, es posible ejecutar los comandos asignados a las teclas de función pulsando con el ratón sobre las etiquetas de la línea inferior de la pantalla.
 
-Si se pulsa un botón del ratón sobre la línea del borde superior del panel de directorio, se sube una página hacia atrás. Asimismo, una pulsación sobre la línea inferior baja una página hacia adelante. Éste procedimiento vale también para el Visor de AyudaContents y el Árbol de DirectoriosDirectory Tree.
-
 El valor por defecto de auto repetición para los botones del ratón es 400 milisegundos. Este valor se puede modificar editando el archivo ~/.config/mc/iniSave Setup y cambiando el parámetro mouse_repeat_rate.
 
 Si estamos ejecutando Midnight Commander con soporte para ratón, podemos recuperar el comportamiento habitual del ratón (cortar y pegar texto) manteniendo pulsada la tecla Mayúsculas.
@@ -183,6 +238,8 @@ Algunos comandos en Midnight Commander implican el uso de las teclas Control (
 
 Todas las líneas de entrada en Midnight Commander usan una aproximación a las asociaciones de teclas del editor GNU Emacs.
 
+Se pueden redefinir las asociaciones de las teclas. El resto de los comportamientos de las teclas que se describen aquí hacen referencia al comportamiento original. Para más información, véase la sección sobre R "redefinición de teclas" .Keys_redefine
+
 Hay bastantes secciones que hablan acerca de las teclas. Las siguientes son las más importantes.
 
 La sección Menú de ArchivoFile Menu documenta los atajos de teclado para los comandos que aparecen en el Menú de Archivo. Esta sección incluye las teclas de función. La mayor parte de esos comandos realizan alguna acción, normalmente sobre el archivo seleccionado o sobre los archivos marcados.
@@ -191,26 +248,43 @@ La sección Paneles de DirectorioDirectory Panels documenta las teclas que se
 
 La sección Línea de Órdenes del SistemaShell Command Line lista las teclas que son usadas para introducir o editar líneas de comandos. La mayor parte de ellas copian nombres de archivos y demás desde los paneles de directorio a la línea de órdenes (para evitar un tecleado excesivo) o acceden al historial de la línea de órdenes.
 
-Teclas de línea de EntradaInput Line Keys Son usadas para editar líneas de entrada. Esto implica la línea de órdenes y las líneas de entrada en las ventanas de preguntas.[Miscellaneous Keys]
+Teclas de línea de EntradaInput Line Keys Son usadas para editar líneas de entrada. Esto implica la línea de órdenes y las líneas de entrada en las ventanas de preguntas.[Keys_redefine]
+Redefinición de teclas
+
+La función de ciertas teclas se puede alterar a partir de un mapa de teclado almacenado en un archivo externo. Inicialmente el programa asigna esas funciones según el mapa definido en el código fuente. Posteriormente se cargan siempre los archivos /usr/share/mc/mc.keymap y /etc/mc/mc.keymap, reasignando en el orden marcado las definiciones anteriores. Se cargan después posibles mapas de teclado creados por el usuario atendiendo por orden de prioridad a:
+
+        1) Opción de ejecución en línea de órdenes -K <mapa> o --keymap=<mapa>
+        2) Variable de entorno MC_KEYMAP
+        3) Parámetro keymap en la sección [Midnight-Commander] del archivo de configuración.
+        4) Archivo ~/.config/mc/mc.keymap
+
+La opción de línea de órdenes, la variable de entorno y el parámetro en el archivo de configuración pueden proporcionar la ruta absoluta al archivo de mapa de teclado (con o sin la extensión .keymap). En caso contrario se procede a realizar una búsqueda por directorios hasta encontrarlo en:
+
+        1) ~/.config/mc
+        2) /etc/mc/
+        3) /usr/share/mc/[Miscellaneous Keys]
 Otras Teclas
 
-Tienen cabida aquí algunas teclas que no encajan completamente en ninguna de las anteriores categorías:
+Se incluyen aquí las teclas que no encajan en ninguna categoría concreta:
 
 Intro. Si hay algún texto en la línea de órdenes (la de la parte inferior de los paneles), entonces ese comando es ejecutado. Si no hay texto en la línea de comandos entonces si la barra de selección está situada sobre un directorio Midnight Commander realiza un chdir(2) al directorio seleccionado y recarga la información en el panel; si la selección es un archivo ejecutable entonces es ejecutado. Por último, si la extensión del archivo seleccionado coincide con una de las extensiones en el archivo de extensionesExtension File Edit entonces se ejecuta la aplicación correspondiente.
 
 Ctrl-l  redibuja toda la pantalla de Midnight Commander.
 
 Ctrl-x c
-        Cambiar PermisosChmod de un archivo o un conjunto de archivos marcados.
+        Cambiar permisosChmod de un archivo o un conjunto de archivos marcados.
 
 Ctrl-x o
-        Cambiar DueñoChown del archivo actual o de los archivos marcados.
+        Cambiar dueñoChown del archivo actual o de los archivos marcados.
 
 Ctrl-x l
         crea enlaces.
 
 Ctrl-x s
-        crea enlaces simbólicos.
+        crea enlaces simbólicos con rutas absolutas.
+
+Ctrl-x v
+        crea enlaces simbólicos con rutas relativas. Para más información sobre enlaces simbólicos véase la sección Menú de ArchivoFile Menu.
 
 Ctrl-x Ctrl-s
         edita enlaces simbólicos.
@@ -222,16 +296,16 @@ Tienen cabida aquí algunas teclas que no encajan completamente en ninguna de la
         cambia el panel opuesto al modo de vista rápida.
 
 Ctrl-x !
-        ejecuta Búsquedas ExternasExternal panelize.
+        ejecuta búsquedas externasExternal panelize.
 
 Ctrl-x h
-        añade el sitio actual a la lista de FavoritosHotlist.
+        añade el sitio actual a la lista de favoritosHotlist.
 
-Alt-!   ejecuta una orden del sistema y muestra su salida en el Visor de Archivos InternoInternal File Viewer.
+Alt-!   ejecuta una orden del sistema y muestra su salida en el visor de archivosInternal File Viewer.
 
-Alt-?   Buscar ArchivoFind File.
+Alt-?   buscar archivoFind File.
 
-Alt-c   permite Cambiar de DirectorioQuick cd.
+Alt-c   permite cambiar de directorioQuick cd.
 
 Ctrl-o  en la consola de Linux o FreeBSD o bajo un xterm, se muestra la salida de la orden anterior. En la consola de Linux, Midnight Commander usa un programa externo (cons.saver) para controlar la copia y restauración de la pantalla.
 
@@ -243,10 +317,10 @@ Esta sección enumera las teclas que operan en los paneles de directorio. Si que
 Tab, Ctrl-i
         cambia el panel actual. El panel activo deja de serlo y el no activo pasa a ser el nuevo panel activo. La barra de selección se mueve del antiguo panel al nuevo, desaparece de aquel y aparece en éste.
 
-Insertar, C-t
+Insertar, Ctrl-t
         para marcar archivos (y/o directorios) como seleccionados podemos usar la tecla insertar (secuencia kich1 de terminfo). Para deseleccionar, basta repetir la operación sobre los archivos y/o directorios antes marcados.
 
-M-e     permite mostrar nombres en el panel con otra codificación de caracteres. Los nombres se convierten a la codificación del sistema para mostrarlos. Para desactivar esta recodificación basta seleccionar la entrada (..) para el directorio superior. Para cancelar las conversiones en cualquier directorio seleccionar «Sin traducción» en el diálogo de selección de código.
+Alt-e   permite mostrar nombres en el panel con otra codificación de caracteres. Los nombres se convierten a la codificación del sistema para mostrarlos. Para desactivar esta recodificación basta seleccionar la entrada (..) para el directorio superior. Para cancelar las conversiones en cualquier directorio seleccionar «Sin traducción» en el diálogo de selección de código.
 
 Alt-g, Alt-r, Alt-j
         usadas para seleccionar el archivo superior en un panel, el archivo central y el inferior del panel, respectivamente.
@@ -260,7 +334,7 @@ Esta sección enumera las teclas que operan en los paneles de directorio. Si que
         * N. del T.: En el teclado castellano, existe un pequeño inconveniente, dado que la contrabarra, no se consigue con una sola pulsación, por lo que este método no funciona directamente.
 
 + (más)
-        usado para seleccionar (marcar) un grupo de archivos. Midnight Commander ofrecerá distintas opciones. Indicando Sólo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.
+        usado para seleccionar (marcar) un grupo de archivos. Midnight Commander ofrecerá distintas opciones. Indicando Solo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.
 
 - (menos) o \ (contrabarra)
         usaremos la tecla - o "\" para deseleccionar un grupo de archivos. Ésta es la operación contraria a la realizada por la tecla Más (+).
@@ -401,7 +475,7 @@ Las líneas de entrada (usadas en la línea de órdenesShell Command Line y p
 Alt-p, Alt-n
         usaremos esas teclas para desplazarnos a través del historial de comandos. Alt-p nos lleva a la última entrada, Alt-n nos sitúa en la siguiente.
 
-Alt-Ctrl-h, Alt-Borrar
+Ctrl-Alt-h, Alt-Borrar
         borra la palabra anterior.
 
 Alt-Tab realiza una terminaciónCompletion del nombre de archivo, comando, variable, nombre de usuario o host.
@@ -425,7 +499,7 @@ La vista en modo "Listado" se usa para mostrar la lista de archivos. Hay cuatr
 
 En modo completo se muestra el nombre del archivo, su tamaño y la fecha y hora de modificación.
 
-Breve muestra sólo los nombres de archivo, en dos columnas. Esto permite ver el doble de entradas que en los otros modos.
+Breve muestra solo los nombres de archivo, en dos columnas. Esto permite ver el doble de entradas que en los otros modos.
 
 El modo largo es similar a la salida de la orden ls -l. Este modo requiere todo el ancho de la pantalla.
 
@@ -548,7 +622,7 @@ Crea un enlace simbólico al archivo actual. Un enlace es como una copia del arc
 
 Un enlace aparece como un archivo real. Después de crearlo, no hay modo de decir cuál es el original y cuál el enlace. Si borramos uno de ellos el otro aún seguirá intacto. Es muy difícil advertir que los archivos representan la misma imagen. Usaremos estos enlaces cuando no necesitemos saberlo.
 
-Un enlace simbólico es, en cambio, sólo una referencia al nombre del archivo original. Si se borra el archivo original, el enlace simbólico queda sin utilidad. Es bastante fácil advertir que los archivos representan la misma imagen. Midnight Commander muestra un símbolo "@" delante del nombre del archivo si es un enlace simbólico a alguna parte (excepto a un directorio, caso en que muestra una tilde (~)). El archivo original al cual apunta el enlace se muestra en la línea de estado si la opción "Mini estado" está habilitada. Usaremos enlaces simbólicos cuando queramos evitar la confusión que pueden causar los enlaces físicos.
+Un enlace simbólico es, en cambio, solo una referencia al nombre del archivo original. Si se borra el archivo original, el enlace simbólico queda sin utilidad. Es bastante fácil advertir que los archivos representan la misma imagen. Midnight Commander muestra un símbolo "@" delante del nombre del archivo si es un enlace simbólico a alguna parte (excepto a un directorio, caso en que muestra una tilde (~)). El archivo original al cual apunta el enlace se muestra en la línea de estado si la opción "Mini estado" está habilitada. Usaremos enlaces simbólicos cuando queramos evitar la confusión que pueden causar los enlaces físicos.
 
 Renombrar/Mover (F6)
 
@@ -568,7 +642,7 @@ Borra, o bien los archivos marcados o en su defecto el archivo seleccionado en e
 
 Seleccionar Grupo (+)
 
-Se utiliza para seleccionar (marcar) un grupo de archivos. Midnight Commander ofrecerá distintas opciones. Indicando Sólo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.
+Se utiliza para seleccionar (marcar) un grupo de archivos. Midnight Commander ofrecerá distintas opciones. Indicando Solo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.
 
 De-seleccionar Grupo (\)
 
@@ -586,9 +660,9 @@ Menú de Utilidades
 
 Buscar archivoFind File permite buscar un archivo específico. El comando "Intercambiar paneles" intercambia los contenidos de los dos paneles de directorios.
 
-El comando "Activa/desactiva paneles" muestra la salida del último comando del shell. Esto funciona sólo en xterm y en una consola Linux y FreeBSD.
+El comando "Activa/desactiva paneles" muestra la salida del último comando del shell. Esto funciona solo en xterm y en una consola Linux y FreeBSD.
 
-El comando Compara directorios (Ctrl-x d) compara los paneles de directorio uno con el otro. Podemos usar el comando Copiar (F5) para hacer ambos paneles idénticos. Hay tres métodos de comparación. El método rápido compara sólo el tamaño de archivo y la fecha. El método completo realiza una comparación completa octeto a octeto. El método completo no está disponible si la máquina no soporta la llamada de sistema mmap(2). El método de comparación de sólo tamaño sólo compara los tamaños de archivo y no chequea los contenidos o las fechas, sólo chequea los tamaños de los archivos.
+El comando Compara directorios (Ctrl-x d) compara los paneles de directorio uno con el otro. Podemos usar el comando Copiar (F5) para hacer ambos paneles idénticos. Hay tres métodos de comparación. El método rápido compara solo el tamaño de archivo y la fecha. El método completo realiza una comparación completa octeto a octeto. El método completo no está disponible si la máquina no soporta la llamada de sistema mmap(2). El método de comparación de solo tamaño solo compara los tamaños de archivo y no chequea los contenidos o las fechas, solo chequea los tamaños de los archivos.
 
 El comando Histórico de comandos muestra una lista de los comandos escritos. El comando seleccionado es copiado a la línea de órdenes. El histórico de comandos puede ser accedido también tecleando Alt-p ó Alt-n.
 
@@ -619,7 +693,7 @@ Podemos utilizar las siguientes teclas:
 
 En el modo de navegación estático podemos usar las teclas del cursor Arriba y Abajo para seleccionar un directorio. Todos los directorios conocidos serán mostrados.
 
-En el modo de navegación dinámico podemos usar las teclas del cursor Arriba y Abajo para seleccionar el directorio hermano, la tecla Izquierda para situarnos en el directorio padre, y la tecla Derecha para situarnos en el directorio hijo. Sólo los directorios padre, hijo y hermano son mostrados, el resto son dejados fuera. La figura de árbol cambia dinámicamente conforme nos desplazamos sobre ella.
+En el modo de navegación dinámico podemos usar las teclas del cursor Arriba y Abajo para seleccionar el directorio hermano, la tecla Izquierda para situarnos en el directorio padre, y la tecla Derecha para situarnos en el directorio hijo. Solo los directorios padre, hijo y hermano son mostrados, el resto son dejados fuera. La figura de árbol cambia dinámicamente conforme nos desplazamos sobre ella.
 
 F5 (Copiar). Copia el directorio.
 
@@ -635,7 +709,7 @@ En el modo de navegación dinámico podemos usar las teclas del cursor Arriba y 
 
 Cualquier otro carácter. Añade el carácter a la cadena de búsqueda y se desplaza al siguiente directorio que comienza con esos caracteres. En la vista de árbol debemos primero activar el modo de búsqueda pulsando Ctrl-s. La cadena de búsqueda es mostrada en la línea de mini-estado.
 
-Las siguientes acciones están disponibles sólo en el árbol de directorios. No son funcionales en la vista de árbol.
+Las siguientes acciones están disponibles solo en el árbol de directorios. No son funcionales en la vista de árbol.
 
 F1 (Ayuda). Invoca el visor de ayuda y muestra ésta sección.
 
@@ -663,7 +737,7 @@ Los componentes del directorio deberían ser separados por dos puntos, como en e
 [FindFile]
 ignore_dirs=/cdrom:/nfs/wuarchive:/afs
 
-Debemos valorar la utilización de Búsquedas externasExternal panelize en ciertas situaciones. La utilidad Buscar archivos es sólo para consultas simples, pero con Búsquedas externas se pueden hacer exploraciones tan complejas como queramos.[External panelize]
+Debemos valorar la utilización de Búsquedas externasExternal panelize en ciertas situaciones. La utilidad Buscar archivos es solo para consultas simples, pero con Búsquedas externas se pueden hacer exploraciones tan complejas como queramos.[External panelize]
 Búsquedas Externas
 
 Búsquedas externas nos permite ejecutar un programa externo, y tomar la salida de ese programa como contenido del panel actual.
@@ -709,10 +783,10 @@ El resto de líneas deben comenzar con un espacio o tabulador y usar el siguient
 Las reglas se aplican en estricto orden. Aunque se produzca una coincidencia, si la acción solicitada no está disponible, se ignora y la búsqueda continúa (por ejemplo, si un archivo encaja con dos entradas, pero la acción Ver no está definida en la primera, al pulsar F3, se ejecuta la acción Ver de la segunda). Como último recurso default debe incluir todas las acciones.[Background jobs]
 Trabajos en Segundo Plano
 
-Nos permite controlar el estado de cualquier proceso de Midnight Commander en segundo plano (sólo las operaciones de copiar y mover archivos pueden realizarse en segundo plano). Podemos parar, reiniciar y eliminar procesos en segundo plano desde aquí.[Menu File Edit]
+Nos permite controlar el estado de cualquier proceso de Midnight Commander en segundo plano (solo las operaciones de copiar y mover archivos pueden realizarse en segundo plano). Podemos parar, reiniciar y eliminar procesos en segundo plano desde aquí.[Menu File Edit]
 Edición del Archivo de Menú
 
-El menú de usuario es un menú de acciones útiles que puede ser personalizado por el usuario. Cuando accedemos al menú de usuario se utiliza, si existe, el archivo .mc.menu del directorio actual, pero sólo si es propiedad del usuario o del superusuario y no es modificable por todos. Si no se encuentra allí el archivo, se intenta de la misma manera con ~/.config/mc/menu, y si no, mc utiliza el menú por defecto para todo el sistema /usr/share/mc/mc.menu.
+El menú de usuario es un menú de acciones útiles que puede ser personalizado por el usuario. Cuando accedemos al menú de usuario se utiliza, si existe, el archivo .mc.menu del directorio actual, pero solo si es propiedad del usuario o del superusuario y no es modificable por todos. Si no se encuentra allí el archivo, se intenta de la misma manera con ~/.config/mc/menu, y si no, mc utiliza el menú por defecto para todo el sistema /usr/share/mc/mc.menu.
 
 El formato del menú de archivo es muy simple. Todas las líneas, salvo las que empiezan con espacio o tabulación, son consideradas entradas para el menú (para posibilitar su uso como atajo de teclado, el primer carácter sí deberá ser una letra). Las líneas que comienzan con una tabulación o espacio son los comandos que serán ejecutados cuando la entrada es seleccionada.
 
@@ -838,11 +912,11 @@ Este diálogo presenta una serie de opciones divididas en tres grupos: Opciones 
 
 Marcar y Avanzar. Hacer avanzar la barra de selección tras marcar un archivo (con la tecla insertar).
 
-Menús Desplegables. Mostrar el contenido de los menús desplegables inmediatamente al presionar F9. Si está desactivada sólo la barra de títulos de los menús está visible, y será necesario abrir cada menú con las flechas de movimiento o con las teclas de acceso rápido.
+Menús Desplegables. Mostrar el contenido de los menús desplegables inmediatamente al presionar F9. Si está desactivada solo la barra de títulos de los menús está visible, y será necesario abrir cada menú con las flechas de movimiento o con las teclas de acceso rápido.
 
 Mezclar Archivos y Directorios. Cuando esta opción está habilitada, todos los archivos y directorios se muestran mezclados. Si la opción está desactivada, los directorios (y enlaces a directorios) aparecen al principio de la lista, y el resto de archivos a continuación.
 
-Recarga Rápida de Directorios. Hace que Midnight Commander emplee una pequeña trampa al determinar si los contenidos del directorio han cambiado. El truco consiste en recargar el directorio sólo si el inodo del directorio ha cambiado. Las recargas se producen si se crean o borrar archivos, pero si lo que cambia es sólo el inodo de un archivo del directorio (cambios en el tamaño, permisos, propietario, etc.) la pantalla no se actualiza. En esos casos, si tenemos la opción activada, será preciso forzar la recarga de forma manual (con Ctrl-r).
+Recarga Rápida de Directorios. Hace que Midnight Commander emplee una pequeña trampa al determinar si los contenidos del directorio han cambiado. El truco consiste en recargar el directorio solo si el inodo del directorio ha cambiado. Las recargas se producen si se crean o borrar archivos, pero si lo que cambia es solo el inodo de un archivo del directorio (cambios en el tamaño, permisos, propietario, etc.) la pantalla no se actualiza. En esos casos, si tenemos la opción activada, será preciso forzar la recarga de forma manual (con Ctrl-r).
 
 Pausa Después de Ejecutar.
 
@@ -850,7 +924,7 @@ Después de ejecutar comandos, Midnight Commander puede realizar una pausa, y da
 
 Nunca. Significa que no queremos ver la salida de nuestros comandos. Si estamos utilizando la consola Linux o FreeBSD o un xterm, podremos ver la salida del comando pulsando Ctrl-o.
 
-Sólo en Terminales Tontas. Obtendremos el mensaje de pausa sólo en terminales que no sean capaces de mostrar la salida del último comando ejecutado (en realidad, cualquier terminal que no sea un xterm o una consola de Linux).
+Solo en Terminales Tontas. Obtendremos el mensaje de pausa solo en terminales que no sean capaces de mostrar la salida del último comando ejecutado (en realidad, cualquier terminal que no sea un xterm o una consola de Linux).
 
 Siempre. El programa realizará siempre una pausa después de ejecutar comandos.
 
@@ -895,7 +969,7 @@ Confirmación
 En este menú configuramos las opciones de confirmación de eliminación de archivos, sobreescritura, ejecución pulsando intro y salir del programa.[Display bits]
 Juego de caracteres
 
-Esta opción permite configurar el conjunto de caracteres visibles en la pantalla. Éste puede ser 7-bits si nuestro terminal/curses soporta sólo siete bits de salida, alguna de las tablas del estándar ISO-8859 y diversas codificaciones comunes de PC con ocho bits por carácter, o UTF-8 para Unicode.
+Esta opción permite configurar el conjunto de caracteres visibles en la pantalla. Éste puede ser 7-bits si nuestro terminal/curses soporta solo siete bits de salida, alguna de las tablas del estándar ISO-8859 y diversas codificaciones comunes de PC con ocho bits por carácter, o UTF-8 para Unicode.
 
 Para soportar teclados con caracteres locales debemos marcar la opción de Aceptar entrada de 8 bits.[Learn keys]
 Aprender teclas
@@ -964,7 +1038,7 @@ Por ejemplo, ~coco sería el directorio de un supuesto usuario denominado "coco"
 
 Directorios en CDPATH. Si el directorio especificado al comando cd no está en el directorio actual, entonces Midnight Commander utiliza el valor de la variable de entorno CDPATH para buscar el directorio en cualquiera de los directorios enumerados.
 
-Por ejemplo, podríamos asignar a nuestra variable CDPATH el valor ~/src:/usr/src, lo que nos permitiría cambiar de directorio a cualquiera de los directorios dentro de ~/src y /usr/src, desde cualquier lugar del sistema de archivos, usando sólo su nombre relativo (por ejemplo cd linux podría llevarnos a /usr/src/linux).[Macro Substitution]
+Por ejemplo, podríamos asignar a nuestra variable CDPATH el valor ~/src:/usr/src, lo que nos permitiría cambiar de directorio a cualquiera de los directorios dentro de ~/src y /usr/src, desde cualquier lugar del sistema de archivos, usando solo su nombre relativo (por ejemplo cd linux podría llevarnos a /usr/src/linux).[Macro Substitution]
 Sustitución de Macro
 
 Cuando se accede al menú de usuarioMenu File Edit, o se ejecuta un comando dependiente de extensiónExtension File Edit, o se ejecuta un comando desde la línea de entrada de comandos, se realiza una simple sustitución de macro.
@@ -997,7 +1071,7 @@ Las macros son:
 
 "%u" y "%U"
 
-        Similar a las macros %t y %T, salvo que los archivos quedan desmarcados. Sólo se puede emplear esta macro una vez por cada entrada del archivo de menú o archivo de extensiones, puesto que para la siguiente vez no quedaría ningún archivo marcado.
+        Similar a las macros %t y %T, salvo que los archivos quedan desmarcados. Solo se puede emplear esta macro una vez por cada entrada del archivo de menú o archivo de extensiones, puesto que para la siguiente vez no quedaría ningún archivo marcado.
 
 "%s" y "%S"
 
@@ -1049,11 +1123,11 @@ Para aceptar y aplicar los permisos, usaremos la tecla Intro.
 
 Si se trata de un grupo de archivos o directorios, podemos cambiar parte de los permisos marcándolos (las marcas son los asteriscos a la izquierda de las casillas) y pulsando el botón [* Poner] o [* Quitar] para indicar la acción deseada. Los permisos no marcados conservan, en este caso, los valores previos.
 
-Podemos también fijar todos los permisos iguales en todos los archivos con el botón [Todos] o sólo los permisos marcados con el botón [* Todos]. En estos casos las casillas indican el estado en que queda cada permiso, igual que para archivos individuales.
+Podemos también fijar todos los permisos iguales en todos los archivos con el botón [Todos] o solo los permisos marcados con el botón [* Todos]. En estos casos las casillas indican el estado en que queda cada permiso, igual que para archivos individuales.
 
 [Todos] actúa sobre todos los permisos de todos los archivos
 
-[* Todos] actúa sólo sobre los atributos marcados de los archivos
+[* Todos] actúa solo sobre los atributos marcados de los archivos
 
 [* Poner] activa los permisos marcados en los archivos seleccionados
 
@@ -1080,12 +1154,12 @@ El diálogo de error informa sobre una condición de error y tiene tres posibili
 
 El diálogo Reemplazar aparece cuando intentamos copiar o mover un archivo sobre otro ya existente. El mensaje muestra fechas y tamaños de ambos archivos. Pulsaremos el botón Sí para sobreescribir el archivo, el botón No para saltarlo, el botón Todos para sobreescribir todos los archivos, Ninguno para no sobreescribir en ningún caso y Actualizar para sobreescribir si el archivo origen es posterior al archivo objeto. Podemos abortar toda la operación pulsando el botón Abortar.
 
-El diálogo de eliminación recursiva aparece cuando intentamos borrar un directorio no vacío. Pulsaremos Sí para borrar el directorio recursivamente, No para saltar el directorio, Todo para borrar recursivamente todos los directorios marcados no vacíos y Ninguno para saltarlos todos. Podemos abortar toda la operación pulsando el botón Abortar. Si seleccionamos el botón Sí o Todo se nos pedirá confirmación. Diremos "sí" sólo si estamos realmente seguros de que queremos una eliminación recursiva.
+El diálogo de eliminación recursiva aparece cuando intentamos borrar un directorio no vacío. Pulsaremos Sí para borrar el directorio recursivamente, No para saltar el directorio, Todo para borrar recursivamente todos los directorios marcados no vacíos y Ninguno para saltarlos todos. Podemos abortar toda la operación pulsando el botón Abortar. Si seleccionamos el botón Sí o Todo se nos pedirá confirmación. Diremos "sí" solo si estamos realmente seguros de que queremos una eliminación recursiva.
 
-Si hemos marcado archivos y realizamos una operación sobre ellos, sólo los archivos sobre los que la operación fue exitosa son desmarcados. Los archivos saltados y aquellos en los que la operación falló permanecen marcados.[Mask Copy/Rename]
+Si hemos marcado archivos y realizamos una operación sobre ellos, solo los archivos sobre los que la operación fue exitosa son desmarcados. Los archivos saltados y aquellos en los que la operación falló permanecen marcados.[Mask Copy/Rename]
 Copiar/Renombrar con Máscara
 
-Las operaciones de copiar/mover permiten transformar los nombres de los archivos de manera sencilla. Para ello, hay que procurar una máscara correcta para el origen y normalmente en la terminación del destino algunos caracteres comodín. Todos los archivos que concuerden con la máscara origen son copiados/renombrados según la máscara destino. Si hay archivos marcados, sólo aquellos que encajen con la máscara de origen serán renombrados.
+Las operaciones de copiar/mover permiten transformar los nombres de los archivos de manera sencilla. Para ello, hay que procurar una máscara correcta para el origen y normalmente en la terminación del destino algunos caracteres comodín. Todos los archivos que concuerden con la máscara origen son copiados/renombrados según la máscara destino. Si hay archivos marcados, solo aquellos que encajen con la máscara de origen serán renombrados.
 
 Hay otras opción que podemos seleccionar:
 
@@ -1099,7 +1173,7 @@ Preservar Atributos indica que se deben conservar los permisos originales de los
 
 "Usando Patrones Shell activado"
 
-Usando Patrones Shell nos permite usar los caracteres comodín '*' y '?' en la máscara de origen. Funcionará igual que en la línea de órdenes. En la máscara destino, sólo están permitidos los comodines '*' y '\<número>'. El primer '*' en la máscara destino corresponde al primer grupo del comodín en la máscara de origen, el segundo '*' al segundo grupo, etcétera. El comodín '\1' corresponde al primer grupo en la máscara de origen, el comodín '\2' al segundo y así sucesivamente hasta '\9'. El comodín '\0' es el nombre completo del archivo fuente.
+Usando Patrones Shell nos permite usar los caracteres comodín '*' y '?' en la máscara de origen. Funcionará igual que en la línea de órdenes. En la máscara destino, solo están permitidos los comodines '*' y '\<número>'. El primer '*' en la máscara destino corresponde al primer grupo del comodín en la máscara de origen, el segundo '*' al segundo grupo, etcétera. El comodín '\1' corresponde al primer grupo en la máscara de origen, el comodín '\2' al segundo y así sucesivamente hasta '\9'. El comodín '\0' es el nombre completo del archivo fuente.
 
 Dos ejemplos:
 
@@ -1132,7 +1206,7 @@ Seleccionar/Deseleccionar Archivos
 
 El diálogo permite seleccionar o deseleccionar grupos de archivos y directorios. La línea de entradaInput Line Keys permite introducir una expresión regular para los nombres de los archivos a seleccionar/deseleccionar.
 
-Indicando Sólo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.[Internal File Viewer]
+Indicando Solo archivos los directorios no se seleccionan. Con los Caracteres Comodín habilitados, se pueden introducir expresiones regulares del tipo empleado en los patrones de nombres de la shell (poniendo * para cero o más caracteres y ? para uno o más caracteres). Si los Caracteres Comodín están deshabilitados, entonces la selección de archivos se realiza con expresiones regulares normales. Véase la página de manual de ed (1). Finalmente, si no se activa Distinguir May/min la selección se hará sin distinguir caracteres en mayúsculas o minúsculas.[Internal File Viewer]
 Visor de Archivos Interno
 
 El visor de archivos interno ofrece dos modos de presentación: ASCII y hexadecimal. Para alternar entre ambos modos, se emplea la tecla F4.
@@ -1145,7 +1219,7 @@ En modo hexadecimal, la función de búsqueda admite texto entre comillas o valo
 
 Nótese que 012 es un número octal y -1 se convierte en 0xFF.
 
-Algunos detalles internos del visualizador: En sistemas con acceso a la llamada del sistema mmap(2), el programa mapea el archivo en vez de cargarlo; si el sistema no provee de la llamada al sistema mmap(2) o el archivo realiza una acción que necesita de un filtro, entonces el visor usará sus cachés de crecimiento, cargando sólo las partes del archivo a las que actualmente estamos accediendo (esto incluye a los archivos comprimidos).
+Algunos detalles internos del visualizador: En sistemas con acceso a la llamada del sistema mmap(2), el programa mapea el archivo en vez de cargarlo; si el sistema no provee de la llamada al sistema mmap(2) o el archivo realiza una acción que necesita de un filtro, entonces el visor usará sus cachés de crecimiento, cargando solo las partes del archivo a las que actualmente estamos accediendo (esto incluye a los archivos comprimidos).
 
 He aquí una lista de las acciones asociadas a cada tecla que Midnight Commander gestiona en el visor interno de archivos.
 
@@ -1220,12 +1294,14 @@ Permite a Midnight Commander escribir por nosotros.
 
 Intenta completar el texto escrito antes de la posición actual. Midnight Commander intenta la terminación tratando el texto como si fuera una variable (si el texto comienza con $), nombre de usuario (si el texto empieza por ~), nombre de máquina (si el texto comienza con @) o un comando (si estamos en la línea de órdenes en una posición donde podríamos escribir un comando; las terminaciones posibles entonces incluyen las palabras reservadas del shell así como comandos internos del shell) en ese orden. Si nada de lo anterior es aplicable, se intenta la terminación con nombres de archivo.
 
-La terminación de nombres de archivo, usuario y máquina funciona en todas las líneas de entrada; la terminación de comandos es específica de la línea de órdenes. Si la terminación es ambigua (hay varias posibilidades diferentes), Midnight Commander pita, y la acción siguiente depende de la opción Completar: Mostrar Todos en el diálogo de ConfiguraciónConfiguration. Si está activada, se despliega inmediatamente junto a la posición actual una lista con todas las posibilidades donde se puede seleccionar con las flechas de movimiento e Intro la entrada correcta. También podemos seguir escribiendo caracteres con lo que la línea se sigue completando tanto como sea posible y simultáneamente la primera entrada coincidente de la lista se va resaltando. Si volvemos a pulsar Alt-Tab, sólo las coincidencias permanecen en la lista. Tan pronto como no haya ambigüedad, la lista desaparece; también podemos quitarla con las teclas de cancelación Esc, F10 y las teclas de movimiento a izquierda y derecha. Si Completar: Mostrar TodosConfiguration está desactivado, la lista aparece cuando pulsamos Alt-Tab por segunda vez; con la primera Midnight Commander sólo emite un pitido.[Virtual File System]
+La terminación de nombres de archivo, usuario y máquina funciona en todas las líneas de entrada; la terminación de comandos es específica de la línea de órdenes. Si la terminación es ambigua (hay varias posibilidades diferentes), Midnight Commander pita, y la acción siguiente depende de la opción Completar: Mostrar Todos en el diálogo de ConfiguraciónConfiguration. Si está activada, se despliega inmediatamente junto a la posición actual una lista con todas las posibilidades donde se puede seleccionar con las flechas de movimiento e Intro la entrada correcta. También podemos seguir escribiendo caracteres con lo que la línea se sigue completando tanto como sea posible y simultáneamente la primera entrada coincidente de la lista se va resaltando. Si volvemos a pulsar Alt-Tab, solo las coincidencias permanecen en la lista. Tan pronto como no haya ambigüedad, la lista desaparece; también podemos quitarla con las teclas de cancelación Esc, F10 y las teclas de movimiento a izquierda y derecha. Si Completar: Mostrar TodosConfiguration está desactivado, la lista aparece cuando pulsamos Alt-Tab por segunda vez; con la primera Midnight Commander solo emite un pitido.[Virtual File System]
 Sistemas de Archivos Virtuales (VFS)
 
 Midnight Commander dispone de una capa de código de acceso al sistema de archivos; esta capa se denomina Sistema de Archivos Virtual (VFS). El Sistema de Archivos Virtual permite a Midnight Commander manipular archivos no ubicados en el sistema de archivos Unix.
 
-Midnight Commander incluye actualmente varios Sistemas de Archivos Virtuales: el sistema de archivos local, utilizado para acceder al sistema de archivos Unix habitual; tarfs para manipular archivos empaquetados con el comando tar y acaso comprimidos; undelfs para recuperar archivos borrados en sistemas de archivos de tipo ext2 (sistema de archivos habitual en Linux); FTPfs para manipular archivos en sistemas remotos a través de FTP; FISH para manipular archivos a través de conexiones a shell como rsh o ssh y finalmente MCfs (Midnight Commander file system), un sistema de archivos para red. Si el programa se compiló incluyendo SMBfs se pueden manipular archivos en sistemas remotos empleando el protocolo SMB (CIFS).
+Midnight Commander incluye actualmente varios Sistemas de Archivos Virtuales: el sistema de archivos local, utilizado para acceder al sistema de archivos Unix habitual; tarfs para manipular archivos empaquetados con el comando tar y acaso comprimidos; undelfs para recuperar archivos borrados en sistemas de archivos de tipo ext2 (sistema de archivos habitual en Linux); ftpfs para manipular archivos en sistemas remotos a través de FTP; fish para manipular archivos a través de conexiones a shell como rsh o ssh.
+
+Dependiendo de la forma en que fue compilado, puede disponer también de: sftpfs para manipular archivos en sistemas remotos a través de SFTP; SMBfs para manipular archivos en sistemas remotos empleando el protocolo SMB (CIFS).
 
 Se facilita también un sistema de archivos genérico extfs (EXternal virtual File System) para extender con facilidad las posibilidades de VFS empleando guiones y programas externos.
 
@@ -1244,7 +1320,7 @@ Ejemplos:
     /ftp/GCC/gcc-2.7.0.tar/utar://
 
 En este último se indica la ruta completa hasta el archivo tar.[FTP File System]
-Sistema de archivos FTP (FTPfs)
+Sistema de archivos FTP
 
 FTPfs permite manipular archivos en máquinas remotas. Para utilizarlo se puede emplear la opción de menú Conexión por FTP o simplemente emplear la orden cd como cuando cambiamos habitualmente de directorio, pero indicando como ruta:
 
@@ -1264,7 +1340,7 @@ Ejemplos:
     ftp://ftp.um.es/pub
 
 La opciones de FTPfs se encuentran entre las opciones de configuración del Sistema de Archivos Virtual (VFS)Virtual FS.[FIle transfer over SHell filesystem]
-Sistema de archivos a través de SHell (FISH)
+Sistema de archivos a través de SHell
 
 El FISH es un sistema de archivos por red que permite manipular archivos en una máquina remota como si estuvieran almacenados localmente. Para ello es preciso que el sistema remoto esté ejecutando el servidor FISH o permitir la conexión a una shell de tipo bash.
 
@@ -1274,13 +1350,30 @@ Para conectar con la máquina remota basta cambiar de directorio a un directorio
 
 Los elementos usuario, opciones y directorio-remoto son opcionales. Si se especifica el elemento usuario Midnight Commander intentará entrar en la máquina remota como ese usuario, y si no usará nuestro nombre.
 
-Como opciones se puede poner 'C' para usar compresión y 'rsh' para utilizar una conexión rsh en vez de ssh. Si se indica el directorio-remoto, se buscará éste como primer directorio al conectar con la máquina remota.
+Como opciones se puede poner 'C' para usar compresión y 'r' para utilizar una conexión rsh en vez de ssh. Si se indica el directorio-remoto, se buscará éste como primer directorio al conectar con la máquina remota.
 
 Ejemplos:
 
     sh://solorsh.es:r/linux/local
     sh://pepe@quiero.comprension.edu:C/privado
     sh://pepe@sincomprimir.ssh.edu/privado
+[SFTP (SSH File Transfer Protocol) filesystem]
+Sistema de archivos SFTP (FTP sobre SSH)
+
+El sistema de archivos SFTP es un sistema de archivos sobre red que permite manipular archivos en una máquina remota como si fueran locales.
+
+Para conectar con la máquina remota basta cambiar de directorio a un directorio virtual cuyo nombre sea de la forma:
+
+sftp://[usuario@]maquina:[puerto]/[directorio-remoto]
+
+Los elementos usuario, puerto y directorio-remoto son opcionales. Si se especifica el elemento usuario Midnight Commander intentará acceder a la máquina remota como ese usuario, y si no usará nuestro nombre. El puerto indica el puerto utilizado por el servidor remoto, por defecto 22. El directorio-remoto será el directorio actual tras la conexión.
+
+Ejemplos:
+
+    sftp://solorsh.es/linux/local
+    sftp://pepe:k1abe@quiero.comprension.edu/privado
+    sftp://pepe@sincomprimir.ssh.edu/privado
+    sftp://pepe@maquina.ssh.edu:2222/privado
 [SMB File System]
 Sistema de archivos SMB
 
@@ -1298,7 +1391,7 @@ Ejemplos:
 [Undelete File System]
 Sistema de archivos de Recuperación
 
-En sistemas Linux, si el programa de configuración nos preguntó si queríamos usar las facilidades de recuperación de archivos de ext2fs, tendremos el sistema de archivos recuperables accesible. La recuperación de archivos borrados está disponible sólo en los sistemas de archivos ext2. El sistema de archivos recuperable es sólo un interface de la librería ext2fs con: restaurar todos los archivos borrados en un ext2fs y proporciona la extracción selectiva de archivos en una partición regular.
+En sistemas Linux, si el programa de configuración nos preguntó si queríamos usar las facilidades de recuperación de archivos de ext2fs, tendremos el sistema de archivos recuperables accesible. La recuperación de archivos borrados está disponible solo en los sistemas de archivos ext2. El sistema de archivos recuperable es solo un interface de la librería ext2fs con: restaurar todos los archivos borrados en un ext2fs y proporciona la extracción selectiva de archivos en una partición regular.
 
 Para usar este sistema de archivos, tendremos que hacer un chdir a un nombre de archivo especial formado por el prefijo "/undel://" y el nombre de archivo donde se encuentra el sistema de archivos actual.
 
@@ -1387,7 +1480,15 @@ El formato de la definición de color es:
 
   <PalabraClave>=<ColorTexto>,<ColorFondo>:<PalabraClave>= ...
 
-los colores son opcionales, y las palabras claves son: normal, selected, marked, markselect, errors, input, reverse menunormal, menusel, menuhot, menuhotsel, menuinactive, gauge; los colores por defecto son: dnormal, dfocus, dhotnormal, dhotfocus; los colores de Ayuda son: helpnormal, helpitalic, helpbold, helplink, helpslink; color del visor: viewunderline; colores del editor: editnormal, editbold, editmarked.
+los colores son opcionales, y las palabras claves son: normal, selected, disabled, marked, markselect, errors, input, inputmark, inputunchanged, commandlinemark, reverse, gauge, header, inputhistory, commandhistory; los colores de la barra de botones: bbarhotkey, bbarbutton; los colores de la barra de estado: statusbar; los colores de menú: menunormal, menusel, menuhot, menuhotsel, menuinactive; los colores de los diálogos: dnormal, dfocus, dhotnormal, dhotfocus, dtitle; los colores de los diálogos de error: errdfocus, errdhotnormal, errdhotfocus, errdtitle; los colores de la ayuda: helpnormal, helpitalic, helpbold, helplink, helpslink, helptitle; los colores del visor: viewbold, viewunderline, viewselected; loc colores del editor: editnormal, editbold, editmarked, editwhitespace, editlinestate; los colores de los menús desplegables: pmenunormal, pmenusel, pmenutitle.
+
+header determina el color del encabezado de los paneles, la línea con los títulos de columna y el modo de ordenación.
+
+input determina el color de las líneas de entrada de texto en los diálogos.
+
+gauge (indicador) determina el color de la parte completada de la barra de progresión (gauge), que muestra qué porcentaje de archivos fueron copiados etc. de modo gráfico.
+
+disabled detemina el color de los componentes inactivos.
 
 Los cuadros de diálogo usan los siguientes colores: dnormal usado para el texto normal, dfocus usado para el componente actualmente seleccionado, dhotnormal usado para diferenciar el color de la tecla activa en los componentes normales, mientras que el color dhotfocus se utiliza para el color resaltado en el componente seleccionado.
 
@@ -1395,9 +1496,9 @@ Los menús utilizan el mismo esquema equivalente con los nombres menunormal, men
 
 La ayuda utiliza los siguientes colores: helpnormal texto normal, helpitalic utilizado para el texto enfatizado con letra itálica en la página del manual, helpbold usado para el texto enfatizado en negrita en la página del manual, helplink usado para los hiperenlaces no seleccionados y helpslink es utilizado para el hiperenlace seleccionado.
 
-gauge (indicador) determina el color de la parte completada de la barra de progresión (gauge), que muestra qué porcentaje de archivos fueron copiados etc. de modo gráfico.
+En los menús desplegables: pmenunormal se usa como color del fondo y de los elementos no seleccionados, menusel se usa para el elemento seleccionado, pmenutitle se usa para el titulo del menú.
 
-Los colores posibles son: negro (black), gris (gray), rojo (red), rojo brillante (brightred), verde (green), verde claro (brightgreen), marrón (brown), amarillo (yellow), azul oscuro (blue), azul brillante (brightblue), rosa (magenta), rosa claro (brightmagenta), azul celeste (cyan), celeste claro (brightcyan), gris claro (lightgray) y blanco (white). Hay una palabra clave especial para obtener un fondo transparente. Se trata de 'default'. 'default' sólo se puede utilizar como color de fondo. Ejemplo:
+Los colores posibles son: negro (black), gris (gray), rojo (red), rojo brillante (brightred), verde (green), verde claro (brightgreen), marrón (brown), amarillo (yellow), azul oscuro (blue), azul brillante (brightblue), rosa (magenta), rosa claro (brightmagenta), azul celeste (cyan), celeste claro (brightcyan), gris claro (lightgray) y blanco (white). Hay una palabra clave especial para obtener un fondo transparente. Se trata de 'default'. 'default' solo se puede utilizar como color de fondo. Otra palabra especial es 'base' que hace referencia a los colores generales. Cuando se puede disponer de 256 colores se pueden referir como color16 hasta color255. Ejemplo:
 
 [Colors]
 base_color=normal=white,default:marked=magenta,default
@@ -1551,7 +1652,7 @@ Trazado de líneas
 
 Trazos de líneas de la sección [Lines] del archivo de skins. Por defecto se utilizan líneas sencillas, pero se pueden redefinir empleando cualquier símbolo utf-8 (por ejemplo, líneas dobles).
 
-¡¡¡ATENCIÓN!!! Si se compila Midnight Commander empleando la biblioteca de pantalla Ncurses, entonces el trazado de líneas está limitado. Es posible que sólo se puedan utilizar líneas simples. Para consultas y comentarios contactar con los desarrolladores de Ncurses.
+¡¡¡ATENCIÓN!!! Si se compila Midnight Commander empleando la biblioteca de pantalla Ncurses, entonces el trazado de líneas está limitado. Es posible que solo se puedan utilizar líneas simples. Para consultas y comentarios contactar con los desarrolladores de Ncurses.
 
 Descripción de parámetros de la sección [Lines]:
 
@@ -1632,56 +1733,35 @@ La mayoría de las opciones de Midnight Commander pueden cambiarse desde los men
 Estas variables se pueden cambiar en nuestro archivo ~/.config/mc/ini:
 
 clear_before_exec
-
         Por defecto Midnight Commander limpia la pantalla antes de ejecutar un comando. Si preferimos ver la salida del comando en la parte inferior de la pantalla, editaremos nuestro archivo ~/mc.ini y cambiaremos el valor del campo clear_before_exec a 0.
 
 confirm_view_dir
-
         Al pulsar F3 en un directorio, normalmente Midnight Commander entra en ese directorio. Si este valor está a 1, entonces el programa nos pedirá confirmación antes de cambiar el directorio si tenemos archivos marcados.
 
 ftpfs_retry_seconds
-
         Este valor es el número de segundos que Midnight Commander esperará antes de intentar volver a conectar con un servidor de ftp que ha denegado el acceso. Si el valor es cero, el programa no reintentará el acceso.
 
-ftpfs_use_passive_connections
-
-        Esta opción está desactivada por defecto. Hace que el código de FTPfs utilice el modo de apertura pasivo para transferir archivos. Esto es usado por aquellos que están detrás de un encaminador con filtrado de paquetes. Esta opción sólo funciona si estamos utilizando un proxy para ftp.
-
 max_dirt_limit
-
         Especifica cuántas actualizaciones de pantalla pueden saltarse al menos en el visor de archivos interno. Normalmente este valor no es significativo, porque el código automáticamente ajusta el número de actualizaciones a saltar de acuerdo al volumen de pulsaciones de teclas recibidas. Empero, en máquinas muy lentas o en terminales con autorepetición de teclado rápida, un valor grande puede hacer que la pantalla se actualice dando saltos.
 
         Parece ser que poniendo max_dirt_limit a 10 produce el mejor comportamiento, y éste es el valor por defecto.
 
-mouse_move_pages
-
-        Controla cuándo el desplazamiento de pantalla realizado con el ratón se realiza por páginas o línea a línea en los paneles.
-
 mouse_move_pages_viewer
-
         Controla cuándo el desplazamiento de pantalla realizado con el ratón se realiza por páginas o línea a línea en el visor de archivos interno.
 
-old_esc_mode
-
-        Por defecto Midnight Commander trata la tecla Esc como prefijo de tecla (old_esc_mode=0), si activamos esta opción (old_esc_mode=1), entonces la tecla Esc actuará como prefijo de tecla durante un segundo, y si no hay pulsaciones, entonces Esc será interpretado como la tecla de cancelación ( Esc Esc ).
-
 only_leading_plus_minus
-
-        Produce un tratamiento especial para '+', '-', '*' en la línea de órdenes (seleccionar, deseleccionar, selección inversa) sólo si la línea de órdenes está vacía. No necesitamos entrecomillar estos caracteres en la línea de órdenes. Pero no podremos cambiar la selección cuando la línea de órdenes no esté vacía.
-
-reverse_files_only
-        Permite invertir la selección sólo sobre los archivos, sin afectar a los directorios seleccionados. Esta variable está activa por defecto. Si se desactiva, la inversión se aplica tanto a archivos como a directorios: se seleccionan los no seleccionados y se liberan los anteriormente seleccionados.
-
-panel_scroll_pages
-
-        Si existe (por defecto), el panel se desplazará media pantalla cuando el cursor alcance el final o el principio del panel, en otro caso se desplazará un archivo cada vez.
+        Produce un tratamiento especial para '+', '-', '*' en la línea de órdenes (seleccionar, deseleccionar, selección inversa) solo si la línea de órdenes está vacía. No necesitamos entrecomillar estos caracteres en la línea de órdenes. Pero no podremos cambiar la selección cuando la línea de órdenes no esté vacía.
 
 show_output_starts_shell
+        Esta variable solo funciona si no se utiliza el soporte de subshell. Cuando utilizamos la combinación Ctrl-o para volver a la pantalla de usuario, si está activada, tendremos un nuevo shell. De otro modo, pulsando cualquier tecla nos devolverá a Midnight Commander.
 
-        Esta variable sólo funciona si no se utiliza el soporte de subshell. Cuando utilizamos la combinación Ctrl-o para volver a la pantalla de usuario, si está activada, tendremos un nuevo shell. De otro modo, pulsando cualquier tecla nos devolverá a Midnight Commander.
+timeformat_recent
+        Cambiar el formato de fecha y hora empleado para fechas dentro de los seis últimos meses. Véase las páginas de manual de strftime o date para la descripción del formato a emplear. Sin esta opción se emplea el formato por defecto.
+
+timeformat_old
+        Cambiar el formato de fecha y hora empleado para fechas más antiguas que seis meses. Véase las páginas de manual de strftime o date para la descripción del formato a emplear. Sin esta opción se emplea el formato por defecto.
 
 torben_fj_mode
-
         Si este modificador existe, entonces las teclas Inicio y Fin funcionarán de manera diferente en los paneles, en lugar de mover la selección al primer o último archivo en los paneles, actuarán como sigue:
 
         La tecla Inicio: Irá a la línea central del panel, si está bajo ella; sino va a la primera línea a menos que ya esté allí, en este caso irá al primer archivo del panel.
@@ -1689,12 +1769,31 @@ Estas variables se pueden cambiar en nuestro archivo ~/.config/mc/ini:
         La tecla Fin tiene un comportamiento similar: Irá a la línea central del panel, si está situada en la mitad superior del panel; si no irá a la línea inferior del panel a menos que ya estemos ahí, en cuyo caso moverá la selección al último nombre de archivo del panel.
 
 use_file_to_guess_type
-
         Si esta variable está activada (por defecto lo está) se recurrirá al comando "file" para reconocer los tipos de archivo referidos en el archivo mc.extExtension File Edit.
 
 xtree_mode
+        Si esta variable está activada (por defecto no) cuando naveguemos por el sistema de archivos en un panel en árbol, se irá actualizando automáticamente el otro panel con los contenidos del directorio seleccionado en cada momento.
 
-        Si esta variable está activada (por defecto no) cuando naveguemos por el sistema de archivos en un panel en árbol, se irá actualizando automáticamente el otro panel con los contenidos del directorio seleccionado en cada momento.[Terminal databases]
+fish_directory_timeout
+        Tiempo de vida por defecto de la caché de directorio. El valor por defecto de 900 segundos.
+
+clipboard_store
+        Ruta de acceso y opciones a una utilidad de portapapeles externa como 'xclip' para cargar texto de un archivo como selección en X-Windows. Por ejemplo:
+
+clipboard_store=xclip -i
+
+clipboard_paste
+        Ruta de acceso y opciones a una utilidad de portapapeles externa como 'xclip' para volcar la selección de X-Windows a la salida estándar. Por ejemplo:
+
+clipboard_pastee=xclip -o
+
+autodetect_codeset
+        Esta opción permite emplear la orden 'enca' para autodetectar el juego de caracteres de los archivos de texto para el visor y el editor interno. La lista de valores posibles se puede obtener con `enca --list languages | cut -d : -f1'. Esta opción tiene que estar dentro de la sección [Misc].
+
+For example:
+
+autodetect_codeset=russian
+[Terminal databases]
 Ajustes del Terminal
 
 Midnight Commander permite hacer ajustes a la base de datos de terminales del sistema sin necesidad de privilegios de superusuario. El programa busca definiciones de teclas en el archivo de inicialización del sistema /usr/share/mc/mc.lib o en el del usuario ~/.config/mc/ini, en la sección "terminal:nuestro-terminal" y si no en "terminal:general". Cada línea comienza con el identificador de la tecla, seguido de un signo de igual y la definición de la tecla. Para representar el carácter de escape se utiliza \e y ^x para el carácter control-x.
@@ -1730,7 +1829,7 @@ El identificador complete representa la secuencia usada para invocar el mecani
 [FILES]
 ARCHIVOS AUXILIARES
 
-Los directorios indicados a continuación pueden variar de una instalación a otra. También se pueden modificar con la variable de entorno MC_DATADIR, que de estar definida se emplearía en vez de /usr/share/mc.
+Los directorios indicados a continuación pueden variar de una instalación a otra. También se pueden modificar con la variable de entorno MC_DATADIR, que de estar definida se emplearía en vez de /usr/share/mc.
 
 /usr/share/mc.hlp
 
@@ -1746,11 +1845,11 @@ Los directorios indicados a continuación pueden variar de una instalación a ot
 
 /usr/share/mc/mc.ini
 
-        Archivo de configuración del sistema para Midnight Commander, sólo si el usuario no dispone de su propio ~/.config/mc/ini.
+        Archivo de configuración del sistema para Midnight Commander, solo si el usuario no dispone de su propio ~/.config/mc/ini.
 
 /usr/share/mc/mc.lib
 
-        Opciones globales de Midnight Commander. Se aplican siempre a todos los usuarios, tengan ~/.config/mc/ini o no. Actualmente sólo se emplea para los ajustes de terminalTerminal databases.
+        Opciones globales de Midnight Commander. Se aplican siempre a todos los usuarios, tengan ~/.config/mc/ini o no. Actualmente solo se emplea para los ajustes de terminalTerminal databases.
 
 ~/.config/mc/ini
 
@@ -1774,7 +1873,9 @@ Los directorios indicados a continuación pueden variar de una instalación a ot
 
 ./.mc.menu
 
-        Menú local definido por el usuario. Si este archivo está presente será usado en lugar del menú de aplicaciones personal o de sistema.[AVAILABILITY]
+        Menú local definido por el usuario. Si este archivo está presente será usado en lugar del menú de aplicaciones personal o de sistema.
+
+To change default home directory of MC, you can use MC_HOME environment variable. The value of MC_HOME must be an absolute path. If MC_HOME is unset or empty, HOME variable is used. If HOME is unset or empty, MC directories are get from GLib library.[AVAILABILITY]
 DISPONIBILIDAD
 
 La última versión de este programa puede encontrarse en ftp://ftp.gnu.org/gnu/mc/.[SEE ALSO]
@@ -1785,7 +1886,7 @@ mcedit(1), sh(1), bash(1), tcsh(1), zsh(1), ed(1), view(1), terminfo(1), gpm(1).
 La página web de Midnight Commander está en:
 	http://www.midnight-commander.org/
 
-La presente documentación recoge información relativa a la versión 4.7.0 (Septiembre de 2009). Esta traducción no está completamente actualizada con la versión original en inglés. Para acceder a información sobre versiones recientes consultar la página de manual en inglés que contiene información más completa y actualizada. Para ver el susodicho manual original ejecutar en la línea de órdenes:
+La presente documentación recoge información relativa a la versión 4.8 (Septiembre de 2012). Esta traducción no está completamente actualizada con la versión original en inglés. Para acceder a información sobre versiones recientes consultar la página de manual en inglés que contiene información más completa y actualizada. Para ver el susodicho manual original ejecutar en la línea de órdenes:
         LANG= LC_ALL= man mc
 [AUTHORS]
 AUTORES
@@ -1800,7 +1901,7 @@ Para informar de problemas con el programa, envíar un mensaje a la dirección: 
 Se debe proporcionar una descripción detallada del problema, la versión del programa (se obtiene con 'mc -V') y el sistema operativo utilizados. Si el programa revienta, sería también útil disponer del estado de la pila.[TRANSLATION]
 TRADUCCIÓN
 
-Francisco Gabriel Aroca, 1998. Reformateado y actualizado por David Martín, 2002-2009.
+Francisco Gabriel Aroca, 1998. Reformateado y actualizado por David Martín, 2002-2012.
 
 Midnight Commander traducido a castellano por David Martín <dmartina@excite.com>.
 
